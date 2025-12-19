@@ -1,70 +1,97 @@
 # trinil-react
 
-React components for the Trinil icon library.
+React 16.8+ icon components from the Trinil library. Tree-shakeable, zero dependencies.
 
 ## Installation
 
-```bash
-npm install trinil-react
+These packages are not yet published to npm. To use during development:
+
+```json
+{
+  "dependencies": {
+    "trinil-react": "file:../trinil/packages/trinil-react"
+  }
+}
 ```
 
-## Usage
+Or after building, import from the local repo:
+
+```bash
+npm install ../../trinil/packages/trinil-react
+```
+
+## Quick Start
 
 ```tsx
-import { ArrowDown, UsersSearch } from 'trinil-react';
+import { ArrowDown, Check, UsersSearch } from 'trinil-react';
 
 export function App() {
   return (
-    <>
-      <ArrowDown size={32} color="blue" />
-      <UsersSearch className="my-icon" />
-    </>
+    <div>
+      <ArrowDown size={24} />
+      <Check size={32} color="green" />
+      <UsersSearch ariaLabel="Search users" />
+    </div>
   );
 }
 ```
 
 ## Props
 
-All icon components accept the following props:
+All icon components accept:
 
 | Prop | Type | Default | Description |
 |------|------|---------|-------------|
-| `size` | `number` | `24` | Width and height in pixels |
-| `color` | `string` | `"currentColor"` | SVG stroke color |
-| `className` | `string` | - | CSS class names |
-| `title` | `string` | - | SVG `<title>` element (accessibility) |
+| `size` | `number` | `24` | Width/height in pixels |
+| `color` | `string` | `"currentColor"` | Stroke color |
+| `className` | `string` | - | CSS classes |
+| `title` | `string` | - | SVG `<title>` (accessibility) |
 | `ariaLabel` | `string` | - | `aria-label` attribute |
 
 ## Styling
 
-Icons are designed to inherit color from CSS:
+Icons inherit color from CSS:
 
 ```tsx
-<div style={{ color: 'red' }}>
-  <ArrowDown /> {/* Will be red */}
+<div style={{ color: 'blue' }}>
+  <ArrowDown /> {/* Renders in blue */}
 </div>
 ```
 
-Or set color directly:
+Or set directly:
 
 ```tsx
-<ArrowDown color="blue" />
+<ArrowDown color="#ff5733" size={40} className="my-icon" />
 ```
 
-## Locked Attributes
+## Design
 
-Stroke width, linecap, linejoin, and other stroke properties are **intentionally locked** and cannot be overridden. This ensures visual consistency across the entire icon set.
+⚠️ **Stroke properties are locked** (stroke-width, stroke-linecap, stroke-linejoin). This ensures visual consistency.
 
-If you need different stroke properties, consider using CSS filters or SVG filters.
+Only `size`, `color`, `className`, `title`, and `ariaLabel` can be customized.
 
 ## Accessibility
 
-Icons are rendered with `role="img"` by default. Provide a meaningful `ariaLabel` or `title` when icons are used without accompanying text:
+Always provide `ariaLabel` or `title` for standalone icons:
 
 ```tsx
-<ArrowDown ariaLabel="Scroll down" />
-<UsersSearch title="Search for users" />
+<button>
+  <ArrowDown ariaLabel="Scroll down" />
+</button>
+
+<ArrowDown title="Download" />
 ```
+
+## All Available Icons
+
+765 icons including:
+- Navigation: ArrowDown, ArrowUp, ChevronLeft, etc.
+- UI: Check, Cross, AlertCircle, etc.
+- Media: Play, Pause, Volume, etc.
+- Social: Heart, Share, etc.
+- And many more...
+
+See the repository for a complete list.
 
 ## License
 

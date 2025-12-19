@@ -11,10 +11,6 @@
     "build": "npm run build --workspaces",
     "build:react": "npm run build -w packages/trinil-react",
     "build:vue": "npm run build -w packages/trinil-vue",
-    "example:react": "npm run dev -w examples/trinil-react-example",
-    "example:vue": "npm run dev -w examples/trinil-vue-example",
-    "test:react": "npm run build -w examples/trinil-react-example",
-    "test:vue": "npm run build -w examples/trinil-vue-example",
     "generate": "node scripts/generate-icons.mjs"
   },
   "devDependencies": {
