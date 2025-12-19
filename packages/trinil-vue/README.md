@@ -1,23 +1,13 @@
 # trinil-vue
 
-Vue 3 icon components from the Trinil library. Tree-shakeable, zero dependencies.
+Vue 3 icon components from the Trinil icon library. Tree-shakeable, zero dependencies, 765 beautifully designed outline icons.
+
+**Now available on npm!** → https://www.npmjs.com/package/trinil-vue
 
 ## Installation
 
-These packages are not yet published to npm. To use during development:
-
-```json
-{
-  "dependencies": {
-    "trinil-vue": "file:../trinil/packages/trinil-vue"
-  }
-}
-```
-
-Or after building, import from the local repo:
-
 ```bash
-npm install ../../trinil/packages/trinil-vue
+npm install trinil-vue
 ```
 
 ## Quick Start

@@ -18,9 +18,24 @@ A standalone, tree-shakeable SVG icon library for React and Vue 3. Built with ~7
 
 ## Quick Start
 
-### Build the Icon Library
+### Install from npm
 
-This repository uses npm workspaces. To build all packages:
+Both packages are now available on npm:
+
+```bash
+# React
+npm install trinil-react
+
+# Vue 3
+npm install trinil-vue
+
+# Or both
+npm install trinil-react trinil-vue
+```
+
+### Development: Build Locally
+
+If you want to build from source:
 
 ```bash
 # Install dependencies for root + all packages
@@ -34,28 +49,6 @@ npm run build
 This produces:
 - `packages/trinil-react/dist/` - React components bundle
 - `packages/trinil-vue/dist/` - Vue 3 components bundle
-
-### Use in a Project
-
-Currently, these packages are not published to npm. To use them:
-
-**Option 1: Local file path (during development)**
-
-```json
-{
-  "dependencies": {
-    "trinil-react": "file:../path/to/trinil/packages/trinil-react",
-    "trinil-vue": "file:../path/to/trinil/packages/trinil-vue"
-  }
-}
-```
-
-**Option 2: Publish to npm (future)**
-
-```bash
-npm publish -w packages/trinil-react
-npm publish -w packages/trinil-vue
-```
 
 ## Usage Examples
 
