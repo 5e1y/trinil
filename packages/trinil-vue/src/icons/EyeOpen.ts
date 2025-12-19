@@ -31,7 +31,7 @@ export const EyeOpen = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path d="M3.363 12.531c4.252 5.843 13.022 5.843 17.274 0a.9.9 0 0 0 0-1.062c-4.252-5.843-13.022-5.843-17.274 0a.9.9 0 0 0 0 1.062Z"/>`,
+          innerHTML: `<path d="M12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z"/>`,
         },
         children,
       );

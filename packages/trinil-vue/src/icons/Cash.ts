@@ -31,7 +31,7 @@ export const Cash = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path d="M3 16.5v-9a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Z"/>`,
+          innerHTML: `<path d="M7 12a.75.75 0 1 0-1.5 0A.75.75 0 0 0 7 12ZM12 9.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM18.5 12a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"/>`,
         },
         children,
       );

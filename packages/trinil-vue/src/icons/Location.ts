@@ -31,7 +31,7 @@ export const Location = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path d="m6.967 15.248 4.958 5.666a.1.1 0 0 0 .15 0l4.958-5.666a7.39 7.39 0 0 0 1.818-5.232l-.026-.524a6.833 6.833 0 0 0-13.65 0l-.026.524a7.39 7.39 0 0 0 1.818 5.232Z"/>`,
+          innerHTML: `<path d="m11.925 20.914-4.958-5.666a7.39 7.39 0 0 1-1.818-5.232l.026-.524a6.833 6.833 0 0 1 13.65 0l.026.524a7.39 7.39 0 0 1-1.818 5.232l-4.958 5.666a.1.1 0 0 1-.15 0ZM12 7a3 3 0 1 1 0 6 3 3 0 0 1 0-6Z" clip-rule="evenodd"/>`,
         },
         children,
       );

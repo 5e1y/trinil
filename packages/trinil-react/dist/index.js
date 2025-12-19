@@ -411,7 +411,7 @@ var Ambulance = React15.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M9.5 17.25a1.75 1.75 0 1 1-3.5 0m3.5 0a1.75 1.75 0 1 0-3.5 0m3.5 0h7m-10.5 0H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v.5a1 1 0 0 0 1 1h1.51a1 1 0 0 1 .79.386l2.99 3.843a1 1 0 0 1 .21.614v3.907a1 1 0 0 1-1 1H20m0 0a1.75 1.75 0 1 1-3.5 0m3.5 0a1.75 1.75 0 1 0-3.5 0M8.1 7.5h2.3a.1.1 0 0 1 .1.1v1.3a.1.1 0 0 0 .1.1h1.3a.1.1 0 0 1 .1.1v2.3a.1.1 0 0 1-.1.1h-1.3a.1.1 0 0 0-.1.1v1.3a.1.1 0 0 1-.1.1H8.1a.1.1 0 0 1-.1-.1v-1.3a.1.1 0 0 0-.1-.1H6.6a.1.1 0 0 1-.1-.1V9.1a.1.1 0 0 1 .1-.1h1.3a.1.1 0 0 0 .1-.1V7.6a.1.1 0 0 1 .1-.1Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M9.5 17.25a1.75 1.75 0 1 1-3.5 0m3.5 0a1.75 1.75 0 1 0-3.5 0m3.5 0h7m-10.5 0H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1.4a.1.1 0 0 0 .1.1h2.41a1 1 0 0 1 .79.386l2.99 3.843a1 1 0 0 1 .21.614v3.907a1 1 0 0 1-1 1H20m0 0a1.75 1.75 0 1 1-3.5 0m3.5 0a1.75 1.75 0 1 0-3.5 0M8.1 7.5h2.3a.1.1 0 0 1 .1.1v1.3a.1.1 0 0 0 .1.1h1.3a.1.1 0 0 1 .1.1v2.3a.1.1 0 0 1-.1.1h-1.3a.1.1 0 0 0-.1.1v1.3a.1.1 0 0 1-.1.1H8.1a.1.1 0 0 1-.1-.1v-1.3a.1.1 0 0 0-.1-.1H6.6a.1.1 0 0 1-.1-.1V9.1a.1.1 0 0 1 .1-.1h1.3a.1.1 0 0 0 .1-.1V7.6a.1.1 0 0 1 .1-.1Z"/>` },
       children: title && /* @__PURE__ */ jsx15("title", { children: title })
     }
   );
@@ -1867,7 +1867,7 @@ var Bandage = React67.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M4.5 13.5a4.243 4.243 0 0 0 6 6l9-9a4.243 4.243 0 0 0-6-6z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M4.5 19.5a4.243 4.243 0 0 0 6 0l9-9a4.243 4.243 0 0 0-6-6l-9 9a4.243 4.243 0 0 0 0 6Zm10.793-9.207-1.586-1.586a1 1 0 0 0-1.415 0l-3.585 3.585a1 1 0 0 0 0 1.415l1.586 1.586a1 1 0 0 0 1.414 0l3.586-3.586a1 1 0 0 0 0-1.414Z" clip-rule="evenodd"/>` },
       children: title && /* @__PURE__ */ jsx67("title", { children: title })
     }
   );
@@ -2910,10 +2910,10 @@ var Bottle = React104.memo((props) => {
 });
 Bottle.displayName = "Bottle";
 
-// src/icons/BoundingBox.tsx
+// src/icons/Boundingbox.tsx
 import React105 from "react";
 import { jsx as jsx105 } from "react/jsx-runtime";
-var BoundingBox = React105.memo((props) => {
+var Boundingbox = React105.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx105(
     "svg",
@@ -2936,7 +2936,7 @@ var BoundingBox = React105.memo((props) => {
     }
   );
 });
-BoundingBox.displayName = "BoundingBox";
+Boundingbox.displayName = "Boundingbox";
 
 // src/icons/Box.tsx
 import React106 from "react";
@@ -3855,7 +3855,7 @@ var Camera = React138.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M20 19H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h2.882c.685 0 1.312-.387 1.618-1s.933-1 1.618-1h3.764c.685 0 1.312.387 1.618 1s.933 1 1.618 1H20a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M20 19H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h2.882c.685 0 1.312-.387 1.618-1s.933-1 1.618-1h3.764c.685 0 1.312.387 1.618 1s.933 1 1.618 1H20a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1Z"/><path d="M16 13a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"/>` },
       children: title && /* @__PURE__ */ jsx138("title", { children: title })
     }
   );
@@ -4023,7 +4023,7 @@ var Capsules = React144.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M5 4v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M5 20V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1Zm5-2H8.5a1 1 0 1 1 0-2H10a1 1 0 1 1 0 2Zm5.5 0H14a1 1 0 1 1 0-2h1.5a1 1 0 1 1 0 2ZM10 13H8.5a1 1 0 1 1 0-2H10a1 1 0 1 1 0 2Zm5.5 0H14a1 1 0 1 1 0-2h1.5a1 1 0 1 1 0 2ZM10 8H8.5a1 1 0 1 1 0-2H10a1 1 0 1 1 0 2Zm5.5 0H14a1 1 0 1 1 0-2h1.5a1 1 0 1 1 0 2Z" clip-rule="evenodd"/>` },
       children: title && /* @__PURE__ */ jsx144("title", { children: title })
     }
   );
@@ -4219,7 +4219,7 @@ var Cash = React151.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M3 16.5v-9a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M7 12a.75.75 0 1 0-1.5 0A.75.75 0 0 0 7 12ZM12 9.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM18.5 12a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"/>` },
       children: title && /* @__PURE__ */ jsx151("title", { children: title })
     }
   );
@@ -5899,7 +5899,7 @@ var Crown = React211.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M3 17v-6.958a.1.1 0 0 1 .03-.071l2.9-2.9a.1.1 0 0 1 .14 0L8.93 9.93a.1.1 0 0 0 .14 0l2.86-2.86a.1.1 0 0 1 .14 0l2.86 2.86a.1.1 0 0 0 .14 0l2.86-2.86a.1.1 0 0 1 .14 0l2.9 2.9a.1.1 0 0 1 .03.072V17a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M12 15.5a1.75 1.75 0 1 1 0-3.5 1.75 1.75 0 0 1 0 3.5Z"/>` },
       children: title && /* @__PURE__ */ jsx211("title", { children: title })
     }
   );
@@ -7579,7 +7579,7 @@ var EyeOpen = React271.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M3.363 12.531c4.252 5.843 13.022 5.843 17.274 0a.9.9 0 0 0 0-1.062c-4.252-5.843-13.022-5.843-17.274 0a.9.9 0 0 0 0 1.062Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z"/>` },
       children: title && /* @__PURE__ */ jsx271("title", { children: title })
     }
   );
@@ -8923,7 +8923,7 @@ var Gear = React319.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="m13.112 4.397-.133-.643c-.219-1.064-1.74-1.064-1.958 0l-.133.643a1 1 0 0 1-1.727.463l-.436-.49c-.722-.813-2.038-.053-1.696.979l.207.623A1 1 0 0 1 5.97 7.236l-.622-.207c-1.032-.342-1.792.974-.98 1.696l.49.437a1 1 0 0 1-.462 1.726l-.643.133c-1.064.219-1.064 1.74 0 1.959l.643.132a1 1 0 0 1 .463 1.727l-.49.436c-.813.722-.053 2.039.979 1.696l.622-.206a1 1 0 0 1 1.265 1.264l-.207.623c-.342 1.03.974 1.791 1.696.979l.436-.49a1 1 0 0 1 1.727.462l.133.643c.219 1.064 1.74 1.064 1.958 0l.133-.643a1 1 0 0 1 1.727-.463l.436.491c.722.812 2.038.052 1.696-.98l-.207-.622a1 1 0 0 1 1.265-1.264l.622.206c1.032.343 1.792-.974.98-1.696l-.49-.436a1 1 0 0 1 .462-1.727l.643-.132c1.064-.22 1.064-1.74 0-1.96l-.643-.132a1 1 0 0 1-.463-1.726l.49-.437c.813-.722.053-2.038-.979-1.696l-.622.207a1 1 0 0 1-1.265-1.264l.207-.623c.342-1.032-.974-1.792-1.696-.98l-.436.49a1 1 0 0 1-1.727-.462Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="m12.98 3.754.132.643a1 1 0 0 0 1.727.463l.436-.49c.722-.813 2.038-.053 1.696.979l-.207.623a1 1 0 0 0 1.265 1.264l.622-.207c1.032-.342 1.792.974.98 1.696l-.49.437a1 1 0 0 0 .462 1.726l.643.133c1.064.219 1.064 1.74 0 1.959l-.643.132a1 1 0 0 0-.463 1.727l.49.436c.813.722.053 2.039-.979 1.696l-.622-.206a1 1 0 0 0-1.265 1.264l.207.623c.342 1.03-.974 1.791-1.696.979l-.436-.49a1 1 0 0 0-1.727.462l-.133.643c-.219 1.064-1.74 1.064-1.958 0l-.133-.643a1 1 0 0 0-1.727-.463l-.436.491c-.722.812-2.038.052-1.696-.98l.207-.622a1 1 0 0 0-1.265-1.264l-.622.206c-1.032.343-1.792-.974-.98-1.696l.49-.436a1 1 0 0 0-.462-1.727l-.643-.132c-1.064-.22-1.064-1.74 0-1.96l.643-.132a1 1 0 0 0 .463-1.726l-.49-.437c-.813-.722-.053-2.038.979-1.696l.622.207a1 1 0 0 0 1.265-1.264l-.207-.623c-.342-1.032.974-1.792 1.696-.98l.436.49a1 1 0 0 0 1.727-.462l.133-.643c.219-1.064 1.74-1.064 1.958 0ZM8 12a4 4 0 1 0 8 0 4 4 0 0 0-8 0Z" clip-rule="evenodd"/>` },
       children: title && /* @__PURE__ */ jsx319("title", { children: title })
     }
   );
@@ -9959,7 +9959,7 @@ var HourglassEnd = React356.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M5 5.324V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v1.324a5 5 0 0 1-2.227 4.16l-1.277.852a2 2 0 0 0 0 3.328l1.277.852A5 5 0 0 1 19 18.676V20a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-1.324a5 5 0 0 1 2.226-4.16l1.278-.852a2 2 0 0 0 0-3.328l-1.277-.852A5 5 0 0 1 5 5.324Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M7.225 19h9.184a.365.365 0 0 0 .364-.365.21.21 0 0 0-.123-.19l-1.265-.556a3.04 3.04 0 0 1-1.383-1.218 1.52 1.52 0 0 0-2.38-.293l-.402.402a3.9 3.9 0 0 1-1.699 1l-2.257.645a.364.364 0 0 0-.264.35c0 .124.1.225.225.225Z"/>` },
       children: title && /* @__PURE__ */ jsx356("title", { children: title })
     }
   );
@@ -9987,7 +9987,7 @@ var HourglassStart = React357.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M5 18.676V20a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1.324a5 5 0 0 0-2.227-4.16l-1.277-.852a2 2 0 0 1 0-3.328l1.277-.852A5 5 0 0 0 19 5.324V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v1.324a5 5 0 0 0 2.226 4.16l1.278.852a2 2 0 0 1 0 3.328l-1.277.852A5 5 0 0 0 5 18.676Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M7.225 6h9.184c.201 0 .364.163.364.365a.21.21 0 0 1-.123.19L15 7.11a3.04 3.04 0 0 0-1.383 1.218c-.509.849-2.295.993-2.995.293l-.402-.402a4 4 0 0 0-.47-.4c-.739-.538-1.638-.81-2.452-1.227q-.034-.016-.07-.03A.36.36 0 0 1 7 6.225C7 6.101 7.1 6 7.225 6Z"/>` },
       children: title && /* @__PURE__ */ jsx357("title", { children: title })
     }
   );
@@ -11667,7 +11667,7 @@ var Location = React417.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="m6.967 15.248 4.958 5.666a.1.1 0 0 0 .15 0l4.958-5.666a7.39 7.39 0 0 0 1.818-5.232l-.026-.524a6.833 6.833 0 0 0-13.65 0l-.026.524a7.39 7.39 0 0 0 1.818 5.232Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="m11.925 20.914-4.958-5.666a7.39 7.39 0 0 1-1.818-5.232l.026-.524a6.833 6.833 0 0 1 13.65 0l.026.524a7.39 7.39 0 0 1-1.818 5.232l-4.958 5.666a.1.1 0 0 1-.15 0ZM12 7a3 3 0 1 1 0 6 3 3 0 0 1 0-6Z" clip-rule="evenodd"/>` },
       children: title && /* @__PURE__ */ jsx417("title", { children: title })
     }
   );
@@ -14327,7 +14327,7 @@ var Pills = React512.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M6 3a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M5 20V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1Zm4.25-4.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Zm5.5 0a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Zm-5.5-4.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM16 12a1.25 1.25 0 1 0-2.5 0 1.25 1.25 0 0 0 2.5 0ZM9.25 6a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Zm5.5 0a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Z" clip-rule="evenodd"/>` },
       children: title && /* @__PURE__ */ jsx512("title", { children: title })
     }
   );
@@ -14894,10 +14894,10 @@ var Pulse = React532.memo((props) => {
 });
 Pulse.displayName = "Pulse";
 
-// src/icons/QrCode.tsx
+// src/icons/PulseCircle.tsx
 import React533 from "react";
 import { jsx as jsx533 } from "react/jsx-runtime";
-var QrCode = React533.memo((props) => {
+var PulseCircle = React533.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx533(
     "svg",
@@ -14915,17 +14915,17 @@ var QrCode = React533.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M20.5 6.5v-2a1 1 0 0 0-1-1h-2m-11 0h-2a1 1 0 0 0-1 1v2m17 11v2a1 1 0 0 1-1 1h-2m-11 0h-2a1 1 0 0 1-1-1v-2m7.5-6h-.9a.1.1 0 0 0-.1.1v.8a.1.1 0 0 1-.1.1H8.1a.1.1 0 0 0-.1.1V15m10-6h-2.9a.1.1 0 0 1-.1-.1V6m3 3V7a1 1 0 0 0-1-1h-2m3 3v3m-3-6h-3.5M6 9V7a1 1 0 0 1 1-1h2M6 9v6m0-6h2m-2 6v2a1 1 0 0 0 1 1h2m-3-3h2m1 3v-2.9a.1.1 0 0 0-.1-.1H8m1 3h2.5M9 6v2.9a.1.1 0 0 1-.1.1H8m1-3h2.5m0 0v2m0 0H13m-1.5 0v1m-.5 5.5v.5m.5 3v-1m0 1h4m0 0H17a1 1 0 0 0 1-1v-2m-2.5 3v-1M13 10.5h.5M18 12v3m0-3h-2.5m2.5 3h-1.5m-1-4v1m0 0v.9a.1.1 0 0 1-.1.1h-2.3a.1.1 0 0 0-.1.1v1.8a.1.1 0 0 0 .1.1h.9M8 9v1"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M7 12.25h1.996a.525.525 0 0 0 .496-.334l1.414-3.806A.17.17 0 0 1 11.07 8c.082 0 .153.054.17.13l1.783 7.742a.17.17 0 0 0 .167.128.17.17 0 0 0 .163-.114l1.163-3.535a.52.52 0 0 1 .502-.351H17m4 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>` },
       children: title && /* @__PURE__ */ jsx533("title", { children: title })
     }
   );
 });
-QrCode.displayName = "QrCode";
+PulseCircle.displayName = "PulseCircle";
 
-// src/icons/Question.tsx
+// src/icons/QrCode.tsx
 import React534 from "react";
 import { jsx as jsx534 } from "react/jsx-runtime";
-var Question = React534.memo((props) => {
+var QrCode = React534.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx534(
     "svg",
@@ -14943,17 +14943,17 @@ var Question = React534.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M9 10.5V10a3 3 0 0 1 3-3h.394a2.606 2.606 0 0 1 1.446 4.774L13.5 12c-.937.625-1.5 1.374-1.5 2.5m0 2v.5m0 4a9 9 0 1 1 0-18 9 9 0 0 1 0 18Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M20.5 6.5v-2a1 1 0 0 0-1-1h-2m-11 0h-2a1 1 0 0 0-1 1v2m17 11v2a1 1 0 0 1-1 1h-2m-11 0h-2a1 1 0 0 1-1-1v-2m7.5-6h-.9a.1.1 0 0 0-.1.1v.8a.1.1 0 0 1-.1.1H8.1a.1.1 0 0 0-.1.1V15m10-6h-2.9a.1.1 0 0 1-.1-.1V6m3 3V7a1 1 0 0 0-1-1h-2m3 3v3m-3-6h-3.5M6 9V7a1 1 0 0 1 1-1h2M6 9v6m0-6h2m-2 6v2a1 1 0 0 0 1 1h2m-3-3h2m1 3v-2.9a.1.1 0 0 0-.1-.1H8m1 3h2.5M9 6v2.9a.1.1 0 0 1-.1.1H8m1-3h2.5m0 0v2m0 0H13m-1.5 0v1m-.5 5.5v.5m.5 3v-1m0 1h4m0 0H17a1 1 0 0 0 1-1v-2m-2.5 3v-1M13 10.5h.5M18 12v3m0-3h-2.5m2.5 3h-1.5m-1-4v1m0 0v.9a.1.1 0 0 1-.1.1h-2.3a.1.1 0 0 0-.1.1v1.8a.1.1 0 0 0 .1.1h.9M8 9v1"/>` },
       children: title && /* @__PURE__ */ jsx534("title", { children: title })
     }
   );
 });
-Question.displayName = "Question";
+QrCode.displayName = "QrCode";
 
-// src/icons/Quote.tsx
+// src/icons/Question.tsx
 import React535 from "react";
 import { jsx as jsx535 } from "react/jsx-runtime";
-var Quote = React535.memo((props) => {
+var Question = React535.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx535(
     "svg",
@@ -14971,17 +14971,17 @@ var Quote = React535.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M10 7c0 9-5.5 13-5.5 13M10 7a3 3 0 1 0-6 0 3 3 0 0 0 6 0Zm10 0c0 9-5.5 13-5.5 13M20 7a3 3 0 1 0-6 0 3 3 0 0 0 6 0Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M9 10.5V10a3 3 0 0 1 3-3h.394a2.606 2.606 0 0 1 1.446 4.774L13.5 12c-.937.625-1.5 1.374-1.5 2.5m0 2v.5m0 4a9 9 0 1 1 0-18 9 9 0 0 1 0 18Z"/>` },
       children: title && /* @__PURE__ */ jsx535("title", { children: title })
     }
   );
 });
-Quote.displayName = "Quote";
+Question.displayName = "Question";
 
-// src/icons/Radar.tsx
+// src/icons/Quote.tsx
 import React536 from "react";
 import { jsx as jsx536 } from "react/jsx-runtime";
-var Radar = React536.memo((props) => {
+var Quote = React536.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx536(
     "svg",
@@ -14999,17 +14999,17 @@ var Radar = React536.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M12 13a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Zm0 0v8m2.5-6.169a5 5 0 1 0-5 0m6.258 2.16a7.5 7.5 0 1 0-7.48.021"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M10 7c0 9-5.5 13-5.5 13M10 7a3 3 0 1 0-6 0 3 3 0 0 0 6 0Zm10 0c0 9-5.5 13-5.5 13M20 7a3 3 0 1 0-6 0 3 3 0 0 0 6 0Z"/>` },
       children: title && /* @__PURE__ */ jsx536("title", { children: title })
     }
   );
 });
-Radar.displayName = "Radar";
+Quote.displayName = "Quote";
 
-// src/icons/Radio.tsx
+// src/icons/Radar.tsx
 import React537 from "react";
 import { jsx as jsx537 } from "react/jsx-runtime";
-var Radio = React537.memo((props) => {
+var Radar = React537.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx537(
     "svg",
@@ -15027,17 +15027,17 @@ var Radio = React537.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M12 12a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Zm0 0v9.5m2.5-7.669a5 5 0 0 0 2.5-4.33 5 5 0 0 0-2.5-4.332m-5 8.662A5 5 0 0 1 7 9.501a5 5 0 0 1 2.5-4.332m6.258-2.16A7.5 7.5 0 0 1 19.5 9.5a7.5 7.5 0 0 1-3.742 6.492m-7.516 0A7.5 7.5 0 0 1 4.5 9.5a7.5 7.5 0 0 1 3.742-6.492"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M12 13a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Zm0 0v8m2.5-6.169a5 5 0 1 0-5 0m6.258 2.16a7.5 7.5 0 1 0-7.48.021"/>` },
       children: title && /* @__PURE__ */ jsx537("title", { children: title })
     }
   );
 });
-Radio.displayName = "Radio";
+Radar.displayName = "Radar";
 
-// src/icons/RadioAlt.tsx
+// src/icons/Radio.tsx
 import React538 from "react";
 import { jsx as jsx538 } from "react/jsx-runtime";
-var RadioAlt = React538.memo((props) => {
+var Radio = React538.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx538(
     "svg",
@@ -15055,17 +15055,17 @@ var RadioAlt = React538.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M16.5 8.5H4a1 1 0 0 0-1 1V18a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V9.5a1 1 0 0 0-1-1zm0 0 4-4m-4 4-4-4m1.5 11h3.5m0 0h1m-1 0V14m0 1.5V17m-6-3.25a3.25 3.25 0 1 0-6.5 0 3.25 3.25 0 0 0 6.5 0Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M12 12a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Zm0 0v9.5m2.5-7.669a5 5 0 0 0 2.5-4.33 5 5 0 0 0-2.5-4.332m-5 8.662A5 5 0 0 1 7 9.501a5 5 0 0 1 2.5-4.332m6.258-2.16A7.5 7.5 0 0 1 19.5 9.5a7.5 7.5 0 0 1-3.742 6.492m-7.516 0A7.5 7.5 0 0 1 4.5 9.5a7.5 7.5 0 0 1 3.742-6.492"/>` },
       children: title && /* @__PURE__ */ jsx538("title", { children: title })
     }
   );
 });
-RadioAlt.displayName = "RadioAlt";
+Radio.displayName = "Radio";
 
-// src/icons/Radioactive.tsx
+// src/icons/RadioAlt.tsx
 import React539 from "react";
 import { jsx as jsx539 } from "react/jsx-runtime";
-var Radioactive = React539.memo((props) => {
+var RadioAlt = React539.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx539(
     "svg",
@@ -15083,17 +15083,17 @@ var Radioactive = React539.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M16 18.428c.276.478.114 1.096-.392 1.317a9 9 0 0 1-7.216 0c-.506-.221-.668-.839-.392-1.317l1.5-2.598c.276-.479.888-.628 1.42-.478a4 4 0 0 0 2.16 0c.531-.15 1.143 0 1.42.478zM9.5 7.171c.276.478.101 1.082-.294 1.468a4 4 0 0 0-1.083 1.871c-.136.536-.57.99-1.123.99H4c-.552 0-1.006-.449-.944-.998a9 9 0 0 1 3.607-6.249c.445-.327 1.06-.16 1.337.32zM16 4.572c.276-.478.892-.646 1.336-.319a9 9 0 0 1 3.609 6.25c.06.548-.393.997-.945.997h-3c-.552 0-.987-.454-1.124-.99a4 4 0 0 0-1.083-1.871c-.395-.386-.57-.99-.294-1.468zM10.5 11.5a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M16.5 8.5H4a1 1 0 0 0-1 1V18a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V9.5a1 1 0 0 0-1-1zm0 0 4-4m-4 4-4-4m1.5 11h3.5m0 0h1m-1 0V14m0 1.5V17m-6-3.25a3.25 3.25 0 1 0-6.5 0 3.25 3.25 0 0 0 6.5 0Z"/>` },
       children: title && /* @__PURE__ */ jsx539("title", { children: title })
     }
   );
 });
-Radioactive.displayName = "Radioactive";
+RadioAlt.displayName = "RadioAlt";
 
-// src/icons/Ram.tsx
+// src/icons/Radioactive.tsx
 import React540 from "react";
 import { jsx as jsx540 } from "react/jsx-runtime";
-var Ram = React540.memo((props) => {
+var Radioactive = React540.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx540(
     "svg",
@@ -15111,17 +15111,17 @@ var Ram = React540.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M4 14v1.9a.1.1 0 0 0 .1.1h5.8a.1.1 0 0 0 .1-.1V14m-6 0h6m-6 0a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1m-10 0h2m8 0v1.9a.1.1 0 0 1-.1.1h-7.8a.1.1 0 0 1-.1-.1V14m8 0h-8"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M16 18.428c.276.478.114 1.096-.392 1.317a9 9 0 0 1-7.216 0c-.506-.221-.668-.839-.392-1.317l1.5-2.598c.276-.479.888-.628 1.42-.478a4 4 0 0 0 2.16 0c.531-.15 1.143 0 1.42.478zM9.5 7.171c.276.478.101 1.082-.294 1.468a4 4 0 0 0-1.083 1.871c-.136.536-.57.99-1.123.99H4c-.552 0-1.006-.449-.944-.998a9 9 0 0 1 3.607-6.249c.445-.327 1.06-.16 1.337.32zM16 4.572c.276-.478.892-.646 1.336-.319a9 9 0 0 1 3.609 6.25c.06.548-.393.997-.945.997h-3c-.552 0-.987-.454-1.124-.99a4 4 0 0 0-1.083-1.871c-.395-.386-.57-.99-.294-1.468zM10.5 11.5a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0Z"/>` },
       children: title && /* @__PURE__ */ jsx540("title", { children: title })
     }
   );
 });
-Ram.displayName = "Ram";
+Radioactive.displayName = "Radioactive";
 
-// src/icons/RamStrips.tsx
+// src/icons/Ram.tsx
 import React541 from "react";
 import { jsx as jsx541 } from "react/jsx-runtime";
-var RamStrips = React541.memo((props) => {
+var Ram = React541.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx541(
     "svg",
@@ -15139,17 +15139,17 @@ var RamStrips = React541.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M3.5 15.5v1.9a.1.1 0 0 0 .1.1h4.3a.1.1 0 0 0 .1-.1v-1.9m-4.5 0H8m-4.5 0A.5.5 0 0 1 3 15v-3.5a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1V15a.5.5 0 0 1-.5.5m0 0v1.9a.1.1 0 0 1-.1.1h-6.3a.1.1 0 0 1-.1-.1v-1.9m6.5 0H10m0 0H8M19.5 14h.65a.1.1 0 0 0 .1-.1v-1.525c0-.207.168-.375.375-.375a.375.375 0 0 0 .375-.375V8a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M4 14v1.9a.1.1 0 0 0 .1.1h5.8a.1.1 0 0 0 .1-.1V14m-6 0h6m-6 0a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1m-10 0h2m8 0v1.9a.1.1 0 0 1-.1.1h-7.8a.1.1 0 0 1-.1-.1V14m8 0h-8"/>` },
       children: title && /* @__PURE__ */ jsx541("title", { children: title })
     }
   );
 });
-RamStrips.displayName = "RamStrips";
+Ram.displayName = "Ram";
 
-// src/icons/Receipt.tsx
+// src/icons/RamStrips.tsx
 import React542 from "react";
 import { jsx as jsx542 } from "react/jsx-runtime";
-var Receipt = React542.memo((props) => {
+var RamStrips = React542.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx542(
     "svg",
@@ -15167,17 +15167,17 @@ var Receipt = React542.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M8.5 7h4m3 0h-1m-6 3h4m3 0h-1m-6 3h4m3 0h-1M6 3.139V20.86a.1.1 0 0 0 .132.095l1.336-.445a.1.1 0 0 1 .064 0l1.436.478a.1.1 0 0 0 .064 0l1.436-.479a.1.1 0 0 1 .064 0l1.436.48a.1.1 0 0 0 .064 0l1.436-.48a.1.1 0 0 1 .064 0l1.436.48a.1.1 0 0 0 .064 0l1.436-.48a.1.1 0 0 1 .064 0l1.336.446a.1.1 0 0 0 .132-.095V3.14a.1.1 0 0 0-.132-.095l-1.336.445a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.336-.445A.1.1 0 0 0 6 3.139Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M3.5 15.5v1.9a.1.1 0 0 0 .1.1h4.3a.1.1 0 0 0 .1-.1v-1.9m-4.5 0H8m-4.5 0A.5.5 0 0 1 3 15v-3.5a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1V15a.5.5 0 0 1-.5.5m0 0v1.9a.1.1 0 0 1-.1.1h-6.3a.1.1 0 0 1-.1-.1v-1.9m6.5 0H10m0 0H8M19.5 14h.65a.1.1 0 0 0 .1-.1v-1.525c0-.207.168-.375.375-.375a.375.375 0 0 0 .375-.375V8a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1"/>` },
       children: title && /* @__PURE__ */ jsx542("title", { children: title })
     }
   );
 });
-Receipt.displayName = "Receipt";
+RamStrips.displayName = "RamStrips";
 
-// src/icons/ReceiptCheck.tsx
+// src/icons/Receipt.tsx
 import React543 from "react";
 import { jsx as jsx543 } from "react/jsx-runtime";
-var ReceiptCheck = React543.memo((props) => {
+var Receipt = React543.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx543(
     "svg",
@@ -15195,17 +15195,17 @@ var ReceiptCheck = React543.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M8.5 7h4m3 0h-1m-6 3h4m3 0h-1m-6 3h4m3 0h-1m3.5 0a5 5 0 0 0-4.29 7.57M18 13a5 5 0 1 1-4.29 7.57M18 13V3.139a.1.1 0 0 0-.132-.095l-1.336.445a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.336-.445A.1.1 0 0 0 6 3.139V20.86a.1.1 0 0 0 .132.095l1.336-.445a.1.1 0 0 1 .064 0l1.436.478a.1.1 0 0 0 .064 0l1.436-.479a.1.1 0 0 1 .064 0l1.436.48a.1.1 0 0 0 .064 0l1.436-.48a.1.1 0 0 1 .064 0l.178.06M16 18l1.43 1.43a.1.1 0 0 0 .14 0L20 17"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M8.5 7h4m3 0h-1m-6 3h4m3 0h-1m-6 3h4m3 0h-1M6 3.139V20.86a.1.1 0 0 0 .132.095l1.336-.445a.1.1 0 0 1 .064 0l1.436.478a.1.1 0 0 0 .064 0l1.436-.479a.1.1 0 0 1 .064 0l1.436.48a.1.1 0 0 0 .064 0l1.436-.48a.1.1 0 0 1 .064 0l1.436.48a.1.1 0 0 0 .064 0l1.436-.48a.1.1 0 0 1 .064 0l1.336.446a.1.1 0 0 0 .132-.095V3.14a.1.1 0 0 0-.132-.095l-1.336.445a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.336-.445A.1.1 0 0 0 6 3.139Z"/>` },
       children: title && /* @__PURE__ */ jsx543("title", { children: title })
     }
   );
 });
-ReceiptCheck.displayName = "ReceiptCheck";
+Receipt.displayName = "Receipt";
 
-// src/icons/Record.tsx
+// src/icons/ReceiptCheck.tsx
 import React544 from "react";
 import { jsx as jsx544 } from "react/jsx-runtime";
-var Record = React544.memo((props) => {
+var ReceiptCheck = React544.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx544(
     "svg",
@@ -15223,17 +15223,17 @@ var Record = React544.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M6.5 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 0h11m0 0a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M8.5 7h4m3 0h-1m-6 3h4m3 0h-1m-6 3h4m3 0h-1m3.5 0a5 5 0 0 0-4.29 7.57M18 13a5 5 0 1 1-4.29 7.57M18 13V3.139a.1.1 0 0 0-.132-.095l-1.336.445a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.336-.445A.1.1 0 0 0 6 3.139V20.86a.1.1 0 0 0 .132.095l1.336-.445a.1.1 0 0 1 .064 0l1.436.478a.1.1 0 0 0 .064 0l1.436-.479a.1.1 0 0 1 .064 0l1.436.48a.1.1 0 0 0 .064 0l1.436-.48a.1.1 0 0 1 .064 0l.178.06M16 18l1.43 1.43a.1.1 0 0 0 .14 0L20 17"/>` },
       children: title && /* @__PURE__ */ jsx544("title", { children: title })
     }
   );
 });
-Record.displayName = "Record";
+ReceiptCheck.displayName = "ReceiptCheck";
 
-// src/icons/RectangleHorizontal.tsx
+// src/icons/Record.tsx
 import React545 from "react";
 import { jsx as jsx545 } from "react/jsx-runtime";
-var RectangleHorizontal = React545.memo((props) => {
+var Record = React545.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx545(
     "svg",
@@ -15251,17 +15251,17 @@ var RectangleHorizontal = React545.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M20 5.5H4a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-11a1 1 0 0 0-1-1Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M6.5 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 0h11m0 0a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z"/>` },
       children: title && /* @__PURE__ */ jsx545("title", { children: title })
     }
   );
 });
-RectangleHorizontal.displayName = "RectangleHorizontal";
+Record.displayName = "Record";
 
-// src/icons/RectangleVertical.tsx
+// src/icons/RectangleHorizontal.tsx
 import React546 from "react";
 import { jsx as jsx546 } from "react/jsx-runtime";
-var RectangleVertical = React546.memo((props) => {
+var RectangleHorizontal = React546.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx546(
     "svg",
@@ -15279,17 +15279,17 @@ var RectangleVertical = React546.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M18.5 20V4a1 1 0 0 0-1-1h-11a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M20 5.5H4a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-11a1 1 0 0 0-1-1Z"/>` },
       children: title && /* @__PURE__ */ jsx546("title", { children: title })
     }
   );
 });
-RectangleVertical.displayName = "RectangleVertical";
+RectangleHorizontal.displayName = "RectangleHorizontal";
 
-// src/icons/Recycle.tsx
+// src/icons/RectangleVertical.tsx
 import React547 from "react";
 import { jsx as jsx547 } from "react/jsx-runtime";
-var Recycle = React547.memo((props) => {
+var RectangleVertical = React547.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx547(
     "svg",
@@ -15307,17 +15307,17 @@ var Recycle = React547.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M7 18H4.766a1 1 0 0 1-.857-1.514l4.716-7.86m0 0-3.978.994m3.978-.995.994 3.978m8.006-.228.994-3.977m-.994 3.977-3.977-.994m3.977.994L12.857 4.43a1 1 0 0 0-1.715 0L10.2 6l-.2.333M9.75 18h9.484a1 1 0 0 0 .857-1.514l-.966-1.61M9.75 18l2.983 2.983M9.75 18l2.983-2.983"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M18.5 20V4a1 1 0 0 0-1-1h-11a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1Z"/>` },
       children: title && /* @__PURE__ */ jsx547("title", { children: title })
     }
   );
 });
-Recycle.displayName = "Recycle";
+RectangleVertical.displayName = "RectangleVertical";
 
-// src/icons/Refresh.tsx
+// src/icons/Recycle.tsx
 import React548 from "react";
 import { jsx as jsx548 } from "react/jsx-runtime";
-var Refresh = React548.memo((props) => {
+var Recycle = React548.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx548(
     "svg",
@@ -15335,17 +15335,17 @@ var Refresh = React548.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M7.23 18.423A8 8 0 1 1 12 20m-4.77-1.577L3 18.5m4.23-.077V14"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M7 18H4.766a1 1 0 0 1-.857-1.514l4.716-7.86m0 0-3.978.994m3.978-.995.994 3.978m8.006-.228.994-3.977m-.994 3.977-3.977-.994m3.977.994L12.857 4.43a1 1 0 0 0-1.715 0L10.2 6l-.2.333M9.75 18h9.484a1 1 0 0 0 .857-1.514l-.966-1.61M9.75 18l2.983 2.983M9.75 18l2.983-2.983"/>` },
       children: title && /* @__PURE__ */ jsx548("title", { children: title })
     }
   );
 });
-Refresh.displayName = "Refresh";
+Recycle.displayName = "Recycle";
 
-// src/icons/Reload.tsx
+// src/icons/Refresh.tsx
 import React549 from "react";
 import { jsx as jsx549 } from "react/jsx-runtime";
-var Reload = React549.memo((props) => {
+var Refresh = React549.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx549(
     "svg",
@@ -15363,17 +15363,17 @@ var Reload = React549.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M16.77 18.423A8 8 0 1 0 12 20m4.77-1.577L21 18.5m-4.23-.077V14"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M7.23 18.423A8 8 0 1 1 12 20m-4.77-1.577L3 18.5m4.23-.077V14"/>` },
       children: title && /* @__PURE__ */ jsx549("title", { children: title })
     }
   );
 });
-Reload.displayName = "Reload";
+Refresh.displayName = "Refresh";
 
-// src/icons/Render.tsx
+// src/icons/Reload.tsx
 import React550 from "react";
 import { jsx as jsx550 } from "react/jsx-runtime";
-var Render = React550.memo((props) => {
+var Reload = React550.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx550(
     "svg",
@@ -15391,17 +15391,17 @@ var Render = React550.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M12 11 7.509 9.004M12 11l4.491-1.996M12 11v4.995m8.982-8.987a.1.1 0 0 0-.041-.035l-4.45-1.977m4.491 2.012a.1.1 0 0 1 .018.057V12m-.018-4.992-4.49 1.996M3.017 7.008a.1.1 0 0 1 .041-.035l4.45-1.977 4.45-1.978a.1.1 0 0 1 .082 0l4.45 1.978M3.018 7.008A.1.1 0 0 0 3 7.065v9.87a.1.1 0 0 0 .06.091l4.45 1.978M3.017 7.008l4.49 1.996M12 20.99a.1.1 0 0 1-.04-.008l-4.45-1.978M12 20.99a.1.1 0 0 0 .04-.008l4.45-1.978M12 20.99v-4.995m4.49-11L12 7M7.509 9.004 11.999 7M7.51 9.004v5m0 5v-5M12 7l4.492 2.004m0 0v5m0 5 4.45-1.978a.1.1 0 0 0 .059-.091V12m-4.51 7.004v-5M12 15.995l-4.49-1.991M12 15.995l4.49-1.991m0 0L21 12"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M16.77 18.423A8 8 0 1 0 12 20m4.77-1.577L21 18.5m-4.23-.077V14"/>` },
       children: title && /* @__PURE__ */ jsx550("title", { children: title })
     }
   );
 });
-Render.displayName = "Render";
+Reload.displayName = "Reload";
 
-// src/icons/RenderPreview.tsx
+// src/icons/Render.tsx
 import React551 from "react";
 import { jsx as jsx551 } from "react/jsx-runtime";
-var RenderPreview = React551.memo((props) => {
+var Render = React551.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx551(
     "svg",
@@ -15419,17 +15419,17 @@ var RenderPreview = React551.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M20.982 7.008a.1.1 0 0 0-.041-.035l-4.45-1.977m4.491 2.012a.1.1 0 0 1 .018.057V12m-.018-4.992-4.49 1.996M3.017 7.008a.1.1 0 0 1 .041-.035l8.9-3.955a.1.1 0 0 1 .082 0l4.45 1.978M3.018 7.008A.1.1 0 0 0 3 7.065v9.87a.1.1 0 0 0 .06.091l4.45 1.978M3.017 7.008l4.49 1.996M12 20.99a.1.1 0 0 1-.04-.008l-4.45-1.978M12 20.99a.1.1 0 0 0 .04-.008l1.522-.676M12 20.99v-4.995m4.49-11L12 7m0 4L7.509 9.004M12 11l4.491-1.996M12 11v4.995M7.509 9.004 11.999 7M7.51 9.004v5m0 5v-5M12 7l4.492 2.004m0 0v4.228M12 15.995l-4.49-1.991M12 15.995l1.885-.835M21 12l-2.346 1.042M21 12v2m-2.086 4.914a2 2 0 1 1-2.828-2.828 2 2 0 0 1 2.828 2.828Zm0 0L20 20m-1.346-6.958a5.05 5.05 0 0 0-2.163.19m2.163-.19A5 5 0 0 1 21 14m0 0a5 5 0 1 1-7.438 6.306m.323-5.147A4.98 4.98 0 0 0 13 18c0 .832.203 1.616.562 2.306m.323-5.147a5 5 0 0 1 2.606-1.927"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M12 11 7.509 9.004M12 11l4.491-1.996M12 11v4.995m8.982-8.987a.1.1 0 0 0-.041-.035l-4.45-1.977m4.491 2.012a.1.1 0 0 1 .018.057V12m-.018-4.992-4.49 1.996M3.017 7.008a.1.1 0 0 1 .041-.035l4.45-1.977 4.45-1.978a.1.1 0 0 1 .082 0l4.45 1.978M3.018 7.008A.1.1 0 0 0 3 7.065v9.87a.1.1 0 0 0 .06.091l4.45 1.978M3.017 7.008l4.49 1.996M12 20.99a.1.1 0 0 1-.04-.008l-4.45-1.978M12 20.99a.1.1 0 0 0 .04-.008l4.45-1.978M12 20.99v-4.995m4.49-11L12 7M7.509 9.004 11.999 7M7.51 9.004v5m0 5v-5M12 7l4.492 2.004m0 0v5m0 5 4.45-1.978a.1.1 0 0 0 .059-.091V12m-4.51 7.004v-5M12 15.995l-4.49-1.991M12 15.995l4.49-1.991m0 0L21 12"/>` },
       children: title && /* @__PURE__ */ jsx551("title", { children: title })
     }
   );
 });
-RenderPreview.displayName = "RenderPreview";
+Render.displayName = "Render";
 
-// src/icons/RenderRegion.tsx
+// src/icons/RenderPreview.tsx
 import React552 from "react";
 import { jsx as jsx552 } from "react/jsx-runtime";
-var RenderRegion = React552.memo((props) => {
+var RenderPreview = React552.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx552(
     "svg",
@@ -15447,17 +15447,17 @@ var RenderRegion = React552.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M18.5 9.5V16m0-6.5-6.47-1.99a.1.1 0 0 0-.06 0L5.5 9.5m13 0-6.5 2m-6.5-2V16m0-6.5 6.5 2m0 0V16m0 0v1.125M12 16h6.5M12 16H5.5m13 0h2.4a.1.1 0 0 0 .1-.1V4.6a.1.1 0 0 0-.1-.1H3.1a.1.1 0 0 0-.1.1v11.3a.1.1 0 0 0 .1.1h2.4m.813 2.75-.742-.228a.1.1 0 0 1-.071-.096v-.488m5.688 2.312.783.241q.015.004.029.004m.813-.245-.784.241a.1.1 0 0 1-.029.004m5.688-1.745.741-.228a.1.1 0 0 0 .071-.096v-.488M8.14 19.313l1.22.375m5.28 0 1.22-.375m-3.86.062v1.12"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M20.982 7.008a.1.1 0 0 0-.041-.035l-4.45-1.977m4.491 2.012a.1.1 0 0 1 .018.057V12m-.018-4.992-4.49 1.996M3.017 7.008a.1.1 0 0 1 .041-.035l8.9-3.955a.1.1 0 0 1 .082 0l4.45 1.978M3.018 7.008A.1.1 0 0 0 3 7.065v9.87a.1.1 0 0 0 .06.091l4.45 1.978M3.017 7.008l4.49 1.996M12 20.99a.1.1 0 0 1-.04-.008l-4.45-1.978M12 20.99a.1.1 0 0 0 .04-.008l1.522-.676M12 20.99v-4.995m4.49-11L12 7m0 4L7.509 9.004M12 11l4.491-1.996M12 11v4.995M7.509 9.004 11.999 7M7.51 9.004v5m0 5v-5M12 7l4.492 2.004m0 0v4.228M12 15.995l-4.49-1.991M12 15.995l1.885-.835M21 12l-2.346 1.042M21 12v2m-2.086 4.914a2 2 0 1 1-2.828-2.828 2 2 0 0 1 2.828 2.828Zm0 0L20 20m-1.346-6.958a5.05 5.05 0 0 0-2.163.19m2.163-.19A5 5 0 0 1 21 14m0 0a5 5 0 1 1-7.438 6.306m.323-5.147A4.98 4.98 0 0 0 13 18c0 .832.203 1.616.562 2.306m.323-5.147a5 5 0 0 1 2.606-1.927"/>` },
       children: title && /* @__PURE__ */ jsx552("title", { children: title })
     }
   );
 });
-RenderRegion.displayName = "RenderRegion";
+RenderPreview.displayName = "RenderPreview";
 
-// src/icons/Reply.tsx
+// src/icons/RenderRegion.tsx
 import React553 from "react";
 import { jsx as jsx553 } from "react/jsx-runtime";
-var Reply = React553.memo((props) => {
+var RenderRegion = React553.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx553(
     "svg",
@@ -15475,17 +15475,17 @@ var Reply = React553.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M16 13a3 3 0 0 0-3-3H8m0 0 2.5-2.5M8 10l2.5 2.5M9 4.5h6a6 6 0 0 1 2.651 11.384c-.38.188-.652.559-.588.978.09.59.307 1.432.837 2.031.062.07.1.16.1.253a.34.34 0 0 1-.354.346c-2.565-.118-3.805-1.506-4.325-2.35-.226-.366-.611-.642-1.042-.642H9a6 6 0 0 1 0-12Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M18.5 9.5V16m0-6.5-6.47-1.99a.1.1 0 0 0-.06 0L5.5 9.5m13 0-6.5 2m-6.5-2V16m0-6.5 6.5 2m0 0V16m0 0v1.125M12 16h6.5M12 16H5.5m13 0h2.4a.1.1 0 0 0 .1-.1V4.6a.1.1 0 0 0-.1-.1H3.1a.1.1 0 0 0-.1.1v11.3a.1.1 0 0 0 .1.1h2.4m.813 2.75-.742-.228a.1.1 0 0 1-.071-.096v-.488m5.688 2.312.783.241q.015.004.029.004m.813-.245-.784.241a.1.1 0 0 1-.029.004m5.688-1.745.741-.228a.1.1 0 0 0 .071-.096v-.488M8.14 19.313l1.22.375m5.28 0 1.22-.375m-3.86.062v1.12"/>` },
       children: title && /* @__PURE__ */ jsx553("title", { children: title })
     }
   );
 });
-Reply.displayName = "Reply";
+RenderRegion.displayName = "RenderRegion";
 
-// src/icons/Restart.tsx
+// src/icons/Reply.tsx
 import React554 from "react";
 import { jsx as jsx554 } from "react/jsx-runtime";
-var Restart = React554.memo((props) => {
+var Reply = React554.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx554(
     "svg",
@@ -15503,17 +15503,17 @@ var Restart = React554.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M15 5.582A8.003 8.003 0 0 1 12 21 8 8 0 0 1 9 5.582m6 0 .5 3.918M15 5.582 19 5m-7-2.5V12"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M16 13a3 3 0 0 0-3-3H8m0 0 2.5-2.5M8 10l2.5 2.5M9 4.5h6a6 6 0 0 1 2.651 11.384c-.38.188-.652.559-.588.978.09.59.307 1.432.837 2.031.062.07.1.16.1.253a.34.34 0 0 1-.354.346c-2.565-.118-3.805-1.506-4.325-2.35-.226-.366-.611-.642-1.042-.642H9a6 6 0 0 1 0-12Z"/>` },
       children: title && /* @__PURE__ */ jsx554("title", { children: title })
     }
   );
 });
-Restart.displayName = "Restart";
+Reply.displayName = "Reply";
 
-// src/icons/Resurect.tsx
+// src/icons/Restart.tsx
 import React555 from "react";
 import { jsx as jsx555 } from "react/jsx-runtime";
-var Resurect = React555.memo((props) => {
+var Restart = React555.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx555(
     "svg",
@@ -15531,12 +15531,12 @@ var Resurect = React555.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M7 12.25h1.996a.525.525 0 0 0 .496-.334l1.414-3.806A.17.17 0 0 1 11.07 8c.082 0 .153.054.17.13l1.783 7.742a.17.17 0 0 0 .167.128.17.17 0 0 0 .163-.114l1.163-3.535a.52.52 0 0 1 .502-.351H17m4 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M15 5.582A8.003 8.003 0 0 1 12 21 8 8 0 0 1 9 5.582m6 0 .5 3.918M15 5.582 19 5m-7-2.5V12"/>` },
       children: title && /* @__PURE__ */ jsx555("title", { children: title })
     }
   );
 });
-Resurect.displayName = "Resurect";
+Restart.displayName = "Restart";
 
 // src/icons/RigidBody.tsx
 import React556 from "react";
@@ -16294,10 +16294,10 @@ var Shader = React582.memo((props) => {
 });
 Shader.displayName = "Shader";
 
-// src/icons/Shadow.tsx
+// src/icons/ShadowHard.tsx
 import React583 from "react";
 import { jsx as jsx583 } from "react/jsx-runtime";
-var Shadow = React583.memo((props) => {
+var ShadowHard = React583.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx583(
     "svg",
@@ -16320,12 +16320,12 @@ var Shadow = React583.memo((props) => {
     }
   );
 });
-Shadow.displayName = "Shadow";
+ShadowHard.displayName = "ShadowHard";
 
-// src/icons/Share.tsx
+// src/icons/ShadowSoft.tsx
 import React584 from "react";
 import { jsx as jsx584 } from "react/jsx-runtime";
-var Share = React584.memo((props) => {
+var ShadowSoft = React584.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx584(
     "svg",
@@ -16343,17 +16343,17 @@ var Share = React584.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M9.146 5a.35.35 0 0 0-.25.104l-5.189 5.189a1 1 0 0 0 0 1.414l5.19 5.19a.353.353 0 0 0 .603-.25V15a1 1 0 0 1 1-1h1.377a9 9 0 0 1 7.204 3.605l1.319 1.761a.333.333 0 0 0 .6-.2V17a9 9 0 0 0-9-9h-1.5a1 1 0 0 1-1-1V5.354A.354.354 0 0 0 9.146 5Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="m14.914 15.086-5.581 5.581m8.927-4.927L13 21m7.749-3.749-3.223 3.223m-11.188-.812 2.724-2.724m0 0q.46.061.938.062c1.867 0 3.563-.73 4.818-1.922a7 7 0 1 0-5.756 1.86Z"/>` },
       children: title && /* @__PURE__ */ jsx584("title", { children: title })
     }
   );
 });
-Share.displayName = "Share";
+ShadowSoft.displayName = "ShadowSoft";
 
-// src/icons/SheetsDrying.tsx
+// src/icons/Share.tsx
 import React585 from "react";
 import { jsx as jsx585 } from "react/jsx-runtime";
-var SheetsDrying = React585.memo((props) => {
+var Share = React585.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx585(
     "svg",
@@ -16371,17 +16371,17 @@ var SheetsDrying = React585.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M2.5 5C4 6 7.2 7.5 12 7.5S20 6 21.5 5M19 3.5l-1.5 4.282m0 0V9.5m0-1.718C18.64 7.507 20 8 20 9v8.882a.93.93 0 0 1-.562.873C18.175 19.28 15.737 20 12 20s-6.175-.721-7.438-1.245A.93.93 0 0 1 4 17.882V9c0-1 1.36-1.493 2.5-1.218m11 0C16.5 8 15.5 8.5 14 10m3.5-2.218L16 3.5M14 10c-1.5 1.5-3.5 2.5-6 2.5m6-2.5c-3.6 0-6.5-1.977-7.5-2.218M5 3.5l1.5 4.282m0 0V9.5m0-1.718L8 3.5"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M9.146 5a.35.35 0 0 0-.25.104l-5.189 5.189a1 1 0 0 0 0 1.414l5.19 5.19a.353.353 0 0 0 .603-.25V15a1 1 0 0 1 1-1h1.377a9 9 0 0 1 7.204 3.605l1.319 1.761a.333.333 0 0 0 .6-.2V17a9 9 0 0 0-9-9h-1.5a1 1 0 0 1-1-1V5.354A.354.354 0 0 0 9.146 5Z"/>` },
       children: title && /* @__PURE__ */ jsx585("title", { children: title })
     }
   );
 });
-SheetsDrying.displayName = "SheetsDrying";
+Share.displayName = "Share";
 
-// src/icons/Shield.tsx
+// src/icons/SheetsDrying.tsx
 import React586 from "react";
 import { jsx as jsx586 } from "react/jsx-runtime";
-var Shield = React586.memo((props) => {
+var SheetsDrying = React586.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx586(
     "svg",
@@ -16399,17 +16399,17 @@ var Shield = React586.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M19 4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v8.065a9 9 0 0 0 5.455 8.273l1.151.493a1 1 0 0 0 .788 0l1.151-.493A9 9 0 0 0 19 12.065z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M2.5 5C4 6 7.2 7.5 12 7.5S20 6 21.5 5M19 3.5l-1.5 4.282m0 0V9.5m0-1.718C18.64 7.507 20 8 20 9v8.882a.93.93 0 0 1-.562.873C18.175 19.28 15.737 20 12 20s-6.175-.721-7.438-1.245A.93.93 0 0 1 4 17.882V9c0-1 1.36-1.493 2.5-1.218m11 0C16.5 8 15.5 8.5 14 10m3.5-2.218L16 3.5M14 10c-1.5 1.5-3.5 2.5-6 2.5m6-2.5c-3.6 0-6.5-1.977-7.5-2.218M5 3.5l1.5 4.282m0 0V9.5m0-1.718L8 3.5"/>` },
       children: title && /* @__PURE__ */ jsx586("title", { children: title })
     }
   );
 });
-Shield.displayName = "Shield";
+SheetsDrying.displayName = "SheetsDrying";
 
-// src/icons/ShieldCheck.tsx
+// src/icons/Shield.tsx
 import React587 from "react";
 import { jsx as jsx587 } from "react/jsx-runtime";
-var ShieldCheck = React587.memo((props) => {
+var Shield = React587.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx587(
     "svg",
@@ -16427,17 +16427,17 @@ var ShieldCheck = React587.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="m16 18 1.43 1.43a.1.1 0 0 0 .14 0L20 17m-1.058-3.911a5 5 0 0 0-5.37 7.237m5.37-7.237A5.002 5.002 0 0 1 18 23a5 5 0 0 1-4.427-2.674m5.369-7.237q.058-.506.058-1.024V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v8.065a9 9 0 0 0 5.455 8.273l1.151.493a1 1 0 0 0 .788 0l1.151-.493.028-.012"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M19 4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v8.065a9 9 0 0 0 5.455 8.273l1.151.493a1 1 0 0 0 .788 0l1.151-.493A9 9 0 0 0 19 12.065z"/>` },
       children: title && /* @__PURE__ */ jsx587("title", { children: title })
     }
   );
 });
-ShieldCheck.displayName = "ShieldCheck";
+Shield.displayName = "Shield";
 
-// src/icons/ShieldCross.tsx
+// src/icons/ShieldCheck.tsx
 import React588 from "react";
 import { jsx as jsx588 } from "react/jsx-runtime";
-var ShieldCross = React588.memo((props) => {
+var ShieldCheck = React588.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx588(
     "svg",
@@ -16455,17 +16455,17 @@ var ShieldCross = React588.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="m18 18 1.5-1.5M18 18l1.5 1.5M18 18l-1.5 1.5M18 18l-1.5-1.5m2.442-3.411a5 5 0 0 0-5.37 7.237m5.37-7.237A5.002 5.002 0 0 1 18 23a5 5 0 0 1-4.427-2.674m5.369-7.237q.058-.506.058-1.024V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v8.065a9 9 0 0 0 5.455 8.273l1.151.493a1 1 0 0 0 .788 0l1.151-.493.028-.012"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="m16 18 1.43 1.43a.1.1 0 0 0 .14 0L20 17m-1.058-3.911a5 5 0 0 0-5.37 7.237m5.37-7.237A5.002 5.002 0 0 1 18 23a5 5 0 0 1-4.427-2.674m5.369-7.237q.058-.506.058-1.024V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v8.065a9 9 0 0 0 5.455 8.273l1.151.493a1 1 0 0 0 .788 0l1.151-.493.028-.012"/>` },
       children: title && /* @__PURE__ */ jsx588("title", { children: title })
     }
   );
 });
-ShieldCross.displayName = "ShieldCross";
+ShieldCheck.displayName = "ShieldCheck";
 
-// src/icons/ShoppingBag.tsx
+// src/icons/ShieldCross.tsx
 import React589 from "react";
 import { jsx as jsx589 } from "react/jsx-runtime";
-var ShoppingBag = React589.memo((props) => {
+var ShieldCross = React589.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx589(
     "svg",
@@ -16483,17 +16483,17 @@ var ShoppingBag = React589.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21h13.84a1 1 0 0 0 .997-1.077l-.846-11A1 1 0 0 0 18.074 8H16M8 8V7a4 4 0 0 1 8 0v1M8 8h8m-8 2.5v.5a4 4 0 0 0 8 0v-.5"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="m18 18 1.5-1.5M18 18l1.5 1.5M18 18l-1.5 1.5M18 18l-1.5-1.5m2.442-3.411a5 5 0 0 0-5.37 7.237m5.37-7.237A5.002 5.002 0 0 1 18 23a5 5 0 0 1-4.427-2.674m5.369-7.237q.058-.506.058-1.024V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v8.065a9 9 0 0 0 5.455 8.273l1.151.493a1 1 0 0 0 .788 0l1.151-.493.028-.012"/>` },
       children: title && /* @__PURE__ */ jsx589("title", { children: title })
     }
   );
 });
-ShoppingBag.displayName = "ShoppingBag";
+ShieldCross.displayName = "ShieldCross";
 
-// src/icons/ShoppingBagCheck.tsx
+// src/icons/ShoppingBag.tsx
 import React590 from "react";
 import { jsx as jsx590 } from "react/jsx-runtime";
-var ShoppingBagCheck = React590.memo((props) => {
+var ShoppingBag = React590.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx590(
     "svg",
@@ -16511,17 +16511,17 @@ var ShoppingBagCheck = React590.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21H14M8 8V7a4 4 0 1 1 8 0v1M8 8h8m0 0h2.074a1 1 0 0 1 .997.923L19.4 13.2M8 10.5v.5a4 4 0 0 0 8 0v-.5m3.4 2.699A5 5 0 0 0 14 21m5.4-7.801A5 5 0 1 1 14 21m2-3 1.43 1.43a.1.1 0 0 0 .14 0L20 17"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21h13.84a1 1 0 0 0 .997-1.077l-.846-11A1 1 0 0 0 18.074 8H16M8 8V7a4 4 0 0 1 8 0v1M8 8h8m-8 2.5v.5a4 4 0 0 0 8 0v-.5"/>` },
       children: title && /* @__PURE__ */ jsx590("title", { children: title })
     }
   );
 });
-ShoppingBagCheck.displayName = "ShoppingBagCheck";
+ShoppingBag.displayName = "ShoppingBag";
 
-// src/icons/ShoppingBagCross.tsx
+// src/icons/ShoppingBagCheck.tsx
 import React591 from "react";
 import { jsx as jsx591 } from "react/jsx-runtime";
-var ShoppingBagCross = React591.memo((props) => {
+var ShoppingBagCheck = React591.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx591(
     "svg",
@@ -16539,17 +16539,17 @@ var ShoppingBagCross = React591.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21H14M8 8V7a4 4 0 1 1 8 0v1M8 8h8m0 0h2.074a1 1 0 0 1 .997.923L19.4 13.2M8 10.5v.5a4 4 0 0 0 8 0v-.5m3.4 2.699A5 5 0 0 0 14 21m5.4-7.801A5 5 0 1 1 14 21m4-3 1.5-1.5M18 18l1.5 1.5M18 18l-1.5 1.5M18 18l-1.5-1.5"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21H14M8 8V7a4 4 0 1 1 8 0v1M8 8h8m0 0h2.074a1 1 0 0 1 .997.923L19.4 13.2M8 10.5v.5a4 4 0 0 0 8 0v-.5m3.4 2.699A5 5 0 0 0 14 21m5.4-7.801A5 5 0 1 1 14 21m2-3 1.43 1.43a.1.1 0 0 0 .14 0L20 17"/>` },
       children: title && /* @__PURE__ */ jsx591("title", { children: title })
     }
   );
 });
-ShoppingBagCross.displayName = "ShoppingBagCross";
+ShoppingBagCheck.displayName = "ShoppingBagCheck";
 
-// src/icons/ShoppingBagMinus.tsx
+// src/icons/ShoppingBagCross.tsx
 import React592 from "react";
 import { jsx as jsx592 } from "react/jsx-runtime";
-var ShoppingBagMinus = React592.memo((props) => {
+var ShoppingBagCross = React592.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx592(
     "svg",
@@ -16567,17 +16567,17 @@ var ShoppingBagMinus = React592.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21H14M8 8V7a4 4 0 1 1 8 0v1M8 8h8m0 0h2.074a1 1 0 0 1 .997.923L19.4 13.2M8 10.5v.5a4 4 0 0 0 8 0v-.5m3.4 2.699A5 5 0 0 0 14 21m5.4-7.801A5 5 0 1 1 14 21m1.5-3h5"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21H14M8 8V7a4 4 0 1 1 8 0v1M8 8h8m0 0h2.074a1 1 0 0 1 .997.923L19.4 13.2M8 10.5v.5a4 4 0 0 0 8 0v-.5m3.4 2.699A5 5 0 0 0 14 21m5.4-7.801A5 5 0 1 1 14 21m4-3 1.5-1.5M18 18l1.5 1.5M18 18l-1.5 1.5M18 18l-1.5-1.5"/>` },
       children: title && /* @__PURE__ */ jsx592("title", { children: title })
     }
   );
 });
-ShoppingBagMinus.displayName = "ShoppingBagMinus";
+ShoppingBagCross.displayName = "ShoppingBagCross";
 
-// src/icons/ShoppingBagPlus.tsx
+// src/icons/ShoppingBagMinus.tsx
 import React593 from "react";
 import { jsx as jsx593 } from "react/jsx-runtime";
-var ShoppingBagPlus = React593.memo((props) => {
+var ShoppingBagMinus = React593.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx593(
     "svg",
@@ -16595,17 +16595,17 @@ var ShoppingBagPlus = React593.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21H14M8 8V7a4 4 0 0 1 8 0v1M8 8h8m0 0h2.074a1 1 0 0 1 .997.923L19.4 13.2M8 10.5v.5a4 4 0 0 0 8 0v-.5m2 7.5v-2.5m0 2.5h2.5M18 18v2.5m0-2.5h-2.5m3.9-4.801A5 5 0 0 0 14 21m5.4-7.801A5 5 0 1 1 14 21"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21H14M8 8V7a4 4 0 1 1 8 0v1M8 8h8m0 0h2.074a1 1 0 0 1 .997.923L19.4 13.2M8 10.5v.5a4 4 0 0 0 8 0v-.5m3.4 2.699A5 5 0 0 0 14 21m5.4-7.801A5 5 0 1 1 14 21m1.5-3h5"/>` },
       children: title && /* @__PURE__ */ jsx593("title", { children: title })
     }
   );
 });
-ShoppingBagPlus.displayName = "ShoppingBagPlus";
+ShoppingBagMinus.displayName = "ShoppingBagMinus";
 
-// src/icons/Shuffle.tsx
+// src/icons/ShoppingBagPlus.tsx
 import React594 from "react";
 import { jsx as jsx594 } from "react/jsx-runtime";
-var Shuffle = React594.memo((props) => {
+var ShoppingBagPlus = React594.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx594(
     "svg",
@@ -16623,17 +16623,17 @@ var Shuffle = React594.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M20 17h-2.658a6 6 0 0 1-5.101-2.842L10.905 12M20 17l-3-3m3 3-3 3m-6.095-8L9.342 9.476A6.28 6.28 0 0 0 4 6.5m6.905 5.5 1.336-2.158A6 6 0 0 1 17.342 7H20m-9.095 5-1.563 2.524A6.28 6.28 0 0 1 4 17.5M20 7l-3 3m3-3-3-3"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21H14M8 8V7a4 4 0 0 1 8 0v1M8 8h8m0 0h2.074a1 1 0 0 1 .997.923L19.4 13.2M8 10.5v.5a4 4 0 0 0 8 0v-.5m2 7.5v-2.5m0 2.5h2.5M18 18v2.5m0-2.5h-2.5m3.9-4.801A5 5 0 0 0 14 21m5.4-7.801A5 5 0 1 1 14 21"/>` },
       children: title && /* @__PURE__ */ jsx594("title", { children: title })
     }
   );
 });
-Shuffle.displayName = "Shuffle";
+ShoppingBagPlus.displayName = "ShoppingBagPlus";
 
-// src/icons/Signal.tsx
+// src/icons/Shuffle.tsx
 import React595 from "react";
 import { jsx as jsx595 } from "react/jsx-runtime";
-var Signal = React595.memo((props) => {
+var Shuffle = React595.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx595(
     "svg",
@@ -16651,17 +16651,17 @@ var Signal = React595.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M9.172 9.172a4 4 0 0 0 0 5.656m5.656-5.656a4 4 0 0 1 0 5.656M7.404 7.404a6.5 6.5 0 0 0 0 9.192m9.192-9.192a6.5 6.5 0 0 1 0 9.192m1.768-10.96a9 9 0 0 1 0 12.728M5.636 5.636a9 9 0 0 0 0 12.728m7.425-7.425a1.5 1.5 0 1 0-2.122 2.122 1.5 1.5 0 0 0 2.122-2.122Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M20 17h-2.658a6 6 0 0 1-5.101-2.842L10.905 12M20 17l-3-3m3 3-3 3m-6.095-8L9.342 9.476A6.28 6.28 0 0 0 4 6.5m6.905 5.5 1.336-2.158A6 6 0 0 1 17.342 7H20m-9.095 5-1.563 2.524A6.28 6.28 0 0 1 4 17.5M20 7l-3 3m3-3-3-3"/>` },
       children: title && /* @__PURE__ */ jsx595("title", { children: title })
     }
   );
 });
-Signal.displayName = "Signal";
+Shuffle.displayName = "Shuffle";
 
-// src/icons/Signpost.tsx
+// src/icons/Signal.tsx
 import React596 from "react";
 import { jsx as jsx596 } from "react/jsx-runtime";
-var Signpost = React596.memo((props) => {
+var Signal = React596.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx596(
     "svg",
@@ -16679,17 +16679,17 @@ var Signpost = React596.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M11 21v-9m0 0h5.586a1 1 0 0 0 .707-.293l2-2a1 1 0 0 0 0-1.414l-2-2A1 1 0 0 0 16.586 6H11m0 6H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5m0 0V3"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M9.172 9.172a4 4 0 0 0 0 5.656m5.656-5.656a4 4 0 0 1 0 5.656M7.404 7.404a6.5 6.5 0 0 0 0 9.192m9.192-9.192a6.5 6.5 0 0 1 0 9.192m1.768-10.96a9 9 0 0 1 0 12.728M5.636 5.636a9 9 0 0 0 0 12.728m7.425-7.425a1.5 1.5 0 1 0-2.122 2.122 1.5 1.5 0 0 0 2.122-2.122Z"/>` },
       children: title && /* @__PURE__ */ jsx596("title", { children: title })
     }
   );
 });
-Signpost.displayName = "Signpost";
+Signal.displayName = "Signal";
 
-// src/icons/SignpostAlt.tsx
+// src/icons/Signpost.tsx
 import React597 from "react";
 import { jsx as jsx597 } from "react/jsx-runtime";
-var SignpostAlt = React597.memo((props) => {
+var Signpost = React597.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx597(
     "svg",
@@ -16707,17 +16707,17 @@ var SignpostAlt = React597.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M12 5h5.586a1 1 0 0 1 .707.293l1.5 1.5a1 1 0 0 1 0 1.414l-1.5 1.5a1 1 0 0 1-.707.293H12m0-5H7a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5m0-5V3m0 14h5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5m0 5H6.414a1 1 0 0 1-.707-.293l-1.5-1.5a1 1 0 0 1 0-1.414l1.5-1.5A1 1 0 0 1 6.414 12H12m0 5v4m0-9v-2"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M11 21v-9m0 0h5.586a1 1 0 0 0 .707-.293l2-2a1 1 0 0 0 0-1.414l-2-2A1 1 0 0 0 16.586 6H11m0 6H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5m0 0V3"/>` },
       children: title && /* @__PURE__ */ jsx597("title", { children: title })
     }
   );
 });
-SignpostAlt.displayName = "SignpostAlt";
+Signpost.displayName = "Signpost";
 
-// src/icons/Skull.tsx
+// src/icons/SignpostAlt.tsx
 import React598 from "react";
 import { jsx as jsx598 } from "react/jsx-runtime";
-var Skull = React598.memo((props) => {
+var SignpostAlt = React598.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx598(
     "svg",
@@ -16735,17 +16735,17 @@ var Skull = React598.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M10 21H9a1 1 0 0 1-1-1 1 1 0 0 0-1-1h-.882a1 1 0 0 1-.894-1.447 1 1 0 0 0-.095-1.047l-.603-.805A2.63 2.63 0 0 1 4 14.124v-.434c0-.776.23-1.534.66-2.18.215-.322.263-.724.164-1.098C3.365 4.869 8.617 3 12 3s8.635 1.869 7.176 7.412c-.099.374-.05.776.164 1.098.43.646.66 1.404.66 2.18v.434c0 .569-.184 1.122-.526 1.577l-.603.805a1 1 0 0 0-.095 1.047A1 1 0 0 1 17.882 19H17a1 1 0 0 0-1 1 1 1 0 0 1-1 1h-1m-4 0v-1.5m0 1.5h2m2 0v-1.5m0 1.5h-2m0 0v-1.5m1-2-.5-.5a.707.707 0 0 0-1 0l-.5.5m-4.5-3.765v.203a2 2 0 0 0 1.515 1.94l.265.067a2 2 0 0 0 2.473-1.72l.026-.237a2 2 0 0 0-1.767-2.209l-.291-.032A2 2 0 0 0 6.5 13.735Zm6.72.253.027.238a2 2 0 0 0 2.473 1.719l.265-.066a2 2 0 0 0 1.515-1.94v-.204a2 2 0 0 0-2.22-1.988l-.292.032a2 2 0 0 0-1.767 2.209Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M12 5h5.586a1 1 0 0 1 .707.293l1.5 1.5a1 1 0 0 1 0 1.414l-1.5 1.5a1 1 0 0 1-.707.293H12m0-5H7a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5m0-5V3m0 14h5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5m0 5H6.414a1 1 0 0 1-.707-.293l-1.5-1.5a1 1 0 0 1 0-1.414l1.5-1.5A1 1 0 0 1 6.414 12H12m0 5v4m0-9v-2"/>` },
       children: title && /* @__PURE__ */ jsx598("title", { children: title })
     }
   );
 });
-Skull.displayName = "Skull";
+SignpostAlt.displayName = "SignpostAlt";
 
-// src/icons/Slice.tsx
+// src/icons/Skull.tsx
 import React599 from "react";
 import { jsx as jsx599 } from "react/jsx-runtime";
-var Slice = React599.memo((props) => {
+var Skull = React599.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx599(
     "svg",
@@ -16763,17 +16763,17 @@ var Slice = React599.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="m6.15 13.75-2.993-1.662a.1.1 0 0 1 0-.175L6.15 10.25m0 3.5 5.801 3.223a.1.1 0 0 0 .098 0l5.801-3.223m-11.7 0-2.993 1.663a.1.1 0 0 0 0 .175l8.794 4.885a.1.1 0 0 0 .098 0l8.794-4.885a.1.1 0 0 0 0-.175L17.85 13.75m0 0 2.993-1.662a.1.1 0 0 0 0-.175L17.85 10.25m0 0-5.802 3.223a.1.1 0 0 1-.097 0L6.15 10.25m11.7 0 2.993-1.662a.1.1 0 0 0 0-.175l-8.794-4.886a.1.1 0 0 0-.098 0L3.157 8.413a.1.1 0 0 0 0 .175L6.15 10.25"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M10 21H9a1 1 0 0 1-1-1 1 1 0 0 0-1-1h-.882a1 1 0 0 1-.894-1.447 1 1 0 0 0-.095-1.047l-.603-.805A2.63 2.63 0 0 1 4 14.124v-.434c0-.776.23-1.534.66-2.18.215-.322.263-.724.164-1.098C3.365 4.869 8.617 3 12 3s8.635 1.869 7.176 7.412c-.099.374-.05.776.164 1.098.43.646.66 1.404.66 2.18v.434c0 .569-.184 1.122-.526 1.577l-.603.805a1 1 0 0 0-.095 1.047A1 1 0 0 1 17.882 19H17a1 1 0 0 0-1 1 1 1 0 0 1-1 1h-1m-4 0v-1.5m0 1.5h2m2 0v-1.5m0 1.5h-2m0 0v-1.5m1-2-.5-.5a.707.707 0 0 0-1 0l-.5.5m-4.5-3.765v.203a2 2 0 0 0 1.515 1.94l.265.067a2 2 0 0 0 2.473-1.72l.026-.237a2 2 0 0 0-1.767-2.209l-.291-.032A2 2 0 0 0 6.5 13.735Zm6.72.253.027.238a2 2 0 0 0 2.473 1.719l.265-.066a2 2 0 0 0 1.515-1.94v-.204a2 2 0 0 0-2.22-1.988l-.292.032a2 2 0 0 0-1.767 2.209Z"/>` },
       children: title && /* @__PURE__ */ jsx599("title", { children: title })
     }
   );
 });
-Slice.displayName = "Slice";
+Skull.displayName = "Skull";
 
-// src/icons/Slider.tsx
+// src/icons/Slice.tsx
 import React600 from "react";
 import { jsx as jsx600 } from "react/jsx-runtime";
-var Slider = React600.memo((props) => {
+var Slice = React600.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx600(
     "svg",
@@ -16791,17 +16791,17 @@ var Slider = React600.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M17 12V9a2 2 0 1 0-4 0v3m4 0v3a2 2 0 1 1-4 0v-3m4 0h5m-9 0H2"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="m6.15 13.75-2.993-1.662a.1.1 0 0 1 0-.175L6.15 10.25m0 3.5 5.801 3.223a.1.1 0 0 0 .098 0l5.801-3.223m-11.7 0-2.993 1.663a.1.1 0 0 0 0 .175l8.794 4.885a.1.1 0 0 0 .098 0l8.794-4.885a.1.1 0 0 0 0-.175L17.85 13.75m0 0 2.993-1.662a.1.1 0 0 0 0-.175L17.85 10.25m0 0-5.802 3.223a.1.1 0 0 1-.097 0L6.15 10.25m11.7 0 2.993-1.662a.1.1 0 0 0 0-.175l-8.794-4.886a.1.1 0 0 0-.098 0L3.157 8.413a.1.1 0 0 0 0 .175L6.15 10.25"/>` },
       children: title && /* @__PURE__ */ jsx600("title", { children: title })
     }
   );
 });
-Slider.displayName = "Slider";
+Slice.displayName = "Slice";
 
-// src/icons/SmileyNeutral.tsx
+// src/icons/Slider.tsx
 import React601 from "react";
 import { jsx as jsx601 } from "react/jsx-runtime";
-var SmileyNeutral = React601.memo((props) => {
+var Slider = React601.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx601(
     "svg",
@@ -16819,17 +16819,17 @@ var SmileyNeutral = React601.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M15 15H9m3 6a9 9 0 1 1 0-18 9 9 0 0 1 0 18Zm-5-9.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Zm8.5 0a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M17 12V9a2 2 0 1 0-4 0v3m4 0v3a2 2 0 1 1-4 0v-3m4 0h5m-9 0H2"/>` },
       children: title && /* @__PURE__ */ jsx601("title", { children: title })
     }
   );
 });
-SmileyNeutral.displayName = "SmileyNeutral";
+Slider.displayName = "Slider";
 
-// src/icons/SmileySad.tsx
+// src/icons/SmileyNeutral.tsx
 import React602 from "react";
 import { jsx as jsx602 } from "react/jsx-runtime";
-var SmileySad = React602.memo((props) => {
+var SmileyNeutral = React602.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx602(
     "svg",
@@ -16847,17 +16847,17 @@ var SmileySad = React602.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="m9.5 16 .168-.252a2.803 2.803 0 0 1 4.664 0L14.5 16M12 21a9 9 0 1 1 0-18 9 9 0 0 1 0 18Zm-5-9.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Zm8.5 0a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M15 15H9m3 6a9 9 0 1 1 0-18 9 9 0 0 1 0 18Zm-5-9.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Zm8.5 0a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Z"/>` },
       children: title && /* @__PURE__ */ jsx602("title", { children: title })
     }
   );
 });
-SmileySad.displayName = "SmileySad";
+SmileyNeutral.displayName = "SmileyNeutral";
 
-// src/icons/SmileySmile.tsx
+// src/icons/SmileySad.tsx
 import React603 from "react";
 import { jsx as jsx603 } from "react/jsx-runtime";
-var SmileySmile = React603.memo((props) => {
+var SmileySad = React603.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx603(
     "svg",
@@ -16875,17 +16875,17 @@ var SmileySmile = React603.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="m9.5 14.5.168.252a2.803 2.803 0 0 0 4.664 0l.168-.252M12 21a9 9 0 1 1 0-18 9 9 0 0 1 0 18Zm-5-9.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Zm8.5 0a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="m9.5 16 .168-.252a2.803 2.803 0 0 1 4.664 0L14.5 16M12 21a9 9 0 1 1 0-18 9 9 0 0 1 0 18Zm-5-9.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Zm8.5 0a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Z"/>` },
       children: title && /* @__PURE__ */ jsx603("title", { children: title })
     }
   );
 });
-SmileySmile.displayName = "SmileySmile";
+SmileySad.displayName = "SmileySad";
 
-// src/icons/SnapGrid.tsx
+// src/icons/SmileySmile.tsx
 import React604 from "react";
 import { jsx as jsx604 } from "react/jsx-runtime";
-var SnapGrid = React604.memo((props) => {
+var SmileySmile = React604.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx604(
     "svg",
@@ -16903,17 +16903,17 @@ var SnapGrid = React604.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="m14.94 10.475-1.698 1.697a.1.1 0 0 0 0 .141L15.93 15a.1.1 0 0 0 .142 0l1.697-1.697m-2.829-2.828 1.415-1.414a1 1 0 0 0-1.415-1.415l-1.414 1.415m1.414 1.414 2.829 2.828m0 0 1.767-1.767a5 5 0 1 0-7.07-7.072l-1.768 1.768m2.828 2.829-1.697 1.697a.1.1 0 0 1-.141 0L9 8.07a.1.1 0 0 1 0-.142l1.697-1.697m2.828 2.829-2.828-2.829M3 17v3a1 1 0 0 0 1 1h3m-4-4v-3a1 1 0 0 1 1-1h3m-4 4h8m0 0v-3a1 1 0 0 0-1-1H7m4 4v3a1 1 0 0 1-1 1H7m0-8v8"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="m9.5 14.5.168.252a2.803 2.803 0 0 0 4.664 0l.168-.252M12 21a9 9 0 1 1 0-18 9 9 0 0 1 0 18Zm-5-9.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Zm8.5 0a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Z"/>` },
       children: title && /* @__PURE__ */ jsx604("title", { children: title })
     }
   );
 });
-SnapGrid.displayName = "SnapGrid";
+SmileySmile.displayName = "SmileySmile";
 
-// src/icons/SnapVertex.tsx
+// src/icons/SnapGrid.tsx
 import React605 from "react";
 import { jsx as jsx605 } from "react/jsx-runtime";
-var SnapVertex = React605.memo((props) => {
+var SnapGrid = React605.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx605(
     "svg",
@@ -16931,17 +16931,17 @@ var SnapVertex = React605.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M6 19.5A1.5 1.5 0 1 1 4.5 18M6 19.5A1.5 1.5 0 0 0 4.5 18M6 19.5h5.5m-7-1.5v-5.5m7 7a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0Zm-7-7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm10.44-2.025-1.698 1.697a.1.1 0 0 0 0 .141L15.93 15a.1.1 0 0 0 .142 0l1.697-1.697m-2.829-2.828 1.415-1.414a1 1 0 0 0-1.415-1.415l-1.414 1.415m1.414 1.414 2.829 2.828m0 0 1.767-1.767a5 5 0 1 0-7.07-7.072l-1.768 1.768m2.828 2.829-1.697 1.697a.1.1 0 0 1-.141 0L9 8.07a.1.1 0 0 1 0-.142l1.697-1.697m2.828 2.829-2.828-2.829"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="m14.94 10.475-1.698 1.697a.1.1 0 0 0 0 .141L15.93 15a.1.1 0 0 0 .142 0l1.697-1.697m-2.829-2.828 1.415-1.414a1 1 0 0 0-1.415-1.415l-1.414 1.415m1.414 1.414 2.829 2.828m0 0 1.767-1.767a5 5 0 1 0-7.07-7.072l-1.768 1.768m2.828 2.829-1.697 1.697a.1.1 0 0 1-.141 0L9 8.07a.1.1 0 0 1 0-.142l1.697-1.697m2.828 2.829-2.828-2.829M3 17v3a1 1 0 0 0 1 1h3m-4-4v-3a1 1 0 0 1 1-1h3m-4 4h8m0 0v-3a1 1 0 0 0-1-1H7m4 4v3a1 1 0 0 1-1 1H7m0-8v8"/>` },
       children: title && /* @__PURE__ */ jsx605("title", { children: title })
     }
   );
 });
-SnapVertex.displayName = "SnapVertex";
+SnapGrid.displayName = "SnapGrid";
 
-// src/icons/Snowflake.tsx
+// src/icons/SnapVertex.tsx
 import React606 from "react";
 import { jsx as jsx606 } from "react/jsx-runtime";
-var Snowflake = React606.memo((props) => {
+var SnapVertex = React606.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx606(
     "svg",
@@ -16959,17 +16959,17 @@ var Snowflake = React606.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M12 17.5V21m0-3.5L9.5 20m2.5-2.5 2.5 2.5M12 17.5v-11m0 0V3m0 3.5L14.5 4M12 6.5 9.5 4M7.237 14.75 4.206 16.5m3.03-1.75-3.414-.915m3.415.915-.915 3.415m.915-3.415 9.526-5.5m0 0 3.031-1.75m-3.03 1.75 3.414.915m-3.415-.915.915-3.415M7.237 9.25 4.206 7.5m3.03 1.75-.914-3.415m.915 3.415-3.415.915m3.415-.915L12 12l4.763 2.75m0 0 3.031 1.75m-3.03-1.75.914 3.415m-.915-3.415 3.415-.915"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M6 19.5A1.5 1.5 0 1 1 4.5 18M6 19.5A1.5 1.5 0 0 0 4.5 18M6 19.5h5.5m-7-1.5v-5.5m7 7a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0Zm-7-7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm10.44-2.025-1.698 1.697a.1.1 0 0 0 0 .141L15.93 15a.1.1 0 0 0 .142 0l1.697-1.697m-2.829-2.828 1.415-1.414a1 1 0 0 0-1.415-1.415l-1.414 1.415m1.414 1.414 2.829 2.828m0 0 1.767-1.767a5 5 0 1 0-7.07-7.072l-1.768 1.768m2.828 2.829-1.697 1.697a.1.1 0 0 1-.141 0L9 8.07a.1.1 0 0 1 0-.142l1.697-1.697m2.828 2.829-2.828-2.829"/>` },
       children: title && /* @__PURE__ */ jsx606("title", { children: title })
     }
   );
 });
-Snowflake.displayName = "Snowflake";
+SnapVertex.displayName = "SnapVertex";
 
-// src/icons/Sofa.tsx
+// src/icons/Snowflake.tsx
 import React607 from "react";
 import { jsx as jsx607 } from "react/jsx-runtime";
-var Sofa = React607.memo((props) => {
+var Snowflake = React607.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx607(
     "svg",
@@ -16987,17 +16987,17 @@ var Sofa = React607.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M5.5 10.5H4a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h.25m1.25-6V14m0-3.5v-2a1 1 0 0 1 1-1h5.75m6.75 3h1.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-.25m-1.25-6V14m0-3.5v-2a1 1 0 0 0-1-1h-5.75m-6.75 9H19m-13.5 0V14m0 2.5H4.25m14.75 0V14m0 2.5h1.25M5.5 14h6.75M19 14h-6.75m8 2.5V18m-16-1.5V18m8-10.5V14"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M12 17.5V21m0-3.5L9.5 20m2.5-2.5 2.5 2.5M12 17.5v-11m0 0V3m0 3.5L14.5 4M12 6.5 9.5 4M7.237 14.75 4.206 16.5m3.03-1.75-3.414-.915m3.415.915-.915 3.415m.915-3.415 9.526-5.5m0 0 3.031-1.75m-3.03 1.75 3.414.915m-3.415-.915.915-3.415M7.237 9.25 4.206 7.5m3.03 1.75-.914-3.415m.915 3.415-3.415.915m3.415-.915L12 12l4.763 2.75m0 0 3.031 1.75m-3.03-1.75.914 3.415m-.915-3.415 3.415-.915"/>` },
       children: title && /* @__PURE__ */ jsx607("title", { children: title })
     }
   );
 });
-Sofa.displayName = "Sofa";
+Snowflake.displayName = "Snowflake";
 
-// src/icons/SoftBody.tsx
+// src/icons/Sofa.tsx
 import React608 from "react";
 import { jsx as jsx608 } from "react/jsx-runtime";
-var SoftBody = React608.memo((props) => {
+var Sofa = React608.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx608(
     "svg",
@@ -17015,17 +17015,17 @@ var SoftBody = React608.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M5.5 16.323c1.4.422 3.486.793 6.5.793s5.1-.371 6.5-.793M12 3.5V8m0 0-2-2m2 2 2-2M3.39 17.908c.863.555 3.295 1.708 8.61 1.708s7.747-1.153 8.61-1.708c.26-.167.368-.471.33-.778l-.765-6.112c-.085-.684-.85-1.142-1.523-.988-1.205.275-3.307.586-6.652.586s-5.447-.311-6.652-.586c-.673-.154-1.438.304-1.523.988L3.06 17.13c-.039.307.069.61.328.778Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M5.5 10.5H4a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h.25m1.25-6V14m0-3.5v-2a1 1 0 0 1 1-1h5.75m6.75 3h1.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-.25m-1.25-6V14m0-3.5v-2a1 1 0 0 0-1-1h-5.75m-6.75 9H19m-13.5 0V14m0 2.5H4.25m14.75 0V14m0 2.5h1.25M5.5 14h6.75M19 14h-6.75m8 2.5V18m-16-1.5V18m8-10.5V14"/>` },
       children: title && /* @__PURE__ */ jsx608("title", { children: title })
     }
   );
 });
-SoftBody.displayName = "SoftBody";
+Sofa.displayName = "Sofa";
 
-// src/icons/SoftShadow.tsx
+// src/icons/SoftBody.tsx
 import React609 from "react";
 import { jsx as jsx609 } from "react/jsx-runtime";
-var SoftShadow = React609.memo((props) => {
+var SoftBody = React609.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx609(
     "svg",
@@ -17043,12 +17043,12 @@ var SoftShadow = React609.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="m14.914 15.086-5.581 5.581m8.927-4.927L13 21m7.749-3.749-3.223 3.223m-11.188-.812 2.724-2.724m0 0q.46.061.938.062c1.867 0 3.563-.73 4.818-1.922a7 7 0 1 0-5.756 1.86Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M5.5 16.323c1.4.422 3.486.793 6.5.793s5.1-.371 6.5-.793M12 3.5V8m0 0-2-2m2 2 2-2M3.39 17.908c.863.555 3.295 1.708 8.61 1.708s7.747-1.153 8.61-1.708c.26-.167.368-.471.33-.778l-.765-6.112c-.085-.684-.85-1.142-1.523-.988-1.205.275-3.307.586-6.652.586s-5.447-.311-6.652-.586c-.673-.154-1.438.304-1.523.988L3.06 17.13c-.039.307.069.61.328.778Z"/>` },
       children: title && /* @__PURE__ */ jsx609("title", { children: title })
     }
   );
 });
-SoftShadow.displayName = "SoftShadow";
+SoftBody.displayName = "SoftBody";
 
 // src/icons/Solidify.tsx
 import React610 from "react";
@@ -17239,7 +17239,7 @@ var Speaker = React616.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M15.5 5h-7a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M15.5 5h-7a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1Z"/><path d="M12 7.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5ZM10 14.5a2 2 0 1 1 4 0 2 2 0 0 1-4 0Z"/>` },
       children: title && /* @__PURE__ */ jsx616("title", { children: title })
     }
   );
@@ -18275,17 +18275,17 @@ var Tag = React653.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M11.793 19.793a1 1 0 0 0 1.414 0l6.586-6.586a1 1 0 0 0 0-1.414l-7.5-7.5A1 1 0 0 0 11.586 4H7a3 3 0 0 0-3 3v4.586a1 1 0 0 0 .293.707z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="m19.793 13.207-6.586 6.586a1 1 0 0 1-1.414 0l-7.5-7.5A1 1 0 0 1 4 11.586V7a3 3 0 0 1 3-3h4.586a1 1 0 0 1 .707.293l7.5 7.5a1 1 0 0 1 0 1.414ZM8.5 7a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z" clip-rule="evenodd"/><path d="M10 8.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z"/>` },
       children: title && /* @__PURE__ */ jsx653("title", { children: title })
     }
   );
 });
 Tag.displayName = "Tag";
 
-// src/icons/Target.tsx
+// src/icons/Target1.tsx
 import React654 from "react";
 import { jsx as jsx654 } from "react/jsx-runtime";
-var Target = React654.memo((props) => {
+var Target1 = React654.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx654(
     "svg",
@@ -18303,17 +18303,17 @@ var Target = React654.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M12 2v3m0 0a7 7 0 0 1 7 7m-7-7a7 7 0 0 0-7 7m17 0h-3m0 0a7 7 0 0 1-7 7m0 3v-3m0 0a7 7 0 0 1-7-7m-3 0h3m10.5 0a3.5 3.5 0 1 0-7 0 3.5 3.5 0 0 0 7 0Z"/>` },
       children: title && /* @__PURE__ */ jsx654("title", { children: title })
     }
   );
 });
-Target.displayName = "Target";
+Target1.displayName = "Target1";
 
-// src/icons/Target1.tsx
+// src/icons/TargetBow.tsx
 import React655 from "react";
 import { jsx as jsx655 } from "react/jsx-runtime";
-var Target1 = React655.memo((props) => {
+var TargetBow = React655.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx655(
     "svg",
@@ -18331,12 +18331,12 @@ var Target1 = React655.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M12 2v3m0 0a7 7 0 0 1 7 7m-7-7a7 7 0 0 0-7 7m17 0h-3m0 0a7 7 0 0 1-7 7m0 3v-3m0 0a7 7 0 0 1-7-7m-3 0h3m10.5 0a3.5 3.5 0 1 0-7 0 3.5 3.5 0 0 0 7 0Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M3 12a9 9 0 1 1 18 0 9 9 0 0 1-18 0Zm9-5a5 5 0 1 0 0 10 5 5 0 0 0 0-10Z" clip-rule="evenodd"/><path d="M7 12a5 5 0 1 1 10 0 5 5 0 0 1-10 0Zm5-1a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z" clip-rule="evenodd"/><path d="M13 12a1 1 0 1 0-2 0 1 1 0 0 0 2 0Z"/>` },
       children: title && /* @__PURE__ */ jsx655("title", { children: title })
     }
   );
 });
-Target1.displayName = "Target1";
+TargetBow.displayName = "TargetBow";
 
 // src/icons/Teepee.tsx
 import React656 from "react";
@@ -18611,7 +18611,7 @@ var TextBolt = React665.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M13.5 20H7.1a.1.1 0 0 1-.1-.1V4.6a.1.1 0 0 1 .1-.1H13a4 4 0 0 1 1.866 7.54c-.083.043-.074.172.013.204A4.002 4.002 0 0 1 13.5 20Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path fill-rule="evenodd" d="M7.1 20h6.4a4 4 0 0 0 1.38-7.756c-.088-.032-.097-.161-.014-.205A4 4 0 0 0 13 4.5H7.1a.1.1 0 0 0-.1.1v15.3a.1.1 0 0 0 .1.1Zm6.4-7.5H7.6a.1.1 0 0 0-.1.1v6.8a.1.1 0 0 0 .1.1h5.9a3.5 3.5 0 1 0 0-7ZM13 5H7.6a.1.1 0 0 0-.1.1v6.8a.1.1 0 0 0 .1.1H13a3.5 3.5 0 1 0 0-7Z" clip-rule="evenodd"/>` },
       children: title && /* @__PURE__ */ jsx665("title", { children: title })
     }
   );
@@ -18919,7 +18919,7 @@ var ToggleOff = React676.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M15 18H9A6 6 0 0 1 9 6h6a6 6 0 0 1 0 12Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M9 18h6a6 6 0 0 0 0-12H9a6 6 0 1 0 0 12Zm0-9.5a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7Z" clip-rule="evenodd"/>` },
       children: title && /* @__PURE__ */ jsx676("title", { children: title })
     }
   );
@@ -18947,7 +18947,7 @@ var ToggleOn = React677.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M9 18h6a6 6 0 0 0 0-12H9a6 6 0 1 0 0 12Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M15 18H9A6 6 0 0 1 9 6h6a6 6 0 0 1 0 12Zm0-9.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z" clip-rule="evenodd"/>` },
       children: title && /* @__PURE__ */ jsx677("title", { children: title })
     }
   );
@@ -20711,7 +20711,7 @@ var Wallet = React740.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M3 7v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M3 17V7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm2.5-7v.5a1 1 0 0 0 1 1h3.36c.084 0 .158.053.184.133A2 2 0 0 0 11.941 13h.117a2 2 0 0 0 1.898-1.367c.026-.08.1-.133.184-.133h3.36a1 1 0 0 0 1-1V10a2 2 0 0 0-2-2h-9a2 2 0 0 0-2 2Z" clip-rule="evenodd"/>` },
       children: title && /* @__PURE__ */ jsx740("title", { children: title })
     }
   );
@@ -21522,7 +21522,7 @@ export {
   BookPageTurn,
   Bookmark,
   Bottle,
-  BoundingBox,
+  Boundingbox,
   Box,
   BoxExpedition,
   BoxOpen,
@@ -21950,6 +21950,7 @@ export {
   Proxy3d,
   Psu,
   Pulse,
+  PulseCircle,
   QrCode,
   Question,
   Quote,
@@ -21972,7 +21973,6 @@ export {
   RenderRegion,
   Reply,
   Restart,
-  Resurect,
   RigidBody,
   Road,
   Rotate,
@@ -22000,7 +22000,8 @@ export {
   SettingsHorizontal,
   SettingsVertical,
   Shader,
-  Shadow,
+  ShadowHard,
+  ShadowSoft,
   Share,
   SheetsDrying,
   Shield,
@@ -22026,7 +22027,6 @@ export {
   Snowflake,
   Sofa,
   SoftBody,
-  SoftShadow,
   Solidify,
   Sort,
   SortAscending,
@@ -22071,8 +22071,8 @@ export {
   Syringe,
   Tablet,
   Tag,
-  Target,
   Target1,
+  TargetBow,
   Teepee,
   Telescope,
   Terminal,

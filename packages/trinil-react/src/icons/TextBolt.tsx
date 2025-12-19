@@ -26,7 +26,7 @@ export const TextBolt: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path d="M13.5 20H7.1a.1.1 0 0 1-.1-.1V4.6a.1.1 0 0 1 .1-.1H13a4 4 0 0 1 1.866 7.54c-.083.043-.074.172.013.204A4.002 4.002 0 0 1 13.5 20Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path fill-rule="evenodd" d="M7.1 20h6.4a4 4 0 0 0 1.38-7.756c-.088-.032-.097-.161-.014-.205A4 4 0 0 0 13 4.5H7.1a.1.1 0 0 0-.1.1v15.3a.1.1 0 0 0 .1.1Zm6.4-7.5H7.6a.1.1 0 0 0-.1.1v6.8a.1.1 0 0 0 .1.1h5.9a3.5 3.5 0 1 0 0-7ZM13 5H7.6a.1.1 0 0 0-.1.1v6.8a.1.1 0 0 0 .1.1H13a3.5 3.5 0 1 0 0-7Z" clip-rule="evenodd"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

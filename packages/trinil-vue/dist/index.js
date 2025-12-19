@@ -605,7 +605,7 @@ var Ambulance = defineComponent15({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M9.5 17.25a1.75 1.75 0 1 1-3.5 0m3.5 0a1.75 1.75 0 1 0-3.5 0m3.5 0h7m-10.5 0H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v.5a1 1 0 0 0 1 1h1.51a1 1 0 0 1 .79.386l2.99 3.843a1 1 0 0 1 .21.614v3.907a1 1 0 0 1-1 1H20m0 0a1.75 1.75 0 1 1-3.5 0m3.5 0a1.75 1.75 0 1 0-3.5 0M8.1 7.5h2.3a.1.1 0 0 1 .1.1v1.3a.1.1 0 0 0 .1.1h1.3a.1.1 0 0 1 .1.1v2.3a.1.1 0 0 1-.1.1h-1.3a.1.1 0 0 0-.1.1v1.3a.1.1 0 0 1-.1.1H8.1a.1.1 0 0 1-.1-.1v-1.3a.1.1 0 0 0-.1-.1H6.6a.1.1 0 0 1-.1-.1V9.1a.1.1 0 0 1 .1-.1h1.3a.1.1 0 0 0 .1-.1V7.6a.1.1 0 0 1 .1-.1Z"/>`
+          innerHTML: `<path d="M9.5 17.25a1.75 1.75 0 1 1-3.5 0m3.5 0a1.75 1.75 0 1 0-3.5 0m3.5 0h7m-10.5 0H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1.4a.1.1 0 0 0 .1.1h2.41a1 1 0 0 1 .79.386l2.99 3.843a1 1 0 0 1 .21.614v3.907a1 1 0 0 1-1 1H20m0 0a1.75 1.75 0 1 1-3.5 0m3.5 0a1.75 1.75 0 1 0-3.5 0M8.1 7.5h2.3a.1.1 0 0 1 .1.1v1.3a.1.1 0 0 0 .1.1h1.3a.1.1 0 0 1 .1.1v2.3a.1.1 0 0 1-.1.1h-1.3a.1.1 0 0 0-.1.1v1.3a.1.1 0 0 1-.1.1H8.1a.1.1 0 0 1-.1-.1v-1.3a.1.1 0 0 0-.1-.1H6.6a.1.1 0 0 1-.1-.1V9.1a.1.1 0 0 1 .1-.1h1.3a.1.1 0 0 0 .1-.1V7.6a.1.1 0 0 1 .1-.1Z"/>`
         },
         children
       );
@@ -2737,7 +2737,7 @@ var Bandage = defineComponent67({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M4.5 13.5a4.243 4.243 0 0 0 6 6l9-9a4.243 4.243 0 0 0-6-6z"/>`
+          innerHTML: `<path d="M4.5 19.5a4.243 4.243 0 0 0 6 0l9-9a4.243 4.243 0 0 0-6-6l-9 9a4.243 4.243 0 0 0 0 6Zm10.793-9.207-1.586-1.586a1 1 0 0 0-1.415 0l-3.585 3.585a1 1 0 0 0 0 1.415l1.586 1.586a1 1 0 0 0 1.414 0l3.586-3.586a1 1 0 0 0 0-1.414Z" clip-rule="evenodd"/>`
         },
         children
       );
@@ -4262,10 +4262,10 @@ var Bottle = defineComponent104({
   }
 });
 
-// src/icons/BoundingBox.ts
+// src/icons/Boundingbox.ts
 import { defineComponent as defineComponent105, h as h105 } from "vue";
-var BoundingBox = defineComponent105({
-  name: "BoundingBox",
+var Boundingbox = defineComponent105({
+  name: "Boundingbox",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -5648,7 +5648,7 @@ var Camera = defineComponent138({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M20 19H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h2.882c.685 0 1.312-.387 1.618-1s.933-1 1.618-1h3.764c.685 0 1.312.387 1.618 1s.933 1 1.618 1H20a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1Z"/>`
+          innerHTML: `<path d="M20 19H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h2.882c.685 0 1.312-.387 1.618-1s.933-1 1.618-1h3.764c.685 0 1.312.387 1.618 1s.933 1 1.618 1H20a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1Z"/><path d="M16 13a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"/>`
         },
         children
       );
@@ -5894,7 +5894,7 @@ var Capsules = defineComponent144({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M5 4v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1Z"/>`
+          innerHTML: `<path d="M5 20V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1Zm5-2H8.5a1 1 0 1 1 0-2H10a1 1 0 1 1 0 2Zm5.5 0H14a1 1 0 1 1 0-2h1.5a1 1 0 1 1 0 2ZM10 13H8.5a1 1 0 1 1 0-2H10a1 1 0 1 1 0 2Zm5.5 0H14a1 1 0 1 1 0-2h1.5a1 1 0 1 1 0 2ZM10 8H8.5a1 1 0 1 1 0-2H10a1 1 0 1 1 0 2Zm5.5 0H14a1 1 0 1 1 0-2h1.5a1 1 0 1 1 0 2Z" clip-rule="evenodd"/>`
         },
         children
       );
@@ -6181,7 +6181,7 @@ var Cash = defineComponent151({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M3 16.5v-9a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Z"/>`
+          innerHTML: `<path d="M7 12a.75.75 0 1 0-1.5 0A.75.75 0 0 0 7 12ZM12 9.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM18.5 12a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"/>`
         },
         children
       );
@@ -8641,7 +8641,7 @@ var Crown = defineComponent211({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M3 17v-6.958a.1.1 0 0 1 .03-.071l2.9-2.9a.1.1 0 0 1 .14 0L8.93 9.93a.1.1 0 0 0 .14 0l2.86-2.86a.1.1 0 0 1 .14 0l2.86 2.86a.1.1 0 0 0 .14 0l2.86-2.86a.1.1 0 0 1 .14 0l2.9 2.9a.1.1 0 0 1 .03.072V17a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Z"/>`
+          innerHTML: `<path d="M12 15.5a1.75 1.75 0 1 1 0-3.5 1.75 1.75 0 0 1 0 3.5Z"/>`
         },
         children
       );
@@ -11101,7 +11101,7 @@ var EyeOpen = defineComponent271({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M3.363 12.531c4.252 5.843 13.022 5.843 17.274 0a.9.9 0 0 0 0-1.062c-4.252-5.843-13.022-5.843-17.274 0a.9.9 0 0 0 0 1.062Z"/>`
+          innerHTML: `<path d="M12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z"/>`
         },
         children
       );
@@ -13069,7 +13069,7 @@ var Gear = defineComponent319({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="m13.112 4.397-.133-.643c-.219-1.064-1.74-1.064-1.958 0l-.133.643a1 1 0 0 1-1.727.463l-.436-.49c-.722-.813-2.038-.053-1.696.979l.207.623A1 1 0 0 1 5.97 7.236l-.622-.207c-1.032-.342-1.792.974-.98 1.696l.49.437a1 1 0 0 1-.462 1.726l-.643.133c-1.064.219-1.064 1.74 0 1.959l.643.132a1 1 0 0 1 .463 1.727l-.49.436c-.813.722-.053 2.039.979 1.696l.622-.206a1 1 0 0 1 1.265 1.264l-.207.623c-.342 1.03.974 1.791 1.696.979l.436-.49a1 1 0 0 1 1.727.462l.133.643c.219 1.064 1.74 1.064 1.958 0l.133-.643a1 1 0 0 1 1.727-.463l.436.491c.722.812 2.038.052 1.696-.98l-.207-.622a1 1 0 0 1 1.265-1.264l.622.206c1.032.343 1.792-.974.98-1.696l-.49-.436a1 1 0 0 1 .462-1.727l.643-.132c1.064-.22 1.064-1.74 0-1.96l-.643-.132a1 1 0 0 1-.463-1.726l.49-.437c.813-.722.053-2.038-.979-1.696l-.622.207a1 1 0 0 1-1.265-1.264l.207-.623c.342-1.032-.974-1.792-1.696-.98l-.436.49a1 1 0 0 1-1.727-.462Z"/>`
+          innerHTML: `<path d="m12.98 3.754.132.643a1 1 0 0 0 1.727.463l.436-.49c.722-.813 2.038-.053 1.696.979l-.207.623a1 1 0 0 0 1.265 1.264l.622-.207c1.032-.342 1.792.974.98 1.696l-.49.437a1 1 0 0 0 .462 1.726l.643.133c1.064.219 1.064 1.74 0 1.959l-.643.132a1 1 0 0 0-.463 1.727l.49.436c.813.722.053 2.039-.979 1.696l-.622-.206a1 1 0 0 0-1.265 1.264l.207.623c.342 1.03-.974 1.791-1.696.979l-.436-.49a1 1 0 0 0-1.727.462l-.133.643c-.219 1.064-1.74 1.064-1.958 0l-.133-.643a1 1 0 0 0-1.727-.463l-.436.491c-.722.812-2.038.052-1.696-.98l.207-.622a1 1 0 0 0-1.265-1.264l-.622.206c-1.032.343-1.792-.974-.98-1.696l.49-.436a1 1 0 0 0-.462-1.727l-.643-.132c-1.064-.22-1.064-1.74 0-1.96l.643-.132a1 1 0 0 0 .463-1.726l-.49-.437c-.813-.722-.053-2.038.979-1.696l.622.207a1 1 0 0 0 1.265-1.264l-.207-.623c-.342-1.032.974-1.792 1.696-.98l.436.49a1 1 0 0 0 1.727-.462l.133-.643c.219-1.064 1.74-1.064 1.958 0ZM8 12a4 4 0 1 0 8 0 4 4 0 0 0-8 0Z" clip-rule="evenodd"/>`
         },
         children
       );
@@ -14586,7 +14586,7 @@ var HourglassEnd = defineComponent356({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M5 5.324V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v1.324a5 5 0 0 1-2.227 4.16l-1.277.852a2 2 0 0 0 0 3.328l1.277.852A5 5 0 0 1 19 18.676V20a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-1.324a5 5 0 0 1 2.226-4.16l1.278-.852a2 2 0 0 0 0-3.328l-1.277-.852A5 5 0 0 1 5 5.324Z"/>`
+          innerHTML: `<path d="M7.225 19h9.184a.365.365 0 0 0 .364-.365.21.21 0 0 0-.123-.19l-1.265-.556a3.04 3.04 0 0 1-1.383-1.218 1.52 1.52 0 0 0-2.38-.293l-.402.402a3.9 3.9 0 0 1-1.699 1l-2.257.645a.364.364 0 0 0-.264.35c0 .124.1.225.225.225Z"/>`
         },
         children
       );
@@ -14627,7 +14627,7 @@ var HourglassStart = defineComponent357({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M5 18.676V20a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1.324a5 5 0 0 0-2.227-4.16l-1.277-.852a2 2 0 0 1 0-3.328l1.277-.852A5 5 0 0 0 19 5.324V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v1.324a5 5 0 0 0 2.226 4.16l1.278.852a2 2 0 0 1 0 3.328l-1.277.852A5 5 0 0 0 5 18.676Z"/>`
+          innerHTML: `<path d="M7.225 6h9.184c.201 0 .364.163.364.365a.21.21 0 0 1-.123.19L15 7.11a3.04 3.04 0 0 0-1.383 1.218c-.509.849-2.295.993-2.995.293l-.402-.402a4 4 0 0 0-.47-.4c-.739-.538-1.638-.81-2.452-1.227q-.034-.016-.07-.03A.36.36 0 0 1 7 6.225C7 6.101 7.1 6 7.225 6Z"/>`
         },
         children
       );
@@ -17087,7 +17087,7 @@ var Location = defineComponent417({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="m6.967 15.248 4.958 5.666a.1.1 0 0 0 .15 0l4.958-5.666a7.39 7.39 0 0 0 1.818-5.232l-.026-.524a6.833 6.833 0 0 0-13.65 0l-.026.524a7.39 7.39 0 0 0 1.818 5.232Z"/>`
+          innerHTML: `<path d="m11.925 20.914-4.958-5.666a7.39 7.39 0 0 1-1.818-5.232l.026-.524a6.833 6.833 0 0 1 13.65 0l.026.524a7.39 7.39 0 0 1-1.818 5.232l-4.958 5.666a.1.1 0 0 1-.15 0ZM12 7a3 3 0 1 1 0 6 3 3 0 0 1 0-6Z" clip-rule="evenodd"/>`
         },
         children
       );
@@ -20982,7 +20982,7 @@ var Pills = defineComponent512({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M6 3a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1z"/>`
+          innerHTML: `<path d="M5 20V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1Zm4.25-4.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Zm5.5 0a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Zm-5.5-4.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM16 12a1.25 1.25 0 1 0-2.5 0 1.25 1.25 0 0 0 2.5 0ZM9.25 6a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Zm5.5 0a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Z" clip-rule="evenodd"/>`
         },
         children
       );
@@ -21810,10 +21810,10 @@ var Pulse = defineComponent532({
   }
 });
 
-// src/icons/QrCode.ts
+// src/icons/PulseCircle.ts
 import { defineComponent as defineComponent533, h as h533 } from "vue";
-var QrCode = defineComponent533({
-  name: "QrCode",
+var PulseCircle = defineComponent533({
+  name: "PulseCircle",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21843,7 +21843,7 @@ var QrCode = defineComponent533({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M20.5 6.5v-2a1 1 0 0 0-1-1h-2m-11 0h-2a1 1 0 0 0-1 1v2m17 11v2a1 1 0 0 1-1 1h-2m-11 0h-2a1 1 0 0 1-1-1v-2m7.5-6h-.9a.1.1 0 0 0-.1.1v.8a.1.1 0 0 1-.1.1H8.1a.1.1 0 0 0-.1.1V15m10-6h-2.9a.1.1 0 0 1-.1-.1V6m3 3V7a1 1 0 0 0-1-1h-2m3 3v3m-3-6h-3.5M6 9V7a1 1 0 0 1 1-1h2M6 9v6m0-6h2m-2 6v2a1 1 0 0 0 1 1h2m-3-3h2m1 3v-2.9a.1.1 0 0 0-.1-.1H8m1 3h2.5M9 6v2.9a.1.1 0 0 1-.1.1H8m1-3h2.5m0 0v2m0 0H13m-1.5 0v1m-.5 5.5v.5m.5 3v-1m0 1h4m0 0H17a1 1 0 0 0 1-1v-2m-2.5 3v-1M13 10.5h.5M18 12v3m0-3h-2.5m2.5 3h-1.5m-1-4v1m0 0v.9a.1.1 0 0 1-.1.1h-2.3a.1.1 0 0 0-.1.1v1.8a.1.1 0 0 0 .1.1h.9M8 9v1"/>`
+          innerHTML: `<path d="M7 12.25h1.996a.525.525 0 0 0 .496-.334l1.414-3.806A.17.17 0 0 1 11.07 8c.082 0 .153.054.17.13l1.783 7.742a.17.17 0 0 0 .167.128.17.17 0 0 0 .163-.114l1.163-3.535a.52.52 0 0 1 .502-.351H17m4 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>`
         },
         children
       );
@@ -21851,10 +21851,10 @@ var QrCode = defineComponent533({
   }
 });
 
-// src/icons/Question.ts
+// src/icons/QrCode.ts
 import { defineComponent as defineComponent534, h as h534 } from "vue";
-var Question = defineComponent534({
-  name: "Question",
+var QrCode = defineComponent534({
+  name: "QrCode",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21884,7 +21884,7 @@ var Question = defineComponent534({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M9 10.5V10a3 3 0 0 1 3-3h.394a2.606 2.606 0 0 1 1.446 4.774L13.5 12c-.937.625-1.5 1.374-1.5 2.5m0 2v.5m0 4a9 9 0 1 1 0-18 9 9 0 0 1 0 18Z"/>`
+          innerHTML: `<path d="M20.5 6.5v-2a1 1 0 0 0-1-1h-2m-11 0h-2a1 1 0 0 0-1 1v2m17 11v2a1 1 0 0 1-1 1h-2m-11 0h-2a1 1 0 0 1-1-1v-2m7.5-6h-.9a.1.1 0 0 0-.1.1v.8a.1.1 0 0 1-.1.1H8.1a.1.1 0 0 0-.1.1V15m10-6h-2.9a.1.1 0 0 1-.1-.1V6m3 3V7a1 1 0 0 0-1-1h-2m3 3v3m-3-6h-3.5M6 9V7a1 1 0 0 1 1-1h2M6 9v6m0-6h2m-2 6v2a1 1 0 0 0 1 1h2m-3-3h2m1 3v-2.9a.1.1 0 0 0-.1-.1H8m1 3h2.5M9 6v2.9a.1.1 0 0 1-.1.1H8m1-3h2.5m0 0v2m0 0H13m-1.5 0v1m-.5 5.5v.5m.5 3v-1m0 1h4m0 0H17a1 1 0 0 0 1-1v-2m-2.5 3v-1M13 10.5h.5M18 12v3m0-3h-2.5m2.5 3h-1.5m-1-4v1m0 0v.9a.1.1 0 0 1-.1.1h-2.3a.1.1 0 0 0-.1.1v1.8a.1.1 0 0 0 .1.1h.9M8 9v1"/>`
         },
         children
       );
@@ -21892,10 +21892,10 @@ var Question = defineComponent534({
   }
 });
 
-// src/icons/Quote.ts
+// src/icons/Question.ts
 import { defineComponent as defineComponent535, h as h535 } from "vue";
-var Quote = defineComponent535({
-  name: "Quote",
+var Question = defineComponent535({
+  name: "Question",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21925,7 +21925,7 @@ var Quote = defineComponent535({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M10 7c0 9-5.5 13-5.5 13M10 7a3 3 0 1 0-6 0 3 3 0 0 0 6 0Zm10 0c0 9-5.5 13-5.5 13M20 7a3 3 0 1 0-6 0 3 3 0 0 0 6 0Z"/>`
+          innerHTML: `<path d="M9 10.5V10a3 3 0 0 1 3-3h.394a2.606 2.606 0 0 1 1.446 4.774L13.5 12c-.937.625-1.5 1.374-1.5 2.5m0 2v.5m0 4a9 9 0 1 1 0-18 9 9 0 0 1 0 18Z"/>`
         },
         children
       );
@@ -21933,10 +21933,10 @@ var Quote = defineComponent535({
   }
 });
 
-// src/icons/Radar.ts
+// src/icons/Quote.ts
 import { defineComponent as defineComponent536, h as h536 } from "vue";
-var Radar = defineComponent536({
-  name: "Radar",
+var Quote = defineComponent536({
+  name: "Quote",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21966,7 +21966,7 @@ var Radar = defineComponent536({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M12 13a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Zm0 0v8m2.5-6.169a5 5 0 1 0-5 0m6.258 2.16a7.5 7.5 0 1 0-7.48.021"/>`
+          innerHTML: `<path d="M10 7c0 9-5.5 13-5.5 13M10 7a3 3 0 1 0-6 0 3 3 0 0 0 6 0Zm10 0c0 9-5.5 13-5.5 13M20 7a3 3 0 1 0-6 0 3 3 0 0 0 6 0Z"/>`
         },
         children
       );
@@ -21974,10 +21974,10 @@ var Radar = defineComponent536({
   }
 });
 
-// src/icons/Radio.ts
+// src/icons/Radar.ts
 import { defineComponent as defineComponent537, h as h537 } from "vue";
-var Radio = defineComponent537({
-  name: "Radio",
+var Radar = defineComponent537({
+  name: "Radar",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22007,7 +22007,7 @@ var Radio = defineComponent537({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M12 12a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Zm0 0v9.5m2.5-7.669a5 5 0 0 0 2.5-4.33 5 5 0 0 0-2.5-4.332m-5 8.662A5 5 0 0 1 7 9.501a5 5 0 0 1 2.5-4.332m6.258-2.16A7.5 7.5 0 0 1 19.5 9.5a7.5 7.5 0 0 1-3.742 6.492m-7.516 0A7.5 7.5 0 0 1 4.5 9.5a7.5 7.5 0 0 1 3.742-6.492"/>`
+          innerHTML: `<path d="M12 13a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Zm0 0v8m2.5-6.169a5 5 0 1 0-5 0m6.258 2.16a7.5 7.5 0 1 0-7.48.021"/>`
         },
         children
       );
@@ -22015,10 +22015,10 @@ var Radio = defineComponent537({
   }
 });
 
-// src/icons/RadioAlt.ts
+// src/icons/Radio.ts
 import { defineComponent as defineComponent538, h as h538 } from "vue";
-var RadioAlt = defineComponent538({
-  name: "RadioAlt",
+var Radio = defineComponent538({
+  name: "Radio",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22048,7 +22048,7 @@ var RadioAlt = defineComponent538({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M16.5 8.5H4a1 1 0 0 0-1 1V18a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V9.5a1 1 0 0 0-1-1zm0 0 4-4m-4 4-4-4m1.5 11h3.5m0 0h1m-1 0V14m0 1.5V17m-6-3.25a3.25 3.25 0 1 0-6.5 0 3.25 3.25 0 0 0 6.5 0Z"/>`
+          innerHTML: `<path d="M12 12a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Zm0 0v9.5m2.5-7.669a5 5 0 0 0 2.5-4.33 5 5 0 0 0-2.5-4.332m-5 8.662A5 5 0 0 1 7 9.501a5 5 0 0 1 2.5-4.332m6.258-2.16A7.5 7.5 0 0 1 19.5 9.5a7.5 7.5 0 0 1-3.742 6.492m-7.516 0A7.5 7.5 0 0 1 4.5 9.5a7.5 7.5 0 0 1 3.742-6.492"/>`
         },
         children
       );
@@ -22056,10 +22056,10 @@ var RadioAlt = defineComponent538({
   }
 });
 
-// src/icons/Radioactive.ts
+// src/icons/RadioAlt.ts
 import { defineComponent as defineComponent539, h as h539 } from "vue";
-var Radioactive = defineComponent539({
-  name: "Radioactive",
+var RadioAlt = defineComponent539({
+  name: "RadioAlt",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22089,7 +22089,7 @@ var Radioactive = defineComponent539({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M16 18.428c.276.478.114 1.096-.392 1.317a9 9 0 0 1-7.216 0c-.506-.221-.668-.839-.392-1.317l1.5-2.598c.276-.479.888-.628 1.42-.478a4 4 0 0 0 2.16 0c.531-.15 1.143 0 1.42.478zM9.5 7.171c.276.478.101 1.082-.294 1.468a4 4 0 0 0-1.083 1.871c-.136.536-.57.99-1.123.99H4c-.552 0-1.006-.449-.944-.998a9 9 0 0 1 3.607-6.249c.445-.327 1.06-.16 1.337.32zM16 4.572c.276-.478.892-.646 1.336-.319a9 9 0 0 1 3.609 6.25c.06.548-.393.997-.945.997h-3c-.552 0-.987-.454-1.124-.99a4 4 0 0 0-1.083-1.871c-.395-.386-.57-.99-.294-1.468zM10.5 11.5a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0Z"/>`
+          innerHTML: `<path d="M16.5 8.5H4a1 1 0 0 0-1 1V18a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V9.5a1 1 0 0 0-1-1zm0 0 4-4m-4 4-4-4m1.5 11h3.5m0 0h1m-1 0V14m0 1.5V17m-6-3.25a3.25 3.25 0 1 0-6.5 0 3.25 3.25 0 0 0 6.5 0Z"/>`
         },
         children
       );
@@ -22097,10 +22097,10 @@ var Radioactive = defineComponent539({
   }
 });
 
-// src/icons/Ram.ts
+// src/icons/Radioactive.ts
 import { defineComponent as defineComponent540, h as h540 } from "vue";
-var Ram = defineComponent540({
-  name: "Ram",
+var Radioactive = defineComponent540({
+  name: "Radioactive",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22130,7 +22130,7 @@ var Ram = defineComponent540({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M4 14v1.9a.1.1 0 0 0 .1.1h5.8a.1.1 0 0 0 .1-.1V14m-6 0h6m-6 0a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1m-10 0h2m8 0v1.9a.1.1 0 0 1-.1.1h-7.8a.1.1 0 0 1-.1-.1V14m8 0h-8"/>`
+          innerHTML: `<path d="M16 18.428c.276.478.114 1.096-.392 1.317a9 9 0 0 1-7.216 0c-.506-.221-.668-.839-.392-1.317l1.5-2.598c.276-.479.888-.628 1.42-.478a4 4 0 0 0 2.16 0c.531-.15 1.143 0 1.42.478zM9.5 7.171c.276.478.101 1.082-.294 1.468a4 4 0 0 0-1.083 1.871c-.136.536-.57.99-1.123.99H4c-.552 0-1.006-.449-.944-.998a9 9 0 0 1 3.607-6.249c.445-.327 1.06-.16 1.337.32zM16 4.572c.276-.478.892-.646 1.336-.319a9 9 0 0 1 3.609 6.25c.06.548-.393.997-.945.997h-3c-.552 0-.987-.454-1.124-.99a4 4 0 0 0-1.083-1.871c-.395-.386-.57-.99-.294-1.468zM10.5 11.5a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0Z"/>`
         },
         children
       );
@@ -22138,10 +22138,10 @@ var Ram = defineComponent540({
   }
 });
 
-// src/icons/RamStrips.ts
+// src/icons/Ram.ts
 import { defineComponent as defineComponent541, h as h541 } from "vue";
-var RamStrips = defineComponent541({
-  name: "RamStrips",
+var Ram = defineComponent541({
+  name: "Ram",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22171,7 +22171,7 @@ var RamStrips = defineComponent541({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M3.5 15.5v1.9a.1.1 0 0 0 .1.1h4.3a.1.1 0 0 0 .1-.1v-1.9m-4.5 0H8m-4.5 0A.5.5 0 0 1 3 15v-3.5a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1V15a.5.5 0 0 1-.5.5m0 0v1.9a.1.1 0 0 1-.1.1h-6.3a.1.1 0 0 1-.1-.1v-1.9m6.5 0H10m0 0H8M19.5 14h.65a.1.1 0 0 0 .1-.1v-1.525c0-.207.168-.375.375-.375a.375.375 0 0 0 .375-.375V8a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1"/>`
+          innerHTML: `<path d="M4 14v1.9a.1.1 0 0 0 .1.1h5.8a.1.1 0 0 0 .1-.1V14m-6 0h6m-6 0a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1m-10 0h2m8 0v1.9a.1.1 0 0 1-.1.1h-7.8a.1.1 0 0 1-.1-.1V14m8 0h-8"/>`
         },
         children
       );
@@ -22179,10 +22179,10 @@ var RamStrips = defineComponent541({
   }
 });
 
-// src/icons/Receipt.ts
+// src/icons/RamStrips.ts
 import { defineComponent as defineComponent542, h as h542 } from "vue";
-var Receipt = defineComponent542({
-  name: "Receipt",
+var RamStrips = defineComponent542({
+  name: "RamStrips",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22212,7 +22212,7 @@ var Receipt = defineComponent542({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M8.5 7h4m3 0h-1m-6 3h4m3 0h-1m-6 3h4m3 0h-1M6 3.139V20.86a.1.1 0 0 0 .132.095l1.336-.445a.1.1 0 0 1 .064 0l1.436.478a.1.1 0 0 0 .064 0l1.436-.479a.1.1 0 0 1 .064 0l1.436.48a.1.1 0 0 0 .064 0l1.436-.48a.1.1 0 0 1 .064 0l1.436.48a.1.1 0 0 0 .064 0l1.436-.48a.1.1 0 0 1 .064 0l1.336.446a.1.1 0 0 0 .132-.095V3.14a.1.1 0 0 0-.132-.095l-1.336.445a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.336-.445A.1.1 0 0 0 6 3.139Z"/>`
+          innerHTML: `<path d="M3.5 15.5v1.9a.1.1 0 0 0 .1.1h4.3a.1.1 0 0 0 .1-.1v-1.9m-4.5 0H8m-4.5 0A.5.5 0 0 1 3 15v-3.5a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1V15a.5.5 0 0 1-.5.5m0 0v1.9a.1.1 0 0 1-.1.1h-6.3a.1.1 0 0 1-.1-.1v-1.9m6.5 0H10m0 0H8M19.5 14h.65a.1.1 0 0 0 .1-.1v-1.525c0-.207.168-.375.375-.375a.375.375 0 0 0 .375-.375V8a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1"/>`
         },
         children
       );
@@ -22220,10 +22220,10 @@ var Receipt = defineComponent542({
   }
 });
 
-// src/icons/ReceiptCheck.ts
+// src/icons/Receipt.ts
 import { defineComponent as defineComponent543, h as h543 } from "vue";
-var ReceiptCheck = defineComponent543({
-  name: "ReceiptCheck",
+var Receipt = defineComponent543({
+  name: "Receipt",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22253,7 +22253,7 @@ var ReceiptCheck = defineComponent543({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M8.5 7h4m3 0h-1m-6 3h4m3 0h-1m-6 3h4m3 0h-1m3.5 0a5 5 0 0 0-4.29 7.57M18 13a5 5 0 1 1-4.29 7.57M18 13V3.139a.1.1 0 0 0-.132-.095l-1.336.445a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.336-.445A.1.1 0 0 0 6 3.139V20.86a.1.1 0 0 0 .132.095l1.336-.445a.1.1 0 0 1 .064 0l1.436.478a.1.1 0 0 0 .064 0l1.436-.479a.1.1 0 0 1 .064 0l1.436.48a.1.1 0 0 0 .064 0l1.436-.48a.1.1 0 0 1 .064 0l.178.06M16 18l1.43 1.43a.1.1 0 0 0 .14 0L20 17"/>`
+          innerHTML: `<path d="M8.5 7h4m3 0h-1m-6 3h4m3 0h-1m-6 3h4m3 0h-1M6 3.139V20.86a.1.1 0 0 0 .132.095l1.336-.445a.1.1 0 0 1 .064 0l1.436.478a.1.1 0 0 0 .064 0l1.436-.479a.1.1 0 0 1 .064 0l1.436.48a.1.1 0 0 0 .064 0l1.436-.48a.1.1 0 0 1 .064 0l1.436.48a.1.1 0 0 0 .064 0l1.436-.48a.1.1 0 0 1 .064 0l1.336.446a.1.1 0 0 0 .132-.095V3.14a.1.1 0 0 0-.132-.095l-1.336.445a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.336-.445A.1.1 0 0 0 6 3.139Z"/>`
         },
         children
       );
@@ -22261,10 +22261,10 @@ var ReceiptCheck = defineComponent543({
   }
 });
 
-// src/icons/Record.ts
+// src/icons/ReceiptCheck.ts
 import { defineComponent as defineComponent544, h as h544 } from "vue";
-var Record = defineComponent544({
-  name: "Record",
+var ReceiptCheck = defineComponent544({
+  name: "ReceiptCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22294,7 +22294,7 @@ var Record = defineComponent544({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M6.5 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 0h11m0 0a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z"/>`
+          innerHTML: `<path d="M8.5 7h4m3 0h-1m-6 3h4m3 0h-1m-6 3h4m3 0h-1m3.5 0a5 5 0 0 0-4.29 7.57M18 13a5 5 0 1 1-4.29 7.57M18 13V3.139a.1.1 0 0 0-.132-.095l-1.336.445a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.336-.445A.1.1 0 0 0 6 3.139V20.86a.1.1 0 0 0 .132.095l1.336-.445a.1.1 0 0 1 .064 0l1.436.478a.1.1 0 0 0 .064 0l1.436-.479a.1.1 0 0 1 .064 0l1.436.48a.1.1 0 0 0 .064 0l1.436-.48a.1.1 0 0 1 .064 0l.178.06M16 18l1.43 1.43a.1.1 0 0 0 .14 0L20 17"/>`
         },
         children
       );
@@ -22302,10 +22302,10 @@ var Record = defineComponent544({
   }
 });
 
-// src/icons/RectangleHorizontal.ts
+// src/icons/Record.ts
 import { defineComponent as defineComponent545, h as h545 } from "vue";
-var RectangleHorizontal = defineComponent545({
-  name: "RectangleHorizontal",
+var Record = defineComponent545({
+  name: "Record",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22335,7 +22335,7 @@ var RectangleHorizontal = defineComponent545({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M20 5.5H4a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-11a1 1 0 0 0-1-1Z"/>`
+          innerHTML: `<path d="M6.5 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 0h11m0 0a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z"/>`
         },
         children
       );
@@ -22343,10 +22343,10 @@ var RectangleHorizontal = defineComponent545({
   }
 });
 
-// src/icons/RectangleVertical.ts
+// src/icons/RectangleHorizontal.ts
 import { defineComponent as defineComponent546, h as h546 } from "vue";
-var RectangleVertical = defineComponent546({
-  name: "RectangleVertical",
+var RectangleHorizontal = defineComponent546({
+  name: "RectangleHorizontal",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22376,7 +22376,7 @@ var RectangleVertical = defineComponent546({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M18.5 20V4a1 1 0 0 0-1-1h-11a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1Z"/>`
+          innerHTML: `<path d="M20 5.5H4a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-11a1 1 0 0 0-1-1Z"/>`
         },
         children
       );
@@ -22384,10 +22384,10 @@ var RectangleVertical = defineComponent546({
   }
 });
 
-// src/icons/Recycle.ts
+// src/icons/RectangleVertical.ts
 import { defineComponent as defineComponent547, h as h547 } from "vue";
-var Recycle = defineComponent547({
-  name: "Recycle",
+var RectangleVertical = defineComponent547({
+  name: "RectangleVertical",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22417,7 +22417,7 @@ var Recycle = defineComponent547({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M7 18H4.766a1 1 0 0 1-.857-1.514l4.716-7.86m0 0-3.978.994m3.978-.995.994 3.978m8.006-.228.994-3.977m-.994 3.977-3.977-.994m3.977.994L12.857 4.43a1 1 0 0 0-1.715 0L10.2 6l-.2.333M9.75 18h9.484a1 1 0 0 0 .857-1.514l-.966-1.61M9.75 18l2.983 2.983M9.75 18l2.983-2.983"/>`
+          innerHTML: `<path d="M18.5 20V4a1 1 0 0 0-1-1h-11a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1Z"/>`
         },
         children
       );
@@ -22425,10 +22425,10 @@ var Recycle = defineComponent547({
   }
 });
 
-// src/icons/Refresh.ts
+// src/icons/Recycle.ts
 import { defineComponent as defineComponent548, h as h548 } from "vue";
-var Refresh = defineComponent548({
-  name: "Refresh",
+var Recycle = defineComponent548({
+  name: "Recycle",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22458,7 +22458,7 @@ var Refresh = defineComponent548({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M7.23 18.423A8 8 0 1 1 12 20m-4.77-1.577L3 18.5m4.23-.077V14"/>`
+          innerHTML: `<path d="M7 18H4.766a1 1 0 0 1-.857-1.514l4.716-7.86m0 0-3.978.994m3.978-.995.994 3.978m8.006-.228.994-3.977m-.994 3.977-3.977-.994m3.977.994L12.857 4.43a1 1 0 0 0-1.715 0L10.2 6l-.2.333M9.75 18h9.484a1 1 0 0 0 .857-1.514l-.966-1.61M9.75 18l2.983 2.983M9.75 18l2.983-2.983"/>`
         },
         children
       );
@@ -22466,10 +22466,10 @@ var Refresh = defineComponent548({
   }
 });
 
-// src/icons/Reload.ts
+// src/icons/Refresh.ts
 import { defineComponent as defineComponent549, h as h549 } from "vue";
-var Reload = defineComponent549({
-  name: "Reload",
+var Refresh = defineComponent549({
+  name: "Refresh",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22499,7 +22499,7 @@ var Reload = defineComponent549({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M16.77 18.423A8 8 0 1 0 12 20m4.77-1.577L21 18.5m-4.23-.077V14"/>`
+          innerHTML: `<path d="M7.23 18.423A8 8 0 1 1 12 20m-4.77-1.577L3 18.5m4.23-.077V14"/>`
         },
         children
       );
@@ -22507,10 +22507,10 @@ var Reload = defineComponent549({
   }
 });
 
-// src/icons/Render.ts
+// src/icons/Reload.ts
 import { defineComponent as defineComponent550, h as h550 } from "vue";
-var Render = defineComponent550({
-  name: "Render",
+var Reload = defineComponent550({
+  name: "Reload",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22540,7 +22540,7 @@ var Render = defineComponent550({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M12 11 7.509 9.004M12 11l4.491-1.996M12 11v4.995m8.982-8.987a.1.1 0 0 0-.041-.035l-4.45-1.977m4.491 2.012a.1.1 0 0 1 .018.057V12m-.018-4.992-4.49 1.996M3.017 7.008a.1.1 0 0 1 .041-.035l4.45-1.977 4.45-1.978a.1.1 0 0 1 .082 0l4.45 1.978M3.018 7.008A.1.1 0 0 0 3 7.065v9.87a.1.1 0 0 0 .06.091l4.45 1.978M3.017 7.008l4.49 1.996M12 20.99a.1.1 0 0 1-.04-.008l-4.45-1.978M12 20.99a.1.1 0 0 0 .04-.008l4.45-1.978M12 20.99v-4.995m4.49-11L12 7M7.509 9.004 11.999 7M7.51 9.004v5m0 5v-5M12 7l4.492 2.004m0 0v5m0 5 4.45-1.978a.1.1 0 0 0 .059-.091V12m-4.51 7.004v-5M12 15.995l-4.49-1.991M12 15.995l4.49-1.991m0 0L21 12"/>`
+          innerHTML: `<path d="M16.77 18.423A8 8 0 1 0 12 20m4.77-1.577L21 18.5m-4.23-.077V14"/>`
         },
         children
       );
@@ -22548,10 +22548,10 @@ var Render = defineComponent550({
   }
 });
 
-// src/icons/RenderPreview.ts
+// src/icons/Render.ts
 import { defineComponent as defineComponent551, h as h551 } from "vue";
-var RenderPreview = defineComponent551({
-  name: "RenderPreview",
+var Render = defineComponent551({
+  name: "Render",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22581,7 +22581,7 @@ var RenderPreview = defineComponent551({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M20.982 7.008a.1.1 0 0 0-.041-.035l-4.45-1.977m4.491 2.012a.1.1 0 0 1 .018.057V12m-.018-4.992-4.49 1.996M3.017 7.008a.1.1 0 0 1 .041-.035l8.9-3.955a.1.1 0 0 1 .082 0l4.45 1.978M3.018 7.008A.1.1 0 0 0 3 7.065v9.87a.1.1 0 0 0 .06.091l4.45 1.978M3.017 7.008l4.49 1.996M12 20.99a.1.1 0 0 1-.04-.008l-4.45-1.978M12 20.99a.1.1 0 0 0 .04-.008l1.522-.676M12 20.99v-4.995m4.49-11L12 7m0 4L7.509 9.004M12 11l4.491-1.996M12 11v4.995M7.509 9.004 11.999 7M7.51 9.004v5m0 5v-5M12 7l4.492 2.004m0 0v4.228M12 15.995l-4.49-1.991M12 15.995l1.885-.835M21 12l-2.346 1.042M21 12v2m-2.086 4.914a2 2 0 1 1-2.828-2.828 2 2 0 0 1 2.828 2.828Zm0 0L20 20m-1.346-6.958a5.05 5.05 0 0 0-2.163.19m2.163-.19A5 5 0 0 1 21 14m0 0a5 5 0 1 1-7.438 6.306m.323-5.147A4.98 4.98 0 0 0 13 18c0 .832.203 1.616.562 2.306m.323-5.147a5 5 0 0 1 2.606-1.927"/>`
+          innerHTML: `<path d="M12 11 7.509 9.004M12 11l4.491-1.996M12 11v4.995m8.982-8.987a.1.1 0 0 0-.041-.035l-4.45-1.977m4.491 2.012a.1.1 0 0 1 .018.057V12m-.018-4.992-4.49 1.996M3.017 7.008a.1.1 0 0 1 .041-.035l4.45-1.977 4.45-1.978a.1.1 0 0 1 .082 0l4.45 1.978M3.018 7.008A.1.1 0 0 0 3 7.065v9.87a.1.1 0 0 0 .06.091l4.45 1.978M3.017 7.008l4.49 1.996M12 20.99a.1.1 0 0 1-.04-.008l-4.45-1.978M12 20.99a.1.1 0 0 0 .04-.008l4.45-1.978M12 20.99v-4.995m4.49-11L12 7M7.509 9.004 11.999 7M7.51 9.004v5m0 5v-5M12 7l4.492 2.004m0 0v5m0 5 4.45-1.978a.1.1 0 0 0 .059-.091V12m-4.51 7.004v-5M12 15.995l-4.49-1.991M12 15.995l4.49-1.991m0 0L21 12"/>`
         },
         children
       );
@@ -22589,10 +22589,10 @@ var RenderPreview = defineComponent551({
   }
 });
 
-// src/icons/RenderRegion.ts
+// src/icons/RenderPreview.ts
 import { defineComponent as defineComponent552, h as h552 } from "vue";
-var RenderRegion = defineComponent552({
-  name: "RenderRegion",
+var RenderPreview = defineComponent552({
+  name: "RenderPreview",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22622,7 +22622,7 @@ var RenderRegion = defineComponent552({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M18.5 9.5V16m0-6.5-6.47-1.99a.1.1 0 0 0-.06 0L5.5 9.5m13 0-6.5 2m-6.5-2V16m0-6.5 6.5 2m0 0V16m0 0v1.125M12 16h6.5M12 16H5.5m13 0h2.4a.1.1 0 0 0 .1-.1V4.6a.1.1 0 0 0-.1-.1H3.1a.1.1 0 0 0-.1.1v11.3a.1.1 0 0 0 .1.1h2.4m.813 2.75-.742-.228a.1.1 0 0 1-.071-.096v-.488m5.688 2.312.783.241q.015.004.029.004m.813-.245-.784.241a.1.1 0 0 1-.029.004m5.688-1.745.741-.228a.1.1 0 0 0 .071-.096v-.488M8.14 19.313l1.22.375m5.28 0 1.22-.375m-3.86.062v1.12"/>`
+          innerHTML: `<path d="M20.982 7.008a.1.1 0 0 0-.041-.035l-4.45-1.977m4.491 2.012a.1.1 0 0 1 .018.057V12m-.018-4.992-4.49 1.996M3.017 7.008a.1.1 0 0 1 .041-.035l8.9-3.955a.1.1 0 0 1 .082 0l4.45 1.978M3.018 7.008A.1.1 0 0 0 3 7.065v9.87a.1.1 0 0 0 .06.091l4.45 1.978M3.017 7.008l4.49 1.996M12 20.99a.1.1 0 0 1-.04-.008l-4.45-1.978M12 20.99a.1.1 0 0 0 .04-.008l1.522-.676M12 20.99v-4.995m4.49-11L12 7m0 4L7.509 9.004M12 11l4.491-1.996M12 11v4.995M7.509 9.004 11.999 7M7.51 9.004v5m0 5v-5M12 7l4.492 2.004m0 0v4.228M12 15.995l-4.49-1.991M12 15.995l1.885-.835M21 12l-2.346 1.042M21 12v2m-2.086 4.914a2 2 0 1 1-2.828-2.828 2 2 0 0 1 2.828 2.828Zm0 0L20 20m-1.346-6.958a5.05 5.05 0 0 0-2.163.19m2.163-.19A5 5 0 0 1 21 14m0 0a5 5 0 1 1-7.438 6.306m.323-5.147A4.98 4.98 0 0 0 13 18c0 .832.203 1.616.562 2.306m.323-5.147a5 5 0 0 1 2.606-1.927"/>`
         },
         children
       );
@@ -22630,10 +22630,10 @@ var RenderRegion = defineComponent552({
   }
 });
 
-// src/icons/Reply.ts
+// src/icons/RenderRegion.ts
 import { defineComponent as defineComponent553, h as h553 } from "vue";
-var Reply = defineComponent553({
-  name: "Reply",
+var RenderRegion = defineComponent553({
+  name: "RenderRegion",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22663,7 +22663,7 @@ var Reply = defineComponent553({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M16 13a3 3 0 0 0-3-3H8m0 0 2.5-2.5M8 10l2.5 2.5M9 4.5h6a6 6 0 0 1 2.651 11.384c-.38.188-.652.559-.588.978.09.59.307 1.432.837 2.031.062.07.1.16.1.253a.34.34 0 0 1-.354.346c-2.565-.118-3.805-1.506-4.325-2.35-.226-.366-.611-.642-1.042-.642H9a6 6 0 0 1 0-12Z"/>`
+          innerHTML: `<path d="M18.5 9.5V16m0-6.5-6.47-1.99a.1.1 0 0 0-.06 0L5.5 9.5m13 0-6.5 2m-6.5-2V16m0-6.5 6.5 2m0 0V16m0 0v1.125M12 16h6.5M12 16H5.5m13 0h2.4a.1.1 0 0 0 .1-.1V4.6a.1.1 0 0 0-.1-.1H3.1a.1.1 0 0 0-.1.1v11.3a.1.1 0 0 0 .1.1h2.4m.813 2.75-.742-.228a.1.1 0 0 1-.071-.096v-.488m5.688 2.312.783.241q.015.004.029.004m.813-.245-.784.241a.1.1 0 0 1-.029.004m5.688-1.745.741-.228a.1.1 0 0 0 .071-.096v-.488M8.14 19.313l1.22.375m5.28 0 1.22-.375m-3.86.062v1.12"/>`
         },
         children
       );
@@ -22671,10 +22671,10 @@ var Reply = defineComponent553({
   }
 });
 
-// src/icons/Restart.ts
+// src/icons/Reply.ts
 import { defineComponent as defineComponent554, h as h554 } from "vue";
-var Restart = defineComponent554({
-  name: "Restart",
+var Reply = defineComponent554({
+  name: "Reply",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22704,7 +22704,7 @@ var Restart = defineComponent554({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M15 5.582A8.003 8.003 0 0 1 12 21 8 8 0 0 1 9 5.582m6 0 .5 3.918M15 5.582 19 5m-7-2.5V12"/>`
+          innerHTML: `<path d="M16 13a3 3 0 0 0-3-3H8m0 0 2.5-2.5M8 10l2.5 2.5M9 4.5h6a6 6 0 0 1 2.651 11.384c-.38.188-.652.559-.588.978.09.59.307 1.432.837 2.031.062.07.1.16.1.253a.34.34 0 0 1-.354.346c-2.565-.118-3.805-1.506-4.325-2.35-.226-.366-.611-.642-1.042-.642H9a6 6 0 0 1 0-12Z"/>`
         },
         children
       );
@@ -22712,10 +22712,10 @@ var Restart = defineComponent554({
   }
 });
 
-// src/icons/Resurect.ts
+// src/icons/Restart.ts
 import { defineComponent as defineComponent555, h as h555 } from "vue";
-var Resurect = defineComponent555({
-  name: "Resurect",
+var Restart = defineComponent555({
+  name: "Restart",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22745,7 +22745,7 @@ var Resurect = defineComponent555({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M7 12.25h1.996a.525.525 0 0 0 .496-.334l1.414-3.806A.17.17 0 0 1 11.07 8c.082 0 .153.054.17.13l1.783 7.742a.17.17 0 0 0 .167.128.17.17 0 0 0 .163-.114l1.163-3.535a.52.52 0 0 1 .502-.351H17m4 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>`
+          innerHTML: `<path d="M15 5.582A8.003 8.003 0 0 1 12 21 8 8 0 0 1 9 5.582m6 0 .5 3.918M15 5.582 19 5m-7-2.5V12"/>`
         },
         children
       );
@@ -23860,10 +23860,10 @@ var Shader = defineComponent582({
   }
 });
 
-// src/icons/Shadow.ts
+// src/icons/ShadowHard.ts
 import { defineComponent as defineComponent583, h as h583 } from "vue";
-var Shadow = defineComponent583({
-  name: "Shadow",
+var ShadowHard = defineComponent583({
+  name: "ShadowHard",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23901,10 +23901,10 @@ var Shadow = defineComponent583({
   }
 });
 
-// src/icons/Share.ts
+// src/icons/ShadowSoft.ts
 import { defineComponent as defineComponent584, h as h584 } from "vue";
-var Share = defineComponent584({
-  name: "Share",
+var ShadowSoft = defineComponent584({
+  name: "ShadowSoft",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23934,7 +23934,7 @@ var Share = defineComponent584({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M9.146 5a.35.35 0 0 0-.25.104l-5.189 5.189a1 1 0 0 0 0 1.414l5.19 5.19a.353.353 0 0 0 .603-.25V15a1 1 0 0 1 1-1h1.377a9 9 0 0 1 7.204 3.605l1.319 1.761a.333.333 0 0 0 .6-.2V17a9 9 0 0 0-9-9h-1.5a1 1 0 0 1-1-1V5.354A.354.354 0 0 0 9.146 5Z"/>`
+          innerHTML: `<path d="m14.914 15.086-5.581 5.581m8.927-4.927L13 21m7.749-3.749-3.223 3.223m-11.188-.812 2.724-2.724m0 0q.46.061.938.062c1.867 0 3.563-.73 4.818-1.922a7 7 0 1 0-5.756 1.86Z"/>`
         },
         children
       );
@@ -23942,10 +23942,10 @@ var Share = defineComponent584({
   }
 });
 
-// src/icons/SheetsDrying.ts
+// src/icons/Share.ts
 import { defineComponent as defineComponent585, h as h585 } from "vue";
-var SheetsDrying = defineComponent585({
-  name: "SheetsDrying",
+var Share = defineComponent585({
+  name: "Share",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23975,7 +23975,7 @@ var SheetsDrying = defineComponent585({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M2.5 5C4 6 7.2 7.5 12 7.5S20 6 21.5 5M19 3.5l-1.5 4.282m0 0V9.5m0-1.718C18.64 7.507 20 8 20 9v8.882a.93.93 0 0 1-.562.873C18.175 19.28 15.737 20 12 20s-6.175-.721-7.438-1.245A.93.93 0 0 1 4 17.882V9c0-1 1.36-1.493 2.5-1.218m11 0C16.5 8 15.5 8.5 14 10m3.5-2.218L16 3.5M14 10c-1.5 1.5-3.5 2.5-6 2.5m6-2.5c-3.6 0-6.5-1.977-7.5-2.218M5 3.5l1.5 4.282m0 0V9.5m0-1.718L8 3.5"/>`
+          innerHTML: `<path d="M9.146 5a.35.35 0 0 0-.25.104l-5.189 5.189a1 1 0 0 0 0 1.414l5.19 5.19a.353.353 0 0 0 .603-.25V15a1 1 0 0 1 1-1h1.377a9 9 0 0 1 7.204 3.605l1.319 1.761a.333.333 0 0 0 .6-.2V17a9 9 0 0 0-9-9h-1.5a1 1 0 0 1-1-1V5.354A.354.354 0 0 0 9.146 5Z"/>`
         },
         children
       );
@@ -23983,10 +23983,10 @@ var SheetsDrying = defineComponent585({
   }
 });
 
-// src/icons/Shield.ts
+// src/icons/SheetsDrying.ts
 import { defineComponent as defineComponent586, h as h586 } from "vue";
-var Shield = defineComponent586({
-  name: "Shield",
+var SheetsDrying = defineComponent586({
+  name: "SheetsDrying",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24016,7 +24016,7 @@ var Shield = defineComponent586({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M19 4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v8.065a9 9 0 0 0 5.455 8.273l1.151.493a1 1 0 0 0 .788 0l1.151-.493A9 9 0 0 0 19 12.065z"/>`
+          innerHTML: `<path d="M2.5 5C4 6 7.2 7.5 12 7.5S20 6 21.5 5M19 3.5l-1.5 4.282m0 0V9.5m0-1.718C18.64 7.507 20 8 20 9v8.882a.93.93 0 0 1-.562.873C18.175 19.28 15.737 20 12 20s-6.175-.721-7.438-1.245A.93.93 0 0 1 4 17.882V9c0-1 1.36-1.493 2.5-1.218m11 0C16.5 8 15.5 8.5 14 10m3.5-2.218L16 3.5M14 10c-1.5 1.5-3.5 2.5-6 2.5m6-2.5c-3.6 0-6.5-1.977-7.5-2.218M5 3.5l1.5 4.282m0 0V9.5m0-1.718L8 3.5"/>`
         },
         children
       );
@@ -24024,10 +24024,10 @@ var Shield = defineComponent586({
   }
 });
 
-// src/icons/ShieldCheck.ts
+// src/icons/Shield.ts
 import { defineComponent as defineComponent587, h as h587 } from "vue";
-var ShieldCheck = defineComponent587({
-  name: "ShieldCheck",
+var Shield = defineComponent587({
+  name: "Shield",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24057,7 +24057,7 @@ var ShieldCheck = defineComponent587({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="m16 18 1.43 1.43a.1.1 0 0 0 .14 0L20 17m-1.058-3.911a5 5 0 0 0-5.37 7.237m5.37-7.237A5.002 5.002 0 0 1 18 23a5 5 0 0 1-4.427-2.674m5.369-7.237q.058-.506.058-1.024V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v8.065a9 9 0 0 0 5.455 8.273l1.151.493a1 1 0 0 0 .788 0l1.151-.493.028-.012"/>`
+          innerHTML: `<path d="M19 4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v8.065a9 9 0 0 0 5.455 8.273l1.151.493a1 1 0 0 0 .788 0l1.151-.493A9 9 0 0 0 19 12.065z"/>`
         },
         children
       );
@@ -24065,10 +24065,10 @@ var ShieldCheck = defineComponent587({
   }
 });
 
-// src/icons/ShieldCross.ts
+// src/icons/ShieldCheck.ts
 import { defineComponent as defineComponent588, h as h588 } from "vue";
-var ShieldCross = defineComponent588({
-  name: "ShieldCross",
+var ShieldCheck = defineComponent588({
+  name: "ShieldCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24098,7 +24098,7 @@ var ShieldCross = defineComponent588({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="m18 18 1.5-1.5M18 18l1.5 1.5M18 18l-1.5 1.5M18 18l-1.5-1.5m2.442-3.411a5 5 0 0 0-5.37 7.237m5.37-7.237A5.002 5.002 0 0 1 18 23a5 5 0 0 1-4.427-2.674m5.369-7.237q.058-.506.058-1.024V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v8.065a9 9 0 0 0 5.455 8.273l1.151.493a1 1 0 0 0 .788 0l1.151-.493.028-.012"/>`
+          innerHTML: `<path d="m16 18 1.43 1.43a.1.1 0 0 0 .14 0L20 17m-1.058-3.911a5 5 0 0 0-5.37 7.237m5.37-7.237A5.002 5.002 0 0 1 18 23a5 5 0 0 1-4.427-2.674m5.369-7.237q.058-.506.058-1.024V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v8.065a9 9 0 0 0 5.455 8.273l1.151.493a1 1 0 0 0 .788 0l1.151-.493.028-.012"/>`
         },
         children
       );
@@ -24106,10 +24106,10 @@ var ShieldCross = defineComponent588({
   }
 });
 
-// src/icons/ShoppingBag.ts
+// src/icons/ShieldCross.ts
 import { defineComponent as defineComponent589, h as h589 } from "vue";
-var ShoppingBag = defineComponent589({
-  name: "ShoppingBag",
+var ShieldCross = defineComponent589({
+  name: "ShieldCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24139,7 +24139,7 @@ var ShoppingBag = defineComponent589({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21h13.84a1 1 0 0 0 .997-1.077l-.846-11A1 1 0 0 0 18.074 8H16M8 8V7a4 4 0 0 1 8 0v1M8 8h8m-8 2.5v.5a4 4 0 0 0 8 0v-.5"/>`
+          innerHTML: `<path d="m18 18 1.5-1.5M18 18l1.5 1.5M18 18l-1.5 1.5M18 18l-1.5-1.5m2.442-3.411a5 5 0 0 0-5.37 7.237m5.37-7.237A5.002 5.002 0 0 1 18 23a5 5 0 0 1-4.427-2.674m5.369-7.237q.058-.506.058-1.024V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v8.065a9 9 0 0 0 5.455 8.273l1.151.493a1 1 0 0 0 .788 0l1.151-.493.028-.012"/>`
         },
         children
       );
@@ -24147,10 +24147,10 @@ var ShoppingBag = defineComponent589({
   }
 });
 
-// src/icons/ShoppingBagCheck.ts
+// src/icons/ShoppingBag.ts
 import { defineComponent as defineComponent590, h as h590 } from "vue";
-var ShoppingBagCheck = defineComponent590({
-  name: "ShoppingBagCheck",
+var ShoppingBag = defineComponent590({
+  name: "ShoppingBag",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24180,7 +24180,7 @@ var ShoppingBagCheck = defineComponent590({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21H14M8 8V7a4 4 0 1 1 8 0v1M8 8h8m0 0h2.074a1 1 0 0 1 .997.923L19.4 13.2M8 10.5v.5a4 4 0 0 0 8 0v-.5m3.4 2.699A5 5 0 0 0 14 21m5.4-7.801A5 5 0 1 1 14 21m2-3 1.43 1.43a.1.1 0 0 0 .14 0L20 17"/>`
+          innerHTML: `<path d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21h13.84a1 1 0 0 0 .997-1.077l-.846-11A1 1 0 0 0 18.074 8H16M8 8V7a4 4 0 0 1 8 0v1M8 8h8m-8 2.5v.5a4 4 0 0 0 8 0v-.5"/>`
         },
         children
       );
@@ -24188,10 +24188,10 @@ var ShoppingBagCheck = defineComponent590({
   }
 });
 
-// src/icons/ShoppingBagCross.ts
+// src/icons/ShoppingBagCheck.ts
 import { defineComponent as defineComponent591, h as h591 } from "vue";
-var ShoppingBagCross = defineComponent591({
-  name: "ShoppingBagCross",
+var ShoppingBagCheck = defineComponent591({
+  name: "ShoppingBagCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24221,7 +24221,7 @@ var ShoppingBagCross = defineComponent591({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21H14M8 8V7a4 4 0 1 1 8 0v1M8 8h8m0 0h2.074a1 1 0 0 1 .997.923L19.4 13.2M8 10.5v.5a4 4 0 0 0 8 0v-.5m3.4 2.699A5 5 0 0 0 14 21m5.4-7.801A5 5 0 1 1 14 21m4-3 1.5-1.5M18 18l1.5 1.5M18 18l-1.5 1.5M18 18l-1.5-1.5"/>`
+          innerHTML: `<path d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21H14M8 8V7a4 4 0 1 1 8 0v1M8 8h8m0 0h2.074a1 1 0 0 1 .997.923L19.4 13.2M8 10.5v.5a4 4 0 0 0 8 0v-.5m3.4 2.699A5 5 0 0 0 14 21m5.4-7.801A5 5 0 1 1 14 21m2-3 1.43 1.43a.1.1 0 0 0 .14 0L20 17"/>`
         },
         children
       );
@@ -24229,10 +24229,10 @@ var ShoppingBagCross = defineComponent591({
   }
 });
 
-// src/icons/ShoppingBagMinus.ts
+// src/icons/ShoppingBagCross.ts
 import { defineComponent as defineComponent592, h as h592 } from "vue";
-var ShoppingBagMinus = defineComponent592({
-  name: "ShoppingBagMinus",
+var ShoppingBagCross = defineComponent592({
+  name: "ShoppingBagCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24262,7 +24262,7 @@ var ShoppingBagMinus = defineComponent592({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21H14M8 8V7a4 4 0 1 1 8 0v1M8 8h8m0 0h2.074a1 1 0 0 1 .997.923L19.4 13.2M8 10.5v.5a4 4 0 0 0 8 0v-.5m3.4 2.699A5 5 0 0 0 14 21m5.4-7.801A5 5 0 1 1 14 21m1.5-3h5"/>`
+          innerHTML: `<path d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21H14M8 8V7a4 4 0 1 1 8 0v1M8 8h8m0 0h2.074a1 1 0 0 1 .997.923L19.4 13.2M8 10.5v.5a4 4 0 0 0 8 0v-.5m3.4 2.699A5 5 0 0 0 14 21m5.4-7.801A5 5 0 1 1 14 21m4-3 1.5-1.5M18 18l1.5 1.5M18 18l-1.5 1.5M18 18l-1.5-1.5"/>`
         },
         children
       );
@@ -24270,10 +24270,10 @@ var ShoppingBagMinus = defineComponent592({
   }
 });
 
-// src/icons/ShoppingBagPlus.ts
+// src/icons/ShoppingBagMinus.ts
 import { defineComponent as defineComponent593, h as h593 } from "vue";
-var ShoppingBagPlus = defineComponent593({
-  name: "ShoppingBagPlus",
+var ShoppingBagMinus = defineComponent593({
+  name: "ShoppingBagMinus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24303,7 +24303,7 @@ var ShoppingBagPlus = defineComponent593({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21H14M8 8V7a4 4 0 0 1 8 0v1M8 8h8m0 0h2.074a1 1 0 0 1 .997.923L19.4 13.2M8 10.5v.5a4 4 0 0 0 8 0v-.5m2 7.5v-2.5m0 2.5h2.5M18 18v2.5m0-2.5h-2.5m3.9-4.801A5 5 0 0 0 14 21m5.4-7.801A5 5 0 1 1 14 21"/>`
+          innerHTML: `<path d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21H14M8 8V7a4 4 0 1 1 8 0v1M8 8h8m0 0h2.074a1 1 0 0 1 .997.923L19.4 13.2M8 10.5v.5a4 4 0 0 0 8 0v-.5m3.4 2.699A5 5 0 0 0 14 21m5.4-7.801A5 5 0 1 1 14 21m1.5-3h5"/>`
         },
         children
       );
@@ -24311,10 +24311,10 @@ var ShoppingBagPlus = defineComponent593({
   }
 });
 
-// src/icons/Shuffle.ts
+// src/icons/ShoppingBagPlus.ts
 import { defineComponent as defineComponent594, h as h594 } from "vue";
-var Shuffle = defineComponent594({
-  name: "Shuffle",
+var ShoppingBagPlus = defineComponent594({
+  name: "ShoppingBagPlus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24344,7 +24344,7 @@ var Shuffle = defineComponent594({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M20 17h-2.658a6 6 0 0 1-5.101-2.842L10.905 12M20 17l-3-3m3 3-3 3m-6.095-8L9.342 9.476A6.28 6.28 0 0 0 4 6.5m6.905 5.5 1.336-2.158A6 6 0 0 1 17.342 7H20m-9.095 5-1.563 2.524A6.28 6.28 0 0 1 4 17.5M20 7l-3 3m3-3-3-3"/>`
+          innerHTML: `<path d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21H14M8 8V7a4 4 0 0 1 8 0v1M8 8h8m0 0h2.074a1 1 0 0 1 .997.923L19.4 13.2M8 10.5v.5a4 4 0 0 0 8 0v-.5m2 7.5v-2.5m0 2.5h2.5M18 18v2.5m0-2.5h-2.5m3.9-4.801A5 5 0 0 0 14 21m5.4-7.801A5 5 0 1 1 14 21"/>`
         },
         children
       );
@@ -24352,10 +24352,10 @@ var Shuffle = defineComponent594({
   }
 });
 
-// src/icons/Signal.ts
+// src/icons/Shuffle.ts
 import { defineComponent as defineComponent595, h as h595 } from "vue";
-var Signal = defineComponent595({
-  name: "Signal",
+var Shuffle = defineComponent595({
+  name: "Shuffle",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24385,7 +24385,7 @@ var Signal = defineComponent595({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M9.172 9.172a4 4 0 0 0 0 5.656m5.656-5.656a4 4 0 0 1 0 5.656M7.404 7.404a6.5 6.5 0 0 0 0 9.192m9.192-9.192a6.5 6.5 0 0 1 0 9.192m1.768-10.96a9 9 0 0 1 0 12.728M5.636 5.636a9 9 0 0 0 0 12.728m7.425-7.425a1.5 1.5 0 1 0-2.122 2.122 1.5 1.5 0 0 0 2.122-2.122Z"/>`
+          innerHTML: `<path d="M20 17h-2.658a6 6 0 0 1-5.101-2.842L10.905 12M20 17l-3-3m3 3-3 3m-6.095-8L9.342 9.476A6.28 6.28 0 0 0 4 6.5m6.905 5.5 1.336-2.158A6 6 0 0 1 17.342 7H20m-9.095 5-1.563 2.524A6.28 6.28 0 0 1 4 17.5M20 7l-3 3m3-3-3-3"/>`
         },
         children
       );
@@ -24393,10 +24393,10 @@ var Signal = defineComponent595({
   }
 });
 
-// src/icons/Signpost.ts
+// src/icons/Signal.ts
 import { defineComponent as defineComponent596, h as h596 } from "vue";
-var Signpost = defineComponent596({
-  name: "Signpost",
+var Signal = defineComponent596({
+  name: "Signal",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24426,7 +24426,7 @@ var Signpost = defineComponent596({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M11 21v-9m0 0h5.586a1 1 0 0 0 .707-.293l2-2a1 1 0 0 0 0-1.414l-2-2A1 1 0 0 0 16.586 6H11m0 6H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5m0 0V3"/>`
+          innerHTML: `<path d="M9.172 9.172a4 4 0 0 0 0 5.656m5.656-5.656a4 4 0 0 1 0 5.656M7.404 7.404a6.5 6.5 0 0 0 0 9.192m9.192-9.192a6.5 6.5 0 0 1 0 9.192m1.768-10.96a9 9 0 0 1 0 12.728M5.636 5.636a9 9 0 0 0 0 12.728m7.425-7.425a1.5 1.5 0 1 0-2.122 2.122 1.5 1.5 0 0 0 2.122-2.122Z"/>`
         },
         children
       );
@@ -24434,10 +24434,10 @@ var Signpost = defineComponent596({
   }
 });
 
-// src/icons/SignpostAlt.ts
+// src/icons/Signpost.ts
 import { defineComponent as defineComponent597, h as h597 } from "vue";
-var SignpostAlt = defineComponent597({
-  name: "SignpostAlt",
+var Signpost = defineComponent597({
+  name: "Signpost",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24467,7 +24467,7 @@ var SignpostAlt = defineComponent597({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M12 5h5.586a1 1 0 0 1 .707.293l1.5 1.5a1 1 0 0 1 0 1.414l-1.5 1.5a1 1 0 0 1-.707.293H12m0-5H7a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5m0-5V3m0 14h5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5m0 5H6.414a1 1 0 0 1-.707-.293l-1.5-1.5a1 1 0 0 1 0-1.414l1.5-1.5A1 1 0 0 1 6.414 12H12m0 5v4m0-9v-2"/>`
+          innerHTML: `<path d="M11 21v-9m0 0h5.586a1 1 0 0 0 .707-.293l2-2a1 1 0 0 0 0-1.414l-2-2A1 1 0 0 0 16.586 6H11m0 6H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5m0 0V3"/>`
         },
         children
       );
@@ -24475,10 +24475,10 @@ var SignpostAlt = defineComponent597({
   }
 });
 
-// src/icons/Skull.ts
+// src/icons/SignpostAlt.ts
 import { defineComponent as defineComponent598, h as h598 } from "vue";
-var Skull = defineComponent598({
-  name: "Skull",
+var SignpostAlt = defineComponent598({
+  name: "SignpostAlt",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24508,7 +24508,7 @@ var Skull = defineComponent598({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M10 21H9a1 1 0 0 1-1-1 1 1 0 0 0-1-1h-.882a1 1 0 0 1-.894-1.447 1 1 0 0 0-.095-1.047l-.603-.805A2.63 2.63 0 0 1 4 14.124v-.434c0-.776.23-1.534.66-2.18.215-.322.263-.724.164-1.098C3.365 4.869 8.617 3 12 3s8.635 1.869 7.176 7.412c-.099.374-.05.776.164 1.098.43.646.66 1.404.66 2.18v.434c0 .569-.184 1.122-.526 1.577l-.603.805a1 1 0 0 0-.095 1.047A1 1 0 0 1 17.882 19H17a1 1 0 0 0-1 1 1 1 0 0 1-1 1h-1m-4 0v-1.5m0 1.5h2m2 0v-1.5m0 1.5h-2m0 0v-1.5m1-2-.5-.5a.707.707 0 0 0-1 0l-.5.5m-4.5-3.765v.203a2 2 0 0 0 1.515 1.94l.265.067a2 2 0 0 0 2.473-1.72l.026-.237a2 2 0 0 0-1.767-2.209l-.291-.032A2 2 0 0 0 6.5 13.735Zm6.72.253.027.238a2 2 0 0 0 2.473 1.719l.265-.066a2 2 0 0 0 1.515-1.94v-.204a2 2 0 0 0-2.22-1.988l-.292.032a2 2 0 0 0-1.767 2.209Z"/>`
+          innerHTML: `<path d="M12 5h5.586a1 1 0 0 1 .707.293l1.5 1.5a1 1 0 0 1 0 1.414l-1.5 1.5a1 1 0 0 1-.707.293H12m0-5H7a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5m0-5V3m0 14h5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5m0 5H6.414a1 1 0 0 1-.707-.293l-1.5-1.5a1 1 0 0 1 0-1.414l1.5-1.5A1 1 0 0 1 6.414 12H12m0 5v4m0-9v-2"/>`
         },
         children
       );
@@ -24516,10 +24516,10 @@ var Skull = defineComponent598({
   }
 });
 
-// src/icons/Slice.ts
+// src/icons/Skull.ts
 import { defineComponent as defineComponent599, h as h599 } from "vue";
-var Slice = defineComponent599({
-  name: "Slice",
+var Skull = defineComponent599({
+  name: "Skull",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24549,7 +24549,7 @@ var Slice = defineComponent599({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="m6.15 13.75-2.993-1.662a.1.1 0 0 1 0-.175L6.15 10.25m0 3.5 5.801 3.223a.1.1 0 0 0 .098 0l5.801-3.223m-11.7 0-2.993 1.663a.1.1 0 0 0 0 .175l8.794 4.885a.1.1 0 0 0 .098 0l8.794-4.885a.1.1 0 0 0 0-.175L17.85 13.75m0 0 2.993-1.662a.1.1 0 0 0 0-.175L17.85 10.25m0 0-5.802 3.223a.1.1 0 0 1-.097 0L6.15 10.25m11.7 0 2.993-1.662a.1.1 0 0 0 0-.175l-8.794-4.886a.1.1 0 0 0-.098 0L3.157 8.413a.1.1 0 0 0 0 .175L6.15 10.25"/>`
+          innerHTML: `<path d="M10 21H9a1 1 0 0 1-1-1 1 1 0 0 0-1-1h-.882a1 1 0 0 1-.894-1.447 1 1 0 0 0-.095-1.047l-.603-.805A2.63 2.63 0 0 1 4 14.124v-.434c0-.776.23-1.534.66-2.18.215-.322.263-.724.164-1.098C3.365 4.869 8.617 3 12 3s8.635 1.869 7.176 7.412c-.099.374-.05.776.164 1.098.43.646.66 1.404.66 2.18v.434c0 .569-.184 1.122-.526 1.577l-.603.805a1 1 0 0 0-.095 1.047A1 1 0 0 1 17.882 19H17a1 1 0 0 0-1 1 1 1 0 0 1-1 1h-1m-4 0v-1.5m0 1.5h2m2 0v-1.5m0 1.5h-2m0 0v-1.5m1-2-.5-.5a.707.707 0 0 0-1 0l-.5.5m-4.5-3.765v.203a2 2 0 0 0 1.515 1.94l.265.067a2 2 0 0 0 2.473-1.72l.026-.237a2 2 0 0 0-1.767-2.209l-.291-.032A2 2 0 0 0 6.5 13.735Zm6.72.253.027.238a2 2 0 0 0 2.473 1.719l.265-.066a2 2 0 0 0 1.515-1.94v-.204a2 2 0 0 0-2.22-1.988l-.292.032a2 2 0 0 0-1.767 2.209Z"/>`
         },
         children
       );
@@ -24557,10 +24557,10 @@ var Slice = defineComponent599({
   }
 });
 
-// src/icons/Slider.ts
+// src/icons/Slice.ts
 import { defineComponent as defineComponent600, h as h600 } from "vue";
-var Slider = defineComponent600({
-  name: "Slider",
+var Slice = defineComponent600({
+  name: "Slice",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24590,7 +24590,7 @@ var Slider = defineComponent600({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M17 12V9a2 2 0 1 0-4 0v3m4 0v3a2 2 0 1 1-4 0v-3m4 0h5m-9 0H2"/>`
+          innerHTML: `<path d="m6.15 13.75-2.993-1.662a.1.1 0 0 1 0-.175L6.15 10.25m0 3.5 5.801 3.223a.1.1 0 0 0 .098 0l5.801-3.223m-11.7 0-2.993 1.663a.1.1 0 0 0 0 .175l8.794 4.885a.1.1 0 0 0 .098 0l8.794-4.885a.1.1 0 0 0 0-.175L17.85 13.75m0 0 2.993-1.662a.1.1 0 0 0 0-.175L17.85 10.25m0 0-5.802 3.223a.1.1 0 0 1-.097 0L6.15 10.25m11.7 0 2.993-1.662a.1.1 0 0 0 0-.175l-8.794-4.886a.1.1 0 0 0-.098 0L3.157 8.413a.1.1 0 0 0 0 .175L6.15 10.25"/>`
         },
         children
       );
@@ -24598,10 +24598,10 @@ var Slider = defineComponent600({
   }
 });
 
-// src/icons/SmileyNeutral.ts
+// src/icons/Slider.ts
 import { defineComponent as defineComponent601, h as h601 } from "vue";
-var SmileyNeutral = defineComponent601({
-  name: "SmileyNeutral",
+var Slider = defineComponent601({
+  name: "Slider",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24631,7 +24631,7 @@ var SmileyNeutral = defineComponent601({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M15 15H9m3 6a9 9 0 1 1 0-18 9 9 0 0 1 0 18Zm-5-9.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Zm8.5 0a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Z"/>`
+          innerHTML: `<path d="M17 12V9a2 2 0 1 0-4 0v3m4 0v3a2 2 0 1 1-4 0v-3m4 0h5m-9 0H2"/>`
         },
         children
       );
@@ -24639,10 +24639,10 @@ var SmileyNeutral = defineComponent601({
   }
 });
 
-// src/icons/SmileySad.ts
+// src/icons/SmileyNeutral.ts
 import { defineComponent as defineComponent602, h as h602 } from "vue";
-var SmileySad = defineComponent602({
-  name: "SmileySad",
+var SmileyNeutral = defineComponent602({
+  name: "SmileyNeutral",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24672,7 +24672,7 @@ var SmileySad = defineComponent602({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="m9.5 16 .168-.252a2.803 2.803 0 0 1 4.664 0L14.5 16M12 21a9 9 0 1 1 0-18 9 9 0 0 1 0 18Zm-5-9.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Zm8.5 0a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Z"/>`
+          innerHTML: `<path d="M15 15H9m3 6a9 9 0 1 1 0-18 9 9 0 0 1 0 18Zm-5-9.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Zm8.5 0a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Z"/>`
         },
         children
       );
@@ -24680,10 +24680,10 @@ var SmileySad = defineComponent602({
   }
 });
 
-// src/icons/SmileySmile.ts
+// src/icons/SmileySad.ts
 import { defineComponent as defineComponent603, h as h603 } from "vue";
-var SmileySmile = defineComponent603({
-  name: "SmileySmile",
+var SmileySad = defineComponent603({
+  name: "SmileySad",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24713,7 +24713,7 @@ var SmileySmile = defineComponent603({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="m9.5 14.5.168.252a2.803 2.803 0 0 0 4.664 0l.168-.252M12 21a9 9 0 1 1 0-18 9 9 0 0 1 0 18Zm-5-9.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Zm8.5 0a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Z"/>`
+          innerHTML: `<path d="m9.5 16 .168-.252a2.803 2.803 0 0 1 4.664 0L14.5 16M12 21a9 9 0 1 1 0-18 9 9 0 0 1 0 18Zm-5-9.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Zm8.5 0a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Z"/>`
         },
         children
       );
@@ -24721,10 +24721,10 @@ var SmileySmile = defineComponent603({
   }
 });
 
-// src/icons/SnapGrid.ts
+// src/icons/SmileySmile.ts
 import { defineComponent as defineComponent604, h as h604 } from "vue";
-var SnapGrid = defineComponent604({
-  name: "SnapGrid",
+var SmileySmile = defineComponent604({
+  name: "SmileySmile",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24754,7 +24754,7 @@ var SnapGrid = defineComponent604({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="m14.94 10.475-1.698 1.697a.1.1 0 0 0 0 .141L15.93 15a.1.1 0 0 0 .142 0l1.697-1.697m-2.829-2.828 1.415-1.414a1 1 0 0 0-1.415-1.415l-1.414 1.415m1.414 1.414 2.829 2.828m0 0 1.767-1.767a5 5 0 1 0-7.07-7.072l-1.768 1.768m2.828 2.829-1.697 1.697a.1.1 0 0 1-.141 0L9 8.07a.1.1 0 0 1 0-.142l1.697-1.697m2.828 2.829-2.828-2.829M3 17v3a1 1 0 0 0 1 1h3m-4-4v-3a1 1 0 0 1 1-1h3m-4 4h8m0 0v-3a1 1 0 0 0-1-1H7m4 4v3a1 1 0 0 1-1 1H7m0-8v8"/>`
+          innerHTML: `<path d="m9.5 14.5.168.252a2.803 2.803 0 0 0 4.664 0l.168-.252M12 21a9 9 0 1 1 0-18 9 9 0 0 1 0 18Zm-5-9.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Zm8.5 0a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Z"/>`
         },
         children
       );
@@ -24762,10 +24762,10 @@ var SnapGrid = defineComponent604({
   }
 });
 
-// src/icons/SnapVertex.ts
+// src/icons/SnapGrid.ts
 import { defineComponent as defineComponent605, h as h605 } from "vue";
-var SnapVertex = defineComponent605({
-  name: "SnapVertex",
+var SnapGrid = defineComponent605({
+  name: "SnapGrid",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24795,7 +24795,7 @@ var SnapVertex = defineComponent605({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M6 19.5A1.5 1.5 0 1 1 4.5 18M6 19.5A1.5 1.5 0 0 0 4.5 18M6 19.5h5.5m-7-1.5v-5.5m7 7a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0Zm-7-7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm10.44-2.025-1.698 1.697a.1.1 0 0 0 0 .141L15.93 15a.1.1 0 0 0 .142 0l1.697-1.697m-2.829-2.828 1.415-1.414a1 1 0 0 0-1.415-1.415l-1.414 1.415m1.414 1.414 2.829 2.828m0 0 1.767-1.767a5 5 0 1 0-7.07-7.072l-1.768 1.768m2.828 2.829-1.697 1.697a.1.1 0 0 1-.141 0L9 8.07a.1.1 0 0 1 0-.142l1.697-1.697m2.828 2.829-2.828-2.829"/>`
+          innerHTML: `<path d="m14.94 10.475-1.698 1.697a.1.1 0 0 0 0 .141L15.93 15a.1.1 0 0 0 .142 0l1.697-1.697m-2.829-2.828 1.415-1.414a1 1 0 0 0-1.415-1.415l-1.414 1.415m1.414 1.414 2.829 2.828m0 0 1.767-1.767a5 5 0 1 0-7.07-7.072l-1.768 1.768m2.828 2.829-1.697 1.697a.1.1 0 0 1-.141 0L9 8.07a.1.1 0 0 1 0-.142l1.697-1.697m2.828 2.829-2.828-2.829M3 17v3a1 1 0 0 0 1 1h3m-4-4v-3a1 1 0 0 1 1-1h3m-4 4h8m0 0v-3a1 1 0 0 0-1-1H7m4 4v3a1 1 0 0 1-1 1H7m0-8v8"/>`
         },
         children
       );
@@ -24803,10 +24803,10 @@ var SnapVertex = defineComponent605({
   }
 });
 
-// src/icons/Snowflake.ts
+// src/icons/SnapVertex.ts
 import { defineComponent as defineComponent606, h as h606 } from "vue";
-var Snowflake = defineComponent606({
-  name: "Snowflake",
+var SnapVertex = defineComponent606({
+  name: "SnapVertex",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24836,7 +24836,7 @@ var Snowflake = defineComponent606({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M12 17.5V21m0-3.5L9.5 20m2.5-2.5 2.5 2.5M12 17.5v-11m0 0V3m0 3.5L14.5 4M12 6.5 9.5 4M7.237 14.75 4.206 16.5m3.03-1.75-3.414-.915m3.415.915-.915 3.415m.915-3.415 9.526-5.5m0 0 3.031-1.75m-3.03 1.75 3.414.915m-3.415-.915.915-3.415M7.237 9.25 4.206 7.5m3.03 1.75-.914-3.415m.915 3.415-3.415.915m3.415-.915L12 12l4.763 2.75m0 0 3.031 1.75m-3.03-1.75.914 3.415m-.915-3.415 3.415-.915"/>`
+          innerHTML: `<path d="M6 19.5A1.5 1.5 0 1 1 4.5 18M6 19.5A1.5 1.5 0 0 0 4.5 18M6 19.5h5.5m-7-1.5v-5.5m7 7a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0Zm-7-7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm10.44-2.025-1.698 1.697a.1.1 0 0 0 0 .141L15.93 15a.1.1 0 0 0 .142 0l1.697-1.697m-2.829-2.828 1.415-1.414a1 1 0 0 0-1.415-1.415l-1.414 1.415m1.414 1.414 2.829 2.828m0 0 1.767-1.767a5 5 0 1 0-7.07-7.072l-1.768 1.768m2.828 2.829-1.697 1.697a.1.1 0 0 1-.141 0L9 8.07a.1.1 0 0 1 0-.142l1.697-1.697m2.828 2.829-2.828-2.829"/>`
         },
         children
       );
@@ -24844,10 +24844,10 @@ var Snowflake = defineComponent606({
   }
 });
 
-// src/icons/Sofa.ts
+// src/icons/Snowflake.ts
 import { defineComponent as defineComponent607, h as h607 } from "vue";
-var Sofa = defineComponent607({
-  name: "Sofa",
+var Snowflake = defineComponent607({
+  name: "Snowflake",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24877,7 +24877,7 @@ var Sofa = defineComponent607({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M5.5 10.5H4a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h.25m1.25-6V14m0-3.5v-2a1 1 0 0 1 1-1h5.75m6.75 3h1.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-.25m-1.25-6V14m0-3.5v-2a1 1 0 0 0-1-1h-5.75m-6.75 9H19m-13.5 0V14m0 2.5H4.25m14.75 0V14m0 2.5h1.25M5.5 14h6.75M19 14h-6.75m8 2.5V18m-16-1.5V18m8-10.5V14"/>`
+          innerHTML: `<path d="M12 17.5V21m0-3.5L9.5 20m2.5-2.5 2.5 2.5M12 17.5v-11m0 0V3m0 3.5L14.5 4M12 6.5 9.5 4M7.237 14.75 4.206 16.5m3.03-1.75-3.414-.915m3.415.915-.915 3.415m.915-3.415 9.526-5.5m0 0 3.031-1.75m-3.03 1.75 3.414.915m-3.415-.915.915-3.415M7.237 9.25 4.206 7.5m3.03 1.75-.914-3.415m.915 3.415-3.415.915m3.415-.915L12 12l4.763 2.75m0 0 3.031 1.75m-3.03-1.75.914 3.415m-.915-3.415 3.415-.915"/>`
         },
         children
       );
@@ -24885,10 +24885,10 @@ var Sofa = defineComponent607({
   }
 });
 
-// src/icons/SoftBody.ts
+// src/icons/Sofa.ts
 import { defineComponent as defineComponent608, h as h608 } from "vue";
-var SoftBody = defineComponent608({
-  name: "SoftBody",
+var Sofa = defineComponent608({
+  name: "Sofa",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24918,7 +24918,7 @@ var SoftBody = defineComponent608({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M5.5 16.323c1.4.422 3.486.793 6.5.793s5.1-.371 6.5-.793M12 3.5V8m0 0-2-2m2 2 2-2M3.39 17.908c.863.555 3.295 1.708 8.61 1.708s7.747-1.153 8.61-1.708c.26-.167.368-.471.33-.778l-.765-6.112c-.085-.684-.85-1.142-1.523-.988-1.205.275-3.307.586-6.652.586s-5.447-.311-6.652-.586c-.673-.154-1.438.304-1.523.988L3.06 17.13c-.039.307.069.61.328.778Z"/>`
+          innerHTML: `<path d="M5.5 10.5H4a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h.25m1.25-6V14m0-3.5v-2a1 1 0 0 1 1-1h5.75m6.75 3h1.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-.25m-1.25-6V14m0-3.5v-2a1 1 0 0 0-1-1h-5.75m-6.75 9H19m-13.5 0V14m0 2.5H4.25m14.75 0V14m0 2.5h1.25M5.5 14h6.75M19 14h-6.75m8 2.5V18m-16-1.5V18m8-10.5V14"/>`
         },
         children
       );
@@ -24926,10 +24926,10 @@ var SoftBody = defineComponent608({
   }
 });
 
-// src/icons/SoftShadow.ts
+// src/icons/SoftBody.ts
 import { defineComponent as defineComponent609, h as h609 } from "vue";
-var SoftShadow = defineComponent609({
-  name: "SoftShadow",
+var SoftBody = defineComponent609({
+  name: "SoftBody",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24959,7 +24959,7 @@ var SoftShadow = defineComponent609({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="m14.914 15.086-5.581 5.581m8.927-4.927L13 21m7.749-3.749-3.223 3.223m-11.188-.812 2.724-2.724m0 0q.46.061.938.062c1.867 0 3.563-.73 4.818-1.922a7 7 0 1 0-5.756 1.86Z"/>`
+          innerHTML: `<path d="M5.5 16.323c1.4.422 3.486.793 6.5.793s5.1-.371 6.5-.793M12 3.5V8m0 0-2-2m2 2 2-2M3.39 17.908c.863.555 3.295 1.708 8.61 1.708s7.747-1.153 8.61-1.708c.26-.167.368-.471.33-.778l-.765-6.112c-.085-.684-.85-1.142-1.523-.988-1.205.275-3.307.586-6.652.586s-5.447-.311-6.652-.586c-.673-.154-1.438.304-1.523.988L3.06 17.13c-.039.307.069.61.328.778Z"/>`
         },
         children
       );
@@ -25246,7 +25246,7 @@ var Speaker = defineComponent616({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M15.5 5h-7a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1Z"/>`
+          innerHTML: `<path d="M15.5 5h-7a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1Z"/><path d="M12 7.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5ZM10 14.5a2 2 0 1 1 4 0 2 2 0 0 1-4 0Z"/>`
         },
         children
       );
@@ -26763,7 +26763,7 @@ var Tag = defineComponent653({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M11.793 19.793a1 1 0 0 0 1.414 0l6.586-6.586a1 1 0 0 0 0-1.414l-7.5-7.5A1 1 0 0 0 11.586 4H7a3 3 0 0 0-3 3v4.586a1 1 0 0 0 .293.707z"/>`
+          innerHTML: `<path d="m19.793 13.207-6.586 6.586a1 1 0 0 1-1.414 0l-7.5-7.5A1 1 0 0 1 4 11.586V7a3 3 0 0 1 3-3h4.586a1 1 0 0 1 .707.293l7.5 7.5a1 1 0 0 1 0 1.414ZM8.5 7a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z" clip-rule="evenodd"/><path d="M10 8.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z"/>`
         },
         children
       );
@@ -26771,10 +26771,10 @@ var Tag = defineComponent653({
   }
 });
 
-// src/icons/Target.ts
+// src/icons/Target1.ts
 import { defineComponent as defineComponent654, h as h654 } from "vue";
-var Target = defineComponent654({
-  name: "Target",
+var Target1 = defineComponent654({
+  name: "Target1",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26804,7 +26804,7 @@ var Target = defineComponent654({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Z"/>`
+          innerHTML: `<path d="M12 2v3m0 0a7 7 0 0 1 7 7m-7-7a7 7 0 0 0-7 7m17 0h-3m0 0a7 7 0 0 1-7 7m0 3v-3m0 0a7 7 0 0 1-7-7m-3 0h3m10.5 0a3.5 3.5 0 1 0-7 0 3.5 3.5 0 0 0 7 0Z"/>`
         },
         children
       );
@@ -26812,10 +26812,10 @@ var Target = defineComponent654({
   }
 });
 
-// src/icons/Target1.ts
+// src/icons/TargetBow.ts
 import { defineComponent as defineComponent655, h as h655 } from "vue";
-var Target1 = defineComponent655({
-  name: "Target1",
+var TargetBow = defineComponent655({
+  name: "TargetBow",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26845,7 +26845,7 @@ var Target1 = defineComponent655({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M12 2v3m0 0a7 7 0 0 1 7 7m-7-7a7 7 0 0 0-7 7m17 0h-3m0 0a7 7 0 0 1-7 7m0 3v-3m0 0a7 7 0 0 1-7-7m-3 0h3m10.5 0a3.5 3.5 0 1 0-7 0 3.5 3.5 0 0 0 7 0Z"/>`
+          innerHTML: `<path d="M3 12a9 9 0 1 1 18 0 9 9 0 0 1-18 0Zm9-5a5 5 0 1 0 0 10 5 5 0 0 0 0-10Z" clip-rule="evenodd"/><path d="M7 12a5 5 0 1 1 10 0 5 5 0 0 1-10 0Zm5-1a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z" clip-rule="evenodd"/><path d="M13 12a1 1 0 1 0-2 0 1 1 0 0 0 2 0Z"/>`
         },
         children
       );
@@ -27255,7 +27255,7 @@ var TextBolt = defineComponent665({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M13.5 20H7.1a.1.1 0 0 1-.1-.1V4.6a.1.1 0 0 1 .1-.1H13a4 4 0 0 1 1.866 7.54c-.083.043-.074.172.013.204A4.002 4.002 0 0 1 13.5 20Z"/>`
+          innerHTML: `<path fill-rule="evenodd" d="M7.1 20h6.4a4 4 0 0 0 1.38-7.756c-.088-.032-.097-.161-.014-.205A4 4 0 0 0 13 4.5H7.1a.1.1 0 0 0-.1.1v15.3a.1.1 0 0 0 .1.1Zm6.4-7.5H7.6a.1.1 0 0 0-.1.1v6.8a.1.1 0 0 0 .1.1h5.9a3.5 3.5 0 1 0 0-7ZM13 5H7.6a.1.1 0 0 0-.1.1v6.8a.1.1 0 0 0 .1.1H13a3.5 3.5 0 1 0 0-7Z" clip-rule="evenodd"/>`
         },
         children
       );
@@ -27706,7 +27706,7 @@ var ToggleOff = defineComponent676({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M15 18H9A6 6 0 0 1 9 6h6a6 6 0 0 1 0 12Z"/>`
+          innerHTML: `<path d="M9 18h6a6 6 0 0 0 0-12H9a6 6 0 1 0 0 12Zm0-9.5a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7Z" clip-rule="evenodd"/>`
         },
         children
       );
@@ -27747,7 +27747,7 @@ var ToggleOn = defineComponent677({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M9 18h6a6 6 0 0 0 0-12H9a6 6 0 1 0 0 12Z"/>`
+          innerHTML: `<path d="M15 18H9A6 6 0 0 1 9 6h6a6 6 0 0 1 0 12Zm0-9.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z" clip-rule="evenodd"/>`
         },
         children
       );
@@ -30330,7 +30330,7 @@ var Wallet = defineComponent740({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M3 7v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2Z"/>`
+          innerHTML: `<path d="M3 17V7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm2.5-7v.5a1 1 0 0 0 1 1h3.36c.084 0 .158.053.184.133A2 2 0 0 0 11.941 13h.117a2 2 0 0 0 1.898-1.367c.026-.08.1-.133.184-.133h3.36a1 1 0 0 0 1-1V10a2 2 0 0 0-2-2h-9a2 2 0 0 0-2 2Z" clip-rule="evenodd"/>`
         },
         children
       );
@@ -31467,7 +31467,7 @@ export {
   BookPageTurn,
   Bookmark,
   Bottle,
-  BoundingBox,
+  Boundingbox,
   Box,
   BoxExpedition,
   BoxOpen,
@@ -31895,6 +31895,7 @@ export {
   Proxy3d,
   Psu,
   Pulse,
+  PulseCircle,
   QrCode,
   Question,
   Quote,
@@ -31917,7 +31918,6 @@ export {
   RenderRegion,
   Reply,
   Restart,
-  Resurect,
   RigidBody,
   Road,
   Rotate,
@@ -31945,7 +31945,8 @@ export {
   SettingsHorizontal,
   SettingsVertical,
   Shader,
-  Shadow,
+  ShadowHard,
+  ShadowSoft,
   Share,
   SheetsDrying,
   Shield,
@@ -31971,7 +31972,6 @@ export {
   Snowflake,
   Sofa,
   SoftBody,
-  SoftShadow,
   Solidify,
   Sort,
   SortAscending,
@@ -32016,8 +32016,8 @@ export {
   Syringe,
   Tablet,
   Tag,
-  Target,
   Target1,
+  TargetBow,
   Teepee,
   Telescope,
   Terminal,
