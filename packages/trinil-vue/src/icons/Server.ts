@@ -31,7 +31,7 @@ export const Server = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 10.5h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v3.5a1 1 0 0 0 1 1zm0 0v3m-6-6V8m3-.5V8m-3 8v.5m3-.5v.5m3-3H4a1 1 0 0 0-1 1V18a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-3.5a1 1 0 0 0-1-1z"/>`,
+          innerHTML: `<path d="M12 10.5h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v3.5a1 1 0 0 0 1 1zm0 0v3m-6-6V8m3-.5V8m-3 8v.5m3-.5v.5m3-3H4a1 1 0 0 0-1 1V18a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-3.5a1 1 0 0 0-1-1z"/>`,
         },
         children,
       );

@@ -26,7 +26,7 @@ export const RectangleHorizontal: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-width="1.5" d="M20 5.5H4a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-11a1 1 0 0 0-1-1Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M20 5.5H4a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-11a1 1 0 0 0-1-1Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

@@ -31,7 +31,7 @@ export const ChevronDown = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="m5.002 9 6.293 6.293a1 1 0 0 0 1.414 0L19.002 9"/>`,
+          innerHTML: `<path d="m5.002 9 6.293 6.293a1 1 0 0 0 1.414 0L19.002 9"/>`,
         },
         children,
       );

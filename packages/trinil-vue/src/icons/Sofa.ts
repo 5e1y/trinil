@@ -31,7 +31,7 @@ export const Sofa = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M5.5 10.5H4a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h.25m1.25-6V14m0-3.5v-2a1 1 0 0 1 1-1h5.75m6.75 3h1.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-.25m-1.25-6V14m0-3.5v-2a1 1 0 0 0-1-1h-5.75m-6.75 9H19m-13.5 0V14m0 2.5H4.25m14.75 0V14m0 2.5h1.25M5.5 14h6.75M19 14h-6.75m8 2.5V18m-16-1.5V18m8-10.5V14"/>`,
+          innerHTML: `<path d="M5.5 10.5H4a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h.25m1.25-6V14m0-3.5v-2a1 1 0 0 1 1-1h5.75m6.75 3h1.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-.25m-1.25-6V14m0-3.5v-2a1 1 0 0 0-1-1h-5.75m-6.75 9H19m-13.5 0V14m0 2.5H4.25m14.75 0V14m0 2.5h1.25M5.5 14h6.75M19 14h-6.75m8 2.5V18m-16-1.5V18m8-10.5V14"/>`,
         },
         children,
       );

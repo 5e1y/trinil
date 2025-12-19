@@ -31,7 +31,7 @@ export const CommentFigma = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-width="1.5" d="M4 19.998V12a8 8 0 1 1 8 8H4.002Q4 20 4 19.998Z"/>`,
+          innerHTML: `<path d="M4 19.998V12a8 8 0 1 1 8 8H4.002Q4 20 4 19.998Z"/>`,
         },
         children,
       );

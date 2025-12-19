@@ -31,7 +31,7 @@ export const Network = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 8v4m0-4h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1zm0 4h3a2 2 0 0 1 2 2v2m-5-4H9a2 2 0 0 0-2 2v2m10 0h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1zM7 16h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1z"/>`,
+          innerHTML: `<path d="M12 8v4m0-4h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1zm0 4h3a2 2 0 0 1 2 2v2m-5-4H9a2 2 0 0 0-2 2v2m10 0h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1zM7 16h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1z"/>`,
         },
         children,
       );

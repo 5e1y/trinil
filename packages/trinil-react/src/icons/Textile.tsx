@@ -26,7 +26,7 @@ export const Textile: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M9.5 18c0-1-1-2-3-2s-3 1-3 2m6 0c0 1-1 2-3 2m3-2V8m-3 12c-2 0-3-1-3-2m3 2h13a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1h-10m-6 10V6c0-1 1-2 3-2s3 1 3 2v2"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M9.5 18c0-1-1-2-3-2s-3 1-3 2m6 0c0 1-1 2-3 2m3-2V8m-3 12c-2 0-3-1-3-2m3 2h13a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1h-10m-6 10V6c0-1 1-2 3-2s3 1 3 2v2"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

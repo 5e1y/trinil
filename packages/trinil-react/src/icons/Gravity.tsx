@@ -26,7 +26,7 @@ export const Gravity: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 8V3m3 6V3.5M9 9V3.5M17 16a5 5 0 1 0-10 0 5 5 0 0 0 10 0Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M12 8V3m3 6V3.5M9 9V3.5M17 16a5 5 0 1 0-10 0 5 5 0 0 0 10 0Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

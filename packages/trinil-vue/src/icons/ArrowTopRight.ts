@@ -31,7 +31,7 @@ export const ArrowTopRight = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M17.657 6.343H9.172m8.485 0v8.486m0-8.486L6.343 17.657"/>`,
+          innerHTML: `<path d="M17.657 6.343H9.172m8.485 0v8.486m0-8.486L6.343 17.657"/>`,
         },
         children,
       );

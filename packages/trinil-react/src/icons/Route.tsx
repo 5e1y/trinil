@@ -26,7 +26,7 @@ export const Route: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M15 5.5a2 2 0 1 0 4 0 2 2 0 0 0-4 0Zm0 0H8.25a3.25 3.25 0 1 0 0 6.5h8.5a3.25 3.25 0 0 1 0 6.5H8m0 0a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M15 5.5a2 2 0 1 0 4 0 2 2 0 0 0-4 0Zm0 0H8.25a3.25 3.25 0 1 0 0 6.5h8.5a3.25 3.25 0 0 1 0 6.5H8m0 0a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

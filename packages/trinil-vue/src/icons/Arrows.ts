@@ -31,7 +31,7 @@ export const Arrows = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="m3 12 4 4m-4-4 4-4m-4 4h18m0 0-4-4m4 4-4 4"/>`,
+          innerHTML: `<path d="m3 12 4 4m-4-4 4-4m-4 4h18m0 0-4-4m4 4-4 4"/>`,
         },
         children,
       );

@@ -31,7 +31,7 @@ export const Presentation = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M20 17h2m-2 0V7a1 1 0 0 0-1-1h-5.417M20 17h-2.444M2 17h2m0 0V7a1 1 0 0 1 1-1h5.417M4 17h2.444m11.112 0L19 21m-1.444-4H6.444m0 0L5 21m8.583-15-.913-2.53a.712.712 0 0 0-1.34 0L10.417 6m3.166 0h-3.166"/>`,
+          innerHTML: `<path d="M20 17h2m-2 0V7a1 1 0 0 0-1-1h-5.417M20 17h-2.444M2 17h2m0 0V7a1 1 0 0 1 1-1h5.417M4 17h2.444m11.112 0L19 21m-1.444-4H6.444m0 0L5 21m8.583-15-.913-2.53a.712.712 0 0 0-1.34 0L10.417 6m3.166 0h-3.166"/>`,
         },
         children,
       );

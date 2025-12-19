@@ -31,7 +31,7 @@ export const Database = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M20 9c0 2.761-3.582 5-8 5s-8-2.239-8-5m16 0c0-2.761-3.582-5-8-5S4 6.239 4 9m16 0v3M4 9v3m16 0c0 2.761-3.582 5-8 5s-8-2.239-8-5m16 0v3c0 2.761-3.582 5-8 5s-8-2.239-8-5v-3"/>`,
+          innerHTML: `<path d="M20 9c0 2.761-3.582 5-8 5s-8-2.239-8-5m16 0c0-2.761-3.582-5-8-5S4 6.239 4 9m16 0v3M4 9v3m16 0c0 2.761-3.582 5-8 5s-8-2.239-8-5m16 0v3c0 2.761-3.582 5-8 5s-8-2.239-8-5v-3"/>`,
         },
         children,
       );

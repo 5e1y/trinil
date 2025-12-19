@@ -26,7 +26,7 @@ export const Bandage: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M4.5 13.5a4.243 4.243 0 0 0 6 6l9-9a4.243 4.243 0 0 0-6-6z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M4.5 13.5a4.243 4.243 0 0 0 6 6l9-9a4.243 4.243 0 0 0-6-6z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

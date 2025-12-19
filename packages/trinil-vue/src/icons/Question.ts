@@ -31,7 +31,7 @@ export const Question = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M9 10.5V10a3 3 0 0 1 3-3h.394a2.606 2.606 0 0 1 1.446 4.774L13.5 12c-.937.625-1.5 1.374-1.5 2.5m0 2v.5m0 4a9 9 0 1 1 0-18 9 9 0 0 1 0 18Z"/>`,
+          innerHTML: `<path d="M9 10.5V10a3 3 0 0 1 3-3h.394a2.606 2.606 0 0 1 1.446 4.774L13.5 12c-.937.625-1.5 1.374-1.5 2.5m0 2v.5m0 4a9 9 0 1 1 0-18 9 9 0 0 1 0 18Z"/>`,
         },
         children,
       );

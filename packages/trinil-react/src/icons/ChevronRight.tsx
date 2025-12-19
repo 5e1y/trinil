@@ -26,7 +26,7 @@ export const ChevronRight: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="m9 19 6.293-6.293a1 1 0 0 0 0-1.414L9 5"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="m9 19 6.293-6.293a1 1 0 0 0 0-1.414L9 5"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

@@ -26,7 +26,7 @@ export const ShieldCross: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="m18 18 1.5-1.5M18 18l1.5 1.5M18 18l-1.5 1.5M18 18l-1.5-1.5m2.442-3.411a5 5 0 0 0-5.37 7.237m5.37-7.237A5.002 5.002 0 0 1 18 23a5 5 0 0 1-4.427-2.674m5.369-7.237q.058-.506.058-1.024V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v8.065a9 9 0 0 0 5.455 8.273l1.151.493a1 1 0 0 0 .788 0l1.151-.493.028-.012"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="m18 18 1.5-1.5M18 18l1.5 1.5M18 18l-1.5 1.5M18 18l-1.5-1.5m2.442-3.411a5 5 0 0 0-5.37 7.237m5.37-7.237A5.002 5.002 0 0 1 18 23a5 5 0 0 1-4.427-2.674m5.369-7.237q.058-.506.058-1.024V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v8.065a9 9 0 0 0 5.455 8.273l1.151.493a1 1 0 0 0 .788 0l1.151-.493.028-.012"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

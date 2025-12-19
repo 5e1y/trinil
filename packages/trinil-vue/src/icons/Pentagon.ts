@@ -31,7 +31,7 @@ export const Pentagon = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-width="1.5" d="M11.412 3.741a1 1 0 0 1 1.176 0l7.86 5.71a1 1 0 0 1 .363 1.119l-3.003 9.239a1 1 0 0 1-.95.691H7.142a1 1 0 0 1-.951-.691l-3.003-9.24a1 1 0 0 1 .364-1.117z"/>`,
+          innerHTML: `<path d="M11.412 3.741a1 1 0 0 1 1.176 0l7.86 5.71a1 1 0 0 1 .363 1.119l-3.003 9.239a1 1 0 0 1-.95.691H7.142a1 1 0 0 1-.951-.691l-3.003-9.24a1 1 0 0 1 .364-1.117z"/>`,
         },
         children,
       );

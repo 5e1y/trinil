@@ -26,7 +26,7 @@ export const MergeVertices: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M14.475 5.99a1.5 1.5 0 1 0 2.121-2.122 1.5 1.5 0 0 0-2.121 2.121Zm0 0L5.99 14.474m0 0a1.5 1.5 0 1 1-2.12 2.12 1.5 1.5 0 0 1 2.12-2.12Zm12.02-4.95a1.5 1.5 0 1 0 2.122-2.121 1.5 1.5 0 0 0-2.122 2.12Zm0 0L9.525 18.01m0 0a1.5 1.5 0 1 1-2.119 2.121 1.5 1.5 0 0 1 2.12-2.12ZM20.5 20.5 16 16m0 0h3m-3 0v3M3.5 3.5 8 8m0 0V5m0 3H5"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M14.475 5.99a1.5 1.5 0 1 0 2.121-2.122 1.5 1.5 0 0 0-2.121 2.121Zm0 0L5.99 14.474m0 0a1.5 1.5 0 1 1-2.12 2.12 1.5 1.5 0 0 1 2.12-2.12Zm12.02-4.95a1.5 1.5 0 1 0 2.122-2.121 1.5 1.5 0 0 0-2.122 2.12Zm0 0L9.525 18.01m0 0a1.5 1.5 0 1 1-2.119 2.121 1.5 1.5 0 0 1 2.12-2.12ZM20.5 20.5 16 16m0 0h3m-3 0v3M3.5 3.5 8 8m0 0V5m0 3H5"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

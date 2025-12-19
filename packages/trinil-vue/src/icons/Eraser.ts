@@ -31,7 +31,7 @@ export const Eraser = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="m15.75 17.75 4.543-4.543a1 1 0 0 0 0-1.414l-6.586-6.586a1 1 0 0 0-1.414 0L7.75 9.75m8 8-1.457 1.457a1 1 0 0 1-.707.293H8.414a1 1 0 0 1-.707-.293l-2.586-2.586a3 3 0 0 1 0-4.242l2.629-2.63m8 8-8-8"/>`,
+          innerHTML: `<path d="m15.75 17.75 4.543-4.543a1 1 0 0 0 0-1.414l-6.586-6.586a1 1 0 0 0-1.414 0L7.75 9.75m8 8-1.457 1.457a1 1 0 0 1-.707.293H8.414a1 1 0 0 1-.707-.293l-2.586-2.586a3 3 0 0 1 0-4.242l2.629-2.63m8 8-8-8"/>`,
         },
         children,
       );

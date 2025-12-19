@@ -31,7 +31,7 @@ export const LockLocked = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M8 10H6.5a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1H16m-8 0V7a4 4 0 1 1 8 0v3m-8 0h8"/>`,
+          innerHTML: `<path d="M8 10H6.5a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1H16m-8 0V7a4 4 0 1 1 8 0v3m-8 0h8"/>`,
         },
         children,
       );

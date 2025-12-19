@@ -31,7 +31,7 @@ export const Background = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M17 16v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v2m0 8h3a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1h-3m0 8h-3a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h3"/>`,
+          innerHTML: `<path d="M17 16v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v2m0 8h3a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1h-3m0 8h-3a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h3"/>`,
         },
         children,
       );

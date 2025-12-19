@@ -31,7 +31,7 @@ export const Mouse = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M15 8c0-4-2.5-5.5-5.5-3.5C7.243 6.004 5 5 5 2m10 6v5.5M15 8a4 4 0 0 0-4 4v5a4 4 0 0 0 8 0v-5a4 4 0 0 0-4-4Z"/>`,
+          innerHTML: `<path d="M15 8c0-4-2.5-5.5-5.5-3.5C7.243 6.004 5 5 5 2m10 6v5.5M15 8a4 4 0 0 0-4 4v5a4 4 0 0 0 8 0v-5a4 4 0 0 0-4-4Z"/>`,
         },
         children,
       );

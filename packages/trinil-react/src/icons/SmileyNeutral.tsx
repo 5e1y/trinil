@@ -26,7 +26,7 @@ export const SmileyNeutral: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M15 15H9m3 6a9 9 0 1 1 0-18 9 9 0 0 1 0 18Zm-5-9.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Zm8.5 0a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M15 15H9m3 6a9 9 0 1 1 0-18 9 9 0 0 1 0 18Zm-5-9.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Zm8.5 0a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

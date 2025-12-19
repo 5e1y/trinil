@@ -31,7 +31,7 @@ export const Reload = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M16.77 18.423A8 8 0 1 0 12 20m4.77-1.577L21 18.5m-4.23-.077V14"/>`,
+          innerHTML: `<path d="M16.77 18.423A8 8 0 1 0 12 20m4.77-1.577L21 18.5m-4.23-.077V14"/>`,
         },
         children,
       );

@@ -26,7 +26,7 @@ export const CircleCross: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="m12 12 4-4m-4 4 4 4m-4-4-4 4m4-4L8 8m4 13a9 9 0 1 1 0-18 9 9 0 0 1 0 18Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="m12 12 4-4m-4 4 4 4m-4-4-4 4m4-4L8 8m4 13a9 9 0 1 1 0-18 9 9 0 0 1 0 18Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

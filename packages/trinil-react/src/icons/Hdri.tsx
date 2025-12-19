@@ -26,7 +26,7 @@ export const Hdri: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M21 16a9 9 0 1 0-18 0m18 0c0 1.657-4.03 3.5-9 3.5S3 17.657 3 16m18 0c0-1.657-4.03-3-9-3s-9 1.343-9 3m9-11.5v-1m5.75 2.538.5-.866m-12.49 0 .5.866"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M21 16a9 9 0 1 0-18 0m18 0c0 1.657-4.03 3.5-9 3.5S3 17.657 3 16m18 0c0-1.657-4.03-3-9-3s-9 1.343-9 3m9-11.5v-1m5.75 2.538.5-.866m-12.49 0 .5.866"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

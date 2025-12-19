@@ -31,7 +31,7 @@ export const Coin = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M9.5 11v-.5a2.5 2.5 0 0 1 4.95-.5M9.5 11v2m0-2h-1m1 0H12m-2.5 2v.5a2.5 2.5 0 0 0 4.95.5M9.5 13h-1m1 0H12m0 8a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z"/>`,
+          innerHTML: `<path d="M9.5 11v-.5a2.5 2.5 0 0 1 4.95-.5M9.5 11v2m0-2h-1m1 0H12m-2.5 2v.5a2.5 2.5 0 0 0 4.95.5M9.5 13h-1m1 0H12m0 8a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z"/>`,
         },
         children,
       );

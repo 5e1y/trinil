@@ -26,7 +26,7 @@ export const MaterialSlot: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M10.965 15.863a3.99 3.99 0 0 0 3.736-.913m1.162-1.915a4 4 0 0 1-.1.318M21 7V4a1 1 0 0 0-1-1h-3M7 3H4a1 1 0 0 0-1 1v3m0 10v3a1 1 0 0 0 1 1h3m14-4v3a1 1 0 0 1-1 1h-3m.794-7.447a5.998 5.998 0 1 1-11.588-3.105 5.998 5.998 0 0 1 11.588 3.105Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M10.965 15.863a3.99 3.99 0 0 0 3.736-.913m1.162-1.915a4 4 0 0 1-.1.318M21 7V4a1 1 0 0 0-1-1h-3M7 3H4a1 1 0 0 0-1 1v3m0 10v3a1 1 0 0 0 1 1h3m14-4v3a1 1 0 0 1-1 1h-3m.794-7.447a5.998 5.998 0 1 1-11.588-3.105 5.998 5.998 0 0 1 11.588 3.105Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

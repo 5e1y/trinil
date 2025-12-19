@@ -31,7 +31,7 @@ export const MenuBottom = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M21 14v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3m18 0V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v7m18 0H3"/>`,
+          innerHTML: `<path d="M21 14v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3m18 0V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v7m18 0H3"/>`,
         },
         children,
       );

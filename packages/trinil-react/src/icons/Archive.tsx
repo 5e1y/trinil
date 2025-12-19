@@ -26,7 +26,7 @@ export const Archive: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M4.5 9H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-.5m-15 0v9a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V9m-15 0h15m-10 5.5h5a1.5 1.5 0 0 0 0-3h-5a1.5 1.5 0 0 0 0 3Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M4.5 9H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-.5m-15 0v9a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V9m-15 0h15m-10 5.5h5a1.5 1.5 0 0 0 0-3h-5a1.5 1.5 0 0 0 0 3Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

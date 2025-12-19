@@ -31,7 +31,7 @@ export const Tv = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 16.5h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v9.5a1 1 0 0 0 1 1zm0 0V19m0 0h6m-6 0H6"/>`,
+          innerHTML: `<path d="M12 16.5h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v9.5a1 1 0 0 0 1 1zm0 0V19m0 0h6m-6 0H6"/>`,
         },
         children,
       );

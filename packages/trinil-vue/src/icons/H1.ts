@@ -31,7 +31,7 @@ export const H1 = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M5 4.5V12m0 0v7.5M5 12h9m0 0V4.5m0 7.5v7.5m3.5-4h1.4a.1.1 0 0 1 .1.1v3.9"/>`,
+          innerHTML: `<path d="M5 4.5V12m0 0v7.5M5 12h9m0 0V4.5m0 7.5v7.5m3.5-4h1.4a.1.1 0 0 1 .1.1v3.9"/>`,
         },
         children,
       );

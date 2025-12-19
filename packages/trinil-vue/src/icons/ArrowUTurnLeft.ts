@@ -31,7 +31,7 @@ export const ArrowUTurnLeft = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M4.5 14.5 10 20m-5.5-5.5L10 9m-5.5 5.5h10a5 5 0 0 0 0-10H12"/>`,
+          innerHTML: `<path d="M4.5 14.5 10 20m-5.5-5.5L10 9m-5.5 5.5h10a5 5 0 0 0 0-10H12"/>`,
         },
         children,
       );

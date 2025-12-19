@@ -26,7 +26,7 @@ export const Rotate: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M16.77 18.423A8 8 0 1 0 12 20m4.77-1.577L21 18.5m-4.23-.077V14m-6.27-2a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M16.77 18.423A8 8 0 1 0 12 20m4.77-1.577L21 18.5m-4.23-.077V14m-6.27-2a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

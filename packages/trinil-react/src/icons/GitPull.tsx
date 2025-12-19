@@ -26,7 +26,7 @@ export const GitPull: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M6 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 0v8m5-10h5a2 2 0 0 1 2 2v8M11 6l2.5-2.5M11 6l2.5 2.5M18 16a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM6 16a2 2 0 1 1 0 4 2 2 0 0 1 0-4Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M6 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 0v8m5-10h5a2 2 0 0 1 2 2v8M11 6l2.5-2.5M11 6l2.5 2.5M18 16a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM6 16a2 2 0 1 1 0 4 2 2 0 0 1 0-4Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

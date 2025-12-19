@@ -31,7 +31,7 @@ export const Hourglass = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M5 5.324V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v1.324a5 5 0 0 1-2.227 4.16l-1.277.852a2 2 0 0 0 0 3.328l1.277.852A5 5 0 0 1 19 18.676V20a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-1.324a5 5 0 0 1 2.226-4.16l1.278-.852a2 2 0 0 0 0-3.328l-1.277-.852A5 5 0 0 1 5 5.324Z"/>`,
+          innerHTML: `<path d="M5 5.324V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v1.324a5 5 0 0 1-2.227 4.16l-1.277.852a2 2 0 0 0 0 3.328l1.277.852A5 5 0 0 1 19 18.676V20a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-1.324a5 5 0 0 1 2.226-4.16l1.278-.852a2 2 0 0 0 0-3.328l-1.277-.852A5 5 0 0 1 5 5.324Z"/>`,
         },
         children,
       );

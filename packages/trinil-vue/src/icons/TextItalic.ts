@@ -31,7 +31,7 @@ export const TextItalic = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M20 4h-5m0 0h-5m5 0L9 20m-5 0h5m0 0h5"/>`,
+          innerHTML: `<path d="M20 4h-5m0 0h-5m5 0L9 20m-5 0h5m0 0h5"/>`,
         },
         children,
       );

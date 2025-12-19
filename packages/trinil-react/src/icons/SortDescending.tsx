@@ -26,7 +26,7 @@ export const SortDescending: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M5.5 4v15m0 0L3 16.5M5.5 19 8 16.5M10 5h3.5M10 9.5h6M10 14h8.5M10 18.5h11"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M5.5 4v15m0 0L3 16.5M5.5 19 8 16.5M10 5h3.5M10 9.5h6M10 14h8.5M10 18.5h11"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

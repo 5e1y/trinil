@@ -31,7 +31,7 @@ export const Cylinder = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-width="1.5" d="M19 6c0 1.657-3.134 3-7 3S5 7.657 5 6m14 0c0-1.657-3.134-3-7-3S5 4.343 5 6m14 0v12c0 1.657-3.134 3-7 3s-7-1.343-7-3V6"/>`,
+          innerHTML: `<path d="M19 6c0 1.657-3.134 3-7 3S5 7.657 5 6m14 0c0-1.657-3.134-3-7-3S5 4.343 5 6m14 0v12c0 1.657-3.134 3-7 3s-7-1.343-7-3V6"/>`,
         },
         children,
       );

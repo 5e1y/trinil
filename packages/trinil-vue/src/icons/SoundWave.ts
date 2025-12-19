@@ -31,7 +31,7 @@ export const SoundWave = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M3 8s0 9 1.5 9S6 6 7.5 6s1.5 14 3 14 1.5-16 3-16 1.5 14 3 14 1.5-11 3-11 1.5 9 1.5 9"/>`,
+          innerHTML: `<path d="M3 8s0 9 1.5 9S6 6 7.5 6s1.5 14 3 14 1.5-16 3-16 1.5 14 3 14 1.5-11 3-11 1.5 9 1.5 9"/>`,
         },
         children,
       );

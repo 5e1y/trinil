@@ -26,7 +26,7 @@ export const Physics: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M21 12a9 9 0 1 1-3.78-7.333m0 0a1.5 1.5 0 1 0 2.289 1.938 1.5 1.5 0 0 0-2.29-1.939ZM14.12 14.12A3 3 0 1 1 9.88 9.88a3 3 0 0 1 4.242 4.242Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M21 12a9 9 0 1 1-3.78-7.333m0 0a1.5 1.5 0 1 0 2.289 1.938 1.5 1.5 0 0 0-2.29-1.939ZM14.12 14.12A3 3 0 1 1 9.88 9.88a3 3 0 0 1 4.242 4.242Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

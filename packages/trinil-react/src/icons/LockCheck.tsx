@@ -26,7 +26,7 @@ export const LockCheck: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M8 10H6.5a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1H14M8 10V7a4 4 0 1 1 8 0v3m-8 0h8m0 0h1.5a1 1 0 0 1 1 1v2.025M16 18l1.43 1.43a.1.1 0 0 0 .14 0L20 17m-1.5-3.975A5 5 0 0 0 14 21m4.5-7.975A5 5 0 1 1 14 21"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M8 10H6.5a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1H14M8 10V7a4 4 0 1 1 8 0v3m-8 0h8m0 0h1.5a1 1 0 0 1 1 1v2.025M16 18l1.43 1.43a.1.1 0 0 0 .14 0L20 17m-1.5-3.975A5 5 0 0 0 14 21m4.5-7.975A5 5 0 1 1 14 21"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

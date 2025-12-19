@@ -26,7 +26,7 @@ export const Fight: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M15.799 8.5a2.5 2.5 0 1 0 3.403-3.664A2.5 2.5 0 0 0 15.798 8.5Zm0 0L11 13.168M15.799 8.5l1.093 3.337a1 1 0 0 1-.013.658L16 14.875M15.799 8.5l-3.695-.285a1 1 0 0 1-.842-.603l-1.015-2.366M11 13.168l-3.789-1.894a1 1 0 0 0-.447-.106H3.5m7.5 2 .94 3.758a1 1 0 0 1 0 .485l-.773 3.089"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M15.799 8.5a2.5 2.5 0 1 0 3.403-3.664A2.5 2.5 0 0 0 15.798 8.5Zm0 0L11 13.168M15.799 8.5l1.093 3.337a1 1 0 0 1-.013.658L16 14.875M15.799 8.5l-3.695-.285a1 1 0 0 1-.842-.603l-1.015-2.366M11 13.168l-3.789-1.894a1 1 0 0 0-.447-.106H3.5m7.5 2 .94 3.758a1 1 0 0 1 0 .485l-.773 3.089"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

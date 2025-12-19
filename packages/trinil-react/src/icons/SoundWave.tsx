@@ -26,7 +26,7 @@ export const SoundWave: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M3 8s0 9 1.5 9S6 6 7.5 6s1.5 14 3 14 1.5-16 3-16 1.5 14 3 14 1.5-11 3-11 1.5 9 1.5 9"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M3 8s0 9 1.5 9S6 6 7.5 6s1.5 14 3 14 1.5-16 3-16 1.5 14 3 14 1.5-11 3-11 1.5 9 1.5 9"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

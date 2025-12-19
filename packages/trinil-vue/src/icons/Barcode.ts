@@ -31,7 +31,7 @@ export const Barcode = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M6 7.5v9m2-9v9m1-9v9m2.5-9v9m2.5-9v9m1-9v9m1-9v9m2-9v9M20.5 7V4.5a1 1 0 0 0-1-1h-2m-11 0h-2a1 1 0 0 0-1 1V7m17 10.5v2a1 1 0 0 1-1 1h-2m-11 0h-2a1 1 0 0 1-1-1v-2"/>`,
+          innerHTML: `<path d="M6 7.5v9m2-9v9m1-9v9m2.5-9v9m2.5-9v9m1-9v9m1-9v9m2-9v9M20.5 7V4.5a1 1 0 0 0-1-1h-2m-11 0h-2a1 1 0 0 0-1 1V7m17 10.5v2a1 1 0 0 1-1 1h-2m-11 0h-2a1 1 0 0 1-1-1v-2"/>`,
         },
         children,
       );

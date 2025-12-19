@@ -26,7 +26,7 @@ export const StairsDown: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M19.5 20.5V18a1 1 0 0 0-1-1h-2a1 1 0 0 1-1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 1-1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 1-1-1V6a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v14.5M20 10l-5.5-5.5M20 10V6m0 4h-4"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M19.5 20.5V18a1 1 0 0 0-1-1h-2a1 1 0 0 1-1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 1-1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 1-1-1V6a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v14.5M20 10l-5.5-5.5M20 10V6m0 4h-4"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

@@ -26,7 +26,7 @@ export const Ruller: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M17 19.5h3a1 1 0 0 0 1-1v-2m-4 3a1 1 0 0 0 1-1v-.586a1 1 0 0 0-.293-.707L16.5 16m.5 3.5h-2m6-12v-2a1 1 0 0 0-1-1h-2.5a1 1 0 0 0-1 1V16M21 7.5h-1.5m1.5 0v3m0 0h-1.5m1.5 0v3m0 0h-1.5m1.5 0v3m0 0h-1.5m-3-.5L5.293 4.793a1 1 0 0 0-.707-.293H4a1 1 0 0 0-1 1v2m12 12V18m0 1.5h-3m0 0V18m0 1.5H9m0 0V18m0 1.5H6m0 0H4a1 1 0 0 1-1-1v-2m3 3V18M3 7.5h1.5M3 7.5v3m0 0h1.5m-1.5 0v3m0 0h1.5m-1.5 0v3m0 0h1.5m3-4.259V14.9a.1.1 0 0 0 .1.1h2.659a.1.1 0 0 0 .07-.17l-2.658-2.66a.1.1 0 0 0-.171.071Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M17 19.5h3a1 1 0 0 0 1-1v-2m-4 3a1 1 0 0 0 1-1v-.586a1 1 0 0 0-.293-.707L16.5 16m.5 3.5h-2m6-12v-2a1 1 0 0 0-1-1h-2.5a1 1 0 0 0-1 1V16M21 7.5h-1.5m1.5 0v3m0 0h-1.5m1.5 0v3m0 0h-1.5m1.5 0v3m0 0h-1.5m-3-.5L5.293 4.793a1 1 0 0 0-.707-.293H4a1 1 0 0 0-1 1v2m12 12V18m0 1.5h-3m0 0V18m0 1.5H9m0 0V18m0 1.5H6m0 0H4a1 1 0 0 1-1-1v-2m3 3V18M3 7.5h1.5M3 7.5v3m0 0h1.5m-1.5 0v3m0 0h1.5m-1.5 0v3m0 0h1.5m3-4.259V14.9a.1.1 0 0 0 .1.1h2.659a.1.1 0 0 0 .07-.17l-2.658-2.66a.1.1 0 0 0-.171.071Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

@@ -26,7 +26,7 @@ export const TextStrikethrough: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M3.866 13h8m0 0h8m-8 0c1.645.36 3.52.75 4.262 2.261a3.637 3.637 0 0 1-3.265 5.239H11.5a4 4 0 0 1-4-4m2.16-6.04a3.637 3.637 0 0 1 1.477-6.96H12.5a4 4 0 0 1 4 4"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M3.866 13h8m0 0h8m-8 0c1.645.36 3.52.75 4.262 2.261a3.637 3.637 0 0 1-3.265 5.239H11.5a4 4 0 0 1-4-4m2.16-6.04a3.637 3.637 0 0 1 1.477-6.96H12.5a4 4 0 0 1 4 4"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

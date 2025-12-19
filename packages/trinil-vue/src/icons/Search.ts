@@ -31,7 +31,7 @@ export const Search = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="m4 20 4.904-4.904m0 0a6.5 6.5 0 1 1 9.192-9.192 6.5 6.5 0 0 1-9.192 9.192Z"/>`,
+          innerHTML: `<path d="m4 20 4.904-4.904m0 0a6.5 6.5 0 1 1 9.192-9.192 6.5 6.5 0 0 1-9.192 9.192Z"/>`,
         },
         children,
       );

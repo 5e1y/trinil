@@ -31,7 +31,7 @@ export const Refresh = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M7.23 18.423A8 8 0 1 1 12 20m-4.77-1.577L3 18.5m4.23-.077V14"/>`,
+          innerHTML: `<path d="M7.23 18.423A8 8 0 1 1 12 20m-4.77-1.577L3 18.5m4.23-.077V14"/>`,
         },
         children,
       );

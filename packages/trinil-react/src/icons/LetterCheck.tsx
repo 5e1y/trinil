@@ -26,7 +26,7 @@ export const LetterCheck: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M3.32 5.767A1 1 0 0 1 4 5.5h16c.263 0 .502.101.68.267m-17.36 0A1 1 0 0 0 3 6.5v11a1 1 0 0 0 1 1h9.025M3.32 5.767l8.04 6.7a1 1 0 0 0 1.28 0l8.04-6.7m0 0c.197.182.32.443.32.733V14m0 0a5 5 0 0 0-7.975 4.5M21 14a5 5 0 1 1-7.975 4.5M16 18l1.43 1.43a.1.1 0 0 0 .14 0L20 17"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M3.32 5.767A1 1 0 0 1 4 5.5h16c.263 0 .502.101.68.267m-17.36 0A1 1 0 0 0 3 6.5v11a1 1 0 0 0 1 1h9.025M3.32 5.767l8.04 6.7a1 1 0 0 0 1.28 0l8.04-6.7m0 0c.197.182.32.443.32.733V14m0 0a5 5 0 0 0-7.975 4.5M21 14a5 5 0 1 1-7.975 4.5M16 18l1.43 1.43a.1.1 0 0 0 .14 0L20 17"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

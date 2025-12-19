@@ -26,7 +26,7 @@ export const Keyboard: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M7 16.5h8M17 9H4a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1zm0 0c0-4-2.5-5.5-5.5-3.5C9.243 7.004 7 6 7 3"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M7 16.5h8M17 9H4a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1zm0 0c0-4-2.5-5.5-5.5-3.5C9.243 7.004 7 6 7 3"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

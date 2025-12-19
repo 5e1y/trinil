@@ -31,7 +31,7 @@ export const Briefcase = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M16 8h4a1 1 0 0 1 1 1v3m-5-4-.544-1.632A2 2 0 0 0 13.559 5h-3.117a2 2 0 0 0-1.898 1.368L8 8m8 0H8m0 0H4a1 1 0 0 0-1 1v3m18 0v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-6m18 0-8 1M3 12l8 1m2 0v-.5a1 1 0 1 0-2 0v.5m2 0v1a1 1 0 1 1-2 0v-1"/>`,
+          innerHTML: `<path d="M16 8h4a1 1 0 0 1 1 1v3m-5-4-.544-1.632A2 2 0 0 0 13.559 5h-3.117a2 2 0 0 0-1.898 1.368L8 8m8 0H8m0 0H4a1 1 0 0 0-1 1v3m18 0v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-6m18 0-8 1M3 12l8 1m2 0v-.5a1 1 0 1 0-2 0v.5m2 0v1a1 1 0 1 1-2 0v-1"/>`,
         },
         children,
       );

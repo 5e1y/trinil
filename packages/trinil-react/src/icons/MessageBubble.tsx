@@ -26,7 +26,7 @@ export const MessageBubble: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M4.25 21a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M4.25 21a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

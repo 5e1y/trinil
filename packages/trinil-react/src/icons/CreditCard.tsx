@@ -26,7 +26,7 @@ export const CreditCard: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M21 9V7.5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2V9m18 0v7.5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9m18 0H3"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M21 9V7.5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2V9m18 0v7.5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9m18 0H3"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

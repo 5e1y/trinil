@@ -31,7 +31,7 @@ export const Copy = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M8 5v-.5a1 1 0 0 1 1-1h6.086a1 1 0 0 1 .707.293l3.414 3.414a1 1 0 0 1 .293.707V16.5a1 1 0 0 1-1 1H18m-12.5 3h9a1 1 0 0 0 1-1v-7.586a1 1 0 0 0-.293-.707l-3.414-3.414a1 1 0 0 0-.707-.293H5.5a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1Z"/>`,
+          innerHTML: `<path d="M8 5v-.5a1 1 0 0 1 1-1h6.086a1 1 0 0 1 .707.293l3.414 3.414a1 1 0 0 1 .293.707V16.5a1 1 0 0 1-1 1H18m-12.5 3h9a1 1 0 0 0 1-1v-7.586a1 1 0 0 0-.293-.707l-3.414-3.414a1 1 0 0 0-.707-.293H5.5a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1Z"/>`,
         },
         children,
       );

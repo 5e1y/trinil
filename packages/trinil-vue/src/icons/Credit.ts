@@ -31,7 +31,7 @@ export const Credit = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M20 11A8 8 0 0 0 5.577 6.23m0 0L5.5 2m.077 4.23H10M4 13a8 8 0 0 0 14.423 4.77m0 0L18.5 22m-.077-4.23H14M9.5 11v2m0-2h-1m1 0H12m-2.5 0a2.5 2.5 0 0 1 4.95-.5M9.5 13h-1m1 0H12m-2.5 0a2.5 2.5 0 0 0 4.95.5"/>`,
+          innerHTML: `<path d="M20 11A8 8 0 0 0 5.577 6.23m0 0L5.5 2m.077 4.23H10M4 13a8 8 0 0 0 14.423 4.77m0 0L18.5 22m-.077-4.23H14M9.5 11v2m0-2h-1m1 0H12m-2.5 0a2.5 2.5 0 0 1 4.95-.5M9.5 13h-1m1 0H12m-2.5 0a2.5 2.5 0 0 0 4.95.5"/>`,
         },
         children,
       );

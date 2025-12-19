@@ -31,7 +31,7 @@ export const ArrowUTurnUp = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M14.5 4.5 20 10m-5.5-5.5L9 10m5.5-5.5v10a5 5 0 0 1-10 0V12"/>`,
+          innerHTML: `<path d="M14.5 4.5 20 10m-5.5-5.5L9 10m5.5-5.5v10a5 5 0 0 1-10 0V12"/>`,
         },
         children,
       );

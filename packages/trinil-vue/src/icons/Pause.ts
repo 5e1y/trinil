@@ -31,7 +31,7 @@ export const Pause = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M17 5v14M7 5v14"/>`,
+          innerHTML: `<path d="M17 5v14M7 5v14"/>`,
         },
         children,
       );

@@ -31,7 +31,7 @@ export const AxisY = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M10.25 16.875 11 17m2.25.375.75.125m2.25.375L17 18m2.25.375.75.125M8 3.5v13m0-13L6.5 5M8 3.5 9.5 5M5 19.5l-.5.5m1.75-1.75.5-.5"/>`,
+          innerHTML: `<path d="M10.25 16.875 11 17m2.25.375.75.125m2.25.375L17 18m2.25.375.75.125M8 3.5v13m0-13L6.5 5M8 3.5 9.5 5M5 19.5l-.5.5m1.75-1.75.5-.5"/>`,
         },
         children,
       );

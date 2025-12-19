@@ -31,7 +31,7 @@ export const ArrowExpand = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="m12 21 3.5-3.5M12 21l-3.5-3.5M12 21v-6.5M12 3 8.5 6.5M12 3l3.5 3.5M12 3v6.5m7.5 2.5h-15"/>`,
+          innerHTML: `<path d="m12 21 3.5-3.5M12 21l-3.5-3.5M12 21v-6.5M12 3 8.5 6.5M12 3l3.5 3.5M12 3v6.5m7.5 2.5h-15"/>`,
         },
         children,
       );

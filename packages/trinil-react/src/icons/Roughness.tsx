@@ -26,7 +26,7 @@ export const Roughness: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="m12 12 6.364 6.364M15 9l5.614 5.614M9 15l5.614 5.614m6-6a9 9 0 1 0-6 6m6-6a9 9 0 0 1-2.25 3.75m0 0a9 9 0 0 1-3.75 2.25"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="m12 12 6.364 6.364M15 9l5.614 5.614M9 15l5.614 5.614m6-6a9 9 0 1 0-6 6m6-6a9 9 0 0 1-2.25 3.75m0 0a9 9 0 0 1-3.75 2.25"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

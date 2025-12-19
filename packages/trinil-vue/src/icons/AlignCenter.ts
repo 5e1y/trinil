@@ -31,7 +31,7 @@ export const AlignCenter = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 4.5V7m0 0v3.5M12 7H5.5a1 1 0 0 0-1 1v1.5a1 1 0 0 0 1 1H12M12 7h6.5a1 1 0 0 1 1 1v1.5a1 1 0 0 1-1 1H12m0 0v3m0 0V17m0-3.5H8.5a1 1 0 0 0-1 1V16a1 1 0 0 0 1 1H12m0-3.5h3.5a1 1 0 0 1 1 1V16a1 1 0 0 1-1 1H12m0 0v2.5"/>`,
+          innerHTML: `<path d="M12 4.5V7m0 0v3.5M12 7H5.5a1 1 0 0 0-1 1v1.5a1 1 0 0 0 1 1H12M12 7h6.5a1 1 0 0 1 1 1v1.5a1 1 0 0 1-1 1H12m0 0v3m0 0V17m0-3.5H8.5a1 1 0 0 0-1 1V16a1 1 0 0 0 1 1H12m0-3.5h3.5a1 1 0 0 1 1 1V16a1 1 0 0 1-1 1H12m0 0v2.5"/>`,
         },
         children,
       );

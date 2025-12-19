@@ -31,7 +31,7 @@ export const GraphPoll = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M3 4.5V18a1 1 0 0 0 1 1h3m0 0h4m-4 0v-6.9a.1.1 0 0 1 .1-.1h3.8a.1.1 0 0 1 .1.1V19m0 0h3m0 0h4m-4 0V7.1a.1.1 0 0 1 .1-.1h3.8a.1.1 0 0 1 .1.1V19m3.5 0H18"/>`,
+          innerHTML: `<path d="M3 4.5V18a1 1 0 0 0 1 1h3m0 0h4m-4 0v-6.9a.1.1 0 0 1 .1-.1h3.8a.1.1 0 0 1 .1.1V19m0 0h3m0 0h4m-4 0V7.1a.1.1 0 0 1 .1-.1h3.8a.1.1 0 0 1 .1.1V19m3.5 0H18"/>`,
         },
         children,
       );

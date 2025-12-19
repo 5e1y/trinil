@@ -26,7 +26,7 @@ export const MenuBottom: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M21 14v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3m18 0V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v7m18 0H3"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M21 14v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3m18 0V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v7m18 0H3"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

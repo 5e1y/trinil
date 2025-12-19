@@ -31,7 +31,7 @@ export const TextAlignRight = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M4.5 4h15m-9 12h9m-15 4h15m-15-8h15m-9-4h9"/>`,
+          innerHTML: `<path d="M4.5 4h15m-9 12h9m-15 4h15m-15-8h15m-9-4h9"/>`,
         },
         children,
       );

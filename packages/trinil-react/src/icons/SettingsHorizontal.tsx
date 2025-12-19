@@ -26,7 +26,7 @@ export const SettingsHorizontal: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M2 7h11.5m0 0a2 2 0 1 0 4 0m-4 0a2 2 0 1 1 4 0m0 0H22M2 17h4.5m0 0a2 2 0 1 1 4 0m-4 0a2 2 0 1 0 4 0m0 0H22"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M2 7h11.5m0 0a2 2 0 1 0 4 0m-4 0a2 2 0 1 1 4 0m0 0H22M2 17h4.5m0 0a2 2 0 1 1 4 0m-4 0a2 2 0 1 0 4 0m0 0H22"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

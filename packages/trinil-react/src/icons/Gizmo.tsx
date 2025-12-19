@@ -26,7 +26,7 @@ export const Gizmo: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M8 3.5v13m0-13L6.5 5M8 3.5 9.5 5M8 16.5l12 2m-12-2-4 4m16-2-.866-1.5M20 18.5l-1.5 1.125M4 20.5v-2m0 2h2"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M8 3.5v13m0-13L6.5 5M8 3.5 9.5 5M8 16.5l12 2m-12-2-4 4m16-2-.866-1.5M20 18.5l-1.5 1.125M4 20.5v-2m0 2h2"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

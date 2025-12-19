@@ -26,7 +26,7 @@ export const KeyframeAutobezier: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-width="1.5" d="M12 21a9 9 0 1 0 0-18m0 18a9 9 0 1 1 0-18m0 18V3"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M12 21a9 9 0 1 0 0-18m0 18a9 9 0 1 1 0-18m0 18V3"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

@@ -31,7 +31,7 @@ export const Laptop = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M20 18V8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v10m16 0h2m-2 0H4m0 0H1.732M7.5 15.5h9"/>`,
+          innerHTML: `<path d="M20 18V8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v10m16 0h2m-2 0H4m0 0H1.732M7.5 15.5h9"/>`,
         },
         children,
       );

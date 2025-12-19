@@ -31,7 +31,7 @@ export const CreditCard = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M21 9V7.5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2V9m18 0v7.5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9m18 0H3"/>`,
+          innerHTML: `<path d="M21 9V7.5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2V9m18 0v7.5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9m18 0H3"/>`,
         },
         children,
       );

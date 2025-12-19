@@ -26,7 +26,7 @@ export const Corsor: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 6v12m0-12a2.64 2.64 0 0 1 2.562-2H16m-4 2a2.64 2.64 0 0 0-2.562-2H8m4 14a2.64 2.64 0 0 1-2.562 2H8m4-2a2.64 2.64 0 0 0 2.562 2H16"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M12 6v12m0-12a2.64 2.64 0 0 1 2.562-2H16m-4 2a2.64 2.64 0 0 0-2.562-2H8m4 14a2.64 2.64 0 0 1-2.562 2H8m4-2a2.64 2.64 0 0 0 2.562 2H16"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

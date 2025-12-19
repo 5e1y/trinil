@@ -26,7 +26,7 @@ export const VolumeLow: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M17 8.667c1.987 1.84 1.987 4.825 0 6.666M8 16h1.697a1 1 0 0 1 .555.168l4.151 2.768a.383.383 0 0 0 .597-.32V5.384a.384.384 0 0 0-.597-.32l-4.151 2.768A1 1 0 0 1 9.697 8H8a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M17 8.667c1.987 1.84 1.987 4.825 0 6.666M8 16h1.697a1 1 0 0 1 .555.168l4.151 2.768a.383.383 0 0 0 .597-.32V5.384a.384.384 0 0 0-.597-.32l-4.151 2.768A1 1 0 0 1 9.697 8H8a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

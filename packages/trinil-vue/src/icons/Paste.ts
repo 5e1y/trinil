@@ -31,7 +31,7 @@ export const Paste = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M8 6.5V6a1 1 0 0 1 1-1h2m6 12.5h1.5a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1h-2M11 5v-.5a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1V5M11 5v.5a1 1 0 0 0 1 1h3.5a1 1 0 0 0 1-1V5m-11 15.5h8a1 1 0 0 0 1-1v-6.086a1 1 0 0 0-.293-.707l-3.414-3.414A1 1 0 0 0 10.086 9H5.5a1 1 0 0 0-1 1v9.5a1 1 0 0 0 1 1Z"/>`,
+          innerHTML: `<path d="M8 6.5V6a1 1 0 0 1 1-1h2m6 12.5h1.5a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1h-2M11 5v-.5a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1V5M11 5v.5a1 1 0 0 0 1 1h3.5a1 1 0 0 0 1-1V5m-11 15.5h8a1 1 0 0 0 1-1v-6.086a1 1 0 0 0-.293-.707l-3.414-3.414A1 1 0 0 0 10.086 9H5.5a1 1 0 0 0-1 1v9.5a1 1 0 0 0 1 1Z"/>`,
         },
         children,
       );

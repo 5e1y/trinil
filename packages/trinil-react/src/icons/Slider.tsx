@@ -26,7 +26,7 @@ export const Slider: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M17 12V9a2 2 0 1 0-4 0v3m4 0v3a2 2 0 1 1-4 0v-3m4 0h5m-9 0H2"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M17 12V9a2 2 0 1 0-4 0v3m4 0v3a2 2 0 1 1-4 0v-3m4 0h5m-9 0H2"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

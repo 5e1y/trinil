@@ -31,7 +31,7 @@ export const Scan = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M20.5 7V4.5a1 1 0 0 0-1-1H17m-10 0H4.5a1 1 0 0 0-1 1V7m17 10v2.5a1 1 0 0 1-1 1H17m-10 0H4.5a1 1 0 0 1-1-1V17M2 12h20"/>`,
+          innerHTML: `<path d="M20.5 7V4.5a1 1 0 0 0-1-1H17m-10 0H4.5a1 1 0 0 0-1 1V7m17 10v2.5a1 1 0 0 1-1 1H17m-10 0H4.5a1 1 0 0 1-1-1V17M2 12h20"/>`,
         },
         children,
       );

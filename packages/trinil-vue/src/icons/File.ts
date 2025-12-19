@@ -31,7 +31,7 @@ export const File = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M14 3.09V7a1 1 0 0 0 1 1h3.91M6 21h12a1 1 0 0 0 1-1V8.414a1 1 0 0 0-.293-.707l-4.414-4.414A1 1 0 0 0 13.586 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1Z"/>`,
+          innerHTML: `<path d="M14 3.09V7a1 1 0 0 0 1 1h3.91M6 21h12a1 1 0 0 0 1-1V8.414a1 1 0 0 0-.293-.707l-4.414-4.414A1 1 0 0 0 13.586 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1Z"/>`,
         },
         children,
       );

@@ -31,7 +31,7 @@ export const Upload = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 4v14.5M12 4l5 5m-5-5L7 9m-2.5 6.5V20a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1v-4.5"/>`,
+          innerHTML: `<path d="M12 4v14.5M12 4l5 5m-5-5L7 9m-2.5 6.5V20a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1v-4.5"/>`,
         },
         children,
       );

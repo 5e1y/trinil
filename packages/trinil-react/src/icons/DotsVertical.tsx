@@ -26,7 +26,7 @@ export const DotsVertical: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M12.75 5a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 18.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M12.75 5a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 18.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

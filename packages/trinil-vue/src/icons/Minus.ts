@@ -31,7 +31,7 @@ export const Minus = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M4 12h16"/>`,
+          innerHTML: `<path d="M4 12h16"/>`,
         },
         children,
       );

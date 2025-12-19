@@ -31,7 +31,7 @@ export const ChevronLeft = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="m15 5-6.293 6.293a1 1 0 0 0 0 1.414L15 19"/>`,
+          innerHTML: `<path d="m15 5-6.293 6.293a1 1 0 0 0 0 1.414L15 19"/>`,
         },
         children,
       );

@@ -26,7 +26,7 @@ export const ArrowMinimize: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="m20 4-6 6m0 0h5.5M14 10V4.5M4 20l6-6m0 0H4.5m5.5 0v5.5"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="m20 4-6 6m0 0h5.5M14 10V4.5M4 20l6-6m0 0H4.5m5.5 0v5.5"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

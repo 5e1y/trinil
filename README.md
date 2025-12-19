@@ -20,209 +20,128 @@ A standalone, tree-shakeable SVG icon library for React and Vue 3. Built with ~7
 
 ### Install from npm
 
-Both packages are now available on npm:
-
 ```bash
-# React
-npm install trinil-react
-
-# Vue 3
-npm install trinil-vue
-
-# Or both
-npm install trinil-react trinil-vue
+npm install trinil-react      # React
+npm install trinil-vue        # Vue 3
+npm install trinil-react trinil-vue  # Both
 ```
 
-### Development: Build Locally
-
-If you want to build from source:
-
-```bash
-# Install dependencies for root + all packages
-npm install
-
-# Generate icons from /svg/ and build both packages
-npm run generate
-npm run build
-```
-
-This produces:
-- `packages/trinil-react/dist/` - React components bundle
-- `packages/trinil-vue/dist/` - Vue 3 components bundle
-
-## Usage Examples
-
-### React
+### React Example
 
 ```tsx
-import { ArrowDown, UsersSearch, Check } from 'trinil-react';
+import { ArrowDown, Check, UsersSearch } from 'trinil-react';
 
 export function App() {
   return (
     <div>
-      <ArrowDown size={24} color="currentColor" />
-      <UsersSearch size={32} color="blue" className="my-icon" />
-      <Check ariaLabel="Completed" />
+      <ArrowDown size={24} />
+      <Check size={32} color="green" />
+      <UsersSearch ariaLabel="Search users" />
     </div>
   );
 }
 ```
 
-### Vue 3
+### Vue 3 Example
 
 ```vue
 <script setup>
-import { ArrowDown, UsersSearch, Check } from 'trinil-vue';
+import { ArrowDown, Check, UsersSearch } from 'trinil-vue';
 </script>
 
 <template>
   <div>
     <ArrowDown :size="24" />
-    <UsersSearch :size="32" color="blue" class="my-icon" />
-    <Check aria-label="Completed" />
+    <Check :size="32" color="green" />
+    <UsersSearch aria-label="Search users" />
   </div>
 </template>
 ```
 
 ## Component Props
 
-### React Props
+| Prop | Type | Default | Notes |
+|------|------|---------|-------|
+| `size` | `number` | `24` | Width/height in pixels |
+| `color` | `string` | `"currentColor"` | SVG stroke color (inherits from CSS) |
+| `className` / `class` | `string` | — | CSS classes (React: `className`, Vue: `class`) |
+| `title` | `string` | — | SVG `<title>` for accessibility |
+| `ariaLabel` | `string` | — | `aria-label` attribute |
 
-```typescript
-interface IconProps {
-  size?: number;        // Icon size in pixels (default: 24)
-  color?: string;       // SVG stroke color (default: "currentColor")
-  className?: string;   // CSS class names
-  title?: string;       // SVG <title> (accessibility)
-  ariaLabel?: string;   // aria-label attribute
-}
-```
+⚠️ **Important**: Stroke properties (`stroke-width`, `stroke-linecap`, `stroke-linejoin`) are **locked** and cannot be overridden to ensure consistent visual weight.
 
-### Vue Props
+## How to Update Icons
 
-```typescript
-interface IconProps {
-  size?: number;        // Icon size in pixels (default: 24)
-  color?: string;       // SVG stroke color (default: "currentColor")
-  class?: string;       // CSS class names
-  title?: string;       // SVG <title> (accessibility)
-  ariaLabel?: string;   // aria-label attribute
-}
-```
+1. Add or replace `.svg` files in `/svg/`
+2. Run `npm run release:patch` (orchestrates the entire workflow)
+   - Validates SVG structure
+   - Generates React + Vue components  
+   - Builds packages
+   - Runs smoke tests
+   - Bumps versions (both packages stay in sync)
+   - Creates git commit + tag
+   - Pushes to origin
+3. Run `npm run publish:react` and `npm run publish:vue` (npm auth required)
 
-⚠️ **Note**: Stroke properties (`stroke-width`, `stroke-linecap`, `stroke-linejoin`) are hardcoded and **cannot be overridden** to ensure consistent styling.
-
-## Icon Naming
-
-SVG filenames in `/svg/` are converted to PascalCase component names:
-
-| File | Component |
-|------|-----------|
-| `arrow-down.svg` | `ArrowDown` |
-| `users-search.svg` | `UsersSearch` |
-| `check-bold.svg` | `CheckBold` |
-
-Special characters (like `@`, `#`) are removed during conversion.
-
-## Adding or Updating Icons
-
-1. **Add SVGs to `/svg/`**  
-   Export from Figma or add manually. Ensure:
-   - `viewBox="0 0 24 24"` is set
-   - Icons use strokes (no fills)
-
-2. **Regenerate components**
-   ```bash
-   npm run generate
-   npm run build
-   ```
-
-3. **Done!** New icons are available in both packages.
-
-### Generator Details
-
-The script (`scripts/generate-icons.mjs`):
-- ✅ Optimizes SVGs with SVGO
-- ✅ Normalizes stroke attributes to `currentColor`
-- ✅ Removes hardcoded colors
-- ✅ Generates React + Vue components
-- ✅ Updates index exports
-- ✅ Detects naming collisions and fails safely
-
-## Try the Examples
+## Development Commands
 
 ```bash
-# Build packages first
-npm install && npm run build
-
-# Run React example (port 3000)
-cd examples/react
-npm install
-npm run dev
-
-# Or run Vue example (port 3000)
-cd examples/vue
-npm install
-npm run dev
+npm install                 # Install all dependencies
+npm run icons:validate      # Validate SVG structure
+npm run icons:generate      # Generate components from /svg/
+npm run build               # Build both packages
+npm run test:smoke          # Verify exports
+npm run verify:pack         # Show published tarball contents
+npm run release:patch       # Full release (patch bump)
+npm run publish:react       # Publish to npm
+npm run publish:vue         # Publish to npm
 ```
 
-Examples show size, color, accessibility, and styling options.
+## SVG Guidelines
+
+When adding icons to `/svg/`:
+- Use **strokes, not fills**
+- Ensure `viewBox="0 0 24 24"` is set
+- Use round line caps and joins for consistency
+- The generator locks all stroke attributes automatically
+
+## Design System
+
+All icons render with these **locked attributes**:
+
+```xml
+fill="none"
+stroke="currentColor"
+stroke-width="1.5"
+stroke-linecap="round"
+stroke-linejoin="round"
+vector-effect="non-scaling-stroke"
+```
+
+This guarantees:
+- ✅ Consistent visual weight across the library
+- ✅ Predictable scaling at any size
+- ✅ Color control via CSS (inherits from parent)
+- ✅ No user overrides to stroke styles
 
 ## Project Structure
 
 ```
 trinil/
-├── svg/                           # ~765 source SVG icons
+├── svg/                    # ~765 source SVG icons (you update these)
 ├── packages/
-│   ├── trinil-react/              # React package
-│   │   ├── src/icons/             # Generated React components
-│   │   ├── dist/                  # Built output (ESM + types)
+│   ├── trinil-react/       # React package
+│   │   ├── src/            # Source (generated components + index)
+│   │   ├── dist/           # Built output
 │   │   └── package.json
-│   └── trinil-vue/                # Vue 3 package
-│       ├── src/icons/             # Generated Vue components
-│       ├── dist/                  # Built output (ESM + types)
+│   └── trinil-vue/         # Vue package
+│       ├── src/            # Source (generated components + index)
+│       ├── dist/           # Built output
 │       └── package.json
-├── examples/
-│   ├── react/                     # React demo app
-│   └── vue/                       # Vue 3 demo app
-├── scripts/
-│   └── generate-icons.mjs         # Icon generator
-└── package.json                   # Root workspace config
+├── examples/               # React + Vue demo apps
+├── scripts/                # Generation, validation, release scripts
+└── package.json
 ```
-
-## Design Principles
-
-All icons are rendered with these **locked attributes**:
-
-```xml
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="1.5"
-  stroke-linecap="round"
-  stroke-linejoin="round"
-  vector-effect="non-scaling-stroke"
->
-```
-
-This ensures:
-- ✅ Consistent visual weight across all icons
-- ✅ Inherit color from CSS without overrides
-- ✅ Predictable stroke behavior at any size
-- ✅ Perfect rendering at 24×24 (and scaled sizes)
-
-## Commands Reference
-
-| Command | Purpose |
-|---------|---------|
-| `npm install` | Install all dependencies (root + workspaces) |
-| `npm run generate` | Regenerate icon components from `/svg/` |
-| `npm run build` | Build both React and Vue packages |
-| `npm run build:react` | Build React package only |
-| `npm run build:vue` | Build Vue package only |
-| `npm run clean --workspaces` | Remove generated files and dist/ |
 
 ## License
 

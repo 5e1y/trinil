@@ -31,7 +31,7 @@ export const Camera3d = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M15 15v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v2m0 6V9m0 6 5.41 2.951a.4.4 0 0 0 .59-.35V6.399a.398.398 0 0 0-.59-.35L15 9"/>`,
+          innerHTML: `<path d="M15 15v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v2m0 6V9m0 6 5.41 2.951a.4.4 0 0 0 .59-.35V6.399a.398.398 0 0 0-.59-.35L15 9"/>`,
         },
         children,
       );

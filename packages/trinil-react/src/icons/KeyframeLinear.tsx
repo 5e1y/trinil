@@ -26,7 +26,7 @@ export const KeyframeLinear: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 20.586a1 1 0 0 1-.707-.293l-7.586-7.586a1 1 0 0 1 0-1.414l7.586-7.586A1 1 0 0 1 12 3.414m0 17.172a1 1 0 0 0 .707-.293l7.586-7.586a1 1 0 0 0 0-1.414l-7.586-7.586A1 1 0 0 0 12 3.414m0 17.172V3.414"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M12 20.586a1 1 0 0 1-.707-.293l-7.586-7.586a1 1 0 0 1 0-1.414l7.586-7.586A1 1 0 0 1 12 3.414m0 17.172a1 1 0 0 0 .707-.293l7.586-7.586a1 1 0 0 0 0-1.414l-7.586-7.586A1 1 0 0 0 12 3.414m0 17.172V3.414"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

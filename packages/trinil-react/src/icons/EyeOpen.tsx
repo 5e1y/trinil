@@ -26,7 +26,7 @@ export const EyeOpen: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M3.363 12.531c4.252 5.843 13.022 5.843 17.274 0a.9.9 0 0 0 0-1.062c-4.252-5.843-13.022-5.843-17.274 0a.9.9 0 0 0 0 1.062Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M3.363 12.531c4.252 5.843 13.022 5.843 17.274 0a.9.9 0 0 0 0-1.062c-4.252-5.843-13.022-5.843-17.274 0a.9.9 0 0 0 0 1.062Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

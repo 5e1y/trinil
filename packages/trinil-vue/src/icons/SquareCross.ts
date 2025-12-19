@@ -31,7 +31,7 @@ export const SquareCross = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="m12 12 4-4m-4 4 4 4m-4-4-4 4m4-4L8 8m11-4H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1Z"/>`,
+          innerHTML: `<path d="m12 12 4-4m-4 4 4 4m-4-4-4 4m4-4L8 8m11-4H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1Z"/>`,
         },
         children,
       );

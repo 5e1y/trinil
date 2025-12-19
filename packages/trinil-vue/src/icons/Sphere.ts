@@ -31,7 +31,7 @@ export const Sphere = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-width="1.5" d="M12 21a9 9 0 1 0 0-18m0 18a9 9 0 1 1 0-18m0 18c-2.21 0-4-4.03-4-9s1.79-9 4-9"/>`,
+          innerHTML: `<path d="M12 21a9 9 0 1 0 0-18m0 18a9 9 0 1 1 0-18m0 18c-2.21 0-4-4.03-4-9s1.79-9 4-9"/>`,
         },
         children,
       );

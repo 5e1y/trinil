@@ -31,7 +31,7 @@ export const ArrowMinimize = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="m20 4-6 6m0 0h5.5M14 10V4.5M4 20l6-6m0 0H4.5m5.5 0v5.5"/>`,
+          innerHTML: `<path d="m20 4-6 6m0 0h5.5M14 10V4.5M4 20l6-6m0 0H4.5m5.5 0v5.5"/>`,
         },
         children,
       );

@@ -31,7 +31,7 @@ export const RectangleVertical = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-width="1.5" d="M18.5 20V4a1 1 0 0 0-1-1h-11a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1Z"/>`,
+          innerHTML: `<path d="M18.5 20V4a1 1 0 0 0-1-1h-11a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1Z"/>`,
         },
         children,
       );

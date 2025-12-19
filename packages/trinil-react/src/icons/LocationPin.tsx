@@ -26,7 +26,7 @@ export const LocationPin: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 13v7.5m0-7.5a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M12 13v7.5m0-7.5a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

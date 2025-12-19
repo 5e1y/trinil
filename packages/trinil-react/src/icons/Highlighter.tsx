@@ -26,7 +26,7 @@ export const Highlighter: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M17 12v5.18a1 1 0 0 1-.804.98l-8 1.6A1 1 0 0 1 7 18.78V12m10 0H7m10 0a3 3 0 0 0 3-3V3.5M7 12a3 3 0 0 1-3-3V3.5"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M17 12v5.18a1 1 0 0 1-.804.98l-8 1.6A1 1 0 0 1 7 18.78V12m10 0H7m10 0a3 3 0 0 0 3-3V3.5M7 12a3 3 0 0 1-3-3V3.5"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

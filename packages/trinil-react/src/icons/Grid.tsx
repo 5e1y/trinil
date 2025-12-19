@@ -26,7 +26,7 @@ export const Grid: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-width="1.5" d="M12 4h7a1 1 0 0 1 1 1v7m-8-8H5a1 1 0 0 0-1 1v7m8-8v8m0 8H5a1 1 0 0 1-1-1v-7m8 8h7a1 1 0 0 0 1-1v-7m-8 8v-8m0 0H4m8 0h8"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M12 4h7a1 1 0 0 1 1 1v7m-8-8H5a1 1 0 0 0-1 1v7m8-8v8m0 8H5a1 1 0 0 1-1-1v-7m8 8h7a1 1 0 0 0 1-1v-7m-8 8v-8m0 0H4m8 0h8"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

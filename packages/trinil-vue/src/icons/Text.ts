@@ -31,7 +31,7 @@ export const Text = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M4 8V5a1 1 0 0 1 1-1h7m8 4V5a1 1 0 0 0-1-1h-7m0 0v16m0 0h4m-4 0H8"/>`,
+          innerHTML: `<path d="M4 8V5a1 1 0 0 1 1-1h7m8 4V5a1 1 0 0 0-1-1h-7m0 0v16m0 0h4m-4 0H8"/>`,
         },
         children,
       );

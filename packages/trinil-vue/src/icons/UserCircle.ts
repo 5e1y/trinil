@@ -31,7 +31,7 @@ export const UserCircle = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 15a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9Zm0 0h2a5 5 0 0 1 4.624 3.093M12 15h-2a5 5 0 0 0-4.624 3.093m13.248 0a9 9 0 1 0-13.247 0m13.247 0A8.98 8.98 0 0 1 12 21a8.98 8.98 0 0 1-6.624-2.907"/>`,
+          innerHTML: `<path d="M12 15a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9Zm0 0h2a5 5 0 0 1 4.624 3.093M12 15h-2a5 5 0 0 0-4.624 3.093m13.248 0a9 9 0 1 0-13.247 0m13.247 0A8.98 8.98 0 0 1 12 21a8.98 8.98 0 0 1-6.624-2.907"/>`,
         },
         children,
       );

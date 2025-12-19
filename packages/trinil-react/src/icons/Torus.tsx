@@ -26,7 +26,7 @@ export const Torus: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M15 12.054c-.597.509-1.536.946-3 .946s-2.403-.437-3-.946m6 0c.83-.708 1-1.554 1-1.554m-1 1.554s-.229-1.554-3-1.554-3 1.554-3 1.554M8 10.5s.17.846 1 1.554M21 12c0 3.866-4.03 7-9 7s-9-3.134-9-7 4.03-7 9-7 9 3.134 9 7Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M15 12.054c-.597.509-1.536.946-3 .946s-2.403-.437-3-.946m6 0c.83-.708 1-1.554 1-1.554m-1 1.554s-.229-1.554-3-1.554-3 1.554-3 1.554M8 10.5s.17.846 1 1.554M21 12c0 3.866-4.03 7-9 7s-9-3.134-9-7 4.03-7 9-7 9 3.134 9 7Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

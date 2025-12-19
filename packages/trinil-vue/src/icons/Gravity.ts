@@ -31,7 +31,7 @@ export const Gravity = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 8V3m3 6V3.5M9 9V3.5M17 16a5 5 0 1 0-10 0 5 5 0 0 0 10 0Z"/>`,
+          innerHTML: `<path d="M12 8V3m3 6V3.5M9 9V3.5M17 16a5 5 0 1 0-10 0 5 5 0 0 0 10 0Z"/>`,
         },
         children,
       );

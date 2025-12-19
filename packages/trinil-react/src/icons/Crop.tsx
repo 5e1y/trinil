@@ -26,7 +26,7 @@ export const Crop: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M2.5 6H6m0 0h11a1 1 0 0 1 1 1v11M6 6v11a1 1 0 0 0 1 1h11M6 6V2.5M18 18v3.5m0-3.5h3.5"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M2.5 6H6m0 0h11a1 1 0 0 1 1 1v11M6 6v11a1 1 0 0 0 1 1h11M6 6V2.5M18 18v3.5m0-3.5h3.5"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

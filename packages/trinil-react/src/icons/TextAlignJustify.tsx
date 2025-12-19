@@ -26,7 +26,7 @@ export const TextAlignJustify: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M4.5 4h15m-15 12h15m-15 4h9m-9-8h15m-15-4h15"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M4.5 4h15m-15 12h15m-15 4h9m-9-8h15m-15-4h15"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

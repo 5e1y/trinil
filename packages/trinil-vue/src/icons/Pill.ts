@@ -31,7 +31,7 @@ export const Pill = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="m16.5 7.5-9 9M12 21a9 9 0 1 1 0-18 9 9 0 0 1 0 18Z"/>`,
+          innerHTML: `<path d="m16.5 7.5-9 9M12 21a9 9 0 1 1 0-18 9 9 0 0 1 0 18Z"/>`,
         },
         children,
       );

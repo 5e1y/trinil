@@ -26,7 +26,7 @@ export const Bluetooth: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="m12 12 3.93-3.93a.1.1 0 0 0 0-.14l-3.76-3.76a.1.1 0 0 0-.17.071zm0 0-4.5 4.5M12 12l3.93 3.93a.1.1 0 0 1 0 .14l-3.76 3.76a.1.1 0 0 1-.17-.071zm0 0L7.5 7.5"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="m12 12 3.93-3.93a.1.1 0 0 0 0-.14l-3.76-3.76a.1.1 0 0 0-.17.071zm0 0-4.5 4.5M12 12l3.93 3.93a.1.1 0 0 1 0 .14l-3.76 3.76a.1.1 0 0 1-.17-.071zm0 0L7.5 7.5"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

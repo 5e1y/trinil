@@ -26,7 +26,7 @@ export const Hexagon: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-width="1.5" d="M11.5 3.289a1 1 0 0 1 1 0l6.794 3.922a1 1 0 0 1 .5.866v7.846a1 1 0 0 1-.5.866L12.5 20.71a1 1 0 0 1-1 0L4.706 16.79a1 1 0 0 1-.5-.866V8.077a1 1 0 0 1 .5-.866z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M11.5 3.289a1 1 0 0 1 1 0l6.794 3.922a1 1 0 0 1 .5.866v7.846a1 1 0 0 1-.5.866L12.5 20.71a1 1 0 0 1-1 0L4.706 16.79a1 1 0 0 1-.5-.866V8.077a1 1 0 0 1 .5-.866z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

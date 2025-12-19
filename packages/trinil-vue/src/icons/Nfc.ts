@@ -31,7 +31,7 @@ export const Nfc = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M7 8a5.657 5.657 0 0 1 0 8m6-14c5.523 5.523 5.523 14.477 0 20M11 4c4.418 4.418 4.418 11.582 0 16M9 6a8.485 8.485 0 0 1 0 12"/>`,
+          innerHTML: `<path d="M7 8a5.657 5.657 0 0 1 0 8m6-14c5.523 5.523 5.523 14.477 0 20M11 4c4.418 4.418 4.418 11.582 0 16M9 6a8.485 8.485 0 0 1 0 12"/>`,
         },
         children,
       );

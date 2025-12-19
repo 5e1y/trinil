@@ -31,7 +31,7 @@ export const Archive = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M4.5 9H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-.5m-15 0v9a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V9m-15 0h15m-10 5.5h5a1.5 1.5 0 0 0 0-3h-5a1.5 1.5 0 0 0 0 3Z"/>`,
+          innerHTML: `<path d="M4.5 9H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-.5m-15 0v9a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V9m-15 0h15m-10 5.5h5a1.5 1.5 0 0 0 0-3h-5a1.5 1.5 0 0 0 0 3Z"/>`,
         },
         children,
       );

@@ -31,7 +31,7 @@ export const WaveCosine = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M22 6c-2.5 0-1.5 12-4 12S16.5 6 14 6s-1.5 12-4 12S8.5 6 6 6 4.5 18 2 18"/>`,
+          innerHTML: `<path d="M22 6c-2.5 0-1.5 12-4 12S16.5 6 14 6s-1.5 12-4 12S8.5 6 6 6 4.5 18 2 18"/>`,
         },
         children,
       );

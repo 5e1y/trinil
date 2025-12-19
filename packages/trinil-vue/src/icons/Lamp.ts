@@ -31,7 +31,7 @@ export const Lamp = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12.072 11h6.509a.42.42 0 0 0 .389-.575l-2.719-6.796A1 1 0 0 0 15.323 3H8.677a1 1 0 0 0-.928.629L5.03 10.425a.42.42 0 0 0 .39.575h3.116m3.536 0v10m0-10H8.536m3.536 10H17m-4.928 0H7m1.536-10v5"/>`,
+          innerHTML: `<path d="M12.072 11h6.509a.42.42 0 0 0 .389-.575l-2.719-6.796A1 1 0 0 0 15.323 3H8.677a1 1 0 0 0-.928.629L5.03 10.425a.42.42 0 0 0 .39.575h3.116m3.536 0v10m0-10H8.536m3.536 10H17m-4.928 0H7m1.536-10v5"/>`,
         },
         children,
       );

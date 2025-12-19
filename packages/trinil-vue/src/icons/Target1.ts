@@ -31,7 +31,7 @@ export const Target1 = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 2v3m0 0a7 7 0 0 1 7 7m-7-7a7 7 0 0 0-7 7m17 0h-3m0 0a7 7 0 0 1-7 7m0 3v-3m0 0a7 7 0 0 1-7-7m-3 0h3m10.5 0a3.5 3.5 0 1 0-7 0 3.5 3.5 0 0 0 7 0Z"/>`,
+          innerHTML: `<path d="M12 2v3m0 0a7 7 0 0 1 7 7m-7-7a7 7 0 0 0-7 7m17 0h-3m0 0a7 7 0 0 1-7 7m0 3v-3m0 0a7 7 0 0 1-7-7m-3 0h3m10.5 0a3.5 3.5 0 1 0-7 0 3.5 3.5 0 0 0 7 0Z"/>`,
         },
         children,
       );

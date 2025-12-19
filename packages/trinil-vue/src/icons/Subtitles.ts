@@ -31,7 +31,7 @@ export const Subtitles = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M6 15.5h6.5m2.5 0h3m0-3.5h-6.5M9 12H6M3 8v8a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H6a3 3 0 0 0-3 3Z"/>`,
+          innerHTML: `<path d="M6 15.5h6.5m2.5 0h3m0-3.5h-6.5M9 12H6M3 8v8a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H6a3 3 0 0 0-3 3Z"/>`,
         },
         children,
       );

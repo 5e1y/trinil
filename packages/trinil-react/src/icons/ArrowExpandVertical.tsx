@@ -26,7 +26,7 @@ export const ArrowExpandVertical: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="m3 12 3.5 3.5M3 12l3.5-3.5M3 12h6.5M21 12l-3.5-3.5M21 12l-3.5 3.5M21 12h-6.5M12 19.5v-15"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="m3 12 3.5 3.5M3 12l3.5-3.5M3 12h6.5M21 12l-3.5-3.5M21 12l-3.5 3.5M21 12h-6.5M12 19.5v-15"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

@@ -26,7 +26,7 @@ export const Pulse: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M2.5 12.5h3.792a1 1 0 0 0 .943-.667L9.922 4.22a.33.33 0 0 1 .635.039l3.387 15.485a.325.325 0 0 0 .627.027l2.21-7.07a1 1 0 0 1 .954-.702H21.5"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M2.5 12.5h3.792a1 1 0 0 0 .943-.667L9.922 4.22a.33.33 0 0 1 .635.039l3.387 15.485a.325.325 0 0 0 .627.027l2.21-7.07a1 1 0 0 1 .954-.702H21.5"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

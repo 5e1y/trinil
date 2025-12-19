@@ -31,7 +31,7 @@ export const Share = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M9.146 5a.35.35 0 0 0-.25.104l-5.189 5.189a1 1 0 0 0 0 1.414l5.19 5.19a.353.353 0 0 0 .603-.25V15a1 1 0 0 1 1-1h1.377a9 9 0 0 1 7.204 3.605l1.319 1.761a.333.333 0 0 0 .6-.2V17a9 9 0 0 0-9-9h-1.5a1 1 0 0 1-1-1V5.354A.354.354 0 0 0 9.146 5Z"/>`,
+          innerHTML: `<path d="M9.146 5a.35.35 0 0 0-.25.104l-5.189 5.189a1 1 0 0 0 0 1.414l5.19 5.19a.353.353 0 0 0 .603-.25V15a1 1 0 0 1 1-1h1.377a9 9 0 0 1 7.204 3.605l1.319 1.761a.333.333 0 0 0 .6-.2V17a9 9 0 0 0-9-9h-1.5a1 1 0 0 1-1-1V5.354A.354.354 0 0 0 9.146 5Z"/>`,
         },
         children,
       );

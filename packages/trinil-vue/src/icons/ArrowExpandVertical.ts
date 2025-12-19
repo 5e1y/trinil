@@ -31,7 +31,7 @@ export const ArrowExpandVertical = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="m3 12 3.5 3.5M3 12l3.5-3.5M3 12h6.5M21 12l-3.5-3.5M21 12l-3.5 3.5M21 12h-6.5M12 19.5v-15"/>`,
+          innerHTML: `<path d="m3 12 3.5 3.5M3 12l3.5-3.5M3 12h6.5M21 12l-3.5-3.5M21 12l-3.5 3.5M21 12h-6.5M12 19.5v-15"/>`,
         },
         children,
       );

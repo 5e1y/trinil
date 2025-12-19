@@ -31,7 +31,7 @@ export const EditPen = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M19 13v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h5m.293 10.707 8.5-8.5a1 1 0 0 0 0-1.414l-1.586-1.586a1 1 0 0 0-1.414 0l-8.5 8.5a1 1 0 0 0-.293.707V15a1 1 0 0 0 1 1h1.586a1 1 0 0 0 .707-.293Z"/>`,
+          innerHTML: `<path d="M19 13v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h5m.293 10.707 8.5-8.5a1 1 0 0 0 0-1.414l-1.586-1.586a1 1 0 0 0-1.414 0l-8.5 8.5a1 1 0 0 0-.293.707V15a1 1 0 0 0 1 1h1.586a1 1 0 0 0 .707-.293Z"/>`,
         },
         children,
       );

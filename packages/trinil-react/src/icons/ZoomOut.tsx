@@ -26,7 +26,7 @@ export const ZoomOut: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="m4 20 4.904-4.904m0 0a6.5 6.5 0 1 1 9.192-9.192 6.5 6.5 0 0 1-9.192 9.192ZM17 10.404h-7"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="m4 20 4.904-4.904m0 0a6.5 6.5 0 1 1 9.192-9.192 6.5 6.5 0 0 1-9.192 9.192ZM17 10.404h-7"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

@@ -31,7 +31,7 @@ export const ListCheck = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M10.5 12h9m-9-7h9m-9 14h9M4 5l.93.93a.1.1 0 0 0 .14 0L7.5 3.5M4 12l.93.93a.1.1 0 0 0 .14 0L7.5 10.5M4 19l.93.93a.1.1 0 0 0 .14 0L7.5 17.5"/>`,
+          innerHTML: `<path d="M10.5 12h9m-9-7h9m-9 14h9M4 5l.93.93a.1.1 0 0 0 .14 0L7.5 3.5M4 12l.93.93a.1.1 0 0 0 .14 0L7.5 10.5M4 19l.93.93a.1.1 0 0 0 .14 0L7.5 17.5"/>`,
         },
         children,
       );

@@ -26,7 +26,7 @@ export const Barcode: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M6 7.5v9m2-9v9m1-9v9m2.5-9v9m2.5-9v9m1-9v9m1-9v9m2-9v9M20.5 7V4.5a1 1 0 0 0-1-1h-2m-11 0h-2a1 1 0 0 0-1 1V7m17 10.5v2a1 1 0 0 1-1 1h-2m-11 0h-2a1 1 0 0 1-1-1v-2"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M6 7.5v9m2-9v9m1-9v9m2.5-9v9m2.5-9v9m1-9v9m1-9v9m2-9v9M20.5 7V4.5a1 1 0 0 0-1-1h-2m-11 0h-2a1 1 0 0 0-1 1V7m17 10.5v2a1 1 0 0 1-1 1h-2m-11 0h-2a1 1 0 0 1-1-1v-2"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

@@ -26,7 +26,7 @@ export const TvRemote: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 6.5V8m0 0v1.5M12 8h-1.5M12 8h1.5m-3 4.5v.5m3-.5v.5m-3 3v.5m3-.5v.5m-6-11.7v11.7a4.5 4.5 0 1 0 9 0V4.8A1.8 1.8 0 0 0 14.7 3H9.3a1.8 1.8 0 0 0-1.8 1.8Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M12 6.5V8m0 0v1.5M12 8h-1.5M12 8h1.5m-3 4.5v.5m3-.5v.5m-3 3v.5m3-.5v.5m-6-11.7v11.7a4.5 4.5 0 1 0 9 0V4.8A1.8 1.8 0 0 0 14.7 3H9.3a1.8 1.8 0 0 0-1.8 1.8Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

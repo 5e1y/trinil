@@ -26,7 +26,7 @@ export const Material3d: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M10.447 17.795a5.98 5.98 0 0 0 4.567-.607 6 6 0 0 0 1.483-1.214m1.299-2.421a6 6 0 0 1-.15.477m3.047.3A9 9 0 1 1 3.307 9.67a9 9 0 1 1 17.386 4.66Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M10.447 17.795a5.98 5.98 0 0 0 4.567-.607 6 6 0 0 0 1.483-1.214m1.299-2.421a6 6 0 0 1-.15.477m3.047.3A9 9 0 1 1 3.307 9.67a9 9 0 1 1 17.386 4.66Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

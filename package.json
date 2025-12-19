@@ -8,10 +8,20 @@
     "packages/*"
   ],
   "scripts": {
+    "icons:validate": "node scripts/validate-icons.mjs",
+    "icons:generate": "node scripts/generate-icons.mjs",
+    "generate": "npm run icons:generate",
     "build": "npm run build --workspaces",
     "build:react": "npm run build -w packages/trinil-react",
     "build:vue": "npm run build -w packages/trinil-vue",
-    "generate": "node scripts/generate-icons.mjs"
+    "clean": "npm run clean --workspaces",
+    "verify:pack": "node scripts/verify-pack.mjs",
+    "test:smoke": "node scripts/smoke-test.mjs",
+    "release:patch": "node scripts/release.mjs patch",
+    "release:minor": "node scripts/release.mjs minor",
+    "release:major": "node scripts/release.mjs major",
+    "publish:react": "cd packages/trinil-react && npm publish --access public",
+    "publish:vue": "cd packages/trinil-vue && npm publish --access public"
   },
   "devDependencies": {
     "@svgr/core": "^8.1.0",

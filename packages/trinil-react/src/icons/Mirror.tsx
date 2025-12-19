@@ -26,7 +26,7 @@ export const Mirror: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 13.5V13m0 8v-.5m0-2V18m0-2v-.5m0-4.5v-.5m0-2V8m0-2v-.5m0-2V3m8.8 13h-5.7a.1.1 0 0 1-.1-.1V8.3a.1.1 0 0 1 .18-.06l5.7 7.6a.1.1 0 0 1-.08.16ZM3.2 16h5.7a.1.1 0 0 0 .1-.1V8.3a.1.1 0 0 0-.18-.06l-5.7 7.6a.1.1 0 0 0 .08.16Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M12 13.5V13m0 8v-.5m0-2V18m0-2v-.5m0-4.5v-.5m0-2V8m0-2v-.5m0-2V3m8.8 13h-5.7a.1.1 0 0 1-.1-.1V8.3a.1.1 0 0 1 .18-.06l5.7 7.6a.1.1 0 0 1-.08.16ZM3.2 16h5.7a.1.1 0 0 0 .1-.1V8.3a.1.1 0 0 0-.18-.06l-5.7 7.6a.1.1 0 0 0 .08.16Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

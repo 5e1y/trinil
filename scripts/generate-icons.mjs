@@ -238,14 +238,14 @@ async function generate() {
         svgContent = svgContent.replace('<svg', '<svg viewBox="0 0 24 24"');
       }
 
-      // Set stroke attributes
+      // Set stroke attributes on root SVG
       svgContent = svgContent.replace(/<svg/, '<svg fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"');
 
-      // Remove stroke="black" or similar hardcoded strokes from paths
-      svgContent = svgContent.replace(/stroke="[^"]+"/g, '');
+      // Remove all hardcoded stroke/fill/stroke-* attributes from child elements
+      svgContent = svgContent.replace(/\s+(stroke|fill|stroke-width|stroke-linecap|stroke-linejoin|stroke-dasharray|stroke-dashoffset)="[^"]*"/g, '');
 
-      // Remove fill from child elements
-      svgContent = svgContent.replace(/<(path|g|circle|rect|line|polyline|polygon)([^>]*)fill="[^"]*"/g, '<$1$2');
+      // Additional cleanup: remove style attributes that might contain stroke properties
+      svgContent = svgContent.replace(/\s+style="[^"]*stroke[^"]*"/g, '');
 
       // Generate React component
       const reactComponent = generateReactComponent(svgContent, componentName);

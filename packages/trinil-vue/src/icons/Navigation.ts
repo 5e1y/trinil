@@ -31,7 +31,7 @@ export const Navigation = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="m5.493 17.515 5.613-11.226a1 1 0 0 1 1.788 0l5.613 11.226c.386.77-.32 1.635-1.152 1.413l-5.097-1.36a1 1 0 0 0-.516 0l-5.097 1.36c-.833.222-1.538-.643-1.152-1.413Z"/>`,
+          innerHTML: `<path d="m5.493 17.515 5.613-11.226a1 1 0 0 1 1.788 0l5.613 11.226c.386.77-.32 1.635-1.152 1.413l-5.097-1.36a1 1 0 0 0-.516 0l-5.097 1.36c-.833.222-1.538-.643-1.152-1.413Z"/>`,
         },
         children,
       );

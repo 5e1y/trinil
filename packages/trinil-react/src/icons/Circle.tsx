@@ -26,7 +26,7 @@ export const Circle: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M3 12a9 9 0 1 0 18 0 9 9 0 0 0-18 0Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M3 12a9 9 0 1 0 18 0 9 9 0 0 0-18 0Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

@@ -31,7 +31,7 @@ export const Indent = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12.5 6h7m-15 12h15m-15-6h15M7 4l1.93 1.93a.1.1 0 0 1 0 .14L7 8"/>`,
+          innerHTML: `<path d="M12.5 6h7m-15 12h15m-15-6h15M7 4l1.93 1.93a.1.1 0 0 1 0 .14L7 8"/>`,
         },
         children,
       );

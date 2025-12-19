@@ -26,7 +26,7 @@ export const Thermos: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-width="1.5" d="m15.833 5-.194-1.164A1 1 0 0 0 14.653 3H9.347a1 1 0 0 0-.986.836l-.779 4.67A.424.424 0 0 0 8 9m7.833-4H17.5a1.5 1.5 0 0 1 0 3h-1.167m-.5-3 .5 3m0 0 .085.507A.424.424 0 0 1 16 9m0 0H8m8 0v11a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V9"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="m15.833 5-.194-1.164A1 1 0 0 0 14.653 3H9.347a1 1 0 0 0-.986.836l-.779 4.67A.424.424 0 0 0 8 9m7.833-4H17.5a1.5 1.5 0 0 1 0 3h-1.167m-.5-3 .5 3m0 0 .085.507A.424.424 0 0 1 16 9m0 0H8m8 0v11a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V9"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

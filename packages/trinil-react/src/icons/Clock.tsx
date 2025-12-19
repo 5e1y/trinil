@@ -26,7 +26,7 @@ export const Clock: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="m17.5 9-5.438 4.45a.1.1 0 0 1-.125.001L7.5 10M12 21a9 9 0 1 1 0-18 9 9 0 0 1 0 18Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="m17.5 9-5.438 4.45a.1.1 0 0 1-.125.001L7.5 10M12 21a9 9 0 1 1 0-18 9 9 0 0 1 0 18Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

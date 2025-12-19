@@ -31,7 +31,7 @@ export const LayerHeight = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M18 19V5m0 0-2.5 2.5M18 5l2.5 2.5M10 19a1 1 0 1 0 0-2H3m7 2h.5m-.5 0H3m7.5 0a2.5 2.5 0 0 0 0-5H3m7.5 5h.5a4 4 0 1 0 0-8H3"/>`,
+          innerHTML: `<path d="M18 19V5m0 0-2.5 2.5M18 5l2.5 2.5M10 19a1 1 0 1 0 0-2H3m7 2h.5m-.5 0H3m7.5 0a2.5 2.5 0 0 0 0-5H3m7.5 5h.5a4 4 0 1 0 0-8H3"/>`,
         },
         children,
       );

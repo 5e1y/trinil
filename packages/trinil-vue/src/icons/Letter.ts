@@ -31,7 +31,7 @@ export const Letter = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M3.32 5.767A1 1 0 0 1 4 5.5h16c.263 0 .502.101.68.267m-17.36 0A1 1 0 0 0 3 6.5v11a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-11c0-.29-.123-.55-.32-.733m-17.36 0 8.04 6.7a1 1 0 0 0 1.28 0l8.04-6.7"/>`,
+          innerHTML: `<path d="M3.32 5.767A1 1 0 0 1 4 5.5h16c.263 0 .502.101.68.267m-17.36 0A1 1 0 0 0 3 6.5v11a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-11c0-.29-.123-.55-.32-.733m-17.36 0 8.04 6.7a1 1 0 0 0 1.28 0l8.04-6.7"/>`,
         },
         children,
       );

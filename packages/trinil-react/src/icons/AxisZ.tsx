@@ -26,7 +26,7 @@ export const AxisZ: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="m8 16.5-4 4m0 0v-2m0 2h2m4.25-3.625L11 17m2.25.375.75.125m2.25.375L17 18m2.25.375.75.125M8 5.125V6m0 2v1m0 5v.875M8 11v1"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="m8 16.5-4 4m0 0v-2m0 2h2m4.25-3.625L11 17m2.25.375.75.125m2.25.375L17 18m2.25.375.75.125M8 5.125V6m0 2v1m0 5v.875M8 11v1"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

@@ -31,7 +31,7 @@ export const ArrowsVertical = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="m12 21 4-4m-4 4-4-4m4 4V3m0 0L8 7m4-4 4 4"/>`,
+          innerHTML: `<path d="m12 21 4-4m-4 4-4-4m4 4V3m0 0L8 7m4-4 4 4"/>`,
         },
         children,
       );

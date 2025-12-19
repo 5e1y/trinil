@@ -31,7 +31,7 @@ export const Furniture = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M8 7.5H4a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h2m2-9h8m-8 0v9m8-9h4a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-2m-2-9V12m2 4.5H6m12 0V18M6 16.5V18m10-6v4.5m0-4.5H8m-2.5 1v-2m13 2v-2"/>`,
+          innerHTML: `<path d="M8 7.5H4a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h2m2-9h8m-8 0v9m8-9h4a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-2m-2-9V12m2 4.5H6m12 0V18M6 16.5V18m10-6v4.5m0-4.5H8m-2.5 1v-2m13 2v-2"/>`,
         },
         children,
       );

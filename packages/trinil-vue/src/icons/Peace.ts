@@ -31,7 +31,7 @@ export const Peace = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 13 5.156 6.156M12 13l6.844-6.844M12 13v8M5.156 6.156A8.98 8.98 0 0 1 12 3a8.98 8.98 0 0 1 6.844 3.156m-13.688 0A9 9 0 0 0 12 21m6.844-14.844A9 9 0 0 1 12 21"/>`,
+          innerHTML: `<path d="M12 13 5.156 6.156M12 13l6.844-6.844M12 13v8M5.156 6.156A8.98 8.98 0 0 1 12 3a8.98 8.98 0 0 1 6.844 3.156m-13.688 0A9 9 0 0 0 12 21m6.844-14.844A9 9 0 0 1 12 21"/>`,
         },
         children,
       );

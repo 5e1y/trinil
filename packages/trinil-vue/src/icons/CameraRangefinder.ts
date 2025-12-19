@@ -31,7 +31,7 @@ export const CameraRangefinder = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M21 9v8.5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1h5a1 1 0 0 0 1-1 1 1 0 0 1 1-1h5M21 9V6.5a1 1 0 0 0-1-1h-4M21 9h-4.9a.1.1 0 0 1-.1-.1V5.5m-8.5 0H4m8.25 11a3.25 3.25 0 1 1 0-6.5 3.25 3.25 0 0 1 0 6.5Z"/>`,
+          innerHTML: `<path d="M21 9v8.5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1h5a1 1 0 0 0 1-1 1 1 0 0 1 1-1h5M21 9V6.5a1 1 0 0 0-1-1h-4M21 9h-4.9a.1.1 0 0 1-.1-.1V5.5m-8.5 0H4m8.25 11a3.25 3.25 0 1 1 0-6.5 3.25 3.25 0 0 1 0 6.5Z"/>`,
         },
         children,
       );

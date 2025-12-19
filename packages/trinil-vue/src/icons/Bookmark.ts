@@ -31,7 +31,7 @@ export const Bookmark = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M16.5 3.5h-9a1 1 0 0 0-1 1v14.178a1 1 0 0 0 1.537.844l3.426-2.18a1 1 0 0 1 1.074 0l3.426 2.18a1 1 0 0 0 1.537-.844V4.5a1 1 0 0 0-1-1Z"/>`,
+          innerHTML: `<path d="M16.5 3.5h-9a1 1 0 0 0-1 1v14.178a1 1 0 0 0 1.537.844l3.426-2.18a1 1 0 0 1 1.074 0l3.426 2.18a1 1 0 0 0 1.537-.844V4.5a1 1 0 0 0-1-1Z"/>`,
         },
         children,
       );

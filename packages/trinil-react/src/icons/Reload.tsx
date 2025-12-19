@@ -26,7 +26,7 @@ export const Reload: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M16.77 18.423A8 8 0 1 0 12 20m4.77-1.577L21 18.5m-4.23-.077V14"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M16.77 18.423A8 8 0 1 0 12 20m4.77-1.577L21 18.5m-4.23-.077V14"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

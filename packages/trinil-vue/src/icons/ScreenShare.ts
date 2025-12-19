@@ -31,7 +31,7 @@ export const ScreenShare = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 8.5 8.5 12M12 8.5l3.5 3.5M12 8.5v7M21 7v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z"/>`,
+          innerHTML: `<path d="M12 8.5 8.5 12M12 8.5l3.5 3.5M12 8.5v7M21 7v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z"/>`,
         },
         children,
       );

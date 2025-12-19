@@ -31,7 +31,7 @@ export const Radar = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 13a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Zm0 0v8m2.5-6.169a5 5 0 1 0-5 0m6.258 2.16a7.5 7.5 0 1 0-7.48.021"/>`,
+          innerHTML: `<path d="M12 13a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Zm0 0v8m2.5-6.169a5 5 0 1 0-5 0m6.258 2.16a7.5 7.5 0 1 0-7.48.021"/>`,
         },
         children,
       );

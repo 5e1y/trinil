@@ -26,7 +26,7 @@ export const PaperPlane: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M8.5 12.5 5.249 9.249a1 1 0 0 1 .464-1.678l14.125-3.53a.1.1 0 0 1 .085.016M8.5 12.5l-.596 2.383a1 1 0 0 0 1.213 1.213L11.5 15.5m-3-3 11.423-8.443M11.5 15.5l3.251 3.25a1 1 0 0 0 1.677-.464L19.96 4.161a.1.1 0 0 0-.017-.084M11.5 15.5l8.443-11.423m0 0-.02-.02"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M8.5 12.5 5.249 9.249a1 1 0 0 1 .464-1.678l14.125-3.53a.1.1 0 0 1 .085.016M8.5 12.5l-.596 2.383a1 1 0 0 0 1.213 1.213L11.5 15.5m-3-3 11.423-8.443M11.5 15.5l3.251 3.25a1 1 0 0 0 1.677-.464L19.96 4.161a.1.1 0 0 0-.017-.084M11.5 15.5l8.443-11.423m0 0-.02-.02"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

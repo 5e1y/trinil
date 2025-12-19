@@ -26,7 +26,7 @@ export const Fullscreen: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M14.5 4H19a1 1 0 0 1 1 1v4.5m0 5V19a1 1 0 0 1-1 1h-4.5m-5 0H5a1 1 0 0 1-1-1v-4.5m0-5V5a1 1 0 0 1 1-1h4.5"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M14.5 4H19a1 1 0 0 1 1 1v4.5m0 5V19a1 1 0 0 1-1 1h-4.5m-5 0H5a1 1 0 0 1-1-1v-4.5m0-5V5a1 1 0 0 1 1-1h4.5"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

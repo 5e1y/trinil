@@ -31,7 +31,7 @@ export const Power = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M15 5.582A8.003 8.003 0 0 1 12 21 8 8 0 0 1 9 5.582M12 2.5V12"/>`,
+          innerHTML: `<path d="M15 5.582A8.003 8.003 0 0 1 12 21 8 8 0 0 1 9 5.582M12 2.5V12"/>`,
         },
         children,
       );

@@ -26,7 +26,7 @@ export const ScreenShare: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 8.5 8.5 12M12 8.5l3.5 3.5M12 8.5v7M21 7v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M12 8.5 8.5 12M12 8.5l3.5 3.5M12 8.5v7M21 7v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

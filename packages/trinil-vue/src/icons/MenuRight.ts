@@ -31,7 +31,7 @@ export const MenuRight = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M16 5h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3m0-14H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11m0-14v14"/>`,
+          innerHTML: `<path d="M16 5h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3m0-14H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11m0-14v14"/>`,
         },
         children,
       );

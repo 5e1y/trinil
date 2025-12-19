@@ -26,7 +26,7 @@ export const StairsUp: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M4 20.5V18a1 1 0 0 1 1-1h2a1 1 0 0 0 1-1v-2a1 1 0 0 1 1-1h2a1 1 0 0 0 1-1v-2a1 1 0 0 1 1-1h2a1 1 0 0 0 1-1V6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v14.5m-16.5-10L9 5m0 0H5m4 0v4"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M4 20.5V18a1 1 0 0 1 1-1h2a1 1 0 0 0 1-1v-2a1 1 0 0 1 1-1h2a1 1 0 0 0 1-1v-2a1 1 0 0 1 1-1h2a1 1 0 0 0 1-1V6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v14.5m-16.5-10L9 5m0 0H5m4 0v4"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

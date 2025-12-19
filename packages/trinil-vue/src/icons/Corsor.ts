@@ -31,7 +31,7 @@ export const Corsor = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 6v12m0-12a2.64 2.64 0 0 1 2.562-2H16m-4 2a2.64 2.64 0 0 0-2.562-2H8m4 14a2.64 2.64 0 0 1-2.562 2H8m4-2a2.64 2.64 0 0 0 2.562 2H16"/>`,
+          innerHTML: `<path d="M12 6v12m0-12a2.64 2.64 0 0 1 2.562-2H16m-4 2a2.64 2.64 0 0 0-2.562-2H8m4 14a2.64 2.64 0 0 1-2.562 2H8m4-2a2.64 2.64 0 0 0 2.562 2H16"/>`,
         },
         children,
       );

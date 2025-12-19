@@ -31,7 +31,7 @@ export const DistributeVertical = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M19.5 20h-15m15-16h-15M17 13.75H7a1 1 0 0 1-1-1v-1.5a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1.5a1 1 0 0 1-1 1Z"/>`,
+          innerHTML: `<path d="M19.5 20h-15m15-16h-15M17 13.75H7a1 1 0 0 1-1-1v-1.5a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1.5a1 1 0 0 1-1 1Z"/>`,
         },
         children,
       );

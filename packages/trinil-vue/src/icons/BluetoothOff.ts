@@ -31,7 +31,7 @@ export const BluetoothOff = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="m12 12 3.93-3.93a.1.1 0 0 0 0-.14l-.73-.73M12 12l3.93 3.93a.1.1 0 0 1 0 .14l-3.76 3.76a.1.1 0 0 1-.17-.071zm0 0 3.2-4.8M12 12l-5.667 8.5M15.2 7.2l2.467-3.7M10 10 7.5 7.5m4.5 0V4.241a.1.1 0 0 1 .17-.07L13 5"/>`,
+          innerHTML: `<path d="m12 12 3.93-3.93a.1.1 0 0 0 0-.14l-.73-.73M12 12l3.93 3.93a.1.1 0 0 1 0 .14l-3.76 3.76a.1.1 0 0 1-.17-.071zm0 0 3.2-4.8M12 12l-5.667 8.5M15.2 7.2l2.467-3.7M10 10 7.5 7.5m4.5 0V4.241a.1.1 0 0 1 .17-.07L13 5"/>`,
         },
         children,
       );

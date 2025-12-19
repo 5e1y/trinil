@@ -26,7 +26,7 @@ export const Proxy3d: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="m5.484 5.542-2.47 6.422a.1.1 0 0 0 0 .072l2.47 6.423a.1.1 0 0 0 .058.057l6.422 2.47a.1.1 0 0 0 .072 0l6.423-2.47a.1.1 0 0 0 .057-.057l2.47-6.423a.1.1 0 0 0 0-.072l-2.47-6.422a.1.1 0 0 0-.057-.058l-6.423-2.47a.1.1 0 0 0-.072 0l-6.422 2.47a.1.1 0 0 0-.058.058Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="m5.484 5.542-2.47 6.422a.1.1 0 0 0 0 .072l2.47 6.423a.1.1 0 0 0 .058.057l6.422 2.47a.1.1 0 0 0 .072 0l6.423-2.47a.1.1 0 0 0 .057-.057l2.47-6.423a.1.1 0 0 0 0-.072l-2.47-6.422a.1.1 0 0 0-.057-.058l-6.423-2.47a.1.1 0 0 0-.072 0l-6.422 2.47a.1.1 0 0 0-.058.058Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

@@ -26,7 +26,7 @@ export const Audio: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M21 9v6m-3-9v12m-3-8v4M12 4v16M9 8v8M6 6v12M3 9v6"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M21 9v6m-3-9v12m-3-8v4M12 4v16M9 8v8M6 6v12M3 9v6"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

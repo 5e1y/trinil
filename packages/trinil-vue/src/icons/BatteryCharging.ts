@@ -31,7 +31,7 @@ export const BatteryCharging = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M18.5 14v1a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v1m0 4v-4m0 4h1a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-1m-7-.5-1.863 2.336a.1.1 0 0 0 .076.164h2.574a.1.1 0 0 1 .076.164L10.5 14.5"/>`,
+          innerHTML: `<path d="M18.5 14v1a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v1m0 4v-4m0 4h1a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-1m-7-.5-1.863 2.336a.1.1 0 0 0 .076.164h2.574a.1.1 0 0 1 .076.164L10.5 14.5"/>`,
         },
         children,
       );

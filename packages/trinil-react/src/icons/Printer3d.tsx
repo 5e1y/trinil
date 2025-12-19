@@ -26,7 +26,7 @@ export const Printer3d: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M4 8.5h3m-3 0V19a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V8.5m-16 0V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v3.5m-13 0v-1a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1m-4 0v1a1 1 0 0 0 1 1h1m2-2v1a1 1 0 0 1-1 1H9m2-2h9m-11 2v1M6.5 17H8m0 0v1m0-1h8m0 0h1.5M16 17v1"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M4 8.5h3m-3 0V19a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V8.5m-16 0V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v3.5m-13 0v-1a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1m-4 0v1a1 1 0 0 0 1 1h1m2-2v1a1 1 0 0 1-1 1H9m2-2h9m-11 2v1M6.5 17H8m0 0v1m0-1h8m0 0h1.5M16 17v1"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

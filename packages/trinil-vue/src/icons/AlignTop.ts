@@ -31,7 +31,7 @@ export const AlignTop = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M4.5 3h15M8 6h1.5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1Zm6.5 0H16a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-1.5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1Z"/>`,
+          innerHTML: `<path d="M4.5 3h15M8 6h1.5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1Zm6.5 0H16a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-1.5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1Z"/>`,
         },
         children,
       );

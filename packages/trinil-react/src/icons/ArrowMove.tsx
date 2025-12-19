@@ -26,7 +26,7 @@ export const ArrowMove: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="m21 12-3-3m3 3-3 3m3-3h-6.5M12 21l3-3m-3 3-3-3m3 3v-6.5M3 12l3 3m-3-3 3-3m-3 3h6.5M12 3 9 6m3-3 3 3m-3-3v6.5"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="m21 12-3-3m3 3-3 3m3-3h-6.5M12 21l3-3m-3 3-3-3m3 3v-6.5M3 12l3 3m-3-3 3-3m-3 3h6.5M12 3 9 6m3-3 3 3m-3-3v6.5"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

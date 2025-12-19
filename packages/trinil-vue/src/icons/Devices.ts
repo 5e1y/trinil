@@ -31,7 +31,7 @@ export const Devices = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M9 14H4a1 1 0 0 1-1-1V6.5a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1V8m-6 6v4.5M9 14h2m-2 4.5H5m4 0h3m6-8h-.5a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1m.5-8h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2.5m.5-8V9a1 1 0 0 0-1-1h-2m-3 10.5a1 1 0 0 1-1-1V14m1 4.5h5.5M15 8h-3a1 1 0 0 0-1 1v5"/>`,
+          innerHTML: `<path d="M9 14H4a1 1 0 0 1-1-1V6.5a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1V8m-6 6v4.5M9 14h2m-2 4.5H5m4 0h3m6-8h-.5a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1m.5-8h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2.5m.5-8V9a1 1 0 0 0-1-1h-2m-3 10.5a1 1 0 0 1-1-1V14m1 4.5h5.5M15 8h-3a1 1 0 0 0-1 1v5"/>`,
         },
         children,
       );

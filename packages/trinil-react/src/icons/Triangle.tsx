@@ -26,7 +26,7 @@ export const Triangle: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="m3.21 18.755 7.712-14.552a1.213 1.213 0 0 1 2.143-.008l7.85 14.552c.44.816-.146 1.808-1.068 1.808H4.283c-.919 0-1.506-.985-1.074-1.8Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="m3.21 18.755 7.712-14.552a1.213 1.213 0 0 1 2.143-.008l7.85 14.552c.44.816-.146 1.808-1.068 1.808H4.283c-.919 0-1.506-.985-1.074-1.8Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

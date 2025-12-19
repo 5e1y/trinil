@@ -26,7 +26,7 @@ export const WaveCosine: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M22 6c-2.5 0-1.5 12-4 12S16.5 6 14 6s-1.5 12-4 12S8.5 6 6 6 4.5 18 2 18"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M22 6c-2.5 0-1.5 12-4 12S16.5 6 14 6s-1.5 12-4 12S8.5 6 6 6 4.5 18 2 18"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

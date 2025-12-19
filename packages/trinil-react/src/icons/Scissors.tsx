@@ -26,7 +26,7 @@ export const Scissors: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M19.5 4.5 9.121 14.879m0 0a3 3 0 1 0-4.243 4.243 3 3 0 0 0 4.243-4.243ZM19.5 19.5 9.121 9.121m0 0a3 3 0 1 0-4.243-4.243 3 3 0 0 0 4.243 4.243Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M19.5 4.5 9.121 14.879m0 0a3 3 0 1 0-4.243 4.243 3 3 0 0 0 4.243-4.243ZM19.5 19.5 9.121 9.121m0 0a3 3 0 1 0-4.243-4.243 3 3 0 0 0 4.243 4.243Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

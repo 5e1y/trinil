@@ -31,7 +31,7 @@ export const ToggleOff = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M15 18H9A6 6 0 0 1 9 6h6a6 6 0 0 1 0 12Z"/>`,
+          innerHTML: `<path d="M15 18H9A6 6 0 0 1 9 6h6a6 6 0 0 1 0 12Z"/>`,
         },
         children,
       );

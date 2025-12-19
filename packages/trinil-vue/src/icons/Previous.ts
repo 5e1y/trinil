@@ -31,7 +31,7 @@ export const Previous = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M5 20.5v-17m14 2.892v11.216a1 1 0 0 1-1.563.826l-8.225-5.608a1 1 0 0 1 0-1.652l8.225-5.608A1 1 0 0 1 19 6.392Z"/>`,
+          innerHTML: `<path d="M5 20.5v-17m14 2.892v11.216a1 1 0 0 1-1.563.826l-8.225-5.608a1 1 0 0 1 0-1.652l8.225-5.608A1 1 0 0 1 19 6.392Z"/>`,
         },
         children,
       );

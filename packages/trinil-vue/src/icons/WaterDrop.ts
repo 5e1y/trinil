@@ -31,7 +31,7 @@ export const WaterDrop = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-width="1.5" d="m7.041 10.525 4.877-6.91a.1.1 0 0 1 .164 0l4.877 6.91a6.33 6.33 0 0 1 1.147 3.277l.012.21a6.129 6.129 0 1 1-12.236 0l.012-.21a6.33 6.33 0 0 1 1.147-3.277Z"/>`,
+          innerHTML: `<path d="m7.041 10.525 4.877-6.91a.1.1 0 0 1 .164 0l4.877 6.91a6.33 6.33 0 0 1 1.147 3.277l.012.21a6.129 6.129 0 1 1-12.236 0l.012-.21a6.33 6.33 0 0 1 1.147-3.277Z"/>`,
         },
         children,
       );

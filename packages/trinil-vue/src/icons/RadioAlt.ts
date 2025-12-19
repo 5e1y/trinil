@@ -31,7 +31,7 @@ export const RadioAlt = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M16.5 8.5H4a1 1 0 0 0-1 1V18a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V9.5a1 1 0 0 0-1-1zm0 0 4-4m-4 4-4-4m1.5 11h3.5m0 0h1m-1 0V14m0 1.5V17m-6-3.25a3.25 3.25 0 1 0-6.5 0 3.25 3.25 0 0 0 6.5 0Z"/>`,
+          innerHTML: `<path d="M16.5 8.5H4a1 1 0 0 0-1 1V18a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V9.5a1 1 0 0 0-1-1zm0 0 4-4m-4 4-4-4m1.5 11h3.5m0 0h1m-1 0V14m0 1.5V17m-6-3.25a3.25 3.25 0 1 0-6.5 0 3.25 3.25 0 0 0 6.5 0Z"/>`,
         },
         children,
       );

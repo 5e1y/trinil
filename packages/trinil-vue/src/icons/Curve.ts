@@ -31,7 +31,7 @@ export const Curve = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M10.5 7.124V9.5a1 1 0 0 1-1 1H7.124M10.5 7.124A15.93 15.93 0 0 1 20 4m-9.5 3.124a.624.624 0 0 0-.624-.624H7.5a1 1 0 0 0-1 1v2.376c0 .345.28.624.624.624M4 20c0-3.557 1.16-6.843 3.124-9.5"/>`,
+          innerHTML: `<path d="M10.5 7.124V9.5a1 1 0 0 1-1 1H7.124M10.5 7.124A15.93 15.93 0 0 1 20 4m-9.5 3.124a.624.624 0 0 0-.624-.624H7.5a1 1 0 0 0-1 1v2.376c0 .345.28.624.624.624M4 20c0-3.557 1.16-6.843 3.124-9.5"/>`,
         },
         children,
       );

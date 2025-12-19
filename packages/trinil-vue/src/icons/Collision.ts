@@ -31,7 +31,7 @@ export const Collision = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="m15 17 1 2m1-4 2 1M9 7 8 5M7 9 5 8m8 8a5 5 0 1 0-10 0 5 5 0 0 0 10 0Zm8-8a5 5 0 1 0-10 0 5 5 0 0 0 10 0Z"/>`,
+          innerHTML: `<path d="m15 17 1 2m1-4 2 1M9 7 8 5M7 9 5 8m8 8a5 5 0 1 0-10 0 5 5 0 0 0 10 0Zm8-8a5 5 0 1 0-10 0 5 5 0 0 0 10 0Z"/>`,
         },
         children,
       );

@@ -26,7 +26,7 @@ export const Array: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M5.4 20.5H3.6a.1.1 0 0 1-.1-.1v-9.8a.1.1 0 0 1 .1-.1h1.8a.1.1 0 0 1 .1.1v9.8a.1.1 0 0 1-.1.1ZM10.4 18.5H8.6a.1.1 0 0 1-.1-.1V8.1a.1.1 0 0 1 .1-.1h1.8a.1.1 0 0 1 .1.1v10.3a.1.1 0 0 1-.1.1ZM15.4 16h-1.8a.1.1 0 0 1-.1-.1V6.1a.1.1 0 0 1 .1-.1h1.8a.1.1 0 0 1 .1.1v9.8a.1.1 0 0 1-.1.1ZM20.4 13.5h-1.8a.1.1 0 0 1-.1-.1V3.6a.1.1 0 0 1 .1-.1h1.8a.1.1 0 0 1 .1.1v9.8a.1.1 0 0 1-.1.1Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M5.4 20.5H3.6a.1.1 0 0 1-.1-.1v-9.8a.1.1 0 0 1 .1-.1h1.8a.1.1 0 0 1 .1.1v9.8a.1.1 0 0 1-.1.1ZM10.4 18.5H8.6a.1.1 0 0 1-.1-.1V8.1a.1.1 0 0 1 .1-.1h1.8a.1.1 0 0 1 .1.1v10.3a.1.1 0 0 1-.1.1ZM15.4 16h-1.8a.1.1 0 0 1-.1-.1V6.1a.1.1 0 0 1 .1-.1h1.8a.1.1 0 0 1 .1.1v9.8a.1.1 0 0 1-.1.1ZM20.4 13.5h-1.8a.1.1 0 0 1-.1-.1V3.6a.1.1 0 0 1 .1-.1h1.8a.1.1 0 0 1 .1.1v9.8a.1.1 0 0 1-.1.1Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

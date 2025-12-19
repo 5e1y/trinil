@@ -31,7 +31,7 @@ export const Signpost = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M11 21v-9m0 0h5.586a1 1 0 0 0 .707-.293l2-2a1 1 0 0 0 0-1.414l-2-2A1 1 0 0 0 16.586 6H11m0 6H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5m0 0V3"/>`,
+          innerHTML: `<path d="M11 21v-9m0 0h5.586a1 1 0 0 0 .707-.293l2-2a1 1 0 0 0 0-1.414l-2-2A1 1 0 0 0 16.586 6H11m0 6H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5m0 0V3"/>`,
         },
         children,
       );

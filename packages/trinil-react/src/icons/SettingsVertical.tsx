@@ -26,7 +26,7 @@ export const SettingsVertical: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M7 2v11.5m0 0a2 2 0 1 1 0 4m0-4a2 2 0 1 0 0 4m0 0V22M17 2v4.5m0 0a2 2 0 1 0 0 4m0-4a2 2 0 1 1 0 4m0 0V22"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M7 2v11.5m0 0a2 2 0 1 1 0 4m0-4a2 2 0 1 0 0 4m0 0V22M17 2v4.5m0 0a2 2 0 1 0 0 4m0-4a2 2 0 1 1 0 4m0 0V22"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

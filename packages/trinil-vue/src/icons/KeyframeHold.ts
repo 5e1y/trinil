@@ -31,7 +31,7 @@ export const KeyframeHold = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 4H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h7m0-16h7a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-7m0-16v16"/>`,
+          innerHTML: `<path d="M12 4H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h7m0-16h7a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-7m0-16v16"/>`,
         },
         children,
       );

@@ -31,7 +31,7 @@ export const Download = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 3.5V18m0 0 5-5m-5 5-5-5m-2.5 2.5V20a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1v-4.5"/>`,
+          innerHTML: `<path d="M12 3.5V18m0 0 5-5m-5 5-5-5m-2.5 2.5V20a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1v-4.5"/>`,
         },
         children,
       );

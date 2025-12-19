@@ -31,7 +31,7 @@ export const StairsDown = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M19.5 20.5V18a1 1 0 0 0-1-1h-2a1 1 0 0 1-1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 1-1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 1-1-1V6a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v14.5M20 10l-5.5-5.5M20 10V6m0 4h-4"/>`,
+          innerHTML: `<path d="M19.5 20.5V18a1 1 0 0 0-1-1h-2a1 1 0 0 1-1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 1-1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 1-1-1V6a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v14.5M20 10l-5.5-5.5M20 10V6m0 4h-4"/>`,
         },
         children,
       );

@@ -31,7 +31,7 @@ export const CreditCardCheck = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M21 9V7.5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2V9m18 0H3m18 0v5M3 9v7.5a2 2 0 0 0 2 2h8.025M16 18l1.43 1.43a.1.1 0 0 0 .14 0L20 17m1-3a5 5 0 0 0-7.975 4.5M21 14a5 5 0 1 1-7.975 4.5"/>`,
+          innerHTML: `<path d="M21 9V7.5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2V9m18 0H3m18 0v5M3 9v7.5a2 2 0 0 0 2 2h8.025M16 18l1.43 1.43a.1.1 0 0 0 .14 0L20 17m1-3a5 5 0 0 0-7.975 4.5M21 14a5 5 0 1 1-7.975 4.5"/>`,
         },
         children,
       );

@@ -31,7 +31,7 @@ export const SafeFrame = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M3 9V5.1a.1.1 0 0 1 .1-.1H7m10 0h3.9a.1.1 0 0 1 .1.1V9m0 6v3.9a.1.1 0 0 1-.1.1H17M7 19H3.1a.1.1 0 0 1-.1-.1V15m9-5v4m-2-2h4"/>`,
+          innerHTML: `<path d="M3 9V5.1a.1.1 0 0 1 .1-.1H7m10 0h3.9a.1.1 0 0 1 .1.1V9m0 6v3.9a.1.1 0 0 1-.1.1H17M7 19H3.1a.1.1 0 0 1-.1-.1V15m9-5v4m-2-2h4"/>`,
         },
         children,
       );

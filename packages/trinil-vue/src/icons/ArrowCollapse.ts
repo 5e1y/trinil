@@ -31,7 +31,7 @@ export const ArrowCollapse = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 21.5V15m0 0-3.5 3.5M12 15l3.5 3.5M12 2.5V9m0 0 3.5-3.5M12 9 8.5 5.5m11 6.5h-15"/>`,
+          innerHTML: `<path d="M12 21.5V15m0 0-3.5 3.5M12 15l3.5 3.5M12 2.5V9m0 0 3.5-3.5M12 9 8.5 5.5m11 6.5h-15"/>`,
         },
         children,
       );

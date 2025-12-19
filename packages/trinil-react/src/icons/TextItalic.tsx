@@ -26,7 +26,7 @@ export const TextItalic: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M20 4h-5m0 0h-5m5 0L9 20m-5 0h5m0 0h5"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M20 4h-5m0 0h-5m5 0L9 20m-5 0h5m0 0h5"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

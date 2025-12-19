@@ -31,7 +31,7 @@ export const ArrowDownUp = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M8 19.5 3.5 15M8 19.5l4.5-4.5M8 19.5v-15m8 0L20.5 9M16 4.5 11.5 9M16 4.5v15"/>`,
+          innerHTML: `<path d="M8 19.5 3.5 15M8 19.5l4.5-4.5M8 19.5v-15m8 0L20.5 9M16 4.5 11.5 9M16 4.5v15"/>`,
         },
         children,
       );

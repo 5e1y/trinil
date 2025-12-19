@@ -31,7 +31,7 @@ export const Hashtag = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="m17 4-1.25 5m0 0-1.5 6m1.5-6h-6m6 0h2.75m-4.25 6L13 20m1.25-5h3.25m-3.25 0h-6M7 20l1.25-5m0 0 1.5-6m-1.5 6H5.5m4.25-6L11 4M9.75 9H6.5"/>`,
+          innerHTML: `<path d="m17 4-1.25 5m0 0-1.5 6m1.5-6h-6m6 0h2.75m-4.25 6L13 20m1.25-5h3.25m-3.25 0h-6M7 20l1.25-5m0 0 1.5-6m-1.5 6H5.5m4.25-6L11 4M9.75 9H6.5"/>`,
         },
         children,
       );

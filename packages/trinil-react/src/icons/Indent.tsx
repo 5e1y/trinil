@@ -26,7 +26,7 @@ export const Indent: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M12.5 6h7m-15 12h15m-15-6h15M7 4l1.93 1.93a.1.1 0 0 1 0 .14L7 8"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M12.5 6h7m-15 12h15m-15-6h15M7 4l1.93 1.93a.1.1 0 0 1 0 .14L7 8"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

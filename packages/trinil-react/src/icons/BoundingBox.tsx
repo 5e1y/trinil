@@ -26,7 +26,7 @@ export const BoundingBox: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-width="1.5" d="M19 6.5A1.5 1.5 0 1 0 17.5 5M19 6.5A1.5 1.5 0 0 1 17.5 5M19 6.5v11M17.5 5h-11m0 0A1.5 1.5 0 0 1 5 6.5M6.5 5A1.5 1.5 0 1 0 5 6.5m0 0v11M6.5 19A1.5 1.5 0 1 1 5 17.5M6.5 19A1.5 1.5 0 0 0 5 17.5M6.5 19h11m0 0a1.5 1.5 0 1 0 1.5-1.5M17.5 19a1.5 1.5 0 0 1 1.5-1.5"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M19 6.5A1.5 1.5 0 1 0 17.5 5M19 6.5A1.5 1.5 0 0 1 17.5 5M19 6.5v11M17.5 5h-11m0 0A1.5 1.5 0 0 1 5 6.5M6.5 5A1.5 1.5 0 1 0 5 6.5m0 0v11M6.5 19A1.5 1.5 0 1 1 5 17.5M6.5 19A1.5 1.5 0 0 0 5 17.5M6.5 19h11m0 0a1.5 1.5 0 1 0 1.5-1.5M17.5 19a1.5 1.5 0 0 1 1.5-1.5"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

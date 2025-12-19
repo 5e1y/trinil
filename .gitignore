@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build outputs and generated sources (rebuild on install/clone)
+dist/
+packages/*/src/icons/
+packages/*/src/index.ts
+**/*.js
+**/*.js.map
+**/*.d.ts
+**/*.d.ts.map
+*.tgz
+
+# Lock files (use npm ci for reproducible installs, but committing is ok)
+# npm-shrinkwrap.json  (uncomment to track)
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.env
+.env.local
+
+# Examples (not published)
+examples/node_modules/
+examples/**/dist/
+
+# Temporary
+.turbo/
+.cache/

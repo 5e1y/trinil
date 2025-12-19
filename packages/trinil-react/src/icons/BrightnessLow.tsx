@@ -26,7 +26,7 @@ export const BrightnessLow: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 6V5m6 7h1m-7 6v1m-6-7H5m11.243-4.243.707-.707m-.707 9.193.707.707m-9.193-.707-.707.707m.707-9.193L7.05 7.05M16 12a4 4 0 1 0-8 0 4 4 0 0 0 8 0Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M12 6V5m6 7h1m-7 6v1m-6-7H5m11.243-4.243.707-.707m-.707 9.193.707.707m-9.193-.707-.707.707m.707-9.193L7.05 7.05M16 12a4 4 0 1 0-8 0 4 4 0 0 0 8 0Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

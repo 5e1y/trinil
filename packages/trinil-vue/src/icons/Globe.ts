@@ -31,7 +31,7 @@ export const Globe = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 21C7.229 15.948 7.229 8.052 12 3m0 18a9 9 0 0 1-9-9m9 9a9 9 0 0 0 9-9m-9 9c4.77-5.052 4.77-12.948 0-18m0 0a9 9 0 0 0-9 9m9-9a9 9 0 0 1 9 9M3 12h18"/>`,
+          innerHTML: `<path d="M12 21C7.229 15.948 7.229 8.052 12 3m0 18a9 9 0 0 1-9-9m9 9a9 9 0 0 0 9-9m-9 9c4.77-5.052 4.77-12.948 0-18m0 0a9 9 0 0 0-9 9m9-9a9 9 0 0 1 9 9M3 12h18"/>`,
         },
         children,
       );

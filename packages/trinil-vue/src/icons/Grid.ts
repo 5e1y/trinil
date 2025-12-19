@@ -31,7 +31,7 @@ export const Grid = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-width="1.5" d="M12 4h7a1 1 0 0 1 1 1v7m-8-8H5a1 1 0 0 0-1 1v7m8-8v8m0 8H5a1 1 0 0 1-1-1v-7m8 8h7a1 1 0 0 0 1-1v-7m-8 8v-8m0 0H4m8 0h8"/>`,
+          innerHTML: `<path d="M12 4h7a1 1 0 0 1 1 1v7m-8-8H5a1 1 0 0 0-1 1v7m8-8v8m0 8H5a1 1 0 0 1-1-1v-7m8 8h7a1 1 0 0 0 1-1v-7m-8 8v-8m0 0H4m8 0h8"/>`,
         },
         children,
       );

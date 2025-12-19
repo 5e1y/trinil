@@ -26,7 +26,7 @@ export const FrameFigma: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M9.5 5H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h5.5a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1ZM20 7h-5.5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1H20a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M9.5 5H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h5.5a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1ZM20 7h-5.5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1H20a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

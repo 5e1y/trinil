@@ -26,7 +26,7 @@ export const Timeline: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 12.5H4a1 1 0 0 1-1-1V11a1 1 0 0 1 1-1h8m0 2.5h4a1 1 0 0 0 1-1V11a1 1 0 0 0-1-1h-4m0 2.5V10m0 2.5V15m0-5V8m0 9.5H8a1 1 0 0 1-1-1V16a1 1 0 0 1 1-1h4m0 2.5h8a1 1 0 0 0 1-1V16a1 1 0 0 0-1-1h-8m0 2.5V15m0 2.5V21m0-13-1.707-1.707A1 1 0 0 1 10 5.586V4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1.586a1 1 0 0 1-.293.707z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M12 12.5H4a1 1 0 0 1-1-1V11a1 1 0 0 1 1-1h8m0 2.5h4a1 1 0 0 0 1-1V11a1 1 0 0 0-1-1h-4m0 2.5V10m0 2.5V15m0-5V8m0 9.5H8a1 1 0 0 1-1-1V16a1 1 0 0 1 1-1h4m0 2.5h8a1 1 0 0 0 1-1V16a1 1 0 0 0-1-1h-8m0 2.5V15m0 2.5V21m0-13-1.707-1.707A1 1 0 0 1 10 5.586V4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1.586a1 1 0 0 1-.293.707z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

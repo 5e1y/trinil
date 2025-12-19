@@ -31,7 +31,7 @@ export const GitMerge = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M7 7v3m0-3a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 3v7m0-7a2 2 0 0 0 2 2h6a2 2 0 0 1 2 2v3m0 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM7 17a2 2 0 1 1 0 4 2 2 0 0 1 0-4Z"/>`,
+          innerHTML: `<path d="M7 7v3m0-3a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 3v7m0-7a2 2 0 0 0 2 2h6a2 2 0 0 1 2 2v3m0 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM7 17a2 2 0 1 1 0 4 2 2 0 0 1 0-4Z"/>`,
         },
         children,
       );

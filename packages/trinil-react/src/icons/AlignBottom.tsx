@@ -26,7 +26,7 @@ export const AlignBottom: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M4.5 21h15M8 18h1.5a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1Zm6.5 0H16a1 1 0 0 0 1-1v-7a1 1 0 0 0-1-1h-1.5a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M4.5 21h15M8 18h1.5a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1Zm6.5 0H16a1 1 0 0 0 1-1v-7a1 1 0 0 0-1-1h-1.5a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

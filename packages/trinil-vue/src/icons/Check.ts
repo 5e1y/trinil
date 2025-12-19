@@ -31,7 +31,7 @@ export const Check = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="m4 10.5 6.5 6.5L20 7.5"/>`,
+          innerHTML: `<path d="m4 10.5 6.5 6.5L20 7.5"/>`,
         },
         children,
       );

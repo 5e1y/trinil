@@ -26,7 +26,7 @@ export const Crown: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-width="1.5" d="M3 17v-6.958a.1.1 0 0 1 .03-.071l2.9-2.9a.1.1 0 0 1 .14 0L8.93 9.93a.1.1 0 0 0 .14 0l2.86-2.86a.1.1 0 0 1 .14 0l2.86 2.86a.1.1 0 0 0 .14 0l2.86-2.86a.1.1 0 0 1 .14 0l2.9 2.9a.1.1 0 0 1 .03.072V17a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M3 17v-6.958a.1.1 0 0 1 .03-.071l2.9-2.9a.1.1 0 0 1 .14 0L8.93 9.93a.1.1 0 0 0 .14 0l2.86-2.86a.1.1 0 0 1 .14 0l2.86 2.86a.1.1 0 0 0 .14 0l2.86-2.86a.1.1 0 0 1 .14 0l2.9 2.9a.1.1 0 0 1 .03.072V17a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

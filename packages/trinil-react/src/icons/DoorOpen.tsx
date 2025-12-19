@@ -26,7 +26,7 @@ export const DoorOpen: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M14 19v.674a1 1 0 0 1-1.275.962l-5-1.429A1 1 0 0 1 7 18.246V4a1 1 0 0 1 .49-.86M14 19V5.754a1 1 0 0 0-.725-.961L7.49 3.14M14 19h2a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H8a1 1 0 0 0-.51.14M12 13.429l-1-.286"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M14 19v.674a1 1 0 0 1-1.275.962l-5-1.429A1 1 0 0 1 7 18.246V4a1 1 0 0 1 .49-.86M14 19V5.754a1 1 0 0 0-.725-.961L7.49 3.14M14 19h2a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H8a1 1 0 0 0-.51.14M12 13.429l-1-.286"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

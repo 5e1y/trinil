@@ -31,7 +31,7 @@ export const LocationPin = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 13v7.5m0-7.5a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9Z"/>`,
+          innerHTML: `<path d="M12 13v7.5m0-7.5a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9Z"/>`,
         },
         children,
       );

@@ -26,7 +26,7 @@ export const Coffee: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="m17.684 9 .306-1.454A.453.453 0 0 0 17.547 7H3.453a.453.453 0 0 0-.443.546l1.489 7.072A3 3 0 0 0 7.434 17h6.522c1.191 0 2.22-.834 2.465-2m1.263-6H18a3 3 0 1 1 0 6h-1.579m1.263-6-1.263 6"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="m17.684 9 .306-1.454A.453.453 0 0 0 17.547 7H3.453a.453.453 0 0 0-.443.546l1.489 7.072A3 3 0 0 0 7.434 17h6.522c1.191 0 2.22-.834 2.465-2m1.263-6H18a3 3 0 1 1 0 6h-1.579m1.263-6-1.263 6"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

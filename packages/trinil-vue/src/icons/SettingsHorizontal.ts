@@ -31,7 +31,7 @@ export const SettingsHorizontal = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M2 7h11.5m0 0a2 2 0 1 0 4 0m-4 0a2 2 0 1 1 4 0m0 0H22M2 17h4.5m0 0a2 2 0 1 1 4 0m-4 0a2 2 0 1 0 4 0m0 0H22"/>`,
+          innerHTML: `<path d="M2 7h11.5m0 0a2 2 0 1 0 4 0m-4 0a2 2 0 1 1 4 0m0 0H22M2 17h4.5m0 0a2 2 0 1 1 4 0m-4 0a2 2 0 1 0 4 0m0 0H22"/>`,
         },
         children,
       );

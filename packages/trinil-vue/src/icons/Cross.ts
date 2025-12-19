@@ -31,7 +31,7 @@ export const Cross = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="m4.5 4.5 7.5 7.501m0 0 7.5 7.5M12 12l-7.499 7.5m7.5-7.5L19.5 4.502"/>`,
+          innerHTML: `<path d="m4.5 4.5 7.5 7.501m0 0 7.5 7.5M12 12l-7.499 7.5m7.5-7.5L19.5 4.502"/>`,
         },
         children,
       );

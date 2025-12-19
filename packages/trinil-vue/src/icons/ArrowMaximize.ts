@@ -31,7 +31,7 @@ export const ArrowMaximize = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M20 4h-5.5M20 4v5.5M20 4l-5 5m5 11v-5.5m0 5.5h-5.5m5.5 0-5-5M4 20h5.5M4 20v-5.5M4 20l5-5M4 4v5.5M4 4h5.5M4 4l5 5"/>`,
+          innerHTML: `<path d="M20 4h-5.5M20 4v5.5M20 4l-5 5m5 11v-5.5m0 5.5h-5.5m5.5 0-5-5M4 20h5.5M4 20v-5.5M4 20l5-5M4 4v5.5M4 4h5.5M4 4l5 5"/>`,
         },
         children,
       );

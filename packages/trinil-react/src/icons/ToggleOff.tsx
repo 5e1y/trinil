@@ -26,7 +26,7 @@ export const ToggleOff: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M15 18H9A6 6 0 0 1 9 6h6a6 6 0 0 1 0 12Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M15 18H9A6 6 0 0 1 9 6h6a6 6 0 0 1 0 12Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

@@ -31,7 +31,7 @@ export const Magnet = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M14 15v4a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-4m-6 0v-2.5a2 2 0 1 0-4 0V15m4 0h6m0 0v-3a8 8 0 1 0-16 0v3m6 0v4a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-4m6 0H4"/>`,
+          innerHTML: `<path d="M14 15v4a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-4m-6 0v-2.5a2 2 0 1 0-4 0V15m4 0h6m0 0v-3a8 8 0 1 0-16 0v3m6 0v4a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-4m6 0H4"/>`,
         },
         children,
       );

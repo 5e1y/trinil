@@ -26,7 +26,7 @@ export const CommentFigma: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-width="1.5" d="M4 19.998V12a8 8 0 1 1 8 8H4.002Q4 20 4 19.998Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M4 19.998V12a8 8 0 1 1 8 8H4.002Q4 20 4 19.998Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

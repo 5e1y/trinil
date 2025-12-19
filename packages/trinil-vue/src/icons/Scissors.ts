@@ -31,7 +31,7 @@ export const Scissors = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M19.5 4.5 9.121 14.879m0 0a3 3 0 1 0-4.243 4.243 3 3 0 0 0 4.243-4.243ZM19.5 19.5 9.121 9.121m0 0a3 3 0 1 0-4.243-4.243 3 3 0 0 0 4.243 4.243Z"/>`,
+          innerHTML: `<path d="M19.5 4.5 9.121 14.879m0 0a3 3 0 1 0-4.243 4.243 3 3 0 0 0 4.243-4.243ZM19.5 19.5 9.121 9.121m0 0a3 3 0 1 0-4.243-4.243 3 3 0 0 0 4.243 4.243Z"/>`,
         },
         children,
       );

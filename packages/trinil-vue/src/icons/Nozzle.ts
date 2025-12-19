@@ -31,7 +31,7 @@ export const Nozzle = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M8 11H5.1a.1.1 0 0 0-.1.1v5.852a.1.1 0 0 0 .038.078l4.935 3.948a.1.1 0 0 0 .062.022h3.93a.1.1 0 0 0 .062-.022l4.935-3.948a.1.1 0 0 0 .038-.078V11.1a.1.1 0 0 0-.1-.1H16m-8 0V3.1a.1.1 0 0 1 .1-.1h7.8a.1.1 0 0 1 .1.1V11m-8 0h8m-9 0 10-2M7 8.5l10-2M7 6l10-2"/>`,
+          innerHTML: `<path d="M8 11H5.1a.1.1 0 0 0-.1.1v5.852a.1.1 0 0 0 .038.078l4.935 3.948a.1.1 0 0 0 .062.022h3.93a.1.1 0 0 0 .062-.022l4.935-3.948a.1.1 0 0 0 .038-.078V11.1a.1.1 0 0 0-.1-.1H16m-8 0V3.1a.1.1 0 0 1 .1-.1h7.8a.1.1 0 0 1 .1.1V11m-8 0h8m-9 0 10-2M7 8.5l10-2M7 6l10-2"/>`,
         },
         children,
       );

@@ -26,7 +26,7 @@ export const Truck: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M9.5 17.25a1.75 1.75 0 1 1-3.5 0m3.5 0a1.75 1.75 0 1 0-3.5 0m3.5 0H15m-9 0H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v3.5m5 6.75a1.75 1.75 0 1 1-3.5 0m3.5 0a1.75 1.75 0 1 0-3.5 0m3.5 0h.5a1 1 0 0 0 1-1v-2.447a1 1 0 0 0-.168-.555l-1.535-2.303a1 1 0 0 0-.832-.445H15m1.5 6.75H15m0 0V10.5"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M9.5 17.25a1.75 1.75 0 1 1-3.5 0m3.5 0a1.75 1.75 0 1 0-3.5 0m3.5 0H15m-9 0H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v3.5m5 6.75a1.75 1.75 0 1 1-3.5 0m3.5 0a1.75 1.75 0 1 0-3.5 0m3.5 0h.5a1 1 0 0 0 1-1v-2.447a1 1 0 0 0-.168-.555l-1.535-2.303a1 1 0 0 0-.832-.445H15m1.5 6.75H15m0 0V10.5"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

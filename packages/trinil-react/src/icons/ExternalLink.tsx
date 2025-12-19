@@ -26,7 +26,7 @@ export const ExternalLink: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M20 4h-6m6 0v6m0-6-9 9m7-.5V19a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6.5"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M20 4h-6m6 0v6m0-6-9 9m7-.5V19a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6.5"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

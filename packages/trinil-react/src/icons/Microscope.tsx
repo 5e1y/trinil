@@ -26,7 +26,7 @@ export const Microscope: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M3.5 17h4m0 0v3a1 1 0 0 0 1 1H19a1 1 0 0 0 1-1v-1.32a10 10 0 0 0-5.528-8.944L13 9m-5.5 8h4M13 9l1.553-3.105a1 1 0 0 0-.447-1.342l-2.212-1.105a1 1 0 0 0-1.341.447l-3.106 6.21a1 1 0 0 0 .447 1.343L8 11.5M13 9l-1.553 3.106a1 1 0 0 1-1.341.447L10 12.5m-2-1-.553 1.106a1 1 0 0 0 .447 1.342l.212.105a1 1 0 0 0 1.341-.447L10 12.5m-2-1 2 1"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M3.5 17h4m0 0v3a1 1 0 0 0 1 1H19a1 1 0 0 0 1-1v-1.32a10 10 0 0 0-5.528-8.944L13 9m-5.5 8h4M13 9l1.553-3.105a1 1 0 0 0-.447-1.342l-2.212-1.105a1 1 0 0 0-1.341.447l-3.106 6.21a1 1 0 0 0 .447 1.343L8 11.5M13 9l-1.553 3.106a1 1 0 0 1-1.341.447L10 12.5m-2-1-.553 1.106a1 1 0 0 0 .447 1.342l.212.105a1 1 0 0 0 1.341-.447L10 12.5m-2-1 2 1"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

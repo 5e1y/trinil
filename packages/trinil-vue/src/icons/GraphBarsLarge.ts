@@ -31,7 +31,7 @@ export const GraphBarsLarge = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M3 4.5V18a1 1 0 0 0 1 1h1.5m16 0h-1m0 0V5.1a.1.1 0 0 0-.1-.1h-2.8a.1.1 0 0 0-.1.1V19m3 0h-3m0 0h-3m0 0h-3m3 0V8.1a.1.1 0 0 0-.1-.1h-2.8a.1.1 0 0 0-.1.1V19m0 0h-3m0 0v-6.9a.1.1 0 0 0-.1-.1H5.6a.1.1 0 0 0-.1.1V19m3 0h-3"/>`,
+          innerHTML: `<path d="M3 4.5V18a1 1 0 0 0 1 1h1.5m16 0h-1m0 0V5.1a.1.1 0 0 0-.1-.1h-2.8a.1.1 0 0 0-.1.1V19m3 0h-3m0 0h-3m0 0h-3m3 0V8.1a.1.1 0 0 0-.1-.1h-2.8a.1.1 0 0 0-.1.1V19m0 0h-3m0 0v-6.9a.1.1 0 0 0-.1-.1H5.6a.1.1 0 0 0-.1.1V19m3 0h-3"/>`,
         },
         children,
       );

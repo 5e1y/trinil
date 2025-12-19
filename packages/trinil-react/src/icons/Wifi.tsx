@@ -26,7 +26,7 @@ export const Wifi: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M5 12c3.866-3.866 10.134-3.866 14 0M7 15a7.07 7.07 0 0 1 10 0M3 9c4.97-4.97 13.03-4.97 18 0m-8.25 9a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M5 12c3.866-3.866 10.134-3.866 14 0M7 15a7.07 7.07 0 0 1 10 0M3 9c4.97-4.97 13.03-4.97 18 0m-8.25 9a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

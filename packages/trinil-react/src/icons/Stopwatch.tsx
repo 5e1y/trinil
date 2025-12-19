@@ -26,7 +26,7 @@ export const Stopwatch: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 6V3m0 3a7.5 7.5 0 1 0 3.75 1.004M12 6c1.366 0 2.647.365 3.75 1.004M12 3h2m-2 0h-2m5.75 4.004L16.5 5.5m0 5.5-4.441 3.454a.1.1 0 0 1-.12.003L8.5 12"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M12 6V3m0 3a7.5 7.5 0 1 0 3.75 1.004M12 6c1.366 0 2.647.365 3.75 1.004M12 3h2m-2 0h-2m5.75 4.004L16.5 5.5m0 5.5-4.441 3.454a.1.1 0 0 1-.12.003L8.5 12"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

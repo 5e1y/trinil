@@ -26,7 +26,7 @@ export const GraphStroke: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M3 4.5V18a1 1 0 0 0 1 1h17.5m-15-5.5 2.793-2.793a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 0 1.414 0L19.5 6.5"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M3 4.5V18a1 1 0 0 0 1 1h17.5m-15-5.5 2.793-2.793a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 0 1.414 0L19.5 6.5"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

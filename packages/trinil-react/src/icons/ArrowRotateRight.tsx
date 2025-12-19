@@ -26,7 +26,7 @@ export const ArrowRotateRight: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M4 12a8 8 0 0 1 14.423-4.77m0 0L18.5 3m-.077 4.23H14M20 12a8 8 0 0 1-14.423 4.77m0 0L5.5 21m.077-4.23H10"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M4 12a8 8 0 0 1 14.423-4.77m0 0L18.5 3m-.077 4.23H14M20 12a8 8 0 0 1-14.423 4.77m0 0L5.5 21m.077-4.23H10"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

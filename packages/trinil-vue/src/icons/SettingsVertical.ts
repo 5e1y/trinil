@@ -31,7 +31,7 @@ export const SettingsVertical = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M7 2v11.5m0 0a2 2 0 1 1 0 4m0-4a2 2 0 1 0 0 4m0 0V22M17 2v4.5m0 0a2 2 0 1 0 0 4m0-4a2 2 0 1 1 0 4m0 0V22"/>`,
+          innerHTML: `<path d="M7 2v11.5m0 0a2 2 0 1 1 0 4m0-4a2 2 0 1 0 0 4m0 0V22M17 2v4.5m0 0a2 2 0 1 0 0 4m0-4a2 2 0 1 1 0 4m0 0V22"/>`,
         },
         children,
       );

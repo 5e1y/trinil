@@ -26,7 +26,7 @@ export const LinkUnlinked: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M15.5 16h2c2 0 3.5-1.5 3.5-3.5v-1c0-2-1.5-3.5-3.5-3.5h-2m-7 8h-2c-2 0-3.5-1.5-3.5-3.5v-1C3 9.5 4.5 8 6.5 8h2M13 6.5l1-2m-3 2-1-2m3 13 1 2m-3-2-1 2"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M15.5 16h2c2 0 3.5-1.5 3.5-3.5v-1c0-2-1.5-3.5-3.5-3.5h-2m-7 8h-2c-2 0-3.5-1.5-3.5-3.5v-1C3 9.5 4.5 8 6.5 8h2M13 6.5l1-2m-3 2-1-2m3 13 1 2m-3-2-1 2"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

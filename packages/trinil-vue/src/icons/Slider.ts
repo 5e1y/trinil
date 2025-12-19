@@ -31,7 +31,7 @@ export const Slider = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M17 12V9a2 2 0 1 0-4 0v3m4 0v3a2 2 0 1 1-4 0v-3m4 0h5m-9 0H2"/>`,
+          innerHTML: `<path d="M17 12V9a2 2 0 1 0-4 0v3m4 0v3a2 2 0 1 1-4 0v-3m4 0h5m-9 0H2"/>`,
         },
         children,
       );

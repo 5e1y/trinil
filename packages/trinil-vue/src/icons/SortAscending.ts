@@ -31,7 +31,7 @@ export const SortAscending = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M5.5 20V5m0 0L3 7.5M5.5 5 8 7.5M10 19h3.5M10 14.5h6M10 10h8.5M10 5.5h11"/>`,
+          innerHTML: `<path d="M5.5 20V5m0 0L3 7.5M5.5 5 8 7.5M10 19h3.5M10 14.5h6M10 10h8.5M10 5.5h11"/>`,
         },
         children,
       );

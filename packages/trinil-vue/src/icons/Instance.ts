@@ -31,7 +31,7 @@ export const Instance = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="m3.707 11.293 7.586-7.586a1 1 0 0 1 1.414 0l7.586 7.586a1 1 0 0 1 0 1.414l-7.586 7.586a1 1 0 0 1-1.414 0l-7.586-7.586a1 1 0 0 1 0-1.414Z"/>`,
+          innerHTML: `<path d="m3.707 11.293 7.586-7.586a1 1 0 0 1 1.414 0l7.586 7.586a1 1 0 0 1 0 1.414l-7.586 7.586a1 1 0 0 1-1.414 0l-7.586-7.586a1 1 0 0 1 0-1.414Z"/>`,
         },
         children,
       );

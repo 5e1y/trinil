@@ -26,7 +26,7 @@ export const Calandar: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M4 9V7a2 2 0 0 1 2-2h1M4 9v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9M4 9h16m0 0V7a2 2 0 0 0-2-2h-1m0 0V3.5M17 5H7m10 0v1.5M7 5V3.5M7 5v1.5"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M4 9V7a2 2 0 0 1 2-2h1M4 9v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9M4 9h16m0 0V7a2 2 0 0 0-2-2h-1m0 0V3.5M17 5H7m10 0v1.5M7 5V3.5M7 5v1.5"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

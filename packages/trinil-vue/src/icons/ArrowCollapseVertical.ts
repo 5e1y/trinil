@@ -31,7 +31,7 @@ export const ArrowCollapseVertical = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M21.5 12H15m0 0 3.5 3.5M15 12l3.5-3.5M2.5 12H9m0 0L5.5 8.5M9 12l-3.5 3.5m6.5-11v15"/>`,
+          innerHTML: `<path d="M21.5 12H15m0 0 3.5 3.5M15 12l3.5-3.5M2.5 12H9m0 0L5.5 8.5M9 12l-3.5 3.5m6.5-11v15"/>`,
         },
         children,
       );

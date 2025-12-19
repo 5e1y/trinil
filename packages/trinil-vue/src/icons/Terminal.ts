@@ -31,7 +31,7 @@ export const Terminal = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M10.5 15h4m-8 .5 1.93-1.93a.1.1 0 0 0 0-.14L6.5 11.5M20 5H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1Z"/>`,
+          innerHTML: `<path d="M10.5 15h4m-8 .5 1.93-1.93a.1.1 0 0 0 0-.14L6.5 11.5M20 5H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1Z"/>`,
         },
         children,
       );

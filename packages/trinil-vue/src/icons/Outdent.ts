@@ -31,7 +31,7 @@ export const Outdent = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12.5 6h7m-15 12h15m-15-6h15m-11-8L6.57 5.93a.1.1 0 0 0 0 .14L8.5 8"/>`,
+          innerHTML: `<path d="M12.5 6h7m-15 12h15m-15-6h15m-11-8L6.57 5.93a.1.1 0 0 0 0 .14L8.5 8"/>`,
         },
         children,
       );

@@ -31,7 +31,7 @@ export const Cheer = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 8.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Zm0 0V15m0-6.5 2.316.772a1 1 0 0 0 1.116-.349L17.626 6M12 8.5l-2.776.793A1 1 0 0 1 8.1 8.862L6.312 6M12 15l-.949 2.846a1 1 0 0 0-.051.316V21.5m1-6.5 2.09.836a1 1 0 0 1 .565.577l1.158 3.087"/>`,
+          innerHTML: `<path d="M12 8.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Zm0 0V15m0-6.5 2.316.772a1 1 0 0 0 1.116-.349L17.626 6M12 8.5l-2.776.793A1 1 0 0 1 8.1 8.862L6.312 6M12 15l-.949 2.846a1 1 0 0 0-.051.316V21.5m1-6.5 2.09.836a1 1 0 0 1 .565.577l1.158 3.087"/>`,
         },
         children,
       );

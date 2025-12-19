@@ -31,7 +31,7 @@ export const Record = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M6.5 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 0h11m0 0a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z"/>`,
+          innerHTML: `<path d="M6.5 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 0h11m0 0a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z"/>`,
         },
         children,
       );

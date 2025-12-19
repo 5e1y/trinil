@@ -31,7 +31,7 @@ export const Circle = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M3 12a9 9 0 1 0 18 0 9 9 0 0 0-18 0Z"/>`,
+          innerHTML: `<path d="M3 12a9 9 0 1 0 18 0 9 9 0 0 0-18 0Z"/>`,
         },
         children,
       );

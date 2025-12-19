@@ -26,7 +26,7 @@ export const Deform: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M6 11V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2m0 14v-1a6 6 0 0 1 6-6h1a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1h-1C11.373 7 6 12.373 6 19v1a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M6 11V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2m0 14v-1a6 6 0 0 1 6-6h1a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1h-1C11.373 7 6 12.373 6 19v1a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

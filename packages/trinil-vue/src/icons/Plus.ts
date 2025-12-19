@@ -31,7 +31,7 @@ export const Plus = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M11.998 4v8m0 8v-8m0 0H4m7.998 0H20"/>`,
+          innerHTML: `<path d="M11.998 4v8m0 8v-8m0 0H4m7.998 0H20"/>`,
         },
         children,
       );

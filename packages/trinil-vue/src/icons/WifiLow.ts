@@ -31,7 +31,7 @@ export const WifiLow = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M7 15a7.07 7.07 0 0 1 10 0m-4.25 3a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"/>`,
+          innerHTML: `<path d="M7 15a7.07 7.07 0 0 1 10 0m-4.25 3a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"/>`,
         },
         children,
       );

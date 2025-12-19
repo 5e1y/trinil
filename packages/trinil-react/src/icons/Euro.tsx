@@ -26,7 +26,7 @@ export const Euro: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M7.5 10V8a5 5 0 0 1 10 0m-10 2v4.5m0-4.5H5m2.5 0H13m-5.5 4.5V16a5 5 0 0 0 10 0m-10-1.5H5m2.5 0H13"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M7.5 10V8a5 5 0 0 1 10 0m-10 2v4.5m0-4.5H5m2.5 0H13m-5.5 4.5V16a5 5 0 0 0 10 0m-10-1.5H5m2.5 0H13"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

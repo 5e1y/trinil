@@ -26,7 +26,7 @@ export const Play: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M7.5 18.21V5.79a1 1 0 0 1 1.524-.852l10.092 6.21a1 1 0 0 1 0 1.704l-10.092 6.21A1 1 0 0 1 7.5 18.21Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M7.5 18.21V5.79a1 1 0 0 1 1.524-.852l10.092 6.21a1 1 0 0 1 0 1.704l-10.092 6.21A1 1 0 0 1 7.5 18.21Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

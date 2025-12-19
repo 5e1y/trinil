@@ -31,7 +31,7 @@ export const Sun = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 5V2m7 10h3m-10 7v3M5 12H2m15-5 2.071-2.071M17 17l2.071 2.071M7 17l-2.071 2.071M7 7 4.929 4.929M16 12a4 4 0 1 0-8 0 4 4 0 0 0 8 0Z"/>`,
+          innerHTML: `<path d="M12 5V2m7 10h3m-10 7v3M5 12H2m15-5 2.071-2.071M17 17l2.071 2.071M7 17l-2.071 2.071M7 7 4.929 4.929M16 12a4 4 0 1 0-8 0 4 4 0 0 0 8 0Z"/>`,
         },
         children,
       );

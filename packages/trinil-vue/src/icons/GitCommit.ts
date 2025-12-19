@@ -31,7 +31,7 @@ export const GitCommit = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 14a2 2 0 1 0 0-4m0 4a2 2 0 1 1 0-4m0 4v7.5M12 10V2.5"/>`,
+          innerHTML: `<path d="M12 14a2 2 0 1 0 0-4m0 4a2 2 0 1 1 0-4m0 4v7.5M12 10V2.5"/>`,
         },
         children,
       );

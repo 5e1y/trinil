@@ -31,7 +31,7 @@ export const VolumeMute = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="m15 9 3 3m0 0 3 3m-3-3-3 3m3-3 3-3m-9-3.616v13.232a.384.384 0 0 1-.597.32l-4.151-2.768A1 1 0 0 0 6.697 16H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h1.697a1 1 0 0 0 .555-.168l4.151-2.768a.384.384 0 0 1 .597.32Z"/>`,
+          innerHTML: `<path d="m15 9 3 3m0 0 3 3m-3-3-3 3m3-3 3-3m-9-3.616v13.232a.384.384 0 0 1-.597.32l-4.151-2.768A1 1 0 0 0 6.697 16H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h1.697a1 1 0 0 0 .555-.168l4.151-2.768a.384.384 0 0 1 .597.32Z"/>`,
         },
         children,
       );

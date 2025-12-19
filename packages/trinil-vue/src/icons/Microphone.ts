@@ -31,7 +31,7 @@ export const Microphone = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M6 10.5V12a6 6 0 0 0 6 6m6-7.5V12a6 6 0 0 1-6 6m0 0v3m0 0h4m-4 0H8m7.5-14.5V12a3.5 3.5 0 1 1-7 0V6.5a3.5 3.5 0 1 1 7 0Z"/>`,
+          innerHTML: `<path d="M6 10.5V12a6 6 0 0 0 6 6m6-7.5V12a6 6 0 0 1-6 6m0 0v3m0 0h4m-4 0H8m7.5-14.5V12a3.5 3.5 0 1 1-7 0V6.5a3.5 3.5 0 1 1 7 0Z"/>`,
         },
         children,
       );

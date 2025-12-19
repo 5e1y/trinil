@@ -26,7 +26,7 @@ export const ArrowTopLeft: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M6.343 6.343h8.485m-8.485 0v8.486m0-8.486 11.314 11.314"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M6.343 6.343h8.485m-8.485 0v8.486m0-8.486 11.314 11.314"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

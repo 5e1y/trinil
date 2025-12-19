@@ -26,7 +26,7 @@ export const Wave: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M12 8.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Zm0 0V15m0-6.5 1.245 2.179a1 1 0 0 0 1.668.104L16.625 8.5M12 8.5l-1.868 3.27a1 1 0 0 0-.132.496V14.5m2 .5-.949 2.846a1 1 0 0 0-.051.316V21.5m1-6.5.949 2.846a1 1 0 0 1 .051.316V21.5"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M12 8.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Zm0 0V15m0-6.5 1.245 2.179a1 1 0 0 0 1.668.104L16.625 8.5M12 8.5l-1.868 3.27a1 1 0 0 0-.132.496V14.5m2 .5-.949 2.846a1 1 0 0 0-.051.316V21.5m1-6.5.949 2.846a1 1 0 0 1 .051.316V21.5"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

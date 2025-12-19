@@ -31,7 +31,7 @@ export const ArrowBarDown = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="m12 20 5.5-5.5M12 20l-5.5-5.5M12 20V7.5M4.5 4h15"/>`,
+          innerHTML: `<path d="m12 20 5.5-5.5M12 20l-5.5-5.5M12 20V7.5M4.5 4h15"/>`,
         },
         children,
       );

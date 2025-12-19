@@ -26,7 +26,7 @@ export const DistributeVertical: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M19.5 20h-15m15-16h-15M17 13.75H7a1 1 0 0 1-1-1v-1.5a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1.5a1 1 0 0 1-1 1Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M19.5 20h-15m15-16h-15M17 13.75H7a1 1 0 0 1-1-1v-1.5a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1.5a1 1 0 0 1-1 1Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

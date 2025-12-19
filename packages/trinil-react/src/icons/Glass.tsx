@@ -26,7 +26,7 @@ export const Glass: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M8 21h4m0 0h4m-4 0v-9m0 0h-.232a5.228 5.228 0 0 1-4.35-8.127l.552-.828A.1.1 0 0 1 8.053 3h7.893a.1.1 0 0 1 .084.045l.552.828A5.227 5.227 0 0 1 12.232 12z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M8 21h4m0 0h4m-4 0v-9m0 0h-.232a5.228 5.228 0 0 1-4.35-8.127l.552-.828A.1.1 0 0 1 8.053 3h7.893a.1.1 0 0 1 .084.045l.552.828A5.227 5.227 0 0 1 12.232 12z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

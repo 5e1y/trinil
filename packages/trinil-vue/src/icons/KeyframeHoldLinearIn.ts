@@ -31,7 +31,7 @@ export const KeyframeHoldLinearIn = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M12.086 4H11a1 1 0 0 0-.707.293l-7 7a1 1 0 0 0 0 1.414l7 7A1 1 0 0 0 11 20h1.086m0-16v16m0-16h7a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-7"/>`,
+          innerHTML: `<path d="M12.086 4H11a1 1 0 0 0-.707.293l-7 7a1 1 0 0 0 0 1.414l7 7A1 1 0 0 0 11 20h1.086m0-16v16m0-16h7a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-7"/>`,
         },
         children,
       );

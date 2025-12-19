@@ -31,7 +31,7 @@ export const MenuTop = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M21 10V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v3m18 0v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7m18 0H3"/>`,
+          innerHTML: `<path d="M21 10V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v3m18 0v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7m18 0H3"/>`,
         },
         children,
       );

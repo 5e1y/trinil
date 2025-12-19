@@ -31,7 +31,7 @@ export const ShoppingBagCross = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21H14M8 8V7a4 4 0 1 1 8 0v1M8 8h8m0 0h2.074a1 1 0 0 1 .997.923L19.4 13.2M8 10.5v.5a4 4 0 0 0 8 0v-.5m3.4 2.699A5 5 0 0 0 14 21m5.4-7.801A5 5 0 1 1 14 21m4-3 1.5-1.5M18 18l1.5 1.5M18 18l-1.5 1.5M18 18l-1.5-1.5"/>`,
+          innerHTML: `<path d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21H14M8 8V7a4 4 0 1 1 8 0v1M8 8h8m0 0h2.074a1 1 0 0 1 .997.923L19.4 13.2M8 10.5v.5a4 4 0 0 0 8 0v-.5m3.4 2.699A5 5 0 0 0 14 21m5.4-7.801A5 5 0 1 1 14 21m4-3 1.5-1.5M18 18l1.5 1.5M18 18l-1.5 1.5M18 18l-1.5-1.5"/>`,
         },
         children,
       );

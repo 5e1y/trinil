@@ -31,7 +31,7 @@ export const Audio = defineComponent({
           class: props.class,
           role: 'img',
           'aria-label': props.ariaLabel,
-          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M21 9v6m-3-9v12m-3-8v4M12 4v16M9 8v8M6 6v12M3 9v6"/>`,
+          innerHTML: `<path d="M21 9v6m-3-9v12m-3-8v4M12 4v16M9 8v8M6 6v12M3 9v6"/>`,
         },
         children,
       );

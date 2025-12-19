@@ -26,7 +26,7 @@ export const FaceId: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M20.5 7V4.5a1 1 0 0 0-1-1H17m-10 0H4.5a1 1 0 0 0-1 1V7m17 10v2.5a1 1 0 0 1-1 1H17m-10 0H4.5a1 1 0 0 1-1-1V17M7 14.5a9.72 9.72 0 0 0 10 0M15 11V8m-6 3V8"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M20.5 7V4.5a1 1 0 0 0-1-1H17m-10 0H4.5a1 1 0 0 0-1 1V7m17 10v2.5a1 1 0 0 1-1 1H17m-10 0H4.5a1 1 0 0 1-1-1V17M7 14.5a9.72 9.72 0 0 0 10 0M15 11V8m-6 3V8"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

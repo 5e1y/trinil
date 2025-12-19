@@ -26,7 +26,7 @@ export const EmergencyCross: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M14 4h-4a1 1 0 0 0-1 1v3.9a.1.1 0 0 1-.1.1H5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h3.9a.1.1 0 0 1 .1.1V19a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-3.9a.1.1 0 0 1 .1-.1H19a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-3.9a.1.1 0 0 1-.1-.1V5a1 1 0 0 0-1-1Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M14 4h-4a1 1 0 0 0-1 1v3.9a.1.1 0 0 1-.1.1H5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h3.9a.1.1 0 0 1 .1.1V19a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-3.9a.1.1 0 0 1 .1-.1H19a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-3.9a.1.1 0 0 1-.1-.1V5a1 1 0 0 0-1-1Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

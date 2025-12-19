@@ -26,7 +26,7 @@ export const Bookmark: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M16.5 3.5h-9a1 1 0 0 0-1 1v14.178a1 1 0 0 0 1.537.844l3.426-2.18a1 1 0 0 1 1.074 0l3.426 2.18a1 1 0 0 0 1.537-.844V4.5a1 1 0 0 0-1-1Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M16.5 3.5h-9a1 1 0 0 0-1 1v14.178a1 1 0 0 0 1.537.844l3.426-2.18a1 1 0 0 1 1.074 0l3.426 2.18a1 1 0 0 0 1.537-.844V4.5a1 1 0 0 0-1-1Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

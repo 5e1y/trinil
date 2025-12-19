@@ -26,7 +26,7 @@ export const TextUnderline: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M6.5 4v7.5a5.5 5.5 0 1 0 11 0V4m-13 16h15"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M6.5 4v7.5a5.5 5.5 0 1 0 11 0V4m-13 16h15"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>

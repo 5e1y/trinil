@@ -26,7 +26,7 @@ export const Subtitles: React.FC<IconProps> = React.memo((props) => {
       className={className}
       role="img"
       aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path  stroke-linecap="round" stroke-width="1.5" d="M6 15.5h6.5m2.5 0h3m0-3.5h-6.5M9 12H6M3 8v8a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H6a3 3 0 0 0-3 3Z"/>` }}
+      dangerouslySetInnerHTML={{ __html: `<path d="M6 15.5h6.5m2.5 0h3m0-3.5h-6.5M9 12H6M3 8v8a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H6a3 3 0 0 0-3 3Z"/>` }}
     >
       {title && <title>{title}</title>}
     </svg>
