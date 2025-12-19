@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDown, UsersSearch, Check } from 'trinil-react';
+import { ArrowDown, UsersSearch, Check, EyeOpen } from 'trinil-react';
 import './App.css';
 
 export function App() {
@@ -22,6 +22,10 @@ export function App() {
           <div className="icon-item">
             <Check />
             <p>Check</p>
+          </div>
+          <div className="icon-item">
+            <EyeOpen />
+            <p>EyeOpen</p>
           </div>
         </div>
       </section>
