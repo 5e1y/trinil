@@ -4219,7 +4219,7 @@ var Cash = React151.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M7 12a.75.75 0 1 0-1.5 0A.75.75 0 0 0 7 12ZM12 9.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM18.5 12a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M3 7.5v9a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1ZM14.5 12a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Zm3.25-.75a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5Zm-11.5 0a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5Z" clip-rule="evenodd"/>` },
       children: title && /* @__PURE__ */ jsx151("title", { children: title })
     }
   );
@@ -5899,7 +5899,7 @@ var Crown = React211.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M12 15.5a1.75 1.75 0 1 1 0-3.5 1.75 1.75 0 0 1 0 3.5Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M3 10.042V17a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-6.958a.1.1 0 0 0-.03-.071l-2.9-2.9a.1.1 0 0 0-.14 0L15.07 9.93a.1.1 0 0 1-.14 0l-2.86-2.86a.1.1 0 0 0-.14 0L9.07 9.93a.1.1 0 0 1-.14 0L6.07 7.07a.1.1 0 0 0-.14 0l-2.9 2.9a.1.1 0 0 0-.03.072Zm7.25 3.708a1.75 1.75 0 1 0 3.5 0 1.75 1.75 0 0 0-3.5 0Z" clip-rule="evenodd"/>` },
       children: title && /* @__PURE__ */ jsx211("title", { children: title })
     }
   );
@@ -7579,7 +7579,7 @@ var EyeOpen = React271.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M20.637 12.531c-4.252 5.843-13.022 5.843-17.274 0a.9.9 0 0 1 0-1.062c4.252-5.843 13.022-5.843 17.274 0 .23.317.23.745 0 1.062ZM8 12a4 4 0 1 0 8 0 4 4 0 0 0-8 0Z" clip-rule="evenodd"/>` },
       children: title && /* @__PURE__ */ jsx271("title", { children: title })
     }
   );
@@ -9959,7 +9959,7 @@ var HourglassEnd = React356.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M7.225 19h9.184a.365.365 0 0 0 .364-.365.21.21 0 0 0-.123-.19l-1.265-.556a3.04 3.04 0 0 1-1.383-1.218 1.52 1.52 0 0 0-2.38-.293l-.402.402a3.9 3.9 0 0 1-1.699 1l-2.257.645a.364.364 0 0 0-.264.35c0 .124.1.225.225.225Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M5 4v1.324a5 5 0 0 0 2.226 4.16l1.278.852a2 2 0 0 1 0 3.328l-1.277.852A5 5 0 0 0 5 18.676V20a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1.324a5 5 0 0 0-2.227-4.16l-1.277-.852a2 2 0 0 1 0-3.328l1.277-.852A5 5 0 0 0 19 5.324V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1Zm11.409 15H7.225A.225.225 0 0 1 7 18.775c0-.163.108-.306.264-.35l2.257-.645a3.9 3.9 0 0 0 1.699-1l.402-.402c.7-.7 1.871-.556 2.38.293.324.54.807.965 1.383 1.218l1.265.557a.21.21 0 0 1 .123.189.365.365 0 0 1-.364.365Z" clip-rule="evenodd"/>` },
       children: title && /* @__PURE__ */ jsx356("title", { children: title })
     }
   );
@@ -9987,7 +9987,7 @@ var HourglassStart = React357.memo((props) => {
       className,
       role: "img",
       "aria-label": ariaLabel,
-      dangerouslySetInnerHTML: { __html: `<path d="M7.225 6h9.184c.201 0 .364.163.364.365a.21.21 0 0 1-.123.19L15 7.11a3.04 3.04 0 0 0-1.383 1.218c-.509.849-2.295.993-2.995.293l-.402-.402a4 4 0 0 0-.47-.4c-.739-.538-1.638-.81-2.452-1.227q-.034-.016-.07-.03A.36.36 0 0 1 7 6.225C7 6.101 7.1 6 7.225 6Z"/>` },
+      dangerouslySetInnerHTML: { __html: `<path d="M5 20v-1.324a5 5 0 0 1 2.226-4.16l1.278-.852a2 2 0 0 0 0-3.328l-1.277-.852A5 5 0 0 1 5 5.324V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v1.324a5 5 0 0 1-2.227 4.16l-1.277.852a2 2 0 0 0 0 3.328l1.277.852A5 5 0 0 1 19 18.676V20a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1ZM16.409 6H7.225C7.101 6 7 6.1 7 6.225c0 .15.091.283.228.338q.036.014.07.03c.814.417 1.713.689 2.453 1.226q.25.181.469.4l.402.403c.7.7 2.486.556 2.995-.293.324-.54.807-.965 1.383-1.218l1.65-.557a.21.21 0 0 0 .123-.189A.365.365 0 0 0 16.41 6Z" clip-rule="evenodd"/>` },
       children: title && /* @__PURE__ */ jsx357("title", { children: title })
     }
   );
