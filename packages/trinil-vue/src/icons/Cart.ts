@@ -1,0 +1,40 @@
+import { defineComponent, h } from 'vue';
+
+export const Cart = defineComponent({
+  name: 'Cart',
+  props: {
+    size: { type: Number, default: 24 },
+    color: { type: String, default: 'currentColor' },
+    class: { type: String, default: undefined },
+    title: { type: String, default: undefined },
+    ariaLabel: { type: String, default: undefined },
+  },
+  setup(props) {
+    return () => {
+      const children = [];
+      if (props.title) {
+        children.push(h('title', {}, props.title));
+      }
+      return h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': 1.5,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          'vector-effect': 'non-scaling-stroke',
+          width: props.size,
+          height: props.size,
+          class: props.class,
+          role: 'img',
+          'aria-label': props.ariaLabel,
+          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M18.5 17.5H8.347a1 1 0 0 1-.986-.836L7 14.5m11.5 3a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3ZM5.667 6.5h13.986a1 1 0 0 1 .986 1.164l-1 6a1 1 0 0 1-.986.836H7m-1.333-8-.194-1.164a1 1 0 0 0-.987-.836H2.5m3.167 2L7 14.5M6.5 19a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0Z"/>`,
+        },
+        children,
+      );
+    };
+  },
+});

@@ -1,0 +1,31 @@
+{
+  "name": "trinil-vue",
+  "version": "0.1.0",
+  "description": "SVG icon library for Vue 3 with locked stroke styles",
+  "type": "module",
+  "sideEffects": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "peerDependencies": {
+    "vue": ">=3"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "tsup": "^8.0.2",
+    "vue": "^3.3.10"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts",
+    "clean": "rm -rf dist && find src/icons -type f -name '*.ts' -delete"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "trinil",
+  "version": "0.1.0",
+  "description": "A standalone SVG icon library for React and Vue 3",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "build:react": "npm run build -w packages/trinil-react",
+    "build:vue": "npm run build -w packages/trinil-vue",
+    "example:react": "npm run dev -w examples/trinil-react-example",
+    "example:vue": "npm run dev -w examples/trinil-vue-example",
+    "test:react": "npm run build -w examples/trinil-react-example",
+    "test:vue": "npm run build -w examples/trinil-vue-example",
+    "generate": "node scripts/generate-icons.mjs"
+  },
+  "devDependencies": {
+    "@svgr/core": "^8.1.0",
+    "svgo": "^3.2.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}

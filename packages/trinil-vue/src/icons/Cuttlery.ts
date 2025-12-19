@@ -1,0 +1,40 @@
+import { defineComponent, h } from 'vue';
+
+export const Cuttlery = defineComponent({
+  name: 'Cuttlery',
+  props: {
+    size: { type: Number, default: 24 },
+    color: { type: String, default: 'currentColor' },
+    class: { type: String, default: undefined },
+    title: { type: String, default: undefined },
+    ariaLabel: { type: String, default: undefined },
+  },
+  setup(props) {
+    return () => {
+      const children = [];
+      if (props.title) {
+        children.push(h('title', {}, props.title));
+      }
+      return h(
+        'svg',
+        {
+          xmlns: 'http://www.w3.org/2000/svg',
+          viewBox: '0 0 24 24',
+          fill: 'none',
+          stroke: props.color,
+          'stroke-width': 1.5,
+          'stroke-linecap': 'round',
+          'stroke-linejoin': 'round',
+          'vector-effect': 'non-scaling-stroke',
+          width: props.size,
+          height: props.size,
+          class: props.class,
+          role: 'img',
+          'aria-label': props.ariaLabel,
+          innerHTML: `<path  stroke-linecap="round" stroke-width="1.5" d="M20.5 18.5V13m0 0V6.1c0-.055-.045-.098-.099-.086-.409.092-1.957.784-2.134 5.982A.98.98 0 0 0 19.25 13zM3 6v3.5A1.5 1.5 0 0 0 4.5 11M6 6v3.5A1.5 1.5 0 0 1 4.5 11m0 7.475V11M12 7.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Z"/>`,
+        },
+        children,
+      );
+    };
+  },
+});
