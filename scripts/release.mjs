@@ -115,14 +115,27 @@ async function release() {
   // 9. Push (only if remote is configured)
   console.log('\nStep 9: Pushing to origin...');
   try {
-    await run(`git push origin main`, rootDir);
-    await run(`git push origin v${newVersion}`, rootDir);
-    console.log('✓ Pushed commit and tag to origin');
+    // Get current branch name
+    const { stdout: branch } = await execPromise('git rev-parse --abbrev-ref HEAD', { cwd: rootDir });
+    const branchName = branch.trim();
+    
+    if (branchName === 'HEAD') {
+      console.warn('⚠️  In detached HEAD state. Skipping push.');
+      console.log('To push manually later:');
+      console.log('  git checkout <your-branch>');
+      console.log('  git cherry-pick ' + (await execPromise('git rev-parse HEAD', { cwd: rootDir })).stdout.trim());
+      console.log(`  git push origin <your-branch>`);
+      console.log(`  git push origin v${newVersion}`);
+    } else {
+      await run(`git push origin ${branchName}`, rootDir);
+      await run(`git push origin v${newVersion}`, rootDir);
+      console.log('✓ Pushed commit and tag to origin');
+    }
   } catch (error) {
     console.warn(
       '⚠️  Could not push to origin. You may need to configure your git remote or credentials.\n' +
       'Push manually with:\n' +
-      '  git push origin main\n' +
+      '  git push origin <your-branch>\n' +
       '  git push origin v' + newVersion
     );
   }
