@@ -2910,10 +2910,10 @@ var Bottle = React104.memo((props) => {
 });
 Bottle.displayName = "Bottle";
 
-// src/icons/Boundingbox.tsx
+// src/icons/BoundingBox.tsx
 import React105 from "react";
 import { jsx as jsx105 } from "react/jsx-runtime";
-var Boundingbox = React105.memo((props) => {
+var BoundingBox = React105.memo((props) => {
   const { size = 24, color = "currentColor", className, title, ariaLabel } = props;
   return /* @__PURE__ */ jsx105(
     "svg",
@@ -2936,7 +2936,7 @@ var Boundingbox = React105.memo((props) => {
     }
   );
 });
-Boundingbox.displayName = "Boundingbox";
+BoundingBox.displayName = "BoundingBox";
 
 // src/icons/Box.tsx
 import React106 from "react";
@@ -21522,7 +21522,7 @@ export {
   BookPageTurn,
   Bookmark,
   Bottle,
-  Boundingbox,
+  BoundingBox,
   Box,
   BoxExpedition,
   BoxOpen,

@@ -4262,10 +4262,10 @@ var Bottle = defineComponent104({
   }
 });
 
-// src/icons/Boundingbox.ts
+// src/icons/BoundingBox.ts
 import { defineComponent as defineComponent105, h as h105 } from "vue";
-var Boundingbox = defineComponent105({
-  name: "Boundingbox",
+var BoundingBox = defineComponent105({
+  name: "BoundingBox",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31467,7 +31467,7 @@ export {
   BookPageTurn,
   Bookmark,
   Bottle,
-  Boundingbox,
+  BoundingBox,
   Box,
   BoxExpedition,
   BoxOpen,

@@ -102,7 +102,7 @@ export { Book } from './icons/Book';
 export { BookPageTurn } from './icons/BookPageTurn';
 export { Bookmark } from './icons/Bookmark';
 export { Bottle } from './icons/Bottle';
-export { Boundingbox } from './icons/Boundingbox';
+export { BoundingBox } from './icons/BoundingBox';
 export { Box } from './icons/Box';
 export { BoxExpedition } from './icons/BoxExpedition';
 export { BoxOpen } from './icons/BoxOpen';
