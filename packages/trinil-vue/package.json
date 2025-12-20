@@ -1,6 +1,6 @@
 {
   "name": "trinil-vue",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "SVG icon library for Vue 3 with locked stroke styles",
   "type": "module",
   "sideEffects": false,

@@ -8239,10 +8239,10 @@ var Copy = defineComponent201({
   }
 });
 
-// src/icons/Corsor.ts
+// src/icons/Cotton.ts
 import { defineComponent as defineComponent202, h as h202 } from "vue";
-var Corsor = defineComponent202({
-  name: "Corsor",
+var Cotton = defineComponent202({
+  name: "Cotton",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -8272,7 +8272,7 @@ var Corsor = defineComponent202({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M12 6v12m0-12a2.64 2.64 0 0 1 2.562-2H16m-4 2a2.64 2.64 0 0 0-2.562-2H8m4 14a2.64 2.64 0 0 1-2.562 2H8m4-2a2.64 2.64 0 0 0 2.562 2H16"/>`
+          innerHTML: `<path d="M12 20.5c2.495-1.386 3.403-4.172 2.725-6.578M12 20.5a5.64 5.64 0 0 1-2.668-3.234 5.83 5.83 0 0 1-.057-3.343M12 20.5c3.405.973 6.607-1.306 7.2-4.43M12 20.5c-3.405.973-6.607-1.306-7.2-4.43m9.925-2.148a5.6 5.6 0 0 0-2.252-3.13.84.84 0 0 0-.946 0 5.635 5.635 0 0 0-2.245 3.107l-.007.023m5.45 0a5.6 5.6 0 0 1 3.806-.62c.34.063.604.328.668.667.136.723.128 1.431.001 2.1m-9.924-2.146A5.6 5.6 0 0 0 5.47 13.3a.84.84 0 0 0-.669.668 5.6 5.6 0 0 0-.001 2.1m2.567-9.452A5.502 5.502 0 0 0 4.8 16.069m2.567-9.452a5.002 5.002 0 0 1 9.266 0m-9.266 0c.562-.104 1.81-.116 3.133.585m6.133-.585a5.502 5.502 0 0 1 2.567 9.452m-2.567-9.452c-.562-.104-1.81-.116-3.133.585"/>`
         },
         children
       );
@@ -8280,10 +8280,10 @@ var Corsor = defineComponent202({
   }
 });
 
-// src/icons/Cotton.ts
+// src/icons/Coupon.ts
 import { defineComponent as defineComponent203, h as h203 } from "vue";
-var Cotton = defineComponent203({
-  name: "Cotton",
+var Coupon = defineComponent203({
+  name: "Coupon",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -8313,7 +8313,7 @@ var Cotton = defineComponent203({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M12 20.5c2.495-1.386 3.403-4.172 2.725-6.578M12 20.5a5.64 5.64 0 0 1-2.668-3.234 5.83 5.83 0 0 1-.057-3.343M12 20.5c3.405.973 6.607-1.306 7.2-4.43M12 20.5c-3.405.973-6.607-1.306-7.2-4.43m9.925-2.148a5.6 5.6 0 0 0-2.252-3.13.84.84 0 0 0-.946 0 5.635 5.635 0 0 0-2.245 3.107l-.007.023m5.45 0a5.6 5.6 0 0 1 3.806-.62c.34.063.604.328.668.667.136.723.128 1.431.001 2.1m-9.924-2.146A5.6 5.6 0 0 0 5.47 13.3a.84.84 0 0 0-.669.668 5.6 5.6 0 0 0-.001 2.1m2.567-9.452A5.502 5.502 0 0 0 4.8 16.069m2.567-9.452a5.002 5.002 0 0 1 9.266 0m-9.266 0c.562-.104 1.81-.116 3.133.585m6.133-.585a5.502 5.502 0 0 1 2.567 9.452m-2.567-9.452c-.562-.104-1.81-.116-3.133.585"/>`
+          innerHTML: `<path d="m15.5 8.5-7 7m1-7.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm5 5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM3.586 15.414l-.293.293a1 1 0 0 0-.293.707V18a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-1.586a1 1 0 0 0-.293-.707l-.293-.293a4.83 4.83 0 0 1 0-6.828l.293-.293A1 1 0 0 0 21 7.586V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v1.586a1 1 0 0 0 .293.707l.293.293a4.83 4.83 0 0 1 0 6.828Z"/>`
         },
         children
       );
@@ -8321,10 +8321,10 @@ var Cotton = defineComponent203({
   }
 });
 
-// src/icons/Coupon.ts
+// src/icons/Cpu.ts
 import { defineComponent as defineComponent204, h as h204 } from "vue";
-var Coupon = defineComponent204({
-  name: "Coupon",
+var Cpu = defineComponent204({
+  name: "Cpu",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -8354,7 +8354,7 @@ var Coupon = defineComponent204({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="m15.5 8.5-7 7m1-7.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm5 5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM3.586 15.414l-.293.293a1 1 0 0 0-.293.707V18a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-1.586a1 1 0 0 0-.293-.707l-.293-.293a4.83 4.83 0 0 1 0-6.828l.293-.293A1 1 0 0 0 21 7.586V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v1.586a1 1 0 0 0 .293.707l.293.293a4.83 4.83 0 0 1 0 6.828Z"/>`
+          innerHTML: `<path d="M19 7.5V6a1 1 0 0 0-1-1h-1.5M19 7.5h2m-2 0v3m0 0h2m-2 0v3m0 0v3m0-3h2m-2 3V18a1 1 0 0 1-1 1h-1.5m2.5-2.5h2M7.5 5H6a1 1 0 0 0-1 1v1.5M7.5 5h3m-3 0V3m3 2h3m-3 0V3m3 2h3m-3 0V3m3 2V3m0 16h-3m3 0v2m-3-2h-3m3 0v2m-3-2h-3m3 0v2m-3-2H6a1 1 0 0 1-1-1v-1.5M7.5 19v2M5 16.5v-3m0 3H3m2-3v-3m0 3H3m2-3v-3m0 3H3m2-3H3M8 9v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1Z"/>`
         },
         children
       );
@@ -8362,10 +8362,10 @@ var Coupon = defineComponent204({
   }
 });
 
-// src/icons/Cpu.ts
+// src/icons/Credit.ts
 import { defineComponent as defineComponent205, h as h205 } from "vue";
-var Cpu = defineComponent205({
-  name: "Cpu",
+var Credit = defineComponent205({
+  name: "Credit",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -8395,7 +8395,7 @@ var Cpu = defineComponent205({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M19 7.5V6a1 1 0 0 0-1-1h-1.5M19 7.5h2m-2 0v3m0 0h2m-2 0v3m0 0v3m0-3h2m-2 3V18a1 1 0 0 1-1 1h-1.5m2.5-2.5h2M7.5 5H6a1 1 0 0 0-1 1v1.5M7.5 5h3m-3 0V3m3 2h3m-3 0V3m3 2h3m-3 0V3m3 2V3m0 16h-3m3 0v2m-3-2h-3m3 0v2m-3-2h-3m3 0v2m-3-2H6a1 1 0 0 1-1-1v-1.5M7.5 19v2M5 16.5v-3m0 3H3m2-3v-3m0 3H3m2-3v-3m0 3H3m2-3H3M8 9v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1Z"/>`
+          innerHTML: `<path d="M20 11A8 8 0 0 0 5.577 6.23m0 0L5.5 2m.077 4.23H10M4 13a8 8 0 0 0 14.423 4.77m0 0L18.5 22m-.077-4.23H14M9.5 11v2m0-2h-1m1 0H12m-2.5 0a2.5 2.5 0 0 1 4.95-.5M9.5 13h-1m1 0H12m-2.5 0a2.5 2.5 0 0 0 4.95.5"/>`
         },
         children
       );
@@ -8403,10 +8403,10 @@ var Cpu = defineComponent205({
   }
 });
 
-// src/icons/Credit.ts
+// src/icons/CreditCard.ts
 import { defineComponent as defineComponent206, h as h206 } from "vue";
-var Credit = defineComponent206({
-  name: "Credit",
+var CreditCard = defineComponent206({
+  name: "CreditCard",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -8436,7 +8436,7 @@ var Credit = defineComponent206({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M20 11A8 8 0 0 0 5.577 6.23m0 0L5.5 2m.077 4.23H10M4 13a8 8 0 0 0 14.423 4.77m0 0L18.5 22m-.077-4.23H14M9.5 11v2m0-2h-1m1 0H12m-2.5 0a2.5 2.5 0 0 1 4.95-.5M9.5 13h-1m1 0H12m-2.5 0a2.5 2.5 0 0 0 4.95.5"/>`
+          innerHTML: `<path d="M21 9V7.5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2V9m18 0v7.5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9m18 0H3"/>`
         },
         children
       );
@@ -8444,10 +8444,10 @@ var Credit = defineComponent206({
   }
 });
 
-// src/icons/CreditCard.ts
+// src/icons/CreditCardCheck.ts
 import { defineComponent as defineComponent207, h as h207 } from "vue";
-var CreditCard = defineComponent207({
-  name: "CreditCard",
+var CreditCardCheck = defineComponent207({
+  name: "CreditCardCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -8477,7 +8477,7 @@ var CreditCard = defineComponent207({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M21 9V7.5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2V9m18 0v7.5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9m18 0H3"/>`
+          innerHTML: `<path d="M21 9V7.5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2V9m18 0H3m18 0v5M3 9v7.5a2 2 0 0 0 2 2h8.025M16 18l1.43 1.43a.1.1 0 0 0 .14 0L20 17m1-3a5 5 0 0 0-7.975 4.5M21 14a5 5 0 1 1-7.975 4.5"/>`
         },
         children
       );
@@ -8485,10 +8485,10 @@ var CreditCard = defineComponent207({
   }
 });
 
-// src/icons/CreditCardCheck.ts
+// src/icons/Crop.ts
 import { defineComponent as defineComponent208, h as h208 } from "vue";
-var CreditCardCheck = defineComponent208({
-  name: "CreditCardCheck",
+var Crop = defineComponent208({
+  name: "Crop",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -8518,7 +8518,7 @@ var CreditCardCheck = defineComponent208({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M21 9V7.5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2V9m18 0H3m18 0v5M3 9v7.5a2 2 0 0 0 2 2h8.025M16 18l1.43 1.43a.1.1 0 0 0 .14 0L20 17m1-3a5 5 0 0 0-7.975 4.5M21 14a5 5 0 1 1-7.975 4.5"/>`
+          innerHTML: `<path d="M2.5 6H6m0 0h11a1 1 0 0 1 1 1v11M6 6v11a1 1 0 0 0 1 1h11M6 6V2.5M18 18v3.5m0-3.5h3.5"/>`
         },
         children
       );
@@ -8526,10 +8526,10 @@ var CreditCardCheck = defineComponent208({
   }
 });
 
-// src/icons/Crop.ts
+// src/icons/Cross.ts
 import { defineComponent as defineComponent209, h as h209 } from "vue";
-var Crop = defineComponent209({
-  name: "Crop",
+var Cross = defineComponent209({
+  name: "Cross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -8559,7 +8559,7 @@ var Crop = defineComponent209({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M2.5 6H6m0 0h11a1 1 0 0 1 1 1v11M6 6v11a1 1 0 0 0 1 1h11M6 6V2.5M18 18v3.5m0-3.5h3.5"/>`
+          innerHTML: `<path d="m4.5 4.5 7.5 7.501m0 0 7.5 7.5M12 12l-7.499 7.5m7.5-7.5L19.5 4.502"/>`
         },
         children
       );
@@ -8567,10 +8567,10 @@ var Crop = defineComponent209({
   }
 });
 
-// src/icons/Cross.ts
+// src/icons/Crown.ts
 import { defineComponent as defineComponent210, h as h210 } from "vue";
-var Cross = defineComponent210({
-  name: "Cross",
+var Crown = defineComponent210({
+  name: "Crown",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -8600,7 +8600,7 @@ var Cross = defineComponent210({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="m4.5 4.5 7.5 7.501m0 0 7.5 7.5M12 12l-7.499 7.5m7.5-7.5L19.5 4.502"/>`
+          innerHTML: `<path d="M3 10.042V17a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-6.958a.1.1 0 0 0-.03-.071l-2.9-2.9a.1.1 0 0 0-.14 0L15.07 9.93a.1.1 0 0 1-.14 0l-2.86-2.86a.1.1 0 0 0-.14 0L9.07 9.93a.1.1 0 0 1-.14 0L6.07 7.07a.1.1 0 0 0-.14 0l-2.9 2.9a.1.1 0 0 0-.03.072Zm7.25 3.708a1.75 1.75 0 1 0 3.5 0 1.75 1.75 0 0 0-3.5 0Z" clip-rule="evenodd"/>`
         },
         children
       );
@@ -8608,10 +8608,10 @@ var Cross = defineComponent210({
   }
 });
 
-// src/icons/Crown.ts
+// src/icons/Crutch.ts
 import { defineComponent as defineComponent211, h as h211 } from "vue";
-var Crown = defineComponent211({
-  name: "Crown",
+var Crutch = defineComponent211({
+  name: "Crutch",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -8641,7 +8641,7 @@ var Crown = defineComponent211({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M3 10.042V17a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-6.958a.1.1 0 0 0-.03-.071l-2.9-2.9a.1.1 0 0 0-.14 0L15.07 9.93a.1.1 0 0 1-.14 0l-2.86-2.86a.1.1 0 0 0-.14 0L9.07 9.93a.1.1 0 0 1-.14 0L6.07 7.07a.1.1 0 0 0-.14 0l-2.9 2.9a.1.1 0 0 0-.03.072Zm7.25 3.708a1.75 1.75 0 1 0 3.5 0 1.75 1.75 0 0 0-3.5 0Z" clip-rule="evenodd"/>`
+          innerHTML: `<path d="M19.5 15.367a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm0 0v-1a1 1 0 0 0-1-1H17m-12.5 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Zm0 0v-1a1 1 0 0 1 1-1H7M7 9H4a1 1 0 0 1-1-1V7a2 2 0 0 1 2-2h.587c.575 0 1.116.27 1.46.73L7.25 6a2.5 2.5 0 0 0 2 1H20a1 1 0 0 1 0 2h-3M7 9l5 2.184M7 9h10m0 4.367-5-2.183m5 2.183H7m5-2.183L17 9m-5 2.184-5 2.183"/>`
         },
         children
       );
@@ -8649,10 +8649,10 @@ var Crown = defineComponent211({
   }
 });
 
-// src/icons/Crutch.ts
+// src/icons/Cup.ts
 import { defineComponent as defineComponent212, h as h212 } from "vue";
-var Crutch = defineComponent212({
-  name: "Crutch",
+var Cup = defineComponent212({
+  name: "Cup",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -8682,7 +8682,7 @@ var Crutch = defineComponent212({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M19.5 15.367a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm0 0v-1a1 1 0 0 0-1-1H17m-12.5 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Zm0 0v-1a1 1 0 0 1 1-1H7M7 9H4a1 1 0 0 1-1-1V7a2 2 0 0 1 2-2h.587c.575 0 1.116.27 1.46.73L7.25 6a2.5 2.5 0 0 0 2 1H20a1 1 0 0 1 0 2h-3M7 9l5 2.184M7 9h10m0 4.367-5-2.183m5 2.183H7m5-2.183L17 9m-5 2.184-5 2.183"/>`
+          innerHTML: `<path d="M7.117 3h9.766a1 1 0 0 1 .994 1.11l-1.778 16a1 1 0 0 1-.994.89h-6.21a1 1 0 0 1-.994-.89l-1.778-16A1 1 0 0 1 7.117 3Z"/>`
         },
         children
       );
@@ -8690,10 +8690,10 @@ var Crutch = defineComponent212({
   }
 });
 
-// src/icons/Cup.ts
+// src/icons/Cursor.ts
 import { defineComponent as defineComponent213, h as h213 } from "vue";
-var Cup = defineComponent213({
-  name: "Cup",
+var Cursor = defineComponent213({
+  name: "Cursor",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -8723,7 +8723,7 @@ var Cup = defineComponent213({
           class: props.class,
           role: "img",
           "aria-label": props.ariaLabel,
-          innerHTML: `<path d="M7.117 3h9.766a1 1 0 0 1 .994 1.11l-1.778 16a1 1 0 0 1-.994.89h-6.21a1 1 0 0 1-.994-.89l-1.778-16A1 1 0 0 1 7.117 3Z"/>`
+          innerHTML: `<path d="M12 6v12m0-12a2.64 2.64 0 0 1 2.562-2H16m-4 2a2.64 2.64 0 0 0-2.562-2H8m4 14a2.64 2.64 0 0 1-2.562 2H8m4-2a2.64 2.64 0 0 0 2.562 2H16"/>`
         },
         children
       );
@@ -31564,7 +31564,6 @@ export {
   Contract,
   Contrast,
   Copy,
-  Corsor,
   Cotton,
   Coupon,
   Cpu,
@@ -31576,6 +31575,7 @@ export {
   Crown,
   Crutch,
   Cup,
+  Cursor,
   Curve,
   Cut,
   Cuttlery,
