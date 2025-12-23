@@ -39,10 +39,13 @@ After release, publish to npm:
 ```bash
 npm login   # If not already logged in (one-time setup)
 npm run publish:react   # Human will approve passkey/OTP if needed
-npm run publish:vue     # Human will approve passkey/OTP if needed
+npm run publish:vue
+npm run publish:svelte
+npm run publish:solid
+npm run publish:web
 ```
 
-Both will be tagged as `X.Y.Z` on npm.
+All 5 packages will be tagged as `X.Y.Z` on npm.
 
 ## Rollback (if needed)
 
