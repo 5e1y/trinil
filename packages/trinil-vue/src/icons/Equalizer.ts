@@ -11,30 +11,13 @@ export const Equalizer = defineComponent({
   },
   setup(props) {
     return () => {
-      const children = [];
-      if (props.title) {
-        children.push(h('title', {}, props.title));
-      }
-      return h(
-        'svg',
-        {
-          xmlns: 'http://www.w3.org/2000/svg',
-          viewBox: '0 0 24 24',
-          fill: 'none',
-          stroke: props.color,
-          'stroke-width': 1.5,
-          'stroke-linecap': 'round',
-          'stroke-linejoin': 'round',
-          'vector-effect': 'non-scaling-stroke',
-          width: props.size,
-          height: props.size,
-          class: props.class,
-          role: 'img',
-          'aria-label': props.ariaLabel,
-          innerHTML: `<path d="M5.5 3v10.5m0 0h1.086a1 1 0 0 1 .707.293l1 1a1 1 0 0 1 0 1.414l-1 1a1 1 0 0 1-.707.293H5.5m0-4h-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h1m0 0V21M11 5H9m2 3.5H9m2 3.5H9m2 7H9m6.5-16v3.5m0 0h1.086a1 1 0 0 1 .707.293l1 1a1 1 0 0 1 0 1.414l-1 1a1 1 0 0 1-.707.293H15.5m0-4h-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h1m0 0V21M21 5h-2m2 7h-2m2 3.5h-2m2 3.5h-2m2-10.5h-2.414M11 15.5H8.586"/>`,
-        },
-        children,
-      );
+      const children = props.title ? [h('title', {}, props.title)] : [];
+      return h('svg', {
+        xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
+        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
+        innerHTML: `<path d="M5.5 3v10.5m0 0h1.086a1 1 0 0 1 .707.293l1 1a1 1 0 0 1 0 1.414l-1 1a1 1 0 0 1-.707.293H5.5m0-4h-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h1m0 0V21M11 5H9m2 3.5H9m2 3.5H9m2 7H9m6.5-16v3.5m0 0h1.086a1 1 0 0 1 .707.293l1 1a1 1 0 0 1 0 1.414l-1 1a1 1 0 0 1-.707.293H15.5m0-4h-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h1m0 0V21M21 5h-2m2 7h-2m2 3.5h-2m2 3.5h-2m2-10.5h-2.414M11 15.5H8.586"/>`,
+      }, children);
     };
   },
 });

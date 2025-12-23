@@ -11,30 +11,13 @@ export const AxisY = defineComponent({
   },
   setup(props) {
     return () => {
-      const children = [];
-      if (props.title) {
-        children.push(h('title', {}, props.title));
-      }
-      return h(
-        'svg',
-        {
-          xmlns: 'http://www.w3.org/2000/svg',
-          viewBox: '0 0 24 24',
-          fill: 'none',
-          stroke: props.color,
-          'stroke-width': 1.5,
-          'stroke-linecap': 'round',
-          'stroke-linejoin': 'round',
-          'vector-effect': 'non-scaling-stroke',
-          width: props.size,
-          height: props.size,
-          class: props.class,
-          role: 'img',
-          'aria-label': props.ariaLabel,
-          innerHTML: `<path d="M10.25 16.875 11 17m2.25.375.75.125m2.25.375L17 18m2.25.375.75.125M8 3.5v13m0-13L6.5 5M8 3.5 9.5 5M5 19.5l-.5.5m1.75-1.75.5-.5"/>`,
-        },
-        children,
-      );
+      const children = props.title ? [h('title', {}, props.title)] : [];
+      return h('svg', {
+        xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
+        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
+        innerHTML: `<path d="M10.25 16.875 11 17m2.25.375.75.125m2.25.375L17 18m2.25.375.75.125M8 3.5v13m0-13L6.5 5M8 3.5 9.5 5M5 19.5l-.5.5m1.75-1.75.5-.5"/>`,
+      }, children);
     };
   },
 });

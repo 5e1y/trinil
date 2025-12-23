@@ -15,6 +15,9 @@ if (!['patch', 'minor', 'major'].includes(releaseType)) {
   process.exit(1);
 }
 
+// All packages to release
+const packages = ['trinil-react', 'trinil-vue', 'trinil-svelte', 'trinil-solid', 'trinil-web'];
+
 /**
  * Execute a shell command
  */
@@ -74,11 +77,11 @@ async function release() {
   await run('npm run icons:validate');
 
   // 2. Generate icons
-  console.log('\nStep 2: Generating icons...');
+  console.log('\nStep 2: Generating icons for all 5 frameworks...');
   await run('npm run icons:generate');
 
   // 3. Build packages
-  console.log('\nStep 3: Building packages...');
+  console.log('\nStep 3: Building all packages...');
   await run('npm run build');
 
   // 4. Run smoke tests
@@ -89,19 +92,21 @@ async function release() {
   console.log('\nStep 5: Verifying package contents...');
   await run('npm run verify:pack');
 
-  // 6. Bump versions (same for both packages)
+  // 6. Bump versions (same for all packages)
   console.log(`\nStep 6: Bumping versions (${releaseType})...`);
-  const reactPkgPath = path.join(rootDir, 'packages/trinil-react/package.json');
-  const vuePkgPath = path.join(rootDir, 'packages/trinil-vue/package.json');
-  
-  const currentVersion = getVersion(reactPkgPath);
+  const firstPkgPath = path.join(rootDir, `packages/${packages[0]}/package.json`);
+  const currentVersion = getVersion(firstPkgPath);
   const newVersion = incrementVersion(currentVersion, releaseType);
   
   console.log(`  Current: ${currentVersion}`);
   console.log(`  New: ${newVersion}`);
   
-  setVersion(reactPkgPath, newVersion);
-  setVersion(vuePkgPath, newVersion);
+  // Update all packages
+  for (const pkg of packages) {
+    const pkgPath = path.join(rootDir, `packages/${pkg}/package.json`);
+    setVersion(pkgPath, newVersion);
+    console.log(`  ✓ ${pkg} → ${newVersion}`);
+  }
 
   // 7. Commit changes
   console.log('\nStep 7: Committing changes...');
@@ -112,44 +117,34 @@ async function release() {
   console.log('\nStep 8: Creating git tag...');
   await run(`git tag v${newVersion}`, rootDir);
 
-  // 9. Push (only if remote is configured)
+  // 9. Push
   console.log('\nStep 9: Pushing to origin...');
   try {
-    // Get current branch name
     const { stdout: branch } = await execPromise('git rev-parse --abbrev-ref HEAD', { cwd: rootDir });
     const branchName = branch.trim();
     
     if (branchName === 'HEAD') {
       console.warn('⚠️  In detached HEAD state. Skipping push.');
-      console.log('To push manually later:');
-      console.log('  git checkout <your-branch>');
-      console.log('  git cherry-pick ' + (await execPromise('git rev-parse HEAD', { cwd: rootDir })).stdout.trim());
-      console.log(`  git push origin <your-branch>`);
-      console.log(`  git push origin v${newVersion}`);
     } else {
       await run(`git push origin ${branchName}`, rootDir);
       await run(`git push origin v${newVersion}`, rootDir);
       console.log('✓ Pushed commit and tag to origin');
     }
   } catch (error) {
-    console.warn(
-      '⚠️  Could not push to origin. You may need to configure your git remote or credentials.\n' +
-      'Push manually with:\n' +
-      '  git push origin <your-branch>\n' +
-      '  git push origin v' + newVersion
-    );
+    console.warn('⚠️  Could not push to origin. Push manually later.');
   }
 
   console.log(`\n✅ Release v${newVersion} complete!\n`);
-  console.log('Next steps:');
-  console.log(`  npm run publish:react    (then approve npm auth)`);
-  console.log(`  npm run publish:vue      (then approve npm auth)`);
+  console.log('Next steps (publish to npm):');
+  for (const pkg of packages) {
+    console.log(`  npm run publish:${pkg.replace('trinil-', '')}`);
+  }
   console.log('\nTo undo this release:');
   console.log(`  git reset --soft HEAD~1`);
   console.log(`  git tag -d v${newVersion}`);
 }
 
 release().catch(error => {
-  console.error('Release failed:', error.message);
+  console.error('Error:', error);
   process.exit(1);
 });

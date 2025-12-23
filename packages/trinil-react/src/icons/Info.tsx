@@ -10,27 +10,10 @@ export interface IconProps {
 
 export const Info: React.FC<IconProps> = React.memo((props) => {
   const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
-
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke={color}
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      vectorEffect="non-scaling-stroke"
-      width={size}
-      height={size}
-      className={className}
-      role="img"
-      aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path d="M12 16.5v-6h-2m2 6h2m-2 0h-2M12 8v-.5M12 21a9 9 0 1 1 0-18 9 9 0 0 1 0 18Z"/>` }}
-    >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M12 16.5v-6h-2m2 6h2m-2 0h-2M12 8v-.5M12 21a9 9 0 1 1 0-18 9 9 0 0 1 0 18Z"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );
 });
-
 Info.displayName = 'Info';

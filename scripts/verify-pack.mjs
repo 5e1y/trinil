@@ -15,6 +15,9 @@ async function verifyPack() {
   const packages = [
     { name: 'trinil-react', path: path.join(rootDir, 'packages/trinil-react') },
     { name: 'trinil-vue', path: path.join(rootDir, 'packages/trinil-vue') },
+    { name: 'trinil-svelte', path: path.join(rootDir, 'packages/trinil-svelte') },
+    { name: 'trinil-solid', path: path.join(rootDir, 'packages/trinil-solid') },
+    { name: 'trinil-web', path: path.join(rootDir, 'packages/trinil-web') },
   ];
 
   for (const pkg of packages) {

@@ -11,30 +11,13 @@ export const Pentagon = defineComponent({
   },
   setup(props) {
     return () => {
-      const children = [];
-      if (props.title) {
-        children.push(h('title', {}, props.title));
-      }
-      return h(
-        'svg',
-        {
-          xmlns: 'http://www.w3.org/2000/svg',
-          viewBox: '0 0 24 24',
-          fill: 'none',
-          stroke: props.color,
-          'stroke-width': 1.5,
-          'stroke-linecap': 'round',
-          'stroke-linejoin': 'round',
-          'vector-effect': 'non-scaling-stroke',
-          width: props.size,
-          height: props.size,
-          class: props.class,
-          role: 'img',
-          'aria-label': props.ariaLabel,
-          innerHTML: `<path d="M11.412 3.741a1 1 0 0 1 1.176 0l7.86 5.71a1 1 0 0 1 .363 1.119l-3.003 9.239a1 1 0 0 1-.95.691H7.142a1 1 0 0 1-.951-.691l-3.003-9.24a1 1 0 0 1 .364-1.117z"/>`,
-        },
-        children,
-      );
+      const children = props.title ? [h('title', {}, props.title)] : [];
+      return h('svg', {
+        xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
+        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
+        innerHTML: `<path d="M11.412 3.741a1 1 0 0 1 1.176 0l7.86 5.71a1 1 0 0 1 .363 1.119l-3.003 9.239a1 1 0 0 1-.95.691H7.142a1 1 0 0 1-.951-.691l-3.003-9.24a1 1 0 0 1 .364-1.117z"/>`,
+      }, children);
     };
   },
 });

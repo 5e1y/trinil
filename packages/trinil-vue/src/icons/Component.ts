@@ -11,30 +11,13 @@ export const Component = defineComponent({
   },
   setup(props) {
     return () => {
-      const children = [];
-      if (props.title) {
-        children.push(h('title', {}, props.title));
-      }
-      return h(
-        'svg',
-        {
-          xmlns: 'http://www.w3.org/2000/svg',
-          viewBox: '0 0 24 24',
-          fill: 'none',
-          stroke: props.color,
-          'stroke-width': 1.5,
-          'stroke-linecap': 'round',
-          'stroke-linejoin': 'round',
-          'vector-effect': 'non-scaling-stroke',
-          width: props.size,
-          height: props.size,
-          class: props.class,
-          role: 'img',
-          'aria-label': props.ariaLabel,
-          innerHTML: `<path d="m9.207 5.793 2.086-2.086a1 1 0 0 1 1.414 0l2.086 2.086a1 1 0 0 1 0 1.414l-2.086 2.086a1 1 0 0 1-1.414 0L9.207 7.207a1 1 0 0 1 0-1.414ZM9.207 16.793l2.086-2.086a1 1 0 0 1 1.414 0l2.086 2.086a1 1 0 0 1 0 1.414l-2.086 2.086a1 1 0 0 1-1.414 0l-2.086-2.086a1 1 0 0 1 0-1.414ZM3.707 11.293l2.086-2.086a1 1 0 0 1 1.414 0l2.086 2.086a1 1 0 0 1 0 1.414l-2.086 2.086a1 1 0 0 1-1.414 0l-2.086-2.086a1 1 0 0 1 0-1.414ZM14.707 11.293l2.086-2.086a1 1 0 0 1 1.414 0l2.086 2.086a1 1 0 0 1 0 1.414l-2.086 2.086a1 1 0 0 1-1.414 0l-2.086-2.086a1 1 0 0 1 0-1.414Z"/>`,
-        },
-        children,
-      );
+      const children = props.title ? [h('title', {}, props.title)] : [];
+      return h('svg', {
+        xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
+        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
+        innerHTML: `<path d="m9.207 5.793 2.086-2.086a1 1 0 0 1 1.414 0l2.086 2.086a1 1 0 0 1 0 1.414l-2.086 2.086a1 1 0 0 1-1.414 0L9.207 7.207a1 1 0 0 1 0-1.414ZM9.207 16.793l2.086-2.086a1 1 0 0 1 1.414 0l2.086 2.086a1 1 0 0 1 0 1.414l-2.086 2.086a1 1 0 0 1-1.414 0l-2.086-2.086a1 1 0 0 1 0-1.414ZM3.707 11.293l2.086-2.086a1 1 0 0 1 1.414 0l2.086 2.086a1 1 0 0 1 0 1.414l-2.086 2.086a1 1 0 0 1-1.414 0l-2.086-2.086a1 1 0 0 1 0-1.414ZM14.707 11.293l2.086-2.086a1 1 0 0 1 1.414 0l2.086 2.086a1 1 0 0 1 0 1.414l-2.086 2.086a1 1 0 0 1-1.414 0l-2.086-2.086a1 1 0 0 1 0-1.414Z"/>`,
+      }, children);
     };
   },
 });

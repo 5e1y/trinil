@@ -6,52 +6,53 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.join(__dirname, '..');
 
+// All packages to test
+const packages = [
+  { name: 'trinil-react', distFile: 'packages/trinil-react/dist/index.js' },
+  { name: 'trinil-vue', distFile: 'packages/trinil-vue/dist/index.js' },
+  { name: 'trinil-svelte', distFile: 'packages/trinil-svelte/dist/index.js' },
+  { name: 'trinil-solid', distFile: 'packages/trinil-solid/dist/index.js' },
+  { name: 'trinil-web', distFile: 'packages/trinil-web/dist/index.js' },
+];
+
 async function smokeTest() {
-  console.log('🧪 Running smoke tests...\n');
+  console.log('🧪 Running smoke tests for all packages...\n');
 
-  const reactDistFile = path.join(rootDir, 'packages/trinil-react/dist/index.js');
-  const vueDistFile = path.join(rootDir, 'packages/trinil-vue/dist/index.js');
+  let allPassed = true;
 
-  // Check React package
-  if (!fs.existsSync(reactDistFile)) {
-    console.error('❌ React dist file not found. Run "npm run build" first.');
-    process.exit(1);
+  for (const pkg of packages) {
+    const distPath = path.join(rootDir, pkg.distFile);
+    
+    // Check dist file exists
+    if (!fs.existsSync(distPath)) {
+      console.error(`❌ ${pkg.name}: dist file not found. Run "npm run build" first.`);
+      allPassed = false;
+      continue;
+    }
+
+    const distContent = fs.readFileSync(distPath, 'utf-8');
+
+    // Check for expected exports
+    if (!distContent.includes('Adhesive') || !distContent.includes('ArrowDown')) {
+      console.error(`❌ ${pkg.name}: does not contain expected exports (Adhesive, ArrowDown).`);
+      allPassed = false;
+      continue;
+    }
+
+    // Check for stroke attributes
+    if (!distContent.includes('stroke-width') && !distContent.includes('strokeWidth')) {
+      console.warn(`⚠️  ${pkg.name}: may not have stroke-width attributes.`);
+    }
+
+    console.log(`✓ ${pkg.name}: exports verified`);
   }
 
-  const reactDist = fs.readFileSync(reactDistFile, 'utf-8');
-  if (!reactDist.includes('Adhesive') || !reactDist.includes('ArrowDown')) {
-    console.error('❌ React dist does not contain expected exports.');
-    process.exit(1);
-  }
-  console.log('✓ React dist contains expected exports (Adhesive, ArrowDown, ...)');
-
-  // Check Vue package
-  if (!fs.existsSync(vueDistFile)) {
-    console.error('❌ Vue dist file not found. Run "npm run build" first.');
-    process.exit(1);
-  }
-
-  const vueDist = fs.readFileSync(vueDistFile, 'utf-8');
-  if (!vueDist.includes('Adhesive') || !vueDist.includes('ArrowDown')) {
-    console.error('❌ Vue dist does not contain expected exports.');
-    process.exit(1);
-  }
-  console.log('✓ Vue dist contains expected exports (Adhesive, ArrowDown, ...)');
-
-  // Check for locked stroke attributes
-  if (!reactDist.includes('stroke-width') && !reactDist.includes('strokeWidth')) {
-    console.warn('⚠️  React dist may not have stroke-width attributes.');
+  if (allPassed) {
+    console.log('\n✅ All smoke tests passed!');
   } else {
-    console.log('✓ React dist includes stroke attributes');
+    console.error('\n❌ Some smoke tests failed.');
+    process.exit(1);
   }
-
-  if (!vueDist.includes('stroke-width') && !vueDist.includes('stroke-width')) {
-    console.warn('⚠️  Vue dist may not have stroke-width attributes.');
-  } else {
-    console.log('✓ Vue dist includes stroke attributes');
-  }
-
-  console.log('\n✅ Smoke tests passed!');
 }
 
 smokeTest().catch(error => {

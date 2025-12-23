@@ -10,27 +10,10 @@ export interface IconProps {
 
 export const ArrowMinimize: React.FC<IconProps> = React.memo((props) => {
   const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
-
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke={color}
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      vectorEffect="non-scaling-stroke"
-      width={size}
-      height={size}
-      className={className}
-      role="img"
-      aria-label={ariaLabel}
-      dangerouslySetInnerHTML={{ __html: `<path d="m20 4-6 6m0 0h5.5M14 10V4.5M4 20l6-6m0 0H4.5m5.5 0v5.5"/>` }}
-    >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="m20 4-6 6m0 0h5.5M14 10V4.5M4 20l6-6m0 0H4.5m5.5 0v5.5"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );
 });
-
 ArrowMinimize.displayName = 'ArrowMinimize';

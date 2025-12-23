@@ -22,14 +22,15 @@ npm run release:major    # Major version bump (0.1.0 → 1.0.0)
 
 This does:
 1. ✅ Validates SVG structure (`npm run icons:validate`)
-2. ✅ Generates React + Vue components (`npm run icons:generate`)
-3. ✅ Builds packages (`npm run build`)
-4. ✅ Runs smoke tests (`npm run test:smoke`)
-5. ✅ Verifies package contents (`npm run verify:pack`)
-6. ✅ Bumps versions (both packages stay in sync)
-7. ✅ Commits changes: `chore(release): vX.Y.Z`
-8. ✅ Tags: `vX.Y.Z`
-9. ✅ Pushes to origin (if configured)
+2. ✅ Generates React + Vue + Svelte + Solid + Web components (`npm run icons:generate`)
+3. ✅ Generates `ICONS.md` list for each package (auto-included in step 2)
+4. ✅ Builds packages (`npm run build`)
+5. ✅ Runs smoke tests (`npm run test:smoke`)
+6. ✅ Verifies package contents (`npm run verify:pack`)
+7. ✅ Bumps versions (all packages stay in sync)
+8. ✅ Commits changes: `chore(release): vX.Y.Z`
+9. ✅ Tags: `vX.Y.Z`
+10. ✅ Pushes to origin (if configured)
 
 ## Publish to npm
 
@@ -78,6 +79,7 @@ git push origin --delete vX.Y.Z  # Delete remote tag (if pushed)
 Each npm package contains ONLY:
 - `dist/index.js` - ESM bundle
 - `dist/index.d.ts` - TypeScript definitions
+- `ICONS.md` - Complete list of available icons
 - `README.md` - Package documentation
 - `LICENSE` - MIT license
 - `package.json` - Manifest

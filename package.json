@@ -1,7 +1,7 @@
 {
   "name": "trinil",
   "version": "0.1.0",
-  "description": "A standalone SVG icon library for React and Vue 3",
+  "description": "A standalone SVG icon library for React, Vue 3, Svelte, SolidJS, and Web Components",
   "private": true,
   "type": "module",
   "workspaces": [
@@ -14,6 +14,9 @@
     "build": "npm run build --workspaces",
     "build:react": "npm run build -w packages/trinil-react",
     "build:vue": "npm run build -w packages/trinil-vue",
+    "build:svelte": "npm run build -w packages/trinil-svelte",
+    "build:solid": "npm run build -w packages/trinil-solid",
+    "build:web": "npm run build -w packages/trinil-web",
     "clean": "npm run clean --workspaces",
     "verify:pack": "node scripts/verify-pack.mjs",
     "test:smoke": "node scripts/smoke-test.mjs",
@@ -21,7 +24,10 @@
     "release:minor": "node scripts/release.mjs minor",
     "release:major": "node scripts/release.mjs major",
     "publish:react": "cd packages/trinil-react && npm publish --access public",
-    "publish:vue": "cd packages/trinil-vue && npm publish --access public"
+    "publish:vue": "cd packages/trinil-vue && npm publish --access public",
+    "publish:svelte": "cd packages/trinil-svelte && npm publish --access public",
+    "publish:solid": "cd packages/trinil-solid && npm publish --access public",
+    "publish:web": "cd packages/trinil-web && npm publish --access public"
   },
   "devDependencies": {
     "@svgr/core": "^8.1.0",
