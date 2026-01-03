@@ -36295,67 +36295,6 @@ declare const MaterialSlot: vue.DefineComponent<vue.ExtractPropTypes<{
     ariaLabel: string;
 }, {}, {}, {}, string, vue.ComponentProvideOptions, true, {}, any>;
 
-declare const McrophoneOff: vue.DefineComponent<vue.ExtractPropTypes<{
-    size: {
-        type: NumberConstructor;
-        default: number;
-    };
-    color: {
-        type: StringConstructor;
-        default: string;
-    };
-    strokeWidth: {
-        type: NumberConstructor;
-        default: number;
-    };
-    class: {
-        type: StringConstructor;
-        default: undefined;
-    };
-    title: {
-        type: StringConstructor;
-        default: undefined;
-    };
-    ariaLabel: {
-        type: StringConstructor;
-        default: undefined;
-    };
-}>, () => vue.VNode<vue.RendererNode, vue.RendererElement, {
-    [key: string]: any;
-}>, {}, {}, {}, vue.ComponentOptionsMixin, vue.ComponentOptionsMixin, {}, string, vue.PublicProps, Readonly<vue.ExtractPropTypes<{
-    size: {
-        type: NumberConstructor;
-        default: number;
-    };
-    color: {
-        type: StringConstructor;
-        default: string;
-    };
-    strokeWidth: {
-        type: NumberConstructor;
-        default: number;
-    };
-    class: {
-        type: StringConstructor;
-        default: undefined;
-    };
-    title: {
-        type: StringConstructor;
-        default: undefined;
-    };
-    ariaLabel: {
-        type: StringConstructor;
-        default: undefined;
-    };
-}>> & Readonly<{}>, {
-    size: number;
-    color: string;
-    strokeWidth: number;
-    class: string;
-    title: string;
-    ariaLabel: string;
-}, {}, {}, {}, string, vue.ComponentProvideOptions, true, {}, any>;
-
 declare const Medal: vue.DefineComponent<vue.ExtractPropTypes<{
     size: {
         type: NumberConstructor;
@@ -37516,6 +37455,67 @@ declare const Metro: vue.DefineComponent<vue.ExtractPropTypes<{
 }, {}, {}, {}, string, vue.ComponentProvideOptions, true, {}, any>;
 
 declare const Microphone: vue.DefineComponent<vue.ExtractPropTypes<{
+    size: {
+        type: NumberConstructor;
+        default: number;
+    };
+    color: {
+        type: StringConstructor;
+        default: string;
+    };
+    strokeWidth: {
+        type: NumberConstructor;
+        default: number;
+    };
+    class: {
+        type: StringConstructor;
+        default: undefined;
+    };
+    title: {
+        type: StringConstructor;
+        default: undefined;
+    };
+    ariaLabel: {
+        type: StringConstructor;
+        default: undefined;
+    };
+}>, () => vue.VNode<vue.RendererNode, vue.RendererElement, {
+    [key: string]: any;
+}>, {}, {}, {}, vue.ComponentOptionsMixin, vue.ComponentOptionsMixin, {}, string, vue.PublicProps, Readonly<vue.ExtractPropTypes<{
+    size: {
+        type: NumberConstructor;
+        default: number;
+    };
+    color: {
+        type: StringConstructor;
+        default: string;
+    };
+    strokeWidth: {
+        type: NumberConstructor;
+        default: number;
+    };
+    class: {
+        type: StringConstructor;
+        default: undefined;
+    };
+    title: {
+        type: StringConstructor;
+        default: undefined;
+    };
+    ariaLabel: {
+        type: StringConstructor;
+        default: undefined;
+    };
+}>> & Readonly<{}>, {
+    size: number;
+    color: string;
+    strokeWidth: number;
+    class: string;
+    title: string;
+    ariaLabel: string;
+}, {}, {}, {}, string, vue.ComponentProvideOptions, true, {}, any>;
+
+declare const MicrophoneOff: vue.DefineComponent<vue.ExtractPropTypes<{
     size: {
         type: NumberConstructor;
         default: number;
@@ -64355,4 +64355,4 @@ declare const ZoomOut: vue.DefineComponent<vue.ExtractPropTypes<{
     ariaLabel: string;
 }, {}, {}, {}, string, vue.ComponentProvideOptions, true, {}, any>;
 
-export { Accessibility, AccessibilityCircle, Adhesive, Advertisement, AiNetwork, AirplaneMode, AirplaneModeOff, Alarm, AlarmPlus, Album, AlignBottom, AlignCenter, AlignEnd, AlignMiddle, AlignStart, AlignTop, Ambulance, Analytics, AnchorBoat, AnimalButterfly, AnimalRabbit, AnimalSheep, AntennaSignal, Api, AppleCmd, AppleLogo, AppleOption, Apps, Archive, ArchiveDownload, ArchiveOpen, ArchiveUpload, Array, ArrowBarDown, ArrowBarLeft, ArrowBarRight, ArrowBarUp, ArrowBottomLeft, ArrowBottomRight, ArrowCapsLock, ArrowCollapse, ArrowCollapseVertical, ArrowDown, ArrowDownUp, ArrowExpand, ArrowExpandVertical, ArrowLeft, ArrowLeftRight, ArrowMaximize, ArrowMinimize, ArrowMove, ArrowRight, ArrowRotateCcw, ArrowRotateCw, ArrowShift, ArrowTopLeft, ArrowTopRight, ArrowUTurnDown, ArrowUTurnLeft, ArrowUTurnRight, ArrowUTurnUp, ArrowUp, Arrows, ArrowsVertical, Artist, AssetBrowser, Assistance, Atom, AttentionSign, Audio, AudioDescription, AudioDescriptionDisabled, AxisGizmo, AxisX, AxisY, AxisZ, Background, Backpack, BackpackAlt, Bacteria, Bake, BakeAnimation, Bandage, Bank, BankArrowDown, BankArrowRight, BankArrowUp, BankCheck, BankCross, BankLock, BankSearch, BankSettings, Barcode, Basket, BasketCheck, BasketCross, BasketMinus, BasketPlus, Bathtub, Battery, BatteryCharging, BatteryFull, BatteryLow, BatteryMedium, BatteryZero, Bed, BedDouble, BedLeveling, Bedroom, Bell, BellOff, Bevel, Bicycle, BikeHelmet, Biohazard, BlenderKitchen, Bluetooth, BluetoothOff, BluetoothPaired, Boat, Body3dRigid, Body3dSoft, Bone, BoneDouble, BoneFracture, Book, BookPageTurn, Bookmark, BookmarkMinus, BookmarkPlus, Bottle, BottleWine, BoundingBox, Bowl, Box, BoxExpedition, BoxOpen, BoxReturn, Boxes, Brain, BrainCheck, BrainCross, BrainNetwork, BrainSearch, Breadcrumb, Briefcase, BrightnessHigh, BrightnessLow, BrightnessMedium, Browser, Bucket, Budget, Bug, BugCheck, BugCross, BugDebug, Building, BuildingAlt, BurgerMenu, Bus, Cable, Calendar, CalendarCheck, CalendarDots, CalendarEdit, CalendarMinus, CalendarNumber, CalendarPlus, CalendarSearch, CalendarSettings, Camera, Camera3d, CameraOff, CameraRangefinder, CameraTarget, Capsule, Capsules, Caption, CaptionDisabled, Car, Cart, CartCheckout, CartCross, CartMinus, CartPlus, Cash, CashArrowDown, CashArrowRight, CashArrowUp, CashCross, CastAudio, CastTo, Chair, Charger, ChartDonut, Chat, Check, CheckerTexture, ChevronDown, ChevronLeft, ChevronRight, ChevronUp, Chopsticks, Chromosome, Circle, CircleArrowBottomLeft, CircleArrowBottomRight, CircleArrowDown, CircleArrowLeft, CircleArrowRight, CircleArrowTopLeft, CircleArrowTopRight, CircleArrowUp, CircleCheck, CircleCross, Clipboard, ClipboardCheck, ClipboardCross, ClipboardMinus, ClipboardPlus, Clock, Cloth3d, ClothTshirt, Cloud, CloudCheck, CloudCross, CloudDownload, CloudLock, CloudRain, CloudSettings, CloudSnow, CloudSnowRain, CloudSun, CloudThunder, CloudUpload, Code, Coffee, CoffeeHot, Coin, Collapse, Collection, Collision, ColorPalette, Comment, CommentFigma, Compare, Compass, Component, Cone, Contract, Contrast, Cookie, CookieOff, Copy, Cotton, Coupon, CouponPercent, Cpu, Credit, CreditCard, CreditCardCheck, CreditCardCross, CreditCardLock, CreditCardMinus, CreditCardPlus, Crop, Cross, Crown, Crutch, Cup, CursorClick, CursorGrab, CursorMouse, CursorWrite, Curve, Cut, CuttingBoard, Cuttlery, Cylinder, Dashboard, Database, DatabaseCheck, DatabaseCross, DatabaseDownload, DatabaseEdit, DatabaseLock, DatabaseMinus, DatabasePlus, DatabaseSearch, DatabaseSettings, DatabaseUpload, Defibrilator, Deform, Delivery, DeliveryBicycle, Denoise, Desktop, Devices, Diamond, DiningRoom, Direction, Discount, Dislike, Display, DisplayPort, DistributeHorizontal, DistributeVertical, Dna, Dollar, Door, DoorLock, DoorOpen, DopeSheet, Dot, DotsHorizontal, DotsVertical, Download, Drawer, DropAdd, Dropdown, DropdownOpen, Dropper, Dumbell, Duplicate, DuplicateLayer, EditPen, Elevator, EmergencyCross, EmojiPlus, Entrance, Epipen, Equalizer, Eraser, Error, Ethernet, Euro, Exclude, ExternalLink, Extrude, EyeBlind, EyeClosed, EyeOff, EyeOpen, FaceId, Factory, Feather, File, File3d, FileAi, FileBackup, FileCheck, FileCode, FileCross, FileCsv, FileDoc, FileDocx, FileDownload, FileFigma, FileJson, FileKey, FileLicense, FileLock, FileMinus, FilePdf, FilePlus, FilePpt, FilePptx, FilePsd, FileRar, FileRestore, FileScan, FileSearch, FileStl, FileText, FileUpload, FileXls, FileXlsx, FileXml, FileYaml, FileZip, Film, FilmRoll, Filter, FilterCheck, FilterCross, FilterMinus, FilterPlus, FilterSettings, Fingerprint, Firewall, FirewallOff, Flag, FlagGolf, FlowerClover, FlowerDaisy, FlowerPot, FlowerPrimrose, FlowerSunflower, FlowerTulip, Folder, FolderCheck, FolderCross, FolderDownload, FolderLock, FolderMinus, FolderOpen, FolderPlus, FolderSearch, FolderSettings, FolderUpload, FolderUser, ForceField, Foreground, ForkKitchen, Frame, FrameFigma, Fridge, FruitApple, FruitCherry, FruitPeach, FruitStrawberry, Fuel, FuelOff, Fullscreen, Furniture, GalleryPicture, GameController, Gardeing, Gcode, Gear, Gift, GitBranch, GitCommit, GitFork, GitMerge, GitPull, Glass, Glasses, Globe, Gps, Gpu, Graph, GraphArea, GraphBars, GraphBarsLarge, GraphPie, GraphPoll, GraphScatter, GraphStroke, Gravity, Grid, Guides, GuidesLock, H1, H2, H3, Hammer, HandleOrizontal, HandleVertical, Handshake, Hanger, Hashtag, Hdd, Hdmi, Hdri, Headphones, Hearing, HearingOff, Heart, HeartBroken, HeartCheck, HeartCross, HeartLocked, HeartMedical, HeartMedicalCheck, HeartMedicalCross, HeartMedicalSearch, HeartMinus, HeartMinus1, HeartPlus, HeartSettings, Hexagon, Highlighter, History, Home, Hospital, Hourglass, HourglassEnd, HourglassStart, HouseSmall, Hurricane, ImagePicture, Inbox, InboxCheck, InboxCross, InboxDownload, InboxUpload, Incognito, IncognitoOff, Indent, Infill, Info, Input, InputCursor, InputPassword, InputSearch, Inset, Instance, Intersect, InvertSelection, IpAdress, Iron, IsometricView, JoysticClassic, Kettle, Key, Keyboard, KeyframeAutobezier, KeyframeEaseIn, KeyframeEaseOut, KeyframeEasyEase, KeyframeHold, KeyframeHoldEaseIn, KeyframeHoldEaseOut, KeyframeHoldLinearIn, KeyframeHoldLinearOut, KeyframeLinear, Keyhole, Knife, KnifeKitchen, LabFlask, Lamp, Lamp1, Laptop, Lattice, LayerHeight, Layers, Layout, LayoutColumns, LayoutGrid, LayoutRows, Leather, Leave, Letter, LetterCheck, LetterEdit, LetterMinus, LetterOpen, LetterPlus, LetterSearch, Level, LightAera, LightBulbOff, LightBulbOn, LightPoint, LightSpot, Like, Link, LinkAdd, LinkSettings, LinkUnlinked, List, ListCheck, ListNumbered, Liver, LiverCheck, LiverCross, LiverSearch, LivingRoom, LocalSpace, Location, LocationCross, LocationPerson, LocationPin, LocationPlus, LockCheck, LockEuro, LockLocked, LockOpen, LockSettings, LockUnlock, LogIn, LogOut, LoopAnimation, LoopCut, Luggage, Lungs, LungsCheck, LungsCross, LungsSearch, Magnet, Map, Material, Material3d, MaterialSlot, McrophoneOff, Medal, MedalCheck, MedalStar, Medkit, Megaphone, MegaphoneSound, MentionAt, MenuBottom, MenuLeft, MenuRight, MenuTop, MergeVertices, Message, MessageBubble, MessageDots, MessageLock, MessageSettings, Metalic, Metro, Microphone, Microscope, Microwave, Minus, Mirror, Money, Moon, Mop, Mortarboard, Motherboard, Motion, Motorbike, Mountain, Mouse, Move, Music, Navigation, NavigationOff, Needle, Network, Newspaper, Next, Nfc, NodeGraph, Notebook, NotebookTabs, Notification, Nozzle, Office, Offline, Opacity, OrbitCamera, OrthographicView, Outdent, Outside, Oven, Overhang, Package, PaintBrush, PaintBucket, PaintRoller, Paired, PanKitchen, PaperPlane, Paperclip, PaperclipDisabled, Paragraph, Parking, ParticleSystem, Paste, Pause, Peace, Pen, PenCursor, Pencil, PencilCursor, Pentagon, Pepper, Perfusion, PersonInfo, PerspectiveView, Phone, Phone1, PhoneDown, PhoneOff, PhoneRotate, PhoneSound, PhoneUp, PhoneVibrate, PhoneVibrateDisabled, Physics, PiggyBank, Pill, Pills, Pin, PinCheck, PinCross, PinMinus, PinOff, PinPlus, Pint, Pipeline, Pivot, Plane, PlantPot, Plate, Plateau, Play, PlayPause, Playlist, Plug, Plugins, Plus, Pot, Power, Presentation, Previous, PriceTagMinus, Print3d, Printer, Printer3d, Privacy, PrivacyOff, ProceduralNode, Proxy, Proxy3d, Psu, Pulse, PulseCircle, QrCode, Question, Quote, Radar, Radio, RadioAlt, Radioactive, Ram, RamStrips, Receipt, ReceiptCheck, ReceiptPay, Record, RectangleHorizontal, RectangleVertical, Recycle, Redo, Refresh, RefreshAuto, Refund, Reload, Rename, Render, RenderPreview, RenderRegion, Repeat, RepeatOff, RepeatOne, Reply, Restart, ReturnBox, Road, Rotate, Rotate90, Roughness, Route, Router, RulerCursor, RulerHorizontal, RulerVertical, Ruller, SafeFrame, Salt, Save, Scale, ScaleUniform, Scan, Scene, Scissors, ScreenShare, Screwdriver, Search, Seed, SelectAll, SelectEdge, SelectFace, SelectVertex, Selection, Server, ServerAlt, Shader, ShadowHard, ShadowSoft, Share, ShareAndroid, ShareIos, Shelf, Shield, ShieldCheck, ShieldCross, ShieldSearch, ShieldSettings, ShoppingBag, ShoppingBagCheck, ShoppingBagCross, ShoppingBagMinus, ShoppingBagPlus, Shower, Shuffle, Signal, Signpost, SignpostAlt, Sink, Skull, Slice, SliderHorizontal, SliderVertical, SlidersHorizontal, SlidersHorizontalCheck, SlidersHorizontalCross, SlidersHorizontalMinus, SlidersHorizontalPlus, SlidersHorizontalSettings, SlidersVertical, SlidersVerticalCheck, SlidersVerticalCross, SlidersVerticalMinus, SlidersVerticalPlus, SlidersVerticalSettings, SmartWatch, SmileyNeutral, SmileySad, SmileySmile, SnapGrid, SnapVertex, Snowflake, Sofa, Solidify, Sort, SortAscending, SortDescending, SoundWave, Sparkle, Speaker, SpeakerHigh, SpeakerLow, SpeakerMedium, SpeakerMute, Speed, Spellcheck, Sphere, Spice, Spinner, SplitHorizontal, SplitVertical, Spoon, Square, SquareArrowBottomLeft, SquareArrowBottomRight, SquareArrowDown, SquareArrowLeft, SquareArrowRight, SquareArrowTopLeft, SquareArrowTopRight, SquareArrowUp, SquareCheck, SquareCheckIntermediate, SquareCross, SquareRounded, Stairs, StairsDown, StairsUp, Star, StarHalf, Stethoscope, StickmenCheer, StickmenFight, StickmenHiking, StickmenRun, StickmenStand, StickmenWalk, StickmenWave, StickmenYoga, StickyNote, StickyNotes, Stomach, StomachCheck, StomachCross, StomachSearch, Stopwatch, StopwatchPlus, Store, Subdivide, SubdivisionSurface, Subscription, Substract, Subtitles, SubtitlesOff, Subway, Suitcase, SuitcaseStickers, Sun, Support, Swap, SyncCheck, SyncOff, Syringe, Table, TableCollumn, TableRow, Tablet, TabletLandscape, Tag, TagPlus, Target, TargetBow, Taxi, TaxiAlt, Teapot, Teepee, Telescope, Tent, Terminal, TestTube, Text, TextAlignCenter, TextAlignJustify, TextAlignLeft, TextAlignRight, TextBold, TextItalic, TextSize, TextStrikethrough, TextUnderline, Textile, TextileSparkle, Texture, Thermos, Thunderbolt, ThunderboltDisabled, ThunderboltSmall, ThunderboltSmallDisabled, Timeline, Timer, TimerPlus, Toaster, ToggleOff, ToggleOn, Toilet, ToiletPaper, Tools, Tooth, ToothCheck, ToothCross, ToothSearch, Toothbrush, Tornado, Torus, TowelFolded, Traffic, Train, Tram, Translate, Trash, TrashCheck, TrashCross, TrashEmpty, TrashRestore, TreeOak, TreePalm, TreePine, TrendDown, TrendFlat, TrendUp, Triangle, TripleStar, Trophy, Truck, Tv, TvRemote, Umbrella, Undo, Union, Upload, Usb, UsbC, User, UserCheck, UserCircle, UserCross, UserEdit, UserGroup, UserGroupCheck, UserGroupCross, UserGroupEdit, UserGroupLock, UserGroupMinus, UserGroupPlus, UserGroupSettings, UserLock, UserMinus, UserPlus, UserSearch, UserSettings, Users, UsersCheck, UsersCross, UsersEdit, UsersLock, UsersMinus, UsersPlus, UsersSearch, UsersSettings, UvMap, UvUnwrap, Vacuum, Video, VideoOff, Viewport, Virus, Volume, VolumeHigh, VolumeLow, VolumeMedium, VolumeMute, Vpn, VpnOff, Wallet, WalletCard, WalletCash, WalletLock, WalletMinus, WalletPlus, WalletSearch, Wardrobe, Warehouse, Warning, WashingMachine, Watch, WaterDrop, WateringCan, WaveCosine, Waypoint, Wheelchair, Wifi, WifiCross, WifiLock, WifiLow, WifiMedium, WifiOff, WifiSearch, WifiZero, Wind, Window, WindowCurtains, WindowsLogo, WorldSpace, Wrench, ZoomCamera, ZoomIn, ZoomOut };
+export { Accessibility, AccessibilityCircle, Adhesive, Advertisement, AiNetwork, AirplaneMode, AirplaneModeOff, Alarm, AlarmPlus, Album, AlignBottom, AlignCenter, AlignEnd, AlignMiddle, AlignStart, AlignTop, Ambulance, Analytics, AnchorBoat, AnimalButterfly, AnimalRabbit, AnimalSheep, AntennaSignal, Api, AppleCmd, AppleLogo, AppleOption, Apps, Archive, ArchiveDownload, ArchiveOpen, ArchiveUpload, Array, ArrowBarDown, ArrowBarLeft, ArrowBarRight, ArrowBarUp, ArrowBottomLeft, ArrowBottomRight, ArrowCapsLock, ArrowCollapse, ArrowCollapseVertical, ArrowDown, ArrowDownUp, ArrowExpand, ArrowExpandVertical, ArrowLeft, ArrowLeftRight, ArrowMaximize, ArrowMinimize, ArrowMove, ArrowRight, ArrowRotateCcw, ArrowRotateCw, ArrowShift, ArrowTopLeft, ArrowTopRight, ArrowUTurnDown, ArrowUTurnLeft, ArrowUTurnRight, ArrowUTurnUp, ArrowUp, Arrows, ArrowsVertical, Artist, AssetBrowser, Assistance, Atom, AttentionSign, Audio, AudioDescription, AudioDescriptionDisabled, AxisGizmo, AxisX, AxisY, AxisZ, Background, Backpack, BackpackAlt, Bacteria, Bake, BakeAnimation, Bandage, Bank, BankArrowDown, BankArrowRight, BankArrowUp, BankCheck, BankCross, BankLock, BankSearch, BankSettings, Barcode, Basket, BasketCheck, BasketCross, BasketMinus, BasketPlus, Bathtub, Battery, BatteryCharging, BatteryFull, BatteryLow, BatteryMedium, BatteryZero, Bed, BedDouble, BedLeveling, Bedroom, Bell, BellOff, Bevel, Bicycle, BikeHelmet, Biohazard, BlenderKitchen, Bluetooth, BluetoothOff, BluetoothPaired, Boat, Body3dRigid, Body3dSoft, Bone, BoneDouble, BoneFracture, Book, BookPageTurn, Bookmark, BookmarkMinus, BookmarkPlus, Bottle, BottleWine, BoundingBox, Bowl, Box, BoxExpedition, BoxOpen, BoxReturn, Boxes, Brain, BrainCheck, BrainCross, BrainNetwork, BrainSearch, Breadcrumb, Briefcase, BrightnessHigh, BrightnessLow, BrightnessMedium, Browser, Bucket, Budget, Bug, BugCheck, BugCross, BugDebug, Building, BuildingAlt, BurgerMenu, Bus, Cable, Calendar, CalendarCheck, CalendarDots, CalendarEdit, CalendarMinus, CalendarNumber, CalendarPlus, CalendarSearch, CalendarSettings, Camera, Camera3d, CameraOff, CameraRangefinder, CameraTarget, Capsule, Capsules, Caption, CaptionDisabled, Car, Cart, CartCheckout, CartCross, CartMinus, CartPlus, Cash, CashArrowDown, CashArrowRight, CashArrowUp, CashCross, CastAudio, CastTo, Chair, Charger, ChartDonut, Chat, Check, CheckerTexture, ChevronDown, ChevronLeft, ChevronRight, ChevronUp, Chopsticks, Chromosome, Circle, CircleArrowBottomLeft, CircleArrowBottomRight, CircleArrowDown, CircleArrowLeft, CircleArrowRight, CircleArrowTopLeft, CircleArrowTopRight, CircleArrowUp, CircleCheck, CircleCross, Clipboard, ClipboardCheck, ClipboardCross, ClipboardMinus, ClipboardPlus, Clock, Cloth3d, ClothTshirt, Cloud, CloudCheck, CloudCross, CloudDownload, CloudLock, CloudRain, CloudSettings, CloudSnow, CloudSnowRain, CloudSun, CloudThunder, CloudUpload, Code, Coffee, CoffeeHot, Coin, Collapse, Collection, Collision, ColorPalette, Comment, CommentFigma, Compare, Compass, Component, Cone, Contract, Contrast, Cookie, CookieOff, Copy, Cotton, Coupon, CouponPercent, Cpu, Credit, CreditCard, CreditCardCheck, CreditCardCross, CreditCardLock, CreditCardMinus, CreditCardPlus, Crop, Cross, Crown, Crutch, Cup, CursorClick, CursorGrab, CursorMouse, CursorWrite, Curve, Cut, CuttingBoard, Cuttlery, Cylinder, Dashboard, Database, DatabaseCheck, DatabaseCross, DatabaseDownload, DatabaseEdit, DatabaseLock, DatabaseMinus, DatabasePlus, DatabaseSearch, DatabaseSettings, DatabaseUpload, Defibrilator, Deform, Delivery, DeliveryBicycle, Denoise, Desktop, Devices, Diamond, DiningRoom, Direction, Discount, Dislike, Display, DisplayPort, DistributeHorizontal, DistributeVertical, Dna, Dollar, Door, DoorLock, DoorOpen, DopeSheet, Dot, DotsHorizontal, DotsVertical, Download, Drawer, DropAdd, Dropdown, DropdownOpen, Dropper, Dumbell, Duplicate, DuplicateLayer, EditPen, Elevator, EmergencyCross, EmojiPlus, Entrance, Epipen, Equalizer, Eraser, Error, Ethernet, Euro, Exclude, ExternalLink, Extrude, EyeBlind, EyeClosed, EyeOff, EyeOpen, FaceId, Factory, Feather, File, File3d, FileAi, FileBackup, FileCheck, FileCode, FileCross, FileCsv, FileDoc, FileDocx, FileDownload, FileFigma, FileJson, FileKey, FileLicense, FileLock, FileMinus, FilePdf, FilePlus, FilePpt, FilePptx, FilePsd, FileRar, FileRestore, FileScan, FileSearch, FileStl, FileText, FileUpload, FileXls, FileXlsx, FileXml, FileYaml, FileZip, Film, FilmRoll, Filter, FilterCheck, FilterCross, FilterMinus, FilterPlus, FilterSettings, Fingerprint, Firewall, FirewallOff, Flag, FlagGolf, FlowerClover, FlowerDaisy, FlowerPot, FlowerPrimrose, FlowerSunflower, FlowerTulip, Folder, FolderCheck, FolderCross, FolderDownload, FolderLock, FolderMinus, FolderOpen, FolderPlus, FolderSearch, FolderSettings, FolderUpload, FolderUser, ForceField, Foreground, ForkKitchen, Frame, FrameFigma, Fridge, FruitApple, FruitCherry, FruitPeach, FruitStrawberry, Fuel, FuelOff, Fullscreen, Furniture, GalleryPicture, GameController, Gardeing, Gcode, Gear, Gift, GitBranch, GitCommit, GitFork, GitMerge, GitPull, Glass, Glasses, Globe, Gps, Gpu, Graph, GraphArea, GraphBars, GraphBarsLarge, GraphPie, GraphPoll, GraphScatter, GraphStroke, Gravity, Grid, Guides, GuidesLock, H1, H2, H3, Hammer, HandleOrizontal, HandleVertical, Handshake, Hanger, Hashtag, Hdd, Hdmi, Hdri, Headphones, Hearing, HearingOff, Heart, HeartBroken, HeartCheck, HeartCross, HeartLocked, HeartMedical, HeartMedicalCheck, HeartMedicalCross, HeartMedicalSearch, HeartMinus, HeartMinus1, HeartPlus, HeartSettings, Hexagon, Highlighter, History, Home, Hospital, Hourglass, HourglassEnd, HourglassStart, HouseSmall, Hurricane, ImagePicture, Inbox, InboxCheck, InboxCross, InboxDownload, InboxUpload, Incognito, IncognitoOff, Indent, Infill, Info, Input, InputCursor, InputPassword, InputSearch, Inset, Instance, Intersect, InvertSelection, IpAdress, Iron, IsometricView, JoysticClassic, Kettle, Key, Keyboard, KeyframeAutobezier, KeyframeEaseIn, KeyframeEaseOut, KeyframeEasyEase, KeyframeHold, KeyframeHoldEaseIn, KeyframeHoldEaseOut, KeyframeHoldLinearIn, KeyframeHoldLinearOut, KeyframeLinear, Keyhole, Knife, KnifeKitchen, LabFlask, Lamp, Lamp1, Laptop, Lattice, LayerHeight, Layers, Layout, LayoutColumns, LayoutGrid, LayoutRows, Leather, Leave, Letter, LetterCheck, LetterEdit, LetterMinus, LetterOpen, LetterPlus, LetterSearch, Level, LightAera, LightBulbOff, LightBulbOn, LightPoint, LightSpot, Like, Link, LinkAdd, LinkSettings, LinkUnlinked, List, ListCheck, ListNumbered, Liver, LiverCheck, LiverCross, LiverSearch, LivingRoom, LocalSpace, Location, LocationCross, LocationPerson, LocationPin, LocationPlus, LockCheck, LockEuro, LockLocked, LockOpen, LockSettings, LockUnlock, LogIn, LogOut, LoopAnimation, LoopCut, Luggage, Lungs, LungsCheck, LungsCross, LungsSearch, Magnet, Map, Material, Material3d, MaterialSlot, Medal, MedalCheck, MedalStar, Medkit, Megaphone, MegaphoneSound, MentionAt, MenuBottom, MenuLeft, MenuRight, MenuTop, MergeVertices, Message, MessageBubble, MessageDots, MessageLock, MessageSettings, Metalic, Metro, Microphone, MicrophoneOff, Microscope, Microwave, Minus, Mirror, Money, Moon, Mop, Mortarboard, Motherboard, Motion, Motorbike, Mountain, Mouse, Move, Music, Navigation, NavigationOff, Needle, Network, Newspaper, Next, Nfc, NodeGraph, Notebook, NotebookTabs, Notification, Nozzle, Office, Offline, Opacity, OrbitCamera, OrthographicView, Outdent, Outside, Oven, Overhang, Package, PaintBrush, PaintBucket, PaintRoller, Paired, PanKitchen, PaperPlane, Paperclip, PaperclipDisabled, Paragraph, Parking, ParticleSystem, Paste, Pause, Peace, Pen, PenCursor, Pencil, PencilCursor, Pentagon, Pepper, Perfusion, PersonInfo, PerspectiveView, Phone, Phone1, PhoneDown, PhoneOff, PhoneRotate, PhoneSound, PhoneUp, PhoneVibrate, PhoneVibrateDisabled, Physics, PiggyBank, Pill, Pills, Pin, PinCheck, PinCross, PinMinus, PinOff, PinPlus, Pint, Pipeline, Pivot, Plane, PlantPot, Plate, Plateau, Play, PlayPause, Playlist, Plug, Plugins, Plus, Pot, Power, Presentation, Previous, PriceTagMinus, Print3d, Printer, Printer3d, Privacy, PrivacyOff, ProceduralNode, Proxy, Proxy3d, Psu, Pulse, PulseCircle, QrCode, Question, Quote, Radar, Radio, RadioAlt, Radioactive, Ram, RamStrips, Receipt, ReceiptCheck, ReceiptPay, Record, RectangleHorizontal, RectangleVertical, Recycle, Redo, Refresh, RefreshAuto, Refund, Reload, Rename, Render, RenderPreview, RenderRegion, Repeat, RepeatOff, RepeatOne, Reply, Restart, ReturnBox, Road, Rotate, Rotate90, Roughness, Route, Router, RulerCursor, RulerHorizontal, RulerVertical, Ruller, SafeFrame, Salt, Save, Scale, ScaleUniform, Scan, Scene, Scissors, ScreenShare, Screwdriver, Search, Seed, SelectAll, SelectEdge, SelectFace, SelectVertex, Selection, Server, ServerAlt, Shader, ShadowHard, ShadowSoft, Share, ShareAndroid, ShareIos, Shelf, Shield, ShieldCheck, ShieldCross, ShieldSearch, ShieldSettings, ShoppingBag, ShoppingBagCheck, ShoppingBagCross, ShoppingBagMinus, ShoppingBagPlus, Shower, Shuffle, Signal, Signpost, SignpostAlt, Sink, Skull, Slice, SliderHorizontal, SliderVertical, SlidersHorizontal, SlidersHorizontalCheck, SlidersHorizontalCross, SlidersHorizontalMinus, SlidersHorizontalPlus, SlidersHorizontalSettings, SlidersVertical, SlidersVerticalCheck, SlidersVerticalCross, SlidersVerticalMinus, SlidersVerticalPlus, SlidersVerticalSettings, SmartWatch, SmileyNeutral, SmileySad, SmileySmile, SnapGrid, SnapVertex, Snowflake, Sofa, Solidify, Sort, SortAscending, SortDescending, SoundWave, Sparkle, Speaker, SpeakerHigh, SpeakerLow, SpeakerMedium, SpeakerMute, Speed, Spellcheck, Sphere, Spice, Spinner, SplitHorizontal, SplitVertical, Spoon, Square, SquareArrowBottomLeft, SquareArrowBottomRight, SquareArrowDown, SquareArrowLeft, SquareArrowRight, SquareArrowTopLeft, SquareArrowTopRight, SquareArrowUp, SquareCheck, SquareCheckIntermediate, SquareCross, SquareRounded, Stairs, StairsDown, StairsUp, Star, StarHalf, Stethoscope, StickmenCheer, StickmenFight, StickmenHiking, StickmenRun, StickmenStand, StickmenWalk, StickmenWave, StickmenYoga, StickyNote, StickyNotes, Stomach, StomachCheck, StomachCross, StomachSearch, Stopwatch, StopwatchPlus, Store, Subdivide, SubdivisionSurface, Subscription, Substract, Subtitles, SubtitlesOff, Subway, Suitcase, SuitcaseStickers, Sun, Support, Swap, SyncCheck, SyncOff, Syringe, Table, TableCollumn, TableRow, Tablet, TabletLandscape, Tag, TagPlus, Target, TargetBow, Taxi, TaxiAlt, Teapot, Teepee, Telescope, Tent, Terminal, TestTube, Text, TextAlignCenter, TextAlignJustify, TextAlignLeft, TextAlignRight, TextBold, TextItalic, TextSize, TextStrikethrough, TextUnderline, Textile, TextileSparkle, Texture, Thermos, Thunderbolt, ThunderboltDisabled, ThunderboltSmall, ThunderboltSmallDisabled, Timeline, Timer, TimerPlus, Toaster, ToggleOff, ToggleOn, Toilet, ToiletPaper, Tools, Tooth, ToothCheck, ToothCross, ToothSearch, Toothbrush, Tornado, Torus, TowelFolded, Traffic, Train, Tram, Translate, Trash, TrashCheck, TrashCross, TrashEmpty, TrashRestore, TreeOak, TreePalm, TreePine, TrendDown, TrendFlat, TrendUp, Triangle, TripleStar, Trophy, Truck, Tv, TvRemote, Umbrella, Undo, Union, Upload, Usb, UsbC, User, UserCheck, UserCircle, UserCross, UserEdit, UserGroup, UserGroupCheck, UserGroupCross, UserGroupEdit, UserGroupLock, UserGroupMinus, UserGroupPlus, UserGroupSettings, UserLock, UserMinus, UserPlus, UserSearch, UserSettings, Users, UsersCheck, UsersCross, UsersEdit, UsersLock, UsersMinus, UsersPlus, UsersSearch, UsersSettings, UvMap, UvUnwrap, Vacuum, Video, VideoOff, Viewport, Virus, Volume, VolumeHigh, VolumeLow, VolumeMedium, VolumeMute, Vpn, VpnOff, Wallet, WalletCard, WalletCash, WalletLock, WalletMinus, WalletPlus, WalletSearch, Wardrobe, Warehouse, Warning, WashingMachine, Watch, WaterDrop, WateringCan, WaveCosine, Waypoint, Wheelchair, Wifi, WifiCross, WifiLock, WifiLow, WifiMedium, WifiOff, WifiSearch, WifiZero, Wind, Window, WindowCurtains, WindowsLogo, WorldSpace, Wrench, ZoomCamera, ZoomIn, ZoomOut };

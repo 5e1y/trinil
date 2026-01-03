@@ -5353,194 +5353,194 @@ var MaterialSlot = React595.memo((props) => {
 });
 MaterialSlot.displayName = "MaterialSlot";
 
-// src/icons/McrophoneOff.tsx
+// src/icons/Medal.tsx
 import React596 from "react";
 import { jsx as jsx596 } from "react/jsx-runtime";
-var McrophoneOff = React596.memo((props) => {
+var Medal = React596.memo((props) => {
   const { size = 24, color = "currentColor", strokeWidth = 1.5, className, title, ariaLabel } = props;
-  return /* @__PURE__ */ jsx596("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M18.75 11.25V12a6.8 6.8 0 0 1-.29 1.96M5.25 11.25V12A6.75 6.75 0 0 0 12 18.75m-3.75 3H12m0 0h3.75m-3.75 0v-3m0 0a6.73 6.73 0 0 0 4.773-1.977M15.75 11.25V6a3.75 3.75 0 0 0-7.044-1.794M2.25 2.25l6 6m0 0V12a3.75 3.75 0 0 0 6.402 2.652M8.25 8.25l6.402 6.402m0 0 2.121 2.121m0 0 4.977 4.977"/>` }, children: title && /* @__PURE__ */ jsx596("title", { children: title }) });
-});
-McrophoneOff.displayName = "McrophoneOff";
-
-// src/icons/Medal.tsx
-import React597 from "react";
-import { jsx as jsx597 } from "react/jsx-runtime";
-var Medal = React597.memo((props) => {
-  const { size = 24, color = "currentColor", strokeWidth = 1.5, className, title, ariaLabel } = props;
-  return /* @__PURE__ */ jsx597("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M7.5 15.57a2.26 2.26 0 0 0 1.622-.017c.286-.115.688.052.81.335a2.25 2.25 0 0 0 4.136 0c.122-.283.524-.45.81-.335a2.26 2.26 0 0 0 1.622.017m-9 0a2.25 2.25 0 0 1-1.303-2.942c.114-.286-.052-.688-.335-.81a2.25 2.25 0 0 1 0-4.136c.283-.122.45-.524.335-.81a2.25 2.25 0 0 1 2.925-2.925c.286.115.688-.052.81-.335a2.25 2.25 0 0 1 4.136 0c.122.283.524.45.81.335a2.25 2.25 0 0 1 2.925 2.925c-.114.286.052.688.335.81a2.25 2.25 0 0 1 0 4.136c-.283.122-.45.524-.335.81A2.25 2.25 0 0 1 16.5 15.57m-9 0v6.18l4.5-1.5 4.5 1.5v-6.18"/>` }, children: title && /* @__PURE__ */ jsx597("title", { children: title }) });
+  return /* @__PURE__ */ jsx596("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M7.5 15.57a2.26 2.26 0 0 0 1.622-.017c.286-.115.688.052.81.335a2.25 2.25 0 0 0 4.136 0c.122-.283.524-.45.81-.335a2.26 2.26 0 0 0 1.622.017m-9 0a2.25 2.25 0 0 1-1.303-2.942c.114-.286-.052-.688-.335-.81a2.25 2.25 0 0 1 0-4.136c.283-.122.45-.524.335-.81a2.25 2.25 0 0 1 2.925-2.925c.286.115.688-.052.81-.335a2.25 2.25 0 0 1 4.136 0c.122.283.524.45.81.335a2.25 2.25 0 0 1 2.925 2.925c-.114.286.052.688.335.81a2.25 2.25 0 0 1 0 4.136c-.283.122-.45.524-.335.81A2.25 2.25 0 0 1 16.5 15.57m-9 0v6.18l4.5-1.5 4.5 1.5v-6.18"/>` }, children: title && /* @__PURE__ */ jsx596("title", { children: title }) });
 });
 Medal.displayName = "Medal";
 
 // src/icons/MedalCheck.tsx
-import React598 from "react";
-import { jsx as jsx598 } from "react/jsx-runtime";
-var MedalCheck = React598.memo((props) => {
+import React597 from "react";
+import { jsx as jsx597 } from "react/jsx-runtime";
+var MedalCheck = React597.memo((props) => {
   const { size = 24, color = "currentColor", strokeWidth = 1.5, className, title, ariaLabel } = props;
-  return /* @__PURE__ */ jsx598("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M7.5 15.57a2.26 2.26 0 0 0 1.622-.017c.286-.115.688.052.81.335a2.25 2.25 0 0 0 4.136 0c.122-.283.524-.45.81-.335a2.26 2.26 0 0 0 1.622.017m-9 0a2.25 2.25 0 0 1-1.303-2.942c.114-.286-.052-.688-.335-.81a2.25 2.25 0 0 1 0-4.136c.283-.122.45-.524.335-.81a2.25 2.25 0 0 1 2.925-2.925c.286.115.688-.052.81-.335a2.25 2.25 0 0 1 4.136 0c.122.283.524.45.81.335a2.25 2.25 0 0 1 2.925 2.925c-.114.286.052.688.335.81a2.25 2.25 0 0 1 0 4.136c-.283.122-.45.524-.335.81A2.25 2.25 0 0 1 16.5 15.57m-9 0v6.18l4.5-1.5 4.5 1.5v-6.18M9 9.75 11.25 12 15 8.25"/>` }, children: title && /* @__PURE__ */ jsx598("title", { children: title }) });
+  return /* @__PURE__ */ jsx597("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M7.5 15.57a2.26 2.26 0 0 0 1.622-.017c.286-.115.688.052.81.335a2.25 2.25 0 0 0 4.136 0c.122-.283.524-.45.81-.335a2.26 2.26 0 0 0 1.622.017m-9 0a2.25 2.25 0 0 1-1.303-2.942c.114-.286-.052-.688-.335-.81a2.25 2.25 0 0 1 0-4.136c.283-.122.45-.524.335-.81a2.25 2.25 0 0 1 2.925-2.925c.286.115.688-.052.81-.335a2.25 2.25 0 0 1 4.136 0c.122.283.524.45.81.335a2.25 2.25 0 0 1 2.925 2.925c-.114.286.052.688.335.81a2.25 2.25 0 0 1 0 4.136c-.283.122-.45.524-.335.81A2.25 2.25 0 0 1 16.5 15.57m-9 0v6.18l4.5-1.5 4.5 1.5v-6.18M9 9.75 11.25 12 15 8.25"/>` }, children: title && /* @__PURE__ */ jsx597("title", { children: title }) });
 });
 MedalCheck.displayName = "MedalCheck";
 
 // src/icons/MedalStar.tsx
-import React599 from "react";
-import { jsx as jsx599 } from "react/jsx-runtime";
-var MedalStar = React599.memo((props) => {
+import React598 from "react";
+import { jsx as jsx598 } from "react/jsx-runtime";
+var MedalStar = React598.memo((props) => {
   const { size = 24, color = "currentColor", strokeWidth = 1.5, className, title, ariaLabel } = props;
-  return /* @__PURE__ */ jsx599("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M7.5 15.57a2.26 2.26 0 0 0 1.622-.017c.286-.115.688.052.81.335a2.25 2.25 0 0 0 4.136 0c.122-.283.524-.45.81-.335a2.26 2.26 0 0 0 1.622.017m-9 0a2.25 2.25 0 0 1-1.303-2.942c.114-.286-.052-.688-.335-.81a2.25 2.25 0 0 1 0-4.136c.283-.122.45-.524.335-.81a2.25 2.25 0 0 1 2.925-2.925c.286.115.688-.052.81-.335a2.25 2.25 0 0 1 4.136 0c.122.283.524.45.81.335a2.25 2.25 0 0 1 2.925 2.925c-.114.286.052.688.335.81a2.25 2.25 0 0 1 0 4.136c-.283.122-.45.524-.335.81A2.25 2.25 0 0 1 16.5 15.57m-9 0v6.18l4.5-1.5 4.5 1.5v-6.18m-4.36-8.922.831 1.685a.08.08 0 0 0 .063.046l1.993.29c.07.01.097.094.047.143l-1.442 1.406a.08.08 0 0 0-.024.074l.34 1.985a.084.084 0 0 1-.122.088l-1.782-.937a.08.08 0 0 0-.078 0l-1.783.937a.084.084 0 0 1-.122-.088l.34-1.985a.08.08 0 0 0-.023-.075L8.935 8.813a.084.084 0 0 1 .047-.143l1.993-.29a.08.08 0 0 0 .063-.046l.832-1.686a.15.15 0 0 1 .27 0"/>` }, children: title && /* @__PURE__ */ jsx599("title", { children: title }) });
+  return /* @__PURE__ */ jsx598("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M7.5 15.57a2.26 2.26 0 0 0 1.622-.017c.286-.115.688.052.81.335a2.25 2.25 0 0 0 4.136 0c.122-.283.524-.45.81-.335a2.26 2.26 0 0 0 1.622.017m-9 0a2.25 2.25 0 0 1-1.303-2.942c.114-.286-.052-.688-.335-.81a2.25 2.25 0 0 1 0-4.136c.283-.122.45-.524.335-.81a2.25 2.25 0 0 1 2.925-2.925c.286.115.688-.052.81-.335a2.25 2.25 0 0 1 4.136 0c.122.283.524.45.81.335a2.25 2.25 0 0 1 2.925 2.925c-.114.286.052.688.335.81a2.25 2.25 0 0 1 0 4.136c-.283.122-.45.524-.335.81A2.25 2.25 0 0 1 16.5 15.57m-9 0v6.18l4.5-1.5 4.5 1.5v-6.18m-4.36-8.922.831 1.685a.08.08 0 0 0 .063.046l1.993.29c.07.01.097.094.047.143l-1.442 1.406a.08.08 0 0 0-.024.074l.34 1.985a.084.084 0 0 1-.122.088l-1.782-.937a.08.08 0 0 0-.078 0l-1.783.937a.084.084 0 0 1-.122-.088l.34-1.985a.08.08 0 0 0-.023-.075L8.935 8.813a.084.084 0 0 1 .047-.143l1.993-.29a.08.08 0 0 0 .063-.046l.832-1.686a.15.15 0 0 1 .27 0"/>` }, children: title && /* @__PURE__ */ jsx598("title", { children: title }) });
 });
 MedalStar.displayName = "MedalStar";
 
 // src/icons/Medkit.tsx
-import React600 from "react";
-import { jsx as jsx600 } from "react/jsx-runtime";
-var Medkit = React600.memo((props) => {
+import React599 from "react";
+import { jsx as jsx599 } from "react/jsx-runtime";
+var Medkit = React599.memo((props) => {
   const { size = 24, color = "currentColor", strokeWidth = 1.5, className, title, ariaLabel } = props;
-  return /* @__PURE__ */ jsx600("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M6.75 5.25h-1.5a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V6.75a1.5 1.5 0 0 0-1.5-1.5h-1.5m-10.5 0 .67-1.342a3 3 0 0 1 2.684-1.658h3.792a3 3 0 0 1 2.683 1.658l.671 1.342m-10.5 0h10.5m-7.5 3h4.5v3h3v4.5h-3v3h-4.5v-3h-3v-4.5h3z"/>` }, children: title && /* @__PURE__ */ jsx600("title", { children: title }) });
+  return /* @__PURE__ */ jsx599("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M6.75 5.25h-1.5a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V6.75a1.5 1.5 0 0 0-1.5-1.5h-1.5m-10.5 0 .67-1.342a3 3 0 0 1 2.684-1.658h3.792a3 3 0 0 1 2.683 1.658l.671 1.342m-10.5 0h10.5m-7.5 3h4.5v3h3v4.5h-3v3h-4.5v-3h-3v-4.5h3z"/>` }, children: title && /* @__PURE__ */ jsx599("title", { children: title }) });
 });
 Medkit.displayName = "Medkit";
 
 // src/icons/Megaphone.tsx
-import React601 from "react";
-import { jsx as jsx601 } from "react/jsx-runtime";
-var Megaphone = React601.memo((props) => {
+import React600 from "react";
+import { jsx as jsx600 } from "react/jsx-runtime";
+var Megaphone = React600.memo((props) => {
   const { size = 24, color = "currentColor", strokeWidth = 1.5, className, title, ariaLabel } = props;
-  return /* @__PURE__ */ jsx601("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M11.25 15h4.046a1.5 1.5 0 0 1 .832.252l3.977 2.651a.575.575 0 0 0 .895-.479V3.576a.576.576 0 0 0-.895-.48l-3.977 2.652a1.5 1.5 0 0 1-.832.252H6a3 3 0 0 0-3 3v3a3 3 0 0 0 3 3h1.5m3.75 0 1.078 3.956a1.5 1.5 0 0 1-1.153 1.865l-.759.152a1.5 1.5 0 0 1-1.753-1.121L7.5 15m3.75 0H7.5"/>` }, children: title && /* @__PURE__ */ jsx601("title", { children: title }) });
+  return /* @__PURE__ */ jsx600("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M11.25 15h4.046a1.5 1.5 0 0 1 .832.252l3.977 2.651a.575.575 0 0 0 .895-.479V3.576a.576.576 0 0 0-.895-.48l-3.977 2.652a1.5 1.5 0 0 1-.832.252H6a3 3 0 0 0-3 3v3a3 3 0 0 0 3 3h1.5m3.75 0 1.078 3.956a1.5 1.5 0 0 1-1.153 1.865l-.759.152a1.5 1.5 0 0 1-1.753-1.121L7.5 15m3.75 0H7.5"/>` }, children: title && /* @__PURE__ */ jsx600("title", { children: title }) });
 });
 Megaphone.displayName = "Megaphone";
 
 // src/icons/MegaphoneSound.tsx
-import React602 from "react";
-import { jsx as jsx602 } from "react/jsx-runtime";
-var MegaphoneSound = React602.memo((props) => {
+import React601 from "react";
+import { jsx as jsx601 } from "react/jsx-runtime";
+var MegaphoneSound = React601.memo((props) => {
   const { size = 24, color = "currentColor", strokeWidth = 1.5, className, title, ariaLabel } = props;
-  return /* @__PURE__ */ jsx602("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M9 14.25h2.546a1.5 1.5 0 0 1 .832.252l3.977 2.651a.575.575 0 0 0 .895-.479V4.326a.576.576 0 0 0-.895-.48l-3.977 2.652a1.5 1.5 0 0 1-.832.252H5.25a3 3 0 0 0-3 3v1.5a3 3 0 0 0 3 3m3.75 0 1.078 3.956a1.5 1.5 0 0 1-1.153 1.865l-.759.152a1.5 1.5 0 0 1-1.753-1.121L5.25 14.25m3.75 0H5.25m15-3.75h1.5m-1.5-3.75.976-.976m-.976 8.476.976.976"/>` }, children: title && /* @__PURE__ */ jsx602("title", { children: title }) });
+  return /* @__PURE__ */ jsx601("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M9 14.25h2.546a1.5 1.5 0 0 1 .832.252l3.977 2.651a.575.575 0 0 0 .895-.479V4.326a.576.576 0 0 0-.895-.48l-3.977 2.652a1.5 1.5 0 0 1-.832.252H5.25a3 3 0 0 0-3 3v1.5a3 3 0 0 0 3 3m3.75 0 1.078 3.956a1.5 1.5 0 0 1-1.153 1.865l-.759.152a1.5 1.5 0 0 1-1.753-1.121L5.25 14.25m3.75 0H5.25m15-3.75h1.5m-1.5-3.75.976-.976m-.976 8.476.976.976"/>` }, children: title && /* @__PURE__ */ jsx601("title", { children: title }) });
 });
 MegaphoneSound.displayName = "MegaphoneSound";
 
 // src/icons/MentionAt.tsx
-import React603 from "react";
-import { jsx as jsx603 } from "react/jsx-runtime";
-var MentionAt = React603.memo((props) => {
+import React602 from "react";
+import { jsx as jsx602 } from "react/jsx-runtime";
+var MentionAt = React602.memo((props) => {
   const { size = 24, color = "currentColor", strokeWidth = 1.5, className, title, ariaLabel } = props;
-  return /* @__PURE__ */ jsx603("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M15.75 12.75v-1.5m0 1.5A3.75 3.75 0 0 1 12 16.5c-2.071 0-3.75-1.5-3.75-4.5S9.929 7.5 12 7.5a3.75 3.75 0 0 1 3.75 3.75m0 1.5v.75s0 3 3 3c0 0 3 0 3-4.5 0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12s4.365 9.75 9.75 9.75a9.7 9.7 0 0 0 5.25-1.533m-1.5-8.967V7.5"/>` }, children: title && /* @__PURE__ */ jsx603("title", { children: title }) });
+  return /* @__PURE__ */ jsx602("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M15.75 12.75v-1.5m0 1.5A3.75 3.75 0 0 1 12 16.5c-2.071 0-3.75-1.5-3.75-4.5S9.929 7.5 12 7.5a3.75 3.75 0 0 1 3.75 3.75m0 1.5v.75s0 3 3 3c0 0 3 0 3-4.5 0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12s4.365 9.75 9.75 9.75a9.7 9.7 0 0 0 5.25-1.533m-1.5-8.967V7.5"/>` }, children: title && /* @__PURE__ */ jsx602("title", { children: title }) });
 });
 MentionAt.displayName = "MentionAt";
 
 // src/icons/MenuBottom.tsx
-import React604 from "react";
-import { jsx as jsx604 } from "react/jsx-runtime";
-var MenuBottom = React604.memo((props) => {
+import React603 from "react";
+import { jsx as jsx603 } from "react/jsx-runtime";
+var MenuBottom = React603.memo((props) => {
   const { size = 24, color = "currentColor", strokeWidth = 1.5, className, title, ariaLabel } = props;
-  return /* @__PURE__ */ jsx604("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path stroke-miterlimit="1.788" d="M2.25 14.25v2.25a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3v-2.25m-19.5 0V7.5a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v6.75m-19.5 0h19.5"/>` }, children: title && /* @__PURE__ */ jsx604("title", { children: title }) });
+  return /* @__PURE__ */ jsx603("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path stroke-miterlimit="1.788" d="M2.25 14.25v2.25a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3v-2.25m-19.5 0V7.5a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v6.75m-19.5 0h19.5"/>` }, children: title && /* @__PURE__ */ jsx603("title", { children: title }) });
 });
 MenuBottom.displayName = "MenuBottom";
 
 // src/icons/MenuLeft.tsx
-import React605 from "react";
-import { jsx as jsx605 } from "react/jsx-runtime";
-var MenuLeft = React605.memo((props) => {
+import React604 from "react";
+import { jsx as jsx604 } from "react/jsx-runtime";
+var MenuLeft = React604.memo((props) => {
   const { size = 24, color = "currentColor", strokeWidth = 1.5, className, title, ariaLabel } = props;
-  return /* @__PURE__ */ jsx605("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path stroke-miterlimit="1.788" d="M8.25 4.5h-3a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h3m0-15h10.5a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H8.25m0-15v15"/>` }, children: title && /* @__PURE__ */ jsx605("title", { children: title }) });
+  return /* @__PURE__ */ jsx604("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path stroke-miterlimit="1.788" d="M8.25 4.5h-3a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h3m0-15h10.5a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H8.25m0-15v15"/>` }, children: title && /* @__PURE__ */ jsx604("title", { children: title }) });
 });
 MenuLeft.displayName = "MenuLeft";
 
 // src/icons/MenuRight.tsx
-import React606 from "react";
-import { jsx as jsx606 } from "react/jsx-runtime";
-var MenuRight = React606.memo((props) => {
+import React605 from "react";
+import { jsx as jsx605 } from "react/jsx-runtime";
+var MenuRight = React605.memo((props) => {
   const { size = 24, color = "currentColor", strokeWidth = 1.5, className, title, ariaLabel } = props;
-  return /* @__PURE__ */ jsx606("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path stroke-miterlimit="1.788" d="M15.75 4.5h3a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-3m0-15H5.25a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h10.5m0-15v15"/>` }, children: title && /* @__PURE__ */ jsx606("title", { children: title }) });
+  return /* @__PURE__ */ jsx605("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path stroke-miterlimit="1.788" d="M15.75 4.5h3a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-3m0-15H5.25a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h10.5m0-15v15"/>` }, children: title && /* @__PURE__ */ jsx605("title", { children: title }) });
 });
 MenuRight.displayName = "MenuRight";
 
 // src/icons/MenuTop.tsx
-import React607 from "react";
-import { jsx as jsx607 } from "react/jsx-runtime";
-var MenuTop = React607.memo((props) => {
+import React606 from "react";
+import { jsx as jsx606 } from "react/jsx-runtime";
+var MenuTop = React606.memo((props) => {
   const { size = 24, color = "currentColor", strokeWidth = 1.5, className, title, ariaLabel } = props;
-  return /* @__PURE__ */ jsx607("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path stroke-miterlimit="1.788" d="M2.25 9.75V7.5a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v2.25m-19.5 0v6.75a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3V9.75m-19.5 0h19.5"/>` }, children: title && /* @__PURE__ */ jsx607("title", { children: title }) });
+  return /* @__PURE__ */ jsx606("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path stroke-miterlimit="1.788" d="M2.25 9.75V7.5a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v2.25m-19.5 0v6.75a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3V9.75m-19.5 0h19.5"/>` }, children: title && /* @__PURE__ */ jsx606("title", { children: title }) });
 });
 MenuTop.displayName = "MenuTop";
 
 // src/icons/MergeVertices.tsx
-import React608 from "react";
-import { jsx as jsx608 } from "react/jsx-runtime";
-var MergeVertices = React608.memo((props) => {
+import React607 from "react";
+import { jsx as jsx607 } from "react/jsx-runtime";
+var MergeVertices = React607.memo((props) => {
   const { size = 24, color = "currentColor", strokeWidth = 1.5, className, title, ariaLabel } = props;
-  return /* @__PURE__ */ jsx608("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M20.25 20.25 16.5 16.5m0 0h3m-3 0v3M3.75 3.75 7.5 7.5m0 0h-3m3 0v-3m5.91 1.591a2.25 2.25 0 1 1 3.182-3.182 2.25 2.25 0 0 1-3.183 3.182m0 0L6.09 13.409m11.818-2.818a2.25 2.25 0 1 1 3.182-3.182 2.25 2.25 0 0 1-3.182 3.182m0 0-7.318 7.318m-4.5-4.5a2.25 2.25 0 1 1-3.182 3.182 2.25 2.25 0 0 1 3.182-3.182m4.5 4.5a2.25 2.25 0 1 1-3.182 3.182 2.25 2.25 0 0 1 3.182-3.182"/>` }, children: title && /* @__PURE__ */ jsx608("title", { children: title }) });
+  return /* @__PURE__ */ jsx607("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M20.25 20.25 16.5 16.5m0 0h3m-3 0v3M3.75 3.75 7.5 7.5m0 0h-3m3 0v-3m5.91 1.591a2.25 2.25 0 1 1 3.182-3.182 2.25 2.25 0 0 1-3.183 3.182m0 0L6.09 13.409m11.818-2.818a2.25 2.25 0 1 1 3.182-3.182 2.25 2.25 0 0 1-3.182 3.182m0 0-7.318 7.318m-4.5-4.5a2.25 2.25 0 1 1-3.182 3.182 2.25 2.25 0 0 1 3.182-3.182m4.5 4.5a2.25 2.25 0 1 1-3.182 3.182 2.25 2.25 0 0 1 3.182-3.182"/>` }, children: title && /* @__PURE__ */ jsx607("title", { children: title }) });
 });
 MergeVertices.displayName = "MergeVertices";
 
 // src/icons/Message.tsx
-import React609 from "react";
-import { jsx as jsx609 } from "react/jsx-runtime";
-var Message = React609.memo((props) => {
+import React608 from "react";
+import { jsx as jsx608 } from "react/jsx-runtime";
+var Message = React608.memo((props) => {
   const { size = 24, color = "currentColor", strokeWidth = 1.5, className, title, ariaLabel } = props;
-  return /* @__PURE__ */ jsx609("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M15 3.75H9a6.75 6.75 0 0 0-2.58 12.99 3.97 3.97 0 0 1-1.11 3.45l-.06.06a7.5 7.5 0 0 0 6-3H15a6.75 6.75 0 0 0 0-13.5"/>` }, children: title && /* @__PURE__ */ jsx609("title", { children: title }) });
+  return /* @__PURE__ */ jsx608("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M15 3.75H9a6.75 6.75 0 0 0-2.58 12.99 3.97 3.97 0 0 1-1.11 3.45l-.06.06a7.5 7.5 0 0 0 6-3H15a6.75 6.75 0 0 0 0-13.5"/>` }, children: title && /* @__PURE__ */ jsx608("title", { children: title }) });
 });
 Message.displayName = "Message";
 
 // src/icons/MessageBubble.tsx
-import React610 from "react";
-import { jsx as jsx610 } from "react/jsx-runtime";
-var MessageBubble = React610.memo((props) => {
+import React609 from "react";
+import { jsx as jsx609 } from "react/jsx-runtime";
+var MessageBubble = React609.memo((props) => {
   const { size = 24, color = "currentColor", strokeWidth = 1.5, className, title, ariaLabel } = props;
-  return /* @__PURE__ */ jsx610("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M2.25 18.75a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0M15 3.75H9a6.75 6.75 0 0 0-4.49 11.79q-.01.105-.01.21a2.25 2.25 0 0 0 3.947 1.478q.274.021.553.022h6a6.75 6.75 0 0 0 0-13.5"/>` }, children: title && /* @__PURE__ */ jsx610("title", { children: title }) });
+  return /* @__PURE__ */ jsx609("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M2.25 18.75a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0M15 3.75H9a6.75 6.75 0 0 0-4.49 11.79q-.01.105-.01.21a2.25 2.25 0 0 0 3.947 1.478q.274.021.553.022h6a6.75 6.75 0 0 0 0-13.5"/>` }, children: title && /* @__PURE__ */ jsx609("title", { children: title }) });
 });
 MessageBubble.displayName = "MessageBubble";
 
 // src/icons/MessageDots.tsx
-import React611 from "react";
-import { jsx as jsx611 } from "react/jsx-runtime";
-var MessageDots = React611.memo((props) => {
+import React610 from "react";
+import { jsx as jsx610 } from "react/jsx-runtime";
+var MessageDots = React610.memo((props) => {
   const { size = 24, color = "currentColor", strokeWidth = 1.5, className, title, ariaLabel } = props;
-  return /* @__PURE__ */ jsx611("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M15 3.75H9a6.75 6.75 0 0 0-3.33 12.623c.452.256.823.68.798 1.198a3.97 3.97 0 0 1-1.159 2.62.034.034 0 0 0 .025.059 7.5 7.5 0 0 0 5.437-2.423c.32-.348.757-.577 1.229-.577h3a6.75 6.75 0 0 0 0-13.5"/>` }, children: title && /* @__PURE__ */ jsx611("title", { children: title }) });
+  return /* @__PURE__ */ jsx610("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M15 3.75H9a6.75 6.75 0 0 0-3.33 12.623c.452.256.823.68.798 1.198a3.97 3.97 0 0 1-1.159 2.62.034.034 0 0 0 .025.059 7.5 7.5 0 0 0 5.437-2.423c.32-.348.757-.577 1.229-.577h3a6.75 6.75 0 0 0 0-13.5"/>` }, children: title && /* @__PURE__ */ jsx610("title", { children: title }) });
 });
 MessageDots.displayName = "MessageDots";
 
 // src/icons/MessageLock.tsx
-import React612 from "react";
-import { jsx as jsx612 } from "react/jsx-runtime";
-var MessageLock = React612.memo((props) => {
+import React611 from "react";
+import { jsx as jsx611 } from "react/jsx-runtime";
+var MessageLock = React611.memo((props) => {
   const { size = 24, color = "currentColor", strokeWidth = 1.5, className, title, ariaLabel } = props;
-  return /* @__PURE__ */ jsx612("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path stroke-miterlimit="1.788" d="M21.523 12.241A6.75 6.75 0 0 0 15 3.75H9a6.75 6.75 0 0 0-2.58 12.99 3.97 3.97 0 0 1-1.11 3.45l-.06.06a7.5 7.5 0 0 0 6-3m5.25.75v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>` }, children: title && /* @__PURE__ */ jsx612("title", { children: title }) });
+  return /* @__PURE__ */ jsx611("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path stroke-miterlimit="1.788" d="M21.523 12.241A6.75 6.75 0 0 0 15 3.75H9a6.75 6.75 0 0 0-2.58 12.99 3.97 3.97 0 0 1-1.11 3.45l-.06.06a7.5 7.5 0 0 0 6-3m5.25.75v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>` }, children: title && /* @__PURE__ */ jsx611("title", { children: title }) });
 });
 MessageLock.displayName = "MessageLock";
 
 // src/icons/MessageSettings.tsx
-import React613 from "react";
-import { jsx as jsx613 } from "react/jsx-runtime";
-var MessageSettings = React613.memo((props) => {
+import React612 from "react";
+import { jsx as jsx612 } from "react/jsx-runtime";
+var MessageSettings = React612.memo((props) => {
   const { size = 24, color = "currentColor", strokeWidth = 1.5, className, title, ariaLabel } = props;
-  return /* @__PURE__ */ jsx613("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path stroke-miterlimit="1.788" d="M21.523 12.241A6.75 6.75 0 0 0 15 3.75H9a6.75 6.75 0 0 0-2.58 12.99 3.97 3.97 0 0 1-1.11 3.45l-.06.06a7.5 7.5 0 0 0 6-3m7.124 3.6a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.134 4.117h-1.65m-4.95 0h-1.65m7.047 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>` }, children: title && /* @__PURE__ */ jsx613("title", { children: title }) });
+  return /* @__PURE__ */ jsx612("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path stroke-miterlimit="1.788" d="M21.523 12.241A6.75 6.75 0 0 0 15 3.75H9a6.75 6.75 0 0 0-2.58 12.99 3.97 3.97 0 0 1-1.11 3.45l-.06.06a7.5 7.5 0 0 0 6-3m7.124 3.6a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.134 4.117h-1.65m-4.95 0h-1.65m7.047 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>` }, children: title && /* @__PURE__ */ jsx612("title", { children: title }) });
 });
 MessageSettings.displayName = "MessageSettings";
 
 // src/icons/Metalic.tsx
-import React614 from "react";
-import { jsx as jsx614 } from "react/jsx-runtime";
-var Metalic = React614.memo((props) => {
+import React613 from "react";
+import { jsx as jsx613 } from "react/jsx-runtime";
+var Metalic = React613.memo((props) => {
   const { size = 24, color = "currentColor", strokeWidth = 1.5, className, title, ariaLabel } = props;
-  return /* @__PURE__ */ jsx614("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M21.239 8.876c-1.148 1.59-2.554 2.51-3.902 3.144-3.055 1.438-4.251 1.265-6.033 3.27-1.76 1.98-2.035 4.358-1.798 6.138M21.24 8.876a9.78 9.78 0 0 0-4.767-5.542m4.767 5.542c.331.98.511 2.031.511 3.124 0 1.124-.19 2.204-.54 3.21a9.75 9.75 0 0 1-2.316 3.684 9.75 9.75 0 0 1-3.685 2.315A9.7 9.7 0 0 1 12 21.75a9.8 9.8 0 0 1-2.494-.322m6.966-18.094c-.224.81-.475 1.333-.698 1.679-.336.52-.726.82-1.408 1.14-1.225.578-5.206 1.52-8.202 4.89-1.485 1.67-2.409 3.46-2.931 5.228M16.472 3.334A9.7 9.7 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75a9.7 9.7 0 0 0 .983 4.27m6.273 5.158a9.77 9.77 0 0 1-6.273-5.157"/>` }, children: title && /* @__PURE__ */ jsx614("title", { children: title }) });
+  return /* @__PURE__ */ jsx613("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M21.239 8.876c-1.148 1.59-2.554 2.51-3.902 3.144-3.055 1.438-4.251 1.265-6.033 3.27-1.76 1.98-2.035 4.358-1.798 6.138M21.24 8.876a9.78 9.78 0 0 0-4.767-5.542m4.767 5.542c.331.98.511 2.031.511 3.124 0 1.124-.19 2.204-.54 3.21a9.75 9.75 0 0 1-2.316 3.684 9.75 9.75 0 0 1-3.685 2.315A9.7 9.7 0 0 1 12 21.75a9.8 9.8 0 0 1-2.494-.322m6.966-18.094c-.224.81-.475 1.333-.698 1.679-.336.52-.726.82-1.408 1.14-1.225.578-5.206 1.52-8.202 4.89-1.485 1.67-2.409 3.46-2.931 5.228M16.472 3.334A9.7 9.7 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75a9.7 9.7 0 0 0 .983 4.27m6.273 5.158a9.77 9.77 0 0 1-6.273-5.157"/>` }, children: title && /* @__PURE__ */ jsx613("title", { children: title }) });
 });
 Metalic.displayName = "Metalic";
 
 // src/icons/Metro.tsx
-import React615 from "react";
-import { jsx as jsx615 } from "react/jsx-runtime";
-var Metro = React615.memo((props) => {
+import React614 from "react";
+import { jsx as jsx614 } from "react/jsx-runtime";
+var Metro = React614.memo((props) => {
   const { size = 24, color = "currentColor", strokeWidth = 1.5, className, title, ariaLabel } = props;
-  return /* @__PURE__ */ jsx615("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M8.25 16.5v-9L12 14.25l3.75-6.75v9m6-4.5c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75"/>` }, children: title && /* @__PURE__ */ jsx615("title", { children: title }) });
+  return /* @__PURE__ */ jsx614("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M8.25 16.5v-9L12 14.25l3.75-6.75v9m6-4.5c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75"/>` }, children: title && /* @__PURE__ */ jsx614("title", { children: title }) });
 });
 Metro.displayName = "Metro";
 
 // src/icons/Microphone.tsx
-import React616 from "react";
-import { jsx as jsx616 } from "react/jsx-runtime";
-var Microphone = React616.memo((props) => {
+import React615 from "react";
+import { jsx as jsx615 } from "react/jsx-runtime";
+var Microphone = React615.memo((props) => {
   const { size = 24, color = "currentColor", strokeWidth = 1.5, className, title, ariaLabel } = props;
-  return /* @__PURE__ */ jsx616("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M18.75 11.25V12A6.75 6.75 0 0 1 12 18.75m-6.75-7.5V12A6.75 6.75 0 0 0 12 18.75m-3.75 3H12m0 0h3.75m-3.75 0v-3M8.25 6v6a3.75 3.75 0 1 0 7.5 0V6a3.75 3.75 0 1 0-7.5 0"/>` }, children: title && /* @__PURE__ */ jsx616("title", { children: title }) });
+  return /* @__PURE__ */ jsx615("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M18.75 11.25V12A6.75 6.75 0 0 1 12 18.75m-6.75-7.5V12A6.75 6.75 0 0 0 12 18.75m-3.75 3H12m0 0h3.75m-3.75 0v-3M8.25 6v6a3.75 3.75 0 1 0 7.5 0V6a3.75 3.75 0 1 0-7.5 0"/>` }, children: title && /* @__PURE__ */ jsx615("title", { children: title }) });
 });
 Microphone.displayName = "Microphone";
+
+// src/icons/MicrophoneOff.tsx
+import React616 from "react";
+import { jsx as jsx616 } from "react/jsx-runtime";
+var MicrophoneOff = React616.memo((props) => {
+  const { size = 24, color = "currentColor", strokeWidth = 1.5, className, title, ariaLabel } = props;
+  return /* @__PURE__ */ jsx616("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth, strokeLinecap: "round", strokeLinejoin: "round", vectorEffect: "non-scaling-stroke", width: size, height: size, className, role: "img", "aria-label": ariaLabel, dangerouslySetInnerHTML: { __html: `<path d="M18.75 11.25V12a6.8 6.8 0 0 1-.29 1.96M5.25 11.25V12A6.75 6.75 0 0 0 12 18.75m-3.75 3H12m0 0h3.75m-3.75 0v-3m0 0a6.73 6.73 0 0 0 4.773-1.977M15.75 11.25V6a3.75 3.75 0 0 0-7.044-1.794M2.25 2.25l6 6m0 0V12a3.75 3.75 0 0 0 6.402 2.652M8.25 8.25l6.402 6.402m0 0 2.121 2.121m0 0 4.977 4.977"/>` }, children: title && /* @__PURE__ */ jsx616("title", { children: title }) });
+});
+MicrophoneOff.displayName = "MicrophoneOff";
 
 // src/icons/Microscope.tsx
 import React617 from "react";
@@ -10088,7 +10088,6 @@ export {
   Material,
   Material3d,
   MaterialSlot,
-  McrophoneOff,
   Medal,
   MedalCheck,
   MedalStar,
@@ -10109,6 +10108,7 @@ export {
   Metalic,
   Metro,
   Microphone,
+  MicrophoneOff,
   Microscope,
   Microwave,
   Minus,

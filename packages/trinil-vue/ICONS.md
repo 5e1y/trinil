@@ -608,7 +608,6 @@ import { Accessibility, AccessibilityCircle, Adhesive } from 'trinil-vue';
 - `Material`
 - `Material3d`
 - `MaterialSlot`
-- `McrophoneOff`
 - `Medal`
 - `MedalCheck`
 - `MedalStar`
@@ -629,6 +628,7 @@ import { Accessibility, AccessibilityCircle, Adhesive } from 'trinil-vue';
 - `Metalic`
 - `Metro`
 - `Microphone`
+- `MicrophoneOff`
 - `Microscope`
 - `Microwave`
 - `Minus`

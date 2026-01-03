@@ -609,7 +609,6 @@ import { Accessibility, AccessibilityCircle, Adhesive } from 'trinil-solid';
 - `Material`
 - `Material3d`
 - `MaterialSlot`
-- `McrophoneOff`
 - `Medal`
 - `MedalCheck`
 - `MedalStar`
@@ -630,6 +629,7 @@ import { Accessibility, AccessibilityCircle, Adhesive } from 'trinil-solid';
 - `Metalic`
 - `Metro`
 - `Microphone`
+- `MicrophoneOff`
 - `Microscope`
 - `Microwave`
 - `Minus`

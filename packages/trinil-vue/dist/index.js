@@ -20823,10 +20823,10 @@ var MaterialSlot = defineComponent595({
   }
 });
 
-// src/icons/McrophoneOff.ts
+// src/icons/Medal.ts
 import { defineComponent as defineComponent596, h as h596 } from "vue";
-var McrophoneOff = defineComponent596({
-  name: "McrophoneOff",
+var Medal = defineComponent596({
+  name: "Medal",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20852,16 +20852,16 @@ var McrophoneOff = defineComponent596({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.75 11.25V12a6.8 6.8 0 0 1-.29 1.96M5.25 11.25V12A6.75 6.75 0 0 0 12 18.75m-3.75 3H12m0 0h3.75m-3.75 0v-3m0 0a6.73 6.73 0 0 0 4.773-1.977M15.75 11.25V6a3.75 3.75 0 0 0-7.044-1.794M2.25 2.25l6 6m0 0V12a3.75 3.75 0 0 0 6.402 2.652M8.25 8.25l6.402 6.402m0 0 2.121 2.121m0 0 4.977 4.977"/>`
+        innerHTML: `<path d="M7.5 15.57a2.26 2.26 0 0 0 1.622-.017c.286-.115.688.052.81.335a2.25 2.25 0 0 0 4.136 0c.122-.283.524-.45.81-.335a2.26 2.26 0 0 0 1.622.017m-9 0a2.25 2.25 0 0 1-1.303-2.942c.114-.286-.052-.688-.335-.81a2.25 2.25 0 0 1 0-4.136c.283-.122.45-.524.335-.81a2.25 2.25 0 0 1 2.925-2.925c.286.115.688-.052.81-.335a2.25 2.25 0 0 1 4.136 0c.122.283.524.45.81.335a2.25 2.25 0 0 1 2.925 2.925c-.114.286.052.688.335.81a2.25 2.25 0 0 1 0 4.136c-.283.122-.45.524-.335.81A2.25 2.25 0 0 1 16.5 15.57m-9 0v6.18l4.5-1.5 4.5 1.5v-6.18"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Medal.ts
+// src/icons/MedalCheck.ts
 import { defineComponent as defineComponent597, h as h597 } from "vue";
-var Medal = defineComponent597({
-  name: "Medal",
+var MedalCheck = defineComponent597({
+  name: "MedalCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20887,16 +20887,16 @@ var Medal = defineComponent597({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 15.57a2.26 2.26 0 0 0 1.622-.017c.286-.115.688.052.81.335a2.25 2.25 0 0 0 4.136 0c.122-.283.524-.45.81-.335a2.26 2.26 0 0 0 1.622.017m-9 0a2.25 2.25 0 0 1-1.303-2.942c.114-.286-.052-.688-.335-.81a2.25 2.25 0 0 1 0-4.136c.283-.122.45-.524.335-.81a2.25 2.25 0 0 1 2.925-2.925c.286.115.688-.052.81-.335a2.25 2.25 0 0 1 4.136 0c.122.283.524.45.81.335a2.25 2.25 0 0 1 2.925 2.925c-.114.286.052.688.335.81a2.25 2.25 0 0 1 0 4.136c-.283.122-.45.524-.335.81A2.25 2.25 0 0 1 16.5 15.57m-9 0v6.18l4.5-1.5 4.5 1.5v-6.18"/>`
+        innerHTML: `<path d="M7.5 15.57a2.26 2.26 0 0 0 1.622-.017c.286-.115.688.052.81.335a2.25 2.25 0 0 0 4.136 0c.122-.283.524-.45.81-.335a2.26 2.26 0 0 0 1.622.017m-9 0a2.25 2.25 0 0 1-1.303-2.942c.114-.286-.052-.688-.335-.81a2.25 2.25 0 0 1 0-4.136c.283-.122.45-.524.335-.81a2.25 2.25 0 0 1 2.925-2.925c.286.115.688-.052.81-.335a2.25 2.25 0 0 1 4.136 0c.122.283.524.45.81.335a2.25 2.25 0 0 1 2.925 2.925c-.114.286.052.688.335.81a2.25 2.25 0 0 1 0 4.136c-.283.122-.45.524-.335.81A2.25 2.25 0 0 1 16.5 15.57m-9 0v6.18l4.5-1.5 4.5 1.5v-6.18M9 9.75 11.25 12 15 8.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MedalCheck.ts
+// src/icons/MedalStar.ts
 import { defineComponent as defineComponent598, h as h598 } from "vue";
-var MedalCheck = defineComponent598({
-  name: "MedalCheck",
+var MedalStar = defineComponent598({
+  name: "MedalStar",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20922,16 +20922,16 @@ var MedalCheck = defineComponent598({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 15.57a2.26 2.26 0 0 0 1.622-.017c.286-.115.688.052.81.335a2.25 2.25 0 0 0 4.136 0c.122-.283.524-.45.81-.335a2.26 2.26 0 0 0 1.622.017m-9 0a2.25 2.25 0 0 1-1.303-2.942c.114-.286-.052-.688-.335-.81a2.25 2.25 0 0 1 0-4.136c.283-.122.45-.524.335-.81a2.25 2.25 0 0 1 2.925-2.925c.286.115.688-.052.81-.335a2.25 2.25 0 0 1 4.136 0c.122.283.524.45.81.335a2.25 2.25 0 0 1 2.925 2.925c-.114.286.052.688.335.81a2.25 2.25 0 0 1 0 4.136c-.283.122-.45.524-.335.81A2.25 2.25 0 0 1 16.5 15.57m-9 0v6.18l4.5-1.5 4.5 1.5v-6.18M9 9.75 11.25 12 15 8.25"/>`
+        innerHTML: `<path d="M7.5 15.57a2.26 2.26 0 0 0 1.622-.017c.286-.115.688.052.81.335a2.25 2.25 0 0 0 4.136 0c.122-.283.524-.45.81-.335a2.26 2.26 0 0 0 1.622.017m-9 0a2.25 2.25 0 0 1-1.303-2.942c.114-.286-.052-.688-.335-.81a2.25 2.25 0 0 1 0-4.136c.283-.122.45-.524.335-.81a2.25 2.25 0 0 1 2.925-2.925c.286.115.688-.052.81-.335a2.25 2.25 0 0 1 4.136 0c.122.283.524.45.81.335a2.25 2.25 0 0 1 2.925 2.925c-.114.286.052.688.335.81a2.25 2.25 0 0 1 0 4.136c-.283.122-.45.524-.335.81A2.25 2.25 0 0 1 16.5 15.57m-9 0v6.18l4.5-1.5 4.5 1.5v-6.18m-4.36-8.922.831 1.685a.08.08 0 0 0 .063.046l1.993.29c.07.01.097.094.047.143l-1.442 1.406a.08.08 0 0 0-.024.074l.34 1.985a.084.084 0 0 1-.122.088l-1.782-.937a.08.08 0 0 0-.078 0l-1.783.937a.084.084 0 0 1-.122-.088l.34-1.985a.08.08 0 0 0-.023-.075L8.935 8.813a.084.084 0 0 1 .047-.143l1.993-.29a.08.08 0 0 0 .063-.046l.832-1.686a.15.15 0 0 1 .27 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MedalStar.ts
+// src/icons/Medkit.ts
 import { defineComponent as defineComponent599, h as h599 } from "vue";
-var MedalStar = defineComponent599({
-  name: "MedalStar",
+var Medkit = defineComponent599({
+  name: "Medkit",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20957,16 +20957,16 @@ var MedalStar = defineComponent599({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 15.57a2.26 2.26 0 0 0 1.622-.017c.286-.115.688.052.81.335a2.25 2.25 0 0 0 4.136 0c.122-.283.524-.45.81-.335a2.26 2.26 0 0 0 1.622.017m-9 0a2.25 2.25 0 0 1-1.303-2.942c.114-.286-.052-.688-.335-.81a2.25 2.25 0 0 1 0-4.136c.283-.122.45-.524.335-.81a2.25 2.25 0 0 1 2.925-2.925c.286.115.688-.052.81-.335a2.25 2.25 0 0 1 4.136 0c.122.283.524.45.81.335a2.25 2.25 0 0 1 2.925 2.925c-.114.286.052.688.335.81a2.25 2.25 0 0 1 0 4.136c-.283.122-.45.524-.335.81A2.25 2.25 0 0 1 16.5 15.57m-9 0v6.18l4.5-1.5 4.5 1.5v-6.18m-4.36-8.922.831 1.685a.08.08 0 0 0 .063.046l1.993.29c.07.01.097.094.047.143l-1.442 1.406a.08.08 0 0 0-.024.074l.34 1.985a.084.084 0 0 1-.122.088l-1.782-.937a.08.08 0 0 0-.078 0l-1.783.937a.084.084 0 0 1-.122-.088l.34-1.985a.08.08 0 0 0-.023-.075L8.935 8.813a.084.084 0 0 1 .047-.143l1.993-.29a.08.08 0 0 0 .063-.046l.832-1.686a.15.15 0 0 1 .27 0"/>`
+        innerHTML: `<path d="M6.75 5.25h-1.5a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V6.75a1.5 1.5 0 0 0-1.5-1.5h-1.5m-10.5 0 .67-1.342a3 3 0 0 1 2.684-1.658h3.792a3 3 0 0 1 2.683 1.658l.671 1.342m-10.5 0h10.5m-7.5 3h4.5v3h3v4.5h-3v3h-4.5v-3h-3v-4.5h3z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Medkit.ts
+// src/icons/Megaphone.ts
 import { defineComponent as defineComponent600, h as h600 } from "vue";
-var Medkit = defineComponent600({
-  name: "Medkit",
+var Megaphone = defineComponent600({
+  name: "Megaphone",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20992,16 +20992,16 @@ var Medkit = defineComponent600({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6.75 5.25h-1.5a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V6.75a1.5 1.5 0 0 0-1.5-1.5h-1.5m-10.5 0 .67-1.342a3 3 0 0 1 2.684-1.658h3.792a3 3 0 0 1 2.683 1.658l.671 1.342m-10.5 0h10.5m-7.5 3h4.5v3h3v4.5h-3v3h-4.5v-3h-3v-4.5h3z"/>`
+        innerHTML: `<path d="M11.25 15h4.046a1.5 1.5 0 0 1 .832.252l3.977 2.651a.575.575 0 0 0 .895-.479V3.576a.576.576 0 0 0-.895-.48l-3.977 2.652a1.5 1.5 0 0 1-.832.252H6a3 3 0 0 0-3 3v3a3 3 0 0 0 3 3h1.5m3.75 0 1.078 3.956a1.5 1.5 0 0 1-1.153 1.865l-.759.152a1.5 1.5 0 0 1-1.753-1.121L7.5 15m3.75 0H7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Megaphone.ts
+// src/icons/MegaphoneSound.ts
 import { defineComponent as defineComponent601, h as h601 } from "vue";
-var Megaphone = defineComponent601({
-  name: "Megaphone",
+var MegaphoneSound = defineComponent601({
+  name: "MegaphoneSound",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21027,16 +21027,16 @@ var Megaphone = defineComponent601({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M11.25 15h4.046a1.5 1.5 0 0 1 .832.252l3.977 2.651a.575.575 0 0 0 .895-.479V3.576a.576.576 0 0 0-.895-.48l-3.977 2.652a1.5 1.5 0 0 1-.832.252H6a3 3 0 0 0-3 3v3a3 3 0 0 0 3 3h1.5m3.75 0 1.078 3.956a1.5 1.5 0 0 1-1.153 1.865l-.759.152a1.5 1.5 0 0 1-1.753-1.121L7.5 15m3.75 0H7.5"/>`
+        innerHTML: `<path d="M9 14.25h2.546a1.5 1.5 0 0 1 .832.252l3.977 2.651a.575.575 0 0 0 .895-.479V4.326a.576.576 0 0 0-.895-.48l-3.977 2.652a1.5 1.5 0 0 1-.832.252H5.25a3 3 0 0 0-3 3v1.5a3 3 0 0 0 3 3m3.75 0 1.078 3.956a1.5 1.5 0 0 1-1.153 1.865l-.759.152a1.5 1.5 0 0 1-1.753-1.121L5.25 14.25m3.75 0H5.25m15-3.75h1.5m-1.5-3.75.976-.976m-.976 8.476.976.976"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MegaphoneSound.ts
+// src/icons/MentionAt.ts
 import { defineComponent as defineComponent602, h as h602 } from "vue";
-var MegaphoneSound = defineComponent602({
-  name: "MegaphoneSound",
+var MentionAt = defineComponent602({
+  name: "MentionAt",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21062,16 +21062,16 @@ var MegaphoneSound = defineComponent602({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9 14.25h2.546a1.5 1.5 0 0 1 .832.252l3.977 2.651a.575.575 0 0 0 .895-.479V4.326a.576.576 0 0 0-.895-.48l-3.977 2.652a1.5 1.5 0 0 1-.832.252H5.25a3 3 0 0 0-3 3v1.5a3 3 0 0 0 3 3m3.75 0 1.078 3.956a1.5 1.5 0 0 1-1.153 1.865l-.759.152a1.5 1.5 0 0 1-1.753-1.121L5.25 14.25m3.75 0H5.25m15-3.75h1.5m-1.5-3.75.976-.976m-.976 8.476.976.976"/>`
+        innerHTML: `<path d="M15.75 12.75v-1.5m0 1.5A3.75 3.75 0 0 1 12 16.5c-2.071 0-3.75-1.5-3.75-4.5S9.929 7.5 12 7.5a3.75 3.75 0 0 1 3.75 3.75m0 1.5v.75s0 3 3 3c0 0 3 0 3-4.5 0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12s4.365 9.75 9.75 9.75a9.7 9.7 0 0 0 5.25-1.533m-1.5-8.967V7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MentionAt.ts
+// src/icons/MenuBottom.ts
 import { defineComponent as defineComponent603, h as h603 } from "vue";
-var MentionAt = defineComponent603({
-  name: "MentionAt",
+var MenuBottom = defineComponent603({
+  name: "MenuBottom",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21097,16 +21097,16 @@ var MentionAt = defineComponent603({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M15.75 12.75v-1.5m0 1.5A3.75 3.75 0 0 1 12 16.5c-2.071 0-3.75-1.5-3.75-4.5S9.929 7.5 12 7.5a3.75 3.75 0 0 1 3.75 3.75m0 1.5v.75s0 3 3 3c0 0 3 0 3-4.5 0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12s4.365 9.75 9.75 9.75a9.7 9.7 0 0 0 5.25-1.533m-1.5-8.967V7.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 14.25v2.25a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3v-2.25m-19.5 0V7.5a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v6.75m-19.5 0h19.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MenuBottom.ts
+// src/icons/MenuLeft.ts
 import { defineComponent as defineComponent604, h as h604 } from "vue";
-var MenuBottom = defineComponent604({
-  name: "MenuBottom",
+var MenuLeft = defineComponent604({
+  name: "MenuLeft",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21132,16 +21132,16 @@ var MenuBottom = defineComponent604({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 14.25v2.25a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3v-2.25m-19.5 0V7.5a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v6.75m-19.5 0h19.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M8.25 4.5h-3a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h3m0-15h10.5a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H8.25m0-15v15"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MenuLeft.ts
+// src/icons/MenuRight.ts
 import { defineComponent as defineComponent605, h as h605 } from "vue";
-var MenuLeft = defineComponent605({
-  name: "MenuLeft",
+var MenuRight = defineComponent605({
+  name: "MenuRight",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21167,16 +21167,16 @@ var MenuLeft = defineComponent605({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M8.25 4.5h-3a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h3m0-15h10.5a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H8.25m0-15v15"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M15.75 4.5h3a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-3m0-15H5.25a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h10.5m0-15v15"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MenuRight.ts
+// src/icons/MenuTop.ts
 import { defineComponent as defineComponent606, h as h606 } from "vue";
-var MenuRight = defineComponent606({
-  name: "MenuRight",
+var MenuTop = defineComponent606({
+  name: "MenuTop",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21202,16 +21202,16 @@ var MenuRight = defineComponent606({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M15.75 4.5h3a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-3m0-15H5.25a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h10.5m0-15v15"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 9.75V7.5a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v2.25m-19.5 0v6.75a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3V9.75m-19.5 0h19.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MenuTop.ts
+// src/icons/MergeVertices.ts
 import { defineComponent as defineComponent607, h as h607 } from "vue";
-var MenuTop = defineComponent607({
-  name: "MenuTop",
+var MergeVertices = defineComponent607({
+  name: "MergeVertices",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21237,16 +21237,16 @@ var MenuTop = defineComponent607({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 9.75V7.5a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v2.25m-19.5 0v6.75a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3V9.75m-19.5 0h19.5"/>`
+        innerHTML: `<path d="M20.25 20.25 16.5 16.5m0 0h3m-3 0v3M3.75 3.75 7.5 7.5m0 0h-3m3 0v-3m5.91 1.591a2.25 2.25 0 1 1 3.182-3.182 2.25 2.25 0 0 1-3.183 3.182m0 0L6.09 13.409m11.818-2.818a2.25 2.25 0 1 1 3.182-3.182 2.25 2.25 0 0 1-3.182 3.182m0 0-7.318 7.318m-4.5-4.5a2.25 2.25 0 1 1-3.182 3.182 2.25 2.25 0 0 1 3.182-3.182m4.5 4.5a2.25 2.25 0 1 1-3.182 3.182 2.25 2.25 0 0 1 3.182-3.182"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MergeVertices.ts
+// src/icons/Message.ts
 import { defineComponent as defineComponent608, h as h608 } from "vue";
-var MergeVertices = defineComponent608({
-  name: "MergeVertices",
+var Message = defineComponent608({
+  name: "Message",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21272,16 +21272,16 @@ var MergeVertices = defineComponent608({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M20.25 20.25 16.5 16.5m0 0h3m-3 0v3M3.75 3.75 7.5 7.5m0 0h-3m3 0v-3m5.91 1.591a2.25 2.25 0 1 1 3.182-3.182 2.25 2.25 0 0 1-3.183 3.182m0 0L6.09 13.409m11.818-2.818a2.25 2.25 0 1 1 3.182-3.182 2.25 2.25 0 0 1-3.182 3.182m0 0-7.318 7.318m-4.5-4.5a2.25 2.25 0 1 1-3.182 3.182 2.25 2.25 0 0 1 3.182-3.182m4.5 4.5a2.25 2.25 0 1 1-3.182 3.182 2.25 2.25 0 0 1 3.182-3.182"/>`
+        innerHTML: `<path d="M15 3.75H9a6.75 6.75 0 0 0-2.58 12.99 3.97 3.97 0 0 1-1.11 3.45l-.06.06a7.5 7.5 0 0 0 6-3H15a6.75 6.75 0 0 0 0-13.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Message.ts
+// src/icons/MessageBubble.ts
 import { defineComponent as defineComponent609, h as h609 } from "vue";
-var Message = defineComponent609({
-  name: "Message",
+var MessageBubble = defineComponent609({
+  name: "MessageBubble",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21307,16 +21307,16 @@ var Message = defineComponent609({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M15 3.75H9a6.75 6.75 0 0 0-2.58 12.99 3.97 3.97 0 0 1-1.11 3.45l-.06.06a7.5 7.5 0 0 0 6-3H15a6.75 6.75 0 0 0 0-13.5"/>`
+        innerHTML: `<path d="M2.25 18.75a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0M15 3.75H9a6.75 6.75 0 0 0-4.49 11.79q-.01.105-.01.21a2.25 2.25 0 0 0 3.947 1.478q.274.021.553.022h6a6.75 6.75 0 0 0 0-13.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MessageBubble.ts
+// src/icons/MessageDots.ts
 import { defineComponent as defineComponent610, h as h610 } from "vue";
-var MessageBubble = defineComponent610({
-  name: "MessageBubble",
+var MessageDots = defineComponent610({
+  name: "MessageDots",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21342,16 +21342,16 @@ var MessageBubble = defineComponent610({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 18.75a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0M15 3.75H9a6.75 6.75 0 0 0-4.49 11.79q-.01.105-.01.21a2.25 2.25 0 0 0 3.947 1.478q.274.021.553.022h6a6.75 6.75 0 0 0 0-13.5"/>`
+        innerHTML: `<path d="M15 3.75H9a6.75 6.75 0 0 0-3.33 12.623c.452.256.823.68.798 1.198a3.97 3.97 0 0 1-1.159 2.62.034.034 0 0 0 .025.059 7.5 7.5 0 0 0 5.437-2.423c.32-.348.757-.577 1.229-.577h3a6.75 6.75 0 0 0 0-13.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MessageDots.ts
+// src/icons/MessageLock.ts
 import { defineComponent as defineComponent611, h as h611 } from "vue";
-var MessageDots = defineComponent611({
-  name: "MessageDots",
+var MessageLock = defineComponent611({
+  name: "MessageLock",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21377,16 +21377,16 @@ var MessageDots = defineComponent611({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M15 3.75H9a6.75 6.75 0 0 0-3.33 12.623c.452.256.823.68.798 1.198a3.97 3.97 0 0 1-1.159 2.62.034.034 0 0 0 .025.059 7.5 7.5 0 0 0 5.437-2.423c.32-.348.757-.577 1.229-.577h3a6.75 6.75 0 0 0 0-13.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.523 12.241A6.75 6.75 0 0 0 15 3.75H9a6.75 6.75 0 0 0-2.58 12.99 3.97 3.97 0 0 1-1.11 3.45l-.06.06a7.5 7.5 0 0 0 6-3m5.25.75v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MessageLock.ts
+// src/icons/MessageSettings.ts
 import { defineComponent as defineComponent612, h as h612 } from "vue";
-var MessageLock = defineComponent612({
-  name: "MessageLock",
+var MessageSettings = defineComponent612({
+  name: "MessageSettings",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21412,16 +21412,16 @@ var MessageLock = defineComponent612({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.523 12.241A6.75 6.75 0 0 0 15 3.75H9a6.75 6.75 0 0 0-2.58 12.99 3.97 3.97 0 0 1-1.11 3.45l-.06.06a7.5 7.5 0 0 0 6-3m5.25.75v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.523 12.241A6.75 6.75 0 0 0 15 3.75H9a6.75 6.75 0 0 0-2.58 12.99 3.97 3.97 0 0 1-1.11 3.45l-.06.06a7.5 7.5 0 0 0 6-3m7.124 3.6a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.134 4.117h-1.65m-4.95 0h-1.65m7.047 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MessageSettings.ts
+// src/icons/Metalic.ts
 import { defineComponent as defineComponent613, h as h613 } from "vue";
-var MessageSettings = defineComponent613({
-  name: "MessageSettings",
+var Metalic = defineComponent613({
+  name: "Metalic",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21447,16 +21447,16 @@ var MessageSettings = defineComponent613({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.523 12.241A6.75 6.75 0 0 0 15 3.75H9a6.75 6.75 0 0 0-2.58 12.99 3.97 3.97 0 0 1-1.11 3.45l-.06.06a7.5 7.5 0 0 0 6-3m7.124 3.6a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.134 4.117h-1.65m-4.95 0h-1.65m7.047 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
+        innerHTML: `<path d="M21.239 8.876c-1.148 1.59-2.554 2.51-3.902 3.144-3.055 1.438-4.251 1.265-6.033 3.27-1.76 1.98-2.035 4.358-1.798 6.138M21.24 8.876a9.78 9.78 0 0 0-4.767-5.542m4.767 5.542c.331.98.511 2.031.511 3.124 0 1.124-.19 2.204-.54 3.21a9.75 9.75 0 0 1-2.316 3.684 9.75 9.75 0 0 1-3.685 2.315A9.7 9.7 0 0 1 12 21.75a9.8 9.8 0 0 1-2.494-.322m6.966-18.094c-.224.81-.475 1.333-.698 1.679-.336.52-.726.82-1.408 1.14-1.225.578-5.206 1.52-8.202 4.89-1.485 1.67-2.409 3.46-2.931 5.228M16.472 3.334A9.7 9.7 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75a9.7 9.7 0 0 0 .983 4.27m6.273 5.158a9.77 9.77 0 0 1-6.273-5.157"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Metalic.ts
+// src/icons/Metro.ts
 import { defineComponent as defineComponent614, h as h614 } from "vue";
-var Metalic = defineComponent614({
-  name: "Metalic",
+var Metro = defineComponent614({
+  name: "Metro",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21482,16 +21482,16 @@ var Metalic = defineComponent614({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.239 8.876c-1.148 1.59-2.554 2.51-3.902 3.144-3.055 1.438-4.251 1.265-6.033 3.27-1.76 1.98-2.035 4.358-1.798 6.138M21.24 8.876a9.78 9.78 0 0 0-4.767-5.542m4.767 5.542c.331.98.511 2.031.511 3.124 0 1.124-.19 2.204-.54 3.21a9.75 9.75 0 0 1-2.316 3.684 9.75 9.75 0 0 1-3.685 2.315A9.7 9.7 0 0 1 12 21.75a9.8 9.8 0 0 1-2.494-.322m6.966-18.094c-.224.81-.475 1.333-.698 1.679-.336.52-.726.82-1.408 1.14-1.225.578-5.206 1.52-8.202 4.89-1.485 1.67-2.409 3.46-2.931 5.228M16.472 3.334A9.7 9.7 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75a9.7 9.7 0 0 0 .983 4.27m6.273 5.158a9.77 9.77 0 0 1-6.273-5.157"/>`
+        innerHTML: `<path d="M8.25 16.5v-9L12 14.25l3.75-6.75v9m6-4.5c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Metro.ts
+// src/icons/Microphone.ts
 import { defineComponent as defineComponent615, h as h615 } from "vue";
-var Metro = defineComponent615({
-  name: "Metro",
+var Microphone = defineComponent615({
+  name: "Microphone",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21517,16 +21517,16 @@ var Metro = defineComponent615({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M8.25 16.5v-9L12 14.25l3.75-6.75v9m6-4.5c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75"/>`
+        innerHTML: `<path d="M18.75 11.25V12A6.75 6.75 0 0 1 12 18.75m-6.75-7.5V12A6.75 6.75 0 0 0 12 18.75m-3.75 3H12m0 0h3.75m-3.75 0v-3M8.25 6v6a3.75 3.75 0 1 0 7.5 0V6a3.75 3.75 0 1 0-7.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Microphone.ts
+// src/icons/MicrophoneOff.ts
 import { defineComponent as defineComponent616, h as h616 } from "vue";
-var Microphone = defineComponent616({
-  name: "Microphone",
+var MicrophoneOff = defineComponent616({
+  name: "MicrophoneOff",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21552,7 +21552,7 @@ var Microphone = defineComponent616({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.75 11.25V12A6.75 6.75 0 0 1 12 18.75m-6.75-7.5V12A6.75 6.75 0 0 0 12 18.75m-3.75 3H12m0 0h3.75m-3.75 0v-3M8.25 6v6a3.75 3.75 0 1 0 7.5 0V6a3.75 3.75 0 1 0-7.5 0"/>`
+        innerHTML: `<path d="M18.75 11.25V12a6.8 6.8 0 0 1-.29 1.96M5.25 11.25V12A6.75 6.75 0 0 0 12 18.75m-3.75 3H12m0 0h3.75m-3.75 0v-3m0 0a6.73 6.73 0 0 0 4.773-1.977M15.75 11.25V6a3.75 3.75 0 0 0-7.044-1.794M2.25 2.25l6 6m0 0V12a3.75 3.75 0 0 0 6.402 2.652M8.25 8.25l6.402 6.402m0 0 2.121 2.121m0 0 4.977 4.977"/>`
       }, children);
     };
   }
@@ -37518,7 +37518,6 @@ export {
   Material,
   Material3d,
   MaterialSlot,
-  McrophoneOff,
   Medal,
   MedalCheck,
   MedalStar,
@@ -37539,6 +37538,7 @@ export {
   Metalic,
   Metro,
   Microphone,
+  MicrophoneOff,
   Microscope,
   Microwave,
   Minus,

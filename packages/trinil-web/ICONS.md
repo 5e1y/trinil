@@ -616,7 +616,6 @@
 | `Material` | `<trinil-material>` | `MaterialElement` | `registerMaterial` |
 | `Material3d` | `<trinil-material3d>` | `Material3dElement` | `registerMaterial3d` |
 | `MaterialSlot` | `<trinil-material-slot>` | `MaterialSlotElement` | `registerMaterialSlot` |
-| `McrophoneOff` | `<trinil-mcrophone-off>` | `McrophoneOffElement` | `registerMcrophoneOff` |
 | `Medal` | `<trinil-medal>` | `MedalElement` | `registerMedal` |
 | `MedalCheck` | `<trinil-medal-check>` | `MedalCheckElement` | `registerMedalCheck` |
 | `MedalStar` | `<trinil-medal-star>` | `MedalStarElement` | `registerMedalStar` |
@@ -637,6 +636,7 @@
 | `Metalic` | `<trinil-metalic>` | `MetalicElement` | `registerMetalic` |
 | `Metro` | `<trinil-metro>` | `MetroElement` | `registerMetro` |
 | `Microphone` | `<trinil-microphone>` | `MicrophoneElement` | `registerMicrophone` |
+| `MicrophoneOff` | `<trinil-microphone-off>` | `MicrophoneOffElement` | `registerMicrophoneOff` |
 | `Microscope` | `<trinil-microscope>` | `MicroscopeElement` | `registerMicroscope` |
 | `Microwave` | `<trinil-microwave>` | `MicrowaveElement` | `registerMicrowave` |
 | `Minus` | `<trinil-minus>` | `MinusElement` | `registerMinus` |
