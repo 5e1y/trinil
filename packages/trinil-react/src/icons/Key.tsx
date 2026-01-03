@@ -12,7 +12,7 @@ export interface IconProps {
 export const Key: React.FC<IconProps> = React.memo((props) => {
   const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path stroke-miterlimit="1.788" d="M2.25 16.5a5.25 5.25 0 0 1 7.147-4.897L18.75 2.25 21 4.5 19.5 6l2.25 2.25-2.25 2.25-2.25-2.25-5.364 5.364A5.25 5.25 0 1 1 2.25 16.5"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path stroke-miterlimit="1.788" d="M7.5 11.25a5.25 5.25 0 1 0 4.386 2.364L17.25 8.25l2.25 2.25 2.25-2.25L19.5 6 21 4.5l-2.25-2.25-9.353 9.353A5.2 5.2 0 0 0 7.5 11.25m-.75 5.25a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5" clip-rule="evenodd"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );
