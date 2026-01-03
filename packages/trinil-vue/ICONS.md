@@ -1,6 +1,6 @@
 # trinil-vue - Available Icons
 
-> **1057 icons** available for Vue
+> **1055 icons** available for Vue
 > 
 > Last updated: 2026-01-03
 
@@ -281,7 +281,6 @@ import { Accessibility, AccessibilityCircle, Adhesive } from 'trinil-vue';
 - `Crop`
 - `Cross`
 - `Crown`
-- `Crown2`
 - `Crutch`
 - `Cup`
 - `CursorClick`
@@ -1026,7 +1025,6 @@ import { Accessibility, AccessibilityCircle, Adhesive } from 'trinil-vue';
 - `Vacuum`
 - `Video`
 - `VideoOff`
-- `VideoOff2`
 - `Viewport`
 - `Virus`
 - `Volume`

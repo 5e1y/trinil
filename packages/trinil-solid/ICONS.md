@@ -1,6 +1,6 @@
 # trinil-solid - Available Icons
 
-> **1057 icons** available for SolidJS
+> **1055 icons** available for SolidJS
 > 
 > Last updated: 2026-01-03
 
@@ -282,7 +282,6 @@ import { Accessibility, AccessibilityCircle, Adhesive } from 'trinil-solid';
 - `Crop`
 - `Cross`
 - `Crown`
-- `Crown2`
 - `Crutch`
 - `Cup`
 - `CursorClick`
@@ -1027,7 +1026,6 @@ import { Accessibility, AccessibilityCircle, Adhesive } from 'trinil-solid';
 - `Vacuum`
 - `Video`
 - `VideoOff`
-- `VideoOff2`
 - `Viewport`
 - `Virus`
 - `Volume`
