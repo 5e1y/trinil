@@ -31842,7 +31842,7 @@ var TargetBow = defineComponent910({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 2.25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12 6.615 2.25 12 2.25"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75m-15 0a5.25 5.25 0 1 0 10.5 0 5.25 5.25 0 0 0-10.5 0" clip-rule="evenodd"/><path stroke-miterlimit="1.788" d="M11.25 12a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0"/>`
       }, children);
     };
   }
