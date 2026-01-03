@@ -5,6 +5,7 @@ export const FlowerClover = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const FlowerClover = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M12 6.523C12 3.346 7.709 2.349 6.307 5.2l-.214.436a1 1 0 0 1-.457.457l-.436.214C2.35 7.708 3.346 12 6.523 12M12 6.523c0-3.177 4.291-4.174 5.692-1.323l.215.436a1 1 0 0 0 .456.457l.437.214C21.65 7.708 20.654 12 17.477 12M12 6.523V8.5M6.523 12C3.346 12 2.35 16.29 5.2 17.692l.437.215a1 1 0 0 1 .456.456l.214.437C7.71 21.65 12 20.654 12 17.477M6.523 12H8.5m8.977 0c3.177 0 4.174 4.291 1.323 5.692l-.437.215a1 1 0 0 0-.456.456l-.215.437C16.293 21.65 12 20.654 12 17.477M17.477 12H15.5M12 17.477V15.5"/>`,
+        innerHTML: `<path d="M12 6.188c0-3.371-4.554-4.43-6.04-1.404l-.228.463c-.104.21-.274.381-.485.485l-.463.227C1.76 7.446 2.817 12 6.188 12M12 6.188c0-3.371 4.554-4.43 6.04-1.404l.228.463c.104.211.274.381.485.485l.463.227C22.24 7.446 21.183 12 17.812 12M12 6.188V8.25M6.188 12c-3.371 0-4.43 4.554-1.404 6.04l.463.228c.211.104.381.274.485.485l.227.463C7.446 22.24 12 21.183 12 17.812M6.188 12H8.25m9.562 0c3.371 0 4.43 4.554 1.404 6.04l-.463.228c-.21.104-.381.274-.485.485l-.227.463C16.554 22.24 12 21.183 12 17.812M17.812 12H15.75M12 17.812V15.75"/>`,
       }, children);
     };
   },

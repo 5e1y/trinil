@@ -5,6 +5,7 @@ export const Component = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Component = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="m9.207 5.793 2.086-2.086a1 1 0 0 1 1.414 0l2.086 2.086a1 1 0 0 1 0 1.414l-2.086 2.086a1 1 0 0 1-1.414 0L9.207 7.207a1 1 0 0 1 0-1.414ZM9.207 16.793l2.086-2.086a1 1 0 0 1 1.414 0l2.086 2.086a1 1 0 0 1 0 1.414l-2.086 2.086a1 1 0 0 1-1.414 0l-2.086-2.086a1 1 0 0 1 0-1.414ZM3.707 11.293l2.086-2.086a1 1 0 0 1 1.414 0l2.086 2.086a1 1 0 0 1 0 1.414l-2.086 2.086a1 1 0 0 1-1.414 0l-2.086-2.086a1 1 0 0 1 0-1.414ZM14.707 11.293l2.086-2.086a1 1 0 0 1 1.414 0l2.086 2.086a1 1 0 0 1 0 1.414l-2.086 2.086a1 1 0 0 1-1.414 0l-2.086-2.086a1 1 0 0 1 0-1.414Z"/>`,
+        innerHTML: `<path d="M6 15.75 2.25 12 6 8.25 9.75 12zM12 9.75 8.25 6 12 2.25 15.75 6zM12 21.75 8.25 18 12 14.25 15.75 18zM18 15.75 14.25 12 18 8.25 21.75 12z"/>`,
       }, children);
     };
   },

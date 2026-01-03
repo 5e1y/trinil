@@ -5,6 +5,7 @@ export const Hurricane = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Hurricane = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M18.5 12q0 .447-.046.871M18.5 12c0-3.866-2.634-6.5-6.5-6.5m6.5 6.5s0 .333-.046.871m0 0C18.087 16.256 15.568 18.5 12 18.5m6.454-5.629C18.259 15.13 17.25 21 12 21m0-2.5q-.447 0-.871-.046M12 18.5s-.333 0-.871-.046m0 0C7.744 18.087 5.5 15.568 5.5 12m5.629 6.454C8.87 18.259 3 17.25 3 12m2.5 0q0-.447.046-.871M5.5 12s0-.333.046-.871m0 0C5.913 7.744 8.432 5.5 12 5.5m-6.454 5.629C5.741 8.87 6.751 3 12 3m0 2.5s9-.5 9 6.5m-8 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Z"/>`,
+        innerHTML: `<path d="M18.75 12A6.75 6.75 0 0 0 12 5.25M18.75 12A6.75 6.75 0 0 1 12 18.75M18.75 12s.75 9.75-13.5 9.75M12 5.25A6.75 6.75 0 0 0 5.25 12M12 5.25s9.75-.75 9.75 13.5m-9.75 0A6.75 6.75 0 0 1 5.25 12M12 18.75s-9.75.75-9.75-13.5m3 6.75s-.75-9.75 13.5-9.75m-6 9.75a.75.75 0 0 0-.664-.745m.664.745a1 1 0 0 1-.005.086M12.75 12q.001.002-.005.086m-.659-.831A1 1 0 0 0 12 11.25m.086.005q-.084-.006-.086-.005m0 0a.75.75 0 0 0-.745.664m.745.836a.75.75 0 0 0 .745-.664M12 12.75a1 1 0 0 1-.086-.005m.086.005q-.002.001-.086-.005M11.25 12c0 .385.29.703.664.745M11.25 12a1 1 0 0 1 .005-.086M11.25 12s0-.031.005-.086"/>`,
       }, children);
     };
   },

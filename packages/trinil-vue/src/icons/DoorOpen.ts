@@ -5,6 +5,7 @@ export const DoorOpen = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const DoorOpen = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M14 19v.674a1 1 0 0 1-1.275.962l-5-1.429A1 1 0 0 1 7 18.246V4a1 1 0 0 1 .49-.86M14 19V5.754a1 1 0 0 0-.725-.961L7.49 3.14M14 19h2a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H8a1 1 0 0 0-.51.14M12 13.429l-1-.286"/>`,
+        innerHTML: `<path stroke-miterlimit="1.788" d="M15.75 18.75h1.5a1.5 1.5 0 0 0 1.5-1.5V3.75a1.5 1.5 0 0 0-1.5-1.5h-12m10.5 16.5v1.416a1.5 1.5 0 0 1-1.974 1.424l-7.5-2.498a1.5 1.5 0 0 1-1.026-1.423V2.25m10.5 16.5V6.828a1.5 1.5 0 0 0-1.026-1.423L5.25 2.25m7.5 11.25-2.25-.75"/>`,
       }, children);
     };
   },

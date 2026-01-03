@@ -5,6 +5,7 @@ export const AssetBrowser = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const AssetBrowser = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="m12 11 8.982-3.992M12 11v9.99M12 11 3.018 7.008m17.964 0a.1.1 0 0 0-.041-.035l-8.9-3.955a.1.1 0 0 0-.082 0l-8.9 3.955a.1.1 0 0 0-.041.035m17.964 0a.1.1 0 0 1 .018.057V14M3.018 7.008A.1.1 0 0 0 3 7.065v9.87a.1.1 0 0 0 .06.091l8.9 3.956a.1.1 0 0 0 .04.008m0 0a.1.1 0 0 0 .04-.008l1.522-.676m5.352-1.392a2 2 0 1 1-2.828-2.828 2 2 0 0 1 2.828 2.828Zm0 0L20 20m-6.438.306A5 5 0 0 1 21 14m-7.438 6.306A5 5 0 1 0 21 14"/>`,
+        innerHTML: `<path stroke-miterlimit="1.788" d="m22.5 22.5-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104m.588-8.46v-3.59a1.5 1.5 0 0 0-.198-.746m0 0a1.5 1.5 0 0 0-.546-.55l-7.5-4.375a1.5 1.5 0 0 0-1.512 0l-7.5 4.375a1.5 1.5 0 0 0-.545.55m17.603 0L12 12.75m0 0L3.199 7.616M12 12.75v2.155m-8.801-7.29C3.07 7.84 3 8.096 3 8.363v7.277a1.5 1.5 0 0 0 .744 1.295l7.5 4.375c.234.136.495.204.756.204"/>`,
       }, children);
     };
   },

@@ -5,6 +5,7 @@ export const Gear = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Gear = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="m12.98 3.754.132.643a1 1 0 0 0 1.727.463l.436-.49c.722-.813 2.038-.053 1.696.979l-.207.623a1 1 0 0 0 1.265 1.264l.622-.207c1.032-.342 1.792.974.98 1.696l-.49.437a1 1 0 0 0 .462 1.726l.643.133c1.064.219 1.064 1.74 0 1.959l-.643.132a1 1 0 0 0-.463 1.727l.49.436c.813.722.053 2.039-.979 1.696l-.622-.206a1 1 0 0 0-1.265 1.264l.207.623c.342 1.03-.974 1.791-1.696.979l-.436-.49a1 1 0 0 0-1.727.462l-.133.643c-.219 1.064-1.74 1.064-1.958 0l-.133-.643a1 1 0 0 0-1.727-.463l-.436.491c-.722.812-2.038.052-1.696-.98l.207-.622a1 1 0 0 0-1.265-1.264l-.622.206c-1.032.343-1.792-.974-.98-1.696l.49-.436a1 1 0 0 0-.462-1.727l-.643-.132c-1.064-.22-1.064-1.74 0-1.96l.643-.132a1 1 0 0 0 .463-1.726l-.49-.437c-.813-.722-.053-2.038.979-1.696l.622.207a1 1 0 0 0 1.265-1.264l-.207-.623c-.342-1.032.974-1.792 1.696-.98l.436.49a1 1 0 0 0 1.727-.462l.133-.643c.219-1.064 1.74-1.064 1.958 0ZM8 12a4 4 0 1 0 8 0 4 4 0 0 0-8 0Z" clip-rule="evenodd"/>`,
+        innerHTML: `<path d="M5.106 15.713a2.25 2.25 0 0 0 3.182 3.182l.243-.244q.582.305 1.219.506v.343a2.25 2.25 0 0 0 4.5 0v-.343a7.5 7.5 0 0 0 1.22-.506l.242.243a2.25 2.25 0 1 0 3.182-3.182l-.243-.243q.305-.582.506-1.219h.343a2.25 2.25 0 0 0 0-4.5h-.343a7.5 7.5 0 0 0-.506-1.22l.243-.242a2.25 2.25 0 1 0-3.182-3.182l-.243.243a7.5 7.5 0 0 0-1.219-.506V4.5a2.25 2.25 0 0 0-4.5 0v.343a7.5 7.5 0 0 0-1.22.506l-.242-.243a2.25 2.25 0 1 0-3.182 3.182l.243.243a7.5 7.5 0 0 0-.506 1.219H4.5a2.25 2.25 0 0 0 0 4.5h.343q.2.637.506 1.22z"/>`,
       }, children);
     };
   },

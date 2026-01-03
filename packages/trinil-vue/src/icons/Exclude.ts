@@ -5,6 +5,7 @@ export const Exclude = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Exclude = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M16 8V5a1 1 0 0 0-.293-.707M16 8h3c.276 0 .526.112.707.293M16 8v4m0-4h-4m-4 8H5a1 1 0 0 1-.707-.293M8 16v3c0 .276.112.526.293.707M8 16h4m-4 0v-4m8 0v3a1 1 0 0 1-1 1h-3m4-4 3.707-3.707M12 16l-3.707 3.707M12 20H9a1 1 0 0 1-.707-.293M12 20h4m-4 0 8-8m0 0V9a1 1 0 0 0-.293-.707M20 12v4m0 0v3a1 1 0 0 1-1 1h-3m4-4-4 4M12 8H9a1 1 0 0 0-1 1v3m4-4 3.707-3.707M8 12l-3.707 3.707M8 4H5a1 1 0 0 0-1 1v3m4-4L4 8m4-4h4M4 8v4m8-8-8 8m8-8h3c.276 0 .526.112.707.293M4 12v3c0 .276.112.526.293.707"/>`,
+        innerHTML: `<path d="M16.5 7.5h3c.414 0 .79.168 1.06.44M16.5 7.5v-3c0-.414-.168-.79-.44-1.06m.44 4.06V12m0-4.5H12m-4.5 9v3c0 .414.168.79.44 1.06M7.5 16.5h-3c-.414 0-.79-.168-1.06-.44m4.06.44V12m0 4.5H12m0 4.5H9c-.414 0-.79-.168-1.06-.44M12 21l9-9m-9 9h4.5m4.5-9V9c0-.414-.168-.79-.44-1.06M21 12v4.5M16.5 21h3a1.5 1.5 0 0 0 1.5-1.5v-3M16.5 21l4.5-4.5m-.44-8.56L16.5 12m-8.56 8.56L12 16.5M12 3h3c.414 0 .79.168 1.06.44M12 3l-9 9m9-9H7.5M3 12v3c0 .414.168.79.44 1.06M3 12V7.5M7.5 3h-3A1.5 1.5 0 0 0 3 4.5v3M7.5 3 3 7.5M16.5 12v3a1.5 1.5 0 0 1-1.5 1.5h-3m0-9H9A1.5 1.5 0 0 0 7.5 9v3M12 7.5l4.06-4.06M7.5 12l-4.06 4.06"/>`,
       }, children);
     };
   },

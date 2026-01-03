@@ -5,8 +5,10 @@
 Trinil is a monorepo containing:
 - `packages/trinil-react` - React 16.8+ icon components
 - `packages/trinil-vue` - Vue 3 icon components
-- `svg/` - ~765 source SVG icons
-- `examples/` - Demo apps for each framework
+- `packages/trinil-svelte` - Svelte 3/4/5 icon components
+- `packages/trinil-solid` - SolidJS icon components
+- `packages/trinil-web` - Web Components
+- `svg/` - 1055 source SVG icons
 - `scripts/generate-icons.mjs` - Icon generation pipeline
 
 ## Setup
@@ -18,7 +20,7 @@ npm install
 # Generate icon components from svg/
 npm run generate
 
-# Build both packages
+# Build all packages
 npm run build
 ```
 
@@ -35,26 +37,23 @@ After install, you can run scripts in any package or at root.
 
 ### Adding New Icons
 
-1. Place SVG files in `/svg/` (ensure `viewBox="0 0 24 24"`)
+1. Place SVG files in `/svg/` (ensure `viewBox="0 0 24 24"`, design for stroke-width 1-2)
 2. Run: `npm run generate`
 3. Run: `npm run build`
-4. Icons are now available in both packages
+4. Icons are now available in all 5 packages
 
 ### Testing Changes
 
 ```bash
-# Build both packages
+# Build all packages
 npm run build
 
 # Or build specific package
 npm run build:react
 npm run build:vue
-
-# Test React example
-cd examples/react && npm run dev
-
-# Test Vue example
-cd examples/vue && npm run dev
+npm run build:svelte
+npm run build:solid
+npm run build:web
 ```
 
 ### Cleaning Generated Files
@@ -76,15 +75,18 @@ The `scripts/generate-icons.mjs` script:
 3. **Optimizes** with SVGO (safe preset)
 4. **Normalizes** stroke attributes:
    - Sets `fill="none"`
-   - Sets `stroke="currentColor"`
-   - Sets `stroke-width="1.5"`
-   - Sets `stroke-linecap="round"`
-   - Sets `stroke-linejoin="round"`
+   - Sets `stroke="currentColor"` (customizable via `color` prop)
+   - Sets `stroke-width="1.5"` (customizable via `strokeWidth` prop, 1-2 recommended)
+   - Sets `stroke-linecap="round"` (locked)
+   - Sets `stroke-linejoin="round"` (locked)
    - Sets `vector-effect="non-scaling-stroke"`
 5. **Generates**:
    - React components (`.tsx` files) in `packages/trinil-react/src/icons/`
    - Vue components (`.ts` files) in `packages/trinil-vue/src/icons/`
-   - Index exports in `packages/trinil-{react,vue}/src/index.ts`
+   - Svelte components (`.ts` files) in `packages/trinil-svelte/src/icons/`
+   - SolidJS components (`.tsx` files) in `packages/trinil-solid/src/icons/`
+   - Web Components (`.ts` files) in `packages/trinil-web/src/icons/`
+   - Index exports in each package's `src/index.ts`
 
 ## Component Structure
 
@@ -96,13 +98,14 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const ArrowDown: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
 
   return (
     <svg
@@ -110,7 +113,7 @@ export const ArrowDown: React.FC<IconProps> = React.memo((props) => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      strokeWidth="1.5"
+      strokeWidth={strokeWidth}
       strokeLinecap="round"
       strokeLinejoin="round"
       vectorEffect="non-scaling-stroke"
@@ -139,6 +142,7 @@ export const ArrowDown = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -156,7 +160,7 @@ export const ArrowDown = defineComponent({
           viewBox: '0 0 24 24',
           fill: 'none',
           stroke: props.color,
-          'stroke-width': 1.5,
+          'stroke-width': props.strokeWidth,
           'stroke-linecap': 'round',
           'stroke-linejoin': 'round',
           'vector-effect': 'non-scaling-stroke',

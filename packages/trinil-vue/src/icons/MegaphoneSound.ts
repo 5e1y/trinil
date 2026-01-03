@@ -5,6 +5,7 @@ export const MegaphoneSound = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const MegaphoneSound = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M5 15a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h6.697a1 1 0 0 0 .555-.168l4.151-2.768a.384.384 0 0 1 .597.32v13.232a.384.384 0 0 1-.597.32l-4.151-2.768a1 1 0 0 0-.555-.168H10m-5 0c1.026 0 1.789.95 1.566 1.952L6.23 18.47a1 1 0 0 0 .812 1.203l1.004.168a1 1 0 0 0 1.145-.79L10 15m-5 0h5m9.5-4H22m-2.5-3.5L21 6m-1.5 8.5L21 16"/>`,
+        innerHTML: `<path d="M9 14.25h2.546a1.5 1.5 0 0 1 .832.252l3.977 2.651a.575.575 0 0 0 .895-.479V4.326a.576.576 0 0 0-.895-.48l-3.977 2.652a1.5 1.5 0 0 1-.832.252H5.25a3 3 0 0 0-3 3v1.5a3 3 0 0 0 3 3m3.75 0 1.078 3.956a1.5 1.5 0 0 1-1.153 1.865l-.759.152a1.5 1.5 0 0 1-1.753-1.121L5.25 14.25m3.75 0H5.25m15-3.75h1.5m-1.5-3.75.976-.976m-.976 8.476.976.976"/>`,
       }, children);
     };
   },

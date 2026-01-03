@@ -5,6 +5,7 @@ export const FruitCherry = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const FruitCherry = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M7.5 15c3.5-3 4-5 5.031-11.407M7.501 15a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm5.03-11.407C12.502 10 15.002 11.5 17.5 13m-4.969-9.407c-.61 3.087-4.87 5.57-7.872 4.62a.096.096 0 0 1-.065-.113c.678-3.076 4.959-5.522 7.937-4.507ZM17.5 13a3 3 0 1 1 0 6 3 3 0 0 1 0-6Z"/>`,
+        innerHTML: `<path d="M8.11 14.149a3.75 3.75 0 1 1-4.219 6.202 3.75 3.75 0 0 1 4.218-6.202m0 0c2.39-2.9 3.89-6.65 3.89-11.15m0 0c.715 4.405 1.402 5.898 4.036 8.806M12 3c-2.366-.423-7.177.035-7.5 5.25C6.25 9 10.2 9 12 3m4.036 8.805a3.75 3.75 0 1 0 3.928 6.39 3.75 3.75 0 0 0-3.928-6.39"/>`,
       }, children);
     };
   },

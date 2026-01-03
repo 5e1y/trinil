@@ -5,6 +5,7 @@ export const Boxes = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Boxes = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M12 13V8m0 5-4.5-2m4.5 2 4.5-2M12 13v5m0-5 4.5 2M12 13l-4.5 2M12 8 7.679 6.08M12 8l4.321-1.92M7.5 11V6.65a1 1 0 0 1 .179-.57M7.5 11l-3.906 1.736a1 1 0 0 0-.415.343M16.5 11V6.65a1 1 0 0 0-.179-.57M16.5 11l3.906 1.737c.171.076.313.196.415.343M12 18l4.094 1.82c.13.058.268.087.406.087M12 18l-4.094 1.82a1 1 0 0 1-.406.086m9-4.906v4.906m0-4.906 4.321-1.92M7.5 15v4.906M7.5 15l-4.321-1.92M7.5 19.905a1 1 0 0 1-.406-.087l-3.5-1.555A1 1 0 0 1 3 17.35v-3.7a1 1 0 0 1 .179-.57M16.5 19.905a1 1 0 0 0 .406-.087l3.5-1.555A1 1 0 0 0 21 17.35v-3.7a1 1 0 0 0-.179-.57m-13.142-7a1 1 0 0 1 .415-.344l3.5-1.556a1 1 0 0 1 .812 0l3.5 1.556a1 1 0 0 1 .415.343"/>`,
+        innerHTML: `<path d="M16.5 20.25 21 18v-5.25m-4.5 7.5V15m0 5.25L12 18m9-5.25L16.5 15m4.5-2.25-4.5-2.25m0 4.5L12 12.75M12 18v-5.25M12 18l-4.5 2.25m4.5-7.5 4.5-2.25M12 12.75 7.5 15m4.5-2.25L7.5 10.5m4.5 2.25V7.5m4.5 3V5.25m-9 15V15m0 5.25L3 18v-5.25M7.5 15 3 12.75m0 0 4.5-2.25m0 0V5.25m9 0L12 7.5m4.5-2.25L12 3 7.5 5.25M12 7.5 7.5 5.25"/>`,
       }, children);
     };
   },

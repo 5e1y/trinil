@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const LungsCheck: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M12 7.116h.72a1 1 0 0 0 .97-.758l.566-2.265a.974.974 0 0 1 1.212-.7c1.585.452 2.508 1.736 3.365 3.22.167.29.796 1.503.993 2.24.473 1.765.62 3.075.66 4.808M12 7.116h-.807a1 1 0 0 1-.936-.65l-.954-2.541a.897.897 0 0 0-1.123-.536C6.808 3.846 6 4.616 5.273 6.296c-.354.82-.628 1.669-.923 2.77-.415 1.55-.811 3.05-.811 5.202 0 2.816 1.443 5.414 4.15 6.187l.104.03a1.966 1.966 0 0 0 2.492-1.647s.678-3.47.715-5.722c.006-.343 0-.877 0-.877a1.123 1.123 0 0 1 2.213-.273l.08.324c.138.549.335 1.081.588 1.587l.103.207q.15.301.259.617M12 7.116v-4M16 18l1.43 1.43a.1.1 0 0 0 .14 0L20 17m.486-3.34A5 5 0 0 0 18 13c-1.497 0-2.84.658-3.757 1.7m6.243-1.04a5 5 0 1 1-6.243 1.04"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path stroke-miterlimit="1.788" d="M20.865 11.887a18 18 0 0 0-.58-2.968c-.21-.76-.877-2.011-1.054-2.31-.91-1.531-1.178-2.856-2.859-3.324-.562-.156-1.145.172-1.287.723l-.6 2.338c-.119.459-.543.781-1.03.781h-1.476m1.373 5.339-.085-.334a1.186 1.186 0 0 0-1.157-.878c-.658 0-1.192.519-1.192 1.159 0 0 .006.551 0 .905-.039 2.323-.759 5.904-.759 5.904-.159 1.235-1.413 2.041-2.644 1.7l-.11-.032C4.532 20.093 3 17.412 3 14.508c0-2.221.42-3.769.86-5.367.314-1.137.605-2.013.98-2.859.772-1.733 1.086-2.527 2.542-2.999a.96.96 0 0 1 1.193.553l1.011 2.623c.155.402.551.67.994.67h1.4m0 0V3m2.27 15.75 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

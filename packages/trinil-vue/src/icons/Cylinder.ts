@@ -5,6 +5,7 @@ export const Cylinder = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Cylinder = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M19 6c0 1.657-3.134 3-7 3S5 7.657 5 6m14 0c0-1.657-3.134-3-7-3S5 4.343 5 6m14 0v12c0 1.657-3.134 3-7 3s-7-1.343-7-3V6"/>`,
+        innerHTML: `<path d="M21 7.5c0-2.9-4.03-5.25-9-5.25S3 4.6 3 7.5m18 0c0 2.9-4.03 5.25-9 5.25S3 10.4 3 7.5m18 0v9c0 2.9-4.03 5.25-9 5.25S3 19.4 3 16.5v-9"/>`,
       }, children);
     };
   },

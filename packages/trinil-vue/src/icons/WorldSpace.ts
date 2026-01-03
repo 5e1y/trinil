@@ -5,6 +5,7 @@ export const WorldSpace = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const WorldSpace = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M3.018 16.711 2.5 18.643m0 0 1.932.517M2.5 18.644 7 16.07m14 .64.518 1.932m0 0-1.932.517m1.932-.517-4.5-2.572M12 7.5V3m0 0-1.5 1.5M12 3l1.5 1.5m5.5 9a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/>`,
+        innerHTML: `<path d="M21.75 20.25 21.423 18m.327 2.25-2.25.376m2.25-.376-4.091-3.068M2.25 20.25 2.577 18m-.327 2.25 2.25.376m-2.25-.376 4.091-3.068M12 2.25l1.5 1.5M12 2.25l-1.5 1.5m1.5-1.5v4.5m5.659 10.432A6.75 6.75 0 0 0 12 6.75m5.659 10.43A6.74 6.74 0 0 1 12 20.25a6.74 6.74 0 0 1-5.659-3.068m11.318 0-.955-.716M12 6.75a6.75 6.75 0 0 0-5.659 10.432M12 6.75v1.875m-5.659 8.557.955-.716"/>`,
       }, children);
     };
   },

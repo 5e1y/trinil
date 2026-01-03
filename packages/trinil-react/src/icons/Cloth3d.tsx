@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const Cloth3d: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="m3.716 7.856 3.999-3.6A1 1 0 0 1 8.384 4h1.044c.043 0 .081.027.098.067.126.29.729 1.433 2.474 1.433s2.348-1.142 2.474-1.433A.11.11 0 0 1 14.572 4h1.044a1 1 0 0 1 .67.257l3.999 3.599a1 1 0 0 1 .099 1.384L19.2 10.659a1 1 0 0 1-1.475.067l-.555-.555a.1.1 0 0 0-.17.07V19a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1L7 10.241a.1.1 0 0 0-.17-.07l-.556.555a1 1 0 0 1-1.475-.067l-1.183-1.42a1 1 0 0 1 .1-1.383Z"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path stroke-miterlimit="1.788" d="M15.431 13.124h.002c.433.234.746.689.746 1.249a1.27 1.27 0 0 0 1.872 1.119L21.75 13.5 12 8.25 9.19 9.763m6.241 3.361a1.4 1.4 0 0 0-1.342.001q-.39.212-.718.495m2.06-.496L9.19 9.764m4.181 3.856A3.97 3.97 0 0 0 12 16.623v2.127L2.25 13.5v-2.127c0-1.462.802-2.805 2.09-3.498a1.4 1.4 0 0 1 1.35.003l3.5 1.885m4.181 3.857 3.476 1.872"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

@@ -5,6 +5,7 @@ export const IpAdress = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const IpAdress = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M12 14a4 4 0 0 0 4-4m-4 4a4 4 0 0 1-4-4m4 4a6.03 6.03 0 0 0 1.5-4M12 14a6.06 6.06 0 0 1-1.503-4M16 10a4 4 0 0 0-4-4m4 4h-2.5M8 10a4 4 0 0 1 4-4m-4 4h2.497M12 6a6.1 6.1 0 0 1 1.5 4M12 6a6.06 6.06 0 0 0-1.503 4m3.002 0h-3.002m-3.53 5.248 4.958 5.666a.1.1 0 0 0 .15 0l4.958-5.666a7.39 7.39 0 0 0 1.818-5.232l-.026-.524a6.833 6.833 0 0 0-13.65 0l-.026.524a7.39 7.39 0 0 0 1.818 5.232Z"/>`,
+        innerHTML: `<path stroke-miterlimit="1.788" d="M6.75 10.5c0-2.9 2.35-5.25 5.25-5.25M6.75 10.5c0 2.9 2.35 5.25 5.25 5.25M6.75 10.5h3.375M12 5.25c2.9 0 5.25 2.35 5.25 5.25M12 5.25c-1.036 0-1.875 2.35-1.875 5.25M12 5.25c1.036 0 1.875 2.35 1.875 5.25M12 15.75c2.9 0 5.25-2.35 5.25-5.25M12 15.75c-1.036 0-1.875-2.35-1.875-5.25M12 15.75c1.036 0 1.875-2.35 1.875-5.25m3.375 0h-3.375m0 0h-3.75M12 21.75l5.602-5.21C23.086 11.44 19.483 2.25 12 2.25S.914 11.44 6.398 16.54z"/>`,
       }, children);
     };
   },

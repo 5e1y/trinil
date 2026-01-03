@@ -5,6 +5,7 @@ export const CloudSnow = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const CloudSnow = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M12.535 9a4.01 4.01 0 0 1 2.375-1.85M10 7.535a4.012 4.012 0 0 0-2.899-.434m7.809.05Q15.43 7 16 7a4 4 0 0 1 0 8H8a4 4 0 0 1-.899-7.899m7.809.05A4.001 4.001 0 0 0 7.1 7.1M5 18l1-1m-1 1 1 1m-1-1-1 1m1-1-1-1m5.5 2 1-1m-1 1 1 1m-1-1-1 1m1-1-1-1m5.5 0 1-1m-1 1 1 1m-1-1-1 1m1-1-1-1m5.5 2 1-1m-1 1 1 1m-1-1-1 1m1-1-1-1"/>`,
+        innerHTML: `<path d="M15.557 6.084a5.252 5.252 0 0 0-10.203.373m10.203-.373A5 5 0 0 1 16.5 6a5.25 5.25 0 1 1 0 10.5h-9A5.25 5.25 0 0 1 5.354 6.457m10.203-.373a5.2 5.2 0 0 0-1.763.666m-8.44-.293.032-.014A5.2 5.2 0 0 1 7.5 6c.99 0 1.916.274 2.706.75M5.25 19.5l2.25 2.25m-2.25 0L7.5 19.5m3.75 0 2.25 2.25m-2.25 0 2.25-2.25m3.75 0 2.25 2.25m-2.25 0 2.25-2.25"/>`,
       }, children);
     };
   },

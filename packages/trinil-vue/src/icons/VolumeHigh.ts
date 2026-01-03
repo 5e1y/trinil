@@ -5,6 +5,7 @@ export const VolumeHigh = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const VolumeHigh = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M18.318 6c3.576 3.314 3.576 8.686 0 12M14 8.667c1.987 1.84 1.987 4.825 0 6.666m2.159-8c2.782 2.578 2.782 6.756 0 9.334M5 16h1.697a1 1 0 0 1 .555.168l4.151 2.768a.383.383 0 0 0 .597-.32V5.384a.384.384 0 0 0-.597-.32L7.252 7.832A1 1 0 0 1 6.697 8H5a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2Z"/>`,
+        innerHTML: `<path d="M14.652 9.348A3.74 3.74 0 0 1 15.75 12c0 1.036-.42 1.973-1.098 2.652m2.121-7.425A6.73 6.73 0 0 1 18.75 12a6.73 6.73 0 0 1-1.977 4.773m2.121-11.667A9.72 9.72 0 0 1 21.75 12a9.72 9.72 0 0 1-2.856 6.894M2.25 9.75v4.5a3 3 0 0 0 3 3h1.5l4.5 3V3.75l-4.5 3h-1.5a3 3 0 0 0-3 3"/>`,
       }, children);
     };
   },

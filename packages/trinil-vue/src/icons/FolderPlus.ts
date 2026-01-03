@@ -5,6 +5,7 @@ export const FolderPlus = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const FolderPlus = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M21 14V8.5a1 1 0 0 0-1-1h-7.654A1.99 1.99 0 0 1 10.5 6.25 1.99 1.99 0 0 0 8.654 5H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h9.1m7.9-5a4.98 4.98 0 0 0-3-1m3 1c1.214.912 2 2.364 2 4m-9.9 1a5 5 0 0 0 4.9 4m-4.9-4a5 5 0 0 1-.1-1m10 0a5 5 0 0 1-5 5m5-5a5 5 0 0 0-5-5m0 10a5 5 0 0 1-5-5m0 0a5 5 0 0 1 5-5m0 5v-2.501M18 18h2.502M18 18v2.495M18 18h-2.503"/>`,
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 12.387V8.25a1.5 1.5 0 0 0-1.5-1.5h-6.257a3 3 0 0 1-2.122-.879L10.63 4.63a3 3 0 0 0-2.122-.879H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h7.884m6.741 2.25v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`,
       }, children);
     };
   },

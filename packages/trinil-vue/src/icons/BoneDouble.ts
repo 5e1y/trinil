@@ -5,6 +5,7 @@ export const BoneDouble = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const BoneDouble = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M19 5a2 2 0 1 0-3.483 1.342.104.104 0 0 1-.002.143L12 10m7-5a2 2 0 1 1-1.342 3.483.104.104 0 0 0-.143.002L14 12m5-7c0 .364-.097.706-.267 1M5 19a2 2 0 1 1 1.342-3.483c.04.037.104.037.143-.002L10 12m-5 7a2 2 0 1 0 3.483-1.342.104.104 0 0 1 .002-.143L12 14m-7 5c0-.364.097-.706.268-1M19 19a2 2 0 1 0-1.342-3.483.104.104 0 0 1-.143-.002L14 12m5 7a2 2 0 1 1-3.483-1.342.104.104 0 0 0-.002-.143L12 14m7 5c-.364 0-.706-.097-1-.267M5 5a2 2 0 1 1 3.483 1.342.104.104 0 0 0 .002.143L12 10M5 5a2 2 0 1 0 1.342 3.483.104.104 0 0 1 .143.002L10 12M5 5c.364 0 .706.097 1 .268M14 12l-2 2m-2-2 2-2"/>`,
+        innerHTML: `<path d="M18.719 5.281q.199-.03.406-.031a2.625 2.625 0 1 1-1.856 4.481L15 12m3.719-6.719q.03-.198.031-.406a2.625 2.625 0 1 0-4.481 1.856L12 9m6.719-3.719a2.63 2.63 0 0 0-1.775 1.132M5.281 18.72q-.198.03-.406.031a2.625 2.625 0 1 1 1.856-4.481L9 12m-3.719 6.719q-.03.199-.031.406a2.625 2.625 0 1 0 4.481-1.856L12 15m-6.719 3.719a2.63 2.63 0 0 0 1.775-1.132M5.28 5.28a2.625 2.625 0 1 0 1.45 4.45L9 12M5.281 5.281a2.625 2.625 0 1 1 4.45 1.45L12 9M5.281 5.281a2.63 2.63 0 0 1 1.775 1.132M18.719 18.72q.199.03.406.031a2.625 2.625 0 1 0-1.856-4.481L15 12m3.719 6.719q.03.199.031.406a2.625 2.625 0 1 1-4.481-1.856L12 15m6.719 3.719a2.63 2.63 0 0 1-1.775-1.132M12 9l-3 3m3 3 3-3"/>`,
       }, children);
     };
   },

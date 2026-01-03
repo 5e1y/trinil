@@ -5,6 +5,7 @@ export const Leave = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Leave = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="m19.5 20-3-3m0 0-2-2m2 2c4.735-3.642 2.641-11.195-3.293-11.88L3.5 4m13 13c-3.642 4.735-11.195 2.641-11.88-3.293L3.5 4m0 0 7 7m4 4H9m5.5 0V9.5m0 5.5-4-4m0 0V7.5m0 3.5H7"/>`,
+        innerHTML: `<path d="m3 3 11.175 1.315a6.9 6.9 0 0 1 2.913 1.036c3.617 2.302 4.3 7.302 1.431 10.489l-1.269 1.41M3 3l1.315 11.175a6.9 6.9 0 0 0 1.036 2.913c2.302 3.617 7.302 4.3 10.489 1.431l1.41-1.269M3 3l7.5 7.5M21 21l-3.75-3.75m0 0L15 15m0 0V9m0 6-4.5-4.5M15 15H9m1.5-4.5v-3m0 3h-3"/>`,
       }, children);
     };
   },

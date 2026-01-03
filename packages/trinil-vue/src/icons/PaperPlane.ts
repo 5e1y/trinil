@@ -5,6 +5,7 @@ export const PaperPlane = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const PaperPlane = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M8.5 12.5 5.249 9.249a1 1 0 0 1 .464-1.678l14.125-3.53a.1.1 0 0 1 .085.016M8.5 12.5l-.596 2.383a1 1 0 0 0 1.213 1.213L11.5 15.5m-3-3 11.423-8.443M11.5 15.5l3.251 3.25a1 1 0 0 0 1.677-.464L19.96 4.161a.1.1 0 0 0-.017-.084M11.5 15.5l8.443-11.423m0 0-.02-.02"/>`,
+        innerHTML: `<path d="m21.75 2.25-5.25 19.5-4.5-4.5m9.75-15L2.25 7.5l4.5 4.5m15-9.75L6.75 12m15-9.75-9.75 15m0 0-6.75 1.5L6.75 12"/>`,
       }, children);
     };
   },

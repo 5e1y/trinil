@@ -5,6 +5,7 @@ export const BuildingAlt = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const BuildingAlt = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M12 20h2.5M12 20V9.5M12 20H9.5m5 0h3m-3 0v-3a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v3m0 0H19a1 1 0 0 0 1-1v-8.882a1 1 0 0 0-.553-.894l-3-1.5a1 1 0 0 0-.894 0L12 9.5m0 0V6.618a1 1 0 0 0-.553-.894l-2.97-1.485a1 1 0 0 0-.941.025L4.506 5.99A1 1 0 0 0 4 6.858V19a1 1 0 0 0 1 1h1.5m3 0h-3m3 0v-3a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1v3m9.5-6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3ZM8 10a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z"/>`,
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 9V6.177a1.5 1.5 0 0 0-.83-1.342l-3-1.5a1.5 1.5 0 0 0-1.34 0l-3 1.5A1.5 1.5 0 0 0 3 6.177V19.5A1.5 1.5 0 0 0 4.5 21h1.35a.15.15 0 0 0 .15-.15V18a1.5 1.5 0 1 1 3 0v2.85c0 .083.067.15.15.15H12m0-12v12m0-12 3.83-1.915a1.5 1.5 0 0 1 1.34 0l3 1.5A1.5 1.5 0 0 1 21 9.927V19.5a1.5 1.5 0 0 1-1.5 1.5h-1.35a.15.15 0 0 1-.15-.15V18a1.5 1.5 0 1 0-3 0v2.85a.15.15 0 0 1-.15.15H12M6 9a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0m10.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"/>`,
       }, children);
     };
   },

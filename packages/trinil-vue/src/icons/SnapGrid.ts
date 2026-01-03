@@ -5,6 +5,7 @@ export const SnapGrid = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const SnapGrid = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="m14.94 10.475-1.698 1.697a.1.1 0 0 0 0 .141L15.93 15a.1.1 0 0 0 .142 0l1.697-1.697m-2.829-2.828 1.415-1.414a1 1 0 0 0-1.415-1.415l-1.414 1.415m1.414 1.414 2.829 2.828m0 0 1.767-1.767a5 5 0 1 0-7.07-7.072l-1.768 1.768m2.828 2.829-1.697 1.697a.1.1 0 0 1-.141 0L9 8.07a.1.1 0 0 1 0-.142l1.697-1.697m2.828 2.829-2.828-2.829M3 17v3a1 1 0 0 0 1 1h3m-4-4v-3a1 1 0 0 1 1-1h3m-4 4h8m0 0v-3a1 1 0 0 0-1-1H7m4 4v3a1 1 0 0 1-1 1H7m0-8v8"/>`,
+        innerHTML: `<path d="M2.25 17.25v4.5h4.5m-4.5-4.5v-4.5h4.5m-4.5 4.5h4.5m4.5 0v-4.5h-4.5m4.5 4.5v4.5h-4.5m4.5-4.5h-4.5m0 0v-4.5m0 4.5v4.5M16.875 9.375 14.25 12l2.625 2.625L19.5 12m-2.625-2.625a1.591 1.591 0 0 0-2.25-2.25m2.25 2.25L19.5 12m-4.875-4.875L12 9.75 9.375 7.125 12 4.5m2.625 2.625L12 4.5m7.5 7.5.697-.697a5.303 5.303 0 1 0-7.5-7.5L12 4.5"/>`,
       }, children);
     };
   },

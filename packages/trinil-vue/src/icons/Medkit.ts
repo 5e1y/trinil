@@ -5,6 +5,7 @@ export const Medkit = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Medkit = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M16 6h3a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h3m8 0-.544-1.632A2 2 0 0 0 13.559 3h-3.117a2 2 0 0 0-1.898 1.368L8 6m8 0H8m2.1 2.5h3.8a.1.1 0 0 1 .1.1v2.3a.1.1 0 0 0 .1.1h2.3a.1.1 0 0 1 .1.1v3.8a.1.1 0 0 1-.1.1h-2.3a.1.1 0 0 0-.1.1v2.3a.1.1 0 0 1-.1.1h-3.8a.1.1 0 0 1-.1-.1v-2.3a.1.1 0 0 0-.1-.1H7.6a.1.1 0 0 1-.1-.1v-3.8a.1.1 0 0 1 .1-.1h2.3a.1.1 0 0 0 .1-.1V8.6a.1.1 0 0 1 .1-.1Z"/>`,
+        innerHTML: `<path d="M6.75 5.25h-1.5a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V6.75a1.5 1.5 0 0 0-1.5-1.5h-1.5m-10.5 0 .67-1.342a3 3 0 0 1 2.684-1.658h3.792a3 3 0 0 1 2.683 1.658l.671 1.342m-10.5 0h10.5m-7.5 3h4.5v3h3v4.5h-3v3h-4.5v-3h-3v-4.5h3z"/>`,
       }, children);
     };
   },

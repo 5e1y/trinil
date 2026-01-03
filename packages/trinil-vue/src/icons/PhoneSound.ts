@@ -5,6 +5,7 @@ export const PhoneSound = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const PhoneSound = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M12 9a3 3 0 0 1 2.121.879A3 3 0 0 1 15 12m6 0a9 9 0 0 0-9-9m6 9a6 6 0 0 0-6-6M4.347 9.55c2.336 4.765 5.892 8.341 10.184 10.248 1.338.595 2.871.175 3.906-.86.57-.569.985-1.249 1.243-1.746.209-.4.067-.875-.299-1.14L17.095 14.4a1 1 0 0 0-1.293.103l-.695.695a.206.206 0 0 1-.256.028 20 20 0 0 1-6.136-6.136.206.206 0 0 1 .028-.256l.697-.697a1 1 0 0 0 .105-1.29l-1.67-2.324c-.228-.318-.623-.472-.986-.324a5.3 5.3 0 0 0-1.74 1.159C4.036 6.467 3.654 8.14 4.346 9.55Z"/>`,
+        innerHTML: `<path d="M15.75 12A3.75 3.75 0 0 0 12 8.25M18.75 12A6.75 6.75 0 0 0 12 5.25m0-3c5.385 0 9.75 4.365 9.75 9.75M2.679 8.872c2.887 5.831 7.282 10.21 12.587 12.545 1.654.727 3.55.213 4.829-1.054.702-.696 1.216-1.528 1.536-2.137.257-.49.081-1.072-.37-1.395l-2.825-2.024a1.245 1.245 0 0 0-1.599.126l-.858.85a.26.26 0 0 1-.317.035 24.6 24.6 0 0 1-7.584-7.511.25.25 0 0 1 .035-.314l.86-.853a1.215 1.215 0 0 0 .13-1.58L7.04 2.716c-.283-.39-.77-.578-1.219-.397A6.6 6.6 0 0 0 3.67 3.738c-1.374 1.36-1.847 3.407-.991 5.134"/>`,
       }, children);
     };
   },

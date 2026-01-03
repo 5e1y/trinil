@@ -5,6 +5,7 @@ export const Perfusion = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Perfusion = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M12 21h3.5m0 0H19m-3.5 0V5.997a2.997 2.997 0 1 0-5.994 0v.259m0 0A4.8 4.8 0 0 0 11.034 6a1.064 1.064 0 0 1 1.407 1.007v3.52a1.39 1.39 0 0 1-.941 1.314 6.3 6.3 0 0 1-1.994.334m0-5.92a4.8 4.8 0 0 1-1.532-.245l-.035-.012a1.09 1.09 0 0 0-1.433 1.033v3.47c0 .61.39 1.15.966 1.342l.035.011a6.3 6.3 0 0 0 1.999.321m0 0c.167 1.442.002 4.625-1.999 5.825"/>`,
+        innerHTML: `<path d="M20.25 21.75h-4.5m0 0h-4.5m4.5 0V6c0-2.071-1.7-3.75-3.771-3.75-2.048 0-3.729 1.66-3.729 3.708m0 0c.63 0 1.26-.089 1.871-.266.536-.156 1.129.214 1.129.772v3.859c0 .568-.317 1.101-.855 1.283a6.7 6.7 0 0 1-2.145.352m0-6c-.63 0-1.26-.089-1.872-.266-.535-.156-1.128.214-1.128.772v3.859c0 .568.317 1.101.855 1.283.696.235 1.42.352 2.145.352m0 0c0 2.292.75 3.792-1.5 5.292"/>`,
       }, children);
     };
   },

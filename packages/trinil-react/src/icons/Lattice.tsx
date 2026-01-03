@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const Lattice: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M18 10a1.5 1.5 0 1 0-1.296-2.256M18 10a1.5 1.5 0 0 1-1.296-.744M18 10v4m0 0a1.5 1.5 0 0 0-1.296 2.256M18 14a1.5 1.5 0 1 1-1.296 2.256M12 17.5a1.5 1.5 0 0 1 1.296.744M12 17.5a1.5 1.5 0 0 0-1.296.744M12 17.5v-4m0 0a1.5 1.5 0 0 0 1.296-2.256M12 13.5a1.5 1.5 0 0 1-1.296-2.256M6 10a1.5 1.5 0 1 1 1.296-2.256M6 10a1.5 1.5 0 0 0 1.296-.744M6 10v4m0 0a1.5 1.5 0 1 0 1.296 2.256M6 14a1.5 1.5 0 0 1 1.296 2.256m3.408-5.012a1.5 1.5 0 0 1 2.592 0m-2.592 0L7.296 9.256m6 1.988 3.408-1.988m-3.408 8.988a1.5 1.5 0 1 1-2.592 0m2.592 0 3.408-1.988m-6 1.988-3.408-1.988m0-7a1.49 1.49 0 0 0 0-1.512m0 0 3.408-1.988m2.592 0a1.5 1.5 0 1 0-2.592 0m2.592 0a1.5 1.5 0 0 1-2.592 0m2.592 0 3.408 1.988m0 0a1.5 1.5 0 0 0 0 1.512"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="m6.513 7.244 3.474-1.738M6.513 7.244c.152.302.237.644.237 1.006s-.085.704-.237 1.006m0-2.012A2.25 2.25 0 1 0 4.5 10.5m5.487-4.994a2.25 2.25 0 1 1 4.026 0m-4.026 0a2.25 2.25 0 0 0 4.026 0m0 0 3.474 1.738m0 0a2.24 2.24 0 0 0-.237 1.006c0 .362.085.704.237 1.006m0-2.012A2.25 2.25 0 1 1 19.5 10.5m0 0v3m0-3a2.25 2.25 0 0 1-2.013-1.244M19.5 13.5a2.25 2.25 0 1 1-2.013 3.256M19.5 13.5a2.25 2.25 0 0 0-2.013 3.256m0 0-3.474 1.738m0 0a2.25 2.25 0 1 1-4.026 0m4.026 0A2.25 2.25 0 0 0 12 17.25m-2.013 1.244-3.474-1.738m3.474 1.738A2.25 2.25 0 0 1 12 17.25m-5.487-.494A2.25 2.25 0 1 1 4.5 13.5m2.013 3.256A2.25 2.25 0 0 0 4.5 13.5m0 0v-3m0 0a2.25 2.25 0 0 0 2.013-1.244m0 0 3.474 1.737m0 0A2.25 2.25 0 0 0 12 14.25m-2.013-3.257a2.25 2.25 0 0 1 4.026 0m0 0 3.474-1.737m-3.474 1.737A2.25 2.25 0 0 1 12 14.25m0 0v3"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

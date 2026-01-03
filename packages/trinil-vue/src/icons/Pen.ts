@@ -5,6 +5,7 @@ export const Pen = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Pen = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="m17.5 11.5 2.293-2.293a1 1 0 0 0 0-1.414l-3.586-3.586a1 1 0 0 0-1.414 0L12.5 6.5m5 5-5-5m5 5c1.29 2.838-.353 6.144-3.393 6.83l-9.07 2.048a1 1 0 0 1-.927-.268L4 20m8.5-13.5c-2.838-1.29-6.144.352-6.83 3.393l-2.049 9.07a1 1 0 0 0 .269.927L4 20m0 0 5.586-5.586m0 0a2 2 0 1 1 2.829-2.829 2 2 0 0 1-2.83 2.83Z"/>`,
+        innerHTML: `<path d="m19.5 12 1.81-1.81a1.5 1.5 0 0 0 0-2.122l-5.378-5.379a1.5 1.5 0 0 0-2.122 0L12 4.5m7.5 7.5L12 4.5m7.5 7.5c.42 3.786-2.513 7.561-6.27 8.188L4 21.726a1.49 1.49 0 0 1-1.307-.42M12 4.5c-3.786-.42-7.561 2.513-8.188 6.27L2.274 20a1.49 1.49 0 0 0 .42 1.307m6.965-6.966a2.25 2.25 0 1 1 3.182-3.182 2.25 2.25 0 0 1-3.182 3.182m0 0-6.966 6.966"/>`,
       }, children);
     };
   },

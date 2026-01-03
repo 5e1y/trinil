@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const Glass: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M8 21h4m0 0h4m-4 0v-9m0 0h-.232a5.228 5.228 0 0 1-4.35-8.127l.552-.828A.1.1 0 0 1 8.053 3h7.893a.1.1 0 0 1 .084.045l.552.828A5.227 5.227 0 0 1 12.232 12z"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M12 12.75h-.147c-5.415 0-8.449-6.242-5.103-10.5h10.5c3.346 4.258.312 10.5-5.103 10.5zm0 0V21m0 0h4.5M12 21H7.5"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

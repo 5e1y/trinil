@@ -5,6 +5,7 @@ export const Road = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Road = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M5 21v-6C5 9.477 9.477 5 15 5h6m0 8h-6a2 2 0 0 0-2 2v6m-4 0v-2m0-2v-2m.341-2a6 6 0 0 1 1.004-1.786m1.515-1.328A6 6 0 0 1 14 9.083M16 9h2m2 0h1"/>`,
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21 3h-6C8.373 3 3 8.373 3 15v6m10.5 0v-6a1.5 1.5 0 0 1 1.5-1.5h6m0-5.25h-1.5m-3.75 0h-1.5M8.25 21v-1.5m0-3.75v-1.5m1.5-3.75.75-.75"/>`,
       }, children);
     };
   },

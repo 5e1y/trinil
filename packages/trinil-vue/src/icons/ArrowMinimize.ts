@@ -5,6 +5,7 @@ export const ArrowMinimize = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const ArrowMinimize = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="m20 4-6 6m0 0h5.5M14 10V4.5M4 20l6-6m0 0H4.5m5.5 0v5.5"/>`,
+        innerHTML: `<path stroke-miterlimit="1.788" d="m21 3-7.5 7.5m0 0V3.75m0 6.75h6.75M3 21l7.5-7.5m0 0v6.75m0-6.75H3.75"/>`,
       }, children);
     };
   },

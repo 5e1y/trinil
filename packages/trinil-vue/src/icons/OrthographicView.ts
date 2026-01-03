@@ -5,6 +5,7 @@ export const OrthographicView = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const OrthographicView = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M8 4H4.1a.1.1 0 0 0-.1.1V8m4-4v4m0-4h4M8 20H4.1a.1.1 0 0 1-.1-.1V16m4 4v-4m0 4h4M8 8v4m0-4h4M8 8H4m4 4v4m0-4H4m4 0h4m-4 4h4m-4 0H4m8-12v4m0-4h4m-4 16v-4m0 4h4M12 8v4m0-4h4m-4 4v4m0-4h4m-4 4h4m0 4h3.9a.1.1 0 0 0 .1-.1V16m-4 4v-4m0-12h3.9a.1.1 0 0 1 .1.1V8m-4-4v4m0 8v-4m0 4h4m-4-4V8m0 4h4m-4-4h4m0 0v4M4 8v4m0 0v4m16-4v4"/>`,
+        innerHTML: `<path d="M9 21H4.5A1.5 1.5 0 0 1 3 19.5V15m6 6v-6m0 6h6M9 3H4.5A1.5 1.5 0 0 0 3 4.5V9m6-6v6m0-6h6M9 15V9m0 6h6m-6 0H3m6-6H3m6 0h6m0-6h4.5A1.5 1.5 0 0 1 21 4.5V9m-6-6v6m0 12h4.5a1.5 1.5 0 0 0 1.5-1.5V15m-6 6v-6m0-6v6m0-6h6m-6 6h6m0 0V9M3 15V9"/>`,
       }, children);
     };
   },

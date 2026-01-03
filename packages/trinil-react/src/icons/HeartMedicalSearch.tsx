@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const HeartMedicalSearch: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M6.807 10.018a5.95 5.95 0 0 0-.443 5l.79 2.215a5.676 5.676 0 0 0 6.724 3.598m-7.07-10.813C5.356 9 4 9 4 9m2.807 1.018c.344-.6.79-1.138 1.317-1.59m0 0a3.5 3.5 0 0 1-.113-.645m.113.646c.731 2.663 3.63 0 5.5-2.032.262-.285.545-.537.84-.758M8.012 7.783a3.484 3.484 0 0 1 .619-2.287m-.619 2.287C5.921 6.5 4.001 6.5 4.001 6.5m11.895 1.247C15.106 8.413 14.5 9.5 15 11.5l.072.179c.266.667.363 1.375.298 2.068m.526-6C17.375 6.5 19 6.5 19 6.5m-3.104 1.247a6.03 6.03 0 0 1 3.094 5.351m-4.525-7.459C16.65 4 19 4 19 4m-4.535 1.64a3.5 3.5 0 0 0-1.775-1.432m-2.392.004c.374-.137.78-.212 1.202-.212.418 0 .819.073 1.19.208m-2.392.004A3.5 3.5 0 0 0 8.63 5.496m1.668-1.284L9.68 2.5m3.01 1.708.627-1.708M8.63 5.496 7 4.351m11.99 8.747a5.02 5.02 0 0 0-3.62.649m3.62-.649A5.002 5.002 0 0 1 18 23c-1.71 0-3.22-.86-4.122-2.17m0 0A4.98 4.98 0 0 1 13 18c0-1.797.948-3.372 2.37-4.253m3.544 5.167a2 2 0 1 1-2.828-2.828 2 2 0 0 1 2.828 2.828Zm0 0L20 20"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path stroke-miterlimit="1.788" d="M12.359 21.708c-2.33-.266-4.335-1.773-5.139-3.929l-.87-2.334a6.04 6.04 0 0 1 .488-5.27m0 0C5.242 9.1 3.75 9.1 3.75 9.1m3.088 1.074a6.5 6.5 0 0 1 1.449-1.676m0 0a3.5 3.5 0 0 1-.125-.68m.125.68c.804 2.807 3.992 0 6.05-2.142.288-.3.6-.565.924-.798m-7.099 2.26a3.568 3.568 0 0 1 .68-2.41m-.68 2.41C5.862 6.466 3.75 6.466 3.75 6.466m13.085 1.602c1.479.787 2.585 2.012 3.095 3.462m-3.095-3.462c-.813.657-1.449 1.703-1.076 3.563m1.076-3.563c1.627-1.314 3.415-1.314 3.415-1.314m-4.989-1.195C17.666 3.83 20.25 3.83 20.25 3.83M15.261 5.56A3.83 3.83 0 0 0 13.31 4.05m-2.632.005A4 4 0 0 1 12 3.83c.46 0 .9.077 1.31.219m-2.633.005a3.84 3.84 0 0 0-1.834 1.353m1.834-1.353L9.998 2.25m3.311 1.8.69-1.8M8.842 5.408 7.05 4.201M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

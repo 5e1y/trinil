@@ -5,6 +5,7 @@ export const GraphBarsLarge = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const GraphBarsLarge = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M3 4.5V18a1 1 0 0 0 1 1h1.5m16 0h-1m0 0V5.1a.1.1 0 0 0-.1-.1h-2.8a.1.1 0 0 0-.1.1V19m3 0h-3m0 0h-3m0 0h-3m3 0V8.1a.1.1 0 0 0-.1-.1h-2.8a.1.1 0 0 0-.1.1V19m0 0h-3m0 0v-6.9a.1.1 0 0 0-.1-.1H5.6a.1.1 0 0 0-.1.1V19m3 0h-3"/>`,
+        innerHTML: `<path d="M2.25 3.75v15a1.5 1.5 0 0 0 1.5 1.5h18m-16.5-3h3v-6h-3zm6 0v-9h3v9zm6 0h3V3.75h-3z"/>`,
       }, children);
     };
   },

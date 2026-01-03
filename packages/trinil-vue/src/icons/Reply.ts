@@ -5,6 +5,7 @@ export const Reply = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Reply = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M16 13a3 3 0 0 0-3-3H8m0 0 2.5-2.5M8 10l2.5 2.5M9 4.5h6a6 6 0 0 1 2.651 11.384c-.38.188-.652.559-.588.978.09.59.307 1.432.837 2.031.062.07.1.16.1.253a.34.34 0 0 1-.354.346c-2.565-.118-3.805-1.506-4.325-2.35-.226-.366-.611-.642-1.042-.642H9a6 6 0 0 1 0-12Z"/>`,
+        innerHTML: `<path d="m6.75 10.5 3-3m-3 3 3 3m-3-3h6.75a3 3 0 0 1 3 3M15 3.75H9a6.75 6.75 0 0 0 0 13.5h3.75a7.5 7.5 0 0 0 6 3l-.06-.06a3.97 3.97 0 0 1-1.11-3.45A6.752 6.752 0 0 0 15 3.75"/>`,
       }, children);
     };
   },

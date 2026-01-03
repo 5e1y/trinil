@@ -5,6 +5,7 @@ export const FlowerDaisy = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const FlowerDaisy = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M14.568 5.8c.93-1.113 2.688-1.271 3.796-.164s.95 2.866-.165 3.796m-3.631-3.631C14.698 4.355 13.566 3 12 3S9.302 4.355 9.432 5.8m5.136 0-1.276 3.081M9.432 18.2c-.93 1.114-2.689 1.272-3.796.165-1.107-1.108-.95-2.866.165-3.796m3.631 3.631C9.302 19.644 10.434 21 12 21s2.698-1.355 2.568-2.8m-5.136 0 1.276-3.081m7.491-.551c1.114.93 1.272 2.688.165 3.796-1.108 1.107-2.866.95-3.796-.165m3.631-3.631C19.644 14.698 21 13.566 21 12s-1.355-2.698-2.8-2.568m0 5.136-3.081-1.276M5.8 9.432c-1.114-.93-1.272-2.689-.165-3.796s2.866-.95 3.796.165M5.801 9.432C4.355 9.302 3 10.434 3 12s1.355 2.698 2.8 2.568m0-5.136 3.081 1.276m5.687 7.491-1.276-3.08m4.907-5.687-3.08 1.276M9.432 5.801l1.276 3.08m-4.907 5.687 3.08-1.276m6.238-2.584c.165.398.256.834.256 1.292s-.091.894-.256 1.292m0-2.584a3.39 3.39 0 0 0-1.827-1.827m-4.41 1.827A3.4 3.4 0 0 0 8.624 12c0 .458.091.894.256 1.292m0-2.584a3.39 3.39 0 0 1 1.827-1.827m-1.827 4.41a3.39 3.39 0 0 0 1.827 1.828m0 0c.398.165.834.256 1.292.256s.894-.091 1.292-.256m0 0a3.39 3.39 0 0 0 1.827-1.827m-1.827-4.41A3.4 3.4 0 0 0 12 8.624c-.458 0-.894.091-1.292.256"/>`,
+        innerHTML: `<path d="M9.03 4.828A3 3 0 0 0 4.827 9.03m4.201-4.2a3 3 0 0 1 5.942 0m-5.942 0 1.823 4.399m4.119-4.4a3 3 0 0 1 4.2 4.201m-4.2-4.2-1.823 4.399m6.024-.199a3 3 0 0 1 0 5.942m0-5.942-4.4 1.823m4.4 4.119a3 3 0 0 1-4.201 4.2m4.2-4.2-4.399-1.823m.199 6.024a3 3 0 0 1-5.942 0m5.942 0-1.823-4.4m-4.119 4.4a3 3 0 0 1-4.2-4.201m4.2 4.2 1.823-4.399m-6.024.199a3 3 0 0 1 0-5.942m0 5.942 4.4-1.823m-4.4-4.119 4.4 1.823m0 0A3 3 0 0 0 9 12c0 .407.081.795.228 1.148m0-2.296a3 3 0 0 1 1.624-1.624m0 0A3 3 0 0 1 12 9c.407 0 .795.081 1.148.228m0 0a3 3 0 0 1 1.624 1.624m0 0a2.993 2.993 0 0 1 0 2.297m0 0a3 3 0 0 1-1.624 1.623m0 0A3 3 0 0 1 12 15c-.407 0-.795-.081-1.148-.228m0 0a3 3 0 0 1-1.624-1.624"/>`,
       }, children);
     };
   },

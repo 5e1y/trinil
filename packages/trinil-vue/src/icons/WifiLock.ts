@@ -5,6 +5,7 @@ export const WifiLock = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const WifiLock = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M3 9c4.97-4.97 13.03-4.97 18 0M5 12c3.866-3.866 10.134-3.866 14 0m-2.5 5.5v-1a1.5 1.5 0 0 1 3 0v1m-3 0h3m-3 0a.5.5 0 0 0-.5.5v1a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-1a.5.5 0 0 0-.5-.5m-4.16-3.735a5 5 0 1 1 5.32 8.47 5 5 0 0 1-5.32-8.47Zm0 0A7.07 7.07 0 0 0 7 15m5.75 3a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"/>`,
+        innerHTML: `<path stroke-miterlimit="1.788" d="M22.076 8.674A14.2 14.2 0 0 0 12 4.5 14.2 14.2 0 0 0 1.924 8.674m6.364 6.364a5.23 5.23 0 0 1 4.613-1.461m-7.795-1.721A9.72 9.72 0 0 1 12 9a9.7 9.7 0 0 1 6.235 2.254m-6.895 7.853a.75.75 0 0 1-.067-.543M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`,
       }, children);
     };
   },

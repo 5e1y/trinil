@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const FolderDownload: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M21 14V8.5a1 1 0 0 0-1-1h-7.654A1.99 1.99 0 0 1 10.5 6.25 1.99 1.99 0 0 0 8.654 5H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h9.1m7.9-5a4.98 4.98 0 0 0-3-1m3 1c1.214.912 2 2.364 2 4m-9.9 1a5 5 0 0 0 4.9 4m-4.9-4a5 5 0 0 1-.1-1m10 0a5 5 0 0 1-5 5m5-5a5 5 0 0 0-5-5m0 10a5 5 0 0 1-5-5m0 0a5 5 0 0 1 5-5m0 2.5v5m0 0-2-2m2 2 2-2"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path stroke-miterlimit="1.788" d="M21.75 12.387V8.25a1.5 1.5 0 0 0-1.5-1.5h-6.257a3 3 0 0 1-2.122-.879L10.63 4.63a3 3 0 0 0-2.122-.879H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h7.884m7.116-6v5.25m0 0L21 17.25m-2.25 2.25-2.25-2.25m-1.5 3V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-.75"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

@@ -5,6 +5,7 @@ export const CameraRangefinder = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const CameraRangefinder = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M21 9v8.5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1h5a1 1 0 0 0 1-1 1 1 0 0 1 1-1h5M21 9V6.5a1 1 0 0 0-1-1h-4M21 9h-4.9a.1.1 0 0 1-.1-.1V5.5m-8.5 0H4m8.25 11a3.25 3.25 0 1 1 0-6.5 3.25 3.25 0 0 1 0 6.5Z"/>`,
+        innerHTML: `<path d="M3 4.5h3m10.5 0h5.25v3.75M16.5 4.5H9v3H3.75A1.5 1.5 0 0 0 2.25 9v9a1.5 1.5 0 0 0 1.5 1.5h16.5a1.5 1.5 0 0 0 1.5-1.5V8.25M16.5 4.5v3.75h5.25M9 13.125a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0"/>`,
       }, children);
     };
   },

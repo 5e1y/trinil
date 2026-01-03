@@ -5,6 +5,7 @@ export const Lungs = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Lungs = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M12 7.116h.72a1 1 0 0 0 .97-.758l.566-2.265a.974.974 0 0 1 1.212-.7c1.585.452 2.508 1.736 3.365 3.22.167.29.796 1.503.993 2.24.597 2.225.674 3.725.674 6.263 0 2.962-1.904 4.88-4.42 5.384-1.314.262-2.421-1.032-1.924-2.275a5.06 5.06 0 0 0-.172-4.141l-.103-.207a7.8 7.8 0 0 1-.587-1.587l-.081-.324A1.123 1.123 0 0 0 11 12.24s.006.534 0 .877c-.037 2.252-.715 5.722-.715 5.722a1.966 1.966 0 0 1-2.492 1.647l-.104-.03c-2.707-.773-4.15-3.37-4.15-6.187 0-2.152.396-3.652.81-5.202.296-1.101.57-1.95.924-2.77C6 4.616 6.808 3.846 8.18 3.389a.897.897 0 0 1 1.123.536l.954 2.542a1 1 0 0 0 .936.649zm0 0v-4"/>`,
+        innerHTML: `<path d="M11.98 7.127h1.475c.487 0 .911-.322 1.03-.781l.6-2.338c.142-.551.725-.879 1.287-.723 1.681.467 1.95 1.793 2.859 3.324.177.299.845 1.55 1.054 2.31.633 2.296.715 3.844.715 6.462 0 3.057-2.02 5.036-4.691 5.555-1.394.271-2.569-1.064-2.041-2.347a5.09 5.09 0 0 0-.183-4.273l-.11-.213a8 8 0 0 1-.623-1.637l-.085-.334a1.186 1.186 0 0 0-1.157-.878c-.658 0-1.192.519-1.192 1.159 0 0 .006.551 0 .905-.039 2.323-.759 5.904-.759 5.904-.159 1.235-1.413 2.041-2.644 1.7l-.11-.032C4.532 20.093 3 17.412 3 14.508c0-2.221.42-3.769.86-5.367.314-1.137.605-2.013.98-2.859.772-1.733 1.086-2.527 2.542-2.999a.96.96 0 0 1 1.193.553l1.011 2.623c.155.402.551.67.994.67zm0 0V3"/>`,
       }, children);
     };
   },

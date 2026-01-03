@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const AirplaneModeOff: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="m18 3-4.038 6.056m0 0a2 2 0 0 0 1.699.944h1.682a4 4 0 0 1 2.829 1.172l.474.474a.5.5 0 0 1 0 .707l-.474.475A4 4 0 0 1 17.343 14h-1.682a2 2 0 0 0-1.737 1.008l-2.848 4.984A2 2 0 0 1 9.339 21a.728.728 0 0 1-.72-.83l.563-3.943m4.78-7.17-4.78 7.17m0 0L6 21m1.5-7a1 1 0 0 0-.8.4l-.6.8a2 2 0 0 1-1.6.8h-.882a.1.1 0 0 1-.099-.116l.349-2.09c.077-.464-.244-.904-.443-1.33a1.1 1.1 0 0 1 .016-.96c.205-.404.52-.817.466-1.268l-.26-2.124a.1.1 0 0 1 .1-.112h.831a2 2 0 0 1 1.652.872l.472.692a1 1 0 0 0 .826.436h.819a1 1 0 0 0 .99-1.141L8.619 3.83A.728.728 0 0 1 9.339 3a2 2 0 0 1 1.737 1.008L12.5 6.5"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path stroke-miterlimit="1.788" d="M9.75 9.75H6l-.61-.914A3 3 0 0 0 2.895 7.5H2.25L3 11.25l-.75.75.75.75-.75 3.75h.644a3 3 0 0 0 2.497-1.336L6 14.25h3.75l-2.25 7.5h1.295a3 3 0 0 0 2.578-1.465L14.7 14.7M9.75 9.75l-7.5-7.5m7.5 7.5 4.95 4.95m3.937-.563a4.5 4.5 0 0 0 2.181-1.205L21.75 12l-.932-.932a4.5 4.5 0 0 0-3.182-1.318H15l-3.626-6.043A3 3 0 0 0 8.8 2.25H7.5l.321 1.071M14.7 14.7l7.05 7.05"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

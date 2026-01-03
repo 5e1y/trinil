@@ -5,6 +5,7 @@ export const ToggleOn = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const ToggleOn = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M15 18H9A6 6 0 0 1 9 6h6a6 6 0 0 1 0 12Zm0-9.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z" clip-rule="evenodd"/>`,
+        innerHTML: `<path stroke-miterlimit="1.788" d="M9 5.25h6a6.75 6.75 0 0 1 0 13.5H9a6.75 6.75 0 0 1 0-13.5m6 10.5a3.75 3.75 0 1 1 0-7.5 3.75 3.75 0 0 1 0 7.5" clip-rule="evenodd"/>`,
       }, children);
     };
   },

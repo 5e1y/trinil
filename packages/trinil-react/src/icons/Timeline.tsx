@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const Timeline: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M12 12.5H4a1 1 0 0 1-1-1V11a1 1 0 0 1 1-1h8m0 2.5h4a1 1 0 0 0 1-1V11a1 1 0 0 0-1-1h-4m0 2.5V10m0 2.5V15m0-5V8m0 9.5H8a1 1 0 0 1-1-1V16a1 1 0 0 1 1-1h4m0 2.5h8a1 1 0 0 0 1-1V16a1 1 0 0 0-1-1h-8m0 2.5V15m0 2.5V21m0-13-1.707-1.707A1 1 0 0 1 10 5.586V4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1.586a1 1 0 0 1-.293.707z"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M12 19.5H6v-3.75h6m0 3.75h9v-3.75h-9m0 3.75v-3.75m0 3.75v2.25m0-6v-3m0 0H3V9h9m0 3.75h6V9h-6m0 3.75V9m0 0V7.5m0 0-1.81-1.81a1.5 1.5 0 0 1-.44-1.061V3.75a1.5 1.5 0 0 1 1.5-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v.879a1.5 1.5 0 0 1-.44 1.06z"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

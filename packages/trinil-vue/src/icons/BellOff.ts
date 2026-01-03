@@ -5,6 +5,7 @@ export const BellOff = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const BellOff = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="m7.667 18.5 8.109-12.163M7.666 18.5 6 21m1.667-2.5h11.418a.415.415 0 0 0 .381-.578l-.087-.205A17.1 17.1 0 0 1 18 11a5.99 5.99 0 0 0-2.224-4.663M4.5 18l.121-.283A17.05 17.05 0 0 0 6 11a6 6 0 0 1 3.504-5.458.65.65 0 0 0 .385-.545 2.114 2.114 0 0 1 4.135-.497M18 3l-2.224 3.337"/>`,
+        innerHTML: `<path d="M9 18.75h6m-6 0a3 3 0 1 0 6 0m-6 0H3.75a8.93 8.93 0 0 0 1.5-4.954V12c0-1.864.756-3.551 1.977-4.773M15 18.75h3.75M10.009 5.549a2.25 2.25 0 1 1 3.983 0A6.75 6.75 0 0 1 18.75 12v1.796q0 .234.012.466M2.25 2.25l4.977 4.977m0 0L18.75 18.75m0 0 3 3"/>`,
       }, children);
     };
   },

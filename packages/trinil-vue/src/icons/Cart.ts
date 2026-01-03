@@ -5,6 +5,7 @@ export const Cart = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Cart = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M18.5 17.5H8.347a1 1 0 0 1-.986-.836L7 14.5m11.5 3a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3ZM5.667 6.5h13.986a1 1 0 0 1 .986 1.164l-1 6a1 1 0 0 1-.986.836H7m-1.333-8-.194-1.164a1 1 0 0 0-.987-.836H2.5m3.167 2L7 14.5M6.5 19a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0Z"/>`,
+        innerHTML: `<path d="M2.25 3.75h2.48a1.5 1.5 0 0 1 1.479 1.253L6.5 6.75m1.75 10.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3m0 0h10.5m-10.5 0-.5-3m11 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3m-11-3h11.27a1.5 1.5 0 0 0 1.471-1.206l.9-4.5a1.5 1.5 0 0 0-1.47-1.794H6.5m1.25 7.5L6.5 6.75"/>`,
       }, children);
     };
   },

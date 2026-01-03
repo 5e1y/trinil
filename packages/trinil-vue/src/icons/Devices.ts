@@ -5,6 +5,7 @@ export const Devices = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Devices = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M9 14H4a1 1 0 0 1-1-1V6.5a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1V8m-6 6v4.5M9 14h2m-2 4.5H5m4 0h3m6-8h-.5a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1m.5-8h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2.5m.5-8V9a1 1 0 0 0-1-1h-2m-3 10.5a1 1 0 0 1-1-1V14m1 4.5h5.5M15 8h-3a1 1 0 0 0-1 1v5"/>`,
+        innerHTML: `<path d="M18 11.25v-1.5a1.5 1.5 0 0 0-1.5-1.5H12a1.5 1.5 0 0 0-1.5 1.5v6m7.5-4.5h2.25m-2.25 0a1.5 1.5 0 0 0-1.5 1.5v6a1.5 1.5 0 0 0 .75 1.3m-6.75-4.3v3a1.5 1.5 0 0 0 1.5 1.5m-1.5-4.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-9a1.5 1.5 0 0 1 1.5-1.5h15a1.5 1.5 0 0 1 1.5 1.5v6m-15 9H12m0 0h4.5c.273 0 .53-.073.75-.2m3-8.8a1.5 1.5 0 0 1 1.5 1.5v6a1.5 1.5 0 0 1-1.5 1.5H18c-.273 0-.53-.073-.75-.2"/>`,
       }, children);
     };
   },

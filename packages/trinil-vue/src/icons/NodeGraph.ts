@@ -5,6 +5,7 @@ export const NodeGraph = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const NodeGraph = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="m11.26 11.667 6.927 4m-6.928-4c.213-.368.252-.789.142-1.167m-.142 1.167c-.213.37-.561.614-.946.707m-1.103-.158a1.5 1.5 0 0 1-.549-2.05m.55 2.05-2.75 4.763m2.75-4.763c.347.2.74.246 1.102.159m.397-2.757a1.496 1.496 0 0 0-2.05.549m2.05-.55 1.5-2.598m-1.5 2.599c.35.201.587.523.691.882m-2.74-.333L6.066 8.668M12.21 7.02a1.5 1.5 0 1 0 1.5-2.598 1.5 1.5 0 0 0-1.5 2.598Zm-5.75 9.959a1.5 1.5 0 1 1-1.5 2.598 1.5 1.5 0 0 1 1.5-2.598Zm-.394-8.31a1.5 1.5 0 1 1-2.598-1.5 1.5 1.5 0 0 1 2.598 1.5Zm12.121 6.998a1.5 1.5 0 1 0 2.597 1.5 1.5 1.5 0 0 0-2.597-1.5ZM11.401 10.5 19 8.5m-8.687 3.874 1.093 3.563"/>`,
+        innerHTML: `<path d="m6.43 7.908 2.21 1.326M6.43 7.908A2.249 2.249 0 0 1 2.25 6.75a2.25 2.25 0 1 1 4.18 1.158m2.21 1.326a2.25 2.25 0 0 0 .788 3.245l.026.014m-.814-3.26a2.25 2.25 0 0 1 3.126-.593m.727 2.906 5.077 3.046m-5.077-3.046a2.24 2.24 0 0 0 .237-1.343m-.237 1.343c-.295.56-.819.98-1.447 1.137m6.524 1.91a2.25 2.25 0 1 0 3.86 2.315 2.25 2.25 0 0 0-3.86-2.316M11.766 8.64q.085.058.165.124c.428.353.723.861.8 1.439m-.965-1.563 1.326-2.21m-3.638 6.063a2.24 2.24 0 0 0 1.592.19m-1.592-.19L6.408 17.57m6.684-11.14a2.249 2.249 0 0 1 1.158-4.18 2.25 2.25 0 1 1-1.158 4.18M6.408 17.57a2.25 2.25 0 1 0-2.316 3.86 2.25 2.25 0 0 0 2.316-3.86m6.322-7.367L21.75 9m-10.704 3.683L12 16.5"/>`,
       }, children);
     };
   },

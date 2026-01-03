@@ -5,6 +5,7 @@ export const UsersMinus = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const UsersMinus = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M10 14a5 5 0 1 1 2-9.584M10 14h2m-2 0H8a5 5 0 0 0-5 5 1 1 0 0 0 1 1h9.416M10 14a5.001 5.001 0 0 0 2-9.584M12 14h2m-2 0c.849 0 1.648.211 2.348.585M14 14h1m-1 0q.624-.001 1.204-.146M12 4.416a5 5 0 0 1 4.796 8.73M18 23a5 5 0 0 0 0-10m0 10a5 5 0 0 1-4.584-3M18 23a5 5 0 0 1-5-5m0 0c0-1.32.512-2.522 1.348-3.415M13 18c0 .711.148 1.387.416 2M13 18a5 5 0 0 1 5-5m0 0q-.624.001-1.204.146m0 0a5 5 0 0 0-1.592.708m0 0c-.312.211-.6.456-.856.73M15.5 18h5"/>`,
+        innerHTML: `<path stroke-miterlimit="1.788" d="M9 14.25a5.25 5.25 0 1 1 3-9.559M9 14.25H6.75a4.5 4.5 0 0 0-4.5 4.5 1.5 1.5 0 0 0 1.5 1.5h7.884M9 14.25h2.25q.383 0 .75.062m-3-.062c1.115 0 2.15-.348 3-.941m0-8.618a5.25 5.25 0 0 1 7.644 6.76M12 4.692A5.24 5.24 0 0 1 14.25 9c0 1.784-.89 3.36-2.25 4.309m0 0q.359.25.757.44m9.743 4.626h-6.75"/>`,
       }, children);
     };
   },

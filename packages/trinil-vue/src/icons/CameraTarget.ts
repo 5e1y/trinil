@@ -5,6 +5,7 @@ export const CameraTarget = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const CameraTarget = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="m10.043 12.87-.943.944c-.26.26-.7.242-.982-.04L3.01 8.668c-.282-.282-.3-.722-.04-.983l4.714-4.714c.26-.26.7-.242.983.04l5.106 5.107c.283.282.3.721.04.982l-.943.943m-2.828 2.828 2.828-2.828m-2.828 2.828 1.371 4.154q.023.069.075.12c.112.113.287.12.391.017l5.281-5.282c.104-.104.097-.279-.015-.391a.3.3 0 0 0-.12-.075l-4.155-1.371M19 20.5a1.5 1.5 0 0 1-1.5-1.5m1.5 1.5a1.5 1.5 0 0 0 1.5-1.5M19 20.5v1M17.5 19a1.5 1.5 0 0 1 1.5-1.5M17.5 19h-1m4 0a1.5 1.5 0 0 0-1.5-1.5m1.5 1.5h1M19 17.5v-1m-4.48-1.98 3.42 3.42"/>`,
+        innerHTML: `<path d="M19.5 18.75v-1.5m0 1.5a.75.75 0 0 1 .75.75m-.75-.75a.75.75 0 0 0-.75.75m1.5 0h1.5m-1.5 0a.75.75 0 0 1-.75.75m0 0v1.5m0-1.5a.75.75 0 0 1-.75-.75m0 0h-1.5m-6-10.5.44-.44a1.5 1.5 0 0 0 0-2.12L8.56 3.31a1.5 1.5 0 0 0-2.12 0L3.31 6.44a1.5 1.5 0 0 0 0 2.12l3.13 3.13a1.5 1.5 0 0 0 2.12 0l.44-.44M11.25 9 15 10.5 10.5 15 9 11.25M11.25 9 9 11.25M15 15l1.5 1.5"/>`,
       }, children);
     };
   },

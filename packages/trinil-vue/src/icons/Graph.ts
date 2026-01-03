@@ -5,6 +5,7 @@ export const Graph = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Graph = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M6 8.5h2.838a3 3 0 0 1 2.846 2.051l.18.542m0 0 1.673 5.018c.575 1.725 2.908 1.98 3.843.422a2.13 2.13 0 0 1 1.825-1.033H20m-8.136-4.407-1.977 3.042A3 3 0 0 1 7.372 15.5H6m5.864-4.407 2.749-4.228A3 3 0 0 1 17.128 5.5H20M4 4v15a1 1 0 0 0 1 1h15"/>`,
+        innerHTML: `<path d="M2.25 3.75v15a1.5 1.5 0 0 0 1.5 1.5h18M6 8.25h3.573a1.5 1.5 0 0 1 1.342.83l1.235 2.47m0 0 1.765 3.53a1.5 1.5 0 0 0 2.541.228l.344-.458a1.5 1.5 0 0 1 1.2-.6h3.75m-9.6-2.7-1.968 3.444a1.5 1.5 0 0 1-1.302.756H6m6.15-4.2 3.168-5.544a1.5 1.5 0 0 1 1.303-.756h5.129"/>`,
       }, children);
     };
   },

@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const Sun: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M12 5V2m7 10h3m-10 7v3M5 12H2m15-5 2.071-2.071M17 17l2.071 2.071M7 17l-2.071 2.071M7 7 4.929 4.929M16 12a4 4 0 1 0-8 0 4 4 0 0 0 8 0Z"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path stroke-miterlimit="1.788" d="M12 2.25V4.5m0 17.25V19.5m6.897-14.4-1.591 1.591M5.107 18.89l1.59-1.591m15.06-5.305h-2.25m-17.25 0h2.25m14.4 6.896-1.592-1.59M5.12 5.1l1.59 1.59M7.5 12a4.5 4.5 0 1 0 9 0 4.5 4.5 0 0 0-9 0"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

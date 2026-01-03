@@ -5,6 +5,7 @@ export const ShoppingBag = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const ShoppingBag = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M8 8H5.926a1 1 0 0 0-.997.923l-.846 11A1 1 0 0 0 5.08 21h13.84a1 1 0 0 0 .997-1.077l-.846-11A1 1 0 0 0 18.074 8H16M8 8V7a4 4 0 0 1 8 0v1M8 8h8m-8 2.5v.5a4 4 0 0 0 8 0v-.5"/>`,
+        innerHTML: `<path d="M16.5 7.5h1.577a1.5 1.5 0 0 1 1.498 1.421l.592 11.25a1.5 1.5 0 0 1-1.498 1.579H5.33a1.5 1.5 0 0 1-1.498-1.579l.592-11.25A1.5 1.5 0 0 1 5.923 7.5H7.5m9 0v-.75a4.5 4.5 0 0 0-9 0v.75m9 0h-9m9 3a4.5 4.5 0 0 1-9 0"/>`,
       }, children);
     };
   },

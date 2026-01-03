@@ -5,6 +5,7 @@ export const Coin = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Coin = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M9.5 11v-.5a2.5 2.5 0 0 1 4.95-.5M9.5 11v2m0-2h-1m1 0H12m-2.5 2v.5a2.5 2.5 0 0 0 4.95.5M9.5 13h-1m1 0H12m0 8a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z"/>`,
+        innerHTML: `<path d="M11.25 10.5h-1.5m0 0H9m.75 0v-.75a2.25 2.25 0 0 1 4.5 0v.75m-4.5 0v3m1.5 0h-1.5m0 0H9m.75 0v.75a2.25 2.25 0 0 0 4.5 0v-.75m7.5-1.5c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75"/>`,
       }, children);
     };
   },

@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const Outside: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M6 20.5v-2m0 0s3-.086 3-4c0-3.521-2.428-8.396-2.915-9.339a.095.095 0 0 0-.17 0C5.425 6.094 3 10.904 3 14.5c0 4 3 4 3 4Zm0 0V14m6.5 1H14m5 0h-1.5M14 15l-2 5.5m2-5.5h3.5m0 0 2 5.5m-9-2.5H21m-2.5-8.5V11m-4-5.5H13m2.5 3-1 1m2-4a2 2 0 1 1 4 0 2 2 0 0 1-4 0Z"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="m19.5 21-.844-2.25m0 0h-5.062m5.062 0H21m-2.344 0-1.125-3m-3.937 3L12.75 21m.844-2.25H11.25m2.344 0 1.125-3M6 21v-2.25m0 0a3.008 3.008 0 0 1-2.937-3.66l2.024-9.108a.935.935 0 0 1 1.826 0l2.023 9.107A3.008 3.008 0 0 1 6 18.75m12-8.25V12m-5.25-6.75h-1.5m3 3.75-.95.95m1.419 5.8h2.812m-2.812 0H13.5m4.031 0h1.219m-3-10.5a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

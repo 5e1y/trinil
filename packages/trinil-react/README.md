@@ -1,6 +1,6 @@
 # trinil-react
 
-React 16.8+ icon components. Tree-shakeable, zero dependencies, 765 outline icons with locked stroke styles.
+React 16.8+ icon components. Tree-shakeable, zero dependencies, 1055 outline icons.
 
 ## Installation
 
@@ -17,7 +17,7 @@ export function App() {
   return (
     <div>
       <ArrowDown size={24} />
-      <Check size={32} color="green" />
+      <Check size={32} color="green" strokeWidth={2} />
       <UsersSearch ariaLabel="Search users" />
     </div>
   );
@@ -30,6 +30,7 @@ export function App() {
 |------|------|---------|-------------|
 | `size` | `number` | `24` | Width/height in pixels |
 | `color` | `string` | `"currentColor"` | Stroke color (inherits from CSS) |
+| `strokeWidth` | `number` | `1.5` | Stroke thickness (1-2 recommended) |
 | `className` | `string` | — | CSS classes |
 | `title` | `string` | — | SVG `<title>` (accessibility) |
 | `ariaLabel` | `string` | — | `aria-label` attribute |
@@ -47,7 +48,7 @@ Inherit color from CSS:
 Or set directly:
 
 ```tsx
-<ArrowDown color="#ff5733" size={40} className="my-icon" />
+<ArrowDown color="#ff5733" size={40} strokeWidth={2} className="my-icon" />
 ```
 
 ## Accessibility
@@ -62,7 +63,7 @@ Add `ariaLabel` or `title` for standalone icons:
 
 ## Note
 
-Stroke properties (`stroke-width`, `stroke-linecap`, `stroke-linejoin`) are **locked** to ensure visual consistency. Only `size`, `color`, `className`, `title`, and `ariaLabel` are customizable.
+`stroke-linecap` and `stroke-linejoin` are locked to `round` for visual consistency.
 
 ## License
 

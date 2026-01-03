@@ -5,6 +5,7 @@ export const Proxy = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Proxy = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M10 17.5a2 2 0 1 0 4 0m-4 0a2 2 0 0 1 2-2m-2 2H2.5m11.5 0a2 2 0 0 0-2-2m2 2h7.5m-9.5-2V11m0 0h8a1 1 0 0 0 1-1V6.5a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1V10a1 1 0 0 0 1 1zM6 7.5V9m3-1.5V9"/>`,
+        innerHTML: `<path d="M14.25 19.5H21m-6.75 0a2.25 2.25 0 0 1-4.5 0m4.5 0A2.25 2.25 0 0 0 12 17.25M9.75 19.5H3m6.75 0A2.25 2.25 0 0 1 12 17.25m0 0v-4.5m0 0H5.25a1.5 1.5 0 0 1-1.5-1.5v-6a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v6a1.5 1.5 0 0 1-1.5 1.5zM6.75 7.5V9m3.75-1.5V9"/>`,
       }, children);
     };
   },

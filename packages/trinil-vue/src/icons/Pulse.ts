@@ -5,6 +5,7 @@ export const Pulse = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Pulse = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M2.5 12.5h3.792a1 1 0 0 0 .943-.667L9.922 4.22a.33.33 0 0 1 .635.039l3.387 15.485a.325.325 0 0 0 .627.027l2.21-7.07a1 1 0 0 1 .954-.702H21.5"/>`,
+        innerHTML: `<path d="M2.25 12H5.7a1.5 1.5 0 0 0 1.409-.987l2.407-6.62a.977.977 0 0 1 1.88.16l2.72 14.96a.899.899 0 0 0 1.768 0l1.142-6.281A1.5 1.5 0 0 1 18.502 12h3.248"/>`,
       }, children);
     };
   },

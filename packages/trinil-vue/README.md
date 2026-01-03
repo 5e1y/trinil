@@ -1,6 +1,6 @@
 # trinil-vue
 
-Vue 3 icon components. Tree-shakeable, zero dependencies, 765 outline icons with locked stroke styles.
+Vue 3 icon components. Tree-shakeable, zero dependencies, 1055 outline icons.
 
 ## Installation
 
@@ -18,7 +18,7 @@ import { ArrowDown, Check, UsersSearch } from 'trinil-vue';
 <template>
   <div>
     <ArrowDown :size="24" />
-    <Check :size="32" color="green" />
+    <Check :size="32" color="green" :stroke-width="2" />
     <UsersSearch aria-label="Search users" />
   </div>
 </template>
@@ -30,6 +30,7 @@ import { ArrowDown, Check, UsersSearch } from 'trinil-vue';
 |------|------|---------|-------------|
 | `size` | `number` | `24` | Width/height in pixels |
 | `color` | `string` | `"currentColor"` | Stroke color (inherits from CSS) |
+| `strokeWidth` | `number` | `1.5` | Stroke thickness (1-2 recommended) |
 | `class` | `string` | — | CSS classes |
 | `title` | `string` | — | SVG `<title>` (accessibility) |
 | `ariaLabel` | `string` | — | `aria-label` attribute |
@@ -47,7 +48,7 @@ Inherit color from CSS:
 Or set directly:
 
 ```vue
-<ArrowDown color="#ff5733" :size="40" class="my-icon" />
+<ArrowDown color="#ff5733" :size="40" :stroke-width="2" class="my-icon" />
 ```
 
 ## Accessibility
@@ -62,7 +63,7 @@ Add `aria-label` or `title` for standalone icons:
 
 ## Note
 
-Stroke properties (`stroke-width`, `stroke-linecap`, `stroke-linejoin`) are **locked** to ensure visual consistency. Only `size`, `color`, `class`, `title`, and `ariaLabel` are customizable.
+`stroke-linecap` and `stroke-linejoin` are locked to `round` for visual consistency.
 
 ## License
 

@@ -5,6 +5,7 @@ export const Bookmark = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Bookmark = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M16.5 3.5h-9a1 1 0 0 0-1 1v14.178a1 1 0 0 0 1.537.844l3.426-2.18a1 1 0 0 1 1.074 0l3.426 2.18a1 1 0 0 0 1.537-.844V4.5a1 1 0 0 0-1-1Z"/>`,
+        innerHTML: `<path stroke-miterlimit="1.788" d="M3.75 20.304V3.75a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v16.554c0 1.226-1.39 1.935-2.382 1.213l-4.986-3.625a1.5 1.5 0 0 0-1.764 0l-4.986 3.625c-.991.721-2.382.013-2.382-1.213"/>`,
       }, children);
     };
   },

@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const Shuffle: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M20 17h-2.658a6 6 0 0 1-5.101-2.842L10.905 12M20 17l-3-3m3 3-3 3m-6.095-8L9.342 9.476A6.28 6.28 0 0 0 4 6.5m6.905 5.5 1.336-2.158A6 6 0 0 1 17.342 7H20m-9.095 5-1.563 2.524A6.28 6.28 0 0 1 4 17.5M20 7l-3 3m3-3-3-3"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path stroke-miterlimit="1.788" d="m21.75 6.75-3-3m3 3-3 3m3-3h-3.293a6.75 6.75 0 0 0-5.477 2.805L11.219 12m7.531 8.25 3-3m0 0-3-3m3 3h-3.293a6.75 6.75 0 0 1-5.477-2.805L11.219 12m0 0-1.76 2.445A6.75 6.75 0 0 1 3.98 17.25H2.25M11.218 12l-1.76-2.445A6.75 6.75 0 0 0 3.98 6.75H2.25"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

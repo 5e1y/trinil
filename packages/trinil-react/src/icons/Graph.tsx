@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const Graph: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M6 8.5h2.838a3 3 0 0 1 2.846 2.051l.18.542m0 0 1.673 5.018c.575 1.725 2.908 1.98 3.843.422a2.13 2.13 0 0 1 1.825-1.033H20m-8.136-4.407-1.977 3.042A3 3 0 0 1 7.372 15.5H6m5.864-4.407 2.749-4.228A3 3 0 0 1 17.128 5.5H20M4 4v15a1 1 0 0 0 1 1h15"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M2.25 3.75v15a1.5 1.5 0 0 0 1.5 1.5h18M6 8.25h3.573a1.5 1.5 0 0 1 1.342.83l1.235 2.47m0 0 1.765 3.53a1.5 1.5 0 0 0 2.541.228l.344-.458a1.5 1.5 0 0 1 1.2-.6h3.75m-9.6-2.7-1.968 3.444a1.5 1.5 0 0 1-1.302.756H6m6.15-4.2 3.168-5.544a1.5 1.5 0 0 1 1.303-.756h5.129"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

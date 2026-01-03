@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const LightBulbOff: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M10.5 18v.5a1.5 1.5 0 0 0 3 0V18m-3 0h3m-3 0a.5.5 0 0 1-.5-.5v-2.881c0-.076-.03-.15-.082-.205-.654-.686-1.43-1.265-1.997-2.024A4.62 4.62 0 0 1 7 9.622C7 7.069 9 5 12 5s5 2.07 5 4.622a4.62 4.62 0 0 1-.92 2.768c-.568.759-1.344 1.338-1.998 2.024a.3.3 0 0 0-.082.205V17.5a.5.5 0 0 1-.5.5"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M9.75 18.75v1.5a1.5 1.5 0 0 0 1.5 1.5h1.5a1.5 1.5 0 0 0 1.5-1.5v-1.5m-4.5 0h4.5m-4.5 0v-1.378c0-.969-.644-1.797-1.46-2.318a6.58 6.58 0 0 1-3.04-5.547V9a6.75 6.75 0 0 1 13.5 0v.507a6.58 6.58 0 0 1-3.04 5.547c-.816.521-1.46 1.35-1.46 2.318v1.378"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

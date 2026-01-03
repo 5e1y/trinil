@@ -5,6 +5,7 @@ export const Stopwatch = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Stopwatch = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M12 6V3m0 3a7.5 7.5 0 1 0 3.75 1.004M12 6c1.366 0 2.647.365 3.75 1.004M12 3h2m-2 0h-2m5.75 4.004L16.5 5.5m0 5.5-4.441 3.454a.1.1 0 0 1-.12.003L8.5 12"/>`,
+        innerHTML: `<path d="M12 5.25v-3m0 3c1.983 0 3.802.7 5.224 1.865M12 5.25c-1.982 0-3.802.7-5.224 1.865a8.25 8.25 0 1 0 10.449 0M12 2.25H9m3 0h3M8.25 12 12 15l4.5-3.75m.724-4.135L18.75 5.25"/>`,
       }, children);
     };
   },

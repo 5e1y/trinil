@@ -5,6 +5,7 @@ export const FlowerTulip = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const FlowerTulip = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M9 19.396a7.735 7.735 0 0 0 10.697-6.361l.213-2.135q.09-.9.339-1.77l.734-2.57a.438.438 0 0 0-.422-.56c-.847.001-1.716.007-2.575.046M9 19.396a7.74 7.74 0 0 1-4.697-6.361L4.09 10.9Q4 10 3.751 9.13l-.734-2.57A.44.44 0 0 1 3.439 6c.847.001 1.716.007 2.575.046M9 19.396s5 1.989 5-7.396c0-2.156-.775-3.538-2-4.423m0 0c1.034-.746 2.388-1.14 3.867-1.347M12 7.577c-.608-.439-1.326-.755-2.116-.984a13 13 0 0 0-1.751-.363m6.743-1.315c.532-.693 1.228-1.05 1.87-.868.702.2 1.156.994 1.24 1.999m-3.11-1.131C14.149 4.351 13.129 4 12 4s-2.149.35-2.876.915m5.752 0c.467.362.814.813.991 1.315M9.124 4.915c-.532-.693-1.228-1.05-1.87-.868-.702.2-1.156.994-1.24 1.999m3.11-1.131c-.467.362-.814.813-.991 1.315m7.734 0a23 23 0 0 1 2.119-.184m-11.972 0c.72.032 1.433.088 2.119.184"/>`,
+        innerHTML: `<path d="M8.75 19.627a8.7 8.7 0 0 0 3.25.623c4.305 0 7.91-3.105 8.338-7.183l.231-2.2a10 10 0 0 1 .367-1.827l.796-2.651a.4.4 0 0 0 .018-.124.464.464 0 0 0-.475-.452c-.918 0-1.86.006-2.79.047-.78.033-1.553.091-2.296.19M8.75 19.627c-2.753-1.104-4.774-3.57-5.088-6.56l-.231-2.2a10 10 0 0 0-.367-1.827L2.268 6.39a.4.4 0 0 1-.018-.124c0-.25.213-.453.475-.452.918 0 1.86.006 2.79.047.78.033 1.553.091 2.296.19m.939 13.577s5.417 2.051 5.417-7.627c0-2.224-.84-3.648-2.167-4.56m0 0c1.12-.77 2.587-1.176 4.19-1.39M12 7.44c-.658-.454-1.437-.78-2.292-1.016-.6-.165-1.237-.286-1.897-.374m8.378 0c-.192-.518-.567-.983-1.073-1.356-.788-.582-1.893-.944-3.116-.944s-2.328.362-3.116.944c-.506.373-.881.838-1.073 1.356"/>`,
       }, children);
     };
   },

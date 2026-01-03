@@ -5,6 +5,7 @@ export const KeyframeEaseIn = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const KeyframeEaseIn = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M12 4H3.914c-.89 0-1.337 1.077-.707 1.707l5.586 5.586a1 1 0 0 1 0 1.414l-5.586 5.586c-.63.63-.184 1.707.707 1.707H12m0-16h1.086a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-.707.293H12m0-16v16"/>`,
+        innerHTML: `<path d="M12 3.75H3.621c-1.336 0-2.005 1.616-1.06 2.56l4.628 4.63a1.5 1.5 0 0 1 0 2.12l-4.628 4.63c-.945.944-.276 2.56 1.06 2.56H12m0-16.5h1.629a1.5 1.5 0 0 1 1.06.44l6.75 6.75a1.5 1.5 0 0 1 0 2.12l-6.75 6.75a1.5 1.5 0 0 1-1.06.44H12m0-16.5v16.5"/>`,
       }, children);
     };
   },

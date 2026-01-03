@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const LiverSearch: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="m12 14.5-4 3.707a2.977 2.977 0 0 1-5-2.184v-5.34a4.59 4.59 0 0 1 5.412-4.517L13 7m-1 7.5h1.208c.502 0 .995-.08 1.462-.23M12 14.5c-1.2-3.2.167-6.333 1-7.5m0 0 4.378-.438a3.3 3.3 0 0 1 1.223.11l1.258.359a1.851 1.851 0 0 1 .41 3.387l-2.274 1.3a3 3 0 0 0-.85.727l-.213.265a5 5 0 0 1-.51.544m0 0a5 5 0 1 1-1.753 1.017m1.753-1.017a5 5 0 0 0-1.752 1.017m4.244 4.643a2 2 0 1 1-2.828-2.828 2 2 0 0 1 2.828 2.828Zm0 0L20 20"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path stroke-miterlimit="1.788" d="m22.5 22.5-2.088-2.088m0 0a3.61 3.61 0 1 0-5.105-5.104 3.61 3.61 0 0 0 5.105 5.104m-8.507-5.36-4.279 4.32a3.05 3.05 0 0 1-2.163.925c-1.758 0-3.183-1.553-3.183-3.47v-6.224c0-2.508 1.598-4.68 3.844-5.223a4.5 4.5 0 0 1 1.944-.041l4.906.972m-1.07 8.741h.022m-.021 0c-1.284-3.73.178-7.382 1.07-8.741m0 0 4.681-.51a3.2 3.2 0 0 1 1.309.127l1.344.419c.992.309 1.6 1.395 1.398 2.497a2.16 2.16 0 0 1-.96 1.45l-1.67 1.041"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

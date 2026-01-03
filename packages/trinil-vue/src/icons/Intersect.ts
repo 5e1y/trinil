@@ -5,6 +5,7 @@ export const Intersect = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Intersect = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3m8-8h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-3m8-8-8 8m8-8v4m0-4h-4m-4 8h4m-4 0v-4m4 4h3a1 1 0 0 0 1-1v-3m-4 4 4-4m-4-4H9a1 1 0 0 0-1 1v3m4-4-4 4"/>`,
+        innerHTML: `<path d="M16.5 7.5h3c.414 0 .79.168 1.06.44.272.27.44.646.44 1.06v10.5a1.5 1.5 0 0 1-1.5 1.5H9c-.414 0-.79-.168-1.06-.44a1.5 1.5 0 0 1-.44-1.06v-3m9-9v-3A1.5 1.5 0 0 0 15 3H4.5A1.5 1.5 0 0 0 3 4.5V15a1.5 1.5 0 0 0 1.5 1.5h3m9-9-9 9m9-9V12m0-4.5H12m-4.5 9V12m0 4.5H12m4.5-4.5v3a1.5 1.5 0 0 1-1.5 1.5h-3m4.5-4.5L12 16.5m0-9H9A1.5 1.5 0 0 0 7.5 9v3M12 7.5 7.5 12"/>`,
       }, children);
     };
   },

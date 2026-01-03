@@ -5,6 +5,7 @@ export const TreePine = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const TreePine = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M12 21v-2.5m0 0c-3.105.444-7.889-2.433-.753-15.057A.87.87 0 0 1 12 3c.31 0 .6.174.753.443 7.136 12.624 2.352 15.5-.753 15.057Z"/>`,
+        innerHTML: `<path d="M12 21.75v-3m0 0c-4.092.63-7.19-3.62-5.338-7.323l4.253-8.506a1.214 1.214 0 0 1 2.17 0l4.253 8.506C19.19 15.13 16.092 19.38 12 18.75"/>`,
       }, children);
     };
   },

@@ -5,6 +5,7 @@ export const ReceiptCheck = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const ReceiptCheck = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M8.5 7h4m3 0h-1m-6 3h4m3 0h-1m-6 3h4m3 0h-1m3.5 0a5 5 0 0 0-4.29 7.57M18 13a5 5 0 1 1-4.29 7.57M18 13V3.139a.1.1 0 0 0-.132-.095l-1.336.445a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.436-.478a.1.1 0 0 0-.064 0l-1.436.478a.1.1 0 0 1-.064 0l-1.336-.445A.1.1 0 0 0 6 3.139V20.86a.1.1 0 0 0 .132.095l1.336-.445a.1.1 0 0 1 .064 0l1.436.478a.1.1 0 0 0 .064 0l1.436-.479a.1.1 0 0 1 .064 0l1.436.48a.1.1 0 0 0 .064 0l1.436-.48a.1.1 0 0 1 .064 0l.178.06M16 18l1.43 1.43a.1.1 0 0 0 .14 0L20 17"/>`,
+        innerHTML: `<path stroke-miterlimit="1.788" d="M7.5 6H12m3 0h1.5m-9 3H12m3 0h1.5m-9 3H12m7.5-.583V3L18 2.25 16.5 3 15 2.25 13.5 3 12 2.25 10.5 3 9 2.25 7.5 3 6 2.25 4.5 3v18.75L6 21l1.5.75L9 21l1.5.75 1.461-.73m2.289-2.27 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`,
       }, children);
     };
   },

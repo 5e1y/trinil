@@ -5,6 +5,7 @@ export const AnimalRabbit = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const AnimalRabbit = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M5 11v2.016M5 11l3-5c1-2 0-3-1-2.5-4 2-4 7.5-2 7.5Zm0 0h5m-5 2.016v1.234c0 .966 1 2.25 2.5 2.25s2.5-1.284 2.5-2.25V12.2m-5 .816a7.4 7.4 0 0 0-1.5 4.471V19.5a1 1 0 0 0 1 1H6m4-8.3V11m0 1.2 1.323-.265c3.573-.714 6.916 1.889 7.162 5.46M10 11l3-5c1-2 0-3-1-2.5-4 2-4 7.5-2 7.5Zm8.5 8.618a1.5 1.5 0 1 0-.015-2.223m.015 2.223v-1.8q0-.213-.015-.423m.015 2.223a.88.88 0 0 1-.882.882H11m0 0H8.5m2.5 0a2.5 2.5 0 0 1 2.5-2.5h1M6 20.5V19m0 1.5h2.5m0 0V19"/>`,
+        innerHTML: `<path d="M18.75 18a6 6 0 0 0-6-6h-4.5m10.5 6v2.25m0-2.25.284-.284a1.591 1.591 0 0 1 2.716 1.125v.568a1.591 1.591 0 0 1-2.716 1.125l-.284-.284M8.25 10.5h-4.5m4.5 0V6a3 3 0 0 1 3-3v4.5a3 3 0 0 1-3 3m0 0V12m-4.5-1.5V6a3 3 0 0 1 3-3v4.5a3 3 0 0 1-3 3m0 0v3.531M8.25 12v2.25a2.25 2.25 0 0 1-4.5 0v-.219m0 0A5.98 5.98 0 0 0 2.25 18v3h3m13.5-.75V21h-7.5m0 0v-.75A2.25 2.25 0 0 1 13.5 18H15m-3.75 3h-3m-3 0v-1.5m0 1.5h3m0 0v-1.5"/>`,
       }, children);
     };
   },

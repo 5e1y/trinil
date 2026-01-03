@@ -5,6 +5,7 @@ export const Diamond = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Diamond = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M12 5H7.48a1 1 0 0 0-.44.102M12 5h4.52a1 1 0 0 1 .44.102M12 5l-3 5m3-5 3 5m-6 0h6m-6 0L7.04 5.102M9 10H3.312M9 10l2.848 9.494M15 10l1.96-4.898M15 10h5.688M15 10l-2.848 9.494M7.04 5.102a1 1 0 0 0-.341.273L3.53 9.337a1 1 0 0 0-.218.663m13.647-4.898a1 1 0 0 1 .341.273l3.17 3.962c.155.194.227.43.218.663m0 0a1 1 0 0 1-.256.63l-7.689 8.544a1 1 0 0 1-.591.32M3.312 10a1 1 0 0 0 .256.63l7.689 8.544c.161.18.372.286.591.32m0 0q.151.023.304 0"/>`,
+        innerHTML: `<path d="m17.25 3 4.5 6.75M17.25 3H12m5.25 0-1.961 6.75m6.461 0L12 21m9.75-11.25h-6.461M12 21 2.25 9.75M12 21 8.712 9.75M12 21l3.289-11.25m-13.039 0L6.75 3m-4.5 6.75h6.462M6.75 3l1.962 6.75M6.75 3H12M8.712 9.75 12 3M8.712 9.75h6.577M12 3l3.289 6.75"/>`,
       }, children);
     };
   },

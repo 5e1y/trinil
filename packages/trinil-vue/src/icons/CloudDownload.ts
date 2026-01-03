@@ -5,6 +5,7 @@ export const CloudDownload = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const CloudDownload = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M6.03 10.556C4.36 11.082 3 12.586 3 14.68A4.32 4.32 0 0 0 7.32 19h5.78m-7.07-8.444a5 5 0 1 1 9.954-.155m-9.953.155A4.4 4.4 0 0 1 8 10.399a4.17 4.17 0 0 1 2 .884m5.984-.882c2.216-.345 4.57 1.1 4.96 3.557m-4.96-3.557a4.17 4.17 0 0 0-1.984.882m4 4.217v5m0 0 2-2m-2 2-2.016-2m4.96-4.542A5 5 0 0 0 13.1 19m7.844-5.042A5 5 0 1 1 13.1 19"/>`,
+        innerHTML: `<path stroke-miterlimit="1.788" d="M5.386 10.193a5.25 5.25 0 1 1 10.301-.38m-10.3.38A5.2 5.2 0 0 1 7.5 9.75c.99 0 1.916.274 2.706.75m-4.82-.307A5.251 5.251 0 0 0 7.5 20.25h4.134m4.053-10.438a5.241 5.241 0 0 1 4.97 1.98m-4.97-1.98a5.2 5.2 0 0 0-1.893.688m4.956 3.75v5.25m0 0L21 17.25m-2.25 2.25-2.25-2.25m-1.5 3V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-.75"/>`,
       }, children);
     };
   },

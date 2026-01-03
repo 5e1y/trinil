@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const CastAudio: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M10.94 13.06a1.5 1.5 0 1 1 2.12 0m-3.888 1.768a4 4 0 1 1 5.656 0m-7.424 1.768a6.5 6.5 0 1 1 9.192 0m-10.96 1.768a9 9 0 1 1 12.728 0M16.759 20.5H7.24a.1.1 0 0 1-.07-.17l4.122-4.123a1 1 0 0 1 1.414 0l4.122 4.122a.1.1 0 0 1-.07.171Z"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path stroke-miterlimit="1.788" d="M14.652 14.652a3.75 3.75 0 1 0-5.303 0m9.545 4.242A9.72 9.72 0 0 0 21.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.72 9.72 0 0 0 2.856 6.894m11.667-2.121a6.75 6.75 0 1 0-9.546 0M7.5 21l4.5-4.5 4.5 4.5z"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

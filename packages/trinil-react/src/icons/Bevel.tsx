@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const Bevel: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M12 9v4.5M12 9l6.746-2.998M12 9 5.254 6.002M12 13.5 3.004 9.502M12 13.5l8.996-3.998M12 13.5v7.49m6.746-14.988-.023-.014-6.682-2.97a.1.1 0 0 0-.082 0l-6.682 2.97-.023.014m13.492 0a.1.1 0 0 1 .02.023l2.218 3.45q.008.012.012.027m-15.742-3.5a.1.1 0 0 0-.02.023l-2.218 3.45a.1.1 0 0 0-.012.027m0 0L3 9.529v7.406a.1.1 0 0 0 .06.091l8.9 3.956a.1.1 0 0 0 .04.008m8.996-11.488.004.027v7.406a.1.1 0 0 1-.06.091l-8.9 3.956a.1.1 0 0 1-.04.008"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path stroke-miterlimit="1.788" d="M3 10.5v4.389a1.5 1.5 0 0 0 .744 1.295l7.5 4.375a1.5 1.5 0 0 0 .756.204M3 10.5l9 5.25M3 10.5l3.368-3.75M12 20.764c.261 0 .522-.069.756-.205l7.5-4.375A1.5 1.5 0 0 0 21 14.888V10.5m-9 10.264V15.75m0 0 9-5.25m-9 5.25v-5.723m9 .473-3.368-3.75M12 10.027l5.632-3.277M12 10.027 6.368 6.75m11.264 0L12 3.473 6.368 6.75"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

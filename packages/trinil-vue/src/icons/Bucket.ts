@@ -5,6 +5,7 @@ export const Bucket = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Bucket = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M8.5 13a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 0c0-7.5 1.527-10.03 3.433-10.066C13.892 2.897 15 6.5 15 9m3.54 0H5.46a.46.46 0 0 0-.453.54L6.856 20.17a1 1 0 0 0 .985.83h8.318a1 1 0 0 0 .985-.83l1.85-10.632A.46.46 0 0 0 18.54 9Z"/>`,
+        innerHTML: `<path d="M9 12.75s-.153-2.147.025-4.5M9 12.75a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5m.025-4.5c.217-2.85.92-6 2.975-6 2.054 0 2.758 3.15 2.975 6m-5.95 0H5.521a1.5 1.5 0 0 0-1.48 1.747l1.75 10.5a1.5 1.5 0 0 0 1.48 1.253h9.458a1.5 1.5 0 0 0 1.48-1.253l1.75-10.5a1.5 1.5 0 0 0-1.48-1.747h-3.504m-5.95 0h5.95"/>`,
       }, children);
     };
   },

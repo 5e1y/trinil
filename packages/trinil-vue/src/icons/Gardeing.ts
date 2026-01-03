@@ -5,6 +5,7 @@ export const Gardeing = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Gardeing = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="m20.5 9.5-.293.293a1 1 0 0 1-1.414 0L18 9m-3.5-5.5-.293.293a1 1 0 0 0 0 1.414L15 6m0 0 1-1m-1 1 1.5 1.5m0 0 1-1m-1 1L18 9m-1.5-1.5L12 12m6-3 1-1m-7 4-7.5 7.5M12 12l4.5 4.5M12 12 8.5 8.5m8 8h2.459a.1.1 0 0 1 .07.03l.9.9a.1.1 0 0 1 0 .14l-2.358 2.36a.1.1 0 0 1-.142 0l-.9-.9a.1.1 0 0 1-.029-.072zm-8-8 1.293-1.293a1 1 0 0 0 0-1.414L8.586 4.586A2 2 0 0 0 7.172 4H6a2 2 0 0 0-2 2V7.17a2 2 0 0 0 .586 1.415l1.207 1.207a1 1 0 0 0 1.414 0z"/>`,
+        innerHTML: `<path d="M8.625 9.375 11.25 6.75 7.94 3.44A1.5 1.5 0 0 0 6.878 3H3.75a1.5 1.5 0 0 0-1.5 1.5v3.129c0 .398.158.779.44 1.06L6 12zm0 0L12 12.75m0 0 4.5 4.5m-4.5-4.5L3.75 21M12 12.75l4.875-4.875M16.5 17.25h3l1.5 1.5-3 3-1.5-1.5zm.375-9.375L15.75 6.75m1.125 1.125L18 9m3.75.75-1.5 1.5L18 9m-3-6-1.5 1.5 2.25 2.25m0 0 1.5-1.5M18 9l1.5-1.5"/>`,
       }, children);
     };
   },

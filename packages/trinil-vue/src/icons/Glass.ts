@@ -5,6 +5,7 @@ export const Glass = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Glass = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M8 21h4m0 0h4m-4 0v-9m0 0h-.232a5.228 5.228 0 0 1-4.35-8.127l.552-.828A.1.1 0 0 1 8.053 3h7.893a.1.1 0 0 1 .084.045l.552.828A5.227 5.227 0 0 1 12.232 12z"/>`,
+        innerHTML: `<path d="M12 12.75h-.147c-5.415 0-8.449-6.242-5.103-10.5h10.5c3.346 4.258.312 10.5-5.103 10.5zm0 0V21m0 0h4.5M12 21H7.5"/>`,
       }, children);
     };
   },

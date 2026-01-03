@@ -5,6 +5,7 @@ export const BasketCross = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const BasketCross = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M7 9H4a1 1 0 0 0-1 1v.115A13 13 0 0 0 3.594 14M7 9h5M7 9v.779A20 20 0 0 0 7.45 14M7 9a4.5 4.5 0 0 1 4.5-4.5h1A4.5 4.5 0 0 1 17 9m0 0h3a1 1 0 0 1 1 1v.115a13 13 0 0 1-.496 3.556M17 9h-5m5 0v.779a20 20 0 0 1-.29 3.389M12 9v5m-2.5 5.5-.389-.777A20 20 0 0 1 7.451 14M9.5 19.5H12m-2.5 0H7.272a.66.66 0 0 1-.464-.192A13 13 0 0 1 3.594 14m3.857 0H12m-4.55 0H3.595M12 14v5.5m0-5.5h3m-3 5.5h1.229m7.275-5.829A5 5 0 0 0 18 13q-.67.002-1.29.168m3.794.503A5 5 0 1 1 13.23 19.5m3.482-6.332A5 5 0 0 0 15 14m0 0a5 5 0 0 0-2 4c0 .523.08 1.026.229 1.5M18 18l1.5-1.5M18 18l1.5 1.5M18 18l-1.5 1.5M18 18l-1.5-1.5"/>`,
+        innerHTML: `<path stroke-miterlimit="1.788" d="M17.25 8.25h3.364c.627 0 1.136.509 1.136 1.136 0 .957-.09 1.905-.263 2.833M17.25 8.25H12m5.25 0v.703q0 1.182-.122 2.353m.122-3.056a4.5 4.5 0 0 0-4.5-4.5h-1.5a4.5 4.5 0 0 0-4.5 4.5m0 0H3.386c-.627 0-1.136.509-1.136 1.136 0 1.67.272 3.31.79 4.864m3.71-6H12m-5.25 0v.88c0 1.726.18 3.442.533 5.12m4.717-6v6m-2.625 6H7.371c-.398 0-.782-.156-1.051-.448a15.4 15.4 0 0 1-3.28-5.552m6.335 6a24.9 24.9 0 0 1-2.092-6m2.092 6h2.26m-8.595-6h4.243m0 0H12m0 0h.387m-.387 0v.655m3.75 7.595 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`,
       }, children);
     };
   },

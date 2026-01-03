@@ -5,6 +5,7 @@ export const LayerHeight = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const LayerHeight = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M18 19V5m0 0-2.5 2.5M18 5l2.5 2.5M10 19a1 1 0 1 0 0-2H3m7 2h.5m-.5 0H3m7.5 0a2.5 2.5 0 0 0 0-5H3m7.5 5h.5a4 4 0 1 0 0-8H3"/>`,
+        innerHTML: `<path d="M2.25 20.25h6m0 0a1.5 1.5 0 0 0 0-3h-6m6 3h1.5m0 0a3 3 0 1 0 0-6h-7.5m7.5 6h1.5a4.5 4.5 0 1 0 0-9h-9m16.5 9V3.75m0 0-3 3m3-3 3 3"/>`,
       }, children);
     };
   },

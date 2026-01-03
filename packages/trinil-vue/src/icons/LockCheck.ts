@@ -5,6 +5,7 @@ export const LockCheck = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const LockCheck = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M8 10H6.5a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1H14M8 10V7a4 4 0 1 1 8 0v3m-8 0h8m0 0h1.5a1 1 0 0 1 1 1v2.025M16 18l1.43 1.43a.1.1 0 0 0 .14 0L20 17m-1.5-3.975A5 5 0 0 0 14 21m4.5-7.975A5 5 0 1 1 14 21"/>`,
+        innerHTML: `<path stroke-miterlimit="1.788" d="m14.25 18.75 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91M7.5 9.75H6a1.5 1.5 0 0 0-1.5 1.5v9a1.5 1.5 0 0 0 1.5 1.5h6.387M7.5 9.75v-3a4.5 4.5 0 0 1 9 0v3m-9 0h9m0 0H18a1.5 1.5 0 0 1 1.5 1.5v.167"/>`,
       }, children);
     };
   },

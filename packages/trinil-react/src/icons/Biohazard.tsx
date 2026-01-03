@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const Biohazard: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M14.728 17.843a5.45 5.45 0 0 0 2.726-4.725m-10.909 0a5.45 5.45 0 0 0 2.727 4.725m0-9.45A5.43 5.43 0 0 1 12 7.663a5.43 5.43 0 0 1 2.728.73m4.39 11.39a4.547 4.547 0 0 1-6.627-5.247m8.9 1.31a4.547 4.547 0 0 0-7.925-3.042m-8.585 6.979a4.547 4.547 0 0 0 6.627-5.247m-8.9 1.31a4.547 4.547 0 0 1 7.925-3.042m-.806-9.077a4.547 4.547 0 0 0 1.19 8.353m3.356-8.353a4.547 4.547 0 0 1-1.19 8.353m.384.724a1.504 1.504 0 0 1-.975 1.732m.975-1.732a1.5 1.5 0 0 0-.385-.724m-.59 2.456a1.5 1.5 0 0 1-.984 0m0 0a1.5 1.5 0 0 1-.975-1.733m0 0c.06-.277.195-.526.385-.723m0 0a1.496 1.496 0 0 1 2.164 0"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M14.866 18.066a5.66 5.66 0 0 0 2.832-4.907m-11.331 0a5.66 5.66 0 0 0 2.832 4.907m0-9.814a5.64 5.64 0 0 1 2.834-.759c1.032 0 2 .276 2.833.759m4.561 11.83a4.723 4.723 0 0 1-6.883-5.45m9.244 1.36a4.723 4.723 0 0 0-8.232-3.16m-8.918 7.25a4.723 4.723 0 0 0 6.884-5.45m-9.245 1.36a4.723 4.723 0 0 1 8.232-3.16m-.837-9.428a4.723 4.723 0 0 0 1.237 8.676m3.484-8.676a4.723 4.723 0 0 1-1.237 8.676m.4.752a1.56 1.56 0 0 1-1.012 1.8m1.012-1.8a1.55 1.55 0 0 0-.4-.752m-.613 2.552a1.55 1.55 0 0 1-1.021 0m0 0a1.56 1.56 0 0 1-1.013-1.8m0 0c.061-.288.203-.547.4-.752m0 0c.283-.295.682-.479 1.124-.479.441 0 .84.184 1.124.48"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

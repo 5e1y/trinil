@@ -56,15 +56,16 @@ function generateReactComponent(svgContent, componentName) {
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const ${componentName}: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: \`${escaped}\` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: \`${escaped}\` }}>
       {title && <title>{title}</title>}
     </svg>
   );
@@ -84,6 +85,7 @@ export const ${componentName} = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -93,7 +95,7 @@ export const ${componentName} = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
         innerHTML: \`${escaped}\`,
       }, children);
@@ -107,12 +109,12 @@ function generateSvelteComponent(svgContent, componentName) {
   const innerMatch = svgContent.match(/<svg[^>]*>(.*)<\/svg>/s);
   const innerContent = innerMatch ? innerMatch[1] : '';
   const escaped = innerContent.replace(/\\/g, '\\\\').replace(/`/g, '\\`').replace(/\$/g, '\\$');
-  return `export interface IconProps { size?: number; color?: string; class?: string; title?: string; ariaLabel?: string; }
+  return `export interface IconProps { size?: number; color?: string; strokeWidth?: number; class?: string; title?: string; ariaLabel?: string; }
 
 export function ${componentName}(props: IconProps = {}): { html: string; props: IconProps } {
-  const { size = 24, color = 'currentColor', class: className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, class: className, title, ariaLabel } = props;
   const titleTag = title ? '<title>' + title + '</title>' : '';
-  const html = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="' + color + '" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" width="' + size + '" height="' + size + '"' + (className ? ' class="' + className + '"' : '') + ' role="img"' + (ariaLabel ? ' aria-label="' + ariaLabel + '"' : '') + '>' + titleTag + \`${escaped}\` + '</svg>';
+  const html = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="' + color + '" stroke-width="' + strokeWidth + '" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" width="' + size + '" height="' + size + '"' + (className ? ' class="' + className + '"' : '') + ' role="img"' + (ariaLabel ? ' aria-label="' + ariaLabel + '"' : '') + '>' + titleTag + \`${escaped}\` + '</svg>';
   return { html, props };
 }
 export const ${componentName}Icon = \`${escaped}\`;
@@ -127,14 +129,14 @@ function generateSolidComponent(svgContent, solidComponentName) {
 import type { Component as SolidComponent, JSX } from 'solid-js';
 
 export interface IconProps extends JSX.SvgSVGAttributes<SVGSVGElement> {
-  size?: number; color?: string; title?: string; ariaLabel?: string;
+  size?: number; color?: string; strokeWidth?: number; title?: string; ariaLabel?: string;
 }
 
 export const ${solidComponentName}: SolidComponent<IconProps> = (props) => {
-  const [local, others] = splitProps(props, ['size', 'color', 'class', 'title', 'ariaLabel']);
+  const [local, others] = splitProps(props, ['size', 'color', 'strokeWidth', 'class', 'title', 'ariaLabel']);
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={local.color ?? 'currentColor'}
-      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"
+      stroke-width={local.strokeWidth ?? 1.5} stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"
       width={local.size ?? 24} height={local.size ?? 24} class={local.class} role="img" aria-label={local.ariaLabel}
       innerHTML={\`${escaped}\`} {...others}>
       {local.title && <title>{local.title}</title>}
@@ -151,17 +153,18 @@ function generateWebComponent(svgContent, componentName, tagName) {
   return `export const ${componentName}Icon = \`${escaped}\`;
 
 export class ${componentName}Element extends HTMLElement {
-  static observedAttributes = ['size', 'color', 'title', 'aria-label'];
+  static observedAttributes = ['size', 'color', 'stroke-width', 'title', 'aria-label'];
   constructor() { super(); this.attachShadow({ mode: 'open' }); }
   connectedCallback() { this.render(); }
   attributeChangedCallback() { this.render(); }
   render() {
     const size = this.getAttribute('size') || '24';
     const color = this.getAttribute('color') || 'currentColor';
+    const strokeWidth = this.getAttribute('stroke-width') || '1.5';
     const title = this.getAttribute('title');
     const ariaLabel = this.getAttribute('aria-label');
     const titleTag = title ? '<title>' + title + '</title>' : '';
-    this.shadowRoot!.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="' + color + '" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" width="' + size + '" height="' + size + '" role="img"' + (ariaLabel ? ' aria-label="' + ariaLabel + '"' : '') + '>' + titleTag + \`${escaped}\` + '</svg>';
+    this.shadowRoot!.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="' + color + '" stroke-width="' + strokeWidth + '" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" width="' + size + '" height="' + size + '" role="img"' + (ariaLabel ? ' aria-label="' + ariaLabel + '"' : '') + '>' + titleTag + \`${escaped}\` + '</svg>';
   }
 }
 

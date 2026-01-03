@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const NotebookTabs: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M6 18v1a2 2 0 0 0 2 2h8M6 18v-3m0 3H4.5M6 18h1.5M6 15v-3m0 3H4.5M6 15h1.5M6 12V9m0 3h1.5M6 12H4.5M6 9V6m0 3H4.5M6 9h1.5M6 6V5a2 2 0 0 1 2-2h8M6 6h1.5M6 6H4.5M16 3h1a2 2 0 0 1 2 2v1m-3-3v3m0 15h1a2 2 0 0 0 2-2v-1m-3 3v-3m0-12h3m-3 0v3m3-3v3m-3 0h3m-3 0v3m3-3v3m-3 0h3m-3 0v3m3-3v3m-3 0h3m-3 0v3m3-3v3m-3 0h3"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M5.25 18v2.25a1.5 1.5 0 0 0 1.5 1.5h9M5.25 18v-6m0 6h-1.5m1.5 0H7.5m-2.25-6V6m0 6h-1.5m1.5 0H7.5M5.25 6V3.75a1.5 1.5 0 0 1 1.5-1.5h9M5.25 6h-1.5m1.5 0H7.5m8.25-3.75h3a1.5 1.5 0 0 1 1.5 1.5V7.5m-4.5-5.25V7.5m0 14.25h3a1.5 1.5 0 0 0 1.5-1.5V18m-4.5 3.75V18m0 0h4.5m-4.5 0v-5.25m4.5 5.25v-5.25m-4.5 0h4.5m-4.5 0V7.5m4.5 5.25V7.5m-4.5 0h4.5"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

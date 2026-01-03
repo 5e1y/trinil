@@ -5,6 +5,7 @@ export const BankArrowRight = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const BankArrowRight = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M12 17V8.5m0 8.5H9m3 0h1.1M12 8.5H9m3 0h3m3 0h.5a1 1 0 0 0 1-1v-.232a1 1 0 0 0-.742-.966l-6.5-1.733a1 1 0 0 0-.516 0l-6.5 1.733a1 1 0 0 0-.742.966V7.5a1 1 0 0 0 1 1H6m12 0h-3m3 0V13M6 8.5V17m0-8.5h3M6 17h-.382a1 1 0 0 0-.894.553l-.681 1.362a.404.404 0 0 0 .362.585h8.824M6 17h3m0-8.5V17m6-8.5V14m3-1a5 5 0 1 1-4.771 6.5M18 13a4.98 4.98 0 0 0-3 1m-1.9 3a5 5 0 0 0 .129 2.5M13.1 17a5 5 0 0 1 1.9-3m.5 4h5m0 0-2 2m2-2-2-2"/>`,
+        innerHTML: `<path stroke-miterlimit="1.788" d="M5.25 17.25h-.329a1.5 1.5 0 0 0-1.455 1.136L3.02 20.17a.668.668 0 0 0 .648.83l8.276-.014M5.25 17.25v-9m0 9h4.5m-4.5-9h-.942a1.308 1.308 0 0 1-.414-2.548l7.632-2.544a1.5 1.5 0 0 1 .948 0l7.632 2.544a1.307 1.307 0 0 1-.414 2.548h-.942m-13.5 0h4.5m0 9v-9m0 9h1.541m-1.541-9h4.5m0 0h4.5m-4.5 0v4.137m4.5-4.137v3.041m-4.5 7.084h8.25m0 0-3.75 3.75m3.75-3.75-3.75-3.75"/>`,
       }, children);
     };
   },

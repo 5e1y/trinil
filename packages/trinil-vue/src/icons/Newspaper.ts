@@ -5,6 +5,7 @@ export const Newspaper = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Newspaper = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M19.75 19H4.5A1.5 1.5 0 0 1 3 17.5V6a1 1 0 0 1 1-1h13.5a1 1 0 0 1 1 1v1m1.25 12c-.69 0-1.25-.56-1.25-1.25V7m1.25 12c.69 0 1.25-.56 1.25-1.25V8a1 1 0 0 0-1-1h-1.5m-5.5.5h2.5M13 10h3m-3 2.5h1.5m-9-4.9v4.8a.1.1 0 0 0 .1.1h4.8a.1.1 0 0 0 .1-.1V7.6a.1.1 0 0 0-.1-.1H5.6a.1.1 0 0 0-.1.1Z"/>`,
+        innerHTML: `<path d="M18.75 6.75v-1.5a1.5 1.5 0 0 0-1.5-1.5H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h16.5m-1.5-13.5v12a1.5 1.5 0 0 0 1.5 1.5m-1.5-13.5h1.5a1.5 1.5 0 0 1 1.5 1.5v10.5a1.5 1.5 0 0 1-1.5 1.5M13.5 7.5H15m-1.5 3h.75M6 7.5V12h4.5V7.5z"/>`,
       }, children);
     };
   },

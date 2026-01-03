@@ -5,6 +5,7 @@ export const Infill = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Infill = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M4 10V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v5M4 10v4m0-4 3.293-3.293a1 1 0 0 1 1.414 0l2.586 2.586a1 1 0 0 0 1.414 0l2.586-2.586a1 1 0 0 1 1.414 0L20 10M4 14v4m0-4 3.293-3.293a1 1 0 0 1 1.414 0l2.586 2.586a1 1 0 0 0 1.414 0l2.586-2.586a1 1 0 0 1 1.414 0L20 14M4 18v1a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-1M4 18l3.293-3.293a1 1 0 0 1 1.414 0l2.586 2.586a1 1 0 0 0 1.414 0l2.586-2.586a1 1 0 0 1 1.414 0L20 18m0 0v-4m0 0v-4"/>`,
+        innerHTML: `<path d="M21 18.75v.75a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 19.5v-.75m18 0v-4.5m0 4.5-3.44-3.44a1.5 1.5 0 0 0-2.12 0l-2.38 2.38a1.5 1.5 0 0 1-2.12 0l-2.38-2.38a1.5 1.5 0 0 0-2.12 0L3 18.75m18-4.5v-4.5m0 4.5-3.44-3.44a1.5 1.5 0 0 0-2.12 0l-2.38 2.38a1.5 1.5 0 0 1-2.12 0l-2.38-2.38a1.5 1.5 0 0 0-2.12 0L3 14.25m18-4.5V4.5A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5v5.25m18 0-3.44-3.44a1.5 1.5 0 0 0-2.12 0l-2.38 2.38a1.5 1.5 0 0 1-2.12 0L8.56 6.31a1.5 1.5 0 0 0-2.12 0L3 9.75m0 0v4.5m0 0v4.5"/>`,
       }, children);
     };
   },

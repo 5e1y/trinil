@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const Needle: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M17.328 6.623C16.495 7.789 12.5 12 8.5 10.5S4.5 5 7.002 3m11.996 6c.667 1 1.902 3.7 1.502 6.5-.463 3.245-2.05 5.796-4.426 4.004m0 0A5.5 5.5 0 0 1 15.5 19c-1-1-1.502-5 .5-5 1.302 0 1.967 3.804.074 5.504Zm0 0c-1.018.915-2.777 1.22-5.576-.004m8.104-10.198L3.078 21.062c-.093.07-.21-.047-.14-.14l11.76-15.524Q15 5 15.4 4.7l.378-.283a2.718 2.718 0 0 1 3.805 3.805L19.3 8.6a3.6 3.6 0 0 1-.698.702ZM17.5 7a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M9.097 11.052 2.25 21.75l17.442-11.163a4.6 4.6 0 0 0 .74-.591M9.098 11.052l4.316-6.744a4.55 4.55 0 0 1 2.3-1.83c3.612-1.29 7.1 2.197 5.81 5.81a4.55 4.55 0 0 1-1.09 1.708M9.097 11.052c2.732-.188 5.842-1.926 7.647-3.748m-7.647 3.748c-1.484.102-2.856-.254-3.847-1.302-3-3.173.182-6.905 1.5-7.5m11.155 4.865a.75.75 0 0 1-1.16.189m1.16-.19a.75.75 0 1 0-1.161.189m1.161-.188a4.3 4.3 0 0 0-.655-.365q-.231.277-.506.554m3.689 2.692c.775 1.426 1.355 3.346 1.355 5.84 0 4.086-1.748 5.094-3.391 4.742m0 0c-2.26-.187-3.928-3.381-1.782-4.507s3.818 2.326 1.782 4.507m0 0c-.99 1.366-3.197 1.952-7.17-.317"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

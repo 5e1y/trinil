@@ -5,6 +5,7 @@ export const Moon = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Moon = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M10 21A9 9 0 1 0 5.58 4.158a.7.7 0 0 0-.278.907c.12.265.386.431.676.452a6.5 6.5 0 0 1 0 12.966.8.8 0 0 0-.676.452.7.7 0 0 0 .279.907A8.96 8.96 0 0 0 10 21Z"/>`,
+        innerHTML: `<path stroke-miterlimit="1.788" d="M10.5 21.75c5.385 0 9.75-4.365 9.75-9.75s-4.365-9.75-9.75-9.75a9.7 9.7 0 0 0-5.778 1.896c-.478.352-.065 1.104.528 1.104a6.75 6.75 0 1 1 0 13.5c-.593 0-1.006.752-.528 1.104A9.7 9.7 0 0 0 10.5 21.75"/>`,
       }, children);
     };
   },

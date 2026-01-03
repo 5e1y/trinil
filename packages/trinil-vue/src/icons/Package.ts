@@ -5,6 +5,7 @@ export const Package = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Package = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="m7.5 10 4.5 2.5M7.5 10l9-5m-9 5L3.14 7.578M12 12.5v8.856m0-8.856 8.86-4.922M16.5 5l3.986 2.214a1 1 0 0 1 .374.364M16.5 5l-4.014-2.23a1 1 0 0 0-.972 0l-8 4.444a1 1 0 0 0-.374.364M12 21.356a1 1 0 0 1-.486-.126l-8-4.444A1 1 0 0 1 3 15.912V8.088a1 1 0 0 1 .14-.51M12 21.356a1 1 0 0 0 .486-.126l8-4.444a1 1 0 0 0 .514-.874V8.088a1 1 0 0 0-.14-.51"/>`,
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 21.514c-.261 0-.522-.069-.756-.205l-7.5-4.375A1.5 1.5 0 0 1 3 15.638V8.363c0-.267.07-.523.199-.746M12 21.514c.261 0 .522-.069.756-.205l7.5-4.375A1.5 1.5 0 0 0 21 15.638V8.363a1.5 1.5 0 0 0-.198-.746M12 21.514V12.75m0 0-4.5-2.625M12 12.75l8.802-5.134M7.5 10.125l9.006-5.247M7.5 10.125l-4.301-2.51m13.307-2.737 3.75 2.188a1.5 1.5 0 0 1 .546.55m-4.296-2.738-3.75-2.187a1.5 1.5 0 0 0-1.512 0l-7.5 4.375a1.5 1.5 0 0 0-.545.55"/>`,
       }, children);
     };
   },

@@ -5,6 +5,7 @@ export const ArrowLeftRight = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const ArrowLeftRight = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M19.5 16 15 20.5m4.5-4.5L15 11.5m4.5 4.5h-15m0-8L9 3.5M4.5 8 9 12.5M4.5 8h15"/>`,
+        innerHTML: `<path stroke-miterlimit="1.788" d="M3 7.5h18m-18 0L7.5 12M3 7.5 7.5 3M21 16.5H3m18 0L16.5 21m4.5-4.5L16.5 12"/>`,
       }, children);
     };
   },

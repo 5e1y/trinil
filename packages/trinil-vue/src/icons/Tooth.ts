@@ -5,6 +5,7 @@ export const Tooth = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Tooth = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M13.533 3.41c2.62-1.448 5.57 1.167 4.86 4.308l-1.105 3.369a18.7 18.7 0 0 0-.886 4.605l-.215 3.3c-.13.938-1.32 1.03-1.567.121-.227-.836-1.088-2.58-1.847-3.922-.357-.63-1.189-.63-1.546 0-.732 1.295-1.606 3.443-1.801 4.954-.15 1.167-1.687 1.127-1.788-.046l-.194-3.142s-.508-3.812-.911-5.147l-.926-4.092c-.71-3.14 2.24-5.756 4.86-4.308a3.14 3.14 0 0 0 3.066 0Zm0 0c-.965.533-3.355 2.086-3.355 4.445"/>`,
+        innerHTML: `<path d="M13.663 2.705c2.842-1.57 6.041 1.266 5.27 4.673l-1.197 3.654a20.3 20.3 0 0 0-.962 4.995l-.233 3.58c-.141 1.017-1.432 1.117-1.7.131-.245-.907-1.18-2.798-2.003-4.254-.387-.685-1.289-.685-1.676 0-.794 1.404-1.742 3.734-1.954 5.373-.164 1.266-1.83 1.223-1.94-.05l-.21-3.408s-.551-4.134-.988-5.582L5.066 7.378c-.77-3.407 2.43-6.244 5.27-4.673a3.4 3.4 0 0 0 3.327 0m0 0c-1.047.578-3.147 2.262-3.147 4.821"/>`,
       }, children);
     };
   },

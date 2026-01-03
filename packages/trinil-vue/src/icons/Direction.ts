@@ -5,6 +5,7 @@ export const Direction = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Direction = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M12 20H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1zm0 0v-4m5.5-7H14a2 2 0 0 0-2 2v5m5.5-7L15 6.5M17.5 9 15 11.5M12 16a2 2 0 0 0-2-2H6.5m0 0L9 11.5M6.5 14 9 16.5"/>`,
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 21h9V3H3v18zm0 0v-6.75m6-6h-3a3 3 0 0 0-3 3v3m6-6L15.75 6M18 8.25l-2.25 2.25M12 14.25H6m0 0L8.25 12M6 14.25l2.25 2.25"/>`,
       }, children);
     };
   },

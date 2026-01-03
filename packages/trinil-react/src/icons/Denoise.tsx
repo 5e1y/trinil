@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const Denoise: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M18.364 5.636A9 9 0 1 0 5.636 18.364M18.364 5.636a9 9 0 0 1 2.485 4.713m-2.485-4.713L20 4m-1.636 1.636L5.636 18.364m15.213-8.015q.15.804.151 1.651a9 9 0 0 1-10.651 8.849m10.5-10.5L20.5 10m.349.349.001.001M13 17.5l.5.5m-2 1 .5.5m4-5 .5.5m-2 1 .5.5m4-5 .5.5m-2 1 .5.5m-2.5 5 .5.5m-2 1 .5.5m4-5 .5.5m-2 1 .5.5M20 14l.5.5M12 15l.5.5m-2 1 .5.5m4-5 .5.5m-2 1 .5.5m2.5-3.5.5.5m-8 7 .5.5m-2 1 .5.5M18 9l.5.5m1-2 .5.5M5.636 18.364 4 20m1.636-1.636a9 9 0 0 0 4.713 2.485M10 20.5l.349.349"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M5.106 18.894A9.72 9.72 0 0 0 12 21.75c5.385 0 9.75-4.365 9.75-9.75a9.72 9.72 0 0 0-2.856-6.894M5.106 18.894A9.72 9.72 0 0 1 2.25 12c0-5.385 4.365-9.75 9.75-9.75a9.72 9.72 0 0 1 6.894 2.856M5.106 18.894 3 21m2.106-2.106L18.894 5.106m0 0L21 3m-4.5 9 .75.75m1.5-3 .75.75m-5.25 3.75L15 15m-3 1.5.75.75m-3 1.5.75.75m7.5-3.75.75.75m-3 1.5.75.75m-3 1.5.75.75m6-7.5.75.75"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

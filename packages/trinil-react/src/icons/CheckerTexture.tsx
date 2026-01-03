@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const CheckerTexture: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M12 20h4m-4 0H9.5m2.5 0v-2.5m4 2.5h1.5M16 20v-1.5m1.5 1.5H19a1 1 0 0 0 1-1v-1.5M17.5 20l2.5-2.5M16 4h3a1 1 0 0 1 1 1v3m-4-4h-1.5M16 4v1.5M14.5 4H12m2.5 0L12 6.5M12 4H8m4 0v2.5m4 12V16m0 2.5 2.5-2.5M16 16v-2.5m0 2.5h-2.5m2.5 0h2.5M16 13.5V12m0 1.5L13.5 16m2.5-4v-1.5m0 1.5h1.5M16 12h-1.5m1.5-1.5V8m0 2.5L18.5 8M16 8V5.5M16 8h2.5M16 8h-2.5M16 5.5 13.5 8M8 4H6.5M8 4v1.5M8 20H5a1 1 0 0 1-1-1v-3m4 4h1.5M8 20v-1.5M9.5 20l2.5-2.5M4 12v2.5M4 12V8m0 4h2.5M4 14.5V16m0-1.5L6.5 12M4 16h1.5M20 17.5V16m0 0v-4m0 4h-1.5m1.5-4V9.5m0 2.5h-2.5m-12 4H8m-2.5 0L8 13.5M8 16h2.5M8 16v-2.5M8 16v2.5m2.5-2.5H12m-1.5 0L8 18.5m4-2.5h1.5M12 16v-1.5m0 1.5v1.5m8-8V8m0 1.5L17.5 12M20 8h-1.5M4 8V6.5M4 8h1.5M4 6.5V5a1 1 0 0 1 1-1h1.5M4 6.5 6.5 4m-1 4L8 5.5M5.5 8H8m0-2.5V8m0 0v2.5M8 8h2.5M8 10.5V12m0-1.5L10.5 8M8 12v1.5M8 12h1.5M8 12H6.5m7-4H12m0 0h-1.5M12 8V6.5M12 8v1.5m2.5 2.5H12m2.5 0L12 14.5m0-2.5H9.5m2.5 0V9.5m0 2.5v2.5M9.5 12 12 9.5"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M9 21h6m-6 0H5.25M9 21v-3.75M15 21v-2.25M15 21h2.25M15 3H9m6 0h3.75M15 3v3.75M9 3v2.25M9 3H6.75M21 15V9m0 6h-2.25M21 15v2.25M21 9h-3.75M21 9V5.25M3 9v6m0-6h2.25M3 9V6.75M3 15v3.75M3 15h3.75M3 18.75v.75A1.5 1.5 0 0 0 4.5 21h.75M3 18.75 6.75 15m0 0H9m-3.75 6L9 17.25m0 0V15m0-2.25V15m0-2.25L12.75 9M9 12.75V9m0 6h2.25m1.5-6H15m-2.25 0H9m2.25 6L15 11.25M11.25 15H15m0-3.75V9m0 2.25V15m0-6h2.25M15 9V6.75M17.25 9 21 5.25m0 0V4.5A1.5 1.5 0 0 0 19.5 3h-.75m0 0L15 6.75m-6-1.5V9m0-3.75L5.25 9M9 9H5.25M3 6.75V4.5A1.5 1.5 0 0 1 4.5 3h2.25M3 6.75 6.75 3M15 18.75V15m0 3.75L18.75 15M15 15h3.75M21 17.25v2.25a1.5 1.5 0 0 1-1.5 1.5h-2.25M21 17.25 17.25 21"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

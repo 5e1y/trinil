@@ -5,6 +5,7 @@ export const SoundWave = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const SoundWave = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M3 8s0 9 1.5 9S6 6 7.5 6s1.5 14 3 14 1.5-16 3-16 1.5 14 3 14 1.5-11 3-11 1.5 9 1.5 9"/>`,
+        innerHTML: `<path d="M2.25 8.25s0 10.5 2.25 10.5c3 0 .75-15 4.5-15s2.25 16.5 6 16.5 1.5-15 4.5-15c2.25 0 2.25 10.5 2.25 10.5"/>`,
       }, children);
     };
   },

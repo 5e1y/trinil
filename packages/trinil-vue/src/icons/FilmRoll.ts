@@ -5,6 +5,7 @@ export const FilmRoll = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const FilmRoll = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M11 8V7a1 1 0 0 0-1-1h-.91A.09.09 0 0 1 9 5.91.91.91 0 0 0 8.09 5H5.91a.91.91 0 0 0-.91.91c0 .05-.04.09-.09.09H4a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-1m0-9H8a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h3m0-9h2c.552 0 .987.455 1.123.99A4 4 0 0 0 18 12h.667A2.333 2.333 0 0 1 21 14.333V16a1 1 0 0 1-1 1h-9"/>`,
+        innerHTML: `<path d="M11.25 7.5V6a1.5 1.5 0 0 0-1.5-1.5H9A1.5 1.5 0 0 0 7.5 3H6a1.5 1.5 0 0 0-1.5 1.5h-.75A1.5 1.5 0 0 0 2.25 6v13.5a1.5 1.5 0 0 0 1.5 1.5h6a1.5 1.5 0 0 0 1.5-1.5V18m0-10.5h1.5c.828 0 1.476.69 1.747 1.473A4.5 4.5 0 0 0 18.75 12a3 3 0 0 1 3 3v3h-10.5m0-10.5h-4.5V18h4.5"/>`,
       }, children);
     };
   },

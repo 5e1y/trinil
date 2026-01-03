@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const HourglassEnd: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M5 4v1.324a5 5 0 0 0 2.226 4.16l1.278.852a2 2 0 0 1 0 3.328l-1.277.852A5 5 0 0 0 5 18.676V20a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1.324a5 5 0 0 0-2.227-4.16l-1.277-.852a2 2 0 0 1 0-3.328l1.277-.852A5 5 0 0 0 19 5.324V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1Zm11.409 15H7.225A.225.225 0 0 1 7 18.775c0-.163.108-.306.264-.35l2.257-.645a3.9 3.9 0 0 0 1.699-1l.402-.402c.7-.7 1.871-.556 2.38.293.324.54.807.965 1.383 1.218l1.265.557a.21.21 0 0 1 .123.189.365.365 0 0 1-.364.365Z" clip-rule="evenodd"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M3.75 20.25v-1.146a5.43 5.43 0 0 1 3-4.854l2.33-1.165a1.214 1.214 0 0 0 0-2.17L6.75 9.75a5.43 5.43 0 0 1-3-4.854V3.75a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v1.146a5.43 5.43 0 0 1-3 4.854l-2.33 1.165a1.214 1.214 0 0 0 0 2.17l2.33 1.165c1.839.92 3 2.799 3 4.854v1.146a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5m5.769-3.75h.054c1.028 0 1.967-.58 2.427-1.5.46.92 1.4 1.5 2.427 1.5h.054a2.8 2.8 0 0 1 2.657 1.915l.112.335H6.75l.112-.335A2.8 2.8 0 0 1 9.519 16.5" clip-rule="evenodd"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

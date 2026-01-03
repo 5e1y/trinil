@@ -5,6 +5,7 @@ export const Shuffle = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Shuffle = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M20 17h-2.658a6 6 0 0 1-5.101-2.842L10.905 12M20 17l-3-3m3 3-3 3m-6.095-8L9.342 9.476A6.28 6.28 0 0 0 4 6.5m6.905 5.5 1.336-2.158A6 6 0 0 1 17.342 7H20m-9.095 5-1.563 2.524A6.28 6.28 0 0 1 4 17.5M20 7l-3 3m3-3-3-3"/>`,
+        innerHTML: `<path stroke-miterlimit="1.788" d="m21.75 6.75-3-3m3 3-3 3m3-3h-3.293a6.75 6.75 0 0 0-5.477 2.805L11.219 12m7.531 8.25 3-3m0 0-3-3m3 3h-3.293a6.75 6.75 0 0 1-5.477-2.805L11.219 12m0 0-1.76 2.445A6.75 6.75 0 0 1 3.98 17.25H2.25M11.218 12l-1.76-2.445A6.75 6.75 0 0 0 3.98 6.75H2.25"/>`,
       }, children);
     };
   },

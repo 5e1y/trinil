@@ -5,6 +5,7 @@ export const Textile = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Textile = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M9.5 18c0-1-1-2-3-2s-3 1-3 2m6 0c0 1-1 2-3 2m3-2V8m-3 12c-2 0-3-1-3-2m3 2h13a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1h-10m-6 10V6c0-1 1-2 3-2s3 1 3 2v2"/>`,
+        innerHTML: `<path d="M9.75 18c0 1.243-1.679 2.25-3.75 2.25M9.75 18c0-1.243-1.679-2.25-3.75-2.25S2.25 16.757 2.25 18m7.5 0V6.75M6 20.25c-2.071 0-3.75-1.007-3.75-2.25M6 20.25h14.25a1.5 1.5 0 0 0 1.5-1.5V8.25a1.5 1.5 0 0 0-1.5-1.5H9.75M2.25 18V5.25C2.25 4.007 3.929 3 6 3s3.75 1.007 3.75 2.25v1.5"/>`,
       }, children);
     };
   },

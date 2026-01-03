@@ -5,6 +5,7 @@ export const BrightnessHigh = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const BrightnessHigh = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M12 6V2m6 10h4m-10 6v4M6 12H2m14.243-4.243L19.07 4.93m-2.828 11.314 2.828 2.828M7.757 16.243 4.93 19.07M7.757 7.757 4.93 4.93M16 12a4 4 0 1 0-8 0 4 4 0 0 0 8 0Z"/>`,
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 5.25v-3m0 16.5v3m6.758-9.757h3m-16.5 0h-3m14.528 4.775 2.121 2.121M7.24 7.222 5.119 5.1m2.12 11.677L5.12 18.9M16.786 7.233l2.121-2.122M12 15.75a3.75 3.75 0 1 1 0-7.5 3.75 3.75 0 0 1 0 7.5"/>`,
       }, children);
     };
   },

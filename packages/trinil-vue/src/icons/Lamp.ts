@@ -5,6 +5,7 @@ export const Lamp = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const Lamp = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M12.072 11h6.509a.42.42 0 0 0 .389-.575l-2.719-6.796A1 1 0 0 0 15.323 3H8.677a1 1 0 0 0-.928.629L5.03 10.425a.42.42 0 0 0 .39.575h3.116m3.536 0v10m0-10H8.536m3.536 10H17m-4.928 0H7m1.536-10v5"/>`,
+        innerHTML: `<path d="M12 2.25v4.5m0 0a6.75 6.75 0 0 0-6.75 6.75c0 .414.336.75.75.75h3.75M12 6.75a6.75 6.75 0 0 1 6.75 6.75.75.75 0 0 1-.75.75h-3.75m-4.5 0V15a2.25 2.25 0 0 0 4.5 0v-.75m-4.5 0h4.5M12 21.75v-1.5m-3.912-1.338L6.75 20.25m9.162-1.338 1.338 1.338"/>`,
       }, children);
     };
   },

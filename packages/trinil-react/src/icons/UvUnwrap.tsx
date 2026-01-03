@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const UvUnwrap: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M16.5 8.5V11m0-2.5a1 1 0 0 1 1-1H20a1 1 0 0 1 1 1V11a1 1 0 0 1-1 1h-2.5a1 1 0 0 1-1-1m0-2.5a1 1 0 0 0-1-1H13a1 1 0 0 0-1 1m4.5 2.5a1 1 0 0 1-1 1H13a1 1 0 0 1-1-1m0-2.5V11m0-2.5a1 1 0 0 0-1-1m1 3.5a1 1 0 0 1-1 1M7.5 8.5V11m0-2.5a1 1 0 0 1 1-1m-1 1a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1V11a1 1 0 0 0 1 1h2.5a1 1 0 0 0 1-1m0 0a1 1 0 0 0 1 1m0-4.5H11m-2.5 0a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1H11a1 1 0 0 1 1 1v2.5a1 1 0 0 1-1 1m0 4.5H8.5m2.5 0a1 1 0 0 1 1 1v2.5a1 1 0 0 1-1 1M8.5 12a1 1 0 0 0-1 1v2.5a1 1 0 0 0 1 1m0 0H11m-2.5 0a1 1 0 0 0-1 1V20a1 1 0 0 0 1 1H11a1 1 0 0 0 1-1v-2.5a1 1 0 0 0-1-1m3.5-2c.833.167 2.5.9 2.5 2.5s-1.333 2.667-2 3m0 0v-2m0 2h2"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M7.5 16.5H3V12h4.5m0 4.5V12m0 4.5H12m-4.5 0V21H12v-4.5M7.5 12H12m-4.5 0V7.5m4.5 9V12m0 4.5h4.5M12 12h4.5M12 12V7.5m4.5 9V12m0 4.5H21V12h-4.5m-9-4.5V3H12v4.5m-4.5 0H12M15 9l2.128-2.128A2.417 2.417 0 0 0 16.5 3M15 9V6m0 3h3"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

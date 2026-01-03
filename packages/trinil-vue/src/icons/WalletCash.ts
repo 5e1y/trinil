@@ -5,6 +5,7 @@ export const WalletCash = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const WalletCash = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M12.17 7H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-1.17m-5.66 0a3.001 3.001 0 0 0 5.66 0m-5.66 0a3 3 0 1 1 5.659 0M5.5 13.5h.67m0 0h3.69c.084 0 .158.053.184.133.163.49.504.884.936 1.12M6.17 13.5a3 3 0 1 1 4.81 1.254M18.5 13.5h-4.36a.19.19 0 0 0-.184.133A2 2 0 0 1 12.059 15h-.117c-.345 0-.674-.088-.962-.246"/>`,
+        innerHTML: `<path d="M18.75 12.75h-4.5a2.25 2.25 0 0 1-3.966 1.455m-4.94-1.455a3 3 0 1 1 4.94 1.455m-4.94-1.455H9.75c0 .555.2 1.063.534 1.455m-4.94-1.455H5.25m13.099-7.5a3 3 0 1 1-5.197 0m5.197 0a2.999 2.999 0 0 0-5.198 0m5.198 0h.401a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h7.901"/>`,
       }, children);
     };
   },

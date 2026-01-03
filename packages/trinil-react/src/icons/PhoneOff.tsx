@@ -3,15 +3,16 @@ import React from 'react';
 export interface IconProps {
   size?: number;
   color?: string;
+  strokeWidth?: number;
   className?: string;
   title?: string;
   ariaLabel?: string;
 }
 
 export const PhoneOff: React.FC<IconProps> = React.memo((props) => {
-  const { size = 24, color = 'currentColor', className, title, ariaLabel } = props;
+  const { size = 24, color = 'currentColor', strokeWidth = 1.5, className, title, ariaLabel } = props;
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="m18 3-6.418 9.628m0 0a20 20 0 0 0 3.269 2.597c.081.052.188.04.256-.028l.695-.695a1 1 0 0 1 1.293-.103l2.286 1.653c.366.265.508.74.3 1.14-.26.497-.675 1.177-1.244 1.746-1.035 1.035-2.568 1.455-3.906.86a19.1 19.1 0 0 1-5.342-3.581m2.393-3.59-2.393 3.59m0 0L6 21m3.7-10.5a20 20 0 0 1-.985-1.41.206.206 0 0 1 .028-.257l.697-.697a1 1 0 0 0 .105-1.29l-1.67-2.324c-.228-.318-.623-.472-.986-.324a5.3 5.3 0 0 0-1.74 1.159C4.036 6.467 3.654 8.14 4.346 9.55a24 24 0 0 0 2.89 4.557"/>` }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" width={size} height={size} className={className} role="img" aria-label={ariaLabel} dangerouslySetInnerHTML={{ __html: `<path d="M9.37 10.13a25 25 0 0 1-1.292-1.823.25.25 0 0 1 .035-.314l.86-.853a1.215 1.215 0 0 0 .13-1.58L7.04 2.716c-.283-.39-.77-.578-1.219-.397A6.6 6.6 0 0 0 3.67 3.738c-1.374 1.36-1.847 3.407-.991 5.134A29.8 29.8 0 0 0 5.72 13.78m5.77-1.27a24.7 24.7 0 0 0 4.172 3.308c.1.063.232.049.317-.035l.858-.85a1.245 1.245 0 0 1 1.599-.126l2.825 2.024c.451.323.627.906.37 1.395-.32.609-.834 1.441-1.537 2.137-1.279 1.268-3.174 1.781-4.828 1.054-2.761-1.216-5.276-2.984-7.46-5.224m3.684-3.683L21.75 2.25M11.49 12.51l-3.683 3.683m0 0L2.25 21.75"/>` }}>
       {title && <title>{title}</title>}
     </svg>
   );

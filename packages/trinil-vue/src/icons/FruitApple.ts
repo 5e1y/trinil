@@ -5,6 +5,7 @@ export const FruitApple = defineComponent({
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: 'currentColor' },
+    strokeWidth: { type: Number, default: 1.5 },
     class: { type: String, default: undefined },
     title: { type: String, default: undefined },
     ariaLabel: { type: String, default: undefined },
@@ -14,9 +15,9 @@ export const FruitApple = defineComponent({
       const children = props.title ? [h('title', {}, props.title)] : [];
       return h('svg', {
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
-        'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
+        'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M13.895 7.63c2.698-.741 5.605.45 5.605 4.87 0 5.33-2.818 9.721-7.088 8.167a1.2 1.2 0 0 0-.824 0C7.318 22.22 4.5 17.83 4.5 12.5c0-5.5 4.5-6 7.5-4m1.895-.87A6.6 6.6 0 0 0 12 8.5m1.895-.87c1.569-1.066 2.227-2.633 2.226-3.823 0-.476-.467-.775-.927-.652C11.978 4.016 11.845 7.263 12 8.5m1.895-.87A6.6 6.6 0 0 1 12 8.5m0 0-2-4"/>`,
+        innerHTML: `<path d="M14.274 7.167c3.238-.81 6.726.491 6.726 5.318 0 5.821-3.381 10.617-8.505 8.919a1.6 1.6 0 0 0-.99 0C6.381 23.102 3 18.306 3 12.485c0-6.006 5.4-6.552 9-4.368m2.274-.95a8.3 8.3 0 0 0-2.274.95m2.274-.95c1.883-1.164 2.673-2.875 2.67-4.175 0-.52-.559-.846-1.111-.712-3.86.94-4.019 4.486-3.833 5.837m2.274-.95a8.3 8.3 0 0 1-2.274.95m0 0L9.6 3.749"/>`,
       }, children);
     };
   },
