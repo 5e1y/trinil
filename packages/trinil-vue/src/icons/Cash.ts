@@ -17,7 +17,7 @@ export const Cash = defineComponent({
         xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: props.color,
         'stroke-width': props.strokeWidth, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         width: props.size, height: props.size, class: props.class, role: 'img', 'aria-label': props.ariaLabel,
-        innerHTML: `<path d="M21.75 16.5v-9a1.5 1.5 0 0 0-1.5-1.5H3.75a1.5 1.5 0 0 0-1.5 1.5v9a1.5 1.5 0 0 0 1.5 1.5h16.5a1.5 1.5 0 0 0 1.5-1.5"/>`,
+        innerHTML: `<path d="M21.75 7.5v9a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-9A1.5 1.5 0 0 1 3.75 6h16.5a1.5 1.5 0 0 1 1.5 1.5M5.25 12a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0M18 11.25a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5m-6-1.5a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5" clip-rule="evenodd"/>`,
       }, children);
     };
   },
