@@ -1,6 +1,6 @@
 {
   "name": "trinil-solid",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "SVG icon library for SolidJS with locked stroke styles",
   "type": "module",
   "sideEffects": false,

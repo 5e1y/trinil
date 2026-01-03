@@ -1,6 +1,6 @@
 # trinil-react - Available Icons
 
-> **1055 icons** available for React
+> **1057 icons** available for React
 > 
 > Last updated: 2026-01-03
 
@@ -281,6 +281,7 @@ import { Accessibility, AccessibilityCircle, Adhesive } from 'trinil-react';
 - `Crop`
 - `Cross`
 - `Crown`
+- `Crown2`
 - `Crutch`
 - `Cup`
 - `CursorClick`
@@ -1025,6 +1026,7 @@ import { Accessibility, AccessibilityCircle, Adhesive } from 'trinil-react';
 - `Vacuum`
 - `Video`
 - `VideoOff`
+- `VideoOff2`
 - `Viewport`
 - `Virus`
 - `Volume`

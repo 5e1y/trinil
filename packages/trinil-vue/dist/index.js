@@ -9378,10 +9378,10 @@ var Crown = defineComponent268({
   }
 });
 
-// src/icons/Crutch.ts
+// src/icons/Crown2.ts
 import { defineComponent as defineComponent269, h as h269 } from "vue";
-var Crutch = defineComponent269({
-  name: "Crutch",
+var Crown2 = defineComponent269({
+  name: "Crown2",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -9407,16 +9407,16 @@ var Crutch = defineComponent269({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M20.25 8.25H3.75m16.5 0a1.5 1.5 0 0 0 0-3H8.844c-.38 0-.745-.151-1.014-.42l-.64-.64a1.5 1.5 0 0 0-1.061-.44H3.75a1.5 1.5 0 0 0-1.5 1.5v1.5a1.5 1.5 0 0 0 1.5 1.5m16.5 0L12 13.357M3.75 8.25 12 13.357m5.587 3.459L12 13.357m5.587 3.459a2.25 2.25 0 1 0 3.827 2.369 2.25 2.25 0 0 0-3.827-2.37M12 13.357l-5.587 3.459m0 0a2.25 2.25 0 1 1-3.827 2.369 2.25 2.25 0 0 1 3.827-2.37"/>`
+        innerHTML: `<path d="M3.75 18.75h16.5a1.5 1.5 0 0 0 1.5-1.5V9l-3-3.75-3 3.75L12 5.25 8.25 9l-3-3.75-3 3.75v8.25a1.5 1.5 0 0 0 1.5 1.5M6 13.5A.75.75 0 1 1 6 15a.75.75 0 0 1 0-1.5m12 0a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5m-8.25 0a2.25 2.25 0 1 0 4.5 0 2.25 2.25 0 0 0-4.5 0" clip-rule="evenodd"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Cup.ts
+// src/icons/Crutch.ts
 import { defineComponent as defineComponent270, h as h270 } from "vue";
-var Cup = defineComponent270({
-  name: "Cup",
+var Crutch = defineComponent270({
+  name: "Crutch",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -9442,16 +9442,16 @@ var Cup = defineComponent270({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m18.153 20.422 1.904-16.5a1.5 1.5 0 0 0-1.49-1.672H5.433a1.5 1.5 0 0 0-1.49 1.672l1.904 16.5a1.5 1.5 0 0 0 1.49 1.328h9.326a1.5 1.5 0 0 0 1.49-1.328"/>`
+        innerHTML: `<path d="M20.25 8.25H3.75m16.5 0a1.5 1.5 0 0 0 0-3H8.844c-.38 0-.745-.151-1.014-.42l-.64-.64a1.5 1.5 0 0 0-1.061-.44H3.75a1.5 1.5 0 0 0-1.5 1.5v1.5a1.5 1.5 0 0 0 1.5 1.5m16.5 0L12 13.357M3.75 8.25 12 13.357m5.587 3.459L12 13.357m5.587 3.459a2.25 2.25 0 1 0 3.827 2.369 2.25 2.25 0 0 0-3.827-2.37M12 13.357l-5.587 3.459m0 0a2.25 2.25 0 1 1-3.827 2.369 2.25 2.25 0 0 1 3.827-2.37"/>`
       }, children);
     };
   }
 });
 
-// src/icons/CursorClick.ts
+// src/icons/Cup.ts
 import { defineComponent as defineComponent271, h as h271 } from "vue";
-var CursorClick = defineComponent271({
-  name: "CursorClick",
+var Cup = defineComponent271({
+  name: "Cup",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -9477,16 +9477,16 @@ var CursorClick = defineComponent271({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M17.25 11.25v1.5m0-1.5a1.5 1.5 0 0 1 3 0v6a4.5 4.5 0 0 1-4.5 4.5h-4.568a6 6 0 0 1-5.735-4.235L3.75 11.25c1.5-1.5 2.448.396 2.448.396L8.25 15.75v-12a1.5 1.5 0 1 1 3 0V9m6 2.25v-1.5a1.5 1.5 0 0 0-3 0m-3-.75a1.5 1.5 0 0 1 3 0v.75m-3-.75v1.5m3-.75v1.5"/>`
+        innerHTML: `<path d="m18.153 20.422 1.904-16.5a1.5 1.5 0 0 0-1.49-1.672H5.433a1.5 1.5 0 0 0-1.49 1.672l1.904 16.5a1.5 1.5 0 0 0 1.49 1.328h9.326a1.5 1.5 0 0 0 1.49-1.328"/>`
       }, children);
     };
   }
 });
 
-// src/icons/CursorGrab.ts
+// src/icons/CursorClick.ts
 import { defineComponent as defineComponent272, h as h272 } from "vue";
-var CursorGrab = defineComponent272({
-  name: "CursorGrab",
+var CursorClick = defineComponent272({
+  name: "CursorClick",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -9512,16 +9512,16 @@ var CursorGrab = defineComponent272({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 9.75v-1.5a1.5 1.5 0 1 1 3 0m-3 1.5v3.75m0-3.75-1.737 1.303a3 3 0 0 0-1.198 2.524l.1 2.412c.02.515.093 1.032.307 1.5A6 6 0 0 0 10.432 21H15a4.5 4.5 0 0 0 4.5-4.5v-6a1.5 1.5 0 0 0-3 0m0 0V12m0-1.5V9a1.5 1.5 0 0 0-3 0m-3-.75a1.5 1.5 0 1 1 3 0V9m-3-.75v1.5m3-.75v1.5"/>`
+        innerHTML: `<path d="M17.25 11.25v1.5m0-1.5a1.5 1.5 0 0 1 3 0v6a4.5 4.5 0 0 1-4.5 4.5h-4.568a6 6 0 0 1-5.735-4.235L3.75 11.25c1.5-1.5 2.448.396 2.448.396L8.25 15.75v-12a1.5 1.5 0 1 1 3 0V9m6 2.25v-1.5a1.5 1.5 0 0 0-3 0m-3-.75a1.5 1.5 0 0 1 3 0v.75m-3-.75v1.5m3-.75v1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/CursorMouse.ts
+// src/icons/CursorGrab.ts
 import { defineComponent as defineComponent273, h as h273 } from "vue";
-var CursorMouse = defineComponent273({
-  name: "CursorMouse",
+var CursorGrab = defineComponent273({
+  name: "CursorGrab",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -9547,16 +9547,16 @@ var CursorMouse = defineComponent273({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M8.127 19.986 3.135 5.01c-.386-1.16.717-2.262 1.876-1.876l14.975 4.992c1.31.437 1.364 2.27.082 2.784l-5.951 2.38c-.377.15-.675.45-.826.826l-2.38 5.95c-.513 1.283-2.347 1.23-2.784-.081"/>`
+        innerHTML: `<path d="M7.5 9.75v-1.5a1.5 1.5 0 1 1 3 0m-3 1.5v3.75m0-3.75-1.737 1.303a3 3 0 0 0-1.198 2.524l.1 2.412c.02.515.093 1.032.307 1.5A6 6 0 0 0 10.432 21H15a4.5 4.5 0 0 0 4.5-4.5v-6a1.5 1.5 0 0 0-3 0m0 0V12m0-1.5V9a1.5 1.5 0 0 0-3 0m-3-.75a1.5 1.5 0 1 1 3 0V9m-3-.75v1.5m3-.75v1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/CursorWrite.ts
+// src/icons/CursorMouse.ts
 import { defineComponent as defineComponent274, h as h274 } from "vue";
-var CursorWrite = defineComponent274({
-  name: "CursorWrite",
+var CursorMouse = defineComponent274({
+  name: "CursorMouse",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -9582,16 +9582,16 @@ var CursorWrite = defineComponent274({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6.75 2.25H9c3 0 3 2.25 3 2.25m5.25-2.25H15c-3 0-3 2.25-3 2.25m0 0v15m0 0s0 2.25-3 2.25H6.75M12 19.5s0 2.25 3 2.25h2.25"/>`
+        innerHTML: `<path d="M8.127 19.986 3.135 5.01c-.386-1.16.717-2.262 1.876-1.876l14.975 4.992c1.31.437 1.364 2.27.082 2.784l-5.951 2.38c-.377.15-.675.45-.826.826l-2.38 5.95c-.513 1.283-2.347 1.23-2.784-.081"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Curve.ts
+// src/icons/CursorWrite.ts
 import { defineComponent as defineComponent275, h as h275 } from "vue";
-var Curve = defineComponent275({
-  name: "Curve",
+var CursorWrite = defineComponent275({
+  name: "CursorWrite",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -9617,16 +9617,16 @@ var Curve = defineComponent275({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 21c0-4.162 1.413-7.994 3.784-11.043m0 0a2.25 2.25 0 1 1 3.173-3.173M6.784 9.957a2.25 2.25 0 0 0 3.173-3.173m0 0A17.92 17.92 0 0 1 21 3"/>`
+        innerHTML: `<path d="M6.75 2.25H9c3 0 3 2.25 3 2.25m5.25-2.25H15c-3 0-3 2.25-3 2.25m0 0v15m0 0s0 2.25-3 2.25H6.75M12 19.5s0 2.25 3 2.25h2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Cut.ts
+// src/icons/Curve.ts
 import { defineComponent as defineComponent276, h as h276 } from "vue";
-var Cut = defineComponent276({
-  name: "Cut",
+var Curve = defineComponent276({
+  name: "Curve",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -9652,16 +9652,16 @@ var Cut = defineComponent276({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.371 8.871a3 3 0 1 1-4.243-4.243 3 3 0 0 1 4.243 4.243m0 0L10.5 12m0 0 5.25 5.25M10.5 12l-3.129 3.129M10.5 12l5.25-5.25m-4.5 0v-1.5a1.5 1.5 0 0 1 1.5-1.5h5.379a1.5 1.5 0 0 1 1.06.44l2.122 2.12a1.5 1.5 0 0 1 .439 1.061V18.75a1.5 1.5 0 0 1-1.5 1.5h-7.5a1.5 1.5 0 0 1-1.5-1.5v-1.5m-3.879-2.121a3 3 0 1 1-4.243 4.243 3 3 0 0 1 4.243-4.243"/>`
+        innerHTML: `<path d="M3 21c0-4.162 1.413-7.994 3.784-11.043m0 0a2.25 2.25 0 1 1 3.173-3.173M6.784 9.957a2.25 2.25 0 0 0 3.173-3.173m0 0A17.92 17.92 0 0 1 21 3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/CuttingBoard.ts
+// src/icons/Cut.ts
 import { defineComponent as defineComponent277, h as h277 } from "vue";
-var CuttingBoard = defineComponent277({
-  name: "CuttingBoard",
+var Cut = defineComponent277({
+  name: "Cut",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -9687,16 +9687,16 @@ var CuttingBoard = defineComponent277({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3.75 3.75v16.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V3.75a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5m10.125 1.5h-3.75a.375.375 0 1 0 0 .75h3.75a.375.375 0 0 0 0-.75" clip-rule="evenodd"/>`
+        innerHTML: `<path d="M7.371 8.871a3 3 0 1 1-4.243-4.243 3 3 0 0 1 4.243 4.243m0 0L10.5 12m0 0 5.25 5.25M10.5 12l-3.129 3.129M10.5 12l5.25-5.25m-4.5 0v-1.5a1.5 1.5 0 0 1 1.5-1.5h5.379a1.5 1.5 0 0 1 1.06.44l2.122 2.12a1.5 1.5 0 0 1 .439 1.061V18.75a1.5 1.5 0 0 1-1.5 1.5h-7.5a1.5 1.5 0 0 1-1.5-1.5v-1.5m-3.879-2.121a3 3 0 1 1-4.243 4.243 3 3 0 0 1 4.243-4.243"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Cuttlery.ts
+// src/icons/CuttingBoard.ts
 import { defineComponent as defineComponent278, h as h278 } from "vue";
-var Cuttlery = defineComponent278({
-  name: "Cuttlery",
+var CuttingBoard = defineComponent278({
+  name: "CuttingBoard",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -9722,16 +9722,16 @@ var Cuttlery = defineComponent278({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 3.75v4.5a1.5 1.5 0 0 0 1.5 1.5m1.5-6v4.5a1.5 1.5 0 0 1-1.5 1.5m0 0v10.5m18-6V3.75a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5m0 0v6m-4.5-7.125a4.875 4.875 0 1 0-9.75 0 4.875 4.875 0 0 0 9.75 0"/>`
+        innerHTML: `<path d="M3.75 3.75v16.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V3.75a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5m10.125 1.5h-3.75a.375.375 0 1 0 0 .75h3.75a.375.375 0 0 0 0-.75" clip-rule="evenodd"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Cylinder.ts
+// src/icons/Cuttlery.ts
 import { defineComponent as defineComponent279, h as h279 } from "vue";
-var Cylinder = defineComponent279({
-  name: "Cylinder",
+var Cuttlery = defineComponent279({
+  name: "Cuttlery",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -9757,16 +9757,16 @@ var Cylinder = defineComponent279({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21 7.5c0-2.9-4.03-5.25-9-5.25S3 4.6 3 7.5m18 0c0 2.9-4.03 5.25-9 5.25S3 10.4 3 7.5m18 0v9c0 2.9-4.03 5.25-9 5.25S3 19.4 3 16.5v-9"/>`
+        innerHTML: `<path d="M2.25 3.75v4.5a1.5 1.5 0 0 0 1.5 1.5m1.5-6v4.5a1.5 1.5 0 0 1-1.5 1.5m0 0v10.5m18-6V3.75a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5m0 0v6m-4.5-7.125a4.875 4.875 0 1 0-9.75 0 4.875 4.875 0 0 0 9.75 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Dashboard.ts
+// src/icons/Cylinder.ts
 import { defineComponent as defineComponent280, h as h280 } from "vue";
-var Dashboard = defineComponent280({
-  name: "Dashboard",
+var Cylinder = defineComponent280({
+  name: "Cylinder",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -9792,16 +9792,16 @@ var Dashboard = defineComponent280({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M17.871 16.371a3 3 0 0 0 .879-2.121 3 3 0 0 0-.879-2.121m0 4.242a3 3 0 1 1 0-4.243m0 4.243L15.75 14.25l2.121-2.121M6 14.25v3m3 0v-6m-6.75-3v9a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3v-9m-19.5 0v-1.5a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v1.5m-19.5 0h19.5"/>`
+        innerHTML: `<path d="M21 7.5c0-2.9-4.03-5.25-9-5.25S3 4.6 3 7.5m18 0c0 2.9-4.03 5.25-9 5.25S3 10.4 3 7.5m18 0v9c0 2.9-4.03 5.25-9 5.25S3 19.4 3 16.5v-9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Database.ts
+// src/icons/Dashboard.ts
 import { defineComponent as defineComponent281, h as h281 } from "vue";
-var Database = defineComponent281({
-  name: "Database",
+var Dashboard = defineComponent281({
+  name: "Dashboard",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -9827,16 +9827,16 @@ var Database = defineComponent281({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.75 7.5c0 2.9-4.365 5.25-9.75 5.25S2.25 10.4 2.25 7.5m19.5 0c0-2.9-4.365-5.25-9.75-5.25S2.25 4.6 2.25 7.5m19.5 0V12M2.25 7.5V12m19.5 0c0 2.9-4.365 5.25-9.75 5.25S2.25 14.9 2.25 12m19.5 0v4.5c0 2.9-4.365 5.25-9.75 5.25S2.25 19.4 2.25 16.5V12"/>`
+        innerHTML: `<path d="M17.871 16.371a3 3 0 0 0 .879-2.121 3 3 0 0 0-.879-2.121m0 4.242a3 3 0 1 1 0-4.243m0 4.243L15.75 14.25l2.121-2.121M6 14.25v3m3 0v-6m-6.75-3v9a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3v-9m-19.5 0v-1.5a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v1.5m-19.5 0h19.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DatabaseCheck.ts
+// src/icons/Database.ts
 import { defineComponent as defineComponent282, h as h282 } from "vue";
-var DatabaseCheck = defineComponent282({
-  name: "DatabaseCheck",
+var Database = defineComponent282({
+  name: "Database",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -9862,16 +9862,16 @@ var DatabaseCheck = defineComponent282({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 7.5c0 2.9 4.365 5.25 9.75 5.25q.966-.001 1.88-.098M2.25 7.5c0-2.9 4.365-5.25 9.75-5.25s9.75 2.35 9.75 5.25m-19.5 0V12m19.5-4.5c0 1.49-1.153 2.835-3.004 3.79M21.75 7.5v4.887M2.25 12v4.5c0 2.9 4.365 5.25 9.75 5.25q.194 0 .384-.004M2.25 12c0 2.771 3.988 5.041 9.043 5.236m2.957 1.514 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
+        innerHTML: `<path d="M21.75 7.5c0 2.9-4.365 5.25-9.75 5.25S2.25 10.4 2.25 7.5m19.5 0c0-2.9-4.365-5.25-9.75-5.25S2.25 4.6 2.25 7.5m19.5 0V12M2.25 7.5V12m19.5 0c0 2.9-4.365 5.25-9.75 5.25S2.25 14.9 2.25 12m19.5 0v4.5c0 2.9-4.365 5.25-9.75 5.25S2.25 19.4 2.25 16.5V12"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DatabaseCross.ts
+// src/icons/DatabaseCheck.ts
 import { defineComponent as defineComponent283, h as h283 } from "vue";
-var DatabaseCross = defineComponent283({
-  name: "DatabaseCross",
+var DatabaseCheck = defineComponent283({
+  name: "DatabaseCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -9897,16 +9897,16 @@ var DatabaseCross = defineComponent283({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 7.5c0 2.9 4.365 5.25 9.75 5.25q.966-.001 1.88-.098M2.25 7.5c0-2.9 4.365-5.25 9.75-5.25s9.75 2.35 9.75 5.25m-19.5 0V12m19.5-4.5c0 1.49-1.153 2.835-3.004 3.79M21.75 7.5v4.887M2.25 12v4.5c0 2.9 4.365 5.25 9.75 5.25q.194 0 .384-.004M2.25 12c0 2.771 3.988 5.041 9.043 5.236M15.75 22.5l3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 7.5c0 2.9 4.365 5.25 9.75 5.25q.966-.001 1.88-.098M2.25 7.5c0-2.9 4.365-5.25 9.75-5.25s9.75 2.35 9.75 5.25m-19.5 0V12m19.5-4.5c0 1.49-1.153 2.835-3.004 3.79M21.75 7.5v4.887M2.25 12v4.5c0 2.9 4.365 5.25 9.75 5.25q.194 0 .384-.004M2.25 12c0 2.771 3.988 5.041 9.043 5.236m2.957 1.514 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DatabaseDownload.ts
+// src/icons/DatabaseCross.ts
 import { defineComponent as defineComponent284, h as h284 } from "vue";
-var DatabaseDownload = defineComponent284({
-  name: "DatabaseDownload",
+var DatabaseCross = defineComponent284({
+  name: "DatabaseCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -9932,16 +9932,16 @@ var DatabaseDownload = defineComponent284({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 7.5c0 2.9 4.365 5.25 9.75 5.25q.966-.001 1.88-.098M2.25 7.5c0-2.9 4.365-5.25 9.75-5.25s9.75 2.35 9.75 5.25m-19.5 0V12m19.5-4.5c0 1.49-1.153 2.835-3.004 3.79M21.75 7.5v4.887M2.25 12v4.5c0 2.9 4.365 5.25 9.75 5.25q.194 0 .384-.004M2.25 12c0 2.771 3.988 5.041 9.043 5.236m7.457-2.986v5.25m0 0L21 17.25m-2.25 2.25-2.25-2.25m-1.5 3V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 7.5c0 2.9 4.365 5.25 9.75 5.25q.966-.001 1.88-.098M2.25 7.5c0-2.9 4.365-5.25 9.75-5.25s9.75 2.35 9.75 5.25m-19.5 0V12m19.5-4.5c0 1.49-1.153 2.835-3.004 3.79M21.75 7.5v4.887M2.25 12v4.5c0 2.9 4.365 5.25 9.75 5.25q.194 0 .384-.004M2.25 12c0 2.771 3.988 5.041 9.043 5.236M15.75 22.5l3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DatabaseEdit.ts
+// src/icons/DatabaseDownload.ts
 import { defineComponent as defineComponent285, h as h285 } from "vue";
-var DatabaseEdit = defineComponent285({
-  name: "DatabaseEdit",
+var DatabaseDownload = defineComponent285({
+  name: "DatabaseDownload",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -9967,16 +9967,16 @@ var DatabaseEdit = defineComponent285({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 7.5c0 2.9 4.365 5.25 9.75 5.25q.966-.001 1.88-.098M2.25 7.5c0-2.9 4.365-5.25 9.75-5.25s9.75 2.35 9.75 5.25m-19.5 0V12m19.5-4.5c0 1.49-1.153 2.835-3.004 3.79M21.75 7.5v4.887M2.25 12v4.5c0 2.9 4.365 5.25 9.75 5.25q.194 0 .384-.004M2.25 12c0 2.771 3.988 5.041 9.043 5.236M19.5 14.25l3 3-4.06 4.06a1.5 1.5 0 0 1-1.061.44H15v-2.379c0-.397.158-.779.44-1.06z"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 7.5c0 2.9 4.365 5.25 9.75 5.25q.966-.001 1.88-.098M2.25 7.5c0-2.9 4.365-5.25 9.75-5.25s9.75 2.35 9.75 5.25m-19.5 0V12m19.5-4.5c0 1.49-1.153 2.835-3.004 3.79M21.75 7.5v4.887M2.25 12v4.5c0 2.9 4.365 5.25 9.75 5.25q.194 0 .384-.004M2.25 12c0 2.771 3.988 5.041 9.043 5.236m7.457-2.986v5.25m0 0L21 17.25m-2.25 2.25-2.25-2.25m-1.5 3V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DatabaseLock.ts
+// src/icons/DatabaseEdit.ts
 import { defineComponent as defineComponent286, h as h286 } from "vue";
-var DatabaseLock = defineComponent286({
-  name: "DatabaseLock",
+var DatabaseEdit = defineComponent286({
+  name: "DatabaseEdit",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10002,16 +10002,16 @@ var DatabaseLock = defineComponent286({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 7.5c0 2.9 4.365 5.25 9.75 5.25q.966-.001 1.88-.098M2.25 7.5c0-2.9 4.365-5.25 9.75-5.25s9.75 2.35 9.75 5.25m-19.5 0V12m19.5-4.5c0 1.49-1.153 2.835-3.004 3.79M21.75 7.5v4.887M2.25 12v4.5c0 2.9 4.365 5.25 9.75 5.25q.194 0 .384-.004M2.25 12c0 2.771 3.988 5.041 9.043 5.236M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
+        innerHTML: `<path d="M2.25 7.5c0 2.9 4.365 5.25 9.75 5.25q.966-.001 1.88-.098M2.25 7.5c0-2.9 4.365-5.25 9.75-5.25s9.75 2.35 9.75 5.25m-19.5 0V12m19.5-4.5c0 1.49-1.153 2.835-3.004 3.79M21.75 7.5v4.887M2.25 12v4.5c0 2.9 4.365 5.25 9.75 5.25q.194 0 .384-.004M2.25 12c0 2.771 3.988 5.041 9.043 5.236M19.5 14.25l3 3-4.06 4.06a1.5 1.5 0 0 1-1.061.44H15v-2.379c0-.397.158-.779.44-1.06z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DatabaseMinus.ts
+// src/icons/DatabaseLock.ts
 import { defineComponent as defineComponent287, h as h287 } from "vue";
-var DatabaseMinus = defineComponent287({
-  name: "DatabaseMinus",
+var DatabaseLock = defineComponent287({
+  name: "DatabaseLock",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10037,16 +10037,16 @@ var DatabaseMinus = defineComponent287({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 7.5c0 2.9 4.365 5.25 9.75 5.25q.966-.001 1.88-.098M2.25 7.5c0-2.9 4.365-5.25 9.75-5.25s9.75 2.35 9.75 5.25m-19.5 0V12m19.5-4.5c0 1.49-1.153 2.835-3.004 3.79M21.75 7.5v4.887M2.25 12v4.5c0 2.9 4.365 5.25 9.75 5.25q.194 0 .384-.004M2.25 12c0 2.771 3.988 5.041 9.043 5.236M22.5 18.375h-6.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 7.5c0 2.9 4.365 5.25 9.75 5.25q.966-.001 1.88-.098M2.25 7.5c0-2.9 4.365-5.25 9.75-5.25s9.75 2.35 9.75 5.25m-19.5 0V12m19.5-4.5c0 1.49-1.153 2.835-3.004 3.79M21.75 7.5v4.887M2.25 12v4.5c0 2.9 4.365 5.25 9.75 5.25q.194 0 .384-.004M2.25 12c0 2.771 3.988 5.041 9.043 5.236M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DatabasePlus.ts
+// src/icons/DatabaseMinus.ts
 import { defineComponent as defineComponent288, h as h288 } from "vue";
-var DatabasePlus = defineComponent288({
-  name: "DatabasePlus",
+var DatabaseMinus = defineComponent288({
+  name: "DatabaseMinus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10072,16 +10072,16 @@ var DatabasePlus = defineComponent288({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 7.5c0 2.9 4.365 5.25 9.75 5.25q.966-.001 1.88-.098M2.25 7.5c0-2.9 4.365-5.25 9.75-5.25s9.75 2.35 9.75 5.25m-19.5 0V12m19.5-4.5c0 1.49-1.153 2.835-3.004 3.79M21.75 7.5v4.887M2.25 12v4.5c0 2.9 4.365 5.25 9.75 5.25q.194 0 .384-.004M2.25 12c0 2.771 3.988 5.041 9.043 5.236m7.082 5.264v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 7.5c0 2.9 4.365 5.25 9.75 5.25q.966-.001 1.88-.098M2.25 7.5c0-2.9 4.365-5.25 9.75-5.25s9.75 2.35 9.75 5.25m-19.5 0V12m19.5-4.5c0 1.49-1.153 2.835-3.004 3.79M21.75 7.5v4.887M2.25 12v4.5c0 2.9 4.365 5.25 9.75 5.25q.194 0 .384-.004M2.25 12c0 2.771 3.988 5.041 9.043 5.236M22.5 18.375h-6.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DatabaseSearch.ts
+// src/icons/DatabasePlus.ts
 import { defineComponent as defineComponent289, h as h289 } from "vue";
-var DatabaseSearch = defineComponent289({
-  name: "DatabaseSearch",
+var DatabasePlus = defineComponent289({
+  name: "DatabasePlus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10107,16 +10107,16 @@ var DatabaseSearch = defineComponent289({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 7.5c0 2.9 4.365 5.25 9.75 5.25q.966-.001 1.88-.098M2.25 7.5c0-2.9 4.365-5.25 9.75-5.25s9.75 2.35 9.75 5.25m-19.5 0V12m19.5-4.5c0 1.49-1.153 2.835-3.004 3.79M21.75 7.5v4.887M2.25 12v4.5c0 2.9 4.365 5.25 9.75 5.25q.194 0 .384-.004M2.25 12c0 2.771 3.988 5.041 9.043 5.236M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 7.5c0 2.9 4.365 5.25 9.75 5.25q.966-.001 1.88-.098M2.25 7.5c0-2.9 4.365-5.25 9.75-5.25s9.75 2.35 9.75 5.25m-19.5 0V12m19.5-4.5c0 1.49-1.153 2.835-3.004 3.79M21.75 7.5v4.887M2.25 12v4.5c0 2.9 4.365 5.25 9.75 5.25q.194 0 .384-.004M2.25 12c0 2.771 3.988 5.041 9.043 5.236m7.082 5.264v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DatabaseSettings.ts
+// src/icons/DatabaseSearch.ts
 import { defineComponent as defineComponent290, h as h290 } from "vue";
-var DatabaseSettings = defineComponent290({
-  name: "DatabaseSettings",
+var DatabaseSearch = defineComponent290({
+  name: "DatabaseSearch",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10142,16 +10142,16 @@ var DatabaseSettings = defineComponent290({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 7.5c0 2.9 4.365 5.25 9.75 5.25q.966-.001 1.88-.098M2.25 7.5c0-2.9 4.365-5.25 9.75-5.25s9.75 2.35 9.75 5.25m-19.5 0V12m19.5-4.5c0 1.49-1.153 2.835-3.004 3.79M21.75 7.5v4.887M2.25 12v4.5c0 2.9 4.365 5.25 9.75 5.25q.194 0 .384-.004M2.25 12c0 2.771 3.988 5.041 9.043 5.236m7.081 3.614a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.134 4.117h-1.65m-4.95 0h-1.65m7.047 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 7.5c0 2.9 4.365 5.25 9.75 5.25q.966-.001 1.88-.098M2.25 7.5c0-2.9 4.365-5.25 9.75-5.25s9.75 2.35 9.75 5.25m-19.5 0V12m19.5-4.5c0 1.49-1.153 2.835-3.004 3.79M21.75 7.5v4.887M2.25 12v4.5c0 2.9 4.365 5.25 9.75 5.25q.194 0 .384-.004M2.25 12c0 2.771 3.988 5.041 9.043 5.236M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DatabaseUpload.ts
+// src/icons/DatabaseSettings.ts
 import { defineComponent as defineComponent291, h as h291 } from "vue";
-var DatabaseUpload = defineComponent291({
-  name: "DatabaseUpload",
+var DatabaseSettings = defineComponent291({
+  name: "DatabaseSettings",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10177,16 +10177,16 @@ var DatabaseUpload = defineComponent291({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 7.5c0 2.9 4.365 5.25 9.75 5.25q.966-.001 1.88-.098M2.25 7.5c0-2.9 4.365-5.25 9.75-5.25s9.75 2.35 9.75 5.25m-19.5 0V12m19.5-4.5c0 1.49-1.153 2.835-3.004 3.79M21.75 7.5v4.887M2.25 12v4.5c0 2.9 4.365 5.25 9.75 5.25q.194 0 .384-.004M2.25 12c0 2.771 3.988 5.041 9.043 5.236m7.457-2.986v5.25m0-5.25L21 16.5m-2.25-2.25L16.5 16.5M15 20.25V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 7.5c0 2.9 4.365 5.25 9.75 5.25q.966-.001 1.88-.098M2.25 7.5c0-2.9 4.365-5.25 9.75-5.25s9.75 2.35 9.75 5.25m-19.5 0V12m19.5-4.5c0 1.49-1.153 2.835-3.004 3.79M21.75 7.5v4.887M2.25 12v4.5c0 2.9 4.365 5.25 9.75 5.25q.194 0 .384-.004M2.25 12c0 2.771 3.988 5.041 9.043 5.236m7.081 3.614a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.134 4.117h-1.65m-4.95 0h-1.65m7.047 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Defibrilator.ts
+// src/icons/DatabaseUpload.ts
 import { defineComponent as defineComponent292, h as h292 } from "vue";
-var Defibrilator = defineComponent292({
-  name: "Defibrilator",
+var DatabaseUpload = defineComponent292({
+  name: "DatabaseUpload",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10212,16 +10212,16 @@ var Defibrilator = defineComponent292({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m13.5 9.75-3 3h3l-3 3m11.25-6.671c0 5.077-6.823 9.624-9.054 10.974-.432.262-.96.262-1.392 0-2.23-1.35-9.054-5.897-9.054-10.974 0-6.606 7.72-6.821 9.582-2.021.055.142.281.142.336 0 1.862-4.8 9.582-4.584 9.582 2.02"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 7.5c0 2.9 4.365 5.25 9.75 5.25q.966-.001 1.88-.098M2.25 7.5c0-2.9 4.365-5.25 9.75-5.25s9.75 2.35 9.75 5.25m-19.5 0V12m19.5-4.5c0 1.49-1.153 2.835-3.004 3.79M21.75 7.5v4.887M2.25 12v4.5c0 2.9 4.365 5.25 9.75 5.25q.194 0 .384-.004M2.25 12c0 2.771 3.988 5.041 9.043 5.236m7.457-2.986v5.25m0-5.25L21 16.5m-2.25-2.25L16.5 16.5M15 20.25V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Deform.ts
+// src/icons/Defibrilator.ts
 import { defineComponent as defineComponent293, h as h293 } from "vue";
-var Deform = defineComponent293({
-  name: "Deform",
+var Defibrilator = defineComponent293({
+  name: "Defibrilator",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10247,16 +10247,16 @@ var Deform = defineComponent293({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M5.25 9V3.75a1.5 1.5 0 0 1 1.5-1.5h4.5a1.5 1.5 0 0 1 1.5 1.5v.75m7.5 4.5v4.5a1.5 1.5 0 0 1-1.5 1.5h-1.5a4.5 4.5 0 0 0-4.5 4.5v.75a1.5 1.5 0 0 1-1.5 1.5h-4.5a1.5 1.5 0 0 1-1.5-1.5v-.75c0-6.627 5.373-12 12-12h1.5a1.5 1.5 0 0 1 1.5 1.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m13.5 9.75-3 3h3l-3 3m11.25-6.671c0 5.077-6.823 9.624-9.054 10.974-.432.262-.96.262-1.392 0-2.23-1.35-9.054-5.897-9.054-10.974 0-6.606 7.72-6.821 9.582-2.021.055.142.281.142.336 0 1.862-4.8 9.582-4.584 9.582 2.02"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Delivery.ts
+// src/icons/Deform.ts
 import { defineComponent as defineComponent294, h as h294 } from "vue";
-var Delivery = defineComponent294({
-  name: "Delivery",
+var Deform = defineComponent294({
+  name: "Deform",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10282,16 +10282,16 @@ var Delivery = defineComponent294({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 18a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0m4.5 0a1.5 1.5 0 0 0 1.5-1.5v-3.335a1.5 1.5 0 0 0-.214-.771l-1.599-2.666A1.5 1.5 0 0 0 18.651 9h-2.98m.079 9h-1.5M9 18a2.25 2.25 0 0 1-4.5 0M9 18a2.25 2.25 0 0 0-4.5 0M9 18h5.25M4.5 18h-.495a1.5 1.5 0 0 1-1.481-1.734l.555-3.516m1.421-9h10.245a1.5 1.5 0 0 1 1.481 1.734L15.671 9m-1.421 9 1.421-9M8.25 6.75H3m-.75 3H7.5"/>`
+        innerHTML: `<path d="M5.25 9V3.75a1.5 1.5 0 0 1 1.5-1.5h4.5a1.5 1.5 0 0 1 1.5 1.5v.75m7.5 4.5v4.5a1.5 1.5 0 0 1-1.5 1.5h-1.5a4.5 4.5 0 0 0-4.5 4.5v.75a1.5 1.5 0 0 1-1.5 1.5h-4.5a1.5 1.5 0 0 1-1.5-1.5v-.75c0-6.627 5.373-12 12-12h1.5a1.5 1.5 0 0 1 1.5 1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DeliveryBicycle.ts
+// src/icons/Delivery.ts
 import { defineComponent as defineComponent295, h as h295 } from "vue";
-var DeliveryBicycle = defineComponent295({
-  name: "DeliveryBicycle",
+var Delivery = defineComponent295({
+  name: "Delivery",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10317,16 +10317,16 @@ var DeliveryBicycle = defineComponent295({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m18.75 16.5-1.5-6.75m-5.25 6L9 10.5m3 5.25-6.75.75 3.75-6m3 5.25 5.25-6M9 10.5l8.25-.75M9 10.5h-.75m9-.75-.667-3m0 0h.49c1.103 0 2.19-.257 3.177-.75m-3.667.75h-.656A7.1 7.1 0 0 1 12.75 6m-4.5 4.5h-6m6 0 1.5-6h-6m1.5 3h-3m13.5 9a3 3 0 1 0 6 0 3 3 0 0 0-6 0m-13.5 0a3 3 0 1 0 6 0 3 3 0 0 0-6 0"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 18a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0m4.5 0a1.5 1.5 0 0 0 1.5-1.5v-3.335a1.5 1.5 0 0 0-.214-.771l-1.599-2.666A1.5 1.5 0 0 0 18.651 9h-2.98m.079 9h-1.5M9 18a2.25 2.25 0 0 1-4.5 0M9 18a2.25 2.25 0 0 0-4.5 0M9 18h5.25M4.5 18h-.495a1.5 1.5 0 0 1-1.481-1.734l.555-3.516m1.421-9h10.245a1.5 1.5 0 0 1 1.481 1.734L15.671 9m-1.421 9 1.421-9M8.25 6.75H3m-.75 3H7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Denoise.ts
+// src/icons/DeliveryBicycle.ts
 import { defineComponent as defineComponent296, h as h296 } from "vue";
-var Denoise = defineComponent296({
-  name: "Denoise",
+var DeliveryBicycle = defineComponent296({
+  name: "DeliveryBicycle",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10352,16 +10352,16 @@ var Denoise = defineComponent296({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M5.106 18.894A9.72 9.72 0 0 0 12 21.75c5.385 0 9.75-4.365 9.75-9.75a9.72 9.72 0 0 0-2.856-6.894M5.106 18.894A9.72 9.72 0 0 1 2.25 12c0-5.385 4.365-9.75 9.75-9.75a9.72 9.72 0 0 1 6.894 2.856M5.106 18.894 3 21m2.106-2.106L18.894 5.106m0 0L21 3m-4.5 9 .75.75m1.5-3 .75.75m-5.25 3.75L15 15m-3 1.5.75.75m-3 1.5.75.75m7.5-3.75.75.75m-3 1.5.75.75m-3 1.5.75.75m6-7.5.75.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m18.75 16.5-1.5-6.75m-5.25 6L9 10.5m3 5.25-6.75.75 3.75-6m3 5.25 5.25-6M9 10.5l8.25-.75M9 10.5h-.75m9-.75-.667-3m0 0h.49c1.103 0 2.19-.257 3.177-.75m-3.667.75h-.656A7.1 7.1 0 0 1 12.75 6m-4.5 4.5h-6m6 0 1.5-6h-6m1.5 3h-3m13.5 9a3 3 0 1 0 6 0 3 3 0 0 0-6 0m-13.5 0a3 3 0 1 0 6 0 3 3 0 0 0-6 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Desktop.ts
+// src/icons/Denoise.ts
 import { defineComponent as defineComponent297, h as h297 } from "vue";
-var Desktop = defineComponent297({
-  name: "Desktop",
+var Denoise = defineComponent297({
+  name: "Denoise",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10387,16 +10387,16 @@ var Desktop = defineComponent297({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6.75 17.25h10.5M3.75 3.75h16.5a1.5 1.5 0 0 1 1.5 1.5v13.5a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5V5.25a1.5 1.5 0 0 1 1.5-1.5"/>`
+        innerHTML: `<path d="M5.106 18.894A9.72 9.72 0 0 0 12 21.75c5.385 0 9.75-4.365 9.75-9.75a9.72 9.72 0 0 0-2.856-6.894M5.106 18.894A9.72 9.72 0 0 1 2.25 12c0-5.385 4.365-9.75 9.75-9.75a9.72 9.72 0 0 1 6.894 2.856M5.106 18.894 3 21m2.106-2.106L18.894 5.106m0 0L21 3m-4.5 9 .75.75m1.5-3 .75.75m-5.25 3.75L15 15m-3 1.5.75.75m-3 1.5.75.75m7.5-3.75.75.75m-3 1.5.75.75m-3 1.5.75.75m6-7.5.75.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Devices.ts
+// src/icons/Desktop.ts
 import { defineComponent as defineComponent298, h as h298 } from "vue";
-var Devices = defineComponent298({
-  name: "Devices",
+var Desktop = defineComponent298({
+  name: "Desktop",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10422,16 +10422,16 @@ var Devices = defineComponent298({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18 11.25v-1.5a1.5 1.5 0 0 0-1.5-1.5H12a1.5 1.5 0 0 0-1.5 1.5v6m7.5-4.5h2.25m-2.25 0a1.5 1.5 0 0 0-1.5 1.5v6a1.5 1.5 0 0 0 .75 1.3m-6.75-4.3v3a1.5 1.5 0 0 0 1.5 1.5m-1.5-4.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-9a1.5 1.5 0 0 1 1.5-1.5h15a1.5 1.5 0 0 1 1.5 1.5v6m-15 9H12m0 0h4.5c.273 0 .53-.073.75-.2m3-8.8a1.5 1.5 0 0 1 1.5 1.5v6a1.5 1.5 0 0 1-1.5 1.5H18c-.273 0-.53-.073-.75-.2"/>`
+        innerHTML: `<path d="M6.75 17.25h10.5M3.75 3.75h16.5a1.5 1.5 0 0 1 1.5 1.5v13.5a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5V5.25a1.5 1.5 0 0 1 1.5-1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Diamond.ts
+// src/icons/Devices.ts
 import { defineComponent as defineComponent299, h as h299 } from "vue";
-var Diamond = defineComponent299({
-  name: "Diamond",
+var Devices = defineComponent299({
+  name: "Devices",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10457,16 +10457,16 @@ var Diamond = defineComponent299({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m17.25 3 4.5 6.75M17.25 3H12m5.25 0-1.961 6.75m6.461 0L12 21m9.75-11.25h-6.461M12 21 2.25 9.75M12 21 8.712 9.75M12 21l3.289-11.25m-13.039 0L6.75 3m-4.5 6.75h6.462M6.75 3l1.962 6.75M6.75 3H12M8.712 9.75 12 3M8.712 9.75h6.577M12 3l3.289 6.75"/>`
+        innerHTML: `<path d="M18 11.25v-1.5a1.5 1.5 0 0 0-1.5-1.5H12a1.5 1.5 0 0 0-1.5 1.5v6m7.5-4.5h2.25m-2.25 0a1.5 1.5 0 0 0-1.5 1.5v6a1.5 1.5 0 0 0 .75 1.3m-6.75-4.3v3a1.5 1.5 0 0 0 1.5 1.5m-1.5-4.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-9a1.5 1.5 0 0 1 1.5-1.5h15a1.5 1.5 0 0 1 1.5 1.5v6m-15 9H12m0 0h4.5c.273 0 .53-.073.75-.2m3-8.8a1.5 1.5 0 0 1 1.5 1.5v6a1.5 1.5 0 0 1-1.5 1.5H18c-.273 0-.53-.073-.75-.2"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DiningRoom.ts
+// src/icons/Diamond.ts
 import { defineComponent as defineComponent300, h as h300 } from "vue";
-var DiningRoom = defineComponent300({
-  name: "DiningRoom",
+var Diamond = defineComponent300({
+  name: "Diamond",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10492,16 +10492,16 @@ var DiningRoom = defineComponent300({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 20.25V12m0 0h-1.5m1.5 0h1.5m2.25 8.25v-4.5h6m0 0v-6m0 6v4.5m-13.5 0v-4.5h-6m0 0v-6m0 6v4.5M10.5 12H6m4.5 0-.323-.485A2.59 2.59 0 0 1 10.5 8.25H12M13.5 12H18m-4.5 0 .323-.485A2.59 2.59 0 0 0 13.5 8.25H12m0 0c0-1 .45-3.3 2.25-4.5M12 8.25c0-.75-.45-2.4-2.25-3m4.5-1.5v.75m0-.75H15m-.75 0V3m0 .75h-.75m-3.75 1.5V4.5m0 .75H9m.75 0V6m0-.75h.75"/>`
+        innerHTML: `<path d="m17.25 3 4.5 6.75M17.25 3H12m5.25 0-1.961 6.75m6.461 0L12 21m9.75-11.25h-6.461M12 21 2.25 9.75M12 21 8.712 9.75M12 21l3.289-11.25m-13.039 0L6.75 3m-4.5 6.75h6.462M6.75 3l1.962 6.75M6.75 3H12M8.712 9.75 12 3M8.712 9.75h6.577M12 3l3.289 6.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Direction.ts
+// src/icons/DiningRoom.ts
 import { defineComponent as defineComponent301, h as h301 } from "vue";
-var Direction = defineComponent301({
-  name: "Direction",
+var DiningRoom = defineComponent301({
+  name: "DiningRoom",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10527,16 +10527,16 @@ var Direction = defineComponent301({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 21h9V3H3v18zm0 0v-6.75m6-6h-3a3 3 0 0 0-3 3v3m6-6L15.75 6M18 8.25l-2.25 2.25M12 14.25H6m0 0L8.25 12M6 14.25l2.25 2.25"/>`
+        innerHTML: `<path d="M12 20.25V12m0 0h-1.5m1.5 0h1.5m2.25 8.25v-4.5h6m0 0v-6m0 6v4.5m-13.5 0v-4.5h-6m0 0v-6m0 6v4.5M10.5 12H6m4.5 0-.323-.485A2.59 2.59 0 0 1 10.5 8.25H12M13.5 12H18m-4.5 0 .323-.485A2.59 2.59 0 0 0 13.5 8.25H12m0 0c0-1 .45-3.3 2.25-4.5M12 8.25c0-.75-.45-2.4-2.25-3m4.5-1.5v.75m0-.75H15m-.75 0V3m0 .75h-.75m-3.75 1.5V4.5m0 .75H9m.75 0V6m0-.75h.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Discount.ts
+// src/icons/Direction.ts
 import { defineComponent as defineComponent302, h as h302 } from "vue";
-var Discount = defineComponent302({
-  name: "Discount",
+var Direction = defineComponent302({
+  name: "Direction",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10562,16 +10562,16 @@ var Discount = defineComponent302({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m8.25 15.75 7.5-7.5m3.144-3.144a3.75 3.75 0 0 0-3.638-.967A3.75 3.75 0 0 0 12 2.25c-1.394 0-2.61.76-3.256 1.889a3.75 3.75 0 0 0-3.638.967 3.75 3.75 0 0 0-.967 3.638A3.75 3.75 0 0 0 2.25 12c0 1.394.76 2.61 1.889 3.256a3.75 3.75 0 0 0 .967 3.638 3.75 3.75 0 0 0 3.638.967A3.75 3.75 0 0 0 12 21.75c1.394 0 2.61-.76 3.256-1.889a3.75 3.75 0 0 0 3.638-.967 3.75 3.75 0 0 0 .967-3.638A3.75 3.75 0 0 0 21.75 12c0-1.394-.76-2.61-1.889-3.256a3.75 3.75 0 0 0-.967-3.638M13.5 15a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0m-3-6a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 21h9V3H3v18zm0 0v-6.75m6-6h-3a3 3 0 0 0-3 3v3m6-6L15.75 6M18 8.25l-2.25 2.25M12 14.25H6m0 0L8.25 12M6 14.25l2.25 2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Dislike.ts
+// src/icons/Discount.ts
 import { defineComponent as defineComponent303, h as h303 } from "vue";
-var Dislike = defineComponent303({
-  name: "Dislike",
+var Discount = defineComponent303({
+  name: "Discount",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10597,16 +10597,16 @@ var Dislike = defineComponent303({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M16.437 14.25h3.75a1.5 1.5 0 0 0 1.5-1.5v-7.5a1.5 1.5 0 0 0-1.5-1.5h-3.75m0 10.5L9.687 21l-.72-.721a3 3 0 0 1-.563-3.463l1.283-2.566h-6c-.828 0-1.507-.673-1.431-1.498a16.4 16.4 0 0 1 2.983-8.024l.25-.35a1.5 1.5 0 0 1 1.22-.628h9.728m0 10.5V3.75"/>`
+        innerHTML: `<path d="m8.25 15.75 7.5-7.5m3.144-3.144a3.75 3.75 0 0 0-3.638-.967A3.75 3.75 0 0 0 12 2.25c-1.394 0-2.61.76-3.256 1.889a3.75 3.75 0 0 0-3.638.967 3.75 3.75 0 0 0-.967 3.638A3.75 3.75 0 0 0 2.25 12c0 1.394.76 2.61 1.889 3.256a3.75 3.75 0 0 0 .967 3.638 3.75 3.75 0 0 0 3.638.967A3.75 3.75 0 0 0 12 21.75c1.394 0 2.61-.76 3.256-1.889a3.75 3.75 0 0 0 3.638-.967 3.75 3.75 0 0 0 .967-3.638A3.75 3.75 0 0 0 21.75 12c0-1.394-.76-2.61-1.889-3.256a3.75 3.75 0 0 0-.967-3.638M13.5 15a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0m-3-6a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Display.ts
+// src/icons/Dislike.ts
 import { defineComponent as defineComponent304, h as h304 } from "vue";
-var Display = defineComponent304({
-  name: "Display",
+var Dislike = defineComponent304({
+  name: "Dislike",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10632,16 +10632,16 @@ var Display = defineComponent304({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 15.75H3.75a1.5 1.5 0 0 1-1.5-1.5v-9a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5v9a1.5 1.5 0 0 1-1.5 1.5zm0 0v4.5m0 0H6m6 0h6"/>`
+        innerHTML: `<path d="M16.437 14.25h3.75a1.5 1.5 0 0 0 1.5-1.5v-7.5a1.5 1.5 0 0 0-1.5-1.5h-3.75m0 10.5L9.687 21l-.72-.721a3 3 0 0 1-.563-3.463l1.283-2.566h-6c-.828 0-1.507-.673-1.431-1.498a16.4 16.4 0 0 1 2.983-8.024l.25-.35a1.5 1.5 0 0 1 1.22-.628h9.728m0 10.5V3.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DisplayPort.ts
+// src/icons/Display.ts
 import { defineComponent as defineComponent305, h as h305 } from "vue";
-var DisplayPort = defineComponent305({
-  name: "DisplayPort",
+var Display = defineComponent305({
+  name: "Display",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10667,16 +10667,16 @@ var DisplayPort = defineComponent305({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 12.75v-1.5H18v1.5M2.25 9v3.879c0 .398.158.779.44 1.06l2.12 2.122a1.5 1.5 0 0 0 1.061.439H20.25a1.5 1.5 0 0 0 1.5-1.5V9a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 9"/>`
+        innerHTML: `<path d="M12 15.75H3.75a1.5 1.5 0 0 1-1.5-1.5v-9a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5v9a1.5 1.5 0 0 1-1.5 1.5zm0 0v4.5m0 0H6m6 0h6"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DistributeHorizontal.ts
+// src/icons/DisplayPort.ts
 import { defineComponent as defineComponent306, h as h306 } from "vue";
-var DistributeHorizontal = defineComponent306({
-  name: "DistributeHorizontal",
+var DisplayPort = defineComponent306({
+  name: "DisplayPort",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10702,16 +10702,16 @@ var DistributeHorizontal = defineComponent306({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21 3v18M3 21V3m9.75 2.25h-1.5a1.5 1.5 0 0 0-1.5 1.5v10.5a1.5 1.5 0 0 0 1.5 1.5h1.5a1.5 1.5 0 0 0 1.5-1.5V6.75a1.5 1.5 0 0 0-1.5-1.5"/>`
+        innerHTML: `<path d="M7.5 12.75v-1.5H18v1.5M2.25 9v3.879c0 .398.158.779.44 1.06l2.12 2.122a1.5 1.5 0 0 0 1.061.439H20.25a1.5 1.5 0 0 0 1.5-1.5V9a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DistributeVertical.ts
+// src/icons/DistributeHorizontal.ts
 import { defineComponent as defineComponent307, h as h307 } from "vue";
-var DistributeVertical = defineComponent307({
-  name: "DistributeVertical",
+var DistributeHorizontal = defineComponent307({
+  name: "DistributeHorizontal",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10737,16 +10737,16 @@ var DistributeVertical = defineComponent307({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21 21H3M3 3h18m-2.25 9.75v-1.5a1.5 1.5 0 0 0-1.5-1.5H6.75a1.5 1.5 0 0 0-1.5 1.5v1.5a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5"/>`
+        innerHTML: `<path d="M21 3v18M3 21V3m9.75 2.25h-1.5a1.5 1.5 0 0 0-1.5 1.5v10.5a1.5 1.5 0 0 0 1.5 1.5h1.5a1.5 1.5 0 0 0 1.5-1.5V6.75a1.5 1.5 0 0 0-1.5-1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Dna.ts
+// src/icons/DistributeVertical.ts
 import { defineComponent as defineComponent308, h as h308 } from "vue";
-var Dna = defineComponent308({
-  name: "Dna",
+var DistributeVertical = defineComponent308({
+  name: "DistributeVertical",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10772,16 +10772,16 @@ var Dna = defineComponent308({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m12 12-.283-.05a9.65 9.65 0 0 1-6.022-3.7M11.999 12l.134.024a9.87 9.87 0 0 1 6.088 3.726M11.999 12l.282-.05a9.65 9.65 0 0 0 6.023-3.7M11.999 12l-.134.024a9.87 9.87 0 0 0-6.088 3.726m-.082-7.5h12.609m-12.61 0A9.65 9.65 0 0 1 3.972 4.5m14.333 3.75a9.65 9.65 0 0 0 1.724-3.75M3.75 2.25c-.015.77.062 1.524.22 2.25m0 0h16.058m.22-2.25a9.7 9.7 0 0 1-.22 2.25M18.22 15.75H5.777m12.444 0a9.9 9.9 0 0 1 1.77 3.75M5.778 15.75a9.9 9.9 0 0 0-1.77 3.75m0 0a10 10 0 0 0-.259 2.25m.258-2.25h15.986m0 0c.169.725.258 1.479.258 2.25"/>`
+        innerHTML: `<path d="M21 21H3M3 3h18m-2.25 9.75v-1.5a1.5 1.5 0 0 0-1.5-1.5H6.75a1.5 1.5 0 0 0-1.5 1.5v1.5a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Dollar.ts
+// src/icons/Dna.ts
 import { defineComponent as defineComponent309, h as h309 } from "vue";
-var Dollar = defineComponent309({
-  name: "Dollar",
+var Dna = defineComponent309({
+  name: "Dna",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10807,16 +10807,16 @@ var Dollar = defineComponent309({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M10.5 2.25v1.53m0 0v8.053m0-8.053q.245-.03.497-.03h1.7q.412 0 .803.07m-3-.04A4.06 4.06 0 0 0 7.23 6.3c-.99 2.474.634 5.21 3.27 5.533m0 0v8.347m0-8.347.049.006 2.902.322.049.006m-3 8.013v1.57m0-1.57q.391.07.803.07h1.7q.252 0 .497-.03m-3-.04A4.6 4.6 0 0 1 6.75 15M13.5 2.25v1.57m0 0v8.347m0-8.347A4.6 4.6 0 0 1 17.25 9m-3.75 3.167v8.053m0-8.053c2.636.324 4.26 3.059 3.27 5.533a4.06 4.06 0 0 1-3.27 2.52m0 0v1.53"/>`
+        innerHTML: `<path d="m12 12-.283-.05a9.65 9.65 0 0 1-6.022-3.7M11.999 12l.134.024a9.87 9.87 0 0 1 6.088 3.726M11.999 12l.282-.05a9.65 9.65 0 0 0 6.023-3.7M11.999 12l-.134.024a9.87 9.87 0 0 0-6.088 3.726m-.082-7.5h12.609m-12.61 0A9.65 9.65 0 0 1 3.972 4.5m14.333 3.75a9.65 9.65 0 0 0 1.724-3.75M3.75 2.25c-.015.77.062 1.524.22 2.25m0 0h16.058m.22-2.25a9.7 9.7 0 0 1-.22 2.25M18.22 15.75H5.777m12.444 0a9.9 9.9 0 0 1 1.77 3.75M5.778 15.75a9.9 9.9 0 0 0-1.77 3.75m0 0a10 10 0 0 0-.259 2.25m.258-2.25h15.986m0 0c.169.725.258 1.479.258 2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Door.ts
+// src/icons/Dollar.ts
 import { defineComponent as defineComponent310, h as h310 } from "vue";
-var Door = defineComponent310({
-  name: "Door",
+var Dollar = defineComponent310({
+  name: "Dollar",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10842,16 +10842,16 @@ var Door = defineComponent310({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M15.75 12h-3m6-8.25v16.5a1.5 1.5 0 0 1-1.5 1.5H6.75a1.5 1.5 0 0 1-1.5-1.5V3.75a1.5 1.5 0 0 1 1.5-1.5h10.5a1.5 1.5 0 0 1 1.5 1.5"/>`
+        innerHTML: `<path d="M10.5 2.25v1.53m0 0v8.053m0-8.053q.245-.03.497-.03h1.7q.412 0 .803.07m-3-.04A4.06 4.06 0 0 0 7.23 6.3c-.99 2.474.634 5.21 3.27 5.533m0 0v8.347m0-8.347.049.006 2.902.322.049.006m-3 8.013v1.57m0-1.57q.391.07.803.07h1.7q.252 0 .497-.03m-3-.04A4.6 4.6 0 0 1 6.75 15M13.5 2.25v1.57m0 0v8.347m0-8.347A4.6 4.6 0 0 1 17.25 9m-3.75 3.167v8.053m0-8.053c2.636.324 4.26 3.059 3.27 5.533a4.06 4.06 0 0 1-3.27 2.52m0 0v1.53"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DoorLock.ts
+// src/icons/Door.ts
 import { defineComponent as defineComponent311, h as h311 } from "vue";
-var DoorLock = defineComponent311({
-  name: "DoorLock",
+var Door = defineComponent311({
+  name: "Door",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10877,16 +10877,16 @@ var DoorLock = defineComponent311({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M18.75 11.291V3.75a1.5 1.5 0 0 0-1.5-1.5H6.75a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h5.637M14.905 12H12.75m3.75 6v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M15.75 12h-3m6-8.25v16.5a1.5 1.5 0 0 1-1.5 1.5H6.75a1.5 1.5 0 0 1-1.5-1.5V3.75a1.5 1.5 0 0 1 1.5-1.5h10.5a1.5 1.5 0 0 1 1.5 1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DoorOpen.ts
+// src/icons/DoorLock.ts
 import { defineComponent as defineComponent312, h as h312 } from "vue";
-var DoorOpen = defineComponent312({
-  name: "DoorOpen",
+var DoorLock = defineComponent312({
+  name: "DoorLock",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10912,16 +10912,16 @@ var DoorOpen = defineComponent312({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M15.75 18.75h1.5a1.5 1.5 0 0 0 1.5-1.5V3.75a1.5 1.5 0 0 0-1.5-1.5h-12m10.5 16.5v1.416a1.5 1.5 0 0 1-1.974 1.424l-7.5-2.498a1.5 1.5 0 0 1-1.026-1.423V2.25m10.5 16.5V6.828a1.5 1.5 0 0 0-1.026-1.423L5.25 2.25m7.5 11.25-2.25-.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M18.75 11.291V3.75a1.5 1.5 0 0 0-1.5-1.5H6.75a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h5.637M14.905 12H12.75m3.75 6v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DopeSheet.ts
+// src/icons/DoorOpen.ts
 import { defineComponent as defineComponent313, h as h313 } from "vue";
-var DopeSheet = defineComponent313({
-  name: "DopeSheet",
+var DoorOpen = defineComponent313({
+  name: "DoorOpen",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10947,16 +10947,16 @@ var DopeSheet = defineComponent313({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M15.75 18.75 13.5 16.5l-2.25 2.25m4.5 0L13.5 21l-2.25-2.25m4.5 0h6m-10.5 0h-4.5M12 12 9.75 9.75 7.5 12m4.5 0-2.25 2.25L7.5 12m4.5 0h3m-7.5 0h-.75m12.75 0-2.25-2.25L15 12m4.5 0-2.25 2.25L15 12m4.5 0h2.25M13.5 5.25 11.25 3 9 5.25m4.5 0L11.25 7.5 9 5.25m4.5 0h3m-7.5 0H6.75m14.25 0L18.75 3 16.5 5.25m4.5 0L18.75 7.5 16.5 5.25m4.5 0h.75M3 18a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5m0-6.75a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5M3 4.5A.75.75 0 1 1 3 6a.75.75 0 0 1 0-1.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M15.75 18.75h1.5a1.5 1.5 0 0 0 1.5-1.5V3.75a1.5 1.5 0 0 0-1.5-1.5h-12m10.5 16.5v1.416a1.5 1.5 0 0 1-1.974 1.424l-7.5-2.498a1.5 1.5 0 0 1-1.026-1.423V2.25m10.5 16.5V6.828a1.5 1.5 0 0 0-1.026-1.423L5.25 2.25m7.5 11.25-2.25-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Dot.ts
+// src/icons/DopeSheet.ts
 import { defineComponent as defineComponent314, h as h314 } from "vue";
-var Dot = defineComponent314({
-  name: "Dot",
+var DopeSheet = defineComponent314({
+  name: "DopeSheet",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -10982,16 +10982,16 @@ var Dot = defineComponent314({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 11.25a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"/>`
+        innerHTML: `<path d="M15.75 18.75 13.5 16.5l-2.25 2.25m4.5 0L13.5 21l-2.25-2.25m4.5 0h6m-10.5 0h-4.5M12 12 9.75 9.75 7.5 12m4.5 0-2.25 2.25L7.5 12m4.5 0h3m-7.5 0h-.75m12.75 0-2.25-2.25L15 12m4.5 0-2.25 2.25L15 12m4.5 0h2.25M13.5 5.25 11.25 3 9 5.25m4.5 0L11.25 7.5 9 5.25m4.5 0h3m-7.5 0H6.75m14.25 0L18.75 3 16.5 5.25m4.5 0L18.75 7.5 16.5 5.25m4.5 0h.75M3 18a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5m0-6.75a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5M3 4.5A.75.75 0 1 1 3 6a.75.75 0 0 1 0-1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DotsHorizontal.ts
+// src/icons/Dot.ts
 import { defineComponent as defineComponent315, h as h315 } from "vue";
-var DotsHorizontal = defineComponent315({
-  name: "DotsHorizontal",
+var Dot = defineComponent315({
+  name: "Dot",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11017,16 +11017,16 @@ var DotsHorizontal = defineComponent315({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 11.25a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M21 11.25a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M3 11.25a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 11.25a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DotsVertical.ts
+// src/icons/DotsHorizontal.ts
 import { defineComponent as defineComponent316, h as h316 } from "vue";
-var DotsVertical = defineComponent316({
-  name: "DotsVertical",
+var DotsHorizontal = defineComponent316({
+  name: "DotsHorizontal",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11052,16 +11052,16 @@ var DotsVertical = defineComponent316({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M11.25 12a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0M11.25 3a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0M11.25 21a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 11.25a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M21 11.25a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M3 11.25a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Download.ts
+// src/icons/DotsVertical.ts
 import { defineComponent as defineComponent317, h as h317 } from "vue";
-var Download = defineComponent317({
-  name: "Download",
+var DotsVertical = defineComponent317({
+  name: "DotsVertical",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11087,16 +11087,16 @@ var Download = defineComponent317({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 2.25v13.5m0 0 5.25-5.25M12 15.75 6.75 10.5m-3 5.25v4.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M11.25 12a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0M11.25 3a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0M11.25 21a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Drawer.ts
+// src/icons/Download.ts
 import { defineComponent as defineComponent318, h as h318 } from "vue";
-var Drawer = defineComponent318({
-  name: "Drawer",
+var Download = defineComponent318({
+  name: "Download",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11122,16 +11122,16 @@ var Drawer = defineComponent318({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 7.5V18a1.5 1.5 0 0 0 1.5 1.5h16.5a1.5 1.5 0 0 0 1.5-1.5V7.5m-19.5 0 3-3h13.5l3 3m-19.5 0h19.5m-7.5 6a2.25 2.25 0 1 0-4.5 0 2.25 2.25 0 0 0 4.5 0"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 2.25v13.5m0 0 5.25-5.25M12 15.75 6.75 10.5m-3 5.25v4.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DropAdd.ts
+// src/icons/Drawer.ts
 import { defineComponent as defineComponent319, h as h319 } from "vue";
-var DropAdd = defineComponent319({
-  name: "DropAdd",
+var Drawer = defineComponent319({
+  name: "Drawer",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11157,16 +11157,16 @@ var DropAdd = defineComponent319({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 6V4.5A1.5 1.5 0 0 1 4.5 3H6m4.5 0h3M18 3h1.5A1.5 1.5 0 0 1 21 4.5V6m0 12v1.5a1.5 1.5 0 0 1-1.5 1.5H18M3 18v1.5A1.5 1.5 0 0 0 4.5 21H6m4.5 0h3M21 10.5v3m-18-3v3m9-6V12m0 0v4.5m0-4.5H7.5m4.5 0h4.5"/>`
+        innerHTML: `<path d="M2.25 7.5V18a1.5 1.5 0 0 0 1.5 1.5h16.5a1.5 1.5 0 0 0 1.5-1.5V7.5m-19.5 0 3-3h13.5l3 3m-19.5 0h19.5m-7.5 6a2.25 2.25 0 1 0-4.5 0 2.25 2.25 0 0 0 4.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Dropdown.ts
+// src/icons/DropAdd.ts
 import { defineComponent as defineComponent320, h as h320 } from "vue";
-var Dropdown = defineComponent320({
-  name: "Dropdown",
+var DropAdd = defineComponent320({
+  name: "DropAdd",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11192,16 +11192,16 @@ var Dropdown = defineComponent320({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m18.75 10.5-3 3-3-3m9-2.25v7.5a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-7.5a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5"/>`
+        innerHTML: `<path d="M3 6V4.5A1.5 1.5 0 0 1 4.5 3H6m4.5 0h3M18 3h1.5A1.5 1.5 0 0 1 21 4.5V6m0 12v1.5a1.5 1.5 0 0 1-1.5 1.5H18M3 18v1.5A1.5 1.5 0 0 0 4.5 21H6m4.5 0h3M21 10.5v3m-18-3v3m9-6V12m0 0v4.5m0-4.5H7.5m4.5 0h4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DropdownOpen.ts
+// src/icons/Dropdown.ts
 import { defineComponent as defineComponent321, h as h321 } from "vue";
-var DropdownOpen = defineComponent321({
-  name: "DropdownOpen",
+var Dropdown = defineComponent321({
+  name: "Dropdown",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11227,16 +11227,16 @@ var DropdownOpen = defineComponent321({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m18.75 13.5-3-3-3 3m9-5.25v7.5a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-7.5a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5"/>`
+        innerHTML: `<path d="m18.75 10.5-3 3-3-3m9-2.25v7.5a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-7.5a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Dropper.ts
+// src/icons/DropdownOpen.ts
 import { defineComponent as defineComponent322, h as h322 } from "vue";
-var Dropper = defineComponent322({
-  name: "Dropper",
+var DropdownOpen = defineComponent322({
+  name: "DropdownOpen",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11262,16 +11262,16 @@ var Dropper = defineComponent322({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m9 18-6 3 3-6 6-6-.164-.491a3 3 0 0 1 .725-3.07l2.325-2.325a3 3 0 0 1 4.243 0l1.757 1.758a3 3 0 0 1 0 4.242L18.56 11.44a3 3 0 0 1-3.07.725L15 12l-1.5 1.5M9 18l-.75-.75M9 18l2.25-2.25m0 0L10.5 15m.75.75 2.25-2.25m0 0-.75-.75"/>`
+        innerHTML: `<path d="m18.75 13.5-3-3-3 3m9-5.25v7.5a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-7.5a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Dumbell.ts
+// src/icons/Dropper.ts
 import { defineComponent as defineComponent323, h as h323 } from "vue";
-var Dumbell = defineComponent323({
-  name: "Dumbell",
+var Dropper = defineComponent323({
+  name: "Dropper",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11297,16 +11297,16 @@ var Dumbell = defineComponent323({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.75 2.25 19.5 4.5m0 0L18 6m1.5-1.5-2.25-2.25M19.5 4.5l2.25 2.25M18 6l3.44 3.44a1.5 1.5 0 0 1 0 2.12l-.13.13a1.5 1.5 0 0 1-2.12 0l-3.44-3.44M18 6l-3.44-3.44a1.5 1.5 0 0 0-2.12 0l-.13.13a1.5 1.5 0 0 0 0 2.12l3.44 3.44m0 0-7.5 7.5m0 0 3.44 3.44a1.5 1.5 0 0 1 0 2.12l-.13.13a1.5 1.5 0 0 1-2.12 0L6 18m2.25-2.25-3.44-3.44a1.5 1.5 0 0 0-2.12 0l-.13.13a1.5 1.5 0 0 0 0 2.12L6 18m0 0-1.5 1.5m0 0-2.25 2.25M4.5 19.5l-2.25-2.25M4.5 19.5l2.25 2.25"/>`
+        innerHTML: `<path d="m9 18-6 3 3-6 6-6-.164-.491a3 3 0 0 1 .725-3.07l2.325-2.325a3 3 0 0 1 4.243 0l1.757 1.758a3 3 0 0 1 0 4.242L18.56 11.44a3 3 0 0 1-3.07.725L15 12l-1.5 1.5M9 18l-.75-.75M9 18l2.25-2.25m0 0L10.5 15m.75.75 2.25-2.25m0 0-.75-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Duplicate.ts
+// src/icons/Dumbell.ts
 import { defineComponent as defineComponent324, h as h324 } from "vue";
-var Duplicate = defineComponent324({
-  name: "Duplicate",
+var Dumbell = defineComponent324({
+  name: "Dumbell",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11332,16 +11332,16 @@ var Duplicate = defineComponent324({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 4.5v-.75A1.5 1.5 0 0 1 9 2.25h6.129a1.5 1.5 0 0 1 1.06.44l5.122 5.12a1.5 1.5 0 0 1 .439 1.061v6.13a1.5 1.5 0 0 1-1.5 1.5l-.75-.001M9 18v-3m0 0v-3m0 3h3m-3 0H6M2.25 9v11.25a1.5 1.5 0 0 0 1.5 1.5H15a1.5 1.5 0 0 0 1.5-1.5v-6.129a1.5 1.5 0 0 0-.44-1.06l-5.12-5.122A1.5 1.5 0 0 0 9.878 7.5H3.75A1.5 1.5 0 0 0 2.25 9"/>`
+        innerHTML: `<path d="M21.75 2.25 19.5 4.5m0 0L18 6m1.5-1.5-2.25-2.25M19.5 4.5l2.25 2.25M18 6l3.44 3.44a1.5 1.5 0 0 1 0 2.12l-.13.13a1.5 1.5 0 0 1-2.12 0l-3.44-3.44M18 6l-3.44-3.44a1.5 1.5 0 0 0-2.12 0l-.13.13a1.5 1.5 0 0 0 0 2.12l3.44 3.44m0 0-7.5 7.5m0 0 3.44 3.44a1.5 1.5 0 0 1 0 2.12l-.13.13a1.5 1.5 0 0 1-2.12 0L6 18m2.25-2.25-3.44-3.44a1.5 1.5 0 0 0-2.12 0l-.13.13a1.5 1.5 0 0 0 0 2.12L6 18m0 0-1.5 1.5m0 0-2.25 2.25M4.5 19.5l-2.25-2.25M4.5 19.5l2.25 2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/DuplicateLayer.ts
+// src/icons/Duplicate.ts
 import { defineComponent as defineComponent325, h as h325 } from "vue";
-var DuplicateLayer = defineComponent325({
-  name: "DuplicateLayer",
+var Duplicate = defineComponent325({
+  name: "Duplicate",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11367,16 +11367,16 @@ var DuplicateLayer = defineComponent325({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 4.5v-.75A1.5 1.5 0 0 1 9 2.25h11.25a1.5 1.5 0 0 1 1.5 1.5V15a1.5 1.5 0 0 1-1.5 1.5h-.75M9.375 18v-3.375m0 0V11.25m0 3.375h3.375m-3.375 0H6M2.25 9v11.25a1.5 1.5 0 0 0 1.5 1.5H15a1.5 1.5 0 0 0 1.5-1.5V9A1.5 1.5 0 0 0 15 7.5H3.75A1.5 1.5 0 0 0 2.25 9"/>`
+        innerHTML: `<path d="M7.5 4.5v-.75A1.5 1.5 0 0 1 9 2.25h6.129a1.5 1.5 0 0 1 1.06.44l5.122 5.12a1.5 1.5 0 0 1 .439 1.061v6.13a1.5 1.5 0 0 1-1.5 1.5l-.75-.001M9 18v-3m0 0v-3m0 3h3m-3 0H6M2.25 9v11.25a1.5 1.5 0 0 0 1.5 1.5H15a1.5 1.5 0 0 0 1.5-1.5v-6.129a1.5 1.5 0 0 0-.44-1.06l-5.12-5.122A1.5 1.5 0 0 0 9.878 7.5H3.75A1.5 1.5 0 0 0 2.25 9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/EditPen.ts
+// src/icons/DuplicateLayer.ts
 import { defineComponent as defineComponent326, h as h326 } from "vue";
-var EditPen = defineComponent326({
-  name: "EditPen",
+var DuplicateLayer = defineComponent326({
+  name: "DuplicateLayer",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11402,16 +11402,16 @@ var EditPen = defineComponent326({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M19.5 12.75v6.75A1.5 1.5 0 0 1 18 21H4.5A1.5 1.5 0 0 1 3 19.5V6a1.5 1.5 0 0 1 1.5-1.5h6.75m-3 11.25v-2.379c0-.398.158-.779.44-1.06l9-9a1.5 1.5 0 0 1 2.12 0l.88.878a1.5 1.5 0 0 1 0 2.122l-9 9a1.5 1.5 0 0 1-1.061.439z"/>`
+        innerHTML: `<path d="M7.5 4.5v-.75A1.5 1.5 0 0 1 9 2.25h11.25a1.5 1.5 0 0 1 1.5 1.5V15a1.5 1.5 0 0 1-1.5 1.5h-.75M9.375 18v-3.375m0 0V11.25m0 3.375h3.375m-3.375 0H6M2.25 9v11.25a1.5 1.5 0 0 0 1.5 1.5H15a1.5 1.5 0 0 0 1.5-1.5V9A1.5 1.5 0 0 0 15 7.5H3.75A1.5 1.5 0 0 0 2.25 9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Elevator.ts
+// src/icons/EditPen.ts
 import { defineComponent as defineComponent327, h as h327 } from "vue";
-var Elevator = defineComponent327({
-  name: "Elevator",
+var EditPen = defineComponent327({
+  name: "EditPen",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11437,16 +11437,16 @@ var Elevator = defineComponent327({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M15.75 6v12m0-12L13.5 8.25M15.75 6 18 8.25M15.75 18 18 15.75M15.75 18l-2.25-2.25m-5.25-3a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5m0 0A2.25 2.25 0 0 0 6 15v.75m2.25-3A2.25 2.25 0 0 1 10.5 15v.75M21 4.5v15a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 19.5v-15A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5"/>`
+        innerHTML: `<path d="M19.5 12.75v6.75A1.5 1.5 0 0 1 18 21H4.5A1.5 1.5 0 0 1 3 19.5V6a1.5 1.5 0 0 1 1.5-1.5h6.75m-3 11.25v-2.379c0-.398.158-.779.44-1.06l9-9a1.5 1.5 0 0 1 2.12 0l.88.878a1.5 1.5 0 0 1 0 2.122l-9 9a1.5 1.5 0 0 1-1.061.439z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/EmergencyCross.ts
+// src/icons/Elevator.ts
 import { defineComponent as defineComponent328, h as h328 } from "vue";
-var EmergencyCross = defineComponent328({
-  name: "EmergencyCross",
+var Elevator = defineComponent328({
+  name: "Elevator",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11472,16 +11472,16 @@ var EmergencyCross = defineComponent328({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9 9V4.5A1.5 1.5 0 0 1 10.5 3h3A1.5 1.5 0 0 1 15 4.5V9h4.5a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5H15v4.5a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 19.5V15H4.5A1.5 1.5 0 0 1 3 13.5v-3A1.5 1.5 0 0 1 4.5 9z"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M15.75 6v12m0-12L13.5 8.25M15.75 6 18 8.25M15.75 18 18 15.75M15.75 18l-2.25-2.25m-5.25-3a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5m0 0A2.25 2.25 0 0 0 6 15v.75m2.25-3A2.25 2.25 0 0 1 10.5 15v.75M21 4.5v15a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 19.5v-15A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/EmojiPlus.ts
+// src/icons/EmergencyCross.ts
 import { defineComponent as defineComponent329, h as h329 } from "vue";
-var EmojiPlus = defineComponent329({
-  name: "EmojiPlus",
+var EmergencyCross = defineComponent329({
+  name: "EmergencyCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11507,16 +11507,16 @@ var EmojiPlus = defineComponent329({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 21.75c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75m-12 3a3.18 3.18 0 0 0 4.5 0m8.25 4.5h-3m0 0h-3m3 0v-3m0 3v3M8.25 12a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0m9 0a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
+        innerHTML: `<path d="M9 9V4.5A1.5 1.5 0 0 1 10.5 3h3A1.5 1.5 0 0 1 15 4.5V9h4.5a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5H15v4.5a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 19.5V15H4.5A1.5 1.5 0 0 1 3 13.5v-3A1.5 1.5 0 0 1 4.5 9z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Entrance.ts
+// src/icons/EmojiPlus.ts
 import { defineComponent as defineComponent330, h as h330 } from "vue";
-var Entrance = defineComponent330({
-  name: "Entrance",
+var EmojiPlus = defineComponent330({
+  name: "EmojiPlus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11542,16 +11542,16 @@ var Entrance = defineComponent330({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.75 17.25h-3v3h6v-3zm0 0v-4.5m0-3v-4.5m0 4.5h1.5a1.5 1.5 0 0 0 1.5-1.5v-1.5m-3 3v3m0 0h-1.5a1.5 1.5 0 0 1-1.5-1.5v-1.5m-7.5 1.5v1.5m-4.5-9h6a1.5 1.5 0 0 1 1.5 1.5v13.5a1.5 1.5 0 0 1-1.5 1.5h-6a1.5 1.5 0 0 1-1.5-1.5V5.25a1.5 1.5 0 0 1 1.5-1.5"/>`
+        innerHTML: `<path d="M12 21.75c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75m-12 3a3.18 3.18 0 0 0 4.5 0m8.25 4.5h-3m0 0h-3m3 0v-3m0 3v3M8.25 12a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0m9 0a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Epipen.ts
+// src/icons/Entrance.ts
 import { defineComponent as defineComponent331, h as h331 } from "vue";
-var Epipen = defineComponent331({
-  name: "Epipen",
+var Entrance = defineComponent331({
+  name: "Entrance",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11577,16 +11577,16 @@ var Epipen = defineComponent331({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M10.5 18 9 19.5a3.18 3.18 0 0 1-4.5 0m6-1.5L6 13.5m4.5 4.5a1.06 1.06 0 0 0 1.5 0l1.5-1.5m-7.5-3L4.5 15a3.18 3.18 0 0 0 0 4.5m1.5-6-.75-.75L15.44 2.56a1.5 1.5 0 0 1 2.12 0l3.88 3.88a1.5 1.5 0 0 1 0 2.12L18 12M4.5 19.5l-2.25 2.25M13.5 16.5l-2.25-2.25m2.25 2.25 2.25-2.25m0 0L13.5 12m2.25 2.25L18 12m0 0-2.25-2.25"/>`
+        innerHTML: `<path d="M18.75 17.25h-3v3h6v-3zm0 0v-4.5m0-3v-4.5m0 4.5h1.5a1.5 1.5 0 0 0 1.5-1.5v-1.5m-3 3v3m0 0h-1.5a1.5 1.5 0 0 1-1.5-1.5v-1.5m-7.5 1.5v1.5m-4.5-9h6a1.5 1.5 0 0 1 1.5 1.5v13.5a1.5 1.5 0 0 1-1.5 1.5h-6a1.5 1.5 0 0 1-1.5-1.5V5.25a1.5 1.5 0 0 1 1.5-1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Equalizer.ts
+// src/icons/Epipen.ts
 import { defineComponent as defineComponent332, h as h332 } from "vue";
-var Equalizer = defineComponent332({
-  name: "Equalizer",
+var Epipen = defineComponent332({
+  name: "Epipen",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11612,16 +11612,16 @@ var Equalizer = defineComponent332({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M16.5 6h1.724c.34 0 .67.116.937.329l1.875 1.5a1.5 1.5 0 0 1 0 2.342l-1.875 1.5a1.5 1.5 0 0 1-.937.329H16.5m0-6h-.75a1.5 1.5 0 0 0-1.5 1.5v3a1.5 1.5 0 0 0 1.5 1.5h.75m0-6V3.75m0 8.25v8.25M4.5 12h1.724c.34 0 .67.116.937.329l1.875 1.5a1.5 1.5 0 0 1 0 2.342l-1.875 1.5a1.5 1.5 0 0 1-.937.329H4.5m0-6h-.75a1.5 1.5 0 0 0-1.5 1.5v3a1.5 1.5 0 0 0 1.5 1.5h.75m0-6V3.75M4.5 18v2.25M7.5 9H9M7.5 5.25H9m10.5 13.5H21M19.5 15H21"/>`
+        innerHTML: `<path d="M10.5 18 9 19.5a3.18 3.18 0 0 1-4.5 0m6-1.5L6 13.5m4.5 4.5a1.06 1.06 0 0 0 1.5 0l1.5-1.5m-7.5-3L4.5 15a3.18 3.18 0 0 0 0 4.5m1.5-6-.75-.75L15.44 2.56a1.5 1.5 0 0 1 2.12 0l3.88 3.88a1.5 1.5 0 0 1 0 2.12L18 12M4.5 19.5l-2.25 2.25M13.5 16.5l-2.25-2.25m2.25 2.25 2.25-2.25m0 0L13.5 12m2.25 2.25L18 12m0 0-2.25-2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Eraser.ts
+// src/icons/Equalizer.ts
 import { defineComponent as defineComponent333, h as h333 } from "vue";
-var Eraser = defineComponent333({
-  name: "Eraser",
+var Equalizer = defineComponent333({
+  name: "Equalizer",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11647,16 +11647,16 @@ var Eraser = defineComponent333({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m17.25 17.25 4.19-4.19a1.5 1.5 0 0 0 0-2.12l-7.61-7.61a1.5 1.5 0 0 0-2.14.018L7.606 7.606m9.644 9.644-2.56 2.56a1.5 1.5 0 0 1-1.061.44H6.312a1.5 1.5 0 0 1-1.06-.44l-1.685-1.683a4.5 4.5 0 0 1-.055-6.308l4.094-4.214m9.644 9.645L7.606 7.606"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M16.5 6h1.724c.34 0 .67.116.937.329l1.875 1.5a1.5 1.5 0 0 1 0 2.342l-1.875 1.5a1.5 1.5 0 0 1-.937.329H16.5m0-6h-.75a1.5 1.5 0 0 0-1.5 1.5v3a1.5 1.5 0 0 0 1.5 1.5h.75m0-6V3.75m0 8.25v8.25M4.5 12h1.724c.34 0 .67.116.937.329l1.875 1.5a1.5 1.5 0 0 1 0 2.342l-1.875 1.5a1.5 1.5 0 0 1-.937.329H4.5m0-6h-.75a1.5 1.5 0 0 0-1.5 1.5v3a1.5 1.5 0 0 0 1.5 1.5h.75m0-6V3.75M4.5 18v2.25M7.5 9H9M7.5 5.25H9m10.5 13.5H21M19.5 15H21"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Error.ts
+// src/icons/Eraser.ts
 import { defineComponent as defineComponent334, h as h334 } from "vue";
-var Error = defineComponent334({
-  name: "Error",
+var Eraser = defineComponent334({
+  name: "Eraser",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11682,16 +11682,16 @@ var Error = defineComponent334({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 16.5v.75m0-3.75V6.75m0 15c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75"/>`
+        innerHTML: `<path d="m17.25 17.25 4.19-4.19a1.5 1.5 0 0 0 0-2.12l-7.61-7.61a1.5 1.5 0 0 0-2.14.018L7.606 7.606m9.644 9.644-2.56 2.56a1.5 1.5 0 0 1-1.061.44H6.312a1.5 1.5 0 0 1-1.06-.44l-1.685-1.683a4.5 4.5 0 0 1-.055-6.308l4.094-4.214m9.644 9.645L7.606 7.606"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Ethernet.ts
+// src/icons/Error.ts
 import { defineComponent as defineComponent335, h as h335 } from "vue";
-var Ethernet = defineComponent335({
-  name: "Ethernet",
+var Error = defineComponent335({
+  name: "Error",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11717,16 +11717,16 @@ var Ethernet = defineComponent335({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 6.75v1.5m3-1.5v1.5m3-1.5v1.5m3-1.5v1.5m-14.25-3v9a1.5 1.5 0 0 0 1.5 1.5h1.5V18h3v2.25h7.5V18h3v-2.25h1.5a1.5 1.5 0 0 0 1.5-1.5v-9a1.5 1.5 0 0 0-1.5-1.5H3.75a1.5 1.5 0 0 0-1.5 1.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 16.5v.75m0-3.75V6.75m0 15c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Euro.ts
+// src/icons/Ethernet.ts
 import { defineComponent as defineComponent336, h as h336 } from "vue";
-var Euro = defineComponent336({
-  name: "Euro",
+var Ethernet = defineComponent336({
+  name: "Ethernet",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11752,16 +11752,16 @@ var Euro = defineComponent336({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18 7.5v-.375a4.875 4.875 0 1 0-9.75 0V9.75m0 0v4.5m0-4.5H6m2.25 0h6m-6 4.5v2.625a4.875 4.875 0 1 0 9.75 0V16.5m-9.75-2.25H6m2.25 0h6"/>`
+        innerHTML: `<path d="M7.5 6.75v1.5m3-1.5v1.5m3-1.5v1.5m3-1.5v1.5m-14.25-3v9a1.5 1.5 0 0 0 1.5 1.5h1.5V18h3v2.25h7.5V18h3v-2.25h1.5a1.5 1.5 0 0 0 1.5-1.5v-9a1.5 1.5 0 0 0-1.5-1.5H3.75a1.5 1.5 0 0 0-1.5 1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Exclude.ts
+// src/icons/Euro.ts
 import { defineComponent as defineComponent337, h as h337 } from "vue";
-var Exclude = defineComponent337({
-  name: "Exclude",
+var Euro = defineComponent337({
+  name: "Euro",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11787,16 +11787,16 @@ var Exclude = defineComponent337({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M16.5 7.5h3c.414 0 .79.168 1.06.44M16.5 7.5v-3c0-.414-.168-.79-.44-1.06m.44 4.06V12m0-4.5H12m-4.5 9v3c0 .414.168.79.44 1.06M7.5 16.5h-3c-.414 0-.79-.168-1.06-.44m4.06.44V12m0 4.5H12m0 4.5H9c-.414 0-.79-.168-1.06-.44M12 21l9-9m-9 9h4.5m4.5-9V9c0-.414-.168-.79-.44-1.06M21 12v4.5M16.5 21h3a1.5 1.5 0 0 0 1.5-1.5v-3M16.5 21l4.5-4.5m-.44-8.56L16.5 12m-8.56 8.56L12 16.5M12 3h3c.414 0 .79.168 1.06.44M12 3l-9 9m9-9H7.5M3 12v3c0 .414.168.79.44 1.06M3 12V7.5M7.5 3h-3A1.5 1.5 0 0 0 3 4.5v3M7.5 3 3 7.5M16.5 12v3a1.5 1.5 0 0 1-1.5 1.5h-3m0-9H9A1.5 1.5 0 0 0 7.5 9v3M12 7.5l4.06-4.06M7.5 12l-4.06 4.06"/>`
+        innerHTML: `<path d="M18 7.5v-.375a4.875 4.875 0 1 0-9.75 0V9.75m0 0v4.5m0-4.5H6m2.25 0h6m-6 4.5v2.625a4.875 4.875 0 1 0 9.75 0V16.5m-9.75-2.25H6m2.25 0h6"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ExternalLink.ts
+// src/icons/Exclude.ts
 import { defineComponent as defineComponent338, h as h338 } from "vue";
-var ExternalLink = defineComponent338({
-  name: "ExternalLink",
+var Exclude = defineComponent338({
+  name: "Exclude",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11822,16 +11822,16 @@ var ExternalLink = defineComponent338({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21 3v6.75M21 3h-6.75M21 3l-9.75 9.75m7.5-.75v7.5a1.5 1.5 0 0 1-1.5 1.5H4.5A1.5 1.5 0 0 1 3 19.5V6.75a1.5 1.5 0 0 1 1.5-1.5H12"/>`
+        innerHTML: `<path d="M16.5 7.5h3c.414 0 .79.168 1.06.44M16.5 7.5v-3c0-.414-.168-.79-.44-1.06m.44 4.06V12m0-4.5H12m-4.5 9v3c0 .414.168.79.44 1.06M7.5 16.5h-3c-.414 0-.79-.168-1.06-.44m4.06.44V12m0 4.5H12m0 4.5H9c-.414 0-.79-.168-1.06-.44M12 21l9-9m-9 9h4.5m4.5-9V9c0-.414-.168-.79-.44-1.06M21 12v4.5M16.5 21h3a1.5 1.5 0 0 0 1.5-1.5v-3M16.5 21l4.5-4.5m-.44-8.56L16.5 12m-8.56 8.56L12 16.5M12 3h3c.414 0 .79.168 1.06.44M12 3l-9 9m9-9H7.5M3 12v3c0 .414.168.79.44 1.06M3 12V7.5M7.5 3h-3A1.5 1.5 0 0 0 3 4.5v3M7.5 3 3 7.5M16.5 12v3a1.5 1.5 0 0 1-1.5 1.5h-3m0-9H9A1.5 1.5 0 0 0 7.5 9v3M12 7.5l4.06-4.06M7.5 12l-4.06 4.06"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Extrude.ts
+// src/icons/ExternalLink.ts
 import { defineComponent as defineComponent339, h as h339 } from "vue";
-var Extrude = defineComponent339({
-  name: "Extrude",
+var ExternalLink = defineComponent339({
+  name: "ExternalLink",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11857,16 +11857,16 @@ var Extrude = defineComponent339({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m12 6.75 6.75 3.75M12 6.75 5.113 10.5M12 6.75v3.75m0-3.75v-4.5m6.75 8.25L12 14.25m6.75-3.75V18L12 21.75m0-7.5L5.113 10.5M12 14.25v7.5M5.113 10.5V18L12 21.75m0-19.5 2.25 2.25M12 2.25 9.75 4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21 3v6.75M21 3h-6.75M21 3l-9.75 9.75m7.5-.75v7.5a1.5 1.5 0 0 1-1.5 1.5H4.5A1.5 1.5 0 0 1 3 19.5V6.75a1.5 1.5 0 0 1 1.5-1.5H12"/>`
       }, children);
     };
   }
 });
 
-// src/icons/EyeBlind.ts
+// src/icons/Extrude.ts
 import { defineComponent as defineComponent340, h as h340 } from "vue";
-var EyeBlind = defineComponent340({
-  name: "EyeBlind",
+var Extrude = defineComponent340({
+  name: "Extrude",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11892,16 +11892,16 @@ var EyeBlind = defineComponent340({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M13.852 7.898a4.5 4.5 0 0 0-5.955 5.955m5.955-5.955-5.954 5.954m5.954-5.954c.997.45 1.8 1.253 2.25 2.25m-8.204 3.704a4.5 4.5 0 0 0 2.25 2.25m5.954-5.954a4.5 4.5 0 0 1-5.955 5.955m5.955-5.955-5.954 5.954m11.063-4.795.539.693c-4.586 7.055-14.914 7.055-19.5 0 4.428-6.641 14.06-6.993 18.961-.693"/>`
+        innerHTML: `<path d="m12 6.75 6.75 3.75M12 6.75 5.113 10.5M12 6.75v3.75m0-3.75v-4.5m6.75 8.25L12 14.25m6.75-3.75V18L12 21.75m0-7.5L5.113 10.5M12 14.25v7.5M5.113 10.5V18L12 21.75m0-19.5 2.25 2.25M12 2.25 9.75 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/EyeClosed.ts
+// src/icons/EyeBlind.ts
 import { defineComponent as defineComponent341, h as h341 } from "vue";
-var EyeClosed = defineComponent341({
-  name: "EyeClosed",
+var EyeBlind = defineComponent341({
+  name: "EyeBlind",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11927,16 +11927,16 @@ var EyeClosed = defineComponent341({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.75 8.25c-4.586 7.055-14.914 7.055-19.5 0M21 13.5l.75.75m-4.5 1.5.75 1.5m-6-.75v1.769M6.75 15.75 6 17.25M3 13.5l-.75.75"/>`
+        innerHTML: `<path d="M13.852 7.898a4.5 4.5 0 0 0-5.955 5.955m5.955-5.955-5.954 5.954m5.954-5.954c.997.45 1.8 1.253 2.25 2.25m-8.204 3.704a4.5 4.5 0 0 0 2.25 2.25m5.954-5.954a4.5 4.5 0 0 1-5.955 5.955m5.955-5.955-5.954 5.954m11.063-4.795.539.693c-4.586 7.055-14.914 7.055-19.5 0 4.428-6.641 14.06-6.993 18.961-.693"/>`
       }, children);
     };
   }
 });
 
-// src/icons/EyeOff.ts
+// src/icons/EyeClosed.ts
 import { defineComponent as defineComponent342, h as h342 } from "vue";
-var EyeOff = defineComponent342({
-  name: "EyeOff",
+var EyeClosed = defineComponent342({
+  name: "EyeClosed",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11962,16 +11962,16 @@ var EyeOff = defineComponent342({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 7.5a4.5 4.5 0 0 1 4.5 4.5m-1.318 3.182a4.5 4.5 0 0 1-6.364-6.364m6.364 6.364L8.818 8.818m6.364 6.364 1.245 1.245M8.818 8.818 7.626 7.626m3.686-.814c3.651-.208 7.394 1.274 9.9 4.495l.538.693a11.7 11.7 0 0 1-2.49 2.76M7.627 7.627A11.6 11.6 0 0 0 2.25 12c3.22 4.953 9.27 6.429 14.177 4.427m-8.8-8.8L2.249 2.249m14.177 14.177 5.323 5.323"/>`
+        innerHTML: `<path d="M21.75 8.25c-4.586 7.055-14.914 7.055-19.5 0M21 13.5l.75.75m-4.5 1.5.75 1.5m-6-.75v1.769M6.75 15.75 6 17.25M3 13.5l-.75.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/EyeOpen.ts
+// src/icons/EyeOff.ts
 import { defineComponent as defineComponent343, h as h343 } from "vue";
-var EyeOpen = defineComponent343({
-  name: "EyeOpen",
+var EyeOff = defineComponent343({
+  name: "EyeOff",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -11997,16 +11997,16 @@ var EyeOpen = defineComponent343({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m21.211 11.307.539.693c-4.586 7.055-14.914 7.055-19.5 0 4.428-6.641 14.06-6.993 18.961-.693ZM7.5 12a4.5 4.5 0 1 0 9 0 4.5 4.5 0 0 0-9 0Z" clip-rule="evenodd"/>`
+        innerHTML: `<path d="M12 7.5a4.5 4.5 0 0 1 4.5 4.5m-1.318 3.182a4.5 4.5 0 0 1-6.364-6.364m6.364 6.364L8.818 8.818m6.364 6.364 1.245 1.245M8.818 8.818 7.626 7.626m3.686-.814c3.651-.208 7.394 1.274 9.9 4.495l.538.693a11.7 11.7 0 0 1-2.49 2.76M7.627 7.627A11.6 11.6 0 0 0 2.25 12c3.22 4.953 9.27 6.429 14.177 4.427m-8.8-8.8L2.249 2.249m14.177 14.177 5.323 5.323"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FaceId.ts
+// src/icons/EyeOpen.ts
 import { defineComponent as defineComponent344, h as h344 } from "vue";
-var FaceId = defineComponent344({
-  name: "FaceId",
+var EyeOpen = defineComponent344({
+  name: "EyeOpen",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12032,16 +12032,16 @@ var FaceId = defineComponent344({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21 7.5v-3A1.5 1.5 0 0 0 19.5 3h-3m-9 0h-3A1.5 1.5 0 0 0 3 4.5v3m0 9v3A1.5 1.5 0 0 0 4.5 21h3m9 0h3a1.5 1.5 0 0 0 1.5-1.5v-3m-6-8.25v2.25M9 8.25v2.25m-2.25 3.75s1.5 1.5 5.25 1.5 5.25-1.5 5.25-1.5"/>`
+        innerHTML: `<path d="m21.211 11.307.539.693c-4.586 7.055-14.914 7.055-19.5 0 4.428-6.641 14.06-6.993 18.961-.693ZM7.5 12a4.5 4.5 0 1 0 9 0 4.5 4.5 0 0 0-9 0Z" clip-rule="evenodd"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Factory.ts
+// src/icons/FaceId.ts
 import { defineComponent as defineComponent345, h as h345 } from "vue";
-var Factory = defineComponent345({
-  name: "Factory",
+var FaceId = defineComponent345({
+  name: "FaceId",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12067,16 +12067,16 @@ var Factory = defineComponent345({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3.75 20.25h16.5a1.5 1.5 0 0 0 1.5-1.5V8.25l-4.5 3-.75-3-4.5 3-.75-3-4.5 3v-6a1.5 1.5 0 0 0-1.5-1.5h-1.5a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21 7.5v-3A1.5 1.5 0 0 0 19.5 3h-3m-9 0h-3A1.5 1.5 0 0 0 3 4.5v3m0 9v3A1.5 1.5 0 0 0 4.5 21h3m9 0h3a1.5 1.5 0 0 0 1.5-1.5v-3m-6-8.25v2.25M9 8.25v2.25m-2.25 3.75s1.5 1.5 5.25 1.5 5.25-1.5 5.25-1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Feather.ts
+// src/icons/Factory.ts
 import { defineComponent as defineComponent346, h as h346 } from "vue";
-var Feather = defineComponent346({
-  name: "Feather",
+var Factory = defineComponent346({
+  name: "Factory",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12102,16 +12102,16 @@ var Feather = defineComponent346({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3.75 4.666c.727.978 2.575 1.886 4.252 1.497m0 0A3.3 3.3 0 0 0 9.75 5.114c2-2.24-.696-4.128-2-1.792-.452.81-.291 1.895.252 2.841m0 0C8.661 7.31 9.88 8.25 11.25 8.25m-7.5 10.5c.95 0 2.21-.135 3.628-.473m0 0c4.177-.996 9.737-3.756 12.872-10.027M7.378 18.277C8.168 19.435 9 21.75 12 21.75v-1.5l2.25.75c2.5-1.5 7.2-6.75 6-12.75M7.378 18.277c-.46-1.342-.653-4.392 2.372-5.527 6-2.25 6.75-3.75 10.5-4.5"/>`
+        innerHTML: `<path d="M3.75 20.25h16.5a1.5 1.5 0 0 0 1.5-1.5V8.25l-4.5 3-.75-3-4.5 3-.75-3-4.5 3v-6a1.5 1.5 0 0 0-1.5-1.5h-1.5a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/File.ts
+// src/icons/Feather.ts
 import { defineComponent as defineComponent347, h as h347 } from "vue";
-var File = defineComponent347({
-  name: "File",
+var Feather = defineComponent347({
+  name: "Feather",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12137,16 +12137,16 @@ var File = defineComponent347({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M20.25 9.75v10.5a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5V3.75a1.5 1.5 0 0 1 1.5-1.5h7.5m7.5 7.5h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5"/>`
+        innerHTML: `<path d="M3.75 4.666c.727.978 2.575 1.886 4.252 1.497m0 0A3.3 3.3 0 0 0 9.75 5.114c2-2.24-.696-4.128-2-1.792-.452.81-.291 1.895.252 2.841m0 0C8.661 7.31 9.88 8.25 11.25 8.25m-7.5 10.5c.95 0 2.21-.135 3.628-.473m0 0c4.177-.996 9.737-3.756 12.872-10.027M7.378 18.277C8.168 19.435 9 21.75 12 21.75v-1.5l2.25.75c2.5-1.5 7.2-6.75 6-12.75M7.378 18.277c-.46-1.342-.653-4.392 2.372-5.527 6-2.25 6.75-3.75 10.5-4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/File3d.ts
+// src/icons/File.ts
 import { defineComponent as defineComponent348, h as h348 } from "vue";
-var File3d = defineComponent348({
-  name: "File3d",
+var File = defineComponent348({
+  name: "File",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12172,16 +12172,16 @@ var File3d = defineComponent348({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12.387 21.75H5.25a1.5 1.5 0 0 1-1.5-1.5V3.75a1.5 1.5 0 0 1 1.5-1.5h7.5m7.5 9.384V9.75m0 0h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m5.625 20.25 4.125-2.25V16.5m-4.125 6-4.125-2.25V16.5m4.125 6v-3.75M22.5 16.5l-4.125-2.25-4.125 2.25m8.25 0-4.125 2.25M14.25 16.5l4.125 2.25"/>`
+        innerHTML: `<path d="M20.25 9.75v10.5a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5V3.75a1.5 1.5 0 0 1 1.5-1.5h7.5m7.5 7.5h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileAi.ts
+// src/icons/File3d.ts
 import { defineComponent as defineComponent349, h as h349 } from "vue";
-var FileAi = defineComponent349({
-  name: "FileAi",
+var File3d = defineComponent349({
+  name: "File3d",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12207,16 +12207,16 @@ var FileAi = defineComponent349({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M19.5 16.5H21m0 0h1.5m-1.5 0v6m0 0h-1.5m1.5 0h1.5m-9 0v-3m0 0V18a1.5 1.5 0 0 1 3 0v1.5m-3 0h3m0 0v3m3.75-12.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h4.5"/>`
+        innerHTML: `<path d="M12.387 21.75H5.25a1.5 1.5 0 0 1-1.5-1.5V3.75a1.5 1.5 0 0 1 1.5-1.5h7.5m7.5 9.384V9.75m0 0h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m5.625 20.25 4.125-2.25V16.5m-4.125 6-4.125-2.25V16.5m4.125 6v-3.75M22.5 16.5l-4.125-2.25-4.125 2.25m8.25 0-4.125 2.25M14.25 16.5l4.125 2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileBackup.ts
+// src/icons/FileAi.ts
 import { defineComponent as defineComponent350, h as h350 } from "vue";
-var FileBackup = defineComponent350({
-  name: "FileBackup",
+var FileAi = defineComponent350({
+  name: "FileAi",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12242,16 +12242,16 @@ var FileBackup = defineComponent350({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M14.25 12.75 12 14.25l-1.5-.75m-5.25 8.25h13.5a1.5 1.5 0 0 0 1.5-1.5V8.871a1.5 1.5 0 0 0-.44-1.06l-5.12-5.122a1.5 1.5 0 0 0-1.061-.439H5.25a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5m12-8.25a5.25 5.25 0 1 0-10.5 0 5.25 5.25 0 0 0 10.5 0"/>`
+        innerHTML: `<path d="M19.5 16.5H21m0 0h1.5m-1.5 0v6m0 0h-1.5m1.5 0h1.5m-9 0v-3m0 0V18a1.5 1.5 0 0 1 3 0v1.5m-3 0h3m0 0v3m3.75-12.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileCheck.ts
+// src/icons/FileBackup.ts
 import { defineComponent as defineComponent351, h as h351 } from "vue";
-var FileCheck = defineComponent351({
-  name: "FileCheck",
+var FileBackup = defineComponent351({
+  name: "FileBackup",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12277,16 +12277,16 @@ var FileCheck = defineComponent351({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v1.884m-7.5-9.384h-7.5a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h7.137m1.863-3 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
+        innerHTML: `<path d="M14.25 12.75 12 14.25l-1.5-.75m-5.25 8.25h13.5a1.5 1.5 0 0 0 1.5-1.5V8.871a1.5 1.5 0 0 0-.44-1.06l-5.12-5.122a1.5 1.5 0 0 0-1.061-.439H5.25a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5m12-8.25a5.25 5.25 0 1 0-10.5 0 5.25 5.25 0 0 0 10.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileCode.ts
+// src/icons/FileCheck.ts
 import { defineComponent as defineComponent352, h as h352 } from "vue";
-var FileCode = defineComponent352({
-  name: "FileCode",
+var FileCheck = defineComponent352({
+  name: "FileCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12312,16 +12312,16 @@ var FileCode = defineComponent352({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m10.5 16.5-3 3 3 3m3 0 3-6m3 0 3 3-3 3m.75-12.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v18"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v1.884m-7.5-9.384h-7.5a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h7.137m1.863-3 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileCross.ts
+// src/icons/FileCode.ts
 import { defineComponent as defineComponent353, h as h353 } from "vue";
-var FileCross = defineComponent353({
-  name: "FileCross",
+var FileCode = defineComponent353({
+  name: "FileCode",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12347,16 +12347,16 @@ var FileCross = defineComponent353({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v1.884m-7.5-9.384h-7.5a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h7.137m3.363.75 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
+        innerHTML: `<path d="m10.5 16.5-3 3 3 3m3 0 3-6m3 0 3 3-3 3m.75-12.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v18"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileCsv.ts
+// src/icons/FileCross.ts
 import { defineComponent as defineComponent354, h as h354 } from "vue";
-var FileCsv = defineComponent354({
-  name: "FileCsv",
+var FileCross = defineComponent354({
+  name: "FileCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12382,16 +12382,16 @@ var FileCsv = defineComponent354({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m19.5 16.5.657 5.256a.85.85 0 0 0 1.686 0L22.5 16.5m-9 5.25s.75.75 1.61.75a1.39 1.39 0 0 0 .621-2.634l-1.462-.732a1.39 1.39 0 0 1 .622-2.634c.84 0 1.609.75 1.609.75m-6 3.75a1.5 1.5 0 0 1-3 0v-3a1.5 1.5 0 0 1 3 0m9.75-8.25h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v18"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v1.884m-7.5-9.384h-7.5a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h7.137m3.363.75 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileDoc.ts
+// src/icons/FileCsv.ts
 import { defineComponent as defineComponent355, h as h355 } from "vue";
-var FileDoc = defineComponent355({
-  name: "FileDoc",
+var FileCsv = defineComponent355({
+  name: "FileCsv",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12417,16 +12417,16 @@ var FileDoc = defineComponent355({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M22.5 21a1.5 1.5 0 0 1-3 0v-3a1.5 1.5 0 0 1 3 0m-2.25-8.25h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v18M13.5 21v-3a1.5 1.5 0 0 1 3 0v3a1.5 1.5 0 0 1-3 0m-6 1.5v-6H9a1.5 1.5 0 0 1 1.5 1.5v3A1.5 1.5 0 0 1 9 22.5z"/>`
+        innerHTML: `<path d="m19.5 16.5.657 5.256a.85.85 0 0 0 1.686 0L22.5 16.5m-9 5.25s.75.75 1.61.75a1.39 1.39 0 0 0 .621-2.634l-1.462-.732a1.39 1.39 0 0 1 .622-2.634c.84 0 1.609.75 1.609.75m-6 3.75a1.5 1.5 0 0 1-3 0v-3a1.5 1.5 0 0 1 3 0m9.75-8.25h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v18"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileDocx.ts
+// src/icons/FileDoc.ts
 import { defineComponent as defineComponent356, h as h356 } from "vue";
-var FileDocx = defineComponent356({
-  name: "FileDocx",
+var FileDoc = defineComponent356({
+  name: "FileDoc",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12452,16 +12452,16 @@ var FileDocx = defineComponent356({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M16.5 21a1.5 1.5 0 0 1-3 0v-3a1.5 1.5 0 0 1 3 0m3-1.5v.257a3 3 0 0 0 .879 2.122L21 19.5m0 0 .621.621a3 3 0 0 1 .879 2.122v.257m-1.5-3-.621.621a3 3 0 0 0-.879 2.122v.257m1.5-3 .621-.621a3 3 0 0 0 .879-2.122V16.5m-2.25-6.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v9M7.5 21v-3a1.5 1.5 0 0 1 3 0v3a1.5 1.5 0 0 1-3 0m-6 1.5v-6H3A1.5 1.5 0 0 1 4.5 18v3A1.5 1.5 0 0 1 3 22.5z"/>`
+        innerHTML: `<path d="M22.5 21a1.5 1.5 0 0 1-3 0v-3a1.5 1.5 0 0 1 3 0m-2.25-8.25h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v18M13.5 21v-3a1.5 1.5 0 0 1 3 0v3a1.5 1.5 0 0 1-3 0m-6 1.5v-6H9a1.5 1.5 0 0 1 1.5 1.5v3A1.5 1.5 0 0 1 9 22.5z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileDownload.ts
+// src/icons/FileDocx.ts
 import { defineComponent as defineComponent357, h as h357 } from "vue";
-var FileDownload = defineComponent357({
-  name: "FileDownload",
+var FileDocx = defineComponent357({
+  name: "FileDocx",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12487,16 +12487,16 @@ var FileDownload = defineComponent357({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v1.884m-7.5-9.384h-7.5a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h7.137m6.363-7.5v5.25m0 0L21 17.25m-2.25 2.25-2.25-2.25m-1.5 3V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-.75"/>`
+        innerHTML: `<path d="M16.5 21a1.5 1.5 0 0 1-3 0v-3a1.5 1.5 0 0 1 3 0m3-1.5v.257a3 3 0 0 0 .879 2.122L21 19.5m0 0 .621.621a3 3 0 0 1 .879 2.122v.257m-1.5-3-.621.621a3 3 0 0 0-.879 2.122v.257m1.5-3 .621-.621a3 3 0 0 0 .879-2.122V16.5m-2.25-6.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v9M7.5 21v-3a1.5 1.5 0 0 1 3 0v3a1.5 1.5 0 0 1-3 0m-6 1.5v-6H3A1.5 1.5 0 0 1 4.5 18v3A1.5 1.5 0 0 1 3 22.5z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileFigma.ts
+// src/icons/FileDownload.ts
 import { defineComponent as defineComponent358, h as h358 } from "vue";
-var FileFigma = defineComponent358({
-  name: "FileFigma",
+var FileDownload = defineComponent358({
+  name: "FileDownload",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12522,16 +12522,16 @@ var FileFigma = defineComponent358({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 7.5h1.875a1.875 1.875 0 0 1 0 3.75M12 7.5h-1.875a1.875 1.875 0 0 0 0 3.75M12 7.5v3.75m-1.875 0H12m-1.875 0a1.875 1.875 0 0 0 0 3.75M12 11.25h1.875m-1.875 0v1.875m1.875-1.875A1.875 1.875 0 1 1 12 13.125m1.875-1.875c-1.036 0-1.875.84-1.875 1.875M10.125 15H12m-1.875 0A1.875 1.875 0 1 0 12 16.875V15m0 0v-1.875M3.75 3.75v16.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V8.871a1.5 1.5 0 0 0-.44-1.06l-5.12-5.122a1.5 1.5 0 0 0-1.061-.439H5.25a1.5 1.5 0 0 0-1.5 1.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v1.884m-7.5-9.384h-7.5a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h7.137m6.363-7.5v5.25m0 0L21 17.25m-2.25 2.25-2.25-2.25m-1.5 3V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileJson.ts
+// src/icons/FileFigma.ts
 import { defineComponent as defineComponent359, h as h359 } from "vue";
-var FileJson = defineComponent359({
-  name: "FileJson",
+var FileFigma = defineComponent359({
+  name: "FileFigma",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12557,16 +12557,16 @@ var FileJson = defineComponent359({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v9M19.5 22.5v-6l3 6v-6m-15 5.25s.75.75 1.61.75a1.39 1.39 0 0 0 .621-2.634l-1.462-.732A1.39 1.39 0 0 1 8.89 16.5c.84 0 1.609.75 1.609.75m-9-.75h3V21a1.5 1.5 0 0 1-3 0m12 0v-3a1.5 1.5 0 0 1 3 0v3a1.5 1.5 0 0 1-3 0"/>`
+        innerHTML: `<path d="M12 7.5h1.875a1.875 1.875 0 0 1 0 3.75M12 7.5h-1.875a1.875 1.875 0 0 0 0 3.75M12 7.5v3.75m-1.875 0H12m-1.875 0a1.875 1.875 0 0 0 0 3.75M12 11.25h1.875m-1.875 0v1.875m1.875-1.875A1.875 1.875 0 1 1 12 13.125m1.875-1.875c-1.036 0-1.875.84-1.875 1.875M10.125 15H12m-1.875 0A1.875 1.875 0 1 0 12 16.875V15m0 0v-1.875M3.75 3.75v16.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V8.871a1.5 1.5 0 0 0-.44-1.06l-5.12-5.122a1.5 1.5 0 0 0-1.061-.439H5.25a1.5 1.5 0 0 0-1.5 1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileKey.ts
+// src/icons/FileJson.ts
 import { defineComponent as defineComponent360, h as h360 } from "vue";
-var FileKey = defineComponent360({
-  name: "FileKey",
+var FileJson = defineComponent360({
+  name: "FileJson",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12592,16 +12592,16 @@ var FileKey = defineComponent360({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M11.871 13.629a3 3 0 1 1-4.242 4.243 3 3 0 0 1 4.242-4.243m0 0L15 10.5m0 0L16.5 9M15 10.5l1.5 1.5M3.75 3.75v16.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V8.871a1.5 1.5 0 0 0-.44-1.06l-5.12-5.122a1.5 1.5 0 0 0-1.061-.439H5.25a1.5 1.5 0 0 0-1.5 1.5"/>`
+        innerHTML: `<path d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v9M19.5 22.5v-6l3 6v-6m-15 5.25s.75.75 1.61.75a1.39 1.39 0 0 0 .621-2.634l-1.462-.732A1.39 1.39 0 0 1 8.89 16.5c.84 0 1.609.75 1.609.75m-9-.75h3V21a1.5 1.5 0 0 1-3 0m12 0v-3a1.5 1.5 0 0 1 3 0v3a1.5 1.5 0 0 1-3 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileLicense.ts
+// src/icons/FileKey.ts
 import { defineComponent as defineComponent361, h as h361 } from "vue";
-var FileLicense = defineComponent361({
-  name: "FileLicense",
+var FileKey = defineComponent361({
+  name: "FileKey",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12627,16 +12627,16 @@ var FileLicense = defineComponent361({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M14.25 13.5c-.627.471-1.406.75-2.25.75a3.73 3.73 0 0 1-2.25-.75m4.5 0a3.75 3.75 0 1 0-4.5 0m4.5 0v5.25L12 17.25l-2.25 1.5V13.5m-6-9.75v16.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V8.871a1.5 1.5 0 0 0-.44-1.06l-5.12-5.122a1.5 1.5 0 0 0-1.061-.439H5.25a1.5 1.5 0 0 0-1.5 1.5"/>`
+        innerHTML: `<path d="M11.871 13.629a3 3 0 1 1-4.242 4.243 3 3 0 0 1 4.242-4.243m0 0L15 10.5m0 0L16.5 9M15 10.5l1.5 1.5M3.75 3.75v16.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V8.871a1.5 1.5 0 0 0-.44-1.06l-5.12-5.122a1.5 1.5 0 0 0-1.061-.439H5.25a1.5 1.5 0 0 0-1.5 1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileLock.ts
+// src/icons/FileLicense.ts
 import { defineComponent as defineComponent362, h as h362 } from "vue";
-var FileLock = defineComponent362({
-  name: "FileLock",
+var FileLicense = defineComponent362({
+  name: "FileLicense",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12662,16 +12662,16 @@ var FileLock = defineComponent362({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v1.884m-7.5-9.384h-7.5a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h7.137M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
+        innerHTML: `<path d="M14.25 13.5c-.627.471-1.406.75-2.25.75a3.73 3.73 0 0 1-2.25-.75m4.5 0a3.75 3.75 0 1 0-4.5 0m4.5 0v5.25L12 17.25l-2.25 1.5V13.5m-6-9.75v16.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V8.871a1.5 1.5 0 0 0-.44-1.06l-5.12-5.122a1.5 1.5 0 0 0-1.061-.439H5.25a1.5 1.5 0 0 0-1.5 1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileMinus.ts
+// src/icons/FileLock.ts
 import { defineComponent as defineComponent363, h as h363 } from "vue";
-var FileMinus = defineComponent363({
-  name: "FileMinus",
+var FileLock = defineComponent363({
+  name: "FileLock",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12697,16 +12697,16 @@ var FileMinus = defineComponent363({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v1.884m-7.5-9.384h-7.5a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h7.137M22.5 18.375h-6.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v1.884m-7.5-9.384h-7.5a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h7.137M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FilePdf.ts
+// src/icons/FileMinus.ts
 import { defineComponent as defineComponent364, h as h364 } from "vue";
-var FilePdf = defineComponent364({
-  name: "FilePdf",
+var FileMinus = defineComponent364({
+  name: "FileMinus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12732,16 +12732,16 @@ var FilePdf = defineComponent364({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 19.5v-3H9a1.5 1.5 0 0 1 0 3zm0 0v3m15-6h-3v3m0 0v3m0-3h2.25m-1.5-9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v18m9.75.75v-6H15a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5z"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v1.884m-7.5-9.384h-7.5a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h7.137M22.5 18.375h-6.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FilePlus.ts
+// src/icons/FilePdf.ts
 import { defineComponent as defineComponent365, h as h365 } from "vue";
-var FilePlus = defineComponent365({
-  name: "FilePlus",
+var FilePdf = defineComponent365({
+  name: "FilePdf",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12767,16 +12767,16 @@ var FilePlus = defineComponent365({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v1.884m-7.5-9.384h-7.5a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h7.137m5.988.75v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
+        innerHTML: `<path d="M7.5 19.5v-3H9a1.5 1.5 0 0 1 0 3zm0 0v3m15-6h-3v3m0 0v3m0-3h2.25m-1.5-9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v18m9.75.75v-6H15a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FilePpt.ts
+// src/icons/FilePlus.ts
 import { defineComponent as defineComponent366, h as h366 } from "vue";
-var FilePpt = defineComponent366({
-  name: "FilePpt",
+var FilePlus = defineComponent366({
+  name: "FilePlus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12802,16 +12802,16 @@ var FilePpt = defineComponent366({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M13.5 19.5v-3H15a1.5 1.5 0 0 1 0 3zm0 0v3m7.5-6v6m0-6h-1.5m1.5 0h1.5m-15 3v-3H9a1.5 1.5 0 0 1 0 3zm0 0v3M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v18"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v1.884m-7.5-9.384h-7.5a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h7.137m5.988.75v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FilePptx.ts
+// src/icons/FilePpt.ts
 import { defineComponent as defineComponent367, h as h367 } from "vue";
-var FilePptx = defineComponent367({
-  name: "FilePptx",
+var FilePpt = defineComponent367({
+  name: "FilePpt",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12837,16 +12837,16 @@ var FilePptx = defineComponent367({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 19.5v-3H9a1.5 1.5 0 0 1 0 3zm0 0v3m7.5-6v6m0-6h-1.5m1.5 0h1.5m-15 3v-3H3a1.5 1.5 0 0 1 0 3zm0 0v3m18-6v.257a3 3 0 0 0 .879 2.122L21 19.5m0 0 .621.621a3 3 0 0 1 .879 2.122v.257m-1.5-3-.621.621a3 3 0 0 0-.879 2.122v.257m1.5-3 .621-.621a3 3 0 0 0 .879-2.122V16.5m-2.25-6.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v9"/>`
+        innerHTML: `<path d="M13.5 19.5v-3H15a1.5 1.5 0 0 1 0 3zm0 0v3m7.5-6v6m0-6h-1.5m1.5 0h1.5m-15 3v-3H9a1.5 1.5 0 0 1 0 3zm0 0v3M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v18"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FilePsd.ts
+// src/icons/FilePptx.ts
 import { defineComponent as defineComponent368, h as h368 } from "vue";
-var FilePsd = defineComponent368({
-  name: "FilePsd",
+var FilePptx = defineComponent368({
+  name: "FilePptx",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12872,16 +12872,16 @@ var FilePsd = defineComponent368({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M13.5 21.75s.75.75 1.61.75a1.39 1.39 0 0 0 .621-2.634l-1.462-.732a1.39 1.39 0 0 1 .622-2.634c.84 0 1.609.75 1.609.75m-9 2.25v-3H9a1.5 1.5 0 0 1 0 3zm0 0v3M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v18m15.75.75v-6H21a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5z"/>`
+        innerHTML: `<path d="M7.5 19.5v-3H9a1.5 1.5 0 0 1 0 3zm0 0v3m7.5-6v6m0-6h-1.5m1.5 0h1.5m-15 3v-3H3a1.5 1.5 0 0 1 0 3zm0 0v3m18-6v.257a3 3 0 0 0 .879 2.122L21 19.5m0 0 .621.621a3 3 0 0 1 .879 2.122v.257m-1.5-3-.621.621a3 3 0 0 0-.879 2.122v.257m1.5-3 .621-.621a3 3 0 0 0 .879-2.122V16.5m-2.25-6.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileRar.ts
+// src/icons/FilePsd.ts
 import { defineComponent as defineComponent369, h as h369 } from "vue";
-var FileRar = defineComponent369({
-  name: "FileRar",
+var FilePsd = defineComponent369({
+  name: "FilePsd",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12907,16 +12907,16 @@ var FileRar = defineComponent369({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12.75 2.25h-7.5a1.5 1.5 0 0 0-1.5 1.5v18m9-19.5h6a1.5 1.5 0 0 1 1.5 1.5v9m-7.5-10.5V3m-1.5 1.5v.75m1.5 1.5v.75M11.25 9v.75m1.5 1.5V12m6.75 7.5v-3H21a1.5 1.5 0 0 1 0 3m-1.5 0v3m0-3H21m0 0 1.5 3m-15-3v-3H9a1.5 1.5 0 0 1 0 3m-1.5 0v3m0-3H9m0 0 1.5 3m3 0v-3m0 0V18a1.5 1.5 0 0 1 3 0v1.5m-3 0h3m0 0v3"/>`
+        innerHTML: `<path d="M13.5 21.75s.75.75 1.61.75a1.39 1.39 0 0 0 .621-2.634l-1.462-.732a1.39 1.39 0 0 1 .622-2.634c.84 0 1.609.75 1.609.75m-9 2.25v-3H9a1.5 1.5 0 0 1 0 3zm0 0v3M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v18m15.75.75v-6H21a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileRestore.ts
+// src/icons/FileRar.ts
 import { defineComponent as defineComponent370, h as h370 } from "vue";
-var FileRestore = defineComponent370({
-  name: "FileRestore",
+var FileRar = defineComponent370({
+  name: "FileRar",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12942,16 +12942,16 @@ var FileRestore = defineComponent370({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M16.5 17.25V13.5m0 3.75h-3.75m3.75 0-2.092-2.092c-2.311-2.311-6.267-1.114-6.908 2.092m-2.25 4.5h13.5a1.5 1.5 0 0 0 1.5-1.5V8.871a1.5 1.5 0 0 0-.44-1.06l-5.12-5.122a1.5 1.5 0 0 0-1.061-.439H5.25a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5"/>`
+        innerHTML: `<path d="M12.75 2.25h-7.5a1.5 1.5 0 0 0-1.5 1.5v18m9-19.5h6a1.5 1.5 0 0 1 1.5 1.5v9m-7.5-10.5V3m-1.5 1.5v.75m1.5 1.5v.75M11.25 9v.75m1.5 1.5V12m6.75 7.5v-3H21a1.5 1.5 0 0 1 0 3m-1.5 0v3m0-3H21m0 0 1.5 3m-15-3v-3H9a1.5 1.5 0 0 1 0 3m-1.5 0v3m0-3H9m0 0 1.5 3m3 0v-3m0 0V18a1.5 1.5 0 0 1 3 0v1.5m-3 0h3m0 0v3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileScan.ts
+// src/icons/FileRestore.ts
 import { defineComponent as defineComponent371, h as h371 } from "vue";
-var FileScan = defineComponent371({
-  name: "FileScan",
+var FileRestore = defineComponent371({
+  name: "FileRestore",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -12977,16 +12977,16 @@ var FileScan = defineComponent371({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M20.25 9v-.129a1.5 1.5 0 0 0-.44-1.06l-5.12-5.122a1.5 1.5 0 0 0-1.061-.439H5.25a1.5 1.5 0 0 0-1.5 1.5V9m0 9v2.25a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V18m-18-4.5h19.5"/>`
+        innerHTML: `<path d="M16.5 17.25V13.5m0 3.75h-3.75m3.75 0-2.092-2.092c-2.311-2.311-6.267-1.114-6.908 2.092m-2.25 4.5h13.5a1.5 1.5 0 0 0 1.5-1.5V8.871a1.5 1.5 0 0 0-.44-1.06l-5.12-5.122a1.5 1.5 0 0 0-1.061-.439H5.25a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileSearch.ts
+// src/icons/FileScan.ts
 import { defineComponent as defineComponent372, h as h372 } from "vue";
-var FileSearch = defineComponent372({
-  name: "FileSearch",
+var FileScan = defineComponent372({
+  name: "FileScan",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13012,16 +13012,16 @@ var FileSearch = defineComponent372({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v1.884m-7.5-9.384h-7.5a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h7.137m10.113.75-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>`
+        innerHTML: `<path d="M20.25 9v-.129a1.5 1.5 0 0 0-.44-1.06l-5.12-5.122a1.5 1.5 0 0 0-1.061-.439H5.25a1.5 1.5 0 0 0-1.5 1.5V9m0 9v2.25a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V18m-18-4.5h19.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileStl.ts
+// src/icons/FileSearch.ts
 import { defineComponent as defineComponent373, h as h373 } from "vue";
-var FileStl = defineComponent373({
-  name: "FileStl",
+var FileSearch = defineComponent373({
+  name: "FileSearch",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13047,16 +13047,16 @@ var FileStl = defineComponent373({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5V22.5m3.75-.75s.75.75 1.61.75a1.39 1.39 0 0 0 .621-2.634l-1.462-.732A1.39 1.39 0 0 1 8.89 16.5c.84 0 1.609.75 1.609.75m4.5-.75v6m0-6h-1.5m1.5 0h1.5m3 0v6h3"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v1.884m-7.5-9.384h-7.5a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h7.137m10.113.75-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileText.ts
+// src/icons/FileStl.ts
 import { defineComponent as defineComponent374, h as h374 } from "vue";
-var FileText = defineComponent374({
-  name: "FileText",
+var FileStl = defineComponent374({
+  name: "FileStl",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13082,16 +13082,16 @@ var FileText = defineComponent374({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v1.884m-7.5-9.384h-7.5a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h7.137m9.363-4.5v-1.5h-3.375M15 17.25v-1.5h3.375m0 0v6.75m0 0h1.5m-1.5 0h-1.5"/>`
+        innerHTML: `<path d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5V22.5m3.75-.75s.75.75 1.61.75a1.39 1.39 0 0 0 .621-2.634l-1.462-.732A1.39 1.39 0 0 1 8.89 16.5c.84 0 1.609.75 1.609.75m4.5-.75v6m0-6h-1.5m1.5 0h1.5m3 0v6h3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileUpload.ts
+// src/icons/FileText.ts
 import { defineComponent as defineComponent375, h as h375 } from "vue";
-var FileUpload = defineComponent375({
-  name: "FileUpload",
+var FileText = defineComponent375({
+  name: "FileText",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13117,16 +13117,16 @@ var FileUpload = defineComponent375({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v1.884m-7.5-9.384h-7.5a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h7.137m6.363-7.5v5.25m0-5.25L21 16.5m-2.25-2.25L16.5 16.5M15 20.25V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-.75"/>`
+        innerHTML: `<path d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v1.884m-7.5-9.384h-7.5a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h7.137m9.363-4.5v-1.5h-3.375M15 17.25v-1.5h3.375m0 0v6.75m0 0h1.5m-1.5 0h-1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileXls.ts
+// src/icons/FileUpload.ts
 import { defineComponent as defineComponent376, h as h376 } from "vue";
-var FileXls = defineComponent376({
-  name: "FileXls",
+var FileUpload = defineComponent376({
+  name: "FileUpload",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13152,16 +13152,16 @@ var FileXls = defineComponent376({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M13.5 16.5v6h3m-9-6v.257a3 3 0 0 0 .879 2.122L9 19.5m0 0 .621.621a3 3 0 0 1 .879 2.122v.257m-1.5-3-.621.621a3 3 0 0 0-.879 2.122v.257m1.5-3 .621-.621a3 3 0 0 0 .879-2.122V16.5m9 5.25s.75.75 1.61.75a1.39 1.39 0 0 0 .621-2.634l-1.462-.732a1.39 1.39 0 0 1 .622-2.634c.84 0 1.609.75 1.609.75m-2.25-7.5h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v18"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v1.884m-7.5-9.384h-7.5a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h7.137m6.363-7.5v5.25m0-5.25L21 16.5m-2.25-2.25L16.5 16.5M15 20.25V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileXlsx.ts
+// src/icons/FileXls.ts
 import { defineComponent as defineComponent377, h as h377 } from "vue";
-var FileXlsx = defineComponent377({
-  name: "FileXlsx",
+var FileXls = defineComponent377({
+  name: "FileXls",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13187,16 +13187,16 @@ var FileXlsx = defineComponent377({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 16.5v6h3m-9-6v.257a3 3 0 0 0 .879 2.122L3 19.5m0 0 .621.621a3 3 0 0 1 .879 2.122v.257m-1.5-3-.621.621a3 3 0 0 0-.879 2.122v.257m1.5-3 .621-.621a3 3 0 0 0 .879-2.122V16.5m9 5.25s.75.75 1.61.75a1.39 1.39 0 0 0 .621-2.634l-1.462-.732a1.39 1.39 0 0 1 .622-2.634c.84 0 1.609.75 1.609.75m3-.75v.257a3 3 0 0 0 .879 2.122L21 19.5m0 0 .621.621a3 3 0 0 1 .879 2.122v.257m-1.5-3-.621.621a3 3 0 0 0-.879 2.122v.257m1.5-3 .621-.621a3 3 0 0 0 .879-2.122V16.5m-2.25-6.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v9"/>`
+        innerHTML: `<path d="M13.5 16.5v6h3m-9-6v.257a3 3 0 0 0 .879 2.122L9 19.5m0 0 .621.621a3 3 0 0 1 .879 2.122v.257m-1.5-3-.621.621a3 3 0 0 0-.879 2.122v.257m1.5-3 .621-.621a3 3 0 0 0 .879-2.122V16.5m9 5.25s.75.75 1.61.75a1.39 1.39 0 0 0 .621-2.634l-1.462-.732a1.39 1.39 0 0 1 .622-2.634c.84 0 1.609.75 1.609.75m-2.25-7.5h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v18"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileXml.ts
+// src/icons/FileXlsx.ts
 import { defineComponent as defineComponent378, h as h378 } from "vue";
-var FileXml = defineComponent378({
-  name: "FileXml",
+var FileXlsx = defineComponent378({
+  name: "FileXlsx",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13222,16 +13222,16 @@ var FileXml = defineComponent378({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M19.5 16.5v6h3m-9 0v-6l1.5 3 1.5-3v6m-9-6v.257a3 3 0 0 0 .879 2.122L9 19.5m0 0 .621.621a3 3 0 0 1 .879 2.122v.257m-1.5-3-.621.621a3 3 0 0 0-.879 2.122v.257m1.5-3 .621-.621a3 3 0 0 0 .879-2.122V16.5m9.75-6.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v18"/>`
+        innerHTML: `<path d="M7.5 16.5v6h3m-9-6v.257a3 3 0 0 0 .879 2.122L3 19.5m0 0 .621.621a3 3 0 0 1 .879 2.122v.257m-1.5-3-.621.621a3 3 0 0 0-.879 2.122v.257m1.5-3 .621-.621a3 3 0 0 0 .879-2.122V16.5m9 5.25s.75.75 1.61.75a1.39 1.39 0 0 0 .621-2.634l-1.462-.732a1.39 1.39 0 0 1 .622-2.634c.84 0 1.609.75 1.609.75m3-.75v.257a3 3 0 0 0 .879 2.122L21 19.5m0 0 .621.621a3 3 0 0 1 .879 2.122v.257m-1.5-3-.621.621a3 3 0 0 0-.879 2.122v.257m1.5-3 .621-.621a3 3 0 0 0 .879-2.122V16.5m-2.25-6.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileYaml.ts
+// src/icons/FileXml.ts
 import { defineComponent as defineComponent379, h as h379 } from "vue";
-var FileYaml = defineComponent379({
-  name: "FileYaml",
+var FileXml = defineComponent379({
+  name: "FileXml",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13257,16 +13257,16 @@ var FileYaml = defineComponent379({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 22.5v-3m0 0V18a1.5 1.5 0 0 1 3 0v1.5m-3 0h3m0 0v3m-6-6-1.5 3m0 0-1.5 3m1.5-3-1.5-3m18 0v6h3m-9 0v-6l1.5 3 1.5-3v6m3.75-12.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v9"/>`
+        innerHTML: `<path d="M19.5 16.5v6h3m-9 0v-6l1.5 3 1.5-3v6m-9-6v.257a3 3 0 0 0 .879 2.122L9 19.5m0 0 .621.621a3 3 0 0 1 .879 2.122v.257m-1.5-3-.621.621a3 3 0 0 0-.879 2.122v.257m1.5-3 .621-.621a3 3 0 0 0 .879-2.122V16.5m9.75-6.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v18"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FileZip.ts
+// src/icons/FileYaml.ts
 import { defineComponent as defineComponent380, h as h380 } from "vue";
-var FileZip = defineComponent380({
-  name: "FileZip",
+var FileYaml = defineComponent380({
+  name: "FileYaml",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13292,16 +13292,16 @@ var FileZip = defineComponent380({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M13.5 16.5H15m0 0h1.5m-1.5 0v6m0 0h-1.5m1.5 0h1.5m3-3v-3H21a1.5 1.5 0 0 1 0 3zm0 0v3m-12-6h3l-3 6h3m2.25-20.25h-7.5a1.5 1.5 0 0 0-1.5 1.5v18m9-19.5h6a1.5 1.5 0 0 1 1.5 1.5v9m-7.5-10.5V3m-1.5 1.5v.75m1.5 1.5v.75M11.25 9v.75m1.5 1.5V12"/>`
+        innerHTML: `<path d="M7.5 22.5v-3m0 0V18a1.5 1.5 0 0 1 3 0v1.5m-3 0h3m0 0v3m-6-6-1.5 3m0 0-1.5 3m1.5-3-1.5-3m18 0v6h3m-9 0v-6l1.5 3 1.5-3v6m3.75-12.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Film.ts
+// src/icons/FileZip.ts
 import { defineComponent as defineComponent381, h as h381 } from "vue";
-var Film = defineComponent381({
-  name: "Film",
+var FileZip = defineComponent381({
+  name: "FileZip",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13327,16 +13327,16 @@ var Film = defineComponent381({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 7.5v9m0-9H6m-3.75 0V3.75H6M2.25 16.5H6m-3.75 0v3.75H6M6 7.5V3.75M6 7.5h.75M6 3.75h3.75m0 0V7.5m0-3.75h3.75M9.75 7.5h3.75m-3.75 0h-3m6.75 0V3.75m0 3.75h3.75M13.5 3.75h3.75m0 3.75V3.75m0 3.75h1.5m-1.5-3.75H21m.75 0H21m0 0V7.5m0 0h-2.25m2.25 0h.75v9H21m-14.25-9v9m0 0H6m.75 0h3m9-9v9m0 0h-1.5m1.5 0H21M6 20.25V16.5m0 3.75h3.75m0 0V16.5m0 3.75h3.75M9.75 16.5h3.75m0 3.75V16.5m0 3.75h3.75M13.5 16.5h3.75m0 3.75V16.5m0 3.75H21m0 0h.75m-.75 0V16.5"/>`
+        innerHTML: `<path d="M13.5 16.5H15m0 0h1.5m-1.5 0v6m0 0h-1.5m1.5 0h1.5m3-3v-3H21a1.5 1.5 0 0 1 0 3zm0 0v3m-12-6h3l-3 6h3m2.25-20.25h-7.5a1.5 1.5 0 0 0-1.5 1.5v18m9-19.5h6a1.5 1.5 0 0 1 1.5 1.5v9m-7.5-10.5V3m-1.5 1.5v.75m1.5 1.5v.75M11.25 9v.75m1.5 1.5V12"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FilmRoll.ts
+// src/icons/Film.ts
 import { defineComponent as defineComponent382, h as h382 } from "vue";
-var FilmRoll = defineComponent382({
-  name: "FilmRoll",
+var Film = defineComponent382({
+  name: "Film",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13362,16 +13362,16 @@ var FilmRoll = defineComponent382({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M11.25 7.5V6a1.5 1.5 0 0 0-1.5-1.5H9A1.5 1.5 0 0 0 7.5 3H6a1.5 1.5 0 0 0-1.5 1.5h-.75A1.5 1.5 0 0 0 2.25 6v13.5a1.5 1.5 0 0 0 1.5 1.5h6a1.5 1.5 0 0 0 1.5-1.5V18m0-10.5h1.5c.828 0 1.476.69 1.747 1.473A4.5 4.5 0 0 0 18.75 12a3 3 0 0 1 3 3v3h-10.5m0-10.5h-4.5V18h4.5"/>`
+        innerHTML: `<path d="M2.25 7.5v9m0-9H6m-3.75 0V3.75H6M2.25 16.5H6m-3.75 0v3.75H6M6 7.5V3.75M6 7.5h.75M6 3.75h3.75m0 0V7.5m0-3.75h3.75M9.75 7.5h3.75m-3.75 0h-3m6.75 0V3.75m0 3.75h3.75M13.5 3.75h3.75m0 3.75V3.75m0 3.75h1.5m-1.5-3.75H21m.75 0H21m0 0V7.5m0 0h-2.25m2.25 0h.75v9H21m-14.25-9v9m0 0H6m.75 0h3m9-9v9m0 0h-1.5m1.5 0H21M6 20.25V16.5m0 3.75h3.75m0 0V16.5m0 3.75h3.75M9.75 16.5h3.75m0 3.75V16.5m0 3.75h3.75M13.5 16.5h3.75m0 3.75V16.5m0 3.75H21m0 0h.75m-.75 0V16.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Filter.ts
+// src/icons/FilmRoll.ts
 import { defineComponent as defineComponent383, h as h383 } from "vue";
-var Filter = defineComponent383({
-  name: "Filter",
+var FilmRoll = defineComponent383({
+  name: "FilmRoll",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13397,16 +13397,16 @@ var Filter = defineComponent383({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 8.28V5.25a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5v3.129a1.5 1.5 0 0 1-.44 1.06l-5.12 5.122a1.5 1.5 0 0 0-.44 1.06v1.168a1.5 1.5 0 0 1-.83 1.342l-4.085 2.043a.75.75 0 0 1-1.085-.671v-3.782a1.5 1.5 0 0 0-.563-1.171l-6.374-5.1a1.5 1.5 0 0 1-.563-1.17"/>`
+        innerHTML: `<path d="M11.25 7.5V6a1.5 1.5 0 0 0-1.5-1.5H9A1.5 1.5 0 0 0 7.5 3H6a1.5 1.5 0 0 0-1.5 1.5h-.75A1.5 1.5 0 0 0 2.25 6v13.5a1.5 1.5 0 0 0 1.5 1.5h6a1.5 1.5 0 0 0 1.5-1.5V18m0-10.5h1.5c.828 0 1.476.69 1.747 1.473A4.5 4.5 0 0 0 18.75 12a3 3 0 0 1 3 3v3h-10.5m0-10.5h-4.5V18h4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FilterCheck.ts
+// src/icons/Filter.ts
 import { defineComponent as defineComponent384, h as h384 } from "vue";
-var FilterCheck = defineComponent384({
-  name: "FilterCheck",
+var Filter = defineComponent384({
+  name: "Filter",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13432,16 +13432,16 @@ var FilterCheck = defineComponent384({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m11.504 19.84-.669.334a.75.75 0 0 1-1.085-.671v-3.782a1.5 1.5 0 0 0-.563-1.171l-6.374-5.1a1.5 1.5 0 0 1-.563-1.17V5.25a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5v3.129a1.5 1.5 0 0 1-.44 1.06l-1.948 1.949M14.25 18.75l2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
+        innerHTML: `<path d="M2.25 8.28V5.25a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5v3.129a1.5 1.5 0 0 1-.44 1.06l-5.12 5.122a1.5 1.5 0 0 0-.44 1.06v1.168a1.5 1.5 0 0 1-.83 1.342l-4.085 2.043a.75.75 0 0 1-1.085-.671v-3.782a1.5 1.5 0 0 0-.563-1.171l-6.374-5.1a1.5 1.5 0 0 1-.563-1.17"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FilterCross.ts
+// src/icons/FilterCheck.ts
 import { defineComponent as defineComponent385, h as h385 } from "vue";
-var FilterCross = defineComponent385({
-  name: "FilterCross",
+var FilterCheck = defineComponent385({
+  name: "FilterCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13467,16 +13467,16 @@ var FilterCross = defineComponent385({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m11.504 19.84-.669.334a.75.75 0 0 1-1.085-.671v-3.782a1.5 1.5 0 0 0-.563-1.171l-6.374-5.1a1.5 1.5 0 0 1-.563-1.17V5.25a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5v3.129a1.5 1.5 0 0 1-.44 1.06l-1.948 1.949M15.75 22.5l3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m11.504 19.84-.669.334a.75.75 0 0 1-1.085-.671v-3.782a1.5 1.5 0 0 0-.563-1.171l-6.374-5.1a1.5 1.5 0 0 1-.563-1.17V5.25a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5v3.129a1.5 1.5 0 0 1-.44 1.06l-1.948 1.949M14.25 18.75l2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FilterMinus.ts
+// src/icons/FilterCross.ts
 import { defineComponent as defineComponent386, h as h386 } from "vue";
-var FilterMinus = defineComponent386({
-  name: "FilterMinus",
+var FilterCross = defineComponent386({
+  name: "FilterCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13502,16 +13502,16 @@ var FilterMinus = defineComponent386({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m11.504 19.84-.669.334a.75.75 0 0 1-1.085-.671v-3.782a1.5 1.5 0 0 0-.563-1.171l-6.374-5.1a1.5 1.5 0 0 1-.563-1.17V5.25a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5v3.129a1.5 1.5 0 0 1-.44 1.06l-1.948 1.949m3.138 6.987h-6.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m11.504 19.84-.669.334a.75.75 0 0 1-1.085-.671v-3.782a1.5 1.5 0 0 0-.563-1.171l-6.374-5.1a1.5 1.5 0 0 1-.563-1.17V5.25a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5v3.129a1.5 1.5 0 0 1-.44 1.06l-1.948 1.949M15.75 22.5l3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FilterPlus.ts
+// src/icons/FilterMinus.ts
 import { defineComponent as defineComponent387, h as h387 } from "vue";
-var FilterPlus = defineComponent387({
-  name: "FilterPlus",
+var FilterMinus = defineComponent387({
+  name: "FilterMinus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13537,16 +13537,16 @@ var FilterPlus = defineComponent387({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m11.504 19.84-.669.334a.75.75 0 0 1-1.085-.671v-3.782a1.5 1.5 0 0 0-.563-1.171l-6.374-5.1a1.5 1.5 0 0 1-.563-1.17V5.25a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5v3.129a1.5 1.5 0 0 1-.44 1.06l-1.948 1.949M18.375 22.5v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m11.504 19.84-.669.334a.75.75 0 0 1-1.085-.671v-3.782a1.5 1.5 0 0 0-.563-1.171l-6.374-5.1a1.5 1.5 0 0 1-.563-1.17V5.25a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5v3.129a1.5 1.5 0 0 1-.44 1.06l-1.948 1.949m3.138 6.987h-6.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FilterSettings.ts
+// src/icons/FilterPlus.ts
 import { defineComponent as defineComponent388, h as h388 } from "vue";
-var FilterSettings = defineComponent388({
-  name: "FilterSettings",
+var FilterPlus = defineComponent388({
+  name: "FilterPlus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13572,16 +13572,16 @@ var FilterSettings = defineComponent388({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m11.504 19.84-.669.334a.75.75 0 0 1-1.085-.671v-3.782a1.5 1.5 0 0 0-.563-1.171l-6.374-5.1a1.5 1.5 0 0 1-.563-1.17V5.25a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5v3.129a1.5 1.5 0 0 1-.44 1.06l-1.948 1.949m-.988 9.462a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.133 4.117h-1.65m-4.95 0h-1.65m7.048 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m11.504 19.84-.669.334a.75.75 0 0 1-1.085-.671v-3.782a1.5 1.5 0 0 0-.563-1.171l-6.374-5.1a1.5 1.5 0 0 1-.563-1.17V5.25a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5v3.129a1.5 1.5 0 0 1-.44 1.06l-1.948 1.949M18.375 22.5v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Fingerprint.ts
+// src/icons/FilterSettings.ts
 import { defineComponent as defineComponent389, h as h389 } from "vue";
-var Fingerprint = defineComponent389({
-  name: "Fingerprint",
+var FilterSettings = defineComponent389({
+  name: "FilterSettings",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13607,16 +13607,16 @@ var Fingerprint = defineComponent389({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6 21.75a22 22 0 0 1-.58-1.18C1.75 14.034 3.965 3.166 12 2.25c4.817-.55 8.187 2.698 7.5 7.5-.434 3.033-.166 6.038.182 8.462.269 1.87-1.128 3.538-3.016 3.538-1.42 0-2.677-.962-3-2.344-.366-1.564-.55-2.83-.541-5.156.007-1.79.377-3.581.437-4.716.031-.599-.193-1.296-.784-1.39-1.038-.164-2.006.775-2.444 1.729-1.07 2.325-.729 7.041.916 8.877M9 6.71c.98-1.02 2.248-1.59 3.75-1.46 4.548.395 3.75 5.25 3.75 5.25s-.187 1.313-.281 3a28 28 0 0 0-.021 3c.043.806.135 1.584.302 2.25M7.545 9c-1.556 3.717-1.091 9.325 2.205 12.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m11.504 19.84-.669.334a.75.75 0 0 1-1.085-.671v-3.782a1.5 1.5 0 0 0-.563-1.171l-6.374-5.1a1.5 1.5 0 0 1-.563-1.17V5.25a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5v3.129a1.5 1.5 0 0 1-.44 1.06l-1.948 1.949m-.988 9.462a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.133 4.117h-1.65m-4.95 0h-1.65m7.048 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Firewall.ts
+// src/icons/Fingerprint.ts
 import { defineComponent as defineComponent390, h as h390 } from "vue";
-var Firewall = defineComponent390({
-  name: "Firewall",
+var Fingerprint = defineComponent390({
+  name: "Fingerprint",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13642,16 +13642,16 @@ var Firewall = defineComponent390({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 9V3.75h6M2.25 9v6m0-6h3m16.5 0V3.75h-6m6 5.25v6m0-6h-3m3 6v5.25h-6m6-5.25h-3m-16.5 0v5.25h6m-6-5.25h3m3 5.25V15m0 5.25h7.5M8.25 15H12m-3.75 0h-3m10.5 5.25V15m0 0H12m3.75 0h3M12 15V9m0 0H8.25M12 9h3.75m3 6V9m0 0h-3m-10.5 6V9m0 0h3m0 0V3.75m0 0h7.5m0 5.25V3.75"/>`
+        innerHTML: `<path d="M6 21.75a22 22 0 0 1-.58-1.18C1.75 14.034 3.965 3.166 12 2.25c4.817-.55 8.187 2.698 7.5 7.5-.434 3.033-.166 6.038.182 8.462.269 1.87-1.128 3.538-3.016 3.538-1.42 0-2.677-.962-3-2.344-.366-1.564-.55-2.83-.541-5.156.007-1.79.377-3.581.437-4.716.031-.599-.193-1.296-.784-1.39-1.038-.164-2.006.775-2.444 1.729-1.07 2.325-.729 7.041.916 8.877M9 6.71c.98-1.02 2.248-1.59 3.75-1.46 4.548.395 3.75 5.25 3.75 5.25s-.187 1.313-.281 3a28 28 0 0 0-.021 3c.043.806.135 1.584.302 2.25M7.545 9c-1.556 3.717-1.091 9.325 2.205 12.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FirewallOff.ts
+// src/icons/Firewall.ts
 import { defineComponent as defineComponent391, h as h391 } from "vue";
-var FirewallOff = defineComponent391({
-  name: "FirewallOff",
+var Firewall = defineComponent391({
+  name: "Firewall",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13677,16 +13677,16 @@ var FirewallOff = defineComponent391({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 9V3.75h1.5M2.25 9v6m0-6h3m16.5 0V3.75h-6m6 5.25v6m0-6h-3m3 8.25V15m0 0H19.5M2.25 15v5.25h6m-6-5.25h3m3 5.25V15m0 5.25h7.5M8.25 15H12m-3.75 0h-3m10.5 5.25h4.5m-4.5 0v-4.5m4.5 4.5-4.5-4.5m4.5 4.5 1.5 1.5m-6-6L15 15m0 0h-3m3 0-3-3m0 3v-3m0 0L9 9m9.75 0v5.25m0-5.25h-3m-10.5 6V9m0 0h3m0 0H9m-.75 0v-.75M9 9l-.75-.75m-4.5-4.5-1.5-1.5m1.5 1.5 4.5 4.5M13.5 9h2.25m0 0V3.75m0 0h-7.5"/>`
+        innerHTML: `<path d="M2.25 9V3.75h6M2.25 9v6m0-6h3m16.5 0V3.75h-6m6 5.25v6m0-6h-3m3 6v5.25h-6m6-5.25h-3m-16.5 0v5.25h6m-6-5.25h3m3 5.25V15m0 5.25h7.5M8.25 15H12m-3.75 0h-3m10.5 5.25V15m0 0H12m3.75 0h3M12 15V9m0 0H8.25M12 9h3.75m3 6V9m0 0h-3m-10.5 6V9m0 0h3m0 0V3.75m0 0h7.5m0 5.25V3.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Flag.ts
+// src/icons/FirewallOff.ts
 import { defineComponent as defineComponent392, h as h392 } from "vue";
-var Flag = defineComponent392({
-  name: "Flag",
+var FirewallOff = defineComponent392({
+  name: "FirewallOff",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13712,16 +13712,16 @@ var Flag = defineComponent392({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M3 21v-6m0 0V3.204c0-.097.099-.162.187-.124l1.35.579a9.75 9.75 0 0 0 7.463.09 9.75 9.75 0 0 1 7.462.092l1.455.623c.05.022.083.071.083.126v11.706a.134.134 0 0 1-.187.124l-1.35-.58A9.75 9.75 0 0 0 12 15.75a9.75 9.75 0 0 1-7.462-.091z"/>`
+        innerHTML: `<path d="M2.25 9V3.75h1.5M2.25 9v6m0-6h3m16.5 0V3.75h-6m6 5.25v6m0-6h-3m3 8.25V15m0 0H19.5M2.25 15v5.25h6m-6-5.25h3m3 5.25V15m0 5.25h7.5M8.25 15H12m-3.75 0h-3m10.5 5.25h4.5m-4.5 0v-4.5m4.5 4.5-4.5-4.5m4.5 4.5 1.5 1.5m-6-6L15 15m0 0h-3m3 0-3-3m0 3v-3m0 0L9 9m9.75 0v5.25m0-5.25h-3m-10.5 6V9m0 0h3m0 0H9m-.75 0v-.75M9 9l-.75-.75m-4.5-4.5-1.5-1.5m1.5 1.5 4.5 4.5M13.5 9h2.25m0 0V3.75m0 0h-7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FlagGolf.ts
+// src/icons/Flag.ts
 import { defineComponent as defineComponent393, h as h393 } from "vue";
-var FlagGolf = defineComponent393({
-  name: "FlagGolf",
+var Flag = defineComponent393({
+  name: "Flag",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13747,16 +13747,16 @@ var FlagGolf = defineComponent393({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 15.75a3.75 3.75 0 0 0-3.75 3.75v.75a1.5 1.5 0 0 0 1.5 1.5h4.5a1.5 1.5 0 0 0 1.5-1.5v-.75A3.75 3.75 0 0 0 12 15.75m0 0a41.6 41.6 0 0 0-.435-6m0 0a41.6 41.6 0 0 0-1.7-7.154L9.75 2.25 18 4.5z"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M3 21v-6m0 0V3.204c0-.097.099-.162.187-.124l1.35.579a9.75 9.75 0 0 0 7.463.09 9.75 9.75 0 0 1 7.462.092l1.455.623c.05.022.083.071.083.126v11.706a.134.134 0 0 1-.187.124l-1.35-.58A9.75 9.75 0 0 0 12 15.75a9.75 9.75 0 0 1-7.462-.091z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FlowerClover.ts
+// src/icons/FlagGolf.ts
 import { defineComponent as defineComponent394, h as h394 } from "vue";
-var FlowerClover = defineComponent394({
-  name: "FlowerClover",
+var FlagGolf = defineComponent394({
+  name: "FlagGolf",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13782,16 +13782,16 @@ var FlowerClover = defineComponent394({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 6.188c0-3.371-4.554-4.43-6.04-1.404l-.228.463c-.104.21-.274.381-.485.485l-.463.227C1.76 7.446 2.817 12 6.188 12M12 6.188c0-3.371 4.554-4.43 6.04-1.404l.228.463c.104.211.274.381.485.485l.463.227C22.24 7.446 21.183 12 17.812 12M12 6.188V8.25M6.188 12c-3.371 0-4.43 4.554-1.404 6.04l.463.228c.211.104.381.274.485.485l.227.463C7.446 22.24 12 21.183 12 17.812M6.188 12H8.25m9.562 0c3.371 0 4.43 4.554 1.404 6.04l-.463.228c-.21.104-.381.274-.485.485l-.227.463C16.554 22.24 12 21.183 12 17.812M17.812 12H15.75M12 17.812V15.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 15.75a3.75 3.75 0 0 0-3.75 3.75v.75a1.5 1.5 0 0 0 1.5 1.5h4.5a1.5 1.5 0 0 0 1.5-1.5v-.75A3.75 3.75 0 0 0 12 15.75m0 0a41.6 41.6 0 0 0-.435-6m0 0a41.6 41.6 0 0 0-1.7-7.154L9.75 2.25 18 4.5z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FlowerDaisy.ts
+// src/icons/FlowerClover.ts
 import { defineComponent as defineComponent395, h as h395 } from "vue";
-var FlowerDaisy = defineComponent395({
-  name: "FlowerDaisy",
+var FlowerClover = defineComponent395({
+  name: "FlowerClover",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13817,16 +13817,16 @@ var FlowerDaisy = defineComponent395({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9.03 4.828A3 3 0 0 0 4.827 9.03m4.201-4.2a3 3 0 0 1 5.942 0m-5.942 0 1.823 4.399m4.119-4.4a3 3 0 0 1 4.2 4.201m-4.2-4.2-1.823 4.399m6.024-.199a3 3 0 0 1 0 5.942m0-5.942-4.4 1.823m4.4 4.119a3 3 0 0 1-4.201 4.2m4.2-4.2-4.399-1.823m.199 6.024a3 3 0 0 1-5.942 0m5.942 0-1.823-4.4m-4.119 4.4a3 3 0 0 1-4.2-4.201m4.2 4.2 1.823-4.399m-6.024.199a3 3 0 0 1 0-5.942m0 5.942 4.4-1.823m-4.4-4.119 4.4 1.823m0 0A3 3 0 0 0 9 12c0 .407.081.795.228 1.148m0-2.296a3 3 0 0 1 1.624-1.624m0 0A3 3 0 0 1 12 9c.407 0 .795.081 1.148.228m0 0a3 3 0 0 1 1.624 1.624m0 0a2.993 2.993 0 0 1 0 2.297m0 0a3 3 0 0 1-1.624 1.623m0 0A3 3 0 0 1 12 15c-.407 0-.795-.081-1.148-.228m0 0a3 3 0 0 1-1.624-1.624"/>`
+        innerHTML: `<path d="M12 6.188c0-3.371-4.554-4.43-6.04-1.404l-.228.463c-.104.21-.274.381-.485.485l-.463.227C1.76 7.446 2.817 12 6.188 12M12 6.188c0-3.371 4.554-4.43 6.04-1.404l.228.463c.104.211.274.381.485.485l.463.227C22.24 7.446 21.183 12 17.812 12M12 6.188V8.25M6.188 12c-3.371 0-4.43 4.554-1.404 6.04l.463.228c.211.104.381.274.485.485l.227.463C7.446 22.24 12 21.183 12 17.812M6.188 12H8.25m9.562 0c3.371 0 4.43 4.554 1.404 6.04l-.463.228c-.21.104-.381.274-.485.485l-.227.463C16.554 22.24 12 21.183 12 17.812M17.812 12H15.75M12 17.812V15.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FlowerPot.ts
+// src/icons/FlowerDaisy.ts
 import { defineComponent as defineComponent396, h as h396 } from "vue";
-var FlowerPot = defineComponent396({
-  name: "FlowerPot",
+var FlowerDaisy = defineComponent396({
+  name: "FlowerDaisy",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13852,16 +13852,16 @@ var FlowerPot = defineComponent396({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 14.25H6.75l.75 1.5a5 5 0 0 0 0 6h9a5 5 0 0 0 0-6l.75-1.5zm0 0V9m0 0a2.25 2.25 0 1 1-2.25-2.25M12 9a2.25 2.25 0 1 0 2.25-2.25M12 9a2.25 2.25 0 0 1-2.25-2.25M12 9a2.25 2.25 0 0 0 2.25-2.25M12 4.5a2.25 2.25 0 1 0-2.25 2.25M12 4.5a2.25 2.25 0 1 1 2.25 2.25M12 4.5a2.25 2.25 0 0 0-2.25 2.25M12 4.5a2.25 2.25 0 0 1 2.25 2.25"/>`
+        innerHTML: `<path d="M9.03 4.828A3 3 0 0 0 4.827 9.03m4.201-4.2a3 3 0 0 1 5.942 0m-5.942 0 1.823 4.399m4.119-4.4a3 3 0 0 1 4.2 4.201m-4.2-4.2-1.823 4.399m6.024-.199a3 3 0 0 1 0 5.942m0-5.942-4.4 1.823m4.4 4.119a3 3 0 0 1-4.201 4.2m4.2-4.2-4.399-1.823m.199 6.024a3 3 0 0 1-5.942 0m5.942 0-1.823-4.4m-4.119 4.4a3 3 0 0 1-4.2-4.201m4.2 4.2 1.823-4.399m-6.024.199a3 3 0 0 1 0-5.942m0 5.942 4.4-1.823m-4.4-4.119 4.4 1.823m0 0A3 3 0 0 0 9 12c0 .407.081.795.228 1.148m0-2.296a3 3 0 0 1 1.624-1.624m0 0A3 3 0 0 1 12 9c.407 0 .795.081 1.148.228m0 0a3 3 0 0 1 1.624 1.624m0 0a2.993 2.993 0 0 1 0 2.297m0 0a3 3 0 0 1-1.624 1.623m0 0A3 3 0 0 1 12 15c-.407 0-.795-.081-1.148-.228m0 0a3 3 0 0 1-1.624-1.624"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FlowerPrimrose.ts
+// src/icons/FlowerPot.ts
 import { defineComponent as defineComponent397, h as h397 } from "vue";
-var FlowerPrimrose = defineComponent397({
-  name: "FlowerPrimrose",
+var FlowerPot = defineComponent397({
+  name: "FlowerPot",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13887,16 +13887,16 @@ var FlowerPrimrose = defineComponent397({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.89 7.89c-2.383-2.383-6.352.088-5.264 3.28l.167.488c.076.222.076.463 0 .685l-.167.488c-1.088 3.19 2.88 5.662 5.264 3.279m0-8.22c-2.383-2.383.088-6.352 3.28-5.264l.488.167c.222.076.462.076.684 0l.489-.167c3.19-1.088 5.662 2.88 3.279 5.264m-8.22 0L9.88 9.88m-1.989 6.23c-2.383 2.384.088 6.353 3.28 5.265l.488-.167a1.06 1.06 0 0 1 .684 0l.489.167c3.19 1.088 5.662-2.88 3.279-5.264m-8.22 0L9.88 14.12m6.23-6.23c2.384-2.384 6.353.087 5.265 3.278l-.167.489a1.06 1.06 0 0 0 0 .685l.167.488c1.088 3.19-2.88 5.662-5.264 3.279m0-8.22L14.12 9.88m1.989 6.23-1.989-1.988m0-4.242A3 3 0 0 1 15 12a3 3 0 0 1-.879 2.121m0-4.242A3 3 0 0 0 12 9a3 3 0 0 0-2.121.879m0 0A3 3 0 0 0 8.999 12c0 .829.337 1.579.88 2.121m0 0a3 3 0 0 0 2.12.88 3 3 0 0 0 2.122-.88"/>`
+        innerHTML: `<path d="M12 14.25H6.75l.75 1.5a5 5 0 0 0 0 6h9a5 5 0 0 0 0-6l.75-1.5zm0 0V9m0 0a2.25 2.25 0 1 1-2.25-2.25M12 9a2.25 2.25 0 1 0 2.25-2.25M12 9a2.25 2.25 0 0 1-2.25-2.25M12 9a2.25 2.25 0 0 0 2.25-2.25M12 4.5a2.25 2.25 0 1 0-2.25 2.25M12 4.5a2.25 2.25 0 1 1 2.25 2.25M12 4.5a2.25 2.25 0 0 0-2.25 2.25M12 4.5a2.25 2.25 0 0 1 2.25 2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FlowerSunflower.ts
+// src/icons/FlowerPrimrose.ts
 import { defineComponent as defineComponent398, h as h398 } from "vue";
-var FlowerSunflower = defineComponent398({
-  name: "FlowerSunflower",
+var FlowerPrimrose = defineComponent398({
+  name: "FlowerPrimrose",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13922,16 +13922,16 @@ var FlowerSunflower = defineComponent398({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9.03 4.828A3 3 0 0 0 4.827 9.03m4.201-4.2a3 3 0 0 1 5.942 0m-5.942 0 .961 2.32m4.98-2.32a3 3 0 0 1 4.202 4.2m-4.201-4.2-.961 2.32m5.162 1.88a3 3 0 0 1 0 5.942m0-5.942-2.32.961m2.32 4.98a3 3 0 0 1-4.201 4.202m4.2-4.201-2.32-.961m-1.88 5.162a3 3 0 0 1-5.942 0m5.942 0-.961-2.32m-4.98 2.32a3 3 0 0 1-4.202-4.201m4.201 4.2.961-2.32m-5.162-1.88a3 3 0 0 1 0-5.942m0 5.942 2.32-.961m-2.32-4.98 2.32.96m6.862-2.842A5.2 5.2 0 0 0 12 6.75c-.712 0-1.39.142-2.01.398m4.02 0a5.27 5.27 0 0 1 2.842 2.842m0 0c.256.62.398 1.298.398 2.01s-.142 1.39-.398 2.01m0 0a5.27 5.27 0 0 1-2.842 2.842m0 0a5.2 5.2 0 0 1-2.01.398c-.712 0-1.39-.142-2.01-.398m0 0a5.27 5.27 0 0 1-2.842-2.842m0 0A5.2 5.2 0 0 1 6.75 12c0-.712.142-1.39.398-2.01m0 0A5.27 5.27 0 0 1 9.99 7.148"/>`
+        innerHTML: `<path d="M7.89 7.89c-2.383-2.383-6.352.088-5.264 3.28l.167.488c.076.222.076.463 0 .685l-.167.488c-1.088 3.19 2.88 5.662 5.264 3.279m0-8.22c-2.383-2.383.088-6.352 3.28-5.264l.488.167c.222.076.462.076.684 0l.489-.167c3.19-1.088 5.662 2.88 3.279 5.264m-8.22 0L9.88 9.88m-1.989 6.23c-2.383 2.384.088 6.353 3.28 5.265l.488-.167a1.06 1.06 0 0 1 .684 0l.489.167c3.19 1.088 5.662-2.88 3.279-5.264m-8.22 0L9.88 14.12m6.23-6.23c2.384-2.384 6.353.087 5.265 3.278l-.167.489a1.06 1.06 0 0 0 0 .685l.167.488c1.088 3.19-2.88 5.662-5.264 3.279m0-8.22L14.12 9.88m1.989 6.23-1.989-1.988m0-4.242A3 3 0 0 1 15 12a3 3 0 0 1-.879 2.121m0-4.242A3 3 0 0 0 12 9a3 3 0 0 0-2.121.879m0 0A3 3 0 0 0 8.999 12c0 .829.337 1.579.88 2.121m0 0a3 3 0 0 0 2.12.88 3 3 0 0 0 2.122-.88"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FlowerTulip.ts
+// src/icons/FlowerSunflower.ts
 import { defineComponent as defineComponent399, h as h399 } from "vue";
-var FlowerTulip = defineComponent399({
-  name: "FlowerTulip",
+var FlowerSunflower = defineComponent399({
+  name: "FlowerSunflower",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13957,16 +13957,16 @@ var FlowerTulip = defineComponent399({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M8.75 19.627a8.7 8.7 0 0 0 3.25.623c4.305 0 7.91-3.105 8.338-7.183l.231-2.2a10 10 0 0 1 .367-1.827l.796-2.651a.4.4 0 0 0 .018-.124.464.464 0 0 0-.475-.452c-.918 0-1.86.006-2.79.047-.78.033-1.553.091-2.296.19M8.75 19.627c-2.753-1.104-4.774-3.57-5.088-6.56l-.231-2.2a10 10 0 0 0-.367-1.827L2.268 6.39a.4.4 0 0 1-.018-.124c0-.25.213-.453.475-.452.918 0 1.86.006 2.79.047.78.033 1.553.091 2.296.19m.939 13.577s5.417 2.051 5.417-7.627c0-2.224-.84-3.648-2.167-4.56m0 0c1.12-.77 2.587-1.176 4.19-1.39M12 7.44c-.658-.454-1.437-.78-2.292-1.016-.6-.165-1.237-.286-1.897-.374m8.378 0c-.192-.518-.567-.983-1.073-1.356-.788-.582-1.893-.944-3.116-.944s-2.328.362-3.116.944c-.506.373-.881.838-1.073 1.356"/>`
+        innerHTML: `<path d="M9.03 4.828A3 3 0 0 0 4.827 9.03m4.201-4.2a3 3 0 0 1 5.942 0m-5.942 0 .961 2.32m4.98-2.32a3 3 0 0 1 4.202 4.2m-4.201-4.2-.961 2.32m5.162 1.88a3 3 0 0 1 0 5.942m0-5.942-2.32.961m2.32 4.98a3 3 0 0 1-4.201 4.202m4.2-4.201-2.32-.961m-1.88 5.162a3 3 0 0 1-5.942 0m5.942 0-.961-2.32m-4.98 2.32a3 3 0 0 1-4.202-4.201m4.201 4.2.961-2.32m-5.162-1.88a3 3 0 0 1 0-5.942m0 5.942 2.32-.961m-2.32-4.98 2.32.96m6.862-2.842A5.2 5.2 0 0 0 12 6.75c-.712 0-1.39.142-2.01.398m4.02 0a5.27 5.27 0 0 1 2.842 2.842m0 0c.256.62.398 1.298.398 2.01s-.142 1.39-.398 2.01m0 0a5.27 5.27 0 0 1-2.842 2.842m0 0a5.2 5.2 0 0 1-2.01.398c-.712 0-1.39-.142-2.01-.398m0 0a5.27 5.27 0 0 1-2.842-2.842m0 0A5.2 5.2 0 0 1 6.75 12c0-.712.142-1.39.398-2.01m0 0A5.27 5.27 0 0 1 9.99 7.148"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Folder.ts
+// src/icons/FlowerTulip.ts
 import { defineComponent as defineComponent400, h as h400 } from "vue";
-var Folder = defineComponent400({
-  name: "Folder",
+var FlowerTulip = defineComponent400({
+  name: "FlowerTulip",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -13992,16 +13992,16 @@ var Folder = defineComponent400({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 18.75V5.25a1.5 1.5 0 0 1 1.5-1.5h4.757a3 3 0 0 1 2.122.879L11.87 5.87a3 3 0 0 0 2.122.879h6.257a1.5 1.5 0 0 1 1.5 1.5v10.5a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5"/>`
+        innerHTML: `<path d="M8.75 19.627a8.7 8.7 0 0 0 3.25.623c4.305 0 7.91-3.105 8.338-7.183l.231-2.2a10 10 0 0 1 .367-1.827l.796-2.651a.4.4 0 0 0 .018-.124.464.464 0 0 0-.475-.452c-.918 0-1.86.006-2.79.047-.78.033-1.553.091-2.296.19M8.75 19.627c-2.753-1.104-4.774-3.57-5.088-6.56l-.231-2.2a10 10 0 0 0-.367-1.827L2.268 6.39a.4.4 0 0 1-.018-.124c0-.25.213-.453.475-.452.918 0 1.86.006 2.79.047.78.033 1.553.091 2.296.19m.939 13.577s5.417 2.051 5.417-7.627c0-2.224-.84-3.648-2.167-4.56m0 0c1.12-.77 2.587-1.176 4.19-1.39M12 7.44c-.658-.454-1.437-.78-2.292-1.016-.6-.165-1.237-.286-1.897-.374m8.378 0c-.192-.518-.567-.983-1.073-1.356-.788-.582-1.893-.944-3.116-.944s-2.328.362-3.116.944c-.506.373-.881.838-1.073 1.356"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FolderCheck.ts
+// src/icons/Folder.ts
 import { defineComponent as defineComponent401, h as h401 } from "vue";
-var FolderCheck = defineComponent401({
-  name: "FolderCheck",
+var Folder = defineComponent401({
+  name: "Folder",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14027,16 +14027,16 @@ var FolderCheck = defineComponent401({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 12.387V8.25a1.5 1.5 0 0 0-1.5-1.5h-6.257a3 3 0 0 1-2.122-.879L10.63 4.63a3 3 0 0 0-2.122-.879H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h7.884m2.616-1.5 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
+        innerHTML: `<path d="M2.25 18.75V5.25a1.5 1.5 0 0 1 1.5-1.5h4.757a3 3 0 0 1 2.122.879L11.87 5.87a3 3 0 0 0 2.122.879h6.257a1.5 1.5 0 0 1 1.5 1.5v10.5a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FolderCross.ts
+// src/icons/FolderCheck.ts
 import { defineComponent as defineComponent402, h as h402 } from "vue";
-var FolderCross = defineComponent402({
-  name: "FolderCross",
+var FolderCheck = defineComponent402({
+  name: "FolderCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14062,16 +14062,16 @@ var FolderCross = defineComponent402({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 12.387V8.25a1.5 1.5 0 0 0-1.5-1.5h-6.257a3 3 0 0 1-2.122-.879L10.63 4.63a3 3 0 0 0-2.122-.879H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h7.884m4.116 2.25 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 12.387V8.25a1.5 1.5 0 0 0-1.5-1.5h-6.257a3 3 0 0 1-2.122-.879L10.63 4.63a3 3 0 0 0-2.122-.879H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h7.884m2.616-1.5 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FolderDownload.ts
+// src/icons/FolderCross.ts
 import { defineComponent as defineComponent403, h as h403 } from "vue";
-var FolderDownload = defineComponent403({
-  name: "FolderDownload",
+var FolderCross = defineComponent403({
+  name: "FolderCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14097,16 +14097,16 @@ var FolderDownload = defineComponent403({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 12.387V8.25a1.5 1.5 0 0 0-1.5-1.5h-6.257a3 3 0 0 1-2.122-.879L10.63 4.63a3 3 0 0 0-2.122-.879H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h7.884m7.116-6v5.25m0 0L21 17.25m-2.25 2.25-2.25-2.25m-1.5 3V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 12.387V8.25a1.5 1.5 0 0 0-1.5-1.5h-6.257a3 3 0 0 1-2.122-.879L10.63 4.63a3 3 0 0 0-2.122-.879H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h7.884m4.116 2.25 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FolderLock.ts
+// src/icons/FolderDownload.ts
 import { defineComponent as defineComponent404, h as h404 } from "vue";
-var FolderLock = defineComponent404({
-  name: "FolderLock",
+var FolderDownload = defineComponent404({
+  name: "FolderDownload",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14132,16 +14132,16 @@ var FolderLock = defineComponent404({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 12.387V8.25a1.5 1.5 0 0 0-1.5-1.5h-6.257a3 3 0 0 1-2.122-.879L10.63 4.63a3 3 0 0 0-2.122-.879H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h7.884M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 12.387V8.25a1.5 1.5 0 0 0-1.5-1.5h-6.257a3 3 0 0 1-2.122-.879L10.63 4.63a3 3 0 0 0-2.122-.879H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h7.884m7.116-6v5.25m0 0L21 17.25m-2.25 2.25-2.25-2.25m-1.5 3V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FolderMinus.ts
+// src/icons/FolderLock.ts
 import { defineComponent as defineComponent405, h as h405 } from "vue";
-var FolderMinus = defineComponent405({
-  name: "FolderMinus",
+var FolderLock = defineComponent405({
+  name: "FolderLock",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14167,16 +14167,16 @@ var FolderMinus = defineComponent405({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 12.387V8.25a1.5 1.5 0 0 0-1.5-1.5h-6.257a3 3 0 0 1-2.122-.879L10.63 4.63a3 3 0 0 0-2.122-.879H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h7.884M22.5 18.375h-6.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 12.387V8.25a1.5 1.5 0 0 0-1.5-1.5h-6.257a3 3 0 0 1-2.122-.879L10.63 4.63a3 3 0 0 0-2.122-.879H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h7.884M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FolderOpen.ts
+// src/icons/FolderMinus.ts
 import { defineComponent as defineComponent406, h as h406 } from "vue";
-var FolderOpen = defineComponent406({
-  name: "FolderOpen",
+var FolderMinus = defineComponent406({
+  name: "FolderMinus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14202,16 +14202,16 @@ var FolderOpen = defineComponent406({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 20.25v-15a1.5 1.5 0 0 1 1.5-1.5h3.257a3 3 0 0 1 2.122.879L10.37 5.87a3 3 0 0 0 2.122.879h3.257a1.5 1.5 0 0 1 1.5 1.5v2.25m-15 9.75 4.5-9.75h10.5m-15 9.75h15l4.5-9.75h-4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 12.387V8.25a1.5 1.5 0 0 0-1.5-1.5h-6.257a3 3 0 0 1-2.122-.879L10.63 4.63a3 3 0 0 0-2.122-.879H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h7.884M22.5 18.375h-6.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FolderPlus.ts
+// src/icons/FolderOpen.ts
 import { defineComponent as defineComponent407, h as h407 } from "vue";
-var FolderPlus = defineComponent407({
-  name: "FolderPlus",
+var FolderOpen = defineComponent407({
+  name: "FolderOpen",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14237,16 +14237,16 @@ var FolderPlus = defineComponent407({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 12.387V8.25a1.5 1.5 0 0 0-1.5-1.5h-6.257a3 3 0 0 1-2.122-.879L10.63 4.63a3 3 0 0 0-2.122-.879H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h7.884m6.741 2.25v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
+        innerHTML: `<path d="M2.25 20.25v-15a1.5 1.5 0 0 1 1.5-1.5h3.257a3 3 0 0 1 2.122.879L10.37 5.87a3 3 0 0 0 2.122.879h3.257a1.5 1.5 0 0 1 1.5 1.5v2.25m-15 9.75 4.5-9.75h10.5m-15 9.75h15l4.5-9.75h-4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FolderSearch.ts
+// src/icons/FolderPlus.ts
 import { defineComponent as defineComponent408, h as h408 } from "vue";
-var FolderSearch = defineComponent408({
-  name: "FolderSearch",
+var FolderPlus = defineComponent408({
+  name: "FolderPlus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14272,16 +14272,16 @@ var FolderSearch = defineComponent408({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 12.387V8.25a1.5 1.5 0 0 0-1.5-1.5h-6.257a3 3 0 0 1-2.122-.879L10.63 4.63a3 3 0 0 0-2.122-.879H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h7.884M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 12.387V8.25a1.5 1.5 0 0 0-1.5-1.5h-6.257a3 3 0 0 1-2.122-.879L10.63 4.63a3 3 0 0 0-2.122-.879H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h7.884m6.741 2.25v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FolderSettings.ts
+// src/icons/FolderSearch.ts
 import { defineComponent as defineComponent409, h as h409 } from "vue";
-var FolderSettings = defineComponent409({
-  name: "FolderSettings",
+var FolderSearch = defineComponent409({
+  name: "FolderSearch",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14307,16 +14307,16 @@ var FolderSettings = defineComponent409({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 12.387V8.25a1.5 1.5 0 0 0-1.5-1.5h-6.257a3 3 0 0 1-2.122-.879L10.63 4.63a3 3 0 0 0-2.122-.879H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h7.884m6.74.6a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.133 4.117h-1.65m-4.95 0h-1.65m7.048 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 12.387V8.25a1.5 1.5 0 0 0-1.5-1.5h-6.257a3 3 0 0 1-2.122-.879L10.63 4.63a3 3 0 0 0-2.122-.879H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h7.884M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FolderUpload.ts
+// src/icons/FolderSettings.ts
 import { defineComponent as defineComponent410, h as h410 } from "vue";
-var FolderUpload = defineComponent410({
-  name: "FolderUpload",
+var FolderSettings = defineComponent410({
+  name: "FolderSettings",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14342,16 +14342,16 @@ var FolderUpload = defineComponent410({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 12.387V8.25a1.5 1.5 0 0 0-1.5-1.5h-6.257a3 3 0 0 1-2.122-.879L10.63 4.63a3 3 0 0 0-2.122-.879H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h7.884m7.116-6v5.25m0-5.25L21 16.5m-2.25-2.25L16.5 16.5M15 20.25V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 12.387V8.25a1.5 1.5 0 0 0-1.5-1.5h-6.257a3 3 0 0 1-2.122-.879L10.63 4.63a3 3 0 0 0-2.122-.879H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h7.884m6.74.6a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.133 4.117h-1.65m-4.95 0h-1.65m7.048 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FolderUser.ts
+// src/icons/FolderUpload.ts
 import { defineComponent as defineComponent411, h as h411 } from "vue";
-var FolderUser = defineComponent411({
-  name: "FolderUser",
+var FolderUpload = defineComponent411({
+  name: "FolderUpload",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14377,16 +14377,16 @@ var FolderUser = defineComponent411({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.75 12.387V8.25a1.5 1.5 0 0 0-1.5-1.5h-6.257a3 3 0 0 1-2.122-.879L10.63 4.63a3 3 0 0 0-2.122-.879H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h7.884m7.116-.375a2.813 2.813 0 1 0 0-5.625 2.813 2.813 0 0 0 0 5.625m0 0h1.125A2.625 2.625 0 0 1 22.5 22.5m-3.75-2.625h-1.125A2.625 2.625 0 0 0 15 22.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 12.387V8.25a1.5 1.5 0 0 0-1.5-1.5h-6.257a3 3 0 0 1-2.122-.879L10.63 4.63a3 3 0 0 0-2.122-.879H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h7.884m7.116-6v5.25m0-5.25L21 16.5m-2.25-2.25L16.5 16.5M15 20.25V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ForceField.ts
+// src/icons/FolderUser.ts
 import { defineComponent as defineComponent412, h as h412 } from "vue";
-var ForceField = defineComponent412({
-  name: "ForceField",
+var FolderUser = defineComponent412({
+  name: "FolderUser",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14412,16 +14412,16 @@ var ForceField = defineComponent412({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9.699 20.25A9.74 9.74 0 0 0 14.25 12a9.74 9.74 0 0 0-4.551-8.25M2.25 17.564a6 6 0 1 0 0-11.128M15.187 20.25A13.44 13.44 0 0 0 18 12c0-3.107-1.05-5.969-2.813-8.25m4.466 16.5A17.2 17.2 0 0 0 21.75 12c0-2.988-.76-5.8-2.097-8.25M6.75 12a2.25 2.25 0 1 0-4.5 0 2.25 2.25 0 0 0 4.5 0"/>`
+        innerHTML: `<path d="M21.75 12.387V8.25a1.5 1.5 0 0 0-1.5-1.5h-6.257a3 3 0 0 1-2.122-.879L10.63 4.63a3 3 0 0 0-2.122-.879H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h7.884m7.116-.375a2.813 2.813 0 1 0 0-5.625 2.813 2.813 0 0 0 0 5.625m0 0h1.125A2.625 2.625 0 0 1 22.5 22.5m-3.75-2.625h-1.125A2.625 2.625 0 0 0 15 22.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Foreground.ts
+// src/icons/ForceField.ts
 import { defineComponent as defineComponent413, h as h413 } from "vue";
-var Foreground = defineComponent413({
-  name: "Foreground",
+var ForceField = defineComponent413({
+  name: "ForceField",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14447,16 +14447,16 @@ var Foreground = defineComponent413({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M17.25 7.5V5.25a1.5 1.5 0 0 0-1.5-1.5h-12a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h12a1.5 1.5 0 0 0 1.5-1.5V16.5m0-9h3a1.5 1.5 0 0 1 1.5 1.5v6a1.5 1.5 0 0 1-1.5 1.5h-3m0-9v9"/>`
+        innerHTML: `<path d="M9.699 20.25A9.74 9.74 0 0 0 14.25 12a9.74 9.74 0 0 0-4.551-8.25M2.25 17.564a6 6 0 1 0 0-11.128M15.187 20.25A13.44 13.44 0 0 0 18 12c0-3.107-1.05-5.969-2.813-8.25m4.466 16.5A17.2 17.2 0 0 0 21.75 12c0-2.988-.76-5.8-2.097-8.25M6.75 12a2.25 2.25 0 1 0-4.5 0 2.25 2.25 0 0 0 4.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ForkKitchen.ts
+// src/icons/Foreground.ts
 import { defineComponent as defineComponent414, h as h414 } from "vue";
-var ForkKitchen = defineComponent414({
-  name: "ForkKitchen",
+var Foreground = defineComponent414({
+  name: "Foreground",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14482,16 +14482,16 @@ var ForkKitchen = defineComponent414({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M15.75 8.25 19.5 4.5m-2.25-2.25-3.927 3.928a1.5 1.5 0 0 0-.409 1.365l.058.278a1.5 1.5 0 0 1-.408 1.365L3.311 18.44a1.5 1.5 0 0 0 0 2.122l.129.128a1.5 1.5 0 0 0 2.12 0l9.254-9.253a1.5 1.5 0 0 1 1.365-.408l.279.058a1.5 1.5 0 0 0 1.364-.408L21.75 6.75"/>`
+        innerHTML: `<path d="M17.25 7.5V5.25a1.5 1.5 0 0 0-1.5-1.5h-12a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h12a1.5 1.5 0 0 0 1.5-1.5V16.5m0-9h3a1.5 1.5 0 0 1 1.5 1.5v6a1.5 1.5 0 0 1-1.5 1.5h-3m0-9v9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Frame.ts
+// src/icons/ForkKitchen.ts
 import { defineComponent as defineComponent415, h as h415 } from "vue";
-var Frame = defineComponent415({
-  name: "Frame",
+var ForkKitchen = defineComponent415({
+  name: "ForkKitchen",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14517,16 +14517,16 @@ var Frame = defineComponent415({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6.75 2.25v4.5m0 0v10.5m0-10.5h10.5m-10.5 0h-4.5m4.5 10.5v4.5m0-4.5h10.5m-10.5 0h-4.5m15-15v4.5m0 0v10.5m0-10.5h4.5m-4.5 10.5v4.5m0-4.5h4.5"/>`
+        innerHTML: `<path d="M15.75 8.25 19.5 4.5m-2.25-2.25-3.927 3.928a1.5 1.5 0 0 0-.409 1.365l.058.278a1.5 1.5 0 0 1-.408 1.365L3.311 18.44a1.5 1.5 0 0 0 0 2.122l.129.128a1.5 1.5 0 0 0 2.12 0l9.254-9.253a1.5 1.5 0 0 1 1.365-.408l.279.058a1.5 1.5 0 0 0 1.364-.408L21.75 6.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FrameFigma.ts
+// src/icons/Frame.ts
 import { defineComponent as defineComponent416, h as h416 } from "vue";
-var FrameFigma = defineComponent416({
-  name: "FrameFigma",
+var Frame = defineComponent416({
+  name: "Frame",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14552,16 +14552,16 @@ var FrameFigma = defineComponent416({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 18.75V5.25a1.5 1.5 0 0 1 1.5-1.5h4.5a1.5 1.5 0 0 1 1.5 1.5v13.5a1.5 1.5 0 0 1-1.5 1.5h-4.5a1.5 1.5 0 0 1-1.5-1.5M14.25 15.75v-7.5a1.5 1.5 0 0 1 1.5-1.5h4.5a1.5 1.5 0 0 1 1.5 1.5v7.5a1.5 1.5 0 0 1-1.5 1.5h-4.5a1.5 1.5 0 0 1-1.5-1.5"/>`
+        innerHTML: `<path d="M6.75 2.25v4.5m0 0v10.5m0-10.5h10.5m-10.5 0h-4.5m4.5 10.5v4.5m0-4.5h10.5m-10.5 0h-4.5m15-15v4.5m0 0v10.5m0-10.5h4.5m-4.5 10.5v4.5m0-4.5h4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Fridge.ts
+// src/icons/FrameFigma.ts
 import { defineComponent as defineComponent417, h as h417 } from "vue";
-var Fridge = defineComponent417({
-  name: "Fridge",
+var FrameFigma = defineComponent417({
+  name: "FrameFigma",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14587,16 +14587,16 @@ var Fridge = defineComponent417({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M5.25 15.75v-12a1.5 1.5 0 0 1 1.5-1.5h10.5a1.5 1.5 0 0 1 1.5 1.5v12m-13.5 0v4.5a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5v-4.5m-13.5 0h13.5m-10.5 3H9m-.75-13.5H9"/>`
+        innerHTML: `<path d="M2.25 18.75V5.25a1.5 1.5 0 0 1 1.5-1.5h4.5a1.5 1.5 0 0 1 1.5 1.5v13.5a1.5 1.5 0 0 1-1.5 1.5h-4.5a1.5 1.5 0 0 1-1.5-1.5M14.25 15.75v-7.5a1.5 1.5 0 0 1 1.5-1.5h4.5a1.5 1.5 0 0 1 1.5 1.5v7.5a1.5 1.5 0 0 1-1.5 1.5h-4.5a1.5 1.5 0 0 1-1.5-1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FruitApple.ts
+// src/icons/Fridge.ts
 import { defineComponent as defineComponent418, h as h418 } from "vue";
-var FruitApple = defineComponent418({
-  name: "FruitApple",
+var Fridge = defineComponent418({
+  name: "Fridge",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14622,16 +14622,16 @@ var FruitApple = defineComponent418({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M14.274 7.167c3.238-.81 6.726.491 6.726 5.318 0 5.821-3.381 10.617-8.505 8.919a1.6 1.6 0 0 0-.99 0C6.381 23.102 3 18.306 3 12.485c0-6.006 5.4-6.552 9-4.368m2.274-.95a8.3 8.3 0 0 0-2.274.95m2.274-.95c1.883-1.164 2.673-2.875 2.67-4.175 0-.52-.559-.846-1.111-.712-3.86.94-4.019 4.486-3.833 5.837m2.274-.95a8.3 8.3 0 0 1-2.274.95m0 0L9.6 3.749"/>`
+        innerHTML: `<path d="M5.25 15.75v-12a1.5 1.5 0 0 1 1.5-1.5h10.5a1.5 1.5 0 0 1 1.5 1.5v12m-13.5 0v4.5a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5v-4.5m-13.5 0h13.5m-10.5 3H9m-.75-13.5H9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FruitCherry.ts
+// src/icons/FruitApple.ts
 import { defineComponent as defineComponent419, h as h419 } from "vue";
-var FruitCherry = defineComponent419({
-  name: "FruitCherry",
+var FruitApple = defineComponent419({
+  name: "FruitApple",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14657,16 +14657,16 @@ var FruitCherry = defineComponent419({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M8.11 14.149a3.75 3.75 0 1 1-4.219 6.202 3.75 3.75 0 0 1 4.218-6.202m0 0c2.39-2.9 3.89-6.65 3.89-11.15m0 0c.715 4.405 1.402 5.898 4.036 8.806M12 3c-2.366-.423-7.177.035-7.5 5.25C6.25 9 10.2 9 12 3m4.036 8.805a3.75 3.75 0 1 0 3.928 6.39 3.75 3.75 0 0 0-3.928-6.39"/>`
+        innerHTML: `<path d="M14.274 7.167c3.238-.81 6.726.491 6.726 5.318 0 5.821-3.381 10.617-8.505 8.919a1.6 1.6 0 0 0-.99 0C6.381 23.102 3 18.306 3 12.485c0-6.006 5.4-6.552 9-4.368m2.274-.95a8.3 8.3 0 0 0-2.274.95m2.274-.95c1.883-1.164 2.673-2.875 2.67-4.175 0-.52-.559-.846-1.111-.712-3.86.94-4.019 4.486-3.833 5.837m2.274-.95a8.3 8.3 0 0 1-2.274.95m0 0L9.6 3.749"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FruitPeach.ts
+// src/icons/FruitCherry.ts
 import { defineComponent as defineComponent420, h as h420 } from "vue";
-var FruitPeach = defineComponent420({
-  name: "FruitPeach",
+var FruitCherry = defineComponent420({
+  name: "FruitCherry",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14692,16 +14692,16 @@ var FruitPeach = defineComponent420({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 7.884A6.753 6.753 0 0 0 8.637 18M12 7.884q.345-.122.704-.206M12 7.884a6.75 6.75 0 1 0 0 12.732 6.75 6.75 0 1 0 .704-12.938M12 7.884l-.122-.306m.122.306a3 3 0 0 1-.122-.306m.122.306q.372-.093.704-.206m0 0c3.794-1.28 3.755-4.241 3.046-5.428-4.24 0-4.485 3.555-3.872 5.328m0 0L9.75 2.25"/>`
+        innerHTML: `<path d="M8.11 14.149a3.75 3.75 0 1 1-4.219 6.202 3.75 3.75 0 0 1 4.218-6.202m0 0c2.39-2.9 3.89-6.65 3.89-11.15m0 0c.715 4.405 1.402 5.898 4.036 8.806M12 3c-2.366-.423-7.177.035-7.5 5.25C6.25 9 10.2 9 12 3m4.036 8.805a3.75 3.75 0 1 0 3.928 6.39 3.75 3.75 0 0 0-3.928-6.39"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FruitStrawberry.ts
+// src/icons/FruitPeach.ts
 import { defineComponent as defineComponent421, h as h421 } from "vue";
-var FruitStrawberry = defineComponent421({
-  name: "FruitStrawberry",
+var FruitPeach = defineComponent421({
+  name: "FruitPeach",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14727,16 +14727,16 @@ var FruitStrawberry = defineComponent421({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M14.506 4.116s13.61 3.816-.62 16.753a2.814 2.814 0 0 1-3.772 0c-14.23-12.937-.62-16.753-.62-16.753m5.012 0-.256.384 1.5 3.75L12 6.75l-3.75 1.5 1.5-3.75-.256-.384m5.012 0L15.75 2.25 12 3l-3.75-.75 1.244 1.866M8.25 11.25V12m7.5-.75V12M12 12v.75m-2.25 3v.75m4.5-.75v.75"/>`
+        innerHTML: `<path d="M12 7.884A6.753 6.753 0 0 0 8.637 18M12 7.884q.345-.122.704-.206M12 7.884a6.75 6.75 0 1 0 0 12.732 6.75 6.75 0 1 0 .704-12.938M12 7.884l-.122-.306m.122.306a3 3 0 0 1-.122-.306m.122.306q.372-.093.704-.206m0 0c3.794-1.28 3.755-4.241 3.046-5.428-4.24 0-4.485 3.555-3.872 5.328m0 0L9.75 2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Fuel.ts
+// src/icons/FruitStrawberry.ts
 import { defineComponent as defineComponent422, h as h422 } from "vue";
-var Fuel = defineComponent422({
-  name: "Fuel",
+var FruitStrawberry = defineComponent422({
+  name: "FruitStrawberry",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14762,16 +14762,16 @@ var Fuel = defineComponent422({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M4.5 6v14.25a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5v-9.879a1.5 1.5 0 0 0-.44-1.06L17.25 9M4.5 6V3.75A1.5 1.5 0 0 1 6 2.25h2.214a1.5 1.5 0 0 1 1.233.646L11.598 6M4.5 6h7.098m5.652 3 2.25-2.25-1.125-1.125M17.25 9 15 6.75m0 0-.31-.31A1.5 1.5 0 0 0 13.628 6h-2.03M15 6.75l2.25-2.25 1.125 1.125m0 0 .686-.686a1.5 1.5 0 0 1 1.06-.439h1.629M15 11.25 11.25 15m0 0L7.5 18.75M11.25 15 15 18.75M11.25 15 7.5 11.25"/>`
+        innerHTML: `<path d="M14.506 4.116s13.61 3.816-.62 16.753a2.814 2.814 0 0 1-3.772 0c-14.23-12.937-.62-16.753-.62-16.753m5.012 0-.256.384 1.5 3.75L12 6.75l-3.75 1.5 1.5-3.75-.256-.384m5.012 0L15.75 2.25 12 3l-3.75-.75 1.244 1.866M8.25 11.25V12m7.5-.75V12M12 12v.75m-2.25 3v.75m4.5-.75v.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/FuelOff.ts
+// src/icons/Fuel.ts
 import { defineComponent as defineComponent423, h as h423 } from "vue";
-var FuelOff = defineComponent423({
-  name: "FuelOff",
+var Fuel = defineComponent423({
+  name: "Fuel",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14797,16 +14797,16 @@ var FuelOff = defineComponent423({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<g clip-path="url(#a)"><path d="M4.5 6v14.25a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5V18M4.5 6V4.5m0 1.5H6m12 12-4.875-4.875M18 18l5.25 5.25M18 13.5v-3.129a1.5 1.5 0 0 0-.44-1.06L17.25 9m0 0 2.25-2.25-1.125-1.125M17.25 9 15 6.75m0 0-.31-.31A1.5 1.5 0 0 0 13.628 6h-2.03L9.446 2.896a1.5 1.5 0 0 0-1.233-.646H6.75M15 6.75l2.25-2.25 1.125 1.125M4.5 4.5.75.75M4.5 4.5 6 6m0 0 7.125 7.125m5.25-7.5.686-.686a1.5 1.5 0 0 1 1.06-.439h1.629m-8.625 8.625L11.25 15m0 0L7.5 18.75M11.25 15 15 18.75M11.25 15 7.5 11.25"/></g><defs><clipPath id="a"><path d="M0 0h24v24H0z"/></clipPath></defs>`
+        innerHTML: `<path d="M4.5 6v14.25a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5v-9.879a1.5 1.5 0 0 0-.44-1.06L17.25 9M4.5 6V3.75A1.5 1.5 0 0 1 6 2.25h2.214a1.5 1.5 0 0 1 1.233.646L11.598 6M4.5 6h7.098m5.652 3 2.25-2.25-1.125-1.125M17.25 9 15 6.75m0 0-.31-.31A1.5 1.5 0 0 0 13.628 6h-2.03M15 6.75l2.25-2.25 1.125 1.125m0 0 .686-.686a1.5 1.5 0 0 1 1.06-.439h1.629M15 11.25 11.25 15m0 0L7.5 18.75M11.25 15 15 18.75M11.25 15 7.5 11.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Fullscreen.ts
+// src/icons/FuelOff.ts
 import { defineComponent as defineComponent424, h as h424 } from "vue";
-var Fullscreen = defineComponent424({
-  name: "Fullscreen",
+var FuelOff = defineComponent424({
+  name: "FuelOff",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14832,16 +14832,16 @@ var Fullscreen = defineComponent424({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21 15v4.5a1.5 1.5 0 0 1-1.5 1.5H15m6-12V4.5A1.5 1.5 0 0 0 19.5 3H15M9 3H4.5A1.5 1.5 0 0 0 3 4.5V9m0 6v4.5A1.5 1.5 0 0 0 4.5 21H9"/>`
+        innerHTML: `<g clip-path="url(#a)"><path d="M4.5 6v14.25a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5V18M4.5 6V4.5m0 1.5H6m12 12-4.875-4.875M18 18l5.25 5.25M18 13.5v-3.129a1.5 1.5 0 0 0-.44-1.06L17.25 9m0 0 2.25-2.25-1.125-1.125M17.25 9 15 6.75m0 0-.31-.31A1.5 1.5 0 0 0 13.628 6h-2.03L9.446 2.896a1.5 1.5 0 0 0-1.233-.646H6.75M15 6.75l2.25-2.25 1.125 1.125M4.5 4.5.75.75M4.5 4.5 6 6m0 0 7.125 7.125m5.25-7.5.686-.686a1.5 1.5 0 0 1 1.06-.439h1.629m-8.625 8.625L11.25 15m0 0L7.5 18.75M11.25 15 15 18.75M11.25 15 7.5 11.25"/></g><defs><clipPath id="a"><path d="M0 0h24v24H0z"/></clipPath></defs>`
       }, children);
     };
   }
 });
 
-// src/icons/Furniture.ts
+// src/icons/Fullscreen.ts
 import { defineComponent as defineComponent425, h as h425 } from "vue";
-var Furniture = defineComponent425({
-  name: "Furniture",
+var Fullscreen = defineComponent425({
+  name: "Fullscreen",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14867,16 +14867,16 @@ var Furniture = defineComponent425({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.75 17.25h1.5a1.5 1.5 0 0 0 1.5-1.5v-9a1.5 1.5 0 0 0-1.5-1.5h-4.5m3 12v3m0-3h-3m-10.5 0h-1.5a1.5 1.5 0 0 1-1.5-1.5v-9a1.5 1.5 0 0 1 1.5-1.5h4.5m-3 12v3m0-3h3m0-12h7.5m-7.5 0v6m0 6h7.5m-7.5 0v-6m7.5-6v6m0 6v-6m3-1.5v3m-13.5-3v3m3-1.5h7.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21 15v4.5a1.5 1.5 0 0 1-1.5 1.5H15m6-12V4.5A1.5 1.5 0 0 0 19.5 3H15M9 3H4.5A1.5 1.5 0 0 0 3 4.5V9m0 6v4.5A1.5 1.5 0 0 0 4.5 21H9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/GalleryPicture.ts
+// src/icons/Furniture.ts
 import { defineComponent as defineComponent426, h as h426 } from "vue";
-var GalleryPicture = defineComponent426({
-  name: "GalleryPicture",
+var Furniture = defineComponent426({
+  name: "Furniture",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14902,16 +14902,16 @@ var GalleryPicture = defineComponent426({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M8.25 3.75a1.5 1.5 0 0 1 1.5-1.5h9a1.5 1.5 0 0 1 1.5 1.5v13.5a1.5 1.5 0 0 1-1.5 1.5m-15-1.385s1.364-.75 3-.75C8.932 16.615 9.273 18 12 18c2.182 0 3.75-.75 3.75-.75m-12 .115V8.25a1.5 1.5 0 0 1 1.5-1.5h9a1.5 1.5 0 0 1 1.5 1.5v9m-12 .115v2.885a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-3M9 11.625a1.875 1.875 0 1 1 3.75 0 1.875 1.875 0 0 1-3.75 0"/>`
+        innerHTML: `<path d="M18.75 17.25h1.5a1.5 1.5 0 0 0 1.5-1.5v-9a1.5 1.5 0 0 0-1.5-1.5h-4.5m3 12v3m0-3h-3m-10.5 0h-1.5a1.5 1.5 0 0 1-1.5-1.5v-9a1.5 1.5 0 0 1 1.5-1.5h4.5m-3 12v3m0-3h3m0-12h7.5m-7.5 0v6m0 6h7.5m-7.5 0v-6m7.5-6v6m0 6v-6m3-1.5v3m-13.5-3v3m3-1.5h7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/GameController.ts
+// src/icons/GalleryPicture.ts
 import { defineComponent as defineComponent427, h as h427 } from "vue";
-var GameController = defineComponent427({
-  name: "GameController",
+var GalleryPicture = defineComponent427({
+  name: "GalleryPicture",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14937,16 +14937,16 @@ var GameController = defineComponent427({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M8.25 9v1.5m0 0V12m0-1.5h-1.5m1.5 0h1.5M15 9v.75m2.25 1.5V12M3.874 8.008l-1.58 7.954c-.262 1.316.676 2.575 2.06 2.764a2.52 2.52 0 0 0 2.079-.664l3.108-2.98c.202-.193.474-.302.759-.302h3.4c.285 0 .558.109.759.302l3.108 2.98a2.52 2.52 0 0 0 2.08.664c1.383-.19 2.32-1.448 2.06-2.764l-1.581-7.954a.99.99 0 0 0-.463-.657C14.974 4.55 9.026 4.55 4.337 7.35a.99.99 0 0 0-.463.657"/>`
+        innerHTML: `<path d="M8.25 3.75a1.5 1.5 0 0 1 1.5-1.5h9a1.5 1.5 0 0 1 1.5 1.5v13.5a1.5 1.5 0 0 1-1.5 1.5m-15-1.385s1.364-.75 3-.75C8.932 16.615 9.273 18 12 18c2.182 0 3.75-.75 3.75-.75m-12 .115V8.25a1.5 1.5 0 0 1 1.5-1.5h9a1.5 1.5 0 0 1 1.5 1.5v9m-12 .115v2.885a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-3M9 11.625a1.875 1.875 0 1 1 3.75 0 1.875 1.875 0 0 1-3.75 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Gardeing.ts
+// src/icons/GameController.ts
 import { defineComponent as defineComponent428, h as h428 } from "vue";
-var Gardeing = defineComponent428({
-  name: "Gardeing",
+var GameController = defineComponent428({
+  name: "GameController",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -14972,16 +14972,16 @@ var Gardeing = defineComponent428({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M8.625 9.375 11.25 6.75 7.94 3.44A1.5 1.5 0 0 0 6.878 3H3.75a1.5 1.5 0 0 0-1.5 1.5v3.129c0 .398.158.779.44 1.06L6 12zm0 0L12 12.75m0 0 4.5 4.5m-4.5-4.5L3.75 21M12 12.75l4.875-4.875M16.5 17.25h3l1.5 1.5-3 3-1.5-1.5zm.375-9.375L15.75 6.75m1.125 1.125L18 9m3.75.75-1.5 1.5L18 9m-3-6-1.5 1.5 2.25 2.25m0 0 1.5-1.5M18 9l1.5-1.5"/>`
+        innerHTML: `<path d="M8.25 9v1.5m0 0V12m0-1.5h-1.5m1.5 0h1.5M15 9v.75m2.25 1.5V12M3.874 8.008l-1.58 7.954c-.262 1.316.676 2.575 2.06 2.764a2.52 2.52 0 0 0 2.079-.664l3.108-2.98c.202-.193.474-.302.759-.302h3.4c.285 0 .558.109.759.302l3.108 2.98a2.52 2.52 0 0 0 2.08.664c1.383-.19 2.32-1.448 2.06-2.764l-1.581-7.954a.99.99 0 0 0-.463-.657C14.974 4.55 9.026 4.55 4.337 7.35a.99.99 0 0 0-.463.657"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Gcode.ts
+// src/icons/Gardeing.ts
 import { defineComponent as defineComponent429, h as h429 } from "vue";
-var Gcode = defineComponent429({
-  name: "Gcode",
+var Gardeing = defineComponent429({
+  name: "Gardeing",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15007,16 +15007,16 @@ var Gcode = defineComponent429({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v9m6.75 3.75-3 3 3 3m3 0 3-6m3 0 3 3-3 3M3.75 20.25h.75V21a1.5 1.5 0 0 1-3 0v-3a1.5 1.5 0 0 1 3 0"/>`
+        innerHTML: `<path d="M8.625 9.375 11.25 6.75 7.94 3.44A1.5 1.5 0 0 0 6.878 3H3.75a1.5 1.5 0 0 0-1.5 1.5v3.129c0 .398.158.779.44 1.06L6 12zm0 0L12 12.75m0 0 4.5 4.5m-4.5-4.5L3.75 21M12 12.75l4.875-4.875M16.5 17.25h3l1.5 1.5-3 3-1.5-1.5zm.375-9.375L15.75 6.75m1.125 1.125L18 9m3.75.75-1.5 1.5L18 9m-3-6-1.5 1.5 2.25 2.25m0 0 1.5-1.5M18 9l1.5-1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Gear.ts
+// src/icons/Gcode.ts
 import { defineComponent as defineComponent430, h as h430 } from "vue";
-var Gear = defineComponent430({
-  name: "Gear",
+var Gcode = defineComponent430({
+  name: "Gcode",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15042,16 +15042,16 @@ var Gear = defineComponent430({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M5.106 15.713a2.25 2.25 0 0 0 3.182 3.182l.243-.244q.582.305 1.219.506v.343a2.25 2.25 0 0 0 4.5 0v-.343a7.5 7.5 0 0 0 1.22-.506l.242.243a2.25 2.25 0 1 0 3.182-3.182l-.243-.243q.305-.582.506-1.219h.343a2.25 2.25 0 0 0 0-4.5h-.343a7.5 7.5 0 0 0-.506-1.22l.243-.242a2.25 2.25 0 1 0-3.182-3.182l-.243.243a7.5 7.5 0 0 0-1.219-.506V4.5a2.25 2.25 0 0 0-4.5 0v.343a7.5 7.5 0 0 0-1.22.506l-.242-.243a2.25 2.25 0 1 0-3.182 3.182l.243.243a7.5 7.5 0 0 0-.506 1.219H4.5a2.25 2.25 0 0 0 0 4.5h.343q.2.637.506 1.22z"/>`
+        innerHTML: `<path d="M20.25 9.75h-6a1.5 1.5 0 0 1-1.5-1.5v-6m7.5 7.5-7.5-7.5m7.5 7.5v3m-7.5-10.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v9m6.75 3.75-3 3 3 3m3 0 3-6m3 0 3 3-3 3M3.75 20.25h.75V21a1.5 1.5 0 0 1-3 0v-3a1.5 1.5 0 0 1 3 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Gift.ts
+// src/icons/Gear.ts
 import { defineComponent as defineComponent431, h as h431 } from "vue";
-var Gift = defineComponent431({
-  name: "Gift",
+var Gear = defineComponent431({
+  name: "Gear",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15077,16 +15077,16 @@ var Gift = defineComponent431({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.75 13.5v6.75a1.5 1.5 0 0 1-1.5 1.5h-3m4.5-8.25h-4.5m4.5 0a1.5 1.5 0 0 0 1.5-1.5v-1.5a1.5 1.5 0 0 0-1.5-1.5h-4.5m-9 4.5v6.75a1.5 1.5 0 0 0 1.5 1.5h3m-4.5-8.25h4.5m-4.5 0a1.5 1.5 0 0 1-1.5-1.5v-1.5A1.5 1.5 0 0 1 5.25 9h4.5M12 9s3-9 6-6-6 6-6 6m0 0S9 0 6 3s6 6 6 6m0 0h2.25M12 9H9.75m4.5 0v4.5m0 0h-4.5m4.5 0v8.25M9.75 9v4.5m0 0v8.25m0 0h4.5"/>`
+        innerHTML: `<path d="M5.106 15.713a2.25 2.25 0 0 0 3.182 3.182l.243-.244q.582.305 1.219.506v.343a2.25 2.25 0 0 0 4.5 0v-.343a7.5 7.5 0 0 0 1.22-.506l.242.243a2.25 2.25 0 1 0 3.182-3.182l-.243-.243q.305-.582.506-1.219h.343a2.25 2.25 0 0 0 0-4.5h-.343a7.5 7.5 0 0 0-.506-1.22l.243-.242a2.25 2.25 0 1 0-3.182-3.182l-.243.243a7.5 7.5 0 0 0-1.219-.506V4.5a2.25 2.25 0 0 0-4.5 0v.343a7.5 7.5 0 0 0-1.22.506l-.242-.243a2.25 2.25 0 1 0-3.182 3.182l.243.243a7.5 7.5 0 0 0-.506 1.219H4.5a2.25 2.25 0 0 0 0 4.5h.343q.2.637.506 1.22z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/GitBranch.ts
+// src/icons/Gift.ts
 import { defineComponent as defineComponent432, h as h432 } from "vue";
-var GitBranch = defineComponent432({
-  name: "GitBranch",
+var Gift = defineComponent432({
+  name: "Gift",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15112,16 +15112,16 @@ var GitBranch = defineComponent432({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6 6.75a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5m0 0V15m0 2.25a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5m0 0V15m0 0a3 3 0 0 1 3-3h6a3 3 0 0 0 3-3V6.75m0 0a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5"/>`
+        innerHTML: `<path d="M18.75 13.5v6.75a1.5 1.5 0 0 1-1.5 1.5h-3m4.5-8.25h-4.5m4.5 0a1.5 1.5 0 0 0 1.5-1.5v-1.5a1.5 1.5 0 0 0-1.5-1.5h-4.5m-9 4.5v6.75a1.5 1.5 0 0 0 1.5 1.5h3m-4.5-8.25h4.5m-4.5 0a1.5 1.5 0 0 1-1.5-1.5v-1.5A1.5 1.5 0 0 1 5.25 9h4.5M12 9s3-9 6-6-6 6-6 6m0 0S9 0 6 3s6 6 6 6m0 0h2.25M12 9H9.75m4.5 0v4.5m0 0h-4.5m4.5 0v8.25M9.75 9v4.5m0 0v8.25m0 0h4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/GitCommit.ts
+// src/icons/GitBranch.ts
 import { defineComponent as defineComponent433, h as h433 } from "vue";
-var GitCommit = defineComponent433({
-  name: "GitCommit",
+var GitBranch = defineComponent433({
+  name: "GitBranch",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15147,16 +15147,16 @@ var GitCommit = defineComponent433({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 9.75v-7.5m0 7.5a2.25 2.25 0 0 1 0 4.5m0-4.5a2.25 2.25 0 0 0 0 4.5m0 0v7.5"/>`
+        innerHTML: `<path d="M6 6.75a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5m0 0V15m0 2.25a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5m0 0V15m0 0a3 3 0 0 1 3-3h6a3 3 0 0 0 3-3V6.75m0 0a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/GitFork.ts
+// src/icons/GitCommit.ts
 import { defineComponent as defineComponent434, h as h434 } from "vue";
-var GitFork = defineComponent434({
-  name: "GitFork",
+var GitCommit = defineComponent434({
+  name: "GitCommit",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15182,16 +15182,16 @@ var GitFork = defineComponent434({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6 6.75a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5m0 0V9a3 3 0 0 0 3 3 3 3 0 0 1 3 3m0 2.25a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5m0 0V15m6-8.25a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0V9a3 3 0 0 1-3 3 3 3 0 0 0-3 3"/>`
+        innerHTML: `<path d="M12 9.75v-7.5m0 7.5a2.25 2.25 0 0 1 0 4.5m0-4.5a2.25 2.25 0 0 0 0 4.5m0 0v7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/GitMerge.ts
+// src/icons/GitFork.ts
 import { defineComponent as defineComponent435, h as h435 } from "vue";
-var GitMerge = defineComponent435({
-  name: "GitMerge",
+var GitFork = defineComponent435({
+  name: "GitFork",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15217,16 +15217,16 @@ var GitMerge = defineComponent435({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6 17.25a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5m0 0V9m0-2.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5m0 0V9m0 0a3 3 0 0 0 3 3h6a3 3 0 0 1 3 3v2.25m0 0a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5"/>`
+        innerHTML: `<path d="M6 6.75a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5m0 0V9a3 3 0 0 0 3 3 3 3 0 0 1 3 3m0 2.25a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5m0 0V15m6-8.25a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0V9a3 3 0 0 1-3 3 3 3 0 0 0-3 3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/GitPull.ts
+// src/icons/GitMerge.ts
 import { defineComponent as defineComponent436, h as h436 } from "vue";
-var GitPull = defineComponent436({
-  name: "GitPull",
+var GitMerge = defineComponent436({
+  name: "GitMerge",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15252,16 +15252,16 @@ var GitPull = defineComponent436({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M5.25 16.5a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5m0 0v-9m0 0a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5m13.5 9V8.25a3 3 0 0 0-3-3H10.5m8.25 11.25a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5M10.5 5.25l3-3m-3 3 3 3"/>`
+        innerHTML: `<path d="M6 17.25a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5m0 0V9m0-2.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5m0 0V9m0 0a3 3 0 0 0 3 3h6a3 3 0 0 1 3 3v2.25m0 0a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Glass.ts
+// src/icons/GitPull.ts
 import { defineComponent as defineComponent437, h as h437 } from "vue";
-var Glass = defineComponent437({
-  name: "Glass",
+var GitPull = defineComponent437({
+  name: "GitPull",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15287,16 +15287,16 @@ var Glass = defineComponent437({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 12.75h-.147c-5.415 0-8.449-6.242-5.103-10.5h10.5c3.346 4.258.312 10.5-5.103 10.5zm0 0V21m0 0h4.5M12 21H7.5"/>`
+        innerHTML: `<path d="M5.25 16.5a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5m0 0v-9m0 0a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5m13.5 9V8.25a3 3 0 0 0-3-3H10.5m8.25 11.25a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5M10.5 5.25l3-3m-3 3 3 3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Glasses.ts
+// src/icons/Glass.ts
 import { defineComponent as defineComponent438, h as h438 } from "vue";
-var Glasses = defineComponent438({
-  name: "Glasses",
+var Glass = defineComponent438({
+  name: "Glass",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15322,16 +15322,16 @@ var Glasses = defineComponent438({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.899 12.89a3.75 3.75 0 0 1 6.539.61m-6.539-.61a3.75 3.75 0 1 0 6.539.61m-6.539-.61L5.25 5.25c1.2.491 1.719.954 2.25 2.25m13.601 5.39a3.75 3.75 0 1 1-6.539.61m6.539-.61a3.751 3.751 0 0 0-6.539.61m6.539-.61L18.75 5.25c-1.2.491-1.719.954-2.25 2.25m-7.062 6c.354-.25 1.362-.75 2.562-.75s2.208.5 2.562.75"/>`
+        innerHTML: `<path d="M12 12.75h-.147c-5.415 0-8.449-6.242-5.103-10.5h10.5c3.346 4.258.312 10.5-5.103 10.5zm0 0V21m0 0h4.5M12 21H7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Globe.ts
+// src/icons/Glasses.ts
 import { defineComponent as defineComponent439, h as h439 } from "vue";
-var Globe = defineComponent439({
-  name: "Globe",
+var Glasses = defineComponent439({
+  name: "Glasses",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15357,16 +15357,16 @@ var Globe = defineComponent439({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75M2.25 12c0 5.385 4.365 9.75 9.75 9.75M2.25 12H7.5M12 2.25c5.385 0 9.75 4.365 9.75 9.75M12 2.25c-2.485 0-4.5 4.365-4.5 9.75M12 2.25c2.485 0 4.5 4.365 4.5 9.75M12 21.75c5.385 0 9.75-4.365 9.75-9.75M12 21.75c-2.485 0-4.5-4.365-4.5-9.75m4.5 9.75c2.485 0 4.5-4.365 4.5-9.75m5.25 0H16.5m-9 0h9"/>`
+        innerHTML: `<path d="M2.899 12.89a3.75 3.75 0 0 1 6.539.61m-6.539-.61a3.75 3.75 0 1 0 6.539.61m-6.539-.61L5.25 5.25c1.2.491 1.719.954 2.25 2.25m13.601 5.39a3.75 3.75 0 1 1-6.539.61m6.539-.61a3.751 3.751 0 0 0-6.539.61m6.539-.61L18.75 5.25c-1.2.491-1.719.954-2.25 2.25m-7.062 6c.354-.25 1.362-.75 2.562-.75s2.208.5 2.562.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Gps.ts
+// src/icons/Globe.ts
 import { defineComponent as defineComponent440, h as h440 } from "vue";
-var Gps = defineComponent440({
-  name: "Gps",
+var Globe = defineComponent440({
+  name: "Globe",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15392,16 +15392,16 @@ var Gps = defineComponent440({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75m0-19.5a9.72 9.72 0 0 1 6.903 2.865M12 2.25v1.5m0 18a9.72 9.72 0 0 0 6.903-2.865M12 21.75v-1.5m6.903-1.365A9.72 9.72 0 0 0 21.75 12v-.008m-2.847 6.893.004.004m-.004-.004-1.057-1.057m3.904-5.835a9.72 9.72 0 0 0-2.847-6.878m2.847 6.877h.008m-.008 0h-1.492m-1.355-6.877-1.057 1.057m1.057-1.057.004-.004m-15.15 6.882h-1.5M6.18 6.16l-1.06-1.06m0 13.799 1.06-1.06M12 13.5l3.75 1.5L12 7.5 8.25 15z"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75M2.25 12c0 5.385 4.365 9.75 9.75 9.75M2.25 12H7.5M12 2.25c5.385 0 9.75 4.365 9.75 9.75M12 2.25c-2.485 0-4.5 4.365-4.5 9.75M12 2.25c2.485 0 4.5 4.365 4.5 9.75M12 21.75c5.385 0 9.75-4.365 9.75-9.75M12 21.75c-2.485 0-4.5-4.365-4.5-9.75m4.5 9.75c2.485 0 4.5-4.365 4.5-9.75m5.25 0H16.5m-9 0h9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Gpu.ts
+// src/icons/Gps.ts
 import { defineComponent as defineComponent441, h as h441 } from "vue";
-var Gpu = defineComponent441({
-  name: "Gpu",
+var Gps = defineComponent441({
+  name: "Gps",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15427,16 +15427,16 @@ var Gpu = defineComponent441({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 3.75V6m0 0h18a1.5 1.5 0 0 1 1.5 1.5V15a1.5 1.5 0 0 1-1.5 1.5h-4.5M2.25 6v10.5m0 0v3.75m0-3.75h3m0 0V18a1.5 1.5 0 0 0 1.5 1.5h7.5a1.5 1.5 0 0 0 1.5-1.5v-1.5m-10.5 0h10.5m3-5.25a2.25 2.25 0 1 0-4.5 0 2.25 2.25 0 0 0 4.5 0m-8.25 0a2.25 2.25 0 1 0-4.5 0 2.25 2.25 0 0 0 4.5 0"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75m0-19.5a9.72 9.72 0 0 1 6.903 2.865M12 2.25v1.5m0 18a9.72 9.72 0 0 0 6.903-2.865M12 21.75v-1.5m6.903-1.365A9.72 9.72 0 0 0 21.75 12v-.008m-2.847 6.893.004.004m-.004-.004-1.057-1.057m3.904-5.835a9.72 9.72 0 0 0-2.847-6.878m2.847 6.877h.008m-.008 0h-1.492m-1.355-6.877-1.057 1.057m1.057-1.057.004-.004m-15.15 6.882h-1.5M6.18 6.16l-1.06-1.06m0 13.799 1.06-1.06M12 13.5l3.75 1.5L12 7.5 8.25 15z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Graph.ts
+// src/icons/Gpu.ts
 import { defineComponent as defineComponent442, h as h442 } from "vue";
-var Graph = defineComponent442({
-  name: "Graph",
+var Gpu = defineComponent442({
+  name: "Gpu",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15462,16 +15462,16 @@ var Graph = defineComponent442({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 3.75v15a1.5 1.5 0 0 0 1.5 1.5h18M6 8.25h3.573a1.5 1.5 0 0 1 1.342.83l1.235 2.47m0 0 1.765 3.53a1.5 1.5 0 0 0 2.541.228l.344-.458a1.5 1.5 0 0 1 1.2-.6h3.75m-9.6-2.7-1.968 3.444a1.5 1.5 0 0 1-1.302.756H6m6.15-4.2 3.168-5.544a1.5 1.5 0 0 1 1.303-.756h5.129"/>`
+        innerHTML: `<path d="M2.25 3.75V6m0 0h18a1.5 1.5 0 0 1 1.5 1.5V15a1.5 1.5 0 0 1-1.5 1.5h-4.5M2.25 6v10.5m0 0v3.75m0-3.75h3m0 0V18a1.5 1.5 0 0 0 1.5 1.5h7.5a1.5 1.5 0 0 0 1.5-1.5v-1.5m-10.5 0h10.5m3-5.25a2.25 2.25 0 1 0-4.5 0 2.25 2.25 0 0 0 4.5 0m-8.25 0a2.25 2.25 0 1 0-4.5 0 2.25 2.25 0 0 0 4.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/GraphArea.ts
+// src/icons/Graph.ts
 import { defineComponent as defineComponent443, h as h443 } from "vue";
-var GraphArea = defineComponent443({
-  name: "GraphArea",
+var Graph = defineComponent443({
+  name: "Graph",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15497,16 +15497,16 @@ var GraphArea = defineComponent443({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m6.75 16.5 4.5-6m-4.5 6v3.75m0-3.75-4.5-3m9-3 4.5 1.5m-4.5-1.5v9.75m4.5-8.25 4.5-6.75v15M15.75 12v8.25m-9 0h-3a1.5 1.5 0 0 1-1.5-1.5V13.5m4.5 6.75h4.5m9 0h1.5m-1.5 0h-4.5m0 0h-4.5m-9-16.5v9.75"/>`
+        innerHTML: `<path d="M2.25 3.75v15a1.5 1.5 0 0 0 1.5 1.5h18M6 8.25h3.573a1.5 1.5 0 0 1 1.342.83l1.235 2.47m0 0 1.765 3.53a1.5 1.5 0 0 0 2.541.228l.344-.458a1.5 1.5 0 0 1 1.2-.6h3.75m-9.6-2.7-1.968 3.444a1.5 1.5 0 0 1-1.302.756H6m6.15-4.2 3.168-5.544a1.5 1.5 0 0 1 1.303-.756h5.129"/>`
       }, children);
     };
   }
 });
 
-// src/icons/GraphBars.ts
+// src/icons/GraphArea.ts
 import { defineComponent as defineComponent444, h as h444 } from "vue";
-var GraphBars = defineComponent444({
-  name: "GraphBars",
+var GraphArea = defineComponent444({
+  name: "GraphArea",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15532,16 +15532,16 @@ var GraphBars = defineComponent444({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 3.75v15a1.5 1.5 0 0 0 1.5 1.5h18m-15-3V15m4.5 2.25V9m4.5 8.25V10.5m4.5 6.75V3.75"/>`
+        innerHTML: `<path d="m6.75 16.5 4.5-6m-4.5 6v3.75m0-3.75-4.5-3m9-3 4.5 1.5m-4.5-1.5v9.75m4.5-8.25 4.5-6.75v15M15.75 12v8.25m-9 0h-3a1.5 1.5 0 0 1-1.5-1.5V13.5m4.5 6.75h4.5m9 0h1.5m-1.5 0h-4.5m0 0h-4.5m-9-16.5v9.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/GraphBarsLarge.ts
+// src/icons/GraphBars.ts
 import { defineComponent as defineComponent445, h as h445 } from "vue";
-var GraphBarsLarge = defineComponent445({
-  name: "GraphBarsLarge",
+var GraphBars = defineComponent445({
+  name: "GraphBars",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15567,16 +15567,16 @@ var GraphBarsLarge = defineComponent445({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 3.75v15a1.5 1.5 0 0 0 1.5 1.5h18m-16.5-3h3v-6h-3zm6 0v-9h3v9zm6 0h3V3.75h-3z"/>`
+        innerHTML: `<path d="M2.25 3.75v15a1.5 1.5 0 0 0 1.5 1.5h18m-15-3V15m4.5 2.25V9m4.5 8.25V10.5m4.5 6.75V3.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/GraphPie.ts
+// src/icons/GraphBarsLarge.ts
 import { defineComponent as defineComponent446, h as h446 } from "vue";
-var GraphPie = defineComponent446({
-  name: "GraphPie",
+var GraphBarsLarge = defineComponent446({
+  name: "GraphBarsLarge",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15602,16 +15602,16 @@ var GraphPie = defineComponent446({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.894 5.106A9.72 9.72 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75a9.72 9.72 0 0 0 6.894-2.856m0-13.788A9.72 9.72 0 0 1 21.75 12a9.72 9.72 0 0 1-2.856 6.894m0-13.788L12 12l6.894 6.894"/>`
+        innerHTML: `<path d="M2.25 3.75v15a1.5 1.5 0 0 0 1.5 1.5h18m-16.5-3h3v-6h-3zm6 0v-9h3v9zm6 0h3V3.75h-3z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/GraphPoll.ts
+// src/icons/GraphPie.ts
 import { defineComponent as defineComponent447, h as h447 } from "vue";
-var GraphPoll = defineComponent447({
-  name: "GraphPoll",
+var GraphPie = defineComponent447({
+  name: "GraphPie",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15637,16 +15637,16 @@ var GraphPoll = defineComponent447({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.75 20.25h-18a1.5 1.5 0 0 1-1.5-1.5v-1.5m0 0h7.5V13.5h-7.5m0 3.75V13.5m0 0v-3m0 0h15V6.75h-15m0 3.75V6.75m0-3v3"/>`
+        innerHTML: `<path d="M18.894 5.106A9.72 9.72 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75a9.72 9.72 0 0 0 6.894-2.856m0-13.788A9.72 9.72 0 0 1 21.75 12a9.72 9.72 0 0 1-2.856 6.894m0-13.788L12 12l6.894 6.894"/>`
       }, children);
     };
   }
 });
 
-// src/icons/GraphScatter.ts
+// src/icons/GraphPoll.ts
 import { defineComponent as defineComponent448, h as h448 } from "vue";
-var GraphScatter = defineComponent448({
-  name: "GraphScatter",
+var GraphPoll = defineComponent448({
+  name: "GraphPoll",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15672,16 +15672,16 @@ var GraphScatter = defineComponent448({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 3.75v15a1.5 1.5 0 0 0 1.5 1.5h18m-16.5-4.5v.75m4.5-3v.75m3 1.5v.75m-.75-6v.75m4.5 0V12m-3-6.75V6m6.75 6v.75M18.75 6v.75"/>`
+        innerHTML: `<path d="M21.75 20.25h-18a1.5 1.5 0 0 1-1.5-1.5v-1.5m0 0h7.5V13.5h-7.5m0 3.75V13.5m0 0v-3m0 0h15V6.75h-15m0 3.75V6.75m0-3v3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/GraphStroke.ts
+// src/icons/GraphScatter.ts
 import { defineComponent as defineComponent449, h as h449 } from "vue";
-var GraphStroke = defineComponent449({
-  name: "GraphStroke",
+var GraphScatter = defineComponent449({
+  name: "GraphScatter",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15707,16 +15707,16 @@ var GraphStroke = defineComponent449({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 3.75v15a1.5 1.5 0 0 0 1.5 1.5h18m-15-3.75 4.5-6 4.5 1.5 4.5-6.75"/>`
+        innerHTML: `<path d="M2.25 3.75v15a1.5 1.5 0 0 0 1.5 1.5h18m-16.5-4.5v.75m4.5-3v.75m3 1.5v.75m-.75-6v.75m4.5 0V12m-3-6.75V6m6.75 6v.75M18.75 6v.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Gravity.ts
+// src/icons/GraphStroke.ts
 import { defineComponent as defineComponent450, h as h450 } from "vue";
-var Gravity = defineComponent450({
-  name: "Gravity",
+var GraphStroke = defineComponent450({
+  name: "GraphStroke",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15742,16 +15742,16 @@ var Gravity = defineComponent450({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 2.25V4.5M15.75 3v2.25M8.25 3v2.25m4.5 10.5h.75v.75a1.5 1.5 0 0 1-3 0v-3a1.5 1.5 0 0 1 3 0m5.25 1.5a6.75 6.75 0 1 1-13.5 0 6.75 6.75 0 0 1 13.5 0"/>`
+        innerHTML: `<path d="M2.25 3.75v15a1.5 1.5 0 0 0 1.5 1.5h18m-15-3.75 4.5-6 4.5 1.5 4.5-6.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Grid.ts
+// src/icons/Gravity.ts
 import { defineComponent as defineComponent451, h as h451 } from "vue";
-var Grid = defineComponent451({
-  name: "Grid",
+var Gravity = defineComponent451({
+  name: "Gravity",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15777,16 +15777,16 @@ var Grid = defineComponent451({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 3h7.5A1.5 1.5 0 0 1 21 4.5V12m-9-9H4.5A1.5 1.5 0 0 0 3 4.5V12m9-9v9m0 9H4.5A1.5 1.5 0 0 1 3 19.5V12m9 9h7.5a1.5 1.5 0 0 0 1.5-1.5V12m-9 9v-9m0 0H3m9 0h9"/>`
+        innerHTML: `<path d="M12 2.25V4.5M15.75 3v2.25M8.25 3v2.25m4.5 10.5h.75v.75a1.5 1.5 0 0 1-3 0v-3a1.5 1.5 0 0 1 3 0m5.25 1.5a6.75 6.75 0 1 1-13.5 0 6.75 6.75 0 0 1 13.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Guides.ts
+// src/icons/Grid.ts
 import { defineComponent as defineComponent452, h as h452 } from "vue";
-var Guides = defineComponent452({
-  name: "Guides",
+var Grid = defineComponent452({
+  name: "Grid",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15812,16 +15812,16 @@ var Guides = defineComponent452({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M16.5 9h3A1.5 1.5 0 0 0 21 7.5v-3A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5v15A1.5 1.5 0 0 0 4.5 21h3A1.5 1.5 0 0 0 9 19.5v-3M16.5 9V6.75m0 2.25h-3.75m0 0V6.75m0 2.25H9m0 0V6.75M9 9H6.75M9 9v3.75m0 0H6.75m2.25 0v3.75m0 0H6.75"/>`
+        innerHTML: `<path d="M12 3h7.5A1.5 1.5 0 0 1 21 4.5V12m-9-9H4.5A1.5 1.5 0 0 0 3 4.5V12m9-9v9m0 9H4.5A1.5 1.5 0 0 1 3 19.5V12m9 9h7.5a1.5 1.5 0 0 0 1.5-1.5V12m-9 9v-9m0 0H3m9 0h9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/GuidesLock.ts
+// src/icons/Guides.ts
 import { defineComponent as defineComponent453, h as h453 } from "vue";
-var GuidesLock = defineComponent453({
-  name: "GuidesLock",
+var Guides = defineComponent453({
+  name: "Guides",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15847,16 +15847,16 @@ var GuidesLock = defineComponent453({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M16.5 9h3A1.5 1.5 0 0 0 21 7.5v-3A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5v15A1.5 1.5 0 0 0 4.5 21h3A1.5 1.5 0 0 0 9 19.5v-3M16.5 9V6.75m0 2.25h-3.75m0 0V6.75m0 2.25H9m0 0V6.75M9 9H6.75M9 9v3.75m0 0H6.75m2.25 0v3.75m0 0H6.75M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
+        innerHTML: `<path d="M16.5 9h3A1.5 1.5 0 0 0 21 7.5v-3A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5v15A1.5 1.5 0 0 0 4.5 21h3A1.5 1.5 0 0 0 9 19.5v-3M16.5 9V6.75m0 2.25h-3.75m0 0V6.75m0 2.25H9m0 0V6.75M9 9H6.75M9 9v3.75m0 0H6.75m2.25 0v3.75m0 0H6.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/H1.ts
+// src/icons/GuidesLock.ts
 import { defineComponent as defineComponent454, h as h454 } from "vue";
-var H1 = defineComponent454({
-  name: "H1",
+var GuidesLock = defineComponent454({
+  name: "GuidesLock",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15882,16 +15882,16 @@ var H1 = defineComponent454({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m17.25 14.25 2.25-1.5v7.5m0 0h2.25m-2.25 0h-2.25m-15 0V12m0 0V3.75m0 8.25h10.5m0 8.25V12m0 0V3.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M16.5 9h3A1.5 1.5 0 0 0 21 7.5v-3A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5v15A1.5 1.5 0 0 0 4.5 21h3A1.5 1.5 0 0 0 9 19.5v-3M16.5 9V6.75m0 2.25h-3.75m0 0V6.75m0 2.25H9m0 0V6.75M9 9H6.75M9 9v3.75m0 0H6.75m2.25 0v3.75m0 0H6.75M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/H2.ts
+// src/icons/H1.ts
 import { defineComponent as defineComponent455, h as h455 } from "vue";
-var H2 = defineComponent455({
-  name: "H2",
+var H1 = defineComponent455({
+  name: "H1",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15917,16 +15917,16 @@ var H2 = defineComponent455({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 20.25V12m0 0V3.75m0 8.25h10.5m0 8.25V12m0 0V3.75m9 16.5h-4.5l3.879-3.879a2.121 2.121 0 0 0-1.5-3.621H19.5A2.25 2.25 0 0 0 17.25 15"/>`
+        innerHTML: `<path d="m17.25 14.25 2.25-1.5v7.5m0 0h2.25m-2.25 0h-2.25m-15 0V12m0 0V3.75m0 8.25h10.5m0 8.25V12m0 0V3.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/H3.ts
+// src/icons/H2.ts
 import { defineComponent as defineComponent456, h as h456 } from "vue";
-var H3 = defineComponent456({
-  name: "H3",
+var H2 = defineComponent456({
+  name: "H2",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15952,16 +15952,16 @@ var H3 = defineComponent456({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 20.25V12m0 0V3.75m0 8.25h10.5m0 8.25V12m0 0V3.75m7.5 12.75h-.75m.75 0s1.5 0 1.5 1.875-2.25 1.875-2.25 1.875-2.25 0-2.25-1.875m3-1.875s1.5 0 1.5-1.875c0-1.918-2.25-1.875-2.25-1.875s-2.25 0-2.25 1.875"/>`
+        innerHTML: `<path d="M2.25 20.25V12m0 0V3.75m0 8.25h10.5m0 8.25V12m0 0V3.75m9 16.5h-4.5l3.879-3.879a2.121 2.121 0 0 0-1.5-3.621H19.5A2.25 2.25 0 0 0 17.25 15"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Hammer.ts
+// src/icons/H3.ts
 import { defineComponent as defineComponent457, h as h457 } from "vue";
-var Hammer = defineComponent457({
-  name: "Hammer",
+var H3 = defineComponent457({
+  name: "H3",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -15987,16 +15987,16 @@ var Hammer = defineComponent457({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m9 11.25 9.129 9.129a2.121 2.121 0 0 0 3-3L12 8.25m-3 3 3-3m-3 3L7.5 12l-.75 1.5L2.25 9l1.5-.75.75-1.5L8.25 3h9v3h-3A2.25 2.25 0 0 0 12 8.25"/>`
+        innerHTML: `<path d="M2.25 20.25V12m0 0V3.75m0 8.25h10.5m0 8.25V12m0 0V3.75m7.5 12.75h-.75m.75 0s1.5 0 1.5 1.875-2.25 1.875-2.25 1.875-2.25 0-2.25-1.875m3-1.875s1.5 0 1.5-1.875c0-1.918-2.25-1.875-2.25-1.875s-2.25 0-2.25 1.875"/>`
       }, children);
     };
   }
 });
 
-// src/icons/HandleOrizontal.ts
+// src/icons/Hammer.ts
 import { defineComponent as defineComponent458, h as h458 } from "vue";
-var HandleOrizontal = defineComponent458({
-  name: "HandleOrizontal",
+var Hammer = defineComponent458({
+  name: "Hammer",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16022,16 +16022,16 @@ var HandleOrizontal = defineComponent458({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 6.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M21 6.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M3 6.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M12 15.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M21 15.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M3 15.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"/>`
+        innerHTML: `<path d="m9 11.25 9.129 9.129a2.121 2.121 0 0 0 3-3L12 8.25m-3 3 3-3m-3 3L7.5 12l-.75 1.5L2.25 9l1.5-.75.75-1.5L8.25 3h9v3h-3A2.25 2.25 0 0 0 12 8.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/HandleVertical.ts
+// src/icons/HandleOrizontal.ts
 import { defineComponent as defineComponent459, h as h459 } from "vue";
-var HandleVertical = defineComponent459({
-  name: "HandleVertical",
+var HandleOrizontal = defineComponent459({
+  name: "HandleOrizontal",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16057,16 +16057,16 @@ var HandleVertical = defineComponent459({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M6.75 12a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0M6.75 3a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0M6.75 21a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0M15.75 12a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0M15.75 3a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0M15.75 21a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 6.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M21 6.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M3 6.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M12 15.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M21 15.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M3 15.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Handshake.ts
+// src/icons/HandleVertical.ts
 import { defineComponent as defineComponent460, h as h460 } from "vue";
-var Handshake = defineComponent460({
-  name: "Handshake",
+var HandleVertical = defineComponent460({
+  name: "HandleVertical",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16092,16 +16092,16 @@ var Handshake = defineComponent460({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12.75 6C10 5.1 7.148 4.917 4.522 5.73c-.487.15-.832.572-.932 1.073l-1.115 5.574a1.5 1.5 0 0 0 .8 1.635L5.25 15l.65.375M12.75 6l3.627 5.255c-.506.682-1.878 1.811-3.239.297l-2.126-2.254C10.84 10 9.423 11.876 7.848 12L5.9 15.375M12.75 6c2.157-.956 4.607-.943 6.738-.273.482.152.822.571.92 1.067l1.119 5.59c.007.034.01.11.008.145-.067 1.432-1.838 2.194-2.608 3.403-1.207 1.895-2.07 3.01-4.08 4.477-.2.15-.587.337-1.2.212-.955-.196-1.161-1.192-1.161-1.192-.2.15-.587.337-1.2.212-.955-.196-1.16-1.192-1.16-1.192s-.713.455-1.5 0c-.79-.456-.75-1.3-.75-1.3s-.79.613-1.65-.1c-.86-.712-.326-1.674-.326-1.674"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M6.75 12a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0M6.75 3a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0M6.75 21a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0M15.75 12a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0M15.75 3a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0M15.75 21a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Hanger.ts
+// src/icons/Handshake.ts
 import { defineComponent as defineComponent461, h as h461 } from "vue";
-var Hanger = defineComponent461({
-  name: "Hanger",
+var Handshake = defineComponent461({
+  name: "Handshake",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16127,16 +16127,16 @@ var Hanger = defineComponent461({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m12 9.75 8.156 3.764a2.744 2.744 0 0 1-1.15 5.236H4.994a2.744 2.744 0 0 1-1.15-5.236zm0 0v-.314c0-.708.453-1.337 1.125-1.561a1.645 1.645 0 0 0 1.125-1.56v-.386a2.18 2.18 0 0 0-2.18-2.179H12A2.25 2.25 0 0 0 9.75 6"/>`
+        innerHTML: `<path d="M12.75 6C10 5.1 7.148 4.917 4.522 5.73c-.487.15-.832.572-.932 1.073l-1.115 5.574a1.5 1.5 0 0 0 .8 1.635L5.25 15l.65.375M12.75 6l3.627 5.255c-.506.682-1.878 1.811-3.239.297l-2.126-2.254C10.84 10 9.423 11.876 7.848 12L5.9 15.375M12.75 6c2.157-.956 4.607-.943 6.738-.273.482.152.822.571.92 1.067l1.119 5.59c.007.034.01.11.008.145-.067 1.432-1.838 2.194-2.608 3.403-1.207 1.895-2.07 3.01-4.08 4.477-.2.15-.587.337-1.2.212-.955-.196-1.161-1.192-1.161-1.192-.2.15-.587.337-1.2.212-.955-.196-1.16-1.192-1.16-1.192s-.713.455-1.5 0c-.79-.456-.75-1.3-.75-1.3s-.79.613-1.65-.1c-.86-.712-.326-1.674-.326-1.674"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Hashtag.ts
+// src/icons/Hanger.ts
 import { defineComponent as defineComponent462, h as h462 } from "vue";
-var Hashtag = defineComponent462({
-  name: "Hashtag",
+var Hanger = defineComponent462({
+  name: "Hanger",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16162,16 +16162,16 @@ var Hashtag = defineComponent462({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m18 2.25-1.385 6m0 0-1.73 7.5m1.73-7.5h3.635m-3.635 0h-7.5m5.77 7.5-1.385 6m1.385-6h3.865m-3.865 0h-7.5m1.73-7.5H5.25m3.865 0 1.385-6m-1.385 6-1.73 7.5m0 0H3.75m3.635 0L6 21.75"/>`
+        innerHTML: `<path d="m12 9.75 8.156 3.764a2.744 2.744 0 0 1-1.15 5.236H4.994a2.744 2.744 0 0 1-1.15-5.236zm0 0v-.314c0-.708.453-1.337 1.125-1.561a1.645 1.645 0 0 0 1.125-1.56v-.386a2.18 2.18 0 0 0-2.18-2.179H12A2.25 2.25 0 0 0 9.75 6"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Hdd.ts
+// src/icons/Hashtag.ts
 import { defineComponent as defineComponent463, h as h463 } from "vue";
-var Hdd = defineComponent463({
-  name: "Hdd",
+var Hashtag = defineComponent463({
+  name: "Hashtag",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16197,16 +16197,16 @@ var Hdd = defineComponent463({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M8.543 14.451a5.25 5.25 0 1 1 2.427 1.198m-2.427-1.198-.902 1.03a1.77 1.77 0 0 0 1.888 2.843c.6-.2 1.048-.707 1.172-1.328l.27-1.347m-2.428-1.198 2.534-2.896a.374.374 0 0 1 .648.319l-.755 3.775M5.25 2.25h13.5a1.5 1.5 0 0 1 1.5 1.5v16.5a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5V3.75a1.5 1.5 0 0 1 1.5-1.5"/>`
+        innerHTML: `<path d="m18 2.25-1.385 6m0 0-1.73 7.5m1.73-7.5h3.635m-3.635 0h-7.5m5.77 7.5-1.385 6m1.385-6h3.865m-3.865 0h-7.5m1.73-7.5H5.25m3.865 0 1.385-6m-1.385 6-1.73 7.5m0 0H3.75m3.635 0L6 21.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Hdmi.ts
+// src/icons/Hdd.ts
 import { defineComponent as defineComponent464, h as h464 } from "vue";
-var Hdmi = defineComponent464({
-  name: "Hdmi",
+var Hdd = defineComponent464({
+  name: "Hdd",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16232,16 +16232,16 @@ var Hdmi = defineComponent464({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6 11.25h12M2.25 9v4.5a1.5 1.5 0 0 0 1.5 1.5h1.5l2.25 2.25h9L18.75 15h1.5a1.5 1.5 0 0 0 1.5-1.5V9a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 9"/>`
+        innerHTML: `<path d="M8.543 14.451a5.25 5.25 0 1 1 2.427 1.198m-2.427-1.198-.902 1.03a1.77 1.77 0 0 0 1.888 2.843c.6-.2 1.048-.707 1.172-1.328l.27-1.347m-2.428-1.198 2.534-2.896a.374.374 0 0 1 .648.319l-.755 3.775M5.25 2.25h13.5a1.5 1.5 0 0 1 1.5 1.5v16.5a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5V3.75a1.5 1.5 0 0 1 1.5-1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Hdri.ts
+// src/icons/Hdmi.ts
 import { defineComponent as defineComponent465, h as h465 } from "vue";
-var Hdri = defineComponent465({
-  name: "Hdri",
+var Hdmi = defineComponent465({
+  name: "Hdmi",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16267,16 +16267,16 @@ var Hdri = defineComponent465({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21 16.5c0 2.9-4.029 5.25-9 5.25-4.97 0-9-2.35-9-5.25m18 0c0-2.286-2.503-4.23-5.998-4.951M21 16.5a9 9 0 0 0-18 0m0 0c0-2.286 2.504-4.23 6-4.951m3-7.799v-1.5m5.249 3 .75-1.5M6.75 5.25 6 3.75m-3 4.5-.75-.75M21 8.25l.75-.75"/>`
+        innerHTML: `<path d="M6 11.25h12M2.25 9v4.5a1.5 1.5 0 0 0 1.5 1.5h1.5l2.25 2.25h9L18.75 15h1.5a1.5 1.5 0 0 0 1.5-1.5V9a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Headphones.ts
+// src/icons/Hdri.ts
 import { defineComponent as defineComponent466, h as h466 } from "vue";
-var Headphones = defineComponent466({
-  name: "Headphones",
+var Hdri = defineComponent466({
+  name: "Hdri",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16302,16 +16302,16 @@ var Headphones = defineComponent466({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M20.049 13.5a2.386 2.386 0 0 1 1.513 3.004l-.973 2.978a2.372 2.372 0 1 1-4.508-1.473l.981-3.005A2.36 2.36 0 0 1 20.05 13.5m0 0C21.456 8.25 18.75 3 12 3S2.544 8.25 3.951 13.5m0 0a2.386 2.386 0 0 0-1.513 3.004l.973 2.978A2.372 2.372 0 0 0 7.92 18.01l-.982-3.005A2.36 2.36 0 0 0 3.95 13.5"/>`
+        innerHTML: `<path d="M21 16.5c0 2.9-4.029 5.25-9 5.25-4.97 0-9-2.35-9-5.25m18 0c0-2.286-2.503-4.23-5.998-4.951M21 16.5a9 9 0 0 0-18 0m0 0c0-2.286 2.504-4.23 6-4.951m3-7.799v-1.5m5.249 3 .75-1.5M6.75 5.25 6 3.75m-3 4.5-.75-.75M21 8.25l.75-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Hearing.ts
+// src/icons/Headphones.ts
 import { defineComponent as defineComponent467, h as h467 } from "vue";
-var Hearing = defineComponent467({
-  name: "Hearing",
+var Headphones = defineComponent467({
+  name: "Headphones",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16337,16 +16337,16 @@ var Hearing = defineComponent467({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M5.25 9.75V9A6.75 6.75 0 0 1 12 2.25h.158a6.59 6.59 0 0 1 6.592 6.592 4.5 4.5 0 0 1-2.004 3.744l-.492.328a4.5 4.5 0 0 0-2.004 3.744v.733a4.359 4.359 0 0 1-8.493 1.379l-.507-1.52m3-1.5c1.5 0 2.25-1.368 2.25-2.25 0-.535-.277-1.25-.83-1.73-.645-.558-1.42-1.212-1.42-2.066v-.76c0-2.04 1.682-3.694 3.721-3.694 1.538 0 2.876.926 3.462 2.25"/>`
+        innerHTML: `<path d="M20.049 13.5a2.386 2.386 0 0 1 1.513 3.004l-.973 2.978a2.372 2.372 0 1 1-4.508-1.473l.981-3.005A2.36 2.36 0 0 1 20.05 13.5m0 0C21.456 8.25 18.75 3 12 3S2.544 8.25 3.951 13.5m0 0a2.386 2.386 0 0 0-1.513 3.004l.973 2.978A2.372 2.372 0 0 0 7.92 18.01l-.982-3.005A2.36 2.36 0 0 0 3.95 13.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/HearingOff.ts
+// src/icons/Hearing.ts
 import { defineComponent as defineComponent468, h as h468 } from "vue";
-var HearingOff = defineComponent468({
-  name: "HearingOff",
+var Hearing = defineComponent468({
+  name: "Hearing",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16372,16 +16372,16 @@ var HearingOff = defineComponent468({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M5.25 9.75V9c0-1.09.259-2.12.718-3.032M5.25 17.25l.507 1.52a4.359 4.359 0 0 0 8.493-1.378v-.734c0-.689.158-1.357.449-1.959M8.306 8.306a3.7 3.7 0 0 0-.056.637v.76c0 .855.775 1.509 1.42 2.068.553.479.83 1.194.83 1.729 0 .882-.75 2.25-2.25 2.25m.056-7.444 6.393 6.393M8.306 8.306 5.968 5.968m4.23-.27a3.7 3.7 0 0 1 1.773-.448c1.538 0 2.876.926 3.462 2.25m-.734 7.199 7.051 7.051m-4.805-9.305a4.5 4.5 0 0 0 1.805-3.603 6.59 6.59 0 0 0-6.592-6.592H12a6.72 6.72 0 0 0-3.964 1.286M5.968 5.968 2.25 2.25"/>`
+        innerHTML: `<path d="M5.25 9.75V9A6.75 6.75 0 0 1 12 2.25h.158a6.59 6.59 0 0 1 6.592 6.592 4.5 4.5 0 0 1-2.004 3.744l-.492.328a4.5 4.5 0 0 0-2.004 3.744v.733a4.359 4.359 0 0 1-8.493 1.379l-.507-1.52m3-1.5c1.5 0 2.25-1.368 2.25-2.25 0-.535-.277-1.25-.83-1.73-.645-.558-1.42-1.212-1.42-2.066v-.76c0-2.04 1.682-3.694 3.721-3.694 1.538 0 2.876.926 3.462 2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Heart.ts
+// src/icons/HearingOff.ts
 import { defineComponent as defineComponent469, h as h469 } from "vue";
-var Heart = defineComponent469({
-  name: "Heart",
+var HearingOff = defineComponent469({
+  name: "HearingOff",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16407,16 +16407,16 @@ var Heart = defineComponent469({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12.696 20.054c2.23-1.351 9.054-5.898 9.054-10.975 0-6.605-7.72-6.821-9.582-2.021-.055.142-.281.142-.336 0-1.862-4.8-9.582-4.585-9.582 2.02 0 5.078 6.823 9.625 9.054 10.976.432.262.96.262 1.392 0"/>`
+        innerHTML: `<path d="M5.25 9.75V9c0-1.09.259-2.12.718-3.032M5.25 17.25l.507 1.52a4.359 4.359 0 0 0 8.493-1.378v-.734c0-.689.158-1.357.449-1.959M8.306 8.306a3.7 3.7 0 0 0-.056.637v.76c0 .855.775 1.509 1.42 2.068.553.479.83 1.194.83 1.729 0 .882-.75 2.25-2.25 2.25m.056-7.444 6.393 6.393M8.306 8.306 5.968 5.968m4.23-.27a3.7 3.7 0 0 1 1.773-.448c1.538 0 2.876.926 3.462 2.25m-.734 7.199 7.051 7.051m-4.805-9.305a4.5 4.5 0 0 0 1.805-3.603 6.59 6.59 0 0 0-6.592-6.592H12a6.72 6.72 0 0 0-3.964 1.286M5.968 5.968 2.25 2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/HeartBroken.ts
+// src/icons/Heart.ts
 import { defineComponent as defineComponent470, h as h470 } from "vue";
-var HeartBroken = defineComponent470({
-  name: "HeartBroken",
+var Heart = defineComponent470({
+  name: "Heart",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16442,16 +16442,16 @@ var HeartBroken = defineComponent470({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M11.832 7.058C9.97 2.258 2.25 2.473 2.25 9.078c0 5.078 6.823 9.625 9.054 10.976.216.13.456.196.696.196m-.168-13.192c.055.142.281.142.336 0 1.862-4.8 9.582-4.584 9.582 2.02 0 5.078-6.823 9.625-9.054 10.976a1.34 1.34 0 0 1-.696.196m-.168-13.192.918 2.692-1.5 3 1.5 3-.75 4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12.696 20.054c2.23-1.351 9.054-5.898 9.054-10.975 0-6.605-7.72-6.821-9.582-2.021-.055.142-.281.142-.336 0-1.862-4.8-9.582-4.585-9.582 2.02 0 5.078 6.823 9.625 9.054 10.976.432.262.96.262 1.392 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/HeartCheck.ts
+// src/icons/HeartBroken.ts
 import { defineComponent as defineComponent471, h as h471 } from "vue";
-var HeartCheck = defineComponent471({
-  name: "HeartCheck",
+var HeartBroken = defineComponent471({
+  name: "HeartBroken",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16477,16 +16477,16 @@ var HeartCheck = defineComponent471({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.052 11.978c.437-.933.698-1.906.698-2.9 0-6.604-7.72-6.82-9.582-2.02-.055.142-.281.142-.336 0-1.862-4.8-9.582-4.585-9.582 2.02 0 5.078 6.823 9.625 9.054 10.976q.149.09.31.138m2.636-1.442 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M11.832 7.058C9.97 2.258 2.25 2.473 2.25 9.078c0 5.078 6.823 9.625 9.054 10.976.216.13.456.196.696.196m-.168-13.192c.055.142.281.142.336 0 1.862-4.8 9.582-4.584 9.582 2.02 0 5.078-6.823 9.625-9.054 10.976a1.34 1.34 0 0 1-.696.196m-.168-13.192.918 2.692-1.5 3 1.5 3-.75 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/HeartCross.ts
+// src/icons/HeartCheck.ts
 import { defineComponent as defineComponent472, h as h472 } from "vue";
-var HeartCross = defineComponent472({
-  name: "HeartCross",
+var HeartCheck = defineComponent472({
+  name: "HeartCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16512,16 +16512,16 @@ var HeartCross = defineComponent472({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.052 11.978c.437-.933.698-1.906.698-2.9 0-6.604-7.72-6.82-9.582-2.02-.055.142-.281.142-.336 0-1.862-4.8-9.582-4.585-9.582 2.02 0 5.078 6.823 9.625 9.054 10.976q.149.09.31.138M15.75 22.5l3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.052 11.978c.437-.933.698-1.906.698-2.9 0-6.604-7.72-6.82-9.582-2.02-.055.142-.281.142-.336 0-1.862-4.8-9.582-4.585-9.582 2.02 0 5.078 6.823 9.625 9.054 10.976q.149.09.31.138m2.636-1.442 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
       }, children);
     };
   }
 });
 
-// src/icons/HeartLocked.ts
+// src/icons/HeartCross.ts
 import { defineComponent as defineComponent473, h as h473 } from "vue";
-var HeartLocked = defineComponent473({
-  name: "HeartLocked",
+var HeartCross = defineComponent473({
+  name: "HeartCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16547,16 +16547,16 @@ var HeartLocked = defineComponent473({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.052 11.978c.437-.933.698-1.906.698-2.9 0-6.604-7.72-6.82-9.582-2.02-.055.142-.281.142-.336 0-1.862-4.8-9.582-4.585-9.582 2.02 0 5.078 6.823 9.625 9.054 10.976q.149.09.31.138M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.052 11.978c.437-.933.698-1.906.698-2.9 0-6.604-7.72-6.82-9.582-2.02-.055.142-.281.142-.336 0-1.862-4.8-9.582-4.585-9.582 2.02 0 5.078 6.823 9.625 9.054 10.976q.149.09.31.138M15.75 22.5l3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/HeartMedical.ts
+// src/icons/HeartLocked.ts
 import { defineComponent as defineComponent474, h as h474 } from "vue";
-var HeartMedical = defineComponent474({
-  name: "HeartMedical",
+var HeartLocked = defineComponent474({
+  name: "HeartLocked",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16582,16 +16582,16 @@ var HeartMedical = defineComponent474({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6.838 10.175a6.04 6.04 0 0 0-.488 5.27l.87 2.334c.888 2.381 3.241 3.971 5.88 3.971s4.992-1.59 5.88-3.97l.87-2.335c1.14-3.056-.321-5.943-3.015-7.377m-9.997 2.107C5.242 9.1 3.75 9.1 3.75 9.1m3.088 1.074a6.5 6.5 0 0 1 1.449-1.676m0 0a3.5 3.5 0 0 1-.125-.68m.125.68c.804 2.807 3.992 0 6.05-2.142.288-.3.6-.565.924-.798m-7.099 2.26a3.568 3.568 0 0 1 .68-2.41m-.68 2.41C5.862 6.466 3.75 6.466 3.75 6.466m13.085 1.602c-.869.702-1.535 1.848-.985 3.956l.079.188a4.53 4.53 0 0 1-.629 4.555m1.535-8.699c1.627-1.314 3.415-1.314 3.415-1.314m-4.989-1.195C17.666 3.83 20.25 3.83 20.25 3.83M15.261 5.56A3.83 3.83 0 0 0 13.31 4.05m-2.632.005A4 4 0 0 1 12 3.83c.46 0 .9.077 1.31.219m-2.633.005a3.84 3.84 0 0 0-1.834 1.353m1.834-1.353L9.998 2.25m3.311 1.8.69-1.8M8.842 5.408 7.05 4.201"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.052 11.978c.437-.933.698-1.906.698-2.9 0-6.604-7.72-6.82-9.582-2.02-.055.142-.281.142-.336 0-1.862-4.8-9.582-4.585-9.582 2.02 0 5.078 6.823 9.625 9.054 10.976q.149.09.31.138M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/HeartMedicalCheck.ts
+// src/icons/HeartMedical.ts
 import { defineComponent as defineComponent475, h as h475 } from "vue";
-var HeartMedicalCheck = defineComponent475({
-  name: "HeartMedicalCheck",
+var HeartMedical = defineComponent475({
+  name: "HeartMedical",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16617,16 +16617,16 @@ var HeartMedicalCheck = defineComponent475({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12.359 21.708c-2.33-.266-4.335-1.773-5.139-3.929l-.87-2.334a6.04 6.04 0 0 1 .488-5.27m0 0C5.242 9.1 3.75 9.1 3.75 9.1m3.088 1.074a6.5 6.5 0 0 1 1.449-1.676m0 0a3.5 3.5 0 0 1-.125-.68m.125.68c.804 2.807 3.992 0 6.05-2.142.288-.3.6-.565.924-.798m-7.099 2.26a3.568 3.568 0 0 1 .68-2.41m-.68 2.41C5.862 6.466 3.75 6.466 3.75 6.466m13.085 1.602c1.479.787 2.585 2.012 3.095 3.462m-3.095-3.462c-.813.657-1.449 1.703-1.076 3.563m1.076-3.563c1.627-1.314 3.415-1.314 3.415-1.314m-4.989-1.195C17.666 3.83 20.25 3.83 20.25 3.83M15.261 5.56A3.83 3.83 0 0 0 13.31 4.05m-2.632.005A4 4 0 0 1 12 3.83c.46 0 .9.077 1.31.219m-2.633.005a3.84 3.84 0 0 0-1.834 1.353m1.834-1.353L9.998 2.25m3.311 1.8.69-1.8M8.842 5.408 7.05 4.201m7.2 14.549 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
+        innerHTML: `<path d="M6.838 10.175a6.04 6.04 0 0 0-.488 5.27l.87 2.334c.888 2.381 3.241 3.971 5.88 3.971s4.992-1.59 5.88-3.97l.87-2.335c1.14-3.056-.321-5.943-3.015-7.377m-9.997 2.107C5.242 9.1 3.75 9.1 3.75 9.1m3.088 1.074a6.5 6.5 0 0 1 1.449-1.676m0 0a3.5 3.5 0 0 1-.125-.68m.125.68c.804 2.807 3.992 0 6.05-2.142.288-.3.6-.565.924-.798m-7.099 2.26a3.568 3.568 0 0 1 .68-2.41m-.68 2.41C5.862 6.466 3.75 6.466 3.75 6.466m13.085 1.602c-.869.702-1.535 1.848-.985 3.956l.079.188a4.53 4.53 0 0 1-.629 4.555m1.535-8.699c1.627-1.314 3.415-1.314 3.415-1.314m-4.989-1.195C17.666 3.83 20.25 3.83 20.25 3.83M15.261 5.56A3.83 3.83 0 0 0 13.31 4.05m-2.632.005A4 4 0 0 1 12 3.83c.46 0 .9.077 1.31.219m-2.633.005a3.84 3.84 0 0 0-1.834 1.353m1.834-1.353L9.998 2.25m3.311 1.8.69-1.8M8.842 5.408 7.05 4.201"/>`
       }, children);
     };
   }
 });
 
-// src/icons/HeartMedicalCross.ts
+// src/icons/HeartMedicalCheck.ts
 import { defineComponent as defineComponent476, h as h476 } from "vue";
-var HeartMedicalCross = defineComponent476({
-  name: "HeartMedicalCross",
+var HeartMedicalCheck = defineComponent476({
+  name: "HeartMedicalCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16652,16 +16652,16 @@ var HeartMedicalCross = defineComponent476({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12.359 21.708c-2.33-.266-4.335-1.773-5.139-3.929l-.87-2.334a6.04 6.04 0 0 1 .488-5.27m0 0C5.242 9.1 3.75 9.1 3.75 9.1m3.088 1.074a6.5 6.5 0 0 1 1.449-1.676m0 0a3.5 3.5 0 0 1-.125-.68m.125.68c.804 2.807 3.992 0 6.05-2.142.288-.3.6-.565.924-.798m-7.099 2.26a3.568 3.568 0 0 1 .68-2.41m-.68 2.41C5.862 6.466 3.75 6.466 3.75 6.466m13.085 1.602c1.479.787 2.585 2.012 3.095 3.462m-3.095-3.462c-.813.657-1.449 1.703-1.076 3.563m1.076-3.563c1.627-1.314 3.415-1.314 3.415-1.314m-4.989-1.195C17.666 3.83 20.25 3.83 20.25 3.83M15.261 5.56A3.83 3.83 0 0 0 13.31 4.05m-2.632.005A4 4 0 0 1 12 3.83c.46 0 .9.077 1.31.219m-2.633.005a3.84 3.84 0 0 0-1.834 1.353m1.834-1.353L9.998 2.25m3.311 1.8.69-1.8M8.842 5.408 7.05 4.201m8.7 18.299 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12.359 21.708c-2.33-.266-4.335-1.773-5.139-3.929l-.87-2.334a6.04 6.04 0 0 1 .488-5.27m0 0C5.242 9.1 3.75 9.1 3.75 9.1m3.088 1.074a6.5 6.5 0 0 1 1.449-1.676m0 0a3.5 3.5 0 0 1-.125-.68m.125.68c.804 2.807 3.992 0 6.05-2.142.288-.3.6-.565.924-.798m-7.099 2.26a3.568 3.568 0 0 1 .68-2.41m-.68 2.41C5.862 6.466 3.75 6.466 3.75 6.466m13.085 1.602c1.479.787 2.585 2.012 3.095 3.462m-3.095-3.462c-.813.657-1.449 1.703-1.076 3.563m1.076-3.563c1.627-1.314 3.415-1.314 3.415-1.314m-4.989-1.195C17.666 3.83 20.25 3.83 20.25 3.83M15.261 5.56A3.83 3.83 0 0 0 13.31 4.05m-2.632.005A4 4 0 0 1 12 3.83c.46 0 .9.077 1.31.219m-2.633.005a3.84 3.84 0 0 0-1.834 1.353m1.834-1.353L9.998 2.25m3.311 1.8.69-1.8M8.842 5.408 7.05 4.201m7.2 14.549 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
       }, children);
     };
   }
 });
 
-// src/icons/HeartMedicalSearch.ts
+// src/icons/HeartMedicalCross.ts
 import { defineComponent as defineComponent477, h as h477 } from "vue";
-var HeartMedicalSearch = defineComponent477({
-  name: "HeartMedicalSearch",
+var HeartMedicalCross = defineComponent477({
+  name: "HeartMedicalCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16687,16 +16687,16 @@ var HeartMedicalSearch = defineComponent477({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12.359 21.708c-2.33-.266-4.335-1.773-5.139-3.929l-.87-2.334a6.04 6.04 0 0 1 .488-5.27m0 0C5.242 9.1 3.75 9.1 3.75 9.1m3.088 1.074a6.5 6.5 0 0 1 1.449-1.676m0 0a3.5 3.5 0 0 1-.125-.68m.125.68c.804 2.807 3.992 0 6.05-2.142.288-.3.6-.565.924-.798m-7.099 2.26a3.568 3.568 0 0 1 .68-2.41m-.68 2.41C5.862 6.466 3.75 6.466 3.75 6.466m13.085 1.602c1.479.787 2.585 2.012 3.095 3.462m-3.095-3.462c-.813.657-1.449 1.703-1.076 3.563m1.076-3.563c1.627-1.314 3.415-1.314 3.415-1.314m-4.989-1.195C17.666 3.83 20.25 3.83 20.25 3.83M15.261 5.56A3.83 3.83 0 0 0 13.31 4.05m-2.632.005A4 4 0 0 1 12 3.83c.46 0 .9.077 1.31.219m-2.633.005a3.84 3.84 0 0 0-1.834 1.353m1.834-1.353L9.998 2.25m3.311 1.8.69-1.8M8.842 5.408 7.05 4.201M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12.359 21.708c-2.33-.266-4.335-1.773-5.139-3.929l-.87-2.334a6.04 6.04 0 0 1 .488-5.27m0 0C5.242 9.1 3.75 9.1 3.75 9.1m3.088 1.074a6.5 6.5 0 0 1 1.449-1.676m0 0a3.5 3.5 0 0 1-.125-.68m.125.68c.804 2.807 3.992 0 6.05-2.142.288-.3.6-.565.924-.798m-7.099 2.26a3.568 3.568 0 0 1 .68-2.41m-.68 2.41C5.862 6.466 3.75 6.466 3.75 6.466m13.085 1.602c1.479.787 2.585 2.012 3.095 3.462m-3.095-3.462c-.813.657-1.449 1.703-1.076 3.563m1.076-3.563c1.627-1.314 3.415-1.314 3.415-1.314m-4.989-1.195C17.666 3.83 20.25 3.83 20.25 3.83M15.261 5.56A3.83 3.83 0 0 0 13.31 4.05m-2.632.005A4 4 0 0 1 12 3.83c.46 0 .9.077 1.31.219m-2.633.005a3.84 3.84 0 0 0-1.834 1.353m1.834-1.353L9.998 2.25m3.311 1.8.69-1.8M8.842 5.408 7.05 4.201m8.7 18.299 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/HeartMinus.ts
+// src/icons/HeartMedicalSearch.ts
 import { defineComponent as defineComponent478, h as h478 } from "vue";
-var HeartMinus = defineComponent478({
-  name: "HeartMinus",
+var HeartMedicalSearch = defineComponent478({
+  name: "HeartMedicalSearch",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16722,16 +16722,16 @@ var HeartMinus = defineComponent478({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.052 11.978c.437-.933.698-1.906.698-2.9 0-6.604-7.72-6.82-9.582-2.02-.055.142-.281.142-.336 0-1.862-4.8-9.582-4.585-9.582 2.02 0 5.078 6.823 9.625 9.054 10.976q.149.09.31.138m7.136-.317a2.813 2.813 0 1 0 0-5.625 2.813 2.813 0 0 0 0 5.625m0 0h1.125A2.625 2.625 0 0 1 22.5 22.5m-3.75-2.625h-1.125A2.625 2.625 0 0 0 15 22.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12.359 21.708c-2.33-.266-4.335-1.773-5.139-3.929l-.87-2.334a6.04 6.04 0 0 1 .488-5.27m0 0C5.242 9.1 3.75 9.1 3.75 9.1m3.088 1.074a6.5 6.5 0 0 1 1.449-1.676m0 0a3.5 3.5 0 0 1-.125-.68m.125.68c.804 2.807 3.992 0 6.05-2.142.288-.3.6-.565.924-.798m-7.099 2.26a3.568 3.568 0 0 1 .68-2.41m-.68 2.41C5.862 6.466 3.75 6.466 3.75 6.466m13.085 1.602c1.479.787 2.585 2.012 3.095 3.462m-3.095-3.462c-.813.657-1.449 1.703-1.076 3.563m1.076-3.563c1.627-1.314 3.415-1.314 3.415-1.314m-4.989-1.195C17.666 3.83 20.25 3.83 20.25 3.83M15.261 5.56A3.83 3.83 0 0 0 13.31 4.05m-2.632.005A4 4 0 0 1 12 3.83c.46 0 .9.077 1.31.219m-2.633.005a3.84 3.84 0 0 0-1.834 1.353m1.834-1.353L9.998 2.25m3.311 1.8.69-1.8M8.842 5.408 7.05 4.201M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>`
       }, children);
     };
   }
 });
 
-// src/icons/HeartMinus1.ts
+// src/icons/HeartMinus.ts
 import { defineComponent as defineComponent479, h as h479 } from "vue";
-var HeartMinus1 = defineComponent479({
-  name: "HeartMinus1",
+var HeartMinus = defineComponent479({
+  name: "HeartMinus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16757,16 +16757,16 @@ var HeartMinus1 = defineComponent479({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.052 11.978c.437-.933.698-1.906.698-2.9 0-6.604-7.72-6.82-9.582-2.02-.055.142-.281.142-.336 0-1.862-4.8-9.582-4.585-9.582 2.02 0 5.078 6.823 9.625 9.054 10.976q.149.09.31.138M22.5 18.375h-6.75"/>`
+        innerHTML: `<path d="M21.052 11.978c.437-.933.698-1.906.698-2.9 0-6.604-7.72-6.82-9.582-2.02-.055.142-.281.142-.336 0-1.862-4.8-9.582-4.585-9.582 2.02 0 5.078 6.823 9.625 9.054 10.976q.149.09.31.138m7.136-.317a2.813 2.813 0 1 0 0-5.625 2.813 2.813 0 0 0 0 5.625m0 0h1.125A2.625 2.625 0 0 1 22.5 22.5m-3.75-2.625h-1.125A2.625 2.625 0 0 0 15 22.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/HeartPlus.ts
+// src/icons/HeartMinus1.ts
 import { defineComponent as defineComponent480, h as h480 } from "vue";
-var HeartPlus = defineComponent480({
-  name: "HeartPlus",
+var HeartMinus1 = defineComponent480({
+  name: "HeartMinus1",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16792,16 +16792,16 @@ var HeartPlus = defineComponent480({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.052 11.978c.437-.933.698-1.906.698-2.9 0-6.604-7.72-6.82-9.582-2.02-.055.142-.281.142-.336 0-1.862-4.8-9.582-4.585-9.582 2.02 0 5.078 6.823 9.625 9.054 10.976q.149.09.31.138m6.761 2.308v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.052 11.978c.437-.933.698-1.906.698-2.9 0-6.604-7.72-6.82-9.582-2.02-.055.142-.281.142-.336 0-1.862-4.8-9.582-4.585-9.582 2.02 0 5.078 6.823 9.625 9.054 10.976q.149.09.31.138M22.5 18.375h-6.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/HeartSettings.ts
+// src/icons/HeartPlus.ts
 import { defineComponent as defineComponent481, h as h481 } from "vue";
-var HeartSettings = defineComponent481({
-  name: "HeartSettings",
+var HeartPlus = defineComponent481({
+  name: "HeartPlus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16827,16 +16827,16 @@ var HeartSettings = defineComponent481({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.052 11.978c.437-.933.698-1.906.698-2.9 0-6.604-7.72-6.82-9.582-2.02-.055.142-.281.142-.336 0-1.862-4.8-9.582-4.585-9.582 2.02 0 5.078 6.823 9.625 9.054 10.976q.149.09.31.138m6.76.658a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.133 4.117h-1.65m-4.95 0h-1.65m7.048 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.052 11.978c.437-.933.698-1.906.698-2.9 0-6.604-7.72-6.82-9.582-2.02-.055.142-.281.142-.336 0-1.862-4.8-9.582-4.585-9.582 2.02 0 5.078 6.823 9.625 9.054 10.976q.149.09.31.138m6.761 2.308v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Hexagon.ts
+// src/icons/HeartSettings.ts
 import { defineComponent as defineComponent482, h as h482 } from "vue";
-var Hexagon = defineComponent482({
-  name: "Hexagon",
+var HeartSettings = defineComponent482({
+  name: "HeartSettings",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16862,16 +16862,16 @@ var Hexagon = defineComponent482({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m3.744 7.066 7.5-4.375a1.5 1.5 0 0 1 1.512 0l7.5 4.375A1.5 1.5 0 0 1 21 8.362v7.277a1.5 1.5 0 0 1-.744 1.295l-7.5 4.375a1.5 1.5 0 0 1-1.512 0l-7.5-4.375A1.5 1.5 0 0 1 3 15.638V8.363a1.5 1.5 0 0 1 .744-1.296"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.052 11.978c.437-.933.698-1.906.698-2.9 0-6.604-7.72-6.82-9.582-2.02-.055.142-.281.142-.336 0-1.862-4.8-9.582-4.585-9.582 2.02 0 5.078 6.823 9.625 9.054 10.976q.149.09.31.138m6.76.658a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.133 4.117h-1.65m-4.95 0h-1.65m7.048 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Highlighter.ts
+// src/icons/Hexagon.ts
 import { defineComponent as defineComponent483, h as h483 } from "vue";
-var Highlighter = defineComponent483({
-  name: "Highlighter",
+var Hexagon = defineComponent483({
+  name: "Hexagon",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16897,16 +16897,16 @@ var Highlighter = defineComponent483({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M20.25 2.25v7.5a3 3 0 0 1-3 3M3.75 2.25v7.5a3 3 0 0 0 3 3m10.5 0v5.355a1.5 1.5 0 0 1-1.088 1.442l-7.5 2.143a1.5 1.5 0 0 1-1.912-1.442V12.75m10.5 0H6.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m3.744 7.066 7.5-4.375a1.5 1.5 0 0 1 1.512 0l7.5 4.375A1.5 1.5 0 0 1 21 8.362v7.277a1.5 1.5 0 0 1-.744 1.295l-7.5 4.375a1.5 1.5 0 0 1-1.512 0l-7.5-4.375A1.5 1.5 0 0 1 3 15.638V8.363a1.5 1.5 0 0 1 .744-1.296"/>`
       }, children);
     };
   }
 });
 
-// src/icons/History.ts
+// src/icons/Highlighter.ts
 import { defineComponent as defineComponent484, h as h484 } from "vue";
-var History = defineComponent484({
-  name: "History",
+var Highlighter = defineComponent484({
+  name: "Highlighter",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16932,16 +16932,16 @@ var History = defineComponent484({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M8.25 11.25 12 13.5l5.25-3.75M3 3v4.5m0 0c1.84-3.221 5.29-5.25 9-5.25 5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12M3 7.5h3.75"/>`
+        innerHTML: `<path d="M20.25 2.25v7.5a3 3 0 0 1-3 3M3.75 2.25v7.5a3 3 0 0 0 3 3m10.5 0v5.355a1.5 1.5 0 0 1-1.088 1.442l-7.5 2.143a1.5 1.5 0 0 1-1.912-1.442V12.75m10.5 0H6.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Home.ts
+// src/icons/History.ts
 import { defineComponent as defineComponent485, h as h485 } from "vue";
-var Home = defineComponent485({
-  name: "Home",
+var History = defineComponent485({
+  name: "History",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -16967,16 +16967,16 @@ var Home = defineComponent485({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M3 9.764V19.5A1.5 1.5 0 0 0 4.5 21h2.25a1.5 1.5 0 0 0 1.5-1.5v-5.25a1.5 1.5 0 0 1 1.5-1.5h4.5a1.5 1.5 0 0 1 1.5 1.5v5.25a1.5 1.5 0 0 0 1.5 1.5h2.25a1.5 1.5 0 0 0 1.5-1.5V9.764c0-.48-.23-.931-.618-1.213l-7.025-5.11a2.31 2.31 0 0 0-2.714 0l-7.025 5.11A1.5 1.5 0 0 0 3 9.764"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M8.25 11.25 12 13.5l5.25-3.75M3 3v4.5m0 0c1.84-3.221 5.29-5.25 9-5.25 5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12M3 7.5h3.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Hospital.ts
+// src/icons/Home.ts
 import { defineComponent as defineComponent486, h as h486 } from "vue";
-var Hospital = defineComponent486({
-  name: "Hospital",
+var Home = defineComponent486({
+  name: "Home",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17002,16 +17002,16 @@ var Hospital = defineComponent486({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3.75 21.75v-18a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v18h-6v-4.5a1.5 1.5 0 0 0-1.5-1.5h-1.5a1.5 1.5 0 0 0-1.5 1.5v4.5zm9.75-9h-3V10.5H8.25v-3h2.25V5.25h3V7.5h2.25v3H13.5z" clip-rule="evenodd"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M3 9.764V19.5A1.5 1.5 0 0 0 4.5 21h2.25a1.5 1.5 0 0 0 1.5-1.5v-5.25a1.5 1.5 0 0 1 1.5-1.5h4.5a1.5 1.5 0 0 1 1.5 1.5v5.25a1.5 1.5 0 0 0 1.5 1.5h2.25a1.5 1.5 0 0 0 1.5-1.5V9.764c0-.48-.23-.931-.618-1.213l-7.025-5.11a2.31 2.31 0 0 0-2.714 0l-7.025 5.11A1.5 1.5 0 0 0 3 9.764"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Hourglass.ts
+// src/icons/Hospital.ts
 import { defineComponent as defineComponent487, h as h487 } from "vue";
-var Hourglass = defineComponent487({
-  name: "Hourglass",
+var Hospital = defineComponent487({
+  name: "Hospital",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17037,16 +17037,16 @@ var Hourglass = defineComponent487({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3.75 4.896V3.75a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v1.146a5.43 5.43 0 0 1-3 4.854l-2.33 1.165a1.214 1.214 0 0 0 0 2.17l2.33 1.165c1.839.92 3 2.799 3 4.854v1.146a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5v-1.146a5.43 5.43 0 0 1 3-4.854l2.33-1.165a1.214 1.214 0 0 0 0-2.17L6.75 9.75a5.43 5.43 0 0 1-3-4.854"/>`
+        innerHTML: `<path d="M3.75 21.75v-18a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v18h-6v-4.5a1.5 1.5 0 0 0-1.5-1.5h-1.5a1.5 1.5 0 0 0-1.5 1.5v4.5zm9.75-9h-3V10.5H8.25v-3h2.25V5.25h3V7.5h2.25v3H13.5z" clip-rule="evenodd"/>`
       }, children);
     };
   }
 });
 
-// src/icons/HourglassEnd.ts
+// src/icons/Hourglass.ts
 import { defineComponent as defineComponent488, h as h488 } from "vue";
-var HourglassEnd = defineComponent488({
-  name: "HourglassEnd",
+var Hourglass = defineComponent488({
+  name: "Hourglass",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17072,16 +17072,16 @@ var HourglassEnd = defineComponent488({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3.75 20.25v-1.146a5.43 5.43 0 0 1 3-4.854l2.33-1.165a1.214 1.214 0 0 0 0-2.17L6.75 9.75a5.43 5.43 0 0 1-3-4.854V3.75a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v1.146a5.43 5.43 0 0 1-3 4.854l-2.33 1.165a1.214 1.214 0 0 0 0 2.17l2.33 1.165c1.839.92 3 2.799 3 4.854v1.146a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5m5.769-3.75h.054c1.028 0 1.967-.58 2.427-1.5.46.92 1.4 1.5 2.427 1.5h.054a2.8 2.8 0 0 1 2.657 1.915l.112.335H6.75l.112-.335A2.8 2.8 0 0 1 9.519 16.5" clip-rule="evenodd"/>`
+        innerHTML: `<path d="M3.75 4.896V3.75a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v1.146a5.43 5.43 0 0 1-3 4.854l-2.33 1.165a1.214 1.214 0 0 0 0 2.17l2.33 1.165c1.839.92 3 2.799 3 4.854v1.146a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5v-1.146a5.43 5.43 0 0 1 3-4.854l2.33-1.165a1.214 1.214 0 0 0 0-2.17L6.75 9.75a5.43 5.43 0 0 1-3-4.854"/>`
       }, children);
     };
   }
 });
 
-// src/icons/HourglassStart.ts
+// src/icons/HourglassEnd.ts
 import { defineComponent as defineComponent489, h as h489 } from "vue";
-var HourglassStart = defineComponent489({
-  name: "HourglassStart",
+var HourglassEnd = defineComponent489({
+  name: "HourglassEnd",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17107,16 +17107,16 @@ var HourglassStart = defineComponent489({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3.75 3.75v1.146a5.43 5.43 0 0 0 3 4.854l2.33 1.165a1.214 1.214 0 0 1 0 2.17L6.75 14.25c-1.839.92-3 2.799-3 4.854v1.146a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-1.146a5.43 5.43 0 0 0-3-4.854l-2.33-1.165a1.214 1.214 0 0 1 0-2.17l2.33-1.165c1.839-.92 3-2.798 3-4.854V3.75a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5M9.519 7.5h.054c1.028 0 1.967.58 2.427 1.5.46-.92 1.4-1.5 2.427-1.5h.054a2.8 2.8 0 0 0 2.657-1.915l.112-.335H6.75l.112.335A2.8 2.8 0 0 0 9.519 7.5" clip-rule="evenodd"/>`
+        innerHTML: `<path d="M3.75 20.25v-1.146a5.43 5.43 0 0 1 3-4.854l2.33-1.165a1.214 1.214 0 0 0 0-2.17L6.75 9.75a5.43 5.43 0 0 1-3-4.854V3.75a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v1.146a5.43 5.43 0 0 1-3 4.854l-2.33 1.165a1.214 1.214 0 0 0 0 2.17l2.33 1.165c1.839.92 3 2.799 3 4.854v1.146a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5m5.769-3.75h.054c1.028 0 1.967-.58 2.427-1.5.46.92 1.4 1.5 2.427 1.5h.054a2.8 2.8 0 0 1 2.657 1.915l.112.335H6.75l.112-.335A2.8 2.8 0 0 1 9.519 16.5" clip-rule="evenodd"/>`
       }, children);
     };
   }
 });
 
-// src/icons/HouseSmall.ts
+// src/icons/HourglassStart.ts
 import { defineComponent as defineComponent490, h as h490 } from "vue";
-var HouseSmall = defineComponent490({
-  name: "HouseSmall",
+var HourglassStart = defineComponent490({
+  name: "HourglassStart",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17142,16 +17142,16 @@ var HouseSmall = defineComponent490({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M17.25 7.5v14.25h-3v-4.5a1.5 1.5 0 0 0-1.5-1.5h-1.5a1.5 1.5 0 0 0-1.5 1.5v4.5h-3V7.5m10.5 0 2.25 2.25M17.25 7.5 15.75 6m-9 1.5L12 2.25 15.75 6m-9 1.5L4.5 9.75M15.75 6V2.25m-3.75 6a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5"/>`
+        innerHTML: `<path d="M3.75 3.75v1.146a5.43 5.43 0 0 0 3 4.854l2.33 1.165a1.214 1.214 0 0 1 0 2.17L6.75 14.25c-1.839.92-3 2.799-3 4.854v1.146a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-1.146a5.43 5.43 0 0 0-3-4.854l-2.33-1.165a1.214 1.214 0 0 1 0-2.17l2.33-1.165c1.839-.92 3-2.798 3-4.854V3.75a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5M9.519 7.5h.054c1.028 0 1.967.58 2.427 1.5.46-.92 1.4-1.5 2.427-1.5h.054a2.8 2.8 0 0 0 2.657-1.915l.112-.335H6.75l.112.335A2.8 2.8 0 0 0 9.519 7.5" clip-rule="evenodd"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Hurricane.ts
+// src/icons/HouseSmall.ts
 import { defineComponent as defineComponent491, h as h491 } from "vue";
-var Hurricane = defineComponent491({
-  name: "Hurricane",
+var HouseSmall = defineComponent491({
+  name: "HouseSmall",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17177,16 +17177,16 @@ var Hurricane = defineComponent491({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.75 12A6.75 6.75 0 0 0 12 5.25M18.75 12A6.75 6.75 0 0 1 12 18.75M18.75 12s.75 9.75-13.5 9.75M12 5.25A6.75 6.75 0 0 0 5.25 12M12 5.25s9.75-.75 9.75 13.5m-9.75 0A6.75 6.75 0 0 1 5.25 12M12 18.75s-9.75.75-9.75-13.5m3 6.75s-.75-9.75 13.5-9.75m-6 9.75a.75.75 0 0 0-.664-.745m.664.745a1 1 0 0 1-.005.086M12.75 12q.001.002-.005.086m-.659-.831A1 1 0 0 0 12 11.25m.086.005q-.084-.006-.086-.005m0 0a.75.75 0 0 0-.745.664m.745.836a.75.75 0 0 0 .745-.664M12 12.75a1 1 0 0 1-.086-.005m.086.005q-.002.001-.086-.005M11.25 12c0 .385.29.703.664.745M11.25 12a1 1 0 0 1 .005-.086M11.25 12s0-.031.005-.086"/>`
+        innerHTML: `<path d="M17.25 7.5v14.25h-3v-4.5a1.5 1.5 0 0 0-1.5-1.5h-1.5a1.5 1.5 0 0 0-1.5 1.5v4.5h-3V7.5m10.5 0 2.25 2.25M17.25 7.5 15.75 6m-9 1.5L12 2.25 15.75 6m-9 1.5L4.5 9.75M15.75 6V2.25m-3.75 6a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ImagePicture.ts
+// src/icons/Hurricane.ts
 import { defineComponent as defineComponent492, h as h492 } from "vue";
-var ImagePicture = defineComponent492({
-  name: "ImagePicture",
+var Hurricane = defineComponent492({
+  name: "Hurricane",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17212,16 +17212,16 @@ var ImagePicture = defineComponent492({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3.75 15v5.25a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-4.5M3.75 15V3.75a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v12M3.75 15s.75-.75 3-.75c3 0 4.5 3 8.25 3 3 0 4.5-.75 5.25-1.5m-3.75-7.5a2.25 2.25 0 1 0-4.5 0 2.25 2.25 0 0 0 4.5 0"/>`
+        innerHTML: `<path d="M18.75 12A6.75 6.75 0 0 0 12 5.25M18.75 12A6.75 6.75 0 0 1 12 18.75M18.75 12s.75 9.75-13.5 9.75M12 5.25A6.75 6.75 0 0 0 5.25 12M12 5.25s9.75-.75 9.75 13.5m-9.75 0A6.75 6.75 0 0 1 5.25 12M12 18.75s-9.75.75-9.75-13.5m3 6.75s-.75-9.75 13.5-9.75m-6 9.75a.75.75 0 0 0-.664-.745m.664.745a1 1 0 0 1-.005.086M12.75 12q.001.002-.005.086m-.659-.831A1 1 0 0 0 12 11.25m.086.005q-.084-.006-.086-.005m0 0a.75.75 0 0 0-.745.664m.745.836a.75.75 0 0 0 .745-.664M12 12.75a1 1 0 0 1-.086-.005m.086.005q-.002.001-.086-.005M11.25 12c0 .385.29.703.664.745M11.25 12a1 1 0 0 1 .005-.086M11.25 12s0-.031.005-.086"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Inbox.ts
+// src/icons/ImagePicture.ts
 import { defineComponent as defineComponent493, h as h493 } from "vue";
-var Inbox = defineComponent493({
-  name: "Inbox",
+var ImagePicture = defineComponent493({
+  name: "ImagePicture",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17247,16 +17247,16 @@ var Inbox = defineComponent493({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 11.25V4.5A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5v6.75m-18 0v8.25A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-8.25m-18 0h5.25V12a3.75 3.75 0 1 0 7.5 0v-.75H21"/>`
+        innerHTML: `<path d="M3.75 15v5.25a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-4.5M3.75 15V3.75a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v12M3.75 15s.75-.75 3-.75c3 0 4.5 3 8.25 3 3 0 4.5-.75 5.25-1.5m-3.75-7.5a2.25 2.25 0 1 0-4.5 0 2.25 2.25 0 0 0 4.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/InboxCheck.ts
+// src/icons/Inbox.ts
 import { defineComponent as defineComponent494, h as h494 } from "vue";
-var InboxCheck = defineComponent494({
-  name: "InboxCheck",
+var Inbox = defineComponent494({
+  name: "Inbox",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17282,16 +17282,16 @@ var InboxCheck = defineComponent494({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m14.25 18.75 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91M11.952 21H4.5A1.5 1.5 0 0 1 3 19.5v-8.25m0 0V4.5A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5v6.75h-5.25M3 11.25h5.25V12a3.75 3.75 0 0 0 3.39 3.733"/>`
+        innerHTML: `<path d="M3 11.25V4.5A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5v6.75m-18 0v8.25A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-8.25m-18 0h5.25V12a3.75 3.75 0 1 0 7.5 0v-.75H21"/>`
       }, children);
     };
   }
 });
 
-// src/icons/InboxCross.ts
+// src/icons/InboxCheck.ts
 import { defineComponent as defineComponent495, h as h495 } from "vue";
-var InboxCross = defineComponent495({
-  name: "InboxCross",
+var InboxCheck = defineComponent495({
+  name: "InboxCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17317,16 +17317,16 @@ var InboxCross = defineComponent495({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M11.952 21H4.5A1.5 1.5 0 0 1 3 19.5v-8.25m0 0V4.5A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5v6.75h-5.25M3 11.25h5.25V12a3.75 3.75 0 0 0 3.39 3.733m4.11 6.767 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m14.25 18.75 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91M11.952 21H4.5A1.5 1.5 0 0 1 3 19.5v-8.25m0 0V4.5A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5v6.75h-5.25M3 11.25h5.25V12a3.75 3.75 0 0 0 3.39 3.733"/>`
       }, children);
     };
   }
 });
 
-// src/icons/InboxDownload.ts
+// src/icons/InboxCross.ts
 import { defineComponent as defineComponent496, h as h496 } from "vue";
-var InboxDownload = defineComponent496({
-  name: "InboxDownload",
+var InboxCross = defineComponent496({
+  name: "InboxCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17352,16 +17352,16 @@ var InboxDownload = defineComponent496({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M11.952 21H4.5A1.5 1.5 0 0 1 3 19.5v-8.25m0 0V4.5A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5v6.75h-5.25M3 11.25h5.25V12a3.75 3.75 0 0 0 3.39 3.733m7.11-1.483v5.25m0 0L21 17.25m-2.25 2.25-2.25-2.25m-1.5 3V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M11.952 21H4.5A1.5 1.5 0 0 1 3 19.5v-8.25m0 0V4.5A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5v6.75h-5.25M3 11.25h5.25V12a3.75 3.75 0 0 0 3.39 3.733m4.11 6.767 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/InboxUpload.ts
+// src/icons/InboxDownload.ts
 import { defineComponent as defineComponent497, h as h497 } from "vue";
-var InboxUpload = defineComponent497({
-  name: "InboxUpload",
+var InboxDownload = defineComponent497({
+  name: "InboxDownload",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17387,16 +17387,16 @@ var InboxUpload = defineComponent497({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M11.952 21H4.5A1.5 1.5 0 0 1 3 19.5v-8.25m0 0V4.5A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5v6.75h-5.25M3 11.25h5.25V12a3.75 3.75 0 0 0 3.39 3.733m7.11-1.483v5.25m0-5.25L21 16.5m-2.25-2.25L16.5 16.5M15 20.25V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M11.952 21H4.5A1.5 1.5 0 0 1 3 19.5v-8.25m0 0V4.5A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5v6.75h-5.25M3 11.25h5.25V12a3.75 3.75 0 0 0 3.39 3.733m7.11-1.483v5.25m0 0L21 17.25m-2.25 2.25-2.25-2.25m-1.5 3V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Incognito.ts
+// src/icons/InboxUpload.ts
 import { defineComponent as defineComponent498, h as h498 } from "vue";
-var Incognito = defineComponent498({
-  name: "Incognito",
+var InboxUpload = defineComponent498({
+  name: "InboxUpload",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17422,16 +17422,16 @@ var Incognito = defineComponent498({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9.655 15.75q.094.36.095.75a3 3 0 1 1-.095-.75m0 0C9.937 15.5 10.8 15 12 15s2.063.5 2.345.75m0 0q-.094.36-.095.75a3 3 0 1 0 .095-.75m-12.095-6c.552.276 1.818.704 3.75 1.032m0 0q.693.12 1.5.215a38 38 0 0 0 4.5.253c1.708 0 3.211-.1 4.5-.253a30 30 0 0 0 1.5-.215m-12 0 1.5-4.689c.343-1.07 1.637-1.317 2.586-.716.56.356 1.21.623 1.914.623.703 0 1.353-.267 1.914-.623.949-.601 2.243-.353 2.586.716l1.5 4.69m0 0c1.932-.33 3.198-.757 3.75-1.033"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M11.952 21H4.5A1.5 1.5 0 0 1 3 19.5v-8.25m0 0V4.5A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5v6.75h-5.25M3 11.25h5.25V12a3.75 3.75 0 0 0 3.39 3.733m7.11-1.483v5.25m0-5.25L21 16.5m-2.25-2.25L16.5 16.5M15 20.25V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/IncognitoOff.ts
+// src/icons/Incognito.ts
 import { defineComponent as defineComponent499, h as h499 } from "vue";
-var IncognitoOff = defineComponent499({
-  name: "IncognitoOff",
+var Incognito = defineComponent499({
+  name: "Incognito",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17457,16 +17457,16 @@ var IncognitoOff = defineComponent499({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M20.118 15.618a3 3 0 0 0-1.986-1.986m.831 5.331a3 3 0 0 1-4.619-3.213m4.62 3.213-4.177-4.176m4.176 4.176 2.787 2.787m-12.095-6q.094.36.095.75a3 3 0 1 1-.095-.75m0 0C9.937 15.5 10.8 15 12 15s2.063.5 2.345.75m0 0c.09-.35.241-.675.442-.963m0 0-3.544-3.544m0 0a38 38 0 0 1-3.743-.246 30 30 0 0 1-1.5-.215m5.243.461L7.16 7.16m8.433 3.933q.47-.042.908-.095a30 30 0 0 0 1.5-.215M2.25 9.75c.552.276 1.818.704 3.75 1.032m0 0L7.16 7.16m0 0L2.25 2.25m7.836 3.127c.56.356 1.21.623 1.914.623.703 0 1.353-.267 1.914-.623.949-.601 2.243-.353 2.586.716l1.5 4.69m0 0c1.932-.33 3.198-.757 3.75-1.033"/>`
+        innerHTML: `<path d="M9.655 15.75q.094.36.095.75a3 3 0 1 1-.095-.75m0 0C9.937 15.5 10.8 15 12 15s2.063.5 2.345.75m0 0q-.094.36-.095.75a3 3 0 1 0 .095-.75m-12.095-6c.552.276 1.818.704 3.75 1.032m0 0q.693.12 1.5.215a38 38 0 0 0 4.5.253c1.708 0 3.211-.1 4.5-.253a30 30 0 0 0 1.5-.215m-12 0 1.5-4.689c.343-1.07 1.637-1.317 2.586-.716.56.356 1.21.623 1.914.623.703 0 1.353-.267 1.914-.623.949-.601 2.243-.353 2.586.716l1.5 4.69m0 0c1.932-.33 3.198-.757 3.75-1.033"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Indent.ts
+// src/icons/IncognitoOff.ts
 import { defineComponent as defineComponent500, h as h500 } from "vue";
-var Indent = defineComponent500({
-  name: "Indent",
+var IncognitoOff = defineComponent500({
+  name: "IncognitoOff",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17492,16 +17492,16 @@ var Indent = defineComponent500({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m5.25 2.25 3 3-3 3m8.25-3h8.25m-19.5 7.5h19.5m0 7.5H2.25"/>`
+        innerHTML: `<path d="M20.118 15.618a3 3 0 0 0-1.986-1.986m.831 5.331a3 3 0 0 1-4.619-3.213m4.62 3.213-4.177-4.176m4.176 4.176 2.787 2.787m-12.095-6q.094.36.095.75a3 3 0 1 1-.095-.75m0 0C9.937 15.5 10.8 15 12 15s2.063.5 2.345.75m0 0c.09-.35.241-.675.442-.963m0 0-3.544-3.544m0 0a38 38 0 0 1-3.743-.246 30 30 0 0 1-1.5-.215m5.243.461L7.16 7.16m8.433 3.933q.47-.042.908-.095a30 30 0 0 0 1.5-.215M2.25 9.75c.552.276 1.818.704 3.75 1.032m0 0L7.16 7.16m0 0L2.25 2.25m7.836 3.127c.56.356 1.21.623 1.914.623.703 0 1.353-.267 1.914-.623.949-.601 2.243-.353 2.586.716l1.5 4.69m0 0c1.932-.33 3.198-.757 3.75-1.033"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Infill.ts
+// src/icons/Indent.ts
 import { defineComponent as defineComponent501, h as h501 } from "vue";
-var Infill = defineComponent501({
-  name: "Infill",
+var Indent = defineComponent501({
+  name: "Indent",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17527,16 +17527,16 @@ var Infill = defineComponent501({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21 18.75v.75a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 19.5v-.75m18 0v-4.5m0 4.5-3.44-3.44a1.5 1.5 0 0 0-2.12 0l-2.38 2.38a1.5 1.5 0 0 1-2.12 0l-2.38-2.38a1.5 1.5 0 0 0-2.12 0L3 18.75m18-4.5v-4.5m0 4.5-3.44-3.44a1.5 1.5 0 0 0-2.12 0l-2.38 2.38a1.5 1.5 0 0 1-2.12 0l-2.38-2.38a1.5 1.5 0 0 0-2.12 0L3 14.25m18-4.5V4.5A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5v5.25m18 0-3.44-3.44a1.5 1.5 0 0 0-2.12 0l-2.38 2.38a1.5 1.5 0 0 1-2.12 0L8.56 6.31a1.5 1.5 0 0 0-2.12 0L3 9.75m0 0v4.5m0 0v4.5"/>`
+        innerHTML: `<path d="m5.25 2.25 3 3-3 3m8.25-3h8.25m-19.5 7.5h19.5m0 7.5H2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Info.ts
+// src/icons/Infill.ts
 import { defineComponent as defineComponent502, h as h502 } from "vue";
-var Info = defineComponent502({
-  name: "Info",
+var Infill = defineComponent502({
+  name: "Infill",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17562,16 +17562,16 @@ var Info = defineComponent502({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M9.75 11.25h2.1a.15.15 0 0 1 .15.15v5.1m0 0H9.75m2.25 0h2.25M12 8.25V7.5m0 14.25c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75"/>`
+        innerHTML: `<path d="M21 18.75v.75a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 19.5v-.75m18 0v-4.5m0 4.5-3.44-3.44a1.5 1.5 0 0 0-2.12 0l-2.38 2.38a1.5 1.5 0 0 1-2.12 0l-2.38-2.38a1.5 1.5 0 0 0-2.12 0L3 18.75m18-4.5v-4.5m0 4.5-3.44-3.44a1.5 1.5 0 0 0-2.12 0l-2.38 2.38a1.5 1.5 0 0 1-2.12 0l-2.38-2.38a1.5 1.5 0 0 0-2.12 0L3 14.25m18-4.5V4.5A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5v5.25m18 0-3.44-3.44a1.5 1.5 0 0 0-2.12 0l-2.38 2.38a1.5 1.5 0 0 1-2.12 0L8.56 6.31a1.5 1.5 0 0 0-2.12 0L3 9.75m0 0v4.5m0 0v4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Input.ts
+// src/icons/Info.ts
 import { defineComponent as defineComponent503, h as h503 } from "vue";
-var Input = defineComponent503({
-  name: "Input",
+var Info = defineComponent503({
+  name: "Info",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17597,16 +17597,16 @@ var Input = defineComponent503({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M5.25 14.25H6m3 0h.75m3 0h.75m8.25-6v7.5a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-7.5a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M9.75 11.25h2.1a.15.15 0 0 1 .15.15v5.1m0 0H9.75m2.25 0h2.25M12 8.25V7.5m0 14.25c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/InputCursor.ts
+// src/icons/Input.ts
 import { defineComponent as defineComponent504, h as h504 } from "vue";
-var InputCursor = defineComponent504({
-  name: "InputCursor",
+var Input = defineComponent504({
+  name: "Input",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17632,16 +17632,16 @@ var InputCursor = defineComponent504({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.75 6.75h1.5a1.5 1.5 0 0 1 1.5 1.5v7.5a1.5 1.5 0 0 1-1.5 1.5h-1.5m-6-10.5h-9a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5h9M10.5 3h2.25c3 0 3 2.25 3 2.25M21 3h-2.25c-3 0-3 2.25-3 2.25m0 0v13.5m0 0s0 2.25-3 2.25H10.5m5.25-2.25s0 2.25 3 2.25H21"/>`
+        innerHTML: `<path d="M5.25 14.25H6m3 0h.75m3 0h.75m8.25-6v7.5a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-7.5a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/InputPassword.ts
+// src/icons/InputCursor.ts
 import { defineComponent as defineComponent505, h as h505 } from "vue";
-var InputPassword = defineComponent505({
-  name: "InputPassword",
+var InputCursor = defineComponent505({
+  name: "InputCursor",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17667,16 +17667,16 @@ var InputPassword = defineComponent505({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 9.75v2.237m0 0v.009m0-.009.008.004m-.008-.004-1.937-1.119M7.5 11.997v2.254m0-2.254.008-.005m-.008.005-1.945 1.122m3.905 0-1.952-1.127m0 0 1.945-1.123m5.242-1.118v2.237m0 0v.009m0-.009.007.004m-.007-.004-1.938-1.119m1.938 1.128v2.254m0-2.254.007-.005m-.007.005-1.945 1.122m3.904 0-1.952-1.127m0 0 1.945-1.123M21.75 8.25v7.5a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-7.5a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5"/>`
+        innerHTML: `<path d="M18.75 6.75h1.5a1.5 1.5 0 0 1 1.5 1.5v7.5a1.5 1.5 0 0 1-1.5 1.5h-1.5m-6-10.5h-9a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5h9M10.5 3h2.25c3 0 3 2.25 3 2.25M21 3h-2.25c-3 0-3 2.25-3 2.25m0 0v13.5m0 0s0 2.25-3 2.25H10.5m5.25-2.25s0 2.25 3 2.25H21"/>`
       }, children);
     };
   }
 });
 
-// src/icons/InputSearch.ts
+// src/icons/InputPassword.ts
 import { defineComponent as defineComponent506, h as h506 } from "vue";
-var InputSearch = defineComponent506({
-  name: "InputSearch",
+var InputPassword = defineComponent506({
+  name: "InputPassword",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17702,16 +17702,16 @@ var InputSearch = defineComponent506({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m18.75 14.25-1.14-1.14m0 0a1.969 1.969 0 1 0-2.784-2.784 1.969 1.969 0 0 0 2.785 2.785m4.14-4.86v7.5a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-7.5a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5"/>`
+        innerHTML: `<path d="M7.5 9.75v2.237m0 0v.009m0-.009.008.004m-.008-.004-1.937-1.119M7.5 11.997v2.254m0-2.254.008-.005m-.008.005-1.945 1.122m3.905 0-1.952-1.127m0 0 1.945-1.123m5.242-1.118v2.237m0 0v.009m0-.009.007.004m-.007-.004-1.938-1.119m1.938 1.128v2.254m0-2.254.007-.005m-.007.005-1.945 1.122m3.904 0-1.952-1.127m0 0 1.945-1.123M21.75 8.25v7.5a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-7.5a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Inset.ts
+// src/icons/InputSearch.ts
 import { defineComponent as defineComponent507, h as h507 } from "vue";
-var Inset = defineComponent507({
-  name: "Inset",
+var InputSearch = defineComponent507({
+  name: "InputSearch",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17737,16 +17737,16 @@ var Inset = defineComponent507({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.802 7.616a1.5 1.5 0 0 1 .198.746v7.277a1.5 1.5 0 0 1-.744 1.295l-7.5 4.375a1.5 1.5 0 0 1-.756.204m8.802-13.897a1.5 1.5 0 0 0-.546-.55l-7.5-4.375a1.5 1.5 0 0 0-1.512 0l-7.5 4.375a1.5 1.5 0 0 0-.545.55m17.603 0L12 12.75M3.199 7.616c-.128.223-.199.48-.199.746v7.277a1.5 1.5 0 0 0 .744 1.295l7.5 4.375c.234.136.495.204.756.204M3.199 7.617 12 12.75m0 8.764V12.75m0-3.611L9.184 7.5 12 5.862 14.816 7.5z"/>`
+        innerHTML: `<path d="m18.75 14.25-1.14-1.14m0 0a1.969 1.969 0 1 0-2.784-2.784 1.969 1.969 0 0 0 2.785 2.785m4.14-4.86v7.5a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-7.5a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Instance.ts
+// src/icons/Inset.ts
 import { defineComponent as defineComponent508, h as h508 } from "vue";
-var Instance = defineComponent508({
-  name: "Instance",
+var Inset = defineComponent508({
+  name: "Inset",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17772,16 +17772,16 @@ var Instance = defineComponent508({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m20.69 10.94-7.63-7.63a1.5 1.5 0 0 0-2.12 0l-7.63 7.63a1.5 1.5 0 0 0 0 2.12l7.63 7.63a1.5 1.5 0 0 0 2.12 0l7.63-7.63a1.5 1.5 0 0 0 0-2.12"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.802 7.616a1.5 1.5 0 0 1 .198.746v7.277a1.5 1.5 0 0 1-.744 1.295l-7.5 4.375a1.5 1.5 0 0 1-.756.204m8.802-13.897a1.5 1.5 0 0 0-.546-.55l-7.5-4.375a1.5 1.5 0 0 0-1.512 0l-7.5 4.375a1.5 1.5 0 0 0-.545.55m17.603 0L12 12.75M3.199 7.616c-.128.223-.199.48-.199.746v7.277a1.5 1.5 0 0 0 .744 1.295l7.5 4.375c.234.136.495.204.756.204M3.199 7.617 12 12.75m0 8.764V12.75m0-3.611L9.184 7.5 12 5.862 14.816 7.5z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Intersect.ts
+// src/icons/Instance.ts
 import { defineComponent as defineComponent509, h as h509 } from "vue";
-var Intersect = defineComponent509({
-  name: "Intersect",
+var Instance = defineComponent509({
+  name: "Instance",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17807,16 +17807,16 @@ var Intersect = defineComponent509({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M16.5 7.5h3c.414 0 .79.168 1.06.44.272.27.44.646.44 1.06v10.5a1.5 1.5 0 0 1-1.5 1.5H9c-.414 0-.79-.168-1.06-.44a1.5 1.5 0 0 1-.44-1.06v-3m9-9v-3A1.5 1.5 0 0 0 15 3H4.5A1.5 1.5 0 0 0 3 4.5V15a1.5 1.5 0 0 0 1.5 1.5h3m9-9-9 9m9-9V12m0-4.5H12m-4.5 9V12m0 4.5H12m4.5-4.5v3a1.5 1.5 0 0 1-1.5 1.5h-3m4.5-4.5L12 16.5m0-9H9A1.5 1.5 0 0 0 7.5 9v3M12 7.5 7.5 12"/>`
+        innerHTML: `<path d="m20.69 10.94-7.63-7.63a1.5 1.5 0 0 0-2.12 0l-7.63 7.63a1.5 1.5 0 0 0 0 2.12l7.63 7.63a1.5 1.5 0 0 0 2.12 0l7.63-7.63a1.5 1.5 0 0 0 0-2.12"/>`
       }, children);
     };
   }
 });
 
-// src/icons/InvertSelection.ts
+// src/icons/Intersect.ts
 import { defineComponent as defineComponent510, h as h510 } from "vue";
-var InvertSelection = defineComponent510({
-  name: "InvertSelection",
+var Intersect = defineComponent510({
+  name: "Intersect",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17842,16 +17842,16 @@ var InvertSelection = defineComponent510({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 6V4.5A1.5 1.5 0 0 1 4.5 3H6m4.5 0h3M18 3h1.5A1.5 1.5 0 0 1 21 4.5V6m0 12v1.5a1.5 1.5 0 0 1-1.5 1.5H18M3 18v1.5A1.5 1.5 0 0 0 4.5 21H6m4.5 0h3M21 10.5v3m-18-3v3M6.75 9h10.5m0 0-3-3m3 3-3 3m3 3H6.75m0 0 3-3m-3 3 3 3"/>`
+        innerHTML: `<path d="M16.5 7.5h3c.414 0 .79.168 1.06.44.272.27.44.646.44 1.06v10.5a1.5 1.5 0 0 1-1.5 1.5H9c-.414 0-.79-.168-1.06-.44a1.5 1.5 0 0 1-.44-1.06v-3m9-9v-3A1.5 1.5 0 0 0 15 3H4.5A1.5 1.5 0 0 0 3 4.5V15a1.5 1.5 0 0 0 1.5 1.5h3m9-9-9 9m9-9V12m0-4.5H12m-4.5 9V12m0 4.5H12m4.5-4.5v3a1.5 1.5 0 0 1-1.5 1.5h-3m4.5-4.5L12 16.5m0-9H9A1.5 1.5 0 0 0 7.5 9v3M12 7.5 7.5 12"/>`
       }, children);
     };
   }
 });
 
-// src/icons/IpAdress.ts
+// src/icons/InvertSelection.ts
 import { defineComponent as defineComponent511, h as h511 } from "vue";
-var IpAdress = defineComponent511({
-  name: "IpAdress",
+var InvertSelection = defineComponent511({
+  name: "InvertSelection",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17877,16 +17877,16 @@ var IpAdress = defineComponent511({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M6.75 10.5c0-2.9 2.35-5.25 5.25-5.25M6.75 10.5c0 2.9 2.35 5.25 5.25 5.25M6.75 10.5h3.375M12 5.25c2.9 0 5.25 2.35 5.25 5.25M12 5.25c-1.036 0-1.875 2.35-1.875 5.25M12 5.25c1.036 0 1.875 2.35 1.875 5.25M12 15.75c2.9 0 5.25-2.35 5.25-5.25M12 15.75c-1.036 0-1.875-2.35-1.875-5.25M12 15.75c1.036 0 1.875-2.35 1.875-5.25m3.375 0h-3.375m0 0h-3.75M12 21.75l5.602-5.21C23.086 11.44 19.483 2.25 12 2.25S.914 11.44 6.398 16.54z"/>`
+        innerHTML: `<path d="M3 6V4.5A1.5 1.5 0 0 1 4.5 3H6m4.5 0h3M18 3h1.5A1.5 1.5 0 0 1 21 4.5V6m0 12v1.5a1.5 1.5 0 0 1-1.5 1.5H18M3 18v1.5A1.5 1.5 0 0 0 4.5 21H6m4.5 0h3M21 10.5v3m-18-3v3M6.75 9h10.5m0 0-3-3m3 3-3 3m3 3H6.75m0 0 3-3m-3 3 3 3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Iron.ts
+// src/icons/IpAdress.ts
 import { defineComponent as defineComponent512, h as h512 } from "vue";
-var Iron = defineComponent512({
-  name: "Iron",
+var IpAdress = defineComponent512({
+  name: "IpAdress",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17912,16 +17912,16 @@ var Iron = defineComponent512({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M8.25 5.25h9.297a1.5 1.5 0 0 1 1.464 1.175l1.072 4.825m0 0 1.667 7.5H2.25l1.491-3.728a6 6 0 0 1 5.571-3.772zm-7.333 3.772h.75m3 0h.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M6.75 10.5c0-2.9 2.35-5.25 5.25-5.25M6.75 10.5c0 2.9 2.35 5.25 5.25 5.25M6.75 10.5h3.375M12 5.25c2.9 0 5.25 2.35 5.25 5.25M12 5.25c-1.036 0-1.875 2.35-1.875 5.25M12 5.25c1.036 0 1.875 2.35 1.875 5.25M12 15.75c2.9 0 5.25-2.35 5.25-5.25M12 15.75c-1.036 0-1.875-2.35-1.875-5.25M12 15.75c1.036 0 1.875-2.35 1.875-5.25m3.375 0h-3.375m0 0h-3.75M12 21.75l5.602-5.21C23.086 11.44 19.483 2.25 12 2.25S.914 11.44 6.398 16.54z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/IsometricView.ts
+// src/icons/Iron.ts
 import { defineComponent as defineComponent513, h as h513 } from "vue";
-var IsometricView = defineComponent513({
-  name: "IsometricView",
+var Iron = defineComponent513({
+  name: "Iron",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17947,16 +17947,16 @@ var IsometricView = defineComponent513({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m15.417 17.782-2.563 2.169c-.472.399-1.236.399-1.708 0l-2.563-2.169m6.834 0L12 14.892m3.417 2.89 3.417-2.89M5.166 9.108l-2.562 2.168c-.472.4-.472 1.047 0 1.446l2.562 2.168m0-5.782L8.583 12M5.166 9.109l3.417-2.891M12 14.89 8.583 12M12 14.891 15.417 12M12 14.891l-3.417 2.891m0-5.782-3.417 2.891M8.583 12 12 9.109M8.583 6.218l2.563-2.169c.472-.399 1.236-.399 1.708 0l2.563 2.169m-6.834 0L12 9.108m6.834 5.783 2.562-2.168c.472-.4.472-1.047 0-1.446L18.834 9.11m0 5.782L15.417 12M12 9.109 15.417 12M12 9.109l3.417-2.891m0 5.782 3.417-2.891m0 0-3.417-2.891M8.583 17.782l-3.417-2.89"/>`
+        innerHTML: `<path d="M8.25 5.25h9.297a1.5 1.5 0 0 1 1.464 1.175l1.072 4.825m0 0 1.667 7.5H2.25l1.491-3.728a6 6 0 0 1 5.571-3.772zm-7.333 3.772h.75m3 0h.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/JoysticClassic.ts
+// src/icons/IsometricView.ts
 import { defineComponent as defineComponent514, h as h514 } from "vue";
-var JoysticClassic = defineComponent514({
-  name: "JoysticClassic",
+var IsometricView = defineComponent514({
+  name: "IsometricView",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -17982,16 +17982,16 @@ var JoysticClassic = defineComponent514({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m9.613 8.892-5.869 3.424a1.5 1.5 0 0 0-.545.55m6.414-3.974a3.75 3.75 0 1 1 4.774 0m-4.774 0q.402.333.887.546m3.887-.546 5.869 3.424a1.5 1.5 0 0 1 .546.55m-6.415-3.974q-.402.333-.887.546M3.199 12.866l8.045 4.693c.234.136.495.204.756.204m-8.801-4.897A1.5 1.5 0 0 0 3 13.61v2.027a1.5 1.5 0 0 0 .744 1.296l7.5 4.375c.234.136.495.204.756.204m8.802-8.647a1.5 1.5 0 0 1 .198.745v2.027a1.5 1.5 0 0 1-.744 1.296l-7.5 4.375a1.5 1.5 0 0 1-.756.204m8.802-8.647-8.046 4.693a1.5 1.5 0 0 1-.756.204m0 0v3.75M10.5 9.438c.46.2.967.312 1.5.312s1.04-.111 1.5-.312m-3 0v2.446a1.5 1.5 0 1 0 3 0V9.438"/>`
+        innerHTML: `<path d="m15.417 17.782-2.563 2.169c-.472.399-1.236.399-1.708 0l-2.563-2.169m6.834 0L12 14.892m3.417 2.89 3.417-2.89M5.166 9.108l-2.562 2.168c-.472.4-.472 1.047 0 1.446l2.562 2.168m0-5.782L8.583 12M5.166 9.109l3.417-2.891M12 14.89 8.583 12M12 14.891 15.417 12M12 14.891l-3.417 2.891m0-5.782-3.417 2.891M8.583 12 12 9.109M8.583 6.218l2.563-2.169c.472-.399 1.236-.399 1.708 0l2.563 2.169m-6.834 0L12 9.108m6.834 5.783 2.562-2.168c.472-.4.472-1.047 0-1.446L18.834 9.11m0 5.782L15.417 12M12 9.109 15.417 12M12 9.109l3.417-2.891m0 5.782 3.417-2.891m0 0-3.417-2.891M8.583 17.782l-3.417-2.89"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Kettle.ts
+// src/icons/JoysticClassic.ts
 import { defineComponent as defineComponent515, h as h515 } from "vue";
-var Kettle = defineComponent515({
-  name: "Kettle",
+var JoysticClassic = defineComponent515({
+  name: "JoysticClassic",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18017,16 +18017,16 @@ var Kettle = defineComponent515({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m7.5 7.5.107-.268A5.54 5.54 0 0 1 12.75 3.75M7.5 7.5H18m-10.5 0h-.75a3 3 0 0 0-3 3V15M7.5 7.5v12.75a1.5 1.5 0 0 0 1.5 1.5h7.5a1.5 1.5 0 0 0 1.5-1.5v-9.396a1.5 1.5 0 0 1 .158-.67L19.5 7.5H18m0 0-.107-.268A5.54 5.54 0 0 0 12.75 3.75m0 0a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m9.613 8.892-5.869 3.424a1.5 1.5 0 0 0-.545.55m6.414-3.974a3.75 3.75 0 1 1 4.774 0m-4.774 0q.402.333.887.546m3.887-.546 5.869 3.424a1.5 1.5 0 0 1 .546.55m-6.415-3.974q-.402.333-.887.546M3.199 12.866l8.045 4.693c.234.136.495.204.756.204m-8.801-4.897A1.5 1.5 0 0 0 3 13.61v2.027a1.5 1.5 0 0 0 .744 1.296l7.5 4.375c.234.136.495.204.756.204m8.802-8.647a1.5 1.5 0 0 1 .198.745v2.027a1.5 1.5 0 0 1-.744 1.296l-7.5 4.375a1.5 1.5 0 0 1-.756.204m8.802-8.647-8.046 4.693a1.5 1.5 0 0 1-.756.204m0 0v3.75M10.5 9.438c.46.2.967.312 1.5.312s1.04-.111 1.5-.312m-3 0v2.446a1.5 1.5 0 1 0 3 0V9.438"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Key.ts
+// src/icons/Kettle.ts
 import { defineComponent as defineComponent516, h as h516 } from "vue";
-var Key = defineComponent516({
-  name: "Key",
+var Kettle = defineComponent516({
+  name: "Kettle",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18052,16 +18052,16 @@ var Key = defineComponent516({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 16.5a5.25 5.25 0 0 1 7.147-4.897L18.75 2.25 21 4.5 19.5 6l2.25 2.25-2.25 2.25-2.25-2.25-5.364 5.364A5.25 5.25 0 1 1 2.25 16.5"/>`
+        innerHTML: `<path d="m7.5 7.5.107-.268A5.54 5.54 0 0 1 12.75 3.75M7.5 7.5H18m-10.5 0h-.75a3 3 0 0 0-3 3V15M7.5 7.5v12.75a1.5 1.5 0 0 0 1.5 1.5h7.5a1.5 1.5 0 0 0 1.5-1.5v-9.396a1.5 1.5 0 0 1 .158-.67L19.5 7.5H18m0 0-.107-.268A5.54 5.54 0 0 0 12.75 3.75m0 0a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Keyboard.ts
+// src/icons/Key.ts
 import { defineComponent as defineComponent517, h as h517 } from "vue";
-var Keyboard = defineComponent517({
-  name: "Keyboard",
+var Key = defineComponent517({
+  name: "Key",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18087,16 +18087,16 @@ var Keyboard = defineComponent517({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6.75 17.25h7.5m3-9h3a1.5 1.5 0 0 1 1.5 1.5v9a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-9a1.5 1.5 0 0 1 1.5-1.5zm0 0c0-1.25-.524-3.75-3-3.75s-2.424.788-4.447.788S6.75 4.5 6.75 3.687"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 16.5a5.25 5.25 0 0 1 7.147-4.897L18.75 2.25 21 4.5 19.5 6l2.25 2.25-2.25 2.25-2.25-2.25-5.364 5.364A5.25 5.25 0 1 1 2.25 16.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/KeyframeAutobezier.ts
+// src/icons/Keyboard.ts
 import { defineComponent as defineComponent518, h as h518 } from "vue";
-var KeyframeAutobezier = defineComponent518({
-  name: "KeyframeAutobezier",
+var Keyboard = defineComponent518({
+  name: "Keyboard",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18122,16 +18122,16 @@ var KeyframeAutobezier = defineComponent518({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 2.25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75m0-19.5c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75m0-19.5v19.5"/>`
+        innerHTML: `<path d="M6.75 17.25h7.5m3-9h3a1.5 1.5 0 0 1 1.5 1.5v9a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-9a1.5 1.5 0 0 1 1.5-1.5zm0 0c0-1.25-.524-3.75-3-3.75s-2.424.788-4.447.788S6.75 4.5 6.75 3.687"/>`
       }, children);
     };
   }
 });
 
-// src/icons/KeyframeEaseIn.ts
+// src/icons/KeyframeAutobezier.ts
 import { defineComponent as defineComponent519, h as h519 } from "vue";
-var KeyframeEaseIn = defineComponent519({
-  name: "KeyframeEaseIn",
+var KeyframeAutobezier = defineComponent519({
+  name: "KeyframeAutobezier",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18157,16 +18157,16 @@ var KeyframeEaseIn = defineComponent519({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 3.75H3.621c-1.336 0-2.005 1.616-1.06 2.56l4.628 4.63a1.5 1.5 0 0 1 0 2.12l-4.628 4.63c-.945.944-.276 2.56 1.06 2.56H12m0-16.5h1.629a1.5 1.5 0 0 1 1.06.44l6.75 6.75a1.5 1.5 0 0 1 0 2.12l-6.75 6.75a1.5 1.5 0 0 1-1.06.44H12m0-16.5v16.5"/>`
+        innerHTML: `<path d="M12 2.25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75m0-19.5c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75m0-19.5v19.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/KeyframeEaseOut.ts
+// src/icons/KeyframeEaseIn.ts
 import { defineComponent as defineComponent520, h as h520 } from "vue";
-var KeyframeEaseOut = defineComponent520({
-  name: "KeyframeEaseOut",
+var KeyframeEaseIn = defineComponent520({
+  name: "KeyframeEaseIn",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18192,16 +18192,16 @@ var KeyframeEaseOut = defineComponent520({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M11.997 3.75h8.379c1.336 0 2.005 1.616 1.06 2.56l-4.628 4.63a1.5 1.5 0 0 0 0 2.12l4.628 4.63c.945.944.276 2.56-1.06 2.56h-8.379m0-16.5h-1.629a1.5 1.5 0 0 0-1.06.44l-6.75 6.75a1.5 1.5 0 0 0 0 2.12l6.75 6.75a1.5 1.5 0 0 0 1.06.44h1.629m0-16.5v16.5"/>`
+        innerHTML: `<path d="M12 3.75H3.621c-1.336 0-2.005 1.616-1.06 2.56l4.628 4.63a1.5 1.5 0 0 1 0 2.12l-4.628 4.63c-.945.944-.276 2.56 1.06 2.56H12m0-16.5h1.629a1.5 1.5 0 0 1 1.06.44l6.75 6.75a1.5 1.5 0 0 1 0 2.12l-6.75 6.75a1.5 1.5 0 0 1-1.06.44H12m0-16.5v16.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/KeyframeEasyEase.ts
+// src/icons/KeyframeEaseOut.ts
 import { defineComponent as defineComponent521, h as h521 } from "vue";
-var KeyframeEasyEase = defineComponent521({
-  name: "KeyframeEasyEase",
+var KeyframeEaseOut = defineComponent521({
+  name: "KeyframeEaseOut",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18227,16 +18227,16 @@ var KeyframeEasyEase = defineComponent521({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M11.997 3.75h8.379c1.336 0 2.005 1.616 1.06 2.56l-4.628 4.63a1.5 1.5 0 0 0 0 2.12l4.628 4.63c.945.944.276 2.56-1.06 2.56h-8.379m0-16.5v16.5m0-16.5H3.618c-1.336 0-2.005 1.616-1.06 2.56l4.628 4.63a1.5 1.5 0 0 1 0 2.12l-4.628 4.63c-.945.944-.276 2.56 1.06 2.56h8.379"/>`
+        innerHTML: `<path d="M11.997 3.75h8.379c1.336 0 2.005 1.616 1.06 2.56l-4.628 4.63a1.5 1.5 0 0 0 0 2.12l4.628 4.63c.945.944.276 2.56-1.06 2.56h-8.379m0-16.5h-1.629a1.5 1.5 0 0 0-1.06.44l-6.75 6.75a1.5 1.5 0 0 0 0 2.12l6.75 6.75a1.5 1.5 0 0 0 1.06.44h1.629m0-16.5v16.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/KeyframeHold.ts
+// src/icons/KeyframeEasyEase.ts
 import { defineComponent as defineComponent522, h as h522 } from "vue";
-var KeyframeHold = defineComponent522({
-  name: "KeyframeHold",
+var KeyframeEasyEase = defineComponent522({
+  name: "KeyframeEasyEase",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18262,16 +18262,16 @@ var KeyframeHold = defineComponent522({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 3h7.5A1.5 1.5 0 0 1 21 4.5v15a1.5 1.5 0 0 1-1.5 1.5H12m0-18H4.5A1.5 1.5 0 0 0 3 4.5v15A1.5 1.5 0 0 0 4.5 21H12m0-18v18"/>`
+        innerHTML: `<path d="M11.997 3.75h8.379c1.336 0 2.005 1.616 1.06 2.56l-4.628 4.63a1.5 1.5 0 0 0 0 2.12l4.628 4.63c.945.944.276 2.56-1.06 2.56h-8.379m0-16.5v16.5m0-16.5H3.618c-1.336 0-2.005 1.616-1.06 2.56l4.628 4.63a1.5 1.5 0 0 1 0 2.12l-4.628 4.63c-.945.944-.276 2.56 1.06 2.56h8.379"/>`
       }, children);
     };
   }
 });
 
-// src/icons/KeyframeHoldEaseIn.ts
+// src/icons/KeyframeHold.ts
 import { defineComponent as defineComponent523, h as h523 } from "vue";
-var KeyframeHoldEaseIn = defineComponent523({
-  name: "KeyframeHoldEaseIn",
+var KeyframeHold = defineComponent523({
+  name: "KeyframeHold",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18297,16 +18297,16 @@ var KeyframeHoldEaseIn = defineComponent523({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12.132 3.75H3.753c-1.336 0-2.006 1.616-1.06 2.56l4.628 4.63a1.5 1.5 0 0 1 0 2.12l-4.629 4.63c-.945.944-.275 2.56 1.061 2.56h8.379m0-16.5v16.5m0-16.5h8.247a1.5 1.5 0 0 1 1.5 1.5v13.5a1.5 1.5 0 0 1-1.5 1.5h-8.247"/>`
+        innerHTML: `<path d="M12 3h7.5A1.5 1.5 0 0 1 21 4.5v15a1.5 1.5 0 0 1-1.5 1.5H12m0-18H4.5A1.5 1.5 0 0 0 3 4.5v15A1.5 1.5 0 0 0 4.5 21H12m0-18v18"/>`
       }, children);
     };
   }
 });
 
-// src/icons/KeyframeHoldEaseOut.ts
+// src/icons/KeyframeHoldEaseIn.ts
 import { defineComponent as defineComponent524, h as h524 } from "vue";
-var KeyframeHoldEaseOut = defineComponent524({
-  name: "KeyframeHoldEaseOut",
+var KeyframeHoldEaseIn = defineComponent524({
+  name: "KeyframeHoldEaseIn",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18332,16 +18332,16 @@ var KeyframeHoldEaseOut = defineComponent524({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M11.997 3.75h8.379c1.336 0 2.005 1.616 1.06 2.56l-4.628 4.63a1.5 1.5 0 0 0 0 2.12l4.628 4.63c.945.944.276 2.56-1.06 2.56h-8.379m0-16.5v16.5m0-16.5H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h8.247"/>`
+        innerHTML: `<path d="M12.132 3.75H3.753c-1.336 0-2.006 1.616-1.06 2.56l4.628 4.63a1.5 1.5 0 0 1 0 2.12l-4.629 4.63c-.945.944-.275 2.56 1.061 2.56h8.379m0-16.5v16.5m0-16.5h8.247a1.5 1.5 0 0 1 1.5 1.5v13.5a1.5 1.5 0 0 1-1.5 1.5h-8.247"/>`
       }, children);
     };
   }
 });
 
-// src/icons/KeyframeHoldLinearIn.ts
+// src/icons/KeyframeHoldEaseOut.ts
 import { defineComponent as defineComponent525, h as h525 } from "vue";
-var KeyframeHoldLinearIn = defineComponent525({
-  name: "KeyframeHoldLinearIn",
+var KeyframeHoldEaseOut = defineComponent525({
+  name: "KeyframeHoldEaseOut",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18367,16 +18367,16 @@ var KeyframeHoldLinearIn = defineComponent525({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M11.997 3.75h8.253a1.5 1.5 0 0 1 1.5 1.5v13.5a1.5 1.5 0 0 1-1.5 1.5h-8.253m0-16.5h-1.629a1.5 1.5 0 0 0-1.06.44l-6.75 6.75a1.5 1.5 0 0 0 0 2.12l6.75 6.75a1.5 1.5 0 0 0 1.06.44h1.629m0-16.5v16.5"/>`
+        innerHTML: `<path d="M11.997 3.75h8.379c1.336 0 2.005 1.616 1.06 2.56l-4.628 4.63a1.5 1.5 0 0 0 0 2.12l4.628 4.63c.945.944.276 2.56-1.06 2.56h-8.379m0-16.5v16.5m0-16.5H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h8.247"/>`
       }, children);
     };
   }
 });
 
-// src/icons/KeyframeHoldLinearOut.ts
+// src/icons/KeyframeHoldLinearIn.ts
 import { defineComponent as defineComponent526, h as h526 } from "vue";
-var KeyframeHoldLinearOut = defineComponent526({
-  name: "KeyframeHoldLinearOut",
+var KeyframeHoldLinearIn = defineComponent526({
+  name: "KeyframeHoldLinearIn",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18402,16 +18402,16 @@ var KeyframeHoldLinearOut = defineComponent526({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M11.871 3.75H3.618a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h8.253m0-16.5H13.5a1.5 1.5 0 0 1 1.06.44l6.75 6.75a1.5 1.5 0 0 1 0 2.12l-6.75 6.75a1.5 1.5 0 0 1-1.06.44H11.87m0-16.5v16.5"/>`
+        innerHTML: `<path d="M11.997 3.75h8.253a1.5 1.5 0 0 1 1.5 1.5v13.5a1.5 1.5 0 0 1-1.5 1.5h-8.253m0-16.5h-1.629a1.5 1.5 0 0 0-1.06.44l-6.75 6.75a1.5 1.5 0 0 0 0 2.12l6.75 6.75a1.5 1.5 0 0 0 1.06.44h1.629m0-16.5v16.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/KeyframeLinear.ts
+// src/icons/KeyframeHoldLinearOut.ts
 import { defineComponent as defineComponent527, h as h527 } from "vue";
-var KeyframeLinear = defineComponent527({
-  name: "KeyframeLinear",
+var KeyframeHoldLinearOut = defineComponent527({
+  name: "KeyframeHoldLinearOut",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18437,16 +18437,16 @@ var KeyframeLinear = defineComponent527({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 3.621c-.384 0-.768.147-1.06.44l-6.88 6.878a1.5 1.5 0 0 0 0 2.122l6.88 6.878c.292.293.676.44 1.06.44M12 3.62c.384 0 .768.147 1.06.44l6.88 6.878a1.5 1.5 0 0 1 0 2.122l-6.88 6.878c-.292.293-.676.44-1.06.44M12 3.62V20.38"/>`
+        innerHTML: `<path d="M11.871 3.75H3.618a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h8.253m0-16.5H13.5a1.5 1.5 0 0 1 1.06.44l6.75 6.75a1.5 1.5 0 0 1 0 2.12l-6.75 6.75a1.5 1.5 0 0 1-1.06.44H11.87m0-16.5v16.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Keyhole.ts
+// src/icons/KeyframeLinear.ts
 import { defineComponent as defineComponent528, h as h528 } from "vue";
-var Keyhole = defineComponent528({
-  name: "Keyhole",
+var KeyframeLinear = defineComponent528({
+  name: "KeyframeLinear",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18472,16 +18472,16 @@ var Keyhole = defineComponent528({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 2.25a4.5 4.5 0 0 1 1.205 8.837l2.545 9.163c-.5.5-1.95 1.5-3.75 1.5s-3.25-1-3.75-1.5l2.545-9.163A4.502 4.502 0 0 1 12 2.25"/>`
+        innerHTML: `<path d="M12 3.621c-.384 0-.768.147-1.06.44l-6.88 6.878a1.5 1.5 0 0 0 0 2.122l6.88 6.878c.292.293.676.44 1.06.44M12 3.62c.384 0 .768.147 1.06.44l6.88 6.878a1.5 1.5 0 0 1 0 2.122l-6.88 6.878c-.292.293-.676.44-1.06.44M12 3.62V20.38"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Knife.ts
+// src/icons/Keyhole.ts
 import { defineComponent as defineComponent529, h as h529 } from "vue";
-var Knife = defineComponent529({
-  name: "Knife",
+var Keyhole = defineComponent529({
+  name: "Keyhole",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18507,16 +18507,16 @@ var Knife = defineComponent529({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.802 7.616a1.5 1.5 0 0 1 .198.746v7.277a1.5 1.5 0 0 1-.744 1.295l-7.5 4.375a1.5 1.5 0 0 1-.756.204m8.802-13.897a1.5 1.5 0 0 0-.546-.55L14.25 3.563m6.552 4.053L12 12.75M3.199 7.616a1.5 1.5 0 0 1 .545-.55l7.5-4.375a1.5 1.5 0 0 1 1.512 0l1.494.872M3.199 7.616c-.128.223-.199.48-.199.746v7.277a1.5 1.5 0 0 0 .744 1.295L8.47 19.69M3.2 7.617l6.941 4.05M12 21.513c-.261 0-.522-.069-.756-.205L8.47 19.69M12 21.514V12.75m0 0-1.86-1.085m4.11-8.102-4.11 8.102m0 0L6 13.5l2.47 6.19"/>`
+        innerHTML: `<path d="M12 2.25a4.5 4.5 0 0 1 1.205 8.837l2.545 9.163c-.5.5-1.95 1.5-3.75 1.5s-3.25-1-3.75-1.5l2.545-9.163A4.502 4.502 0 0 1 12 2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/KnifeKitchen.ts
+// src/icons/Knife.ts
 import { defineComponent as defineComponent530, h as h530 } from "vue";
-var KnifeKitchen = defineComponent530({
-  name: "KnifeKitchen",
+var Knife = defineComponent530({
+  name: "Knife",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18542,16 +18542,16 @@ var KnifeKitchen = defineComponent530({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m9.386 15.364-4.575 4.575a1.5 1.5 0 0 1-2.122 0l-.128-.128a1.5 1.5 0 0 1 0-2.122l4.575-4.575m2.25 2.25 1.864 1.886 10.5-10.5-.257-.258a6 6 0 0 0-8.486 0L6.75 12.75l.386.364m2.25 2.25-2.25-2.25"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.802 7.616a1.5 1.5 0 0 1 .198.746v7.277a1.5 1.5 0 0 1-.744 1.295l-7.5 4.375a1.5 1.5 0 0 1-.756.204m8.802-13.897a1.5 1.5 0 0 0-.546-.55L14.25 3.563m6.552 4.053L12 12.75M3.199 7.616a1.5 1.5 0 0 1 .545-.55l7.5-4.375a1.5 1.5 0 0 1 1.512 0l1.494.872M3.199 7.616c-.128.223-.199.48-.199.746v7.277a1.5 1.5 0 0 0 .744 1.295L8.47 19.69M3.2 7.617l6.941 4.05M12 21.513c-.261 0-.522-.069-.756-.205L8.47 19.69M12 21.514V12.75m0 0-1.86-1.085m4.11-8.102-4.11 8.102m0 0L6 13.5l2.47 6.19"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LabFlask.ts
+// src/icons/KnifeKitchen.ts
 import { defineComponent as defineComponent531, h as h531 } from "vue";
-var LabFlask = defineComponent531({
-  name: "LabFlask",
+var KnifeKitchen = defineComponent531({
+  name: "KnifeKitchen",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18577,16 +18577,16 @@ var LabFlask = defineComponent531({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M16.5 17.25h-3m3-3.75h-3m3-3.75h-3m3.75-6.839V2.25H6.75v.661c0 .552.128 1.096.375 1.589S7.5 5.537 7.5 6.089v2.953a3 3 0 0 1-.317 1.341l-3.116 6.234a3 3 0 0 0-.317 1.341v.792a3 3 0 0 0 3 3h10.5a3 3 0 0 0 3-3v-.792a3 3 0 0 0-.317-1.341l-3.116-6.234a3 3 0 0 1-.317-1.341V6.089c0-.552.128-1.096.375-1.589a3.55 3.55 0 0 0 .375-1.589"/>`
+        innerHTML: `<path d="m9.386 15.364-4.575 4.575a1.5 1.5 0 0 1-2.122 0l-.128-.128a1.5 1.5 0 0 1 0-2.122l4.575-4.575m2.25 2.25 1.864 1.886 10.5-10.5-.257-.258a6 6 0 0 0-8.486 0L6.75 12.75l.386.364m2.25 2.25-2.25-2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Lamp.ts
+// src/icons/LabFlask.ts
 import { defineComponent as defineComponent532, h as h532 } from "vue";
-var Lamp = defineComponent532({
-  name: "Lamp",
+var LabFlask = defineComponent532({
+  name: "LabFlask",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18612,16 +18612,16 @@ var Lamp = defineComponent532({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 2.25v4.5m0 0a6.75 6.75 0 0 0-6.75 6.75c0 .414.336.75.75.75h3.75M12 6.75a6.75 6.75 0 0 1 6.75 6.75.75.75 0 0 1-.75.75h-3.75m-4.5 0V15a2.25 2.25 0 0 0 4.5 0v-.75m-4.5 0h4.5M12 21.75v-1.5m-3.912-1.338L6.75 20.25m9.162-1.338 1.338 1.338"/>`
+        innerHTML: `<path d="M16.5 17.25h-3m3-3.75h-3m3-3.75h-3m3.75-6.839V2.25H6.75v.661c0 .552.128 1.096.375 1.589S7.5 5.537 7.5 6.089v2.953a3 3 0 0 1-.317 1.341l-3.116 6.234a3 3 0 0 0-.317 1.341v.792a3 3 0 0 0 3 3h10.5a3 3 0 0 0 3-3v-.792a3 3 0 0 0-.317-1.341l-3.116-6.234a3 3 0 0 1-.317-1.341V6.089c0-.552.128-1.096.375-1.589a3.55 3.55 0 0 0 .375-1.589"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Lamp1.ts
+// src/icons/Lamp.ts
 import { defineComponent as defineComponent533, h as h533 } from "vue";
-var Lamp1 = defineComponent533({
-  name: "Lamp1",
+var Lamp = defineComponent533({
+  name: "Lamp",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18647,16 +18647,16 @@ var Lamp1 = defineComponent533({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 12H5.184a1.5 1.5 0 0 1-1.4-2.038l2.596-6.75a1.5 1.5 0 0 1 1.4-.962h8.44a1.5 1.5 0 0 1 1.4.962l2.596 6.75a1.5 1.5 0 0 1-1.4 2.038H15.75M12 12v9.75M12 12h3.75M12 21.75h5.25m-5.25 0H6.75m9-9.75v5.25"/>`
+        innerHTML: `<path d="M12 2.25v4.5m0 0a6.75 6.75 0 0 0-6.75 6.75c0 .414.336.75.75.75h3.75M12 6.75a6.75 6.75 0 0 1 6.75 6.75.75.75 0 0 1-.75.75h-3.75m-4.5 0V15a2.25 2.25 0 0 0 4.5 0v-.75m-4.5 0h4.5M12 21.75v-1.5m-3.912-1.338L6.75 20.25m9.162-1.338 1.338 1.338"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Laptop.ts
+// src/icons/Lamp1.ts
 import { defineComponent as defineComponent534, h as h534 } from "vue";
-var Laptop = defineComponent534({
-  name: "Laptop",
+var Lamp1 = defineComponent534({
+  name: "Lamp1",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18682,16 +18682,16 @@ var Laptop = defineComponent534({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M20.25 18.75H3.75m16.5 0h1.5m-1.5 0v-12a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5v12m0 0h-1.5m5.25-3h9"/>`
+        innerHTML: `<path d="M12 12H5.184a1.5 1.5 0 0 1-1.4-2.038l2.596-6.75a1.5 1.5 0 0 1 1.4-.962h8.44a1.5 1.5 0 0 1 1.4.962l2.596 6.75a1.5 1.5 0 0 1-1.4 2.038H15.75M12 12v9.75M12 12h3.75M12 21.75h5.25m-5.25 0H6.75m9-9.75v5.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Lattice.ts
+// src/icons/Laptop.ts
 import { defineComponent as defineComponent535, h as h535 } from "vue";
-var Lattice = defineComponent535({
-  name: "Lattice",
+var Laptop = defineComponent535({
+  name: "Laptop",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18717,16 +18717,16 @@ var Lattice = defineComponent535({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m6.513 7.244 3.474-1.738M6.513 7.244c.152.302.237.644.237 1.006s-.085.704-.237 1.006m0-2.012A2.25 2.25 0 1 0 4.5 10.5m5.487-4.994a2.25 2.25 0 1 1 4.026 0m-4.026 0a2.25 2.25 0 0 0 4.026 0m0 0 3.474 1.738m0 0a2.24 2.24 0 0 0-.237 1.006c0 .362.085.704.237 1.006m0-2.012A2.25 2.25 0 1 1 19.5 10.5m0 0v3m0-3a2.25 2.25 0 0 1-2.013-1.244M19.5 13.5a2.25 2.25 0 1 1-2.013 3.256M19.5 13.5a2.25 2.25 0 0 0-2.013 3.256m0 0-3.474 1.738m0 0a2.25 2.25 0 1 1-4.026 0m4.026 0A2.25 2.25 0 0 0 12 17.25m-2.013 1.244-3.474-1.738m3.474 1.738A2.25 2.25 0 0 1 12 17.25m-5.487-.494A2.25 2.25 0 1 1 4.5 13.5m2.013 3.256A2.25 2.25 0 0 0 4.5 13.5m0 0v-3m0 0a2.25 2.25 0 0 0 2.013-1.244m0 0 3.474 1.737m0 0A2.25 2.25 0 0 0 12 14.25m-2.013-3.257a2.25 2.25 0 0 1 4.026 0m0 0 3.474-1.737m-3.474 1.737A2.25 2.25 0 0 1 12 14.25m0 0v3"/>`
+        innerHTML: `<path d="M20.25 18.75H3.75m16.5 0h1.5m-1.5 0v-12a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5v12m0 0h-1.5m5.25-3h9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LayerHeight.ts
+// src/icons/Lattice.ts
 import { defineComponent as defineComponent536, h as h536 } from "vue";
-var LayerHeight = defineComponent536({
-  name: "LayerHeight",
+var Lattice = defineComponent536({
+  name: "Lattice",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18752,16 +18752,16 @@ var LayerHeight = defineComponent536({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 20.25h6m0 0a1.5 1.5 0 0 0 0-3h-6m6 3h1.5m0 0a3 3 0 1 0 0-6h-7.5m7.5 6h1.5a4.5 4.5 0 1 0 0-9h-9m16.5 9V3.75m0 0-3 3m3-3 3 3"/>`
+        innerHTML: `<path d="m6.513 7.244 3.474-1.738M6.513 7.244c.152.302.237.644.237 1.006s-.085.704-.237 1.006m0-2.012A2.25 2.25 0 1 0 4.5 10.5m5.487-4.994a2.25 2.25 0 1 1 4.026 0m-4.026 0a2.25 2.25 0 0 0 4.026 0m0 0 3.474 1.738m0 0a2.24 2.24 0 0 0-.237 1.006c0 .362.085.704.237 1.006m0-2.012A2.25 2.25 0 1 1 19.5 10.5m0 0v3m0-3a2.25 2.25 0 0 1-2.013-1.244M19.5 13.5a2.25 2.25 0 1 1-2.013 3.256M19.5 13.5a2.25 2.25 0 0 0-2.013 3.256m0 0-3.474 1.738m0 0a2.25 2.25 0 1 1-4.026 0m4.026 0A2.25 2.25 0 0 0 12 17.25m-2.013 1.244-3.474-1.738m3.474 1.738A2.25 2.25 0 0 1 12 17.25m-5.487-.494A2.25 2.25 0 1 1 4.5 13.5m2.013 3.256A2.25 2.25 0 0 0 4.5 13.5m0 0v-3m0 0a2.25 2.25 0 0 0 2.013-1.244m0 0 3.474 1.737m0 0A2.25 2.25 0 0 0 12 14.25m-2.013-3.257a2.25 2.25 0 0 1 4.026 0m0 0 3.474-1.737m-3.474 1.737A2.25 2.25 0 0 1 12 14.25m0 0v3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Layers.ts
+// src/icons/LayerHeight.ts
 import { defineComponent as defineComponent537, h as h537 } from "vue";
-var Layers = defineComponent537({
-  name: "Layers",
+var LayerHeight = defineComponent537({
+  name: "LayerHeight",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18787,16 +18787,16 @@ var Layers = defineComponent537({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M7.821 12 12 14.25 16.179 12M7.82 12 2.25 9 12 3.75 21.75 9l-5.571 3M7.82 12 2.25 15 12 20.25 21.75 15l-5.571-3"/>`
+        innerHTML: `<path d="M2.25 20.25h6m0 0a1.5 1.5 0 0 0 0-3h-6m6 3h1.5m0 0a3 3 0 1 0 0-6h-7.5m7.5 6h1.5a4.5 4.5 0 1 0 0-9h-9m16.5 9V3.75m0 0-3 3m3-3 3 3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Layout.ts
+// src/icons/Layers.ts
 import { defineComponent as defineComponent538, h as h538 } from "vue";
-var Layout = defineComponent538({
-  name: "Layout",
+var Layers = defineComponent538({
+  name: "Layers",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18822,16 +18822,16 @@ var Layout = defineComponent538({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 10.5v-6A1.5 1.5 0 0 1 4.5 3H9a1.5 1.5 0 0 1 1.5 1.5v6A1.5 1.5 0 0 1 9 12H4.5A1.5 1.5 0 0 1 3 10.5M13.5 6V4.5A1.5 1.5 0 0 1 15 3h4.5A1.5 1.5 0 0 1 21 4.5V6a1.5 1.5 0 0 1-1.5 1.5H15A1.5 1.5 0 0 1 13.5 6M19.5 10.5H15a1.5 1.5 0 0 0-1.5 1.5v7.5A1.5 1.5 0 0 0 15 21h4.5a1.5 1.5 0 0 0 1.5-1.5V12a1.5 1.5 0 0 0-1.5-1.5M3 19.5v-3A1.5 1.5 0 0 1 4.5 15H9a1.5 1.5 0 0 1 1.5 1.5v3A1.5 1.5 0 0 1 9 21H4.5A1.5 1.5 0 0 1 3 19.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M7.821 12 12 14.25 16.179 12M7.82 12 2.25 9 12 3.75 21.75 9l-5.571 3M7.82 12 2.25 15 12 20.25 21.75 15l-5.571-3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LayoutColumns.ts
+// src/icons/Layout.ts
 import { defineComponent as defineComponent539, h as h539 } from "vue";
-var LayoutColumns = defineComponent539({
-  name: "LayoutColumns",
+var Layout = defineComponent539({
+  name: "Layout",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18857,16 +18857,16 @@ var LayoutColumns = defineComponent539({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 18.75V5.25a1.5 1.5 0 0 1 1.5-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v13.5a1.5 1.5 0 0 1-1.5 1.5h-1.5a1.5 1.5 0 0 1-1.5-1.5M9.75 18.75V5.25a1.5 1.5 0 0 1 1.5-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v13.5a1.5 1.5 0 0 1-1.5 1.5h-1.5a1.5 1.5 0 0 1-1.5-1.5M17.25 18.75V5.25a1.5 1.5 0 0 1 1.5-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v13.5a1.5 1.5 0 0 1-1.5 1.5h-1.5a1.5 1.5 0 0 1-1.5-1.5"/>`
+        innerHTML: `<path d="M3 10.5v-6A1.5 1.5 0 0 1 4.5 3H9a1.5 1.5 0 0 1 1.5 1.5v6A1.5 1.5 0 0 1 9 12H4.5A1.5 1.5 0 0 1 3 10.5M13.5 6V4.5A1.5 1.5 0 0 1 15 3h4.5A1.5 1.5 0 0 1 21 4.5V6a1.5 1.5 0 0 1-1.5 1.5H15A1.5 1.5 0 0 1 13.5 6M19.5 10.5H15a1.5 1.5 0 0 0-1.5 1.5v7.5A1.5 1.5 0 0 0 15 21h4.5a1.5 1.5 0 0 0 1.5-1.5V12a1.5 1.5 0 0 0-1.5-1.5M3 19.5v-3A1.5 1.5 0 0 1 4.5 15H9a1.5 1.5 0 0 1 1.5 1.5v3A1.5 1.5 0 0 1 9 21H4.5A1.5 1.5 0 0 1 3 19.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LayoutGrid.ts
+// src/icons/LayoutColumns.ts
 import { defineComponent as defineComponent540, h as h540 } from "vue";
-var LayoutGrid = defineComponent540({
-  name: "LayoutGrid",
+var LayoutColumns = defineComponent540({
+  name: "LayoutColumns",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18892,16 +18892,16 @@ var LayoutGrid = defineComponent540({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 9V4.5A1.5 1.5 0 0 1 4.5 3H9a1.5 1.5 0 0 1 1.5 1.5V9A1.5 1.5 0 0 1 9 10.5H4.5A1.5 1.5 0 0 1 3 9M13.5 9V4.5A1.5 1.5 0 0 1 15 3h4.5A1.5 1.5 0 0 1 21 4.5V9a1.5 1.5 0 0 1-1.5 1.5H15A1.5 1.5 0 0 1 13.5 9M19.5 13.5H15a1.5 1.5 0 0 0-1.5 1.5v4.5A1.5 1.5 0 0 0 15 21h4.5a1.5 1.5 0 0 0 1.5-1.5V15a1.5 1.5 0 0 0-1.5-1.5M3 19.5V15a1.5 1.5 0 0 1 1.5-1.5H9a1.5 1.5 0 0 1 1.5 1.5v4.5A1.5 1.5 0 0 1 9 21H4.5A1.5 1.5 0 0 1 3 19.5"/>`
+        innerHTML: `<path d="M2.25 18.75V5.25a1.5 1.5 0 0 1 1.5-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v13.5a1.5 1.5 0 0 1-1.5 1.5h-1.5a1.5 1.5 0 0 1-1.5-1.5M9.75 18.75V5.25a1.5 1.5 0 0 1 1.5-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v13.5a1.5 1.5 0 0 1-1.5 1.5h-1.5a1.5 1.5 0 0 1-1.5-1.5M17.25 18.75V5.25a1.5 1.5 0 0 1 1.5-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v13.5a1.5 1.5 0 0 1-1.5 1.5h-1.5a1.5 1.5 0 0 1-1.5-1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LayoutRows.ts
+// src/icons/LayoutGrid.ts
 import { defineComponent as defineComponent541, h as h541 } from "vue";
-var LayoutRows = defineComponent541({
-  name: "LayoutRows",
+var LayoutGrid = defineComponent541({
+  name: "LayoutGrid",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18927,16 +18927,16 @@ var LayoutRows = defineComponent541({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M5.25 2.25h13.5a1.5 1.5 0 0 1 1.5 1.5v1.5a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5v-1.5a1.5 1.5 0 0 1 1.5-1.5M5.25 9.75h13.5a1.5 1.5 0 0 1 1.5 1.5v1.5a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5v-1.5a1.5 1.5 0 0 1 1.5-1.5M5.25 17.25h13.5a1.5 1.5 0 0 1 1.5 1.5v1.5a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5v-1.5a1.5 1.5 0 0 1 1.5-1.5"/>`
+        innerHTML: `<path d="M3 9V4.5A1.5 1.5 0 0 1 4.5 3H9a1.5 1.5 0 0 1 1.5 1.5V9A1.5 1.5 0 0 1 9 10.5H4.5A1.5 1.5 0 0 1 3 9M13.5 9V4.5A1.5 1.5 0 0 1 15 3h4.5A1.5 1.5 0 0 1 21 4.5V9a1.5 1.5 0 0 1-1.5 1.5H15A1.5 1.5 0 0 1 13.5 9M19.5 13.5H15a1.5 1.5 0 0 0-1.5 1.5v4.5A1.5 1.5 0 0 0 15 21h4.5a1.5 1.5 0 0 0 1.5-1.5V15a1.5 1.5 0 0 0-1.5-1.5M3 19.5V15a1.5 1.5 0 0 1 1.5-1.5H9a1.5 1.5 0 0 1 1.5 1.5v4.5A1.5 1.5 0 0 1 9 21H4.5A1.5 1.5 0 0 1 3 19.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Leather.ts
+// src/icons/LayoutRows.ts
 import { defineComponent as defineComponent542, h as h542 } from "vue";
-var Leather = defineComponent542({
-  name: "Leather",
+var LayoutRows = defineComponent542({
+  name: "LayoutRows",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18962,16 +18962,16 @@ var Leather = defineComponent542({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 12.75c.108-.586.126-.914 0-1.5m9 1.5c-.108-.586-.126-.914 0-1.5m0-3.75c-.585-.085-.996-.168-1.5-.38m-7.5.38c.584-.085.996-.168 1.5-.38m7.5 9.38c-.585.085-.996.168-1.5.38m-7.5-.38c.584.085.996.168 1.5.38M2.25 8.25l1.5-4.5.942.314A5.2 5.2 0 0 0 10.5 2.25h3a5.2 5.2 0 0 0 5.808 1.814l.942-.314 1.5 4.5c-2.942 1.634-2.942 5.866 0 7.5l-1.5 4.5-.942-.314A5.2 5.2 0 0 0 13.5 21.75h-3a5.2 5.2 0 0 0-5.808-1.814l-.942.314-1.5-4.5c2.942-1.634 2.942-5.866 0-7.5"/>`
+        innerHTML: `<path d="M5.25 2.25h13.5a1.5 1.5 0 0 1 1.5 1.5v1.5a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5v-1.5a1.5 1.5 0 0 1 1.5-1.5M5.25 9.75h13.5a1.5 1.5 0 0 1 1.5 1.5v1.5a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5v-1.5a1.5 1.5 0 0 1 1.5-1.5M5.25 17.25h13.5a1.5 1.5 0 0 1 1.5 1.5v1.5a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5v-1.5a1.5 1.5 0 0 1 1.5-1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Leave.ts
+// src/icons/Leather.ts
 import { defineComponent as defineComponent543, h as h543 } from "vue";
-var Leave = defineComponent543({
-  name: "Leave",
+var Leather = defineComponent543({
+  name: "Leather",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -18997,16 +18997,16 @@ var Leave = defineComponent543({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m3 3 11.175 1.315a6.9 6.9 0 0 1 2.913 1.036c3.617 2.302 4.3 7.302 1.431 10.489l-1.269 1.41M3 3l1.315 11.175a6.9 6.9 0 0 0 1.036 2.913c2.302 3.617 7.302 4.3 10.489 1.431l1.41-1.269M3 3l7.5 7.5M21 21l-3.75-3.75m0 0L15 15m0 0V9m0 6-4.5-4.5M15 15H9m1.5-4.5v-3m0 3h-3"/>`
+        innerHTML: `<path d="M7.5 12.75c.108-.586.126-.914 0-1.5m9 1.5c-.108-.586-.126-.914 0-1.5m0-3.75c-.585-.085-.996-.168-1.5-.38m-7.5.38c.584-.085.996-.168 1.5-.38m7.5 9.38c-.585.085-.996.168-1.5.38m-7.5-.38c.584.085.996.168 1.5.38M2.25 8.25l1.5-4.5.942.314A5.2 5.2 0 0 0 10.5 2.25h3a5.2 5.2 0 0 0 5.808 1.814l.942-.314 1.5 4.5c-2.942 1.634-2.942 5.866 0 7.5l-1.5 4.5-.942-.314A5.2 5.2 0 0 0 13.5 21.75h-3a5.2 5.2 0 0 0-5.808-1.814l-.942.314-1.5-4.5c2.942-1.634 2.942-5.866 0-7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Letter.ts
+// src/icons/Leave.ts
 import { defineComponent as defineComponent544, h as h544 } from "vue";
-var Letter = defineComponent544({
-  name: "Letter",
+var Leave = defineComponent544({
+  name: "Leave",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19032,16 +19032,16 @@ var Letter = defineComponent544({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.75 7.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v1.5m19.5 0V18a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5V7.5m19.5 0L12 12.75 2.25 7.5"/>`
+        innerHTML: `<path d="m3 3 11.175 1.315a6.9 6.9 0 0 1 2.913 1.036c3.617 2.302 4.3 7.302 1.431 10.489l-1.269 1.41M3 3l1.315 11.175a6.9 6.9 0 0 0 1.036 2.913c2.302 3.617 7.302 4.3 10.489 1.431l1.41-1.269M3 3l7.5 7.5M21 21l-3.75-3.75m0 0L15 15m0 0V9m0 6-4.5-4.5M15 15H9m1.5-4.5v-3m0 3h-3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LetterCheck.ts
+// src/icons/Letter.ts
 import { defineComponent as defineComponent545, h as h545 } from "vue";
-var LetterCheck = defineComponent545({
-  name: "LetterCheck",
+var Letter = defineComponent545({
+  name: "Letter",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19067,16 +19067,16 @@ var LetterCheck = defineComponent545({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 7.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v1.5m19.5 0L12 12.75 2.25 7.5m19.5 0v4.887M2.25 7.5V18a1.5 1.5 0 0 0 1.5 1.5h7.667m2.833-.75 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
+        innerHTML: `<path d="M21.75 7.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v1.5m19.5 0V18a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5V7.5m19.5 0L12 12.75 2.25 7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LetterEdit.ts
+// src/icons/LetterCheck.ts
 import { defineComponent as defineComponent546, h as h546 } from "vue";
-var LetterEdit = defineComponent546({
-  name: "LetterEdit",
+var LetterCheck = defineComponent546({
+  name: "LetterCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19102,16 +19102,16 @@ var LetterEdit = defineComponent546({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.75 7.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v1.5m19.5 0L12 12.75 2.25 7.5m19.5 0v4.887M2.25 7.5V18a1.5 1.5 0 0 0 1.5 1.5h7.667m8.083-5.25 3 3-4.06 4.06a1.5 1.5 0 0 1-1.061.44H15v-2.379c0-.397.158-.779.44-1.06z"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 7.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v1.5m19.5 0L12 12.75 2.25 7.5m19.5 0v4.887M2.25 7.5V18a1.5 1.5 0 0 0 1.5 1.5h7.667m2.833-.75 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LetterMinus.ts
+// src/icons/LetterEdit.ts
 import { defineComponent as defineComponent547, h as h547 } from "vue";
-var LetterMinus = defineComponent547({
-  name: "LetterMinus",
+var LetterEdit = defineComponent547({
+  name: "LetterEdit",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19137,16 +19137,16 @@ var LetterMinus = defineComponent547({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 7.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v1.5m19.5 0L12 12.75 2.25 7.5m19.5 0v4.887M2.25 7.5V18a1.5 1.5 0 0 0 1.5 1.5h7.667M22.5 18.375h-6.75"/>`
+        innerHTML: `<path d="M21.75 7.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v1.5m19.5 0L12 12.75 2.25 7.5m19.5 0v4.887M2.25 7.5V18a1.5 1.5 0 0 0 1.5 1.5h7.667m8.083-5.25 3 3-4.06 4.06a1.5 1.5 0 0 1-1.061.44H15v-2.379c0-.397.158-.779.44-1.06z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LetterOpen.ts
+// src/icons/LetterMinus.ts
 import { defineComponent as defineComponent548, h as h548 } from "vue";
-var LetterOpen = defineComponent548({
-  name: "LetterOpen",
+var LetterMinus = defineComponent548({
+  name: "LetterMinus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19172,16 +19172,16 @@ var LetterOpen = defineComponent548({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.75 8.25v10.5a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5V8.25m19.5 0-1.5.808m1.5-.808-1.5-.75m-18 .75 1.5.808m-1.5-.808 1.5-.75m16.5 1.558V7.5m0 1.558L12 13.5 3.75 9.058m0 0V7.5m0 0V3.75h16.5V7.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 7.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v1.5m19.5 0L12 12.75 2.25 7.5m19.5 0v4.887M2.25 7.5V18a1.5 1.5 0 0 0 1.5 1.5h7.667M22.5 18.375h-6.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LetterPlus.ts
+// src/icons/LetterOpen.ts
 import { defineComponent as defineComponent549, h as h549 } from "vue";
-var LetterPlus = defineComponent549({
-  name: "LetterPlus",
+var LetterOpen = defineComponent549({
+  name: "LetterOpen",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19207,16 +19207,16 @@ var LetterPlus = defineComponent549({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 7.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v1.5m19.5 0L12 12.75 2.25 7.5m19.5 0v4.887M2.25 7.5V18a1.5 1.5 0 0 0 1.5 1.5h7.667m6.958 3v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
+        innerHTML: `<path d="M21.75 8.25v10.5a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5V8.25m19.5 0-1.5.808m1.5-.808-1.5-.75m-18 .75 1.5.808m-1.5-.808 1.5-.75m16.5 1.558V7.5m0 1.558L12 13.5 3.75 9.058m0 0V7.5m0 0V3.75h16.5V7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LetterSearch.ts
+// src/icons/LetterPlus.ts
 import { defineComponent as defineComponent550, h as h550 } from "vue";
-var LetterSearch = defineComponent550({
-  name: "LetterSearch",
+var LetterPlus = defineComponent550({
+  name: "LetterPlus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19242,16 +19242,16 @@ var LetterSearch = defineComponent550({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 7.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v1.5m19.5 0L12 12.75 2.25 7.5m19.5 0v4.887M2.25 7.5V18a1.5 1.5 0 0 0 1.5 1.5h7.667m11.083 3-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 7.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v1.5m19.5 0L12 12.75 2.25 7.5m19.5 0v4.887M2.25 7.5V18a1.5 1.5 0 0 0 1.5 1.5h7.667m6.958 3v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Level.ts
+// src/icons/LetterSearch.ts
 import { defineComponent as defineComponent551, h as h551 } from "vue";
-var Level = defineComponent551({
-  name: "Level",
+var LetterSearch = defineComponent551({
+  name: "LetterSearch",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19277,16 +19277,16 @@ var Level = defineComponent551({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M8.25 7.5h-3a3 3 0 0 0-3 3v6h19.5v-6a3 3 0 0 0-3-3h-3m-7.5 0v.75a2.25 2.25 0 0 0 2.25 2.25h3a2.25 2.25 0 0 0 2.25-2.25V7.5m-7.5 0h7.5m-9 5.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0m10.5 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.75 7.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v1.5m19.5 0L12 12.75 2.25 7.5m19.5 0v4.887M2.25 7.5V18a1.5 1.5 0 0 0 1.5 1.5h7.667m11.083 3-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LightAera.ts
+// src/icons/Level.ts
 import { defineComponent as defineComponent552, h as h552 } from "vue";
-var LightAera = defineComponent552({
-  name: "LightAera",
+var Level = defineComponent552({
+  name: "Level",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19312,16 +19312,16 @@ var LightAera = defineComponent552({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 6V3m0 18v-3m9-6h.75m-19.5 0H3m4.5-6v-.75m-3.75 1.5-1.5-1.5M16.5 6v-.75m5.25 13.5-1.5-1.5m1.5-12-1.5 1.5m-16.5 10.5-1.5 1.5m5.25 0V18m9 .75V18M6 10.5v3A1.5 1.5 0 0 0 7.5 15h9a1.5 1.5 0 0 0 1.5-1.5v-3A1.5 1.5 0 0 0 16.5 9h-9A1.5 1.5 0 0 0 6 10.5"/>`
+        innerHTML: `<path d="M8.25 7.5h-3a3 3 0 0 0-3 3v6h19.5v-6a3 3 0 0 0-3-3h-3m-7.5 0v.75a2.25 2.25 0 0 0 2.25 2.25h3a2.25 2.25 0 0 0 2.25-2.25V7.5m-7.5 0h7.5m-9 5.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0m10.5 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LightBulbOff.ts
+// src/icons/LightAera.ts
 import { defineComponent as defineComponent553, h as h553 } from "vue";
-var LightBulbOff = defineComponent553({
-  name: "LightBulbOff",
+var LightAera = defineComponent553({
+  name: "LightAera",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19347,16 +19347,16 @@ var LightBulbOff = defineComponent553({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9.75 18.75v1.5a1.5 1.5 0 0 0 1.5 1.5h1.5a1.5 1.5 0 0 0 1.5-1.5v-1.5m-4.5 0h4.5m-4.5 0v-1.378c0-.969-.644-1.797-1.46-2.318a6.58 6.58 0 0 1-3.04-5.547V9a6.75 6.75 0 0 1 13.5 0v.507a6.58 6.58 0 0 1-3.04 5.547c-.816.521-1.46 1.35-1.46 2.318v1.378"/>`
+        innerHTML: `<path d="M12 6V3m0 18v-3m9-6h.75m-19.5 0H3m4.5-6v-.75m-3.75 1.5-1.5-1.5M16.5 6v-.75m5.25 13.5-1.5-1.5m1.5-12-1.5 1.5m-16.5 10.5-1.5 1.5m5.25 0V18m9 .75V18M6 10.5v3A1.5 1.5 0 0 0 7.5 15h9a1.5 1.5 0 0 0 1.5-1.5v-3A1.5 1.5 0 0 0 16.5 9h-9A1.5 1.5 0 0 0 6 10.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LightBulbOn.ts
+// src/icons/LightBulbOff.ts
 import { defineComponent as defineComponent554, h as h554 } from "vue";
-var LightBulbOn = defineComponent554({
-  name: "LightBulbOn",
+var LightBulbOff = defineComponent554({
+  name: "LightBulbOff",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19382,16 +19382,16 @@ var LightBulbOn = defineComponent554({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9.75 17.25v1.5a1.5 1.5 0 0 0 1.5 1.5h1.5a1.5 1.5 0 0 0 1.5-1.5v-1.5m-4.5 0h4.5m-4.5 0v-2.073c0-.568-.332-1.073-.79-1.41a5.43 5.43 0 0 1-2.21-4.371V9a5.25 5.25 0 0 1 10.5 0v.396c0 1.743-.835 3.36-2.21 4.37-.458.338-.79.843-.79 1.411v2.073M21 4.5l-1.5.75m2.25 4.5h-1.5m-.75 4.5L21 15M3.75 9.75h-1.5m2.25-4.5L3 4.5m1.5 9.75L3 15"/>`
+        innerHTML: `<path d="M9.75 18.75v1.5a1.5 1.5 0 0 0 1.5 1.5h1.5a1.5 1.5 0 0 0 1.5-1.5v-1.5m-4.5 0h4.5m-4.5 0v-1.378c0-.969-.644-1.797-1.46-2.318a6.58 6.58 0 0 1-3.04-5.547V9a6.75 6.75 0 0 1 13.5 0v.507a6.58 6.58 0 0 1-3.04 5.547c-.816.521-1.46 1.35-1.46 2.318v1.378"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LightPoint.ts
+// src/icons/LightBulbOn.ts
 import { defineComponent as defineComponent555, h as h555 } from "vue";
-var LightPoint = defineComponent555({
-  name: "LightPoint",
+var LightBulbOn = defineComponent555({
+  name: "LightBulbOn",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19417,16 +19417,16 @@ var LightPoint = defineComponent555({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.75 12h-4.5m-10.5 0h-4.5m9.758 9.758v-4.5m0-10.5v-4.5M18.9 18.896l-3.182-3.182M8.293 8.29 5.11 5.108m0 13.799 3.182-3.182M15.718 8.3 18.9 5.118M14.25 12a2.25 2.25 0 1 0-4.5 0 2.25 2.25 0 0 0 4.5 0"/>`
+        innerHTML: `<path d="M9.75 17.25v1.5a1.5 1.5 0 0 0 1.5 1.5h1.5a1.5 1.5 0 0 0 1.5-1.5v-1.5m-4.5 0h4.5m-4.5 0v-2.073c0-.568-.332-1.073-.79-1.41a5.43 5.43 0 0 1-2.21-4.371V9a5.25 5.25 0 0 1 10.5 0v.396c0 1.743-.835 3.36-2.21 4.37-.458.338-.79.843-.79 1.411v2.073M21 4.5l-1.5.75m2.25 4.5h-1.5m-.75 4.5L21 15M3.75 9.75h-1.5m2.25-4.5L3 4.5m1.5 9.75L3 15"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LightSpot.ts
+// src/icons/LightPoint.ts
 import { defineComponent as defineComponent556, h as h556 } from "vue";
-var LightSpot = defineComponent556({
-  name: "LightSpot",
+var LightPoint = defineComponent556({
+  name: "LightPoint",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19452,16 +19452,16 @@ var LightSpot = defineComponent556({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 21.75c4.97 0 9-2.35 9-5.25 0-.521-.13-1.025-.373-1.5M12 21.75c-4.97 0-9-2.35-9-5.25 0-.521.13-1.025.373-1.5M12 21.75v-12M3.373 15l.116-.212M3.373 15q.054-.107.116-.212M7.5 7.5l-4.01 7.288m0 0c.891-1.51 2.931-2.707 5.51-3.24M20.627 15l-.116-.212m.116.212a4 4 0 0 0-.116-.212M16.5 7.5l4.01 7.288m0 0c-.892-1.51-2.931-2.707-5.51-3.24M14.25 4.5a2.25 2.25 0 1 0-4.5 0 2.25 2.25 0 0 0 4.5 0"/>`
+        innerHTML: `<path d="M21.75 12h-4.5m-10.5 0h-4.5m9.758 9.758v-4.5m0-10.5v-4.5M18.9 18.896l-3.182-3.182M8.293 8.29 5.11 5.108m0 13.799 3.182-3.182M15.718 8.3 18.9 5.118M14.25 12a2.25 2.25 0 1 0-4.5 0 2.25 2.25 0 0 0 4.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Like.ts
+// src/icons/LightSpot.ts
 import { defineComponent as defineComponent557, h as h557 } from "vue";
-var Like = defineComponent557({
-  name: "Like",
+var LightSpot = defineComponent557({
+  name: "LightSpot",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19487,16 +19487,16 @@ var Like = defineComponent557({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 9.75H3.75a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5H7.5m0-10.5L14.25 3l.721.721a3 3 0 0 1 .562 3.463L14.25 9.75h6c.828 0 1.507.673 1.431 1.498a16.4 16.4 0 0 1-2.983 8.024l-.25.35a1.5 1.5 0 0 1-1.22.628H7.5m0-10.5v10.5"/>`
+        innerHTML: `<path d="M12 21.75c4.97 0 9-2.35 9-5.25 0-.521-.13-1.025-.373-1.5M12 21.75c-4.97 0-9-2.35-9-5.25 0-.521.13-1.025.373-1.5M12 21.75v-12M3.373 15l.116-.212M3.373 15q.054-.107.116-.212M7.5 7.5l-4.01 7.288m0 0c.891-1.51 2.931-2.707 5.51-3.24M20.627 15l-.116-.212m.116.212a4 4 0 0 0-.116-.212M16.5 7.5l4.01 7.288m0 0c-.892-1.51-2.931-2.707-5.51-3.24M14.25 4.5a2.25 2.25 0 1 0-4.5 0 2.25 2.25 0 0 0 4.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Link.ts
+// src/icons/Like.ts
 import { defineComponent as defineComponent558, h as h558 } from "vue";
-var Link = defineComponent558({
-  name: "Link",
+var Like = defineComponent558({
+  name: "Like",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19522,16 +19522,16 @@ var Link = defineComponent558({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m8.25 15.75 7.5-7.5M10.5 7.5l.302-.905a6 6 0 0 1 1.45-2.348l.498-.497a5.303 5.303 0 1 1 7.5 7.5l-.497.497a6 6 0 0 1-2.348 1.451l-.905.302m-3 3-.302.905a6 6 0 0 1-1.45 2.348l-.498.497a5.303 5.303 0 0 1-7.5-7.5l.497-.497a6 6 0 0 1 2.348-1.451L7.5 10.5"/>`
+        innerHTML: `<path d="M7.5 9.75H3.75a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5H7.5m0-10.5L14.25 3l.721.721a3 3 0 0 1 .562 3.463L14.25 9.75h6c.828 0 1.507.673 1.431 1.498a16.4 16.4 0 0 1-2.983 8.024l-.25.35a1.5 1.5 0 0 1-1.22.628H7.5m0-10.5v10.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LinkAdd.ts
+// src/icons/Link.ts
 import { defineComponent as defineComponent559, h as h559 } from "vue";
-var LinkAdd = defineComponent559({
-  name: "LinkAdd",
+var Link = defineComponent559({
+  name: "Link",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19557,16 +19557,16 @@ var LinkAdd = defineComponent559({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m8.25 15.75 7.5-7.5m4.21 3.29.29-.29a5.303 5.303 0 0 0-7.5-7.5l-.497.497a6 6 0 0 0-1.451 2.348L10.5 7.5m1.04 12.46-.29.29a5.303 5.303 0 1 1-7.5-7.5l.497-.498a6 6 0 0 1 2.348-1.45L7.5 10.5m10.875 12v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
+        innerHTML: `<path d="m8.25 15.75 7.5-7.5M10.5 7.5l.302-.905a6 6 0 0 1 1.45-2.348l.498-.497a5.303 5.303 0 1 1 7.5 7.5l-.497.497a6 6 0 0 1-2.348 1.451l-.905.302m-3 3-.302.905a6 6 0 0 1-1.45 2.348l-.498.497a5.303 5.303 0 0 1-7.5-7.5l.497-.497a6 6 0 0 1 2.348-1.451L7.5 10.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LinkSettings.ts
+// src/icons/LinkAdd.ts
 import { defineComponent as defineComponent560, h as h560 } from "vue";
-var LinkSettings = defineComponent560({
-  name: "LinkSettings",
+var LinkAdd = defineComponent560({
+  name: "LinkAdd",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19592,16 +19592,16 @@ var LinkSettings = defineComponent560({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m8.25 15.75 7.5-7.5m4.21 3.29.29-.29a5.303 5.303 0 1 0-7.5-7.5l-.498.497a6 6 0 0 0-1.45 2.348L10.5 7.5m1.039 12.46-.29.29a5.303 5.303 0 1 1-7.5-7.5l.498-.498a6 6 0 0 1 2.348-1.45L7.5 10.5m10.874 10.35a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.133 4.117h-1.65m-4.95 0h-1.65m7.048 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m8.25 15.75 7.5-7.5m4.21 3.29.29-.29a5.303 5.303 0 0 0-7.5-7.5l-.497.497a6 6 0 0 0-1.451 2.348L10.5 7.5m1.04 12.46-.29.29a5.303 5.303 0 1 1-7.5-7.5l.497-.498a6 6 0 0 1 2.348-1.45L7.5 10.5m10.875 12v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LinkUnlinked.ts
+// src/icons/LinkSettings.ts
 import { defineComponent as defineComponent561, h as h561 } from "vue";
-var LinkUnlinked = defineComponent561({
-  name: "LinkUnlinked",
+var LinkSettings = defineComponent561({
+  name: "LinkSettings",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19627,16 +19627,16 @@ var LinkUnlinked = defineComponent561({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m10.5 7.5.302-.905a6 6 0 0 1 1.45-2.348l.498-.497a5.303 5.303 0 0 1 7.5 7.5l-.497.497a6 6 0 0 1-2.348 1.451l-.905.302m-3 3-.302.905a6 6 0 0 1-1.45 2.348l-.498.497a5.303 5.303 0 1 1-7.5-7.5l.497-.498a6 6 0 0 1 2.348-1.45L7.5 10.5m9 8.25 1.5 3m.75-5.25 3 .75M7.5 5.25l-.75-3M5.25 7.5l-3-.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m8.25 15.75 7.5-7.5m4.21 3.29.29-.29a5.303 5.303 0 1 0-7.5-7.5l-.498.497a6 6 0 0 0-1.45 2.348L10.5 7.5m1.039 12.46-.29.29a5.303 5.303 0 1 1-7.5-7.5l.498-.498a6 6 0 0 1 2.348-1.45L7.5 10.5m10.874 10.35a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.133 4.117h-1.65m-4.95 0h-1.65m7.048 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
       }, children);
     };
   }
 });
 
-// src/icons/List.ts
+// src/icons/LinkUnlinked.ts
 import { defineComponent as defineComponent562, h as h562 } from "vue";
-var List = defineComponent562({
-  name: "List",
+var LinkUnlinked = defineComponent562({
+  name: "LinkUnlinked",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19662,16 +19662,16 @@ var List = defineComponent562({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M10.5 3.75h11.25M10.5 12h11.25M10.5 20.25h11.25m-19.5 0a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m0-8.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m0-8.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0"/>`
+        innerHTML: `<path d="m10.5 7.5.302-.905a6 6 0 0 1 1.45-2.348l.498-.497a5.303 5.303 0 0 1 7.5 7.5l-.497.497a6 6 0 0 1-2.348 1.451l-.905.302m-3 3-.302.905a6 6 0 0 1-1.45 2.348l-.498.497a5.303 5.303 0 1 1-7.5-7.5l.497-.498a6 6 0 0 1 2.348-1.45L7.5 10.5m9 8.25 1.5 3m.75-5.25 3 .75M7.5 5.25l-.75-3M5.25 7.5l-3-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ListCheck.ts
+// src/icons/List.ts
 import { defineComponent as defineComponent563, h as h563 } from "vue";
-var ListCheck = defineComponent563({
-  name: "ListCheck",
+var List = defineComponent563({
+  name: "List",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19697,16 +19697,16 @@ var ListCheck = defineComponent563({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M10.5 3.75h11.25M10.5 12h11.25M10.5 20.25h11.25M2.25 3.75l1.5 1.5 3-3M2.25 12l1.5 1.5 3-3m-4.5 9.75 1.5 1.5 3-3"/>`
+        innerHTML: `<path d="M10.5 3.75h11.25M10.5 12h11.25M10.5 20.25h11.25m-19.5 0a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m0-8.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m0-8.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ListNumbered.ts
+// src/icons/ListCheck.ts
 import { defineComponent as defineComponent564, h as h564 } from "vue";
-var ListNumbered = defineComponent564({
-  name: "ListNumbered",
+var ListCheck = defineComponent564({
+  name: "ListCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19732,16 +19732,16 @@ var ListNumbered = defineComponent564({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M10.5 3.75h11.25M10.5 12h11.25M10.5 20.25h11.25M2.25 3.75l2.25-1.5v7.5m0 0h2.25m-2.25 0H2.25m4.5 12h-4.5l3.879-3.879a2.121 2.121 0 0 0-1.5-3.621H4.5a2.25 2.25 0 0 0-2.25 2.25"/>`
+        innerHTML: `<path d="M10.5 3.75h11.25M10.5 12h11.25M10.5 20.25h11.25M2.25 3.75l1.5 1.5 3-3M2.25 12l1.5 1.5 3-3m-4.5 9.75 1.5 1.5 3-3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Liver.ts
+// src/icons/ListNumbered.ts
 import { defineComponent as defineComponent565, h as h565 } from "vue";
-var Liver = defineComponent565({
-  name: "Liver",
+var ListNumbered = defineComponent565({
+  name: "ListNumbered",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19767,16 +19767,16 @@ var Liver = defineComponent565({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m11.905 15.052-4.279 4.32a3.05 3.05 0 0 1-2.163.925c-1.758 0-3.183-1.553-3.183-3.47v-6.224c0-2.508 1.598-4.68 3.844-5.223a4.5 4.5 0 0 1 1.944-.041l4.906.972m-1.07 8.741h1.293c1.549 0 3.014-.768 3.982-2.086l.227-.31c.252-.342.56-.63.91-.847l2.432-1.515c.497-.31.846-.838.959-1.45.202-1.102-.406-2.188-1.398-2.497l-1.344-.419a3.2 3.2 0 0 0-1.309-.128l-4.682.51m-1.07 8.742c-1.283-3.73.179-7.382 1.07-8.741"/>`
+        innerHTML: `<path d="M10.5 3.75h11.25M10.5 12h11.25M10.5 20.25h11.25M2.25 3.75l2.25-1.5v7.5m0 0h2.25m-2.25 0H2.25m4.5 12h-4.5l3.879-3.879a2.121 2.121 0 0 0-1.5-3.621H4.5a2.25 2.25 0 0 0-2.25 2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LiverCheck.ts
+// src/icons/Liver.ts
 import { defineComponent as defineComponent566, h as h566 } from "vue";
-var LiverCheck = defineComponent566({
-  name: "LiverCheck",
+var Liver = defineComponent566({
+  name: "Liver",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19802,16 +19802,16 @@ var LiverCheck = defineComponent566({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m11.905 15.052-4.279 4.32a3.05 3.05 0 0 1-2.163.925c-1.758 0-3.183-1.553-3.183-3.47v-6.224c0-2.508 1.598-4.68 3.844-5.223a4.5 4.5 0 0 1 1.944-.041l4.906.972m-1.07 8.741h.022m-.021 0c-1.284-3.73.178-7.382 1.07-8.741m0 0 4.681-.51a3.2 3.2 0 0 1 1.309.127l1.344.419c.992.309 1.6 1.395 1.398 2.497a2.16 2.16 0 0 1-.96 1.45l-1.67 1.041M14.25 18.75l2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
+        innerHTML: `<path d="m11.905 15.052-4.279 4.32a3.05 3.05 0 0 1-2.163.925c-1.758 0-3.183-1.553-3.183-3.47v-6.224c0-2.508 1.598-4.68 3.844-5.223a4.5 4.5 0 0 1 1.944-.041l4.906.972m-1.07 8.741h1.293c1.549 0 3.014-.768 3.982-2.086l.227-.31c.252-.342.56-.63.91-.847l2.432-1.515c.497-.31.846-.838.959-1.45.202-1.102-.406-2.188-1.398-2.497l-1.344-.419a3.2 3.2 0 0 0-1.309-.128l-4.682.51m-1.07 8.742c-1.283-3.73.179-7.382 1.07-8.741"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LiverCross.ts
+// src/icons/LiverCheck.ts
 import { defineComponent as defineComponent567, h as h567 } from "vue";
-var LiverCross = defineComponent567({
-  name: "LiverCross",
+var LiverCheck = defineComponent567({
+  name: "LiverCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19837,16 +19837,16 @@ var LiverCross = defineComponent567({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m15.75 22.5 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75m-3.845-.698-4.279 4.32a3.05 3.05 0 0 1-2.163.925c-1.758 0-3.183-1.553-3.183-3.47v-6.224c0-2.508 1.598-4.68 3.844-5.223a4.5 4.5 0 0 1 1.944-.041l4.906.972m-1.07 8.741h.022m-.021 0c-1.284-3.73.178-7.382 1.07-8.741m0 0 4.681-.51a3.2 3.2 0 0 1 1.309.127l1.344.419c.992.309 1.6 1.395 1.398 2.497a2.16 2.16 0 0 1-.96 1.45l-1.67 1.041"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m11.905 15.052-4.279 4.32a3.05 3.05 0 0 1-2.163.925c-1.758 0-3.183-1.553-3.183-3.47v-6.224c0-2.508 1.598-4.68 3.844-5.223a4.5 4.5 0 0 1 1.944-.041l4.906.972m-1.07 8.741h.022m-.021 0c-1.284-3.73.178-7.382 1.07-8.741m0 0 4.681-.51a3.2 3.2 0 0 1 1.309.127l1.344.419c.992.309 1.6 1.395 1.398 2.497a2.16 2.16 0 0 1-.96 1.45l-1.67 1.041M14.25 18.75l2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LiverSearch.ts
+// src/icons/LiverCross.ts
 import { defineComponent as defineComponent568, h as h568 } from "vue";
-var LiverSearch = defineComponent568({
-  name: "LiverSearch",
+var LiverCross = defineComponent568({
+  name: "LiverCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19872,16 +19872,16 @@ var LiverSearch = defineComponent568({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m22.5 22.5-2.088-2.088m0 0a3.61 3.61 0 1 0-5.105-5.104 3.61 3.61 0 0 0 5.105 5.104m-8.507-5.36-4.279 4.32a3.05 3.05 0 0 1-2.163.925c-1.758 0-3.183-1.553-3.183-3.47v-6.224c0-2.508 1.598-4.68 3.844-5.223a4.5 4.5 0 0 1 1.944-.041l4.906.972m-1.07 8.741h.022m-.021 0c-1.284-3.73.178-7.382 1.07-8.741m0 0 4.681-.51a3.2 3.2 0 0 1 1.309.127l1.344.419c.992.309 1.6 1.395 1.398 2.497a2.16 2.16 0 0 1-.96 1.45l-1.67 1.041"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m15.75 22.5 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75m-3.845-.698-4.279 4.32a3.05 3.05 0 0 1-2.163.925c-1.758 0-3.183-1.553-3.183-3.47v-6.224c0-2.508 1.598-4.68 3.844-5.223a4.5 4.5 0 0 1 1.944-.041l4.906.972m-1.07 8.741h.022m-.021 0c-1.284-3.73.178-7.382 1.07-8.741m0 0 4.681-.51a3.2 3.2 0 0 1 1.309.127l1.344.419c.992.309 1.6 1.395 1.398 2.497a2.16 2.16 0 0 1-.96 1.45l-1.67 1.041"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LivingRoom.ts
+// src/icons/LiverSearch.ts
 import { defineComponent as defineComponent569, h as h569 } from "vue";
-var LivingRoom = defineComponent569({
-  name: "LivingRoom",
+var LiverSearch = defineComponent569({
+  name: "LiverSearch",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19907,16 +19907,16 @@ var LivingRoom = defineComponent569({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M5.25 20.25V9.75m0 0h3L7.092 6.276A1.5 1.5 0 0 0 5.669 5.25H4.83a1.5 1.5 0 0 0-1.423 1.026L2.25 9.75zm15 4.5a1.5 1.5 0 0 0-1.5 1.5v1.5H12v-1.5a1.5 1.5 0 0 0-1.5-1.5m9.75 0a1.5 1.5 0 0 1 1.5 1.5v4.5H9v-4.5a1.5 1.5 0 0 1 1.5-1.5m9.75 0v-1.5a1.5 1.5 0 0 0-1.5-1.5H12a1.5 1.5 0 0 0-1.5 1.5v1.5m2.25-10.5v4.5h7.5v-4.5z"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m22.5 22.5-2.088-2.088m0 0a3.61 3.61 0 1 0-5.105-5.104 3.61 3.61 0 0 0 5.105 5.104m-8.507-5.36-4.279 4.32a3.05 3.05 0 0 1-2.163.925c-1.758 0-3.183-1.553-3.183-3.47v-6.224c0-2.508 1.598-4.68 3.844-5.223a4.5 4.5 0 0 1 1.944-.041l4.906.972m-1.07 8.741h.022m-.021 0c-1.284-3.73.178-7.382 1.07-8.741m0 0 4.681-.51a3.2 3.2 0 0 1 1.309.127l1.344.419c.992.309 1.6 1.395 1.398 2.497a2.16 2.16 0 0 1-.96 1.45l-1.67 1.041"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LocalSpace.ts
+// src/icons/LivingRoom.ts
 import { defineComponent as defineComponent570, h as h570 } from "vue";
-var LocalSpace = defineComponent570({
-  name: "LocalSpace",
+var LivingRoom = defineComponent570({
+  name: "LivingRoom",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19942,16 +19942,16 @@ var LocalSpace = defineComponent570({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m12 15-6.75-4.5M12 15l6.75-4.5M12 15v6M5.25 10.5 12 6m-6.75 4.5v6l1.059.706M12 6l6.75 4.5M12 6v4.5M12 6V2.25m6.75 8.25v6l-1.059.706M12 21l5.691-3.794M12 21l-5.691-3.794m11.382 0L15.75 15.75m1.941 1.456 4.059 3.044M6.309 17.206 8.25 15.75m-1.941 1.456L2.25 20.25m19.5 0L21.423 18m.327 2.25-2.25.376M2.25 20.25 2.577 18m-.327 2.25 2.25.376M12 2.25l1.5 1.5M12 2.25l-1.5 1.5"/>`
+        innerHTML: `<path d="M5.25 20.25V9.75m0 0h3L7.092 6.276A1.5 1.5 0 0 0 5.669 5.25H4.83a1.5 1.5 0 0 0-1.423 1.026L2.25 9.75zm15 4.5a1.5 1.5 0 0 0-1.5 1.5v1.5H12v-1.5a1.5 1.5 0 0 0-1.5-1.5m9.75 0a1.5 1.5 0 0 1 1.5 1.5v4.5H9v-4.5a1.5 1.5 0 0 1 1.5-1.5m9.75 0v-1.5a1.5 1.5 0 0 0-1.5-1.5H12a1.5 1.5 0 0 0-1.5 1.5v1.5m2.25-10.5v4.5h7.5v-4.5z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Location.ts
+// src/icons/LocalSpace.ts
 import { defineComponent as defineComponent571, h as h571 } from "vue";
-var Location = defineComponent571({
-  name: "Location",
+var LocalSpace = defineComponent571({
+  name: "LocalSpace",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -19977,16 +19977,16 @@ var Location = defineComponent571({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M17.602 16.54 12 21.75l-5.602-5.21C.914 11.44 4.517 2.25 12 2.25s11.086 9.19 5.602 14.29"/><path stroke-miterlimit="1.788" d="M8.256 10.5A3.747 3.747 0 0 0 12 14.25a3.747 3.747 0 0 0 3.744-3.75A3.747 3.747 0 0 0 12 6.75a3.747 3.747 0 0 0-3.744 3.75"/>`
+        innerHTML: `<path d="m12 15-6.75-4.5M12 15l6.75-4.5M12 15v6M5.25 10.5 12 6m-6.75 4.5v6l1.059.706M12 6l6.75 4.5M12 6v4.5M12 6V2.25m6.75 8.25v6l-1.059.706M12 21l5.691-3.794M12 21l-5.691-3.794m11.382 0L15.75 15.75m1.941 1.456 4.059 3.044M6.309 17.206 8.25 15.75m-1.941 1.456L2.25 20.25m19.5 0L21.423 18m.327 2.25-2.25.376M2.25 20.25 2.577 18m-.327 2.25 2.25.376M12 2.25l1.5 1.5M12 2.25l-1.5 1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LocationCross.ts
+// src/icons/Location.ts
 import { defineComponent as defineComponent572, h as h572 } from "vue";
-var LocationCross = defineComponent572({
-  name: "LocationCross",
+var Location = defineComponent572({
+  name: "Location",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20012,16 +20012,16 @@ var LocationCross = defineComponent572({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12.4 14.229A3.747 3.747 0 0 1 8.256 10.5 3.747 3.747 0 0 1 12 6.75a3.747 3.747 0 0 1 3.545 4.96m4.638-.1c.594-4.578-2.785-9.36-8.183-9.36-7.483 0-11.086 9.19-5.602 14.29L12 21.75l.242-.225m3.508.975 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M17.602 16.54 12 21.75l-5.602-5.21C.914 11.44 4.517 2.25 12 2.25s11.086 9.19 5.602 14.29"/><path stroke-miterlimit="1.788" d="M8.256 10.5A3.747 3.747 0 0 0 12 14.25a3.747 3.747 0 0 0 3.744-3.75A3.747 3.747 0 0 0 12 6.75a3.747 3.747 0 0 0-3.744 3.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LocationPerson.ts
+// src/icons/LocationCross.ts
 import { defineComponent as defineComponent573, h as h573 } from "vue";
-var LocationPerson = defineComponent573({
-  name: "LocationPerson",
+var LocationCross = defineComponent573({
+  name: "LocationCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20047,16 +20047,16 @@ var LocationPerson = defineComponent573({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 12.75A3.747 3.747 0 0 1 8.256 9 3.747 3.747 0 0 1 12 5.25 3.747 3.747 0 0 1 15.744 9 3.747 3.747 0 0 1 12 12.75m0 0h1.133a4.117 4.117 0 0 1 4.117 4.117M12 12.75h-1.133a4.117 4.117 0 0 0-4.117 4.117m10.5 0L12 21.75l-5.25-4.883m10.5 0 .352-.328C23.086 11.44 19.483 2.25 12 2.25S.914 11.44 6.398 16.54l.352.327"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12.4 14.229A3.747 3.747 0 0 1 8.256 10.5 3.747 3.747 0 0 1 12 6.75a3.747 3.747 0 0 1 3.545 4.96m4.638-.1c.594-4.578-2.785-9.36-8.183-9.36-7.483 0-11.086 9.19-5.602 14.29L12 21.75l.242-.225m3.508.975 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LocationPin.ts
+// src/icons/LocationPerson.ts
 import { defineComponent as defineComponent574, h as h574 } from "vue";
-var LocationPin = defineComponent574({
-  name: "LocationPin",
+var LocationPerson = defineComponent574({
+  name: "LocationPerson",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20082,16 +20082,16 @@ var LocationPin = defineComponent574({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 12.75v9m0-9a5.25 5.25 0 1 1 0-10.5 5.25 5.25 0 0 1 0 10.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 12.75A3.747 3.747 0 0 1 8.256 9 3.747 3.747 0 0 1 12 5.25 3.747 3.747 0 0 1 15.744 9 3.747 3.747 0 0 1 12 12.75m0 0h1.133a4.117 4.117 0 0 1 4.117 4.117M12 12.75h-1.133a4.117 4.117 0 0 0-4.117 4.117m10.5 0L12 21.75l-5.25-4.883m10.5 0 .352-.328C23.086 11.44 19.483 2.25 12 2.25S.914 11.44 6.398 16.54l.352.327"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LocationPlus.ts
+// src/icons/LocationPin.ts
 import { defineComponent as defineComponent575, h as h575 } from "vue";
-var LocationPlus = defineComponent575({
-  name: "LocationPlus",
+var LocationPin = defineComponent575({
+  name: "LocationPin",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20117,16 +20117,16 @@ var LocationPlus = defineComponent575({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 14.25a3.747 3.747 0 0 1-3.744-3.75A3.747 3.747 0 0 1 12 6.75a3.747 3.747 0 0 1 3.744 3.75m4.439 1.11c.594-4.578-2.785-9.36-8.183-9.36-7.483 0-11.086 9.19-5.602 14.29L12 21.75l.242-.225m6.133.975v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 12.75v9m0-9a5.25 5.25 0 1 1 0-10.5 5.25 5.25 0 0 1 0 10.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LockCheck.ts
+// src/icons/LocationPlus.ts
 import { defineComponent as defineComponent576, h as h576 } from "vue";
-var LockCheck = defineComponent576({
-  name: "LockCheck",
+var LocationPlus = defineComponent576({
+  name: "LocationPlus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20152,16 +20152,16 @@ var LockCheck = defineComponent576({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m14.25 18.75 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91M7.5 9.75H6a1.5 1.5 0 0 0-1.5 1.5v9a1.5 1.5 0 0 0 1.5 1.5h6.387M7.5 9.75v-3a4.5 4.5 0 0 1 9 0v3m-9 0h9m0 0H18a1.5 1.5 0 0 1 1.5 1.5v.167"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 14.25a3.747 3.747 0 0 1-3.744-3.75A3.747 3.747 0 0 1 12 6.75a3.747 3.747 0 0 1 3.744 3.75m4.439 1.11c.594-4.578-2.785-9.36-8.183-9.36-7.483 0-11.086 9.19-5.602 14.29L12 21.75l.242-.225m6.133.975v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LockEuro.ts
+// src/icons/LockCheck.ts
 import { defineComponent as defineComponent577, h as h577 } from "vue";
-var LockEuro = defineComponent577({
-  name: "LockEuro",
+var LockCheck = defineComponent577({
+  name: "LockCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20187,16 +20187,16 @@ var LockEuro = defineComponent577({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 9.75H6a1.5 1.5 0 0 0-1.5 1.5v9a1.5 1.5 0 0 0 1.5 1.5h6.387M7.5 9.75v-3a4.5 4.5 0 0 1 9 0v3m-9 0h9m0 0H18a1.5 1.5 0 0 1 1.5 1.5v.167M18 17.25h-2.25m0 0H15m.75 0v-.75c0-1.243 1.126-2.25 2.625-2.25S21 15.257 21 16.5m-5.25.75v2.25m2.25 0h-2.25m0 0H15m.75 0v.75c0 1.243 1.126 2.25 2.625 2.25S21 21.493 21 20.25"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m14.25 18.75 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91M7.5 9.75H6a1.5 1.5 0 0 0-1.5 1.5v9a1.5 1.5 0 0 0 1.5 1.5h6.387M7.5 9.75v-3a4.5 4.5 0 0 1 9 0v3m-9 0h9m0 0H18a1.5 1.5 0 0 1 1.5 1.5v.167"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LockLocked.ts
+// src/icons/LockEuro.ts
 import { defineComponent as defineComponent578, h as h578 } from "vue";
-var LockLocked = defineComponent578({
-  name: "LockLocked",
+var LockEuro = defineComponent578({
+  name: "LockEuro",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20222,16 +20222,16 @@ var LockLocked = defineComponent578({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 9.75H6a1.5 1.5 0 0 0-1.5 1.5v9a1.5 1.5 0 0 0 1.5 1.5h12a1.5 1.5 0 0 0 1.5-1.5v-9a1.5 1.5 0 0 0-1.5-1.5h-1.5m-9 0v-3a4.5 4.5 0 0 1 9 0v3m-9 0h9"/>`
+        innerHTML: `<path d="M7.5 9.75H6a1.5 1.5 0 0 0-1.5 1.5v9a1.5 1.5 0 0 0 1.5 1.5h6.387M7.5 9.75v-3a4.5 4.5 0 0 1 9 0v3m-9 0h9m0 0H18a1.5 1.5 0 0 1 1.5 1.5v.167M18 17.25h-2.25m0 0H15m.75 0v-.75c0-1.243 1.126-2.25 2.625-2.25S21 15.257 21 16.5m-5.25.75v2.25m2.25 0h-2.25m0 0H15m.75 0v.75c0 1.243 1.126 2.25 2.625 2.25S21 21.493 21 20.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LockOpen.ts
+// src/icons/LockLocked.ts
 import { defineComponent as defineComponent579, h as h579 } from "vue";
-var LockOpen = defineComponent579({
-  name: "LockOpen",
+var LockLocked = defineComponent579({
+  name: "LockLocked",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20257,16 +20257,16 @@ var LockOpen = defineComponent579({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M16.5 9.75H18a1.5 1.5 0 0 1 1.5 1.5v9a1.5 1.5 0 0 1-1.5 1.5H6a1.5 1.5 0 0 1-1.5-1.5v-9A1.5 1.5 0 0 1 6 9.75zm0 0v-3A4.5 4.5 0 0 0 7.562 6"/>`
+        innerHTML: `<path d="M7.5 9.75H6a1.5 1.5 0 0 0-1.5 1.5v9a1.5 1.5 0 0 0 1.5 1.5h12a1.5 1.5 0 0 0 1.5-1.5v-9a1.5 1.5 0 0 0-1.5-1.5h-1.5m-9 0v-3a4.5 4.5 0 0 1 9 0v3m-9 0h9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LockSettings.ts
+// src/icons/LockOpen.ts
 import { defineComponent as defineComponent580, h as h580 } from "vue";
-var LockSettings = defineComponent580({
-  name: "LockSettings",
+var LockOpen = defineComponent580({
+  name: "LockOpen",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20292,16 +20292,16 @@ var LockSettings = defineComponent580({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M19.5 11.417v-.167a1.5 1.5 0 0 0-1.5-1.5h-1.5m-4.113 12H6a1.5 1.5 0 0 1-1.5-1.5v-9A1.5 1.5 0 0 1 6 9.75h1.5m0 0v-3a4.5 4.5 0 0 1 9 0v3m-9 0h9m1.874 11.1a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.133 4.117h-1.65m-4.95 0h-1.65m7.048 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
+        innerHTML: `<path d="M16.5 9.75H18a1.5 1.5 0 0 1 1.5 1.5v9a1.5 1.5 0 0 1-1.5 1.5H6a1.5 1.5 0 0 1-1.5-1.5v-9A1.5 1.5 0 0 1 6 9.75zm0 0v-3A4.5 4.5 0 0 0 7.562 6"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LockUnlock.ts
+// src/icons/LockSettings.ts
 import { defineComponent as defineComponent581, h as h581 } from "vue";
-var LockUnlock = defineComponent581({
-  name: "LockUnlock",
+var LockSettings = defineComponent581({
+  name: "LockSettings",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20327,16 +20327,16 @@ var LockUnlock = defineComponent581({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M16.5 9.75H18a1.5 1.5 0 0 1 1.5 1.5v9a1.5 1.5 0 0 1-1.5 1.5H6a1.5 1.5 0 0 1-1.5-1.5v-9A1.5 1.5 0 0 1 6 9.75zm0 0v-3A4.5 4.5 0 0 0 7.562 6M3.75 7.5H3m1.25-3.25-.5-.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M19.5 11.417v-.167a1.5 1.5 0 0 0-1.5-1.5h-1.5m-4.113 12H6a1.5 1.5 0 0 1-1.5-1.5v-9A1.5 1.5 0 0 1 6 9.75h1.5m0 0v-3a4.5 4.5 0 0 1 9 0v3m-9 0h9m1.874 11.1a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.133 4.117h-1.65m-4.95 0h-1.65m7.048 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LogIn.ts
+// src/icons/LockUnlock.ts
 import { defineComponent as defineComponent582, h as h582 } from "vue";
-var LogIn = defineComponent582({
-  name: "LogIn",
+var LockUnlock = defineComponent582({
+  name: "LockUnlock",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20362,16 +20362,16 @@ var LogIn = defineComponent582({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M9.75 7.5v-3a1.5 1.5 0 0 1 1.5-1.5h8.25A1.5 1.5 0 0 1 21 4.5v15a1.5 1.5 0 0 1-1.5 1.5h-8.25a1.5 1.5 0 0 1-1.5-1.5v-3M18 12l-3.75-3.75M18 12l-3.75 3.75M18 12H3"/>`
+        innerHTML: `<path d="M16.5 9.75H18a1.5 1.5 0 0 1 1.5 1.5v9a1.5 1.5 0 0 1-1.5 1.5H6a1.5 1.5 0 0 1-1.5-1.5v-9A1.5 1.5 0 0 1 6 9.75zm0 0v-3A4.5 4.5 0 0 0 7.562 6M3.75 7.5H3m1.25-3.25-.5-.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LogOut.ts
+// src/icons/LogIn.ts
 import { defineComponent as defineComponent583, h as h583 } from "vue";
-var LogOut = defineComponent583({
-  name: "LogOut",
+var LogIn = defineComponent583({
+  name: "LogIn",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20397,16 +20397,16 @@ var LogOut = defineComponent583({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M14.25 7.5v-3a1.5 1.5 0 0 0-1.5-1.5H4.5A1.5 1.5 0 0 0 3 4.5v15A1.5 1.5 0 0 0 4.5 21h8.25a1.5 1.5 0 0 0 1.5-1.5v-3M6 12h15m0 0-3.75-3.75M21 12l-3.75 3.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M9.75 7.5v-3a1.5 1.5 0 0 1 1.5-1.5h8.25A1.5 1.5 0 0 1 21 4.5v15a1.5 1.5 0 0 1-1.5 1.5h-8.25a1.5 1.5 0 0 1-1.5-1.5v-3M18 12l-3.75-3.75M18 12l-3.75 3.75M18 12H3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LoopAnimation.ts
+// src/icons/LogOut.ts
 import { defineComponent as defineComponent584, h as h584 } from "vue";
-var LoopAnimation = defineComponent584({
-  name: "LoopAnimation",
+var LogOut = defineComponent584({
+  name: "LogOut",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20432,16 +20432,16 @@ var LoopAnimation = defineComponent584({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 3v4.5m0 0h4.5M3 7.5c1.84-3.221 5.29-5.25 9-5.25 5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12m8.25-1.5v3m-3-2.25v1.5m6-3v4.5h3v-4.5z"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M14.25 7.5v-3a1.5 1.5 0 0 0-1.5-1.5H4.5A1.5 1.5 0 0 0 3 4.5v15A1.5 1.5 0 0 0 4.5 21h8.25a1.5 1.5 0 0 0 1.5-1.5v-3M6 12h15m0 0-3.75-3.75M21 12l-3.75 3.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LoopCut.ts
+// src/icons/LoopAnimation.ts
 import { defineComponent as defineComponent585, h as h585 } from "vue";
-var LoopCut = defineComponent585({
-  name: "LoopCut",
+var LoopAnimation = defineComponent585({
+  name: "LoopAnimation",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20467,16 +20467,16 @@ var LoopCut = defineComponent585({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.802 7.616a1.5 1.5 0 0 1 .198.746v7.277a1.5 1.5 0 0 1-.744 1.295l-7.5 4.375a1.5 1.5 0 0 1-.756.204m8.802-13.897a1.5 1.5 0 0 0-.546-.55l-3.75-2.188m4.296 2.738L12 12.75M3.199 7.616a1.5 1.5 0 0 1 .545-.55l7.5-4.375a1.5 1.5 0 0 1 1.512 0l3.75 2.187M3.199 7.616c-.128.223-.199.48-.199.746v7.277a1.5 1.5 0 0 0 .744 1.295L7.6 19.183M3.2 7.616l4.4 2.567M12 21.513c-.261 0-.522-.068-.756-.204L7.6 19.183M12 21.513V12.75m0 0-4.4-2.567m8.906-5.305-8.907 5.305m0 0v9"/>`
+        innerHTML: `<path d="M3 3v4.5m0 0h4.5M3 7.5c1.84-3.221 5.29-5.25 9-5.25 5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12m8.25-1.5v3m-3-2.25v1.5m6-3v4.5h3v-4.5z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Luggage.ts
+// src/icons/LoopCut.ts
 import { defineComponent as defineComponent586, h as h586 } from "vue";
-var Luggage = defineComponent586({
-  name: "Luggage",
+var LoopCut = defineComponent586({
+  name: "LoopCut",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20502,16 +20502,16 @@ var Luggage = defineComponent586({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M15 21H4.5A1.5 1.5 0 0 1 3 19.5v-6A1.5 1.5 0 0 1 4.5 12H6m9 9a1.5 1.5 0 0 0 1.5-1.5v-6A1.5 1.5 0 0 0 15 12h-1.5m1.5 9h4.5a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 19.5 6h-.75m-5.25 6-1.085-2.17A1.5 1.5 0 0 0 11.073 9H10.5m3 3H6m0 0 1.085-2.17A1.5 1.5 0 0 1 8.427 9H10.5m8.25-3V4.5a1.5 1.5 0 0 0-1.5-1.5h-3a1.5 1.5 0 0 0-1.5 1.5V6m6 0h-6m0 0H12a1.5 1.5 0 0 0-1.5 1.5V9"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.802 7.616a1.5 1.5 0 0 1 .198.746v7.277a1.5 1.5 0 0 1-.744 1.295l-7.5 4.375a1.5 1.5 0 0 1-.756.204m8.802-13.897a1.5 1.5 0 0 0-.546-.55l-3.75-2.188m4.296 2.738L12 12.75M3.199 7.616a1.5 1.5 0 0 1 .545-.55l7.5-4.375a1.5 1.5 0 0 1 1.512 0l3.75 2.187M3.199 7.616c-.128.223-.199.48-.199.746v7.277a1.5 1.5 0 0 0 .744 1.295L7.6 19.183M3.2 7.616l4.4 2.567M12 21.513c-.261 0-.522-.068-.756-.204L7.6 19.183M12 21.513V12.75m0 0-4.4-2.567m8.906-5.305-8.907 5.305m0 0v9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Lungs.ts
+// src/icons/Luggage.ts
 import { defineComponent as defineComponent587, h as h587 } from "vue";
-var Lungs = defineComponent587({
-  name: "Lungs",
+var Luggage = defineComponent587({
+  name: "Luggage",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20537,16 +20537,16 @@ var Lungs = defineComponent587({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M11.98 7.127h1.475c.487 0 .911-.322 1.03-.781l.6-2.338c.142-.551.725-.879 1.287-.723 1.681.467 1.95 1.793 2.859 3.324.177.299.845 1.55 1.054 2.31.633 2.296.715 3.844.715 6.462 0 3.057-2.02 5.036-4.691 5.555-1.394.271-2.569-1.064-2.041-2.347a5.09 5.09 0 0 0-.183-4.273l-.11-.213a8 8 0 0 1-.623-1.637l-.085-.334a1.186 1.186 0 0 0-1.157-.878c-.658 0-1.192.519-1.192 1.159 0 0 .006.551 0 .905-.039 2.323-.759 5.904-.759 5.904-.159 1.235-1.413 2.041-2.644 1.7l-.11-.032C4.532 20.093 3 17.412 3 14.508c0-2.221.42-3.769.86-5.367.314-1.137.605-2.013.98-2.859.772-1.733 1.086-2.527 2.542-2.999a.96.96 0 0 1 1.193.553l1.011 2.623c.155.402.551.67.994.67zm0 0V3"/>`
+        innerHTML: `<path d="M15 21H4.5A1.5 1.5 0 0 1 3 19.5v-6A1.5 1.5 0 0 1 4.5 12H6m9 9a1.5 1.5 0 0 0 1.5-1.5v-6A1.5 1.5 0 0 0 15 12h-1.5m1.5 9h4.5a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 19.5 6h-.75m-5.25 6-1.085-2.17A1.5 1.5 0 0 0 11.073 9H10.5m3 3H6m0 0 1.085-2.17A1.5 1.5 0 0 1 8.427 9H10.5m8.25-3V4.5a1.5 1.5 0 0 0-1.5-1.5h-3a1.5 1.5 0 0 0-1.5 1.5V6m6 0h-6m0 0H12a1.5 1.5 0 0 0-1.5 1.5V9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LungsCheck.ts
+// src/icons/Lungs.ts
 import { defineComponent as defineComponent588, h as h588 } from "vue";
-var LungsCheck = defineComponent588({
-  name: "LungsCheck",
+var Lungs = defineComponent588({
+  name: "Lungs",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20572,16 +20572,16 @@ var LungsCheck = defineComponent588({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.865 11.887a18 18 0 0 0-.58-2.968c-.21-.76-.877-2.011-1.054-2.31-.91-1.531-1.178-2.856-2.859-3.324-.562-.156-1.145.172-1.287.723l-.6 2.338c-.119.459-.543.781-1.03.781h-1.476m1.373 5.339-.085-.334a1.186 1.186 0 0 0-1.157-.878c-.658 0-1.192.519-1.192 1.159 0 0 .006.551 0 .905-.039 2.323-.759 5.904-.759 5.904-.159 1.235-1.413 2.041-2.644 1.7l-.11-.032C4.532 20.093 3 17.412 3 14.508c0-2.221.42-3.769.86-5.367.314-1.137.605-2.013.98-2.859.772-1.733 1.086-2.527 2.542-2.999a.96.96 0 0 1 1.193.553l1.011 2.623c.155.402.551.67.994.67h1.4m0 0V3m2.27 15.75 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
+        innerHTML: `<path d="M11.98 7.127h1.475c.487 0 .911-.322 1.03-.781l.6-2.338c.142-.551.725-.879 1.287-.723 1.681.467 1.95 1.793 2.859 3.324.177.299.845 1.55 1.054 2.31.633 2.296.715 3.844.715 6.462 0 3.057-2.02 5.036-4.691 5.555-1.394.271-2.569-1.064-2.041-2.347a5.09 5.09 0 0 0-.183-4.273l-.11-.213a8 8 0 0 1-.623-1.637l-.085-.334a1.186 1.186 0 0 0-1.157-.878c-.658 0-1.192.519-1.192 1.159 0 0 .006.551 0 .905-.039 2.323-.759 5.904-.759 5.904-.159 1.235-1.413 2.041-2.644 1.7l-.11-.032C4.532 20.093 3 17.412 3 14.508c0-2.221.42-3.769.86-5.367.314-1.137.605-2.013.98-2.859.772-1.733 1.086-2.527 2.542-2.999a.96.96 0 0 1 1.193.553l1.011 2.623c.155.402.551.67.994.67zm0 0V3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LungsCross.ts
+// src/icons/LungsCheck.ts
 import { defineComponent as defineComponent589, h as h589 } from "vue";
-var LungsCross = defineComponent589({
-  name: "LungsCross",
+var LungsCheck = defineComponent589({
+  name: "LungsCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20607,16 +20607,16 @@ var LungsCross = defineComponent589({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.865 11.887a18 18 0 0 0-.58-2.968c-.21-.76-.877-2.011-1.054-2.31-.91-1.531-1.178-2.856-2.859-3.324-.562-.156-1.145.172-1.287.723l-.6 2.338c-.119.459-.543.781-1.03.781h-1.476m1.373 5.339-.085-.334a1.186 1.186 0 0 0-1.157-.878c-.658 0-1.192.519-1.192 1.159 0 0 .006.551 0 .905-.039 2.323-.759 5.904-.759 5.904-.159 1.235-1.413 2.041-2.644 1.7l-.11-.032C4.532 20.093 3 17.412 3 14.508c0-2.221.42-3.769.86-5.367.314-1.137.605-2.013.98-2.859.772-1.733 1.086-2.527 2.542-2.999a.96.96 0 0 1 1.193.553l1.011 2.623c.155.402.551.67.994.67h1.4m0 0V3m3.77 19.5 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.865 11.887a18 18 0 0 0-.58-2.968c-.21-.76-.877-2.011-1.054-2.31-.91-1.531-1.178-2.856-2.859-3.324-.562-.156-1.145.172-1.287.723l-.6 2.338c-.119.459-.543.781-1.03.781h-1.476m1.373 5.339-.085-.334a1.186 1.186 0 0 0-1.157-.878c-.658 0-1.192.519-1.192 1.159 0 0 .006.551 0 .905-.039 2.323-.759 5.904-.759 5.904-.159 1.235-1.413 2.041-2.644 1.7l-.11-.032C4.532 20.093 3 17.412 3 14.508c0-2.221.42-3.769.86-5.367.314-1.137.605-2.013.98-2.859.772-1.733 1.086-2.527 2.542-2.999a.96.96 0 0 1 1.193.553l1.011 2.623c.155.402.551.67.994.67h1.4m0 0V3m2.27 15.75 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
       }, children);
     };
   }
 });
 
-// src/icons/LungsSearch.ts
+// src/icons/LungsCross.ts
 import { defineComponent as defineComponent590, h as h590 } from "vue";
-var LungsSearch = defineComponent590({
-  name: "LungsSearch",
+var LungsCross = defineComponent590({
+  name: "LungsCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20642,16 +20642,16 @@ var LungsSearch = defineComponent590({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.865 11.887a18 18 0 0 0-.58-2.968c-.21-.76-.877-2.011-1.054-2.31-.91-1.531-1.178-2.856-2.859-3.324-.562-.156-1.145.172-1.287.723l-.6 2.338c-.119.459-.543.781-1.03.781h-1.476m1.373 5.339-.085-.334a1.186 1.186 0 0 0-1.157-.878c-.658 0-1.192.519-1.192 1.159 0 0 .006.551 0 .905-.039 2.323-.759 5.904-.759 5.904-.159 1.235-1.413 2.041-2.644 1.7l-.11-.032C4.532 20.093 3 17.412 3 14.508c0-2.221.42-3.769.86-5.367.314-1.137.605-2.013.98-2.859.772-1.733 1.086-2.527 2.542-2.999a.96.96 0 0 1 1.193.553l1.011 2.623c.155.402.551.67.994.67h1.4m0 0V3M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.865 11.887a18 18 0 0 0-.58-2.968c-.21-.76-.877-2.011-1.054-2.31-.91-1.531-1.178-2.856-2.859-3.324-.562-.156-1.145.172-1.287.723l-.6 2.338c-.119.459-.543.781-1.03.781h-1.476m1.373 5.339-.085-.334a1.186 1.186 0 0 0-1.157-.878c-.658 0-1.192.519-1.192 1.159 0 0 .006.551 0 .905-.039 2.323-.759 5.904-.759 5.904-.159 1.235-1.413 2.041-2.644 1.7l-.11-.032C4.532 20.093 3 17.412 3 14.508c0-2.221.42-3.769.86-5.367.314-1.137.605-2.013.98-2.859.772-1.733 1.086-2.527 2.542-2.999a.96.96 0 0 1 1.193.553l1.011 2.623c.155.402.551.67.994.67h1.4m0 0V3m3.77 19.5 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Magnet.ts
+// src/icons/LungsSearch.ts
 import { defineComponent as defineComponent591, h as h591 } from "vue";
-var Magnet = defineComponent591({
-  name: "Magnet",
+var LungsSearch = defineComponent591({
+  name: "LungsSearch",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20677,16 +20677,16 @@ var Magnet = defineComponent591({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 15v4.5A1.5 1.5 0 0 0 4.5 21h4.125c.621 0 1.125-.504 1.125-1.125V15M3 15v-3a9 9 0 0 1 18 0v3M3 15h6.75m0 0v-3a2.25 2.25 0 0 1 4.5 0v3m0 0v4.875c0 .621.504 1.125 1.125 1.125H19.5a1.5 1.5 0 0 0 1.5-1.5V15m-6.75 0H21"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.865 11.887a18 18 0 0 0-.58-2.968c-.21-.76-.877-2.011-1.054-2.31-.91-1.531-1.178-2.856-2.859-3.324-.562-.156-1.145.172-1.287.723l-.6 2.338c-.119.459-.543.781-1.03.781h-1.476m1.373 5.339-.085-.334a1.186 1.186 0 0 0-1.157-.878c-.658 0-1.192.519-1.192 1.159 0 0 .006.551 0 .905-.039 2.323-.759 5.904-.759 5.904-.159 1.235-1.413 2.041-2.644 1.7l-.11-.032C4.532 20.093 3 17.412 3 14.508c0-2.221.42-3.769.86-5.367.314-1.137.605-2.013.98-2.859.772-1.733 1.086-2.527 2.542-2.999a.96.96 0 0 1 1.193.553l1.011 2.623c.155.402.551.67.994.67h1.4m0 0V3M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Map.ts
+// src/icons/Magnet.ts
 import { defineComponent as defineComponent592, h as h592 } from "vue";
-var Map = defineComponent592({
-  name: "Map",
+var Magnet = defineComponent592({
+  name: "Magnet",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20712,16 +20712,16 @@ var Map = defineComponent592({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M8.25 3.75 2.333 6.709a.15.15 0 0 0-.083.134v13.164a.15.15 0 0 0 .217.134L8.25 17.25m0-13.5v13.5m0-13.5 7.5 3m-7.5 10.5 7.5 3m0-13.5 5.783-2.891a.15.15 0 0 1 .217.134v13.164a.15.15 0 0 1-.083.134L15.75 20.25m0-13.5v13.5"/>`
+        innerHTML: `<path d="M3 15v4.5A1.5 1.5 0 0 0 4.5 21h4.125c.621 0 1.125-.504 1.125-1.125V15M3 15v-3a9 9 0 0 1 18 0v3M3 15h6.75m0 0v-3a2.25 2.25 0 0 1 4.5 0v3m0 0v4.875c0 .621.504 1.125 1.125 1.125H19.5a1.5 1.5 0 0 0 1.5-1.5V15m-6.75 0H21"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Material.ts
+// src/icons/Map.ts
 import { defineComponent as defineComponent593, h as h593 } from "vue";
-var Material = defineComponent593({
-  name: "Material",
+var Map = defineComponent593({
+  name: "Map",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20747,16 +20747,16 @@ var Material = defineComponent593({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m18.267 10.875 3.483 1.875-3.482 1.875m-.001-3.75a9 9 0 0 0 2.932-2.61l.551-.765L12 2.25l-.551.766A9 9 0 0 1 8.41 5.683L2.25 9l3.482 1.875m12.535 0q-.052.03-.106.057L12 14.25l-6.268-3.375m12.536 3.75L12 18l-6.268-3.375m12.536 0L21.75 16.5 12 21.75 2.25 16.5l3.482-1.875m0 0L2.25 12.75l3.482-1.875"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M8.25 3.75 2.333 6.709a.15.15 0 0 0-.083.134v13.164a.15.15 0 0 0 .217.134L8.25 17.25m0-13.5v13.5m0-13.5 7.5 3m-7.5 10.5 7.5 3m0-13.5 5.783-2.891a.15.15 0 0 1 .217.134v13.164a.15.15 0 0 1-.083.134L15.75 20.25m0-13.5v13.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Material3d.ts
+// src/icons/Material.ts
 import { defineComponent as defineComponent594, h as h594 } from "vue";
-var Material3d = defineComponent594({
-  name: "Material3d",
+var Material = defineComponent594({
+  name: "Material",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20782,16 +20782,16 @@ var Material3d = defineComponent594({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18 12a6 6 0 0 1-6 6m0 3.75c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m18.267 10.875 3.483 1.875-3.482 1.875m-.001-3.75a9 9 0 0 0 2.932-2.61l.551-.765L12 2.25l-.551.766A9 9 0 0 1 8.41 5.683L2.25 9l3.482 1.875m12.535 0q-.052.03-.106.057L12 14.25l-6.268-3.375m12.536 3.75L12 18l-6.268-3.375m12.536 0L21.75 16.5 12 21.75 2.25 16.5l3.482-1.875m0 0L2.25 12.75l3.482-1.875"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MaterialSlot.ts
+// src/icons/Material3d.ts
 import { defineComponent as defineComponent595, h as h595 } from "vue";
-var MaterialSlot = defineComponent595({
-  name: "MaterialSlot",
+var Material3d = defineComponent595({
+  name: "Material3d",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20817,16 +20817,16 @@ var MaterialSlot = defineComponent595({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21 6.75V4.5A1.5 1.5 0 0 0 19.5 3h-2.25M6.75 3H4.5A1.5 1.5 0 0 0 3 4.5v2.25m0 10.5v2.25A1.5 1.5 0 0 0 4.5 21h2.25m10.5 0h2.25a1.5 1.5 0 0 0 1.5-1.5v-2.25M15.75 12A3.75 3.75 0 0 1 12 15.75m0 3a6.75 6.75 0 1 1 0-13.5 6.75 6.75 0 0 1 0 13.5"/>`
+        innerHTML: `<path d="M18 12a6 6 0 0 1-6 6m0 3.75c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/McrophoneOff.ts
+// src/icons/MaterialSlot.ts
 import { defineComponent as defineComponent596, h as h596 } from "vue";
-var McrophoneOff = defineComponent596({
-  name: "McrophoneOff",
+var MaterialSlot = defineComponent596({
+  name: "MaterialSlot",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20852,16 +20852,16 @@ var McrophoneOff = defineComponent596({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.75 11.25V12a6.8 6.8 0 0 1-.29 1.96M5.25 11.25V12A6.75 6.75 0 0 0 12 18.75m-3.75 3H12m0 0h3.75m-3.75 0v-3m0 0a6.73 6.73 0 0 0 4.773-1.977M15.75 11.25V6a3.75 3.75 0 0 0-7.044-1.794M2.25 2.25l6 6m0 0V12a3.75 3.75 0 0 0 6.402 2.652M8.25 8.25l6.402 6.402m0 0 2.121 2.121m0 0 4.977 4.977"/>`
+        innerHTML: `<path d="M21 6.75V4.5A1.5 1.5 0 0 0 19.5 3h-2.25M6.75 3H4.5A1.5 1.5 0 0 0 3 4.5v2.25m0 10.5v2.25A1.5 1.5 0 0 0 4.5 21h2.25m10.5 0h2.25a1.5 1.5 0 0 0 1.5-1.5v-2.25M15.75 12A3.75 3.75 0 0 1 12 15.75m0 3a6.75 6.75 0 1 1 0-13.5 6.75 6.75 0 0 1 0 13.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Medal.ts
+// src/icons/McrophoneOff.ts
 import { defineComponent as defineComponent597, h as h597 } from "vue";
-var Medal = defineComponent597({
-  name: "Medal",
+var McrophoneOff = defineComponent597({
+  name: "McrophoneOff",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20887,16 +20887,16 @@ var Medal = defineComponent597({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 15.57a2.26 2.26 0 0 0 1.622-.017c.286-.115.688.052.81.335a2.25 2.25 0 0 0 4.136 0c.122-.283.524-.45.81-.335a2.26 2.26 0 0 0 1.622.017m-9 0a2.25 2.25 0 0 1-1.303-2.942c.114-.286-.052-.688-.335-.81a2.25 2.25 0 0 1 0-4.136c.283-.122.45-.524.335-.81a2.25 2.25 0 0 1 2.925-2.925c.286.115.688-.052.81-.335a2.25 2.25 0 0 1 4.136 0c.122.283.524.45.81.335a2.25 2.25 0 0 1 2.925 2.925c-.114.286.052.688.335.81a2.25 2.25 0 0 1 0 4.136c-.283.122-.45.524-.335.81A2.25 2.25 0 0 1 16.5 15.57m-9 0v6.18l4.5-1.5 4.5 1.5v-6.18"/>`
+        innerHTML: `<path d="M18.75 11.25V12a6.8 6.8 0 0 1-.29 1.96M5.25 11.25V12A6.75 6.75 0 0 0 12 18.75m-3.75 3H12m0 0h3.75m-3.75 0v-3m0 0a6.73 6.73 0 0 0 4.773-1.977M15.75 11.25V6a3.75 3.75 0 0 0-7.044-1.794M2.25 2.25l6 6m0 0V12a3.75 3.75 0 0 0 6.402 2.652M8.25 8.25l6.402 6.402m0 0 2.121 2.121m0 0 4.977 4.977"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MedalCheck.ts
+// src/icons/Medal.ts
 import { defineComponent as defineComponent598, h as h598 } from "vue";
-var MedalCheck = defineComponent598({
-  name: "MedalCheck",
+var Medal = defineComponent598({
+  name: "Medal",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20922,16 +20922,16 @@ var MedalCheck = defineComponent598({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 15.57a2.26 2.26 0 0 0 1.622-.017c.286-.115.688.052.81.335a2.25 2.25 0 0 0 4.136 0c.122-.283.524-.45.81-.335a2.26 2.26 0 0 0 1.622.017m-9 0a2.25 2.25 0 0 1-1.303-2.942c.114-.286-.052-.688-.335-.81a2.25 2.25 0 0 1 0-4.136c.283-.122.45-.524.335-.81a2.25 2.25 0 0 1 2.925-2.925c.286.115.688-.052.81-.335a2.25 2.25 0 0 1 4.136 0c.122.283.524.45.81.335a2.25 2.25 0 0 1 2.925 2.925c-.114.286.052.688.335.81a2.25 2.25 0 0 1 0 4.136c-.283.122-.45.524-.335.81A2.25 2.25 0 0 1 16.5 15.57m-9 0v6.18l4.5-1.5 4.5 1.5v-6.18M9 9.75 11.25 12 15 8.25"/>`
+        innerHTML: `<path d="M7.5 15.57a2.26 2.26 0 0 0 1.622-.017c.286-.115.688.052.81.335a2.25 2.25 0 0 0 4.136 0c.122-.283.524-.45.81-.335a2.26 2.26 0 0 0 1.622.017m-9 0a2.25 2.25 0 0 1-1.303-2.942c.114-.286-.052-.688-.335-.81a2.25 2.25 0 0 1 0-4.136c.283-.122.45-.524.335-.81a2.25 2.25 0 0 1 2.925-2.925c.286.115.688-.052.81-.335a2.25 2.25 0 0 1 4.136 0c.122.283.524.45.81.335a2.25 2.25 0 0 1 2.925 2.925c-.114.286.052.688.335.81a2.25 2.25 0 0 1 0 4.136c-.283.122-.45.524-.335.81A2.25 2.25 0 0 1 16.5 15.57m-9 0v6.18l4.5-1.5 4.5 1.5v-6.18"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MedalStar.ts
+// src/icons/MedalCheck.ts
 import { defineComponent as defineComponent599, h as h599 } from "vue";
-var MedalStar = defineComponent599({
-  name: "MedalStar",
+var MedalCheck = defineComponent599({
+  name: "MedalCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20957,16 +20957,16 @@ var MedalStar = defineComponent599({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 15.57a2.26 2.26 0 0 0 1.622-.017c.286-.115.688.052.81.335a2.25 2.25 0 0 0 4.136 0c.122-.283.524-.45.81-.335a2.26 2.26 0 0 0 1.622.017m-9 0a2.25 2.25 0 0 1-1.303-2.942c.114-.286-.052-.688-.335-.81a2.25 2.25 0 0 1 0-4.136c.283-.122.45-.524.335-.81a2.25 2.25 0 0 1 2.925-2.925c.286.115.688-.052.81-.335a2.25 2.25 0 0 1 4.136 0c.122.283.524.45.81.335a2.25 2.25 0 0 1 2.925 2.925c-.114.286.052.688.335.81a2.25 2.25 0 0 1 0 4.136c-.283.122-.45.524-.335.81A2.25 2.25 0 0 1 16.5 15.57m-9 0v6.18l4.5-1.5 4.5 1.5v-6.18m-4.36-8.922.831 1.685a.08.08 0 0 0 .063.046l1.993.29c.07.01.097.094.047.143l-1.442 1.406a.08.08 0 0 0-.024.074l.34 1.985a.084.084 0 0 1-.122.088l-1.782-.937a.08.08 0 0 0-.078 0l-1.783.937a.084.084 0 0 1-.122-.088l.34-1.985a.08.08 0 0 0-.023-.075L8.935 8.813a.084.084 0 0 1 .047-.143l1.993-.29a.08.08 0 0 0 .063-.046l.832-1.686a.15.15 0 0 1 .27 0"/>`
+        innerHTML: `<path d="M7.5 15.57a2.26 2.26 0 0 0 1.622-.017c.286-.115.688.052.81.335a2.25 2.25 0 0 0 4.136 0c.122-.283.524-.45.81-.335a2.26 2.26 0 0 0 1.622.017m-9 0a2.25 2.25 0 0 1-1.303-2.942c.114-.286-.052-.688-.335-.81a2.25 2.25 0 0 1 0-4.136c.283-.122.45-.524.335-.81a2.25 2.25 0 0 1 2.925-2.925c.286.115.688-.052.81-.335a2.25 2.25 0 0 1 4.136 0c.122.283.524.45.81.335a2.25 2.25 0 0 1 2.925 2.925c-.114.286.052.688.335.81a2.25 2.25 0 0 1 0 4.136c-.283.122-.45.524-.335.81A2.25 2.25 0 0 1 16.5 15.57m-9 0v6.18l4.5-1.5 4.5 1.5v-6.18M9 9.75 11.25 12 15 8.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Medkit.ts
+// src/icons/MedalStar.ts
 import { defineComponent as defineComponent600, h as h600 } from "vue";
-var Medkit = defineComponent600({
-  name: "Medkit",
+var MedalStar = defineComponent600({
+  name: "MedalStar",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -20992,16 +20992,16 @@ var Medkit = defineComponent600({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6.75 5.25h-1.5a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V6.75a1.5 1.5 0 0 0-1.5-1.5h-1.5m-10.5 0 .67-1.342a3 3 0 0 1 2.684-1.658h3.792a3 3 0 0 1 2.683 1.658l.671 1.342m-10.5 0h10.5m-7.5 3h4.5v3h3v4.5h-3v3h-4.5v-3h-3v-4.5h3z"/>`
+        innerHTML: `<path d="M7.5 15.57a2.26 2.26 0 0 0 1.622-.017c.286-.115.688.052.81.335a2.25 2.25 0 0 0 4.136 0c.122-.283.524-.45.81-.335a2.26 2.26 0 0 0 1.622.017m-9 0a2.25 2.25 0 0 1-1.303-2.942c.114-.286-.052-.688-.335-.81a2.25 2.25 0 0 1 0-4.136c.283-.122.45-.524.335-.81a2.25 2.25 0 0 1 2.925-2.925c.286.115.688-.052.81-.335a2.25 2.25 0 0 1 4.136 0c.122.283.524.45.81.335a2.25 2.25 0 0 1 2.925 2.925c-.114.286.052.688.335.81a2.25 2.25 0 0 1 0 4.136c-.283.122-.45.524-.335.81A2.25 2.25 0 0 1 16.5 15.57m-9 0v6.18l4.5-1.5 4.5 1.5v-6.18m-4.36-8.922.831 1.685a.08.08 0 0 0 .063.046l1.993.29c.07.01.097.094.047.143l-1.442 1.406a.08.08 0 0 0-.024.074l.34 1.985a.084.084 0 0 1-.122.088l-1.782-.937a.08.08 0 0 0-.078 0l-1.783.937a.084.084 0 0 1-.122-.088l.34-1.985a.08.08 0 0 0-.023-.075L8.935 8.813a.084.084 0 0 1 .047-.143l1.993-.29a.08.08 0 0 0 .063-.046l.832-1.686a.15.15 0 0 1 .27 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Megaphone.ts
+// src/icons/Medkit.ts
 import { defineComponent as defineComponent601, h as h601 } from "vue";
-var Megaphone = defineComponent601({
-  name: "Megaphone",
+var Medkit = defineComponent601({
+  name: "Medkit",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21027,16 +21027,16 @@ var Megaphone = defineComponent601({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M11.25 15h4.046a1.5 1.5 0 0 1 .832.252l3.977 2.651a.575.575 0 0 0 .895-.479V3.576a.576.576 0 0 0-.895-.48l-3.977 2.652a1.5 1.5 0 0 1-.832.252H6a3 3 0 0 0-3 3v3a3 3 0 0 0 3 3h1.5m3.75 0 1.078 3.956a1.5 1.5 0 0 1-1.153 1.865l-.759.152a1.5 1.5 0 0 1-1.753-1.121L7.5 15m3.75 0H7.5"/>`
+        innerHTML: `<path d="M6.75 5.25h-1.5a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V6.75a1.5 1.5 0 0 0-1.5-1.5h-1.5m-10.5 0 .67-1.342a3 3 0 0 1 2.684-1.658h3.792a3 3 0 0 1 2.683 1.658l.671 1.342m-10.5 0h10.5m-7.5 3h4.5v3h3v4.5h-3v3h-4.5v-3h-3v-4.5h3z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MegaphoneSound.ts
+// src/icons/Megaphone.ts
 import { defineComponent as defineComponent602, h as h602 } from "vue";
-var MegaphoneSound = defineComponent602({
-  name: "MegaphoneSound",
+var Megaphone = defineComponent602({
+  name: "Megaphone",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21062,16 +21062,16 @@ var MegaphoneSound = defineComponent602({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9 14.25h2.546a1.5 1.5 0 0 1 .832.252l3.977 2.651a.575.575 0 0 0 .895-.479V4.326a.576.576 0 0 0-.895-.48l-3.977 2.652a1.5 1.5 0 0 1-.832.252H5.25a3 3 0 0 0-3 3v1.5a3 3 0 0 0 3 3m3.75 0 1.078 3.956a1.5 1.5 0 0 1-1.153 1.865l-.759.152a1.5 1.5 0 0 1-1.753-1.121L5.25 14.25m3.75 0H5.25m15-3.75h1.5m-1.5-3.75.976-.976m-.976 8.476.976.976"/>`
+        innerHTML: `<path d="M11.25 15h4.046a1.5 1.5 0 0 1 .832.252l3.977 2.651a.575.575 0 0 0 .895-.479V3.576a.576.576 0 0 0-.895-.48l-3.977 2.652a1.5 1.5 0 0 1-.832.252H6a3 3 0 0 0-3 3v3a3 3 0 0 0 3 3h1.5m3.75 0 1.078 3.956a1.5 1.5 0 0 1-1.153 1.865l-.759.152a1.5 1.5 0 0 1-1.753-1.121L7.5 15m3.75 0H7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MentionAt.ts
+// src/icons/MegaphoneSound.ts
 import { defineComponent as defineComponent603, h as h603 } from "vue";
-var MentionAt = defineComponent603({
-  name: "MentionAt",
+var MegaphoneSound = defineComponent603({
+  name: "MegaphoneSound",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21097,16 +21097,16 @@ var MentionAt = defineComponent603({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M15.75 12.75v-1.5m0 1.5A3.75 3.75 0 0 1 12 16.5c-2.071 0-3.75-1.5-3.75-4.5S9.929 7.5 12 7.5a3.75 3.75 0 0 1 3.75 3.75m0 1.5v.75s0 3 3 3c0 0 3 0 3-4.5 0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12s4.365 9.75 9.75 9.75a9.7 9.7 0 0 0 5.25-1.533m-1.5-8.967V7.5"/>`
+        innerHTML: `<path d="M9 14.25h2.546a1.5 1.5 0 0 1 .832.252l3.977 2.651a.575.575 0 0 0 .895-.479V4.326a.576.576 0 0 0-.895-.48l-3.977 2.652a1.5 1.5 0 0 1-.832.252H5.25a3 3 0 0 0-3 3v1.5a3 3 0 0 0 3 3m3.75 0 1.078 3.956a1.5 1.5 0 0 1-1.153 1.865l-.759.152a1.5 1.5 0 0 1-1.753-1.121L5.25 14.25m3.75 0H5.25m15-3.75h1.5m-1.5-3.75.976-.976m-.976 8.476.976.976"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MenuBottom.ts
+// src/icons/MentionAt.ts
 import { defineComponent as defineComponent604, h as h604 } from "vue";
-var MenuBottom = defineComponent604({
-  name: "MenuBottom",
+var MentionAt = defineComponent604({
+  name: "MentionAt",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21132,16 +21132,16 @@ var MenuBottom = defineComponent604({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 14.25v2.25a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3v-2.25m-19.5 0V7.5a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v6.75m-19.5 0h19.5"/>`
+        innerHTML: `<path d="M15.75 12.75v-1.5m0 1.5A3.75 3.75 0 0 1 12 16.5c-2.071 0-3.75-1.5-3.75-4.5S9.929 7.5 12 7.5a3.75 3.75 0 0 1 3.75 3.75m0 1.5v.75s0 3 3 3c0 0 3 0 3-4.5 0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12s4.365 9.75 9.75 9.75a9.7 9.7 0 0 0 5.25-1.533m-1.5-8.967V7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MenuLeft.ts
+// src/icons/MenuBottom.ts
 import { defineComponent as defineComponent605, h as h605 } from "vue";
-var MenuLeft = defineComponent605({
-  name: "MenuLeft",
+var MenuBottom = defineComponent605({
+  name: "MenuBottom",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21167,16 +21167,16 @@ var MenuLeft = defineComponent605({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M8.25 4.5h-3a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h3m0-15h10.5a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H8.25m0-15v15"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 14.25v2.25a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3v-2.25m-19.5 0V7.5a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v6.75m-19.5 0h19.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MenuRight.ts
+// src/icons/MenuLeft.ts
 import { defineComponent as defineComponent606, h as h606 } from "vue";
-var MenuRight = defineComponent606({
-  name: "MenuRight",
+var MenuLeft = defineComponent606({
+  name: "MenuLeft",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21202,16 +21202,16 @@ var MenuRight = defineComponent606({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M15.75 4.5h3a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-3m0-15H5.25a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h10.5m0-15v15"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M8.25 4.5h-3a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h3m0-15h10.5a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H8.25m0-15v15"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MenuTop.ts
+// src/icons/MenuRight.ts
 import { defineComponent as defineComponent607, h as h607 } from "vue";
-var MenuTop = defineComponent607({
-  name: "MenuTop",
+var MenuRight = defineComponent607({
+  name: "MenuRight",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21237,16 +21237,16 @@ var MenuTop = defineComponent607({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 9.75V7.5a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v2.25m-19.5 0v6.75a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3V9.75m-19.5 0h19.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M15.75 4.5h3a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-3m0-15H5.25a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h10.5m0-15v15"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MergeVertices.ts
+// src/icons/MenuTop.ts
 import { defineComponent as defineComponent608, h as h608 } from "vue";
-var MergeVertices = defineComponent608({
-  name: "MergeVertices",
+var MenuTop = defineComponent608({
+  name: "MenuTop",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21272,16 +21272,16 @@ var MergeVertices = defineComponent608({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M20.25 20.25 16.5 16.5m0 0h3m-3 0v3M3.75 3.75 7.5 7.5m0 0h-3m3 0v-3m5.91 1.591a2.25 2.25 0 1 1 3.182-3.182 2.25 2.25 0 0 1-3.183 3.182m0 0L6.09 13.409m11.818-2.818a2.25 2.25 0 1 1 3.182-3.182 2.25 2.25 0 0 1-3.182 3.182m0 0-7.318 7.318m-4.5-4.5a2.25 2.25 0 1 1-3.182 3.182 2.25 2.25 0 0 1 3.182-3.182m4.5 4.5a2.25 2.25 0 1 1-3.182 3.182 2.25 2.25 0 0 1 3.182-3.182"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 9.75V7.5a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v2.25m-19.5 0v6.75a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3V9.75m-19.5 0h19.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Message.ts
+// src/icons/MergeVertices.ts
 import { defineComponent as defineComponent609, h as h609 } from "vue";
-var Message = defineComponent609({
-  name: "Message",
+var MergeVertices = defineComponent609({
+  name: "MergeVertices",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21307,16 +21307,16 @@ var Message = defineComponent609({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M15 3.75H9a6.75 6.75 0 0 0-2.58 12.99 3.97 3.97 0 0 1-1.11 3.45l-.06.06a7.5 7.5 0 0 0 6-3H15a6.75 6.75 0 0 0 0-13.5"/>`
+        innerHTML: `<path d="M20.25 20.25 16.5 16.5m0 0h3m-3 0v3M3.75 3.75 7.5 7.5m0 0h-3m3 0v-3m5.91 1.591a2.25 2.25 0 1 1 3.182-3.182 2.25 2.25 0 0 1-3.183 3.182m0 0L6.09 13.409m11.818-2.818a2.25 2.25 0 1 1 3.182-3.182 2.25 2.25 0 0 1-3.182 3.182m0 0-7.318 7.318m-4.5-4.5a2.25 2.25 0 1 1-3.182 3.182 2.25 2.25 0 0 1 3.182-3.182m4.5 4.5a2.25 2.25 0 1 1-3.182 3.182 2.25 2.25 0 0 1 3.182-3.182"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MessageBubble.ts
+// src/icons/Message.ts
 import { defineComponent as defineComponent610, h as h610 } from "vue";
-var MessageBubble = defineComponent610({
-  name: "MessageBubble",
+var Message = defineComponent610({
+  name: "Message",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21342,16 +21342,16 @@ var MessageBubble = defineComponent610({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 18.75a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0M15 3.75H9a6.75 6.75 0 0 0-4.49 11.79q-.01.105-.01.21a2.25 2.25 0 0 0 3.947 1.478q.274.021.553.022h6a6.75 6.75 0 0 0 0-13.5"/>`
+        innerHTML: `<path d="M15 3.75H9a6.75 6.75 0 0 0-2.58 12.99 3.97 3.97 0 0 1-1.11 3.45l-.06.06a7.5 7.5 0 0 0 6-3H15a6.75 6.75 0 0 0 0-13.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MessageDots.ts
+// src/icons/MessageBubble.ts
 import { defineComponent as defineComponent611, h as h611 } from "vue";
-var MessageDots = defineComponent611({
-  name: "MessageDots",
+var MessageBubble = defineComponent611({
+  name: "MessageBubble",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21377,16 +21377,16 @@ var MessageDots = defineComponent611({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M15 3.75H9a6.75 6.75 0 0 0-3.33 12.623c.452.256.823.68.798 1.198a3.97 3.97 0 0 1-1.159 2.62.034.034 0 0 0 .025.059 7.5 7.5 0 0 0 5.437-2.423c.32-.348.757-.577 1.229-.577h3a6.75 6.75 0 0 0 0-13.5"/>`
+        innerHTML: `<path d="M2.25 18.75a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0M15 3.75H9a6.75 6.75 0 0 0-4.49 11.79q-.01.105-.01.21a2.25 2.25 0 0 0 3.947 1.478q.274.021.553.022h6a6.75 6.75 0 0 0 0-13.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MessageLock.ts
+// src/icons/MessageDots.ts
 import { defineComponent as defineComponent612, h as h612 } from "vue";
-var MessageLock = defineComponent612({
-  name: "MessageLock",
+var MessageDots = defineComponent612({
+  name: "MessageDots",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21412,16 +21412,16 @@ var MessageLock = defineComponent612({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.523 12.241A6.75 6.75 0 0 0 15 3.75H9a6.75 6.75 0 0 0-2.58 12.99 3.97 3.97 0 0 1-1.11 3.45l-.06.06a7.5 7.5 0 0 0 6-3m5.25.75v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
+        innerHTML: `<path d="M15 3.75H9a6.75 6.75 0 0 0-3.33 12.623c.452.256.823.68.798 1.198a3.97 3.97 0 0 1-1.159 2.62.034.034 0 0 0 .025.059 7.5 7.5 0 0 0 5.437-2.423c.32-.348.757-.577 1.229-.577h3a6.75 6.75 0 0 0 0-13.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/MessageSettings.ts
+// src/icons/MessageLock.ts
 import { defineComponent as defineComponent613, h as h613 } from "vue";
-var MessageSettings = defineComponent613({
-  name: "MessageSettings",
+var MessageLock = defineComponent613({
+  name: "MessageLock",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21447,16 +21447,16 @@ var MessageSettings = defineComponent613({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.523 12.241A6.75 6.75 0 0 0 15 3.75H9a6.75 6.75 0 0 0-2.58 12.99 3.97 3.97 0 0 1-1.11 3.45l-.06.06a7.5 7.5 0 0 0 6-3m7.124 3.6a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.134 4.117h-1.65m-4.95 0h-1.65m7.047 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.523 12.241A6.75 6.75 0 0 0 15 3.75H9a6.75 6.75 0 0 0-2.58 12.99 3.97 3.97 0 0 1-1.11 3.45l-.06.06a7.5 7.5 0 0 0 6-3m5.25.75v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Metalic.ts
+// src/icons/MessageSettings.ts
 import { defineComponent as defineComponent614, h as h614 } from "vue";
-var Metalic = defineComponent614({
-  name: "Metalic",
+var MessageSettings = defineComponent614({
+  name: "MessageSettings",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21482,16 +21482,16 @@ var Metalic = defineComponent614({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.239 8.876c-1.148 1.59-2.554 2.51-3.902 3.144-3.055 1.438-4.251 1.265-6.033 3.27-1.76 1.98-2.035 4.358-1.798 6.138M21.24 8.876a9.78 9.78 0 0 0-4.767-5.542m4.767 5.542c.331.98.511 2.031.511 3.124 0 1.124-.19 2.204-.54 3.21a9.75 9.75 0 0 1-2.316 3.684 9.75 9.75 0 0 1-3.685 2.315A9.7 9.7 0 0 1 12 21.75a9.8 9.8 0 0 1-2.494-.322m6.966-18.094c-.224.81-.475 1.333-.698 1.679-.336.52-.726.82-1.408 1.14-1.225.578-5.206 1.52-8.202 4.89-1.485 1.67-2.409 3.46-2.931 5.228M16.472 3.334A9.7 9.7 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75a9.7 9.7 0 0 0 .983 4.27m6.273 5.158a9.77 9.77 0 0 1-6.273-5.157"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.523 12.241A6.75 6.75 0 0 0 15 3.75H9a6.75 6.75 0 0 0-2.58 12.99 3.97 3.97 0 0 1-1.11 3.45l-.06.06a7.5 7.5 0 0 0 6-3m7.124 3.6a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.134 4.117h-1.65m-4.95 0h-1.65m7.047 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Metro.ts
+// src/icons/Metalic.ts
 import { defineComponent as defineComponent615, h as h615 } from "vue";
-var Metro = defineComponent615({
-  name: "Metro",
+var Metalic = defineComponent615({
+  name: "Metalic",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21517,16 +21517,16 @@ var Metro = defineComponent615({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M8.25 16.5v-9L12 14.25l3.75-6.75v9m6-4.5c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75"/>`
+        innerHTML: `<path d="M21.239 8.876c-1.148 1.59-2.554 2.51-3.902 3.144-3.055 1.438-4.251 1.265-6.033 3.27-1.76 1.98-2.035 4.358-1.798 6.138M21.24 8.876a9.78 9.78 0 0 0-4.767-5.542m4.767 5.542c.331.98.511 2.031.511 3.124 0 1.124-.19 2.204-.54 3.21a9.75 9.75 0 0 1-2.316 3.684 9.75 9.75 0 0 1-3.685 2.315A9.7 9.7 0 0 1 12 21.75a9.8 9.8 0 0 1-2.494-.322m6.966-18.094c-.224.81-.475 1.333-.698 1.679-.336.52-.726.82-1.408 1.14-1.225.578-5.206 1.52-8.202 4.89-1.485 1.67-2.409 3.46-2.931 5.228M16.472 3.334A9.7 9.7 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75a9.7 9.7 0 0 0 .983 4.27m6.273 5.158a9.77 9.77 0 0 1-6.273-5.157"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Microphone.ts
+// src/icons/Metro.ts
 import { defineComponent as defineComponent616, h as h616 } from "vue";
-var Microphone = defineComponent616({
-  name: "Microphone",
+var Metro = defineComponent616({
+  name: "Metro",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21552,16 +21552,16 @@ var Microphone = defineComponent616({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.75 11.25V12A6.75 6.75 0 0 1 12 18.75m-6.75-7.5V12A6.75 6.75 0 0 0 12 18.75m-3.75 3H12m0 0h3.75m-3.75 0v-3M8.25 6v6a3.75 3.75 0 1 0 7.5 0V6a3.75 3.75 0 1 0-7.5 0Z"/>`
+        innerHTML: `<path d="M8.25 16.5v-9L12 14.25l3.75-6.75v9m6-4.5c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Microscope.ts
+// src/icons/Microphone.ts
 import { defineComponent as defineComponent617, h as h617 } from "vue";
-var Microscope = defineComponent617({
-  name: "Microscope",
+var Microphone = defineComponent617({
+  name: "Microphone",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21587,16 +21587,16 @@ var Microscope = defineComponent617({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3.75 17.25h4.5m0 0h4.5m-4.5 0v3a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-2.592a9.25 9.25 0 0 0-6-8.658m0 0L12 13.5l-.75-.375-.375.75-3-1.5.375-.75-.75-.375 3.83-7.658a1.5 1.5 0 0 1 2.012-.671l1.816.908a1.5 1.5 0 0 1 .671 2.013z"/>`
+        innerHTML: `<path d="M18.75 11.25V12A6.75 6.75 0 0 1 12 18.75m-6.75-7.5V12A6.75 6.75 0 0 0 12 18.75m-3.75 3H12m0 0h3.75m-3.75 0v-3M8.25 6v6a3.75 3.75 0 1 0 7.5 0V6a3.75 3.75 0 1 0-7.5 0Z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Microwave.ts
+// src/icons/Microscope.ts
 import { defineComponent as defineComponent618, h as h618 } from "vue";
-var Microwave = defineComponent618({
-  name: "Microwave",
+var Microscope = defineComponent618({
+  name: "Microscope",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21622,16 +21622,16 @@ var Microwave = defineComponent618({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.75 7.5v.75m0 3V12M2.25 6v12a1.5 1.5 0 0 0 1.5 1.5h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6m3 1.5v9h10.5v-9z"/>`
+        innerHTML: `<path d="M3.75 17.25h4.5m0 0h4.5m-4.5 0v3a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-2.592a9.25 9.25 0 0 0-6-8.658m0 0L12 13.5l-.75-.375-.375.75-3-1.5.375-.75-.75-.375 3.83-7.658a1.5 1.5 0 0 1 2.012-.671l1.816.908a1.5 1.5 0 0 1 .671 2.013z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Minus.ts
+// src/icons/Microwave.ts
 import { defineComponent as defineComponent619, h as h619 } from "vue";
-var Minus = defineComponent619({
-  name: "Minus",
+var Microwave = defineComponent619({
+  name: "Microwave",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21657,16 +21657,16 @@ var Minus = defineComponent619({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M3 12h18"/>`
+        innerHTML: `<path d="M18.75 7.5v.75m0 3V12M2.25 6v12a1.5 1.5 0 0 0 1.5 1.5h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6m3 1.5v9h10.5v-9z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Mirror.ts
+// src/icons/Minus.ts
 import { defineComponent as defineComponent620, h as h620 } from "vue";
-var Mirror = defineComponent620({
-  name: "Mirror",
+var Minus = defineComponent620({
+  name: "Minus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21692,16 +21692,16 @@ var Mirror = defineComponent620({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 2.25v1.5m0 3v1.5m0 13.5v-1.5m0-3v-1.5m0-3v-1.5m9.75 4.5-6-7.5v7.5zm-13.5-7.5v7.5h-6z"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M3 12h18"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Money.ts
+// src/icons/Mirror.ts
 import { defineComponent as defineComponent621, h as h621 } from "vue";
-var Money = defineComponent621({
-  name: "Money",
+var Mirror = defineComponent621({
+  name: "Mirror",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21727,16 +21727,16 @@ var Money = defineComponent621({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M15.75 15v-1.5M5.25 15v-1.5M6.75 6a1.5 1.5 0 0 1 1.5-1.5h12a1.5 1.5 0 0 1 1.5 1.5v8.25m-3-3.75V18a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-7.5A1.5 1.5 0 0 1 3.75 9h13.5a1.5 1.5 0 0 1 1.5 1.5m-6 3.75a2.25 2.25 0 1 0-4.5 0 2.25 2.25 0 0 0 4.5 0"/>`
+        innerHTML: `<path d="M12 2.25v1.5m0 3v1.5m0 13.5v-1.5m0-3v-1.5m0-3v-1.5m9.75 4.5-6-7.5v7.5zm-13.5-7.5v7.5h-6z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Moon.ts
+// src/icons/Money.ts
 import { defineComponent as defineComponent622, h as h622 } from "vue";
-var Moon = defineComponent622({
-  name: "Moon",
+var Money = defineComponent622({
+  name: "Money",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21762,16 +21762,16 @@ var Moon = defineComponent622({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M10.5 21.75c5.385 0 9.75-4.365 9.75-9.75s-4.365-9.75-9.75-9.75a9.7 9.7 0 0 0-5.778 1.896c-.478.352-.065 1.104.528 1.104a6.75 6.75 0 1 1 0 13.5c-.593 0-1.006.752-.528 1.104A9.7 9.7 0 0 0 10.5 21.75"/>`
+        innerHTML: `<path d="M15.75 15v-1.5M5.25 15v-1.5M6.75 6a1.5 1.5 0 0 1 1.5-1.5h12a1.5 1.5 0 0 1 1.5 1.5v8.25m-3-3.75V18a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-7.5A1.5 1.5 0 0 1 3.75 9h13.5a1.5 1.5 0 0 1 1.5 1.5m-6 3.75a2.25 2.25 0 1 0-4.5 0 2.25 2.25 0 0 0 4.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Mop.ts
+// src/icons/Moon.ts
 import { defineComponent as defineComponent623, h as h623 } from "vue";
-var Mop = defineComponent623({
-  name: "Mop",
+var Moon = defineComponent623({
+  name: "Moon",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21797,16 +21797,16 @@ var Mop = defineComponent623({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m21.75 2.25-10.5 10.5m0 0 1.5 1.5-2.25 2.25m.75-3.75-1.5-1.5L7.5 13.5m3 3-3-3m3 3-.106.742a5.25 5.25 0 0 1-5.197 4.508H2.25v-2.947a5.25 5.25 0 0 1 4.508-5.197L7.5 13.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M10.5 21.75c5.385 0 9.75-4.365 9.75-9.75s-4.365-9.75-9.75-9.75a9.7 9.7 0 0 0-5.778 1.896c-.478.352-.065 1.104.528 1.104a6.75 6.75 0 1 1 0 13.5c-.593 0-1.006.752-.528 1.104A9.7 9.7 0 0 0 10.5 21.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Mortarboard.ts
+// src/icons/Mop.ts
 import { defineComponent as defineComponent624, h as h624 } from "vue";
-var Mortarboard = defineComponent624({
-  name: "Mortarboard",
+var Mop = defineComponent624({
+  name: "Mop",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21832,16 +21832,16 @@ var Mortarboard = defineComponent624({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m18.75 10.438 3-1.75L12 3 2.25 8.688l6 3.5m10.5-1.75L12 14.375l-3.75-2.187m10.5-1.75v5.977c.024 1.045-.474 1.883-1.51 2.701-3.238 2.558-7.241 2.5-10.48 0-1.031-.796-1.534-1.656-1.51-2.701V10.5m3 1.688 3.75-3.5m-3.75 3.5V16.5"/>`
+        innerHTML: `<path d="m21.75 2.25-10.5 10.5m0 0 1.5 1.5-2.25 2.25m.75-3.75-1.5-1.5L7.5 13.5m3 3-3-3m3 3-.106.742a5.25 5.25 0 0 1-5.197 4.508H2.25v-2.947a5.25 5.25 0 0 1 4.508-5.197L7.5 13.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Motherboard.ts
+// src/icons/Mortarboard.ts
 import { defineComponent as defineComponent625, h as h625 } from "vue";
-var Motherboard = defineComponent625({
-  name: "Motherboard",
+var Mortarboard = defineComponent625({
+  name: "Mortarboard",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21867,16 +21867,16 @@ var Motherboard = defineComponent625({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 6V4.5A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5v15a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 19.5V12m0-6h3v6H3m0-6v6m15-6v6m-3-6v6m-9 3h9m-9 3h9M9 7.5v3h3v-3z"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m18.75 10.438 3-1.75L12 3 2.25 8.688l6 3.5m10.5-1.75L12 14.375l-3.75-2.187m10.5-1.75v5.977c.024 1.045-.474 1.883-1.51 2.701-3.238 2.558-7.241 2.5-10.48 0-1.031-.796-1.534-1.656-1.51-2.701V10.5m3 1.688 3.75-3.5m-3.75 3.5V16.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Motion.ts
+// src/icons/Motherboard.ts
 import { defineComponent as defineComponent626, h as h626 } from "vue";
-var Motion = defineComponent626({
-  name: "Motion",
+var Motherboard = defineComponent626({
+  name: "Motherboard",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21902,16 +21902,16 @@ var Motion = defineComponent626({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M15.522 10.253a6.74 6.74 0 0 0-1.749-3.026m-3.025-1.749A6.8 6.8 0 0 0 9 5.25c-.604 0-1.19.08-1.747.228m-4.775 4.775c.31-1.162.924-2.2 1.749-3.026m-1.749 6.52c.31 1.162.924 2.2 1.749 3.026m3.026 1.749A6.8 6.8 0 0 0 9 18.75c.604 0 1.19-.08 1.748-.228m3.025-1.749a6.74 6.74 0 0 0 1.749-3.025M21.75 12a6.75 6.75 0 1 0-13.5 0 6.75 6.75 0 0 0 13.5 0"/>`
+        innerHTML: `<path d="M3 6V4.5A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5v15a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 19.5V12m0-6h3v6H3m0-6v6m15-6v6m-3-6v6m-9 3h9m-9 3h9M9 7.5v3h3v-3z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Motorbike.ts
+// src/icons/Motion.ts
 import { defineComponent as defineComponent627, h as h627 } from "vue";
-var Motorbike = defineComponent627({
-  name: "Motorbike",
+var Motion = defineComponent627({
+  name: "Motion",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21937,16 +21937,16 @@ var Motorbike = defineComponent627({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 10.5h3m0 0h2.823c1.028 0 1.967-.58 2.427-1.5s1.4-1.5 2.427-1.5h.263a3.14 3.14 0 0 1 2.717 1.566l.998 1.723M5.25 10.5c1.657 0 3.157.672 4.243 1.757M15.75 4.5a6 6 0 0 1 6 6v.803a6 6 0 0 0-3-.803c-.644 0-1.264.101-1.845.29m0 0a6 6 0 0 0-4.155 5.71h-1.5a5.98 5.98 0 0 0-1.757-4.243M18.75 9v7.5m-13.5 0 4.243-4.243M15.75 16.5a3 3 0 1 0 6 0 3 3 0 0 0-6 0m-13.5 0a3 3 0 1 0 6 0 3 3 0 0 0-6 0"/>`
+        innerHTML: `<path d="M15.522 10.253a6.74 6.74 0 0 0-1.749-3.026m-3.025-1.749A6.8 6.8 0 0 0 9 5.25c-.604 0-1.19.08-1.747.228m-4.775 4.775c.31-1.162.924-2.2 1.749-3.026m-1.749 6.52c.31 1.162.924 2.2 1.749 3.026m3.026 1.749A6.8 6.8 0 0 0 9 18.75c.604 0 1.19-.08 1.748-.228m3.025-1.749a6.74 6.74 0 0 0 1.749-3.025M21.75 12a6.75 6.75 0 1 0-13.5 0 6.75 6.75 0 0 0 13.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Mountain.ts
+// src/icons/Motorbike.ts
 import { defineComponent as defineComponent628, h as h628 } from "vue";
-var Mountain = defineComponent628({
-  name: "Mountain",
+var Motorbike = defineComponent628({
+  name: "Motorbike",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -21972,16 +21972,16 @@ var Mountain = defineComponent628({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m2.25 19.5 2.41-6.023a.714.714 0 0 1 1.301-.055L6.82 14.8M15.21 9l5.04 10.5M15.21 9l2.26-2.874a1.5 1.5 0 0 1 2.428.096L21.75 9m-6.54 0-2.32-4.832c-.588-1.225-2.372-1.099-2.782.198l-2.827 8.952L6.82 14.8m0 0 2.93 4.7"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 10.5h3m0 0h2.823c1.028 0 1.967-.58 2.427-1.5s1.4-1.5 2.427-1.5h.263a3.14 3.14 0 0 1 2.717 1.566l.998 1.723M5.25 10.5c1.657 0 3.157.672 4.243 1.757M15.75 4.5a6 6 0 0 1 6 6v.803a6 6 0 0 0-3-.803c-.644 0-1.264.101-1.845.29m0 0a6 6 0 0 0-4.155 5.71h-1.5a5.98 5.98 0 0 0-1.757-4.243M18.75 9v7.5m-13.5 0 4.243-4.243M15.75 16.5a3 3 0 1 0 6 0 3 3 0 0 0-6 0m-13.5 0a3 3 0 1 0 6 0 3 3 0 0 0-6 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Mouse.ts
+// src/icons/Mountain.ts
 import { defineComponent as defineComponent629, h as h629 } from "vue";
-var Mouse = defineComponent629({
-  name: "Mouse",
+var Mountain = defineComponent629({
+  name: "Mountain",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22007,16 +22007,16 @@ var Mouse = defineComponent629({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M15 8.25h-1.5c-2.25 0-3.75 1.343-3.75 3v5.25a5.25 5.25 0 1 0 10.5 0v-5.25c0-1.657-1.5-3-3.75-3zm0 0v5.25m0-5.25C15 7 14.476 4.5 12 4.5s-2.424.789-4.447.789S4.5 4.5 4.5 3.687"/>`
+        innerHTML: `<path d="m2.25 19.5 2.41-6.023a.714.714 0 0 1 1.301-.055L6.82 14.8M15.21 9l5.04 10.5M15.21 9l2.26-2.874a1.5 1.5 0 0 1 2.428.096L21.75 9m-6.54 0-2.32-4.832c-.588-1.225-2.372-1.099-2.782.198l-2.827 8.952L6.82 14.8m0 0 2.93 4.7"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Move.ts
+// src/icons/Mouse.ts
 import { defineComponent as defineComponent630, h as h630 } from "vue";
-var Move = defineComponent630({
-  name: "Move",
+var Mouse = defineComponent630({
+  name: "Mouse",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22042,16 +22042,16 @@ var Move = defineComponent630({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M16.5 12h5.25m0 0-3-3m3 3-3 3M7.5 12H2.25m0 0 3-3m-3 3 3 3M12 16.5v5.25m0 0 3-3m-3 3-3-3M12 7.5V2.25m0 0 3 3m-3-3-3 3M12.75 12a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
+        innerHTML: `<path d="M15 8.25h-1.5c-2.25 0-3.75 1.343-3.75 3v5.25a5.25 5.25 0 1 0 10.5 0v-5.25c0-1.657-1.5-3-3.75-3zm0 0v5.25m0-5.25C15 7 14.476 4.5 12 4.5s-2.424.789-4.447.789S4.5 4.5 4.5 3.687"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Music.ts
+// src/icons/Move.ts
 import { defineComponent as defineComponent631, h as h631 } from "vue";
-var Music = defineComponent631({
-  name: "Music",
+var Move = defineComponent631({
+  name: "Move",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22077,16 +22077,16 @@ var Music = defineComponent631({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21 15v2.25A2.25 2.25 0 1 1 18.75 15zm0 0V6.75M7.5 16.5v2.25a2.25 2.25 0 1 1-2.25-2.25zm0 0V8.25m0 0V4.5c4.486 0 8.96-.491 13.34-1.464L21 3v3.75M7.5 8.25c4.486 0 8.96-.491 13.34-1.464L21 6.75"/>`
+        innerHTML: `<path d="M16.5 12h5.25m0 0-3-3m3 3-3 3M7.5 12H2.25m0 0 3-3m-3 3 3 3M12 16.5v5.25m0 0 3-3m-3 3-3-3M12 7.5V2.25m0 0 3 3m-3-3-3 3M12.75 12a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Navigation.ts
+// src/icons/Music.ts
 import { defineComponent as defineComponent632, h as h632 } from "vue";
-var Navigation = defineComponent632({
-  name: "Navigation",
+var Music = defineComponent632({
+  name: "Music",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22112,16 +22112,16 @@ var Navigation = defineComponent632({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m3.847 19.692 6.765-16.495c.51-1.241 2.267-1.241 2.776 0L20.151 19.7c.521 1.273-.803 2.518-2.042 1.919l-5.456-2.64a1.5 1.5 0 0 0-1.305-.001l-5.461 2.635c-1.24.598-2.562-.648-2.04-1.92"/>`
+        innerHTML: `<path d="M21 15v2.25A2.25 2.25 0 1 1 18.75 15zm0 0V6.75M7.5 16.5v2.25a2.25 2.25 0 1 1-2.25-2.25zm0 0V8.25m0 0V4.5c4.486 0 8.96-.491 13.34-1.464L21 3v3.75M7.5 8.25c4.486 0 8.96-.491 13.34-1.464L21 6.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/NavigationOff.ts
+// src/icons/Navigation.ts
 import { defineComponent as defineComponent633, h as h633 } from "vue";
-var NavigationOff = defineComponent633({
-  name: "NavigationOff",
+var Navigation = defineComponent633({
+  name: "Navigation",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22147,16 +22147,16 @@ var NavigationOff = defineComponent633({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m9.764 5.264.848-2.067c.51-1.241 2.267-1.241 2.776 0l3.952 9.643M8.456 8.456 3.847 19.692c-.522 1.272.801 2.518 2.04 1.92l5.461-2.635a1.5 1.5 0 0 1 1.305 0l5.457 2.641c1.051.509 2.165-.312 2.158-1.35M8.456 8.456 2.25 2.25m6.206 6.206 11.812 11.812m0 0 1.482 1.482"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m3.847 19.692 6.765-16.495c.51-1.241 2.267-1.241 2.776 0L20.151 19.7c.521 1.273-.803 2.518-2.042 1.919l-5.456-2.64a1.5 1.5 0 0 0-1.305-.001l-5.461 2.635c-1.24.598-2.562-.648-2.04-1.92"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Needle.ts
+// src/icons/NavigationOff.ts
 import { defineComponent as defineComponent634, h as h634 } from "vue";
-var Needle = defineComponent634({
-  name: "Needle",
+var NavigationOff = defineComponent634({
+  name: "NavigationOff",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22182,16 +22182,16 @@ var Needle = defineComponent634({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9.097 11.052 2.25 21.75l17.442-11.163a4.6 4.6 0 0 0 .74-.591M9.098 11.052l4.316-6.744a4.55 4.55 0 0 1 2.3-1.83c3.612-1.29 7.1 2.197 5.81 5.81a4.55 4.55 0 0 1-1.09 1.708M9.097 11.052c2.732-.188 5.842-1.926 7.647-3.748m-7.647 3.748c-1.484.102-2.856-.254-3.847-1.302-3-3.173.182-6.905 1.5-7.5m11.155 4.865a.75.75 0 0 1-1.16.189m1.16-.19a.75.75 0 1 0-1.161.189m1.161-.188a4.3 4.3 0 0 0-.655-.365q-.231.277-.506.554m3.689 2.692c.775 1.426 1.355 3.346 1.355 5.84 0 4.086-1.748 5.094-3.391 4.742m0 0c-2.26-.187-3.928-3.381-1.782-4.507s3.818 2.326 1.782 4.507m0 0c-.99 1.366-3.197 1.952-7.17-.317"/>`
+        innerHTML: `<path d="m9.764 5.264.848-2.067c.51-1.241 2.267-1.241 2.776 0l3.952 9.643M8.456 8.456 3.847 19.692c-.522 1.272.801 2.518 2.04 1.92l5.461-2.635a1.5 1.5 0 0 1 1.305 0l5.457 2.641c1.051.509 2.165-.312 2.158-1.35M8.456 8.456 2.25 2.25m6.206 6.206 11.812 11.812m0 0 1.482 1.482"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Network.ts
+// src/icons/Needle.ts
 import { defineComponent as defineComponent635, h as h635 } from "vue";
-var Network = defineComponent635({
-  name: "Network",
+var Needle = defineComponent635({
+  name: "Needle",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22217,16 +22217,16 @@ var Network = defineComponent635({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 9h2.25a1.5 1.5 0 0 0 1.5-1.5v-3a1.5 1.5 0 0 0-1.5-1.5h-4.5a1.5 1.5 0 0 0-1.5 1.5v3A1.5 1.5 0 0 0 9.75 9zm0 0v1.5m0 0a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 1 1.5 1.5V15m-6-4.5a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 0 6 13.5V15m12 0h2.25a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-4.5a1.5 1.5 0 0 1-1.5-1.5v-3a1.5 1.5 0 0 1 1.5-1.5zM6 15H3.75a1.5 1.5 0 0 0-1.5 1.5v3a1.5 1.5 0 0 0 1.5 1.5h4.5a1.5 1.5 0 0 0 1.5-1.5v-3a1.5 1.5 0 0 0-1.5-1.5z"/>`
+        innerHTML: `<path d="M9.097 11.052 2.25 21.75l17.442-11.163a4.6 4.6 0 0 0 .74-.591M9.098 11.052l4.316-6.744a4.55 4.55 0 0 1 2.3-1.83c3.612-1.29 7.1 2.197 5.81 5.81a4.55 4.55 0 0 1-1.09 1.708M9.097 11.052c2.732-.188 5.842-1.926 7.647-3.748m-7.647 3.748c-1.484.102-2.856-.254-3.847-1.302-3-3.173.182-6.905 1.5-7.5m11.155 4.865a.75.75 0 0 1-1.16.189m1.16-.19a.75.75 0 1 0-1.161.189m1.161-.188a4.3 4.3 0 0 0-.655-.365q-.231.277-.506.554m3.689 2.692c.775 1.426 1.355 3.346 1.355 5.84 0 4.086-1.748 5.094-3.391 4.742m0 0c-2.26-.187-3.928-3.381-1.782-4.507s3.818 2.326 1.782 4.507m0 0c-.99 1.366-3.197 1.952-7.17-.317"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Newspaper.ts
+// src/icons/Network.ts
 import { defineComponent as defineComponent636, h as h636 } from "vue";
-var Newspaper = defineComponent636({
-  name: "Newspaper",
+var Network = defineComponent636({
+  name: "Network",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22252,16 +22252,16 @@ var Newspaper = defineComponent636({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.75 6.75v-1.5a1.5 1.5 0 0 0-1.5-1.5H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h16.5m-1.5-13.5v12a1.5 1.5 0 0 0 1.5 1.5m-1.5-13.5h1.5a1.5 1.5 0 0 1 1.5 1.5v10.5a1.5 1.5 0 0 1-1.5 1.5M13.5 7.5H15m-1.5 3h.75M6 7.5V12h4.5V7.5z"/>`
+        innerHTML: `<path d="M12 9h2.25a1.5 1.5 0 0 0 1.5-1.5v-3a1.5 1.5 0 0 0-1.5-1.5h-4.5a1.5 1.5 0 0 0-1.5 1.5v3A1.5 1.5 0 0 0 9.75 9zm0 0v1.5m0 0a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 1 1.5 1.5V15m-6-4.5a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 0 6 13.5V15m12 0h2.25a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-4.5a1.5 1.5 0 0 1-1.5-1.5v-3a1.5 1.5 0 0 1 1.5-1.5zM6 15H3.75a1.5 1.5 0 0 0-1.5 1.5v3a1.5 1.5 0 0 0 1.5 1.5h4.5a1.5 1.5 0 0 0 1.5-1.5v-3a1.5 1.5 0 0 0-1.5-1.5z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Next.ts
+// src/icons/Newspaper.ts
 import { defineComponent as defineComponent637, h as h637 } from "vue";
-var Next = defineComponent637({
-  name: "Next",
+var Newspaper = defineComponent637({
+  name: "Newspaper",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22287,16 +22287,16 @@ var Next = defineComponent637({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21 3v18m-4.426-10.25L5.332 3.254C4.335 2.589 3 3.304 3 4.502V19.54c0 1.2 1.34 1.915 2.336 1.246l11.241-7.543a1.5 1.5 0 0 0-.003-2.493"/>`
+        innerHTML: `<path d="M18.75 6.75v-1.5a1.5 1.5 0 0 0-1.5-1.5H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h16.5m-1.5-13.5v12a1.5 1.5 0 0 0 1.5 1.5m-1.5-13.5h1.5a1.5 1.5 0 0 1 1.5 1.5v10.5a1.5 1.5 0 0 1-1.5 1.5M13.5 7.5H15m-1.5 3h.75M6 7.5V12h4.5V7.5z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Nfc.ts
+// src/icons/Next.ts
 import { defineComponent as defineComponent638, h as h638 } from "vue";
-var Nfc = defineComponent638({
-  name: "Nfc",
+var Next = defineComponent638({
+  name: "Next",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22322,16 +22322,16 @@ var Nfc = defineComponent638({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M13.088 2.25A13.46 13.46 0 0 1 17.25 12c0 3.833-1.597 7.293-4.162 9.75M11.013 4.417A10.47 10.47 0 0 1 14.25 12a10.47 10.47 0 0 1-3.238 7.583m-2.074-13A7.48 7.48 0 0 1 11.25 12c0 2.13-.887 4.052-2.312 5.417M6.863 8.75A4.49 4.49 0 0 1 8.25 12c0 1.278-.532 2.43-1.387 3.25"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21 3v18m-4.426-10.25L5.332 3.254C4.335 2.589 3 3.304 3 4.502V19.54c0 1.2 1.34 1.915 2.336 1.246l11.241-7.543a1.5 1.5 0 0 0-.003-2.493"/>`
       }, children);
     };
   }
 });
 
-// src/icons/NodeGraph.ts
+// src/icons/Nfc.ts
 import { defineComponent as defineComponent639, h as h639 } from "vue";
-var NodeGraph = defineComponent639({
-  name: "NodeGraph",
+var Nfc = defineComponent639({
+  name: "Nfc",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22357,16 +22357,16 @@ var NodeGraph = defineComponent639({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m6.43 7.908 2.21 1.326M6.43 7.908A2.249 2.249 0 0 1 2.25 6.75a2.25 2.25 0 1 1 4.18 1.158m2.21 1.326a2.25 2.25 0 0 0 .788 3.245l.026.014m-.814-3.26a2.25 2.25 0 0 1 3.126-.593m.727 2.906 5.077 3.046m-5.077-3.046a2.24 2.24 0 0 0 .237-1.343m-.237 1.343c-.295.56-.819.98-1.447 1.137m6.524 1.91a2.25 2.25 0 1 0 3.86 2.315 2.25 2.25 0 0 0-3.86-2.316M11.766 8.64q.085.058.165.124c.428.353.723.861.8 1.439m-.965-1.563 1.326-2.21m-3.638 6.063a2.24 2.24 0 0 0 1.592.19m-1.592-.19L6.408 17.57m6.684-11.14a2.249 2.249 0 0 1 1.158-4.18 2.25 2.25 0 1 1-1.158 4.18M6.408 17.57a2.25 2.25 0 1 0-2.316 3.86 2.25 2.25 0 0 0 2.316-3.86m6.322-7.367L21.75 9m-10.704 3.683L12 16.5"/>`
+        innerHTML: `<path d="M13.088 2.25A13.46 13.46 0 0 1 17.25 12c0 3.833-1.597 7.293-4.162 9.75M11.013 4.417A10.47 10.47 0 0 1 14.25 12a10.47 10.47 0 0 1-3.238 7.583m-2.074-13A7.48 7.48 0 0 1 11.25 12c0 2.13-.887 4.052-2.312 5.417M6.863 8.75A4.49 4.49 0 0 1 8.25 12c0 1.278-.532 2.43-1.387 3.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Notebook.ts
+// src/icons/NodeGraph.ts
 import { defineComponent as defineComponent640, h as h640 } from "vue";
-var Notebook = defineComponent640({
-  name: "Notebook",
+var NodeGraph = defineComponent640({
+  name: "NodeGraph",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22392,16 +22392,16 @@ var Notebook = defineComponent640({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M5.25 18v2.25a1.5 1.5 0 0 0 1.5 1.5h12a1.5 1.5 0 0 0 1.5-1.5V3.75a1.5 1.5 0 0 0-1.5-1.5h-12a1.5 1.5 0 0 0-1.5 1.5V6m0 12v-6m0 6h-1.5m1.5 0H7.5m-2.25-6V6m0 6h-1.5m1.5 0H7.5M5.25 6h-1.5m1.5 0H7.5"/>`
+        innerHTML: `<path d="m6.43 7.908 2.21 1.326M6.43 7.908A2.249 2.249 0 0 1 2.25 6.75a2.25 2.25 0 1 1 4.18 1.158m2.21 1.326a2.25 2.25 0 0 0 .788 3.245l.026.014m-.814-3.26a2.25 2.25 0 0 1 3.126-.593m.727 2.906 5.077 3.046m-5.077-3.046a2.24 2.24 0 0 0 .237-1.343m-.237 1.343c-.295.56-.819.98-1.447 1.137m6.524 1.91a2.25 2.25 0 1 0 3.86 2.315 2.25 2.25 0 0 0-3.86-2.316M11.766 8.64q.085.058.165.124c.428.353.723.861.8 1.439m-.965-1.563 1.326-2.21m-3.638 6.063a2.24 2.24 0 0 0 1.592.19m-1.592-.19L6.408 17.57m6.684-11.14a2.249 2.249 0 0 1 1.158-4.18 2.25 2.25 0 1 1-1.158 4.18M6.408 17.57a2.25 2.25 0 1 0-2.316 3.86 2.25 2.25 0 0 0 2.316-3.86m6.322-7.367L21.75 9m-10.704 3.683L12 16.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/NotebookTabs.ts
+// src/icons/Notebook.ts
 import { defineComponent as defineComponent641, h as h641 } from "vue";
-var NotebookTabs = defineComponent641({
-  name: "NotebookTabs",
+var Notebook = defineComponent641({
+  name: "Notebook",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22427,16 +22427,16 @@ var NotebookTabs = defineComponent641({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M5.25 18v2.25a1.5 1.5 0 0 0 1.5 1.5h9M5.25 18v-6m0 6h-1.5m1.5 0H7.5m-2.25-6V6m0 6h-1.5m1.5 0H7.5M5.25 6V3.75a1.5 1.5 0 0 1 1.5-1.5h9M5.25 6h-1.5m1.5 0H7.5m8.25-3.75h3a1.5 1.5 0 0 1 1.5 1.5V7.5m-4.5-5.25V7.5m0 14.25h3a1.5 1.5 0 0 0 1.5-1.5V18m-4.5 3.75V18m0 0h4.5m-4.5 0v-5.25m4.5 5.25v-5.25m-4.5 0h4.5m-4.5 0V7.5m4.5 5.25V7.5m-4.5 0h4.5"/>`
+        innerHTML: `<path d="M5.25 18v2.25a1.5 1.5 0 0 0 1.5 1.5h12a1.5 1.5 0 0 0 1.5-1.5V3.75a1.5 1.5 0 0 0-1.5-1.5h-12a1.5 1.5 0 0 0-1.5 1.5V6m0 12v-6m0 6h-1.5m1.5 0H7.5m-2.25-6V6m0 6h-1.5m1.5 0H7.5M5.25 6h-1.5m1.5 0H7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Notification.ts
+// src/icons/NotebookTabs.ts
 import { defineComponent as defineComponent642, h as h642 } from "vue";
-var Notification = defineComponent642({
-  name: "Notification",
+var NotebookTabs = defineComponent642({
+  name: "NotebookTabs",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22462,16 +22462,16 @@ var Notification = defineComponent642({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9 18.75h6m-6 0a3 3 0 1 0 6 0m-6 0H3.75a8.93 8.93 0 0 0 1.5-4.954V12a6.75 6.75 0 0 1 4.759-6.451 2.25 2.25 0 1 1 3.983 0A6.75 6.75 0 0 1 18.75 12v1.796c0 1.763.522 3.487 1.5 4.954H15M6 3.94a8.99 8.99 0 0 0-3.75 7.31m19.5 0A8.99 8.99 0 0 0 18 3.94"/>`
+        innerHTML: `<path d="M5.25 18v2.25a1.5 1.5 0 0 0 1.5 1.5h9M5.25 18v-6m0 6h-1.5m1.5 0H7.5m-2.25-6V6m0 6h-1.5m1.5 0H7.5M5.25 6V3.75a1.5 1.5 0 0 1 1.5-1.5h9M5.25 6h-1.5m1.5 0H7.5m8.25-3.75h3a1.5 1.5 0 0 1 1.5 1.5V7.5m-4.5-5.25V7.5m0 14.25h3a1.5 1.5 0 0 0 1.5-1.5V18m-4.5 3.75V18m0 0h4.5m-4.5 0v-5.25m4.5 5.25v-5.25m-4.5 0h4.5m-4.5 0V7.5m4.5 5.25V7.5m-4.5 0h4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Nozzle.ts
+// src/icons/Notification.ts
 import { defineComponent as defineComponent643, h as h643 } from "vue";
-var Nozzle = defineComponent643({
-  name: "Nozzle",
+var Notification = defineComponent643({
+  name: "Notification",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22497,16 +22497,16 @@ var Nozzle = defineComponent643({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 11.25h-.75a1.5 1.5 0 0 0-1.5 1.5v3.879c0 .397.158.779.44 1.06l3.62 3.622a1.5 1.5 0 0 0 1.061.439h3.258a1.5 1.5 0 0 0 1.06-.44l3.622-3.62a1.5 1.5 0 0 0 .439-1.061V12.75a1.5 1.5 0 0 0-1.5-1.5h-.75m-9 0v-.187m0 .187h9m-9-.187v-3m0 3 9-1.126m-9-1.874v-3m0 3L6 8.25m1.5-.187 9-1.126m-9-1.875V3.75A1.5 1.5 0 0 1 9 2.25h6a1.5 1.5 0 0 1 1.5 1.5v.188m-9 1.124L6 5.25m1.5-.187 9-1.125m0 7.312V9.938m0-6v3m0-3L18 3.75m-1.5 3.188v3m0-3L18 6.75m-1.5 3.188L18 9.75"/>`
+        innerHTML: `<path d="M9 18.75h6m-6 0a3 3 0 1 0 6 0m-6 0H3.75a8.93 8.93 0 0 0 1.5-4.954V12a6.75 6.75 0 0 1 4.759-6.451 2.25 2.25 0 1 1 3.983 0A6.75 6.75 0 0 1 18.75 12v1.796c0 1.763.522 3.487 1.5 4.954H15M6 3.94a8.99 8.99 0 0 0-3.75 7.31m19.5 0A8.99 8.99 0 0 0 18 3.94"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Office.ts
+// src/icons/Nozzle.ts
 import { defineComponent as defineComponent644, h as h644 } from "vue";
-var Office = defineComponent644({
-  name: "Office",
+var Nozzle = defineComponent644({
+  name: "Nozzle",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22532,16 +22532,16 @@ var Office = defineComponent644({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M19.5 11.25h2.25m-2.25 0v4.5m0-4.5h-2.25m-4.5 4.5v3a1.5 1.5 0 0 0 1.5 1.5H18a1.5 1.5 0 0 0 1.5-1.5v-3m-6.75 0v-4.5m0 4.5h6.75m-6.75-4.5h-6m6 0h1.5m-7.5 0V7.5m0 3.75H4.5M6.75 7.5h3V6a3 3 0 0 0-6 0v1.5zm-4.5 3.75H4.5m0 0v9m9.75-9V7.5h2.25m-2.25 3.75h3m0 0V7.5h-.75m0 0V4.719"/>`
+        innerHTML: `<path d="M7.5 11.25h-.75a1.5 1.5 0 0 0-1.5 1.5v3.879c0 .397.158.779.44 1.06l3.62 3.622a1.5 1.5 0 0 0 1.061.439h3.258a1.5 1.5 0 0 0 1.06-.44l3.622-3.62a1.5 1.5 0 0 0 .439-1.061V12.75a1.5 1.5 0 0 0-1.5-1.5h-.75m-9 0v-.187m0 .187h9m-9-.187v-3m0 3 9-1.126m-9-1.874v-3m0 3L6 8.25m1.5-.187 9-1.126m-9-1.875V3.75A1.5 1.5 0 0 1 9 2.25h6a1.5 1.5 0 0 1 1.5 1.5v.188m-9 1.124L6 5.25m1.5-.187 9-1.125m0 7.312V9.938m0-6v3m0-3L18 3.75m-1.5 3.188v3m0-3L18 6.75m-1.5 3.188L18 9.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Offline.ts
+// src/icons/Office.ts
 import { defineComponent as defineComponent645, h as h645 } from "vue";
-var Offline = defineComponent645({
-  name: "Offline",
+var Office = defineComponent645({
+  name: "Office",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22567,16 +22567,16 @@ var Offline = defineComponent645({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75M2.25 12c0 5.385 4.365 9.75 9.75 9.75-2.485 0-4.5-4.365-4.5-9.75m-5.25 0H7.5M12 2.25c-2.485 0-4.5 4.365-4.5 9.75M12 2.25c2.395 0 4.353 4.055 4.492 9.169V12H7.5m14.23 0c0-5.385-4.366-9.75-9.75-9.75m3.77 20.25 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
+        innerHTML: `<path d="M19.5 11.25h2.25m-2.25 0v4.5m0-4.5h-2.25m-4.5 4.5v3a1.5 1.5 0 0 0 1.5 1.5H18a1.5 1.5 0 0 0 1.5-1.5v-3m-6.75 0v-4.5m0 4.5h6.75m-6.75-4.5h-6m6 0h1.5m-7.5 0V7.5m0 3.75H4.5M6.75 7.5h3V6a3 3 0 0 0-6 0v1.5zm-4.5 3.75H4.5m0 0v9m9.75-9V7.5h2.25m-2.25 3.75h3m0 0V7.5h-.75m0 0V4.719"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Opacity.ts
+// src/icons/Offline.ts
 import { defineComponent as defineComponent646, h as h646 } from "vue";
-var Opacity = defineComponent646({
-  name: "Opacity",
+var Offline = defineComponent646({
+  name: "Offline",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22602,16 +22602,16 @@ var Opacity = defineComponent646({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9.476 2.58a9.7 9.7 0 0 1 5.047.002c5.202 1.394 8.289 6.74 6.895 11.942a9.746 9.746 0 0 1-11.941 6.894M5.105 5.105a9.7 9.7 0 0 0-2.523 4.371m2.523 9.42a9.8 9.8 0 0 1-2.524-4.372"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75M2.25 12c0 5.385 4.365 9.75 9.75 9.75-2.485 0-4.5-4.365-4.5-9.75m-5.25 0H7.5M12 2.25c-2.485 0-4.5 4.365-4.5 9.75M12 2.25c2.395 0 4.353 4.055 4.492 9.169V12H7.5m14.23 0c0-5.385-4.366-9.75-9.75-9.75m3.77 20.25 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/OrbitCamera.ts
+// src/icons/Opacity.ts
 import { defineComponent as defineComponent647, h as h647 } from "vue";
-var OrbitCamera = defineComponent647({
-  name: "OrbitCamera",
+var Opacity = defineComponent647({
+  name: "Opacity",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22637,16 +22637,16 @@ var OrbitCamera = defineComponent647({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6.914 6.914C4.116 7.962 2.248 9.848 2.248 12s1.868 4.038 4.666 5.086m0-10.172c1.481-.554 3.222-.873 5.086-.873s3.605.32 5.086.873m-10.172 0C6.36 8.395 6.041 10.137 6.041 12L7.5 10.5m-.586-3.586C7.962 4.116 9.848 2.25 12 2.25s4.038 1.867 5.086 4.665m0 0c2.798 1.048 4.666 2.934 4.666 5.086s-1.868 4.038-4.666 5.086m0-10.172c.554 1.481.873 3.223.873 5.086s-.32 3.605-.873 5.086m0 0c-1.048 2.799-2.934 4.666-5.086 4.666s-4.038-1.867-5.086-4.666m0 0c.89.333 1.872.58 2.919.726.697.096 1.422.188 2.167.188l-1.5-1.5M12 12v.75h-1.5v-1.5H12zm0 0 1.5-.75v1.5z"/>`
+        innerHTML: `<path d="M9.476 2.58a9.7 9.7 0 0 1 5.047.002c5.202 1.394 8.289 6.74 6.895 11.942a9.746 9.746 0 0 1-11.941 6.894M5.105 5.105a9.7 9.7 0 0 0-2.523 4.371m2.523 9.42a9.8 9.8 0 0 1-2.524-4.372"/>`
       }, children);
     };
   }
 });
 
-// src/icons/OrthographicView.ts
+// src/icons/OrbitCamera.ts
 import { defineComponent as defineComponent648, h as h648 } from "vue";
-var OrthographicView = defineComponent648({
-  name: "OrthographicView",
+var OrbitCamera = defineComponent648({
+  name: "OrbitCamera",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22672,16 +22672,16 @@ var OrthographicView = defineComponent648({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9 21H4.5A1.5 1.5 0 0 1 3 19.5V15m6 6v-6m0 6h6M9 3H4.5A1.5 1.5 0 0 0 3 4.5V9m6-6v6m0-6h6M9 15V9m0 6h6m-6 0H3m6-6H3m6 0h6m0-6h4.5A1.5 1.5 0 0 1 21 4.5V9m-6-6v6m0 12h4.5a1.5 1.5 0 0 0 1.5-1.5V15m-6 6v-6m0-6v6m0-6h6m-6 6h6m0 0V9M3 15V9"/>`
+        innerHTML: `<path d="M6.914 6.914C4.116 7.962 2.248 9.848 2.248 12s1.868 4.038 4.666 5.086m0-10.172c1.481-.554 3.222-.873 5.086-.873s3.605.32 5.086.873m-10.172 0C6.36 8.395 6.041 10.137 6.041 12L7.5 10.5m-.586-3.586C7.962 4.116 9.848 2.25 12 2.25s4.038 1.867 5.086 4.665m0 0c2.798 1.048 4.666 2.934 4.666 5.086s-1.868 4.038-4.666 5.086m0-10.172c.554 1.481.873 3.223.873 5.086s-.32 3.605-.873 5.086m0 0c-1.048 2.799-2.934 4.666-5.086 4.666s-4.038-1.867-5.086-4.666m0 0c.89.333 1.872.58 2.919.726.697.096 1.422.188 2.167.188l-1.5-1.5M12 12v.75h-1.5v-1.5H12zm0 0 1.5-.75v1.5z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Outdent.ts
+// src/icons/OrthographicView.ts
 import { defineComponent as defineComponent649, h as h649 } from "vue";
-var Outdent = defineComponent649({
-  name: "Outdent",
+var OrthographicView = defineComponent649({
+  name: "OrthographicView",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22707,16 +22707,16 @@ var Outdent = defineComponent649({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m9 2.25-3 3 3 3m4.5-3h8.25m-19.5 7.5h19.5m0 7.5H2.25"/>`
+        innerHTML: `<path d="M9 21H4.5A1.5 1.5 0 0 1 3 19.5V15m6 6v-6m0 6h6M9 3H4.5A1.5 1.5 0 0 0 3 4.5V9m6-6v6m0-6h6M9 15V9m0 6h6m-6 0H3m6-6H3m6 0h6m0-6h4.5A1.5 1.5 0 0 1 21 4.5V9m-6-6v6m0 12h4.5a1.5 1.5 0 0 0 1.5-1.5V15m-6 6v-6m0-6v6m0-6h6m-6 6h6m0 0V9M3 15V9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Outside.ts
+// src/icons/Outdent.ts
 import { defineComponent as defineComponent650, h as h650 } from "vue";
-var Outside = defineComponent650({
-  name: "Outside",
+var Outdent = defineComponent650({
+  name: "Outdent",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22742,16 +22742,16 @@ var Outside = defineComponent650({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m19.5 21-.844-2.25m0 0h-5.062m5.062 0H21m-2.344 0-1.125-3m-3.937 3L12.75 21m.844-2.25H11.25m2.344 0 1.125-3M6 21v-2.25m0 0a3.008 3.008 0 0 1-2.937-3.66l2.024-9.108a.935.935 0 0 1 1.826 0l2.023 9.107A3.008 3.008 0 0 1 6 18.75m12-8.25V12m-5.25-6.75h-1.5m3 3.75-.95.95m1.419 5.8h2.812m-2.812 0H13.5m4.031 0h1.219m-3-10.5a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0"/>`
+        innerHTML: `<path d="m9 2.25-3 3 3 3m4.5-3h8.25m-19.5 7.5h19.5m0 7.5H2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Oven.ts
+// src/icons/Outside.ts
 import { defineComponent as defineComponent651, h as h651 } from "vue";
-var Oven = defineComponent651({
-  name: "Oven",
+var Outside = defineComponent651({
+  name: "Outside",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22777,16 +22777,16 @@ var Oven = defineComponent651({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6 6h.75m3 0h.75M3 9V4.5A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5V9M3 9v10.5A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5V9M3 9h18m-3.75-3H18m-4.5 0h.75M6 12v6h12v-6z"/>`
+        innerHTML: `<path d="m19.5 21-.844-2.25m0 0h-5.062m5.062 0H21m-2.344 0-1.125-3m-3.937 3L12.75 21m.844-2.25H11.25m2.344 0 1.125-3M6 21v-2.25m0 0a3.008 3.008 0 0 1-2.937-3.66l2.024-9.108a.935.935 0 0 1 1.826 0l2.023 9.107A3.008 3.008 0 0 1 6 18.75m12-8.25V12m-5.25-6.75h-1.5m3 3.75-.95.95m1.419 5.8h2.812m-2.812 0H13.5m4.031 0h1.219m-3-10.5a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Overhang.ts
+// src/icons/Oven.ts
 import { defineComponent as defineComponent652, h as h652 } from "vue";
-var Overhang = defineComponent652({
-  name: "Overhang",
+var Oven = defineComponent652({
+  name: "Oven",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22812,16 +22812,16 @@ var Overhang = defineComponent652({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M17.379 3H4.5A1.5 1.5 0 0 0 3 4.5v12.879c0 1.336 1.616 2.005 2.56 1.06L18.44 5.561C19.383 4.616 18.714 3 17.378 3"/>`
+        innerHTML: `<path d="M6 6h.75m3 0h.75M3 9V4.5A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5V9M3 9v10.5A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5V9M3 9h18m-3.75-3H18m-4.5 0h.75M6 12v6h12v-6z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Package.ts
+// src/icons/Overhang.ts
 import { defineComponent as defineComponent653, h as h653 } from "vue";
-var Package = defineComponent653({
-  name: "Package",
+var Overhang = defineComponent653({
+  name: "Overhang",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22847,16 +22847,16 @@ var Package = defineComponent653({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 21.514c-.261 0-.522-.069-.756-.205l-7.5-4.375A1.5 1.5 0 0 1 3 15.638V8.363c0-.267.07-.523.199-.746M12 21.514c.261 0 .522-.069.756-.205l7.5-4.375A1.5 1.5 0 0 0 21 15.638V8.363a1.5 1.5 0 0 0-.198-.746M12 21.514V12.75m0 0-4.5-2.625M12 12.75l8.802-5.134M7.5 10.125l9.006-5.247M7.5 10.125l-4.301-2.51m13.307-2.737 3.75 2.188a1.5 1.5 0 0 1 .546.55m-4.296-2.738-3.75-2.187a1.5 1.5 0 0 0-1.512 0l-7.5 4.375a1.5 1.5 0 0 0-.545.55"/>`
+        innerHTML: `<path d="M17.379 3H4.5A1.5 1.5 0 0 0 3 4.5v12.879c0 1.336 1.616 2.005 2.56 1.06L18.44 5.561C19.383 4.616 18.714 3 17.378 3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PaintBrush.ts
+// src/icons/Package.ts
 import { defineComponent as defineComponent654, h as h654 } from "vue";
-var PaintBrush = defineComponent654({
-  name: "PaintBrush",
+var Package = defineComponent654({
+  name: "Package",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22882,16 +22882,16 @@ var PaintBrush = defineComponent654({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6 10.5V2.25h3.75M6 10.5v2.25a1.5 1.5 0 0 0 1.5 1.5H9a1.5 1.5 0 0 1 1.5 1.5v4.5a1.5 1.5 0 0 0 3 0v-4.5a1.5 1.5 0 0 1 1.5-1.5h1.5a1.5 1.5 0 0 0 1.5-1.5V10.5m-12 0h12m0 0V2.25h-3.75m-4.5 0v3m0-3h4.5m0 0v3"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 21.514c-.261 0-.522-.069-.756-.205l-7.5-4.375A1.5 1.5 0 0 1 3 15.638V8.363c0-.267.07-.523.199-.746M12 21.514c.261 0 .522-.069.756-.205l7.5-4.375A1.5 1.5 0 0 0 21 15.638V8.363a1.5 1.5 0 0 0-.198-.746M12 21.514V12.75m0 0-4.5-2.625M12 12.75l8.802-5.134M7.5 10.125l9.006-5.247M7.5 10.125l-4.301-2.51m13.307-2.737 3.75 2.188a1.5 1.5 0 0 1 .546.55m-4.296-2.738-3.75-2.187a1.5 1.5 0 0 0-1.512 0l-7.5 4.375a1.5 1.5 0 0 0-.545.55"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PaintBucket.ts
+// src/icons/PaintBrush.ts
 import { defineComponent as defineComponent655, h as h655 } from "vue";
-var PaintBucket = defineComponent655({
-  name: "PaintBucket",
+var PaintBrush = defineComponent655({
+  name: "PaintBrush",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22917,16 +22917,16 @@ var PaintBucket = defineComponent655({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12.75 10.5 5.25 3m15 9-7.629 7.629a3 3 0 0 1-4.242 0L3.62 14.87a3 3 0 0 1 0-4.242L11.25 3zm0 3.75-1.654 3.308a1.85 1.85 0 1 0 3.308 0zM13.5 10.5a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
+        innerHTML: `<path d="M6 10.5V2.25h3.75M6 10.5v2.25a1.5 1.5 0 0 0 1.5 1.5H9a1.5 1.5 0 0 1 1.5 1.5v4.5a1.5 1.5 0 0 0 3 0v-4.5a1.5 1.5 0 0 1 1.5-1.5h1.5a1.5 1.5 0 0 0 1.5-1.5V10.5m-12 0h12m0 0V2.25h-3.75m-4.5 0v3m0-3h4.5m0 0v3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PaintRoller.ts
+// src/icons/PaintBucket.ts
 import { defineComponent as defineComponent656, h as h656 } from "vue";
-var PaintRoller = defineComponent656({
-  name: "PaintRoller",
+var PaintBucket = defineComponent656({
+  name: "PaintBucket",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22952,16 +22952,16 @@ var PaintRoller = defineComponent656({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M11.25 12.75H12a1.5 1.5 0 0 1 1.5 1.5v6a1.5 1.5 0 0 1-1.5 1.5h-1.5a1.5 1.5 0 0 1-1.5-1.5v-6a1.5 1.5 0 0 1 1.5-1.5zm0 0v-1.5a1.5 1.5 0 0 1 1.5-1.5H18a1.5 1.5 0 0 0 1.5-1.5V6A1.5 1.5 0 0 0 18 4.5h-.75m0 0v.75a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.5-1.5v-1.5a1.5 1.5 0 0 1 1.5-1.5h9a1.5 1.5 0 0 1 1.5 1.5z"/>`
+        innerHTML: `<path d="M12.75 10.5 5.25 3m15 9-7.629 7.629a3 3 0 0 1-4.242 0L3.62 14.87a3 3 0 0 1 0-4.242L11.25 3zm0 3.75-1.654 3.308a1.85 1.85 0 1 0 3.308 0zM13.5 10.5a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Paired.ts
+// src/icons/PaintRoller.ts
 import { defineComponent as defineComponent657, h as h657 } from "vue";
-var Paired = defineComponent657({
-  name: "Paired",
+var PaintRoller = defineComponent657({
+  name: "PaintRoller",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -22987,16 +22987,16 @@ var Paired = defineComponent657({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M4.5 10.516A4.875 4.875 0 0 0 7.125 19.5h4.5a4.875 4.875 0 1 0 0-9.75h-.375m1.5 4.5h-.375A4.876 4.876 0 0 1 7.5 9.375 4.875 4.875 0 0 1 12.375 4.5h4.5a4.875 4.875 0 0 1 2.625 8.984"/>`
+        innerHTML: `<path d="M11.25 12.75H12a1.5 1.5 0 0 1 1.5 1.5v6a1.5 1.5 0 0 1-1.5 1.5h-1.5a1.5 1.5 0 0 1-1.5-1.5v-6a1.5 1.5 0 0 1 1.5-1.5zm0 0v-1.5a1.5 1.5 0 0 1 1.5-1.5H18a1.5 1.5 0 0 0 1.5-1.5V6A1.5 1.5 0 0 0 18 4.5h-.75m0 0v.75a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.5-1.5v-1.5a1.5 1.5 0 0 1 1.5-1.5h9a1.5 1.5 0 0 1 1.5 1.5z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PanKitchen.ts
+// src/icons/Paired.ts
 import { defineComponent as defineComponent658, h as h658 } from "vue";
-var PanKitchen = defineComponent658({
-  name: "PanKitchen",
+var Paired = defineComponent658({
+  name: "Paired",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23022,16 +23022,16 @@ var PanKitchen = defineComponent658({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m8.9 17.35-3.34 3.34a1.5 1.5 0 0 1-2.12 0l-.13-.13a1.5 1.5 0 0 1 0-2.12l3.34-3.34m2.25 2.25a8.3 8.3 0 0 1-2.25-2.25m2.25 2.25a8.25 8.25 0 1 0-2.25-2.25"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M4.5 10.516A4.875 4.875 0 0 0 7.125 19.5h4.5a4.875 4.875 0 1 0 0-9.75h-.375m1.5 4.5h-.375A4.876 4.876 0 0 1 7.5 9.375 4.875 4.875 0 0 1 12.375 4.5h4.5a4.875 4.875 0 0 1 2.625 8.984"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PaperPlane.ts
+// src/icons/PanKitchen.ts
 import { defineComponent as defineComponent659, h as h659 } from "vue";
-var PaperPlane = defineComponent659({
-  name: "PaperPlane",
+var PanKitchen = defineComponent659({
+  name: "PanKitchen",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23057,16 +23057,16 @@ var PaperPlane = defineComponent659({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m21.75 2.25-5.25 19.5-4.5-4.5m9.75-15L2.25 7.5l4.5 4.5m15-9.75L6.75 12m15-9.75-9.75 15m0 0-6.75 1.5L6.75 12"/>`
+        innerHTML: `<path d="m8.9 17.35-3.34 3.34a1.5 1.5 0 0 1-2.12 0l-.13-.13a1.5 1.5 0 0 1 0-2.12l3.34-3.34m2.25 2.25a8.3 8.3 0 0 1-2.25-2.25m2.25 2.25a8.25 8.25 0 1 0-2.25-2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Paperclip.ts
+// src/icons/PaperPlane.ts
 import { defineComponent as defineComponent660, h as h660 } from "vue";
-var Paperclip = defineComponent660({
-  name: "Paperclip",
+var PaperPlane = defineComponent660({
+  name: "PaperPlane",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23092,16 +23092,16 @@ var Paperclip = defineComponent660({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m21.75 11.25-8.89 8.814a5.836 5.836 0 0 1-8.22-8.286l8.354-8.294a4.241 4.241 0 1 1 5.974 6.022l-8.361 8.29a2.65 2.65 0 1 1-3.729-3.765L15 6"/>`
+        innerHTML: `<path d="m21.75 2.25-5.25 19.5-4.5-4.5m9.75-15L2.25 7.5l4.5 4.5m15-9.75L6.75 12m15-9.75-9.75 15m0 0-6.75 1.5L6.75 12"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PaperclipDisabled.ts
+// src/icons/Paperclip.ts
 import { defineComponent as defineComponent661, h as h661 } from "vue";
-var PaperclipDisabled = defineComponent661({
-  name: "PaperclipDisabled",
+var Paperclip = defineComponent661({
+  name: "Paperclip",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23127,16 +23127,16 @@ var PaperclipDisabled = defineComponent661({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m16.477 16.477-3.618 3.587a5.836 5.836 0 0 1-8.22-8.286l3.583-3.556m8.255 8.255-2.26-2.26m2.26 2.26 5.273 5.273m-3.013-7.513 3.013-2.987M10.48 5.98l2.514-2.496a4.241 4.241 0 1 1 5.974 6.021l-2.492 2.471M8.222 8.222 2.25 2.25m5.972 5.972 2.253 2.253m3.742 3.742-3.61 3.58a2.65 2.65 0 1 1-3.729-3.766l3.597-3.556m3.742 3.742-3.742-3.742m2.262-2.238L15 6"/>`
+        innerHTML: `<path d="m21.75 11.25-8.89 8.814a5.836 5.836 0 0 1-8.22-8.286l8.354-8.294a4.241 4.241 0 1 1 5.974 6.022l-8.361 8.29a2.65 2.65 0 1 1-3.729-3.765L15 6"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Paragraph.ts
+// src/icons/PaperclipDisabled.ts
 import { defineComponent as defineComponent662, h as h662 } from "vue";
-var Paragraph = defineComponent662({
-  name: "Paragraph",
+var PaperclipDisabled = defineComponent662({
+  name: "PaperclipDisabled",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23162,16 +23162,16 @@ var Paragraph = defineComponent662({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M15 14.25H8.625a5.625 5.625 0 0 1 0-11.25H15m0 11.25V21m0-6.75V3m6 0h-2.25m0 0v18m0-18H15"/>`
+        innerHTML: `<path d="m16.477 16.477-3.618 3.587a5.836 5.836 0 0 1-8.22-8.286l3.583-3.556m8.255 8.255-2.26-2.26m2.26 2.26 5.273 5.273m-3.013-7.513 3.013-2.987M10.48 5.98l2.514-2.496a4.241 4.241 0 1 1 5.974 6.021l-2.492 2.471M8.222 8.222 2.25 2.25m5.972 5.972 2.253 2.253m3.742 3.742-3.61 3.58a2.65 2.65 0 1 1-3.729-3.766l3.597-3.556m3.742 3.742-3.742-3.742m2.262-2.238L15 6"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Parking.ts
+// src/icons/Paragraph.ts
 import { defineComponent as defineComponent663, h as h663 } from "vue";
-var Parking = defineComponent663({
-  name: "Parking",
+var Paragraph = defineComponent663({
+  name: "Paragraph",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23197,16 +23197,16 @@ var Parking = defineComponent663({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9 12.75v-6h3.75a3 3 0 1 1 0 6zm0 0v4.5M3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5"/>`
+        innerHTML: `<path d="M15 14.25H8.625a5.625 5.625 0 0 1 0-11.25H15m0 11.25V21m0-6.75V3m6 0h-2.25m0 0v18m0-18H15"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ParticleSystem.ts
+// src/icons/Parking.ts
 import { defineComponent as defineComponent664, h as h664 } from "vue";
-var ParticleSystem = defineComponent664({
-  name: "ParticleSystem",
+var Parking = defineComponent664({
+  name: "Parking",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23232,16 +23232,16 @@ var ParticleSystem = defineComponent664({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6 18V9m0 9a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3m0-9a3 3 0 1 1 3-3M6 9a3 3 0 0 0 2.121-.879M9 6h9M9 6a3 3 0 0 1-.879 2.121M18 6a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0m-2.121 9.879a3 3 0 1 0 4.242 4.243 3 3 0 0 0-4.242-4.243m0 0L8.12 8.12"/>`
+        innerHTML: `<path d="M9 12.75v-6h3.75a3 3 0 1 1 0 6zm0 0v4.5M3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Paste.ts
+// src/icons/ParticleSystem.ts
 import { defineComponent as defineComponent665, h as h665 } from "vue";
-var Paste = defineComponent665({
-  name: "Paste",
+var ParticleSystem = defineComponent665({
+  name: "ParticleSystem",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23267,16 +23267,16 @@ var Paste = defineComponent665({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 5.25A1.5 1.5 0 0 1 9 3.75h3m7.5 12.75h.75a1.5 1.5 0 0 0 1.5-1.5V5.25a1.5 1.5 0 0 0-1.5-1.5H18m-6 0a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 0 1.5-1.5m-6 0a1.5 1.5 0 0 1 1.5-1.5h3a1.5 1.5 0 0 1 1.5 1.5m-15.75 6v10.5a1.5 1.5 0 0 0 1.5 1.5H15a1.5 1.5 0 0 0 1.5-1.5v-5.379a1.5 1.5 0 0 0-.44-1.06l-5.12-5.122a1.5 1.5 0 0 0-1.061-.439H3.75a1.5 1.5 0 0 0-1.5 1.5"/>`
+        innerHTML: `<path d="M6 18V9m0 9a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3m0-9a3 3 0 1 1 3-3M6 9a3 3 0 0 0 2.121-.879M9 6h9M9 6a3 3 0 0 1-.879 2.121M18 6a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0m-2.121 9.879a3 3 0 1 0 4.242 4.243 3 3 0 0 0-4.242-4.243m0 0L8.12 8.12"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Pause.ts
+// src/icons/Paste.ts
 import { defineComponent as defineComponent666, h as h666 } from "vue";
-var Pause = defineComponent666({
-  name: "Pause",
+var Paste = defineComponent666({
+  name: "Paste",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23302,16 +23302,16 @@ var Pause = defineComponent666({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M18 2.25v19.5M6 2.25v19.5"/>`
+        innerHTML: `<path d="M7.5 5.25A1.5 1.5 0 0 1 9 3.75h3m7.5 12.75h.75a1.5 1.5 0 0 0 1.5-1.5V5.25a1.5 1.5 0 0 0-1.5-1.5H18m-6 0a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 0 1.5-1.5m-6 0a1.5 1.5 0 0 1 1.5-1.5h3a1.5 1.5 0 0 1 1.5 1.5m-15.75 6v10.5a1.5 1.5 0 0 0 1.5 1.5H15a1.5 1.5 0 0 0 1.5-1.5v-5.379a1.5 1.5 0 0 0-.44-1.06l-5.12-5.122a1.5 1.5 0 0 0-1.061-.439H3.75a1.5 1.5 0 0 0-1.5 1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Peace.ts
+// src/icons/Pause.ts
 import { defineComponent as defineComponent667, h as h667 } from "vue";
-var Peace = defineComponent667({
-  name: "Peace",
+var Pause = defineComponent667({
+  name: "Pause",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23337,16 +23337,16 @@ var Peace = defineComponent667({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 21.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.776.475-3.442 1.305-4.876M12 21.75c5.385 0 9.75-4.365 9.75-9.75a9.7 9.7 0 0 0-1.305-4.876M12 21.75V12m8.445-4.876A9.75 9.75 0 0 0 12 2.25a9.75 9.75 0 0 0-8.445 4.874m16.89 0L12 12m0 0L3.555 7.124"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M18 2.25v19.5M6 2.25v19.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Pen.ts
+// src/icons/Peace.ts
 import { defineComponent as defineComponent668, h as h668 } from "vue";
-var Pen = defineComponent668({
-  name: "Pen",
+var Peace = defineComponent668({
+  name: "Peace",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23372,16 +23372,16 @@ var Pen = defineComponent668({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m19.5 12 1.81-1.81a1.5 1.5 0 0 0 0-2.122l-5.378-5.379a1.5 1.5 0 0 0-2.122 0L12 4.5m7.5 7.5L12 4.5m7.5 7.5c.42 3.786-2.513 7.561-6.27 8.188L4 21.726a1.49 1.49 0 0 1-1.307-.42M12 4.5c-3.786-.42-7.561 2.513-8.188 6.27L2.274 20a1.49 1.49 0 0 0 .42 1.307m6.965-6.966a2.25 2.25 0 1 1 3.182-3.182 2.25 2.25 0 0 1-3.182 3.182m0 0-6.966 6.966"/>`
+        innerHTML: `<path d="M12 21.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.776.475-3.442 1.305-4.876M12 21.75c5.385 0 9.75-4.365 9.75-9.75a9.7 9.7 0 0 0-1.305-4.876M12 21.75V12m8.445-4.876A9.75 9.75 0 0 0 12 2.25a9.75 9.75 0 0 0-8.445 4.874m16.89 0L12 12m0 0L3.555 7.124"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PenCursor.ts
+// src/icons/Pen.ts
 import { defineComponent as defineComponent669, h as h669 } from "vue";
-var PenCursor = defineComponent669({
-  name: "PenCursor",
+var Pen = defineComponent669({
+  name: "Pen",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23407,16 +23407,16 @@ var PenCursor = defineComponent669({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m19.5 12 1.81 1.81a1.5 1.5 0 0 1 0 2.122l-5.378 5.379a1.5 1.5 0 0 1-2.122 0L12 19.5m7.5-7.5L12 19.5m7.5-7.5c.42-3.786-2.513-7.561-6.27-8.188L4 2.274a1.49 1.49 0 0 0-1.307.42M12 19.5c-3.786.42-7.561-2.513-8.188-6.27L2.274 4a1.49 1.49 0 0 1 .42-1.307M9.658 9.66a2.25 2.25 0 1 0 3.182 3.182 2.25 2.25 0 0 0-3.182-3.182m0 0L2.693 2.693"/>`
+        innerHTML: `<path d="m19.5 12 1.81-1.81a1.5 1.5 0 0 0 0-2.122l-5.378-5.379a1.5 1.5 0 0 0-2.122 0L12 4.5m7.5 7.5L12 4.5m7.5 7.5c.42 3.786-2.513 7.561-6.27 8.188L4 21.726a1.49 1.49 0 0 1-1.307-.42M12 4.5c-3.786-.42-7.561 2.513-8.188 6.27L2.274 20a1.49 1.49 0 0 0 .42 1.307m6.965-6.966a2.25 2.25 0 1 1 3.182-3.182 2.25 2.25 0 0 1-3.182 3.182m0 0-6.966 6.966"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Pencil.ts
+// src/icons/PenCursor.ts
 import { defineComponent as defineComponent670, h as h670 } from "vue";
-var Pencil = defineComponent670({
-  name: "Pencil",
+var PenCursor = defineComponent670({
+  name: "PenCursor",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23442,16 +23442,16 @@ var Pencil = defineComponent670({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M10.923 20.577v-1.77a1.5 1.5 0 0 0-1.206-1.47l-1.564-.314a1.5 1.5 0 0 1-1.177-1.176l-.312-1.564a1.5 1.5 0 0 0-1.471-1.206h-1.77m7.5 7.5L19.5 12m-8.577 8.577-3.75.625m-3.75-8.125L12 4.5m-8.577 8.577-.625 3.75M12 4.5l1.814-1.815a1.5 1.5 0 0 1 2.121 0l5.38 5.38a1.5 1.5 0 0 1 0 2.12L19.5 12M12 4.5l7.5 7.5M7.173 21.202l-4.375-4.375m4.375 4.375-3.179.53a1.5 1.5 0 0 1-1.726-1.726l.53-3.179"/>`
+        innerHTML: `<path d="m19.5 12 1.81 1.81a1.5 1.5 0 0 1 0 2.122l-5.378 5.379a1.5 1.5 0 0 1-2.122 0L12 19.5m7.5-7.5L12 19.5m7.5-7.5c.42-3.786-2.513-7.561-6.27-8.188L4 2.274a1.49 1.49 0 0 0-1.307.42M12 19.5c-3.786.42-7.561-2.513-8.188-6.27L2.274 4a1.49 1.49 0 0 1 .42-1.307M9.658 9.66a2.25 2.25 0 1 0 3.182 3.182 2.25 2.25 0 0 0-3.182-3.182m0 0L2.693 2.693"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PencilCursor.ts
+// src/icons/Pencil.ts
 import { defineComponent as defineComponent671, h as h671 } from "vue";
-var PencilCursor = defineComponent671({
-  name: "PencilCursor",
+var Pencil = defineComponent671({
+  name: "Pencil",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23477,16 +23477,16 @@ var PencilCursor = defineComponent671({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M10.923 3.423v1.77a1.5 1.5 0 0 1-1.206 1.47l-1.564.313a1.5 1.5 0 0 0-1.177 1.177l-.312 1.564a1.5 1.5 0 0 1-1.471 1.206h-1.77m7.5-7.5L19.5 12m-8.577-8.577-3.75-.625m-3.75 8.125L12 19.5m-8.577-8.577-.625-3.75M12 19.5l1.814 1.814a1.5 1.5 0 0 0 2.121 0l5.38-5.378a1.5 1.5 0 0 0 0-2.122L19.5 12M12 19.5l7.5-7.5M7.173 2.798 2.798 7.173m4.375-4.375-3.179-.53a1.5 1.5 0 0 0-1.726 1.726l.53 3.179"/>`
+        innerHTML: `<path d="M10.923 20.577v-1.77a1.5 1.5 0 0 0-1.206-1.47l-1.564-.314a1.5 1.5 0 0 1-1.177-1.176l-.312-1.564a1.5 1.5 0 0 0-1.471-1.206h-1.77m7.5 7.5L19.5 12m-8.577 8.577-3.75.625m-3.75-8.125L12 4.5m-8.577 8.577-.625 3.75M12 4.5l1.814-1.815a1.5 1.5 0 0 1 2.121 0l5.38 5.38a1.5 1.5 0 0 1 0 2.12L19.5 12M12 4.5l7.5 7.5M7.173 21.202l-4.375-4.375m4.375 4.375-3.179.53a1.5 1.5 0 0 1-1.726-1.726l.53-3.179"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Pentagon.ts
+// src/icons/PencilCursor.ts
 import { defineComponent as defineComponent672, h as h672 } from "vue";
-var Pentagon = defineComponent672({
-  name: "Pentagon",
+var PencilCursor = defineComponent672({
+  name: "PencilCursor",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23512,16 +23512,16 @@ var Pentagon = defineComponent672({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m3.096 9.1 7.99-6.146a1.5 1.5 0 0 1 1.829 0l7.989 6.145a1.5 1.5 0 0 1 .509 1.663l-3.071 9.212A1.5 1.5 0 0 1 16.919 21H7.08a1.5 1.5 0 0 1-1.423-1.026l-3.07-9.211a1.5 1.5 0 0 1 .508-1.664"/>`
+        innerHTML: `<path d="M10.923 3.423v1.77a1.5 1.5 0 0 1-1.206 1.47l-1.564.313a1.5 1.5 0 0 0-1.177 1.177l-.312 1.564a1.5 1.5 0 0 1-1.471 1.206h-1.77m7.5-7.5L19.5 12m-8.577-8.577-3.75-.625m-3.75 8.125L12 19.5m-8.577-8.577-.625-3.75M12 19.5l1.814 1.814a1.5 1.5 0 0 0 2.121 0l5.38-5.378a1.5 1.5 0 0 0 0-2.122L19.5 12M12 19.5l7.5-7.5M7.173 2.798 2.798 7.173m4.375-4.375-3.179-.53a1.5 1.5 0 0 0-1.726 1.726l.53 3.179"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Pepper.ts
+// src/icons/Pentagon.ts
 import { defineComponent as defineComponent673, h as h673 } from "vue";
-var Pepper = defineComponent673({
-  name: "Pepper",
+var Pentagon = defineComponent673({
+  name: "Pentagon",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23547,16 +23547,16 @@ var Pepper = defineComponent673({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 3.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5m0 0a3.75 3.75 0 0 1 3.7 3.131c.064.393-.108.777-.39 1.058L15 8.25m-3-4.5a3.75 3.75 0 0 0-3.7 3.131c-.064.393.108.777.39 1.058L9 8.25m6 0H9m6 0a14.23 14.23 0 0 1 0 9m-6-9a14.23 14.23 0 0 0 0 9m0 0h6m-6 0a3.18 3.18 0 0 0 0 4.5h6a3.18 3.18 0 0 0 0-4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m3.096 9.1 7.99-6.146a1.5 1.5 0 0 1 1.829 0l7.989 6.145a1.5 1.5 0 0 1 .509 1.663l-3.071 9.212A1.5 1.5 0 0 1 16.919 21H7.08a1.5 1.5 0 0 1-1.423-1.026l-3.07-9.211a1.5 1.5 0 0 1 .508-1.664"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Perfusion.ts
+// src/icons/Pepper.ts
 import { defineComponent as defineComponent674, h as h674 } from "vue";
-var Perfusion = defineComponent674({
-  name: "Perfusion",
+var Pepper = defineComponent674({
+  name: "Pepper",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23582,16 +23582,16 @@ var Perfusion = defineComponent674({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M20.25 21.75h-4.5m0 0h-4.5m4.5 0V6c0-2.071-1.7-3.75-3.771-3.75-2.048 0-3.729 1.66-3.729 3.708m0 0c.63 0 1.26-.089 1.871-.266.536-.156 1.129.214 1.129.772v3.859c0 .568-.317 1.101-.855 1.283a6.7 6.7 0 0 1-2.145.352m0-6c-.63 0-1.26-.089-1.872-.266-.535-.156-1.128.214-1.128.772v3.859c0 .568.317 1.101.855 1.283.696.235 1.42.352 2.145.352m0 0c0 2.292.75 3.792-1.5 5.292"/>`
+        innerHTML: `<path d="M12 3.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5m0 0a3.75 3.75 0 0 1 3.7 3.131c.064.393-.108.777-.39 1.058L15 8.25m-3-4.5a3.75 3.75 0 0 0-3.7 3.131c-.064.393.108.777.39 1.058L9 8.25m6 0H9m6 0a14.23 14.23 0 0 1 0 9m-6-9a14.23 14.23 0 0 0 0 9m0 0h6m-6 0a3.18 3.18 0 0 0 0 4.5h6a3.18 3.18 0 0 0 0-4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PersonInfo.ts
+// src/icons/Perfusion.ts
 import { defineComponent as defineComponent675, h as h675 } from "vue";
-var PersonInfo = defineComponent675({
-  name: "PersonInfo",
+var Perfusion = defineComponent675({
+  name: "Perfusion",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23617,16 +23617,16 @@ var PersonInfo = defineComponent675({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9 12.75a3 3 0 1 0 0-6 3 3 0 0 0 0 6m0 0h.75a3 3 0 0 1 3 3v1.5h-7.5v-1.5a3 3 0 0 1 3-3zM18.75 9h-3M18 12h-2.25m1.5 3h-1.5m6-8.25v10.5a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V6.75a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3"/>`
+        innerHTML: `<path d="M20.25 21.75h-4.5m0 0h-4.5m4.5 0V6c0-2.071-1.7-3.75-3.771-3.75-2.048 0-3.729 1.66-3.729 3.708m0 0c.63 0 1.26-.089 1.871-.266.536-.156 1.129.214 1.129.772v3.859c0 .568-.317 1.101-.855 1.283a6.7 6.7 0 0 1-2.145.352m0-6c-.63 0-1.26-.089-1.872-.266-.535-.156-1.128.214-1.128.772v3.859c0 .568.317 1.101.855 1.283.696.235 1.42.352 2.145.352m0 0c0 2.292.75 3.792-1.5 5.292"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PerspectiveView.ts
+// src/icons/PersonInfo.ts
 import { defineComponent as defineComponent676, h as h676 } from "vue";
-var PerspectiveView = defineComponent676({
-  name: "PerspectiveView",
+var PersonInfo = defineComponent676({
+  name: "PersonInfo",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23652,16 +23652,16 @@ var PerspectiveView = defineComponent676({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9 19.5H3.992a1.5 1.5 0 0 1-1.484-1.723l.53-3.527M9 19.5l.262-5.25M9 19.5h6m-5.25-15H5.792a1.5 1.5 0 0 0-1.484 1.277L3.825 9M9.75 4.5 9.525 9m.225-4.5h4.5m-4.988 9.75L9.525 9m-.263 5.25H3.037m6.225 0h5.476M9.525 9h-5.7m5.7 0h4.95m-.225-4.5h3.958a1.5 1.5 0 0 1 1.484 1.277L20.175 9M14.25 4.5l.225 4.5M15 19.5h5.008a1.5 1.5 0 0 0 1.484-1.723l-.53-3.527M15 19.5l-.262-5.25M14.475 9l.263 5.25M14.475 9h5.7m-5.437 5.25h6.224m-17.925 0L3.825 9m17.138 5.25L20.175 9"/>`
+        innerHTML: `<path d="M9 12.75a3 3 0 1 0 0-6 3 3 0 0 0 0 6m0 0h.75a3 3 0 0 1 3 3v1.5h-7.5v-1.5a3 3 0 0 1 3-3zM18.75 9h-3M18 12h-2.25m1.5 3h-1.5m6-8.25v10.5a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V6.75a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Phone.ts
+// src/icons/PerspectiveView.ts
 import { defineComponent as defineComponent677, h as h677 } from "vue";
-var Phone = defineComponent677({
-  name: "Phone",
+var PerspectiveView = defineComponent677({
+  name: "PerspectiveView",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23687,16 +23687,16 @@ var Phone = defineComponent677({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9 18.75h6M6 5.25v13.5a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3V5.25a3 3 0 0 0-3-3H9a3 3 0 0 0-3 3"/>`
+        innerHTML: `<path d="M9 19.5H3.992a1.5 1.5 0 0 1-1.484-1.723l.53-3.527M9 19.5l.262-5.25M9 19.5h6m-5.25-15H5.792a1.5 1.5 0 0 0-1.484 1.277L3.825 9M9.75 4.5 9.525 9m.225-4.5h4.5m-4.988 9.75L9.525 9m-.263 5.25H3.037m6.225 0h5.476M9.525 9h-5.7m5.7 0h4.95m-.225-4.5h3.958a1.5 1.5 0 0 1 1.484 1.277L20.175 9M14.25 4.5l.225 4.5M15 19.5h5.008a1.5 1.5 0 0 0 1.484-1.723l-.53-3.527M15 19.5l-.262-5.25M14.475 9l.263 5.25M14.475 9h5.7m-5.437 5.25h6.224m-17.925 0L3.825 9m17.138 5.25L20.175 9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Phone1.ts
+// src/icons/Phone.ts
 import { defineComponent as defineComponent678, h as h678 } from "vue";
-var Phone1 = defineComponent678({
-  name: "Phone1",
+var Phone = defineComponent678({
+  name: "Phone",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23722,16 +23722,16 @@ var Phone1 = defineComponent678({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9.104 5.56a1.215 1.215 0 0 1-.13 1.58l-.861.853a.25.25 0 0 0-.035.314 24.6 24.6 0 0 0 7.584 7.51c.1.064.232.05.317-.034l.858-.85a1.245 1.245 0 0 1 1.599-.126l2.825 2.024c.451.323.627.906.37 1.395-.32.609-.834 1.441-1.537 2.137-1.279 1.268-3.174 1.781-4.828 1.054-5.305-2.335-9.7-6.714-12.587-12.545-.856-1.727-.383-3.774.99-5.134a6.6 6.6 0 0 1 2.152-1.419c.448-.181.936.008 1.219.397z"/>`
+        innerHTML: `<path d="M9 18.75h6M6 5.25v13.5a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3V5.25a3 3 0 0 0-3-3H9a3 3 0 0 0-3 3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PhoneDown.ts
+// src/icons/Phone1.ts
 import { defineComponent as defineComponent679, h as h679 } from "vue";
-var PhoneDown = defineComponent679({
-  name: "PhoneDown",
+var Phone1 = defineComponent679({
+  name: "Phone1",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23757,16 +23757,16 @@ var PhoneDown = defineComponent679({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m14.25 9.75 6-6m-6 6h5.25m-5.25 0V4.5M2.679 8.872c2.887 5.831 7.282 10.21 12.587 12.545 1.654.727 3.55.213 4.829-1.054.702-.696 1.216-1.528 1.536-2.137.257-.49.081-1.072-.37-1.395l-2.825-2.024a1.245 1.245 0 0 0-1.599.126l-.858.85a.26.26 0 0 1-.317.035 24.6 24.6 0 0 1-7.584-7.511.25.25 0 0 1 .035-.314l.86-.853a1.215 1.215 0 0 0 .13-1.58L7.04 2.716c-.283-.39-.77-.578-1.219-.397A6.6 6.6 0 0 0 3.67 3.738c-1.374 1.36-1.847 3.407-.991 5.134"/>`
+        innerHTML: `<path d="M9.104 5.56a1.215 1.215 0 0 1-.13 1.58l-.861.853a.25.25 0 0 0-.035.314 24.6 24.6 0 0 0 7.584 7.51c.1.064.232.05.317-.034l.858-.85a1.245 1.245 0 0 1 1.599-.126l2.825 2.024c.451.323.627.906.37 1.395-.32.609-.834 1.441-1.537 2.137-1.279 1.268-3.174 1.781-4.828 1.054-5.305-2.335-9.7-6.714-12.587-12.545-.856-1.727-.383-3.774.99-5.134a6.6 6.6 0 0 1 2.152-1.419c.448-.181.936.008 1.219.397z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PhoneOff.ts
+// src/icons/PhoneDown.ts
 import { defineComponent as defineComponent680, h as h680 } from "vue";
-var PhoneOff = defineComponent680({
-  name: "PhoneOff",
+var PhoneDown = defineComponent680({
+  name: "PhoneDown",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23792,16 +23792,16 @@ var PhoneOff = defineComponent680({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9.37 10.13a25 25 0 0 1-1.292-1.823.25.25 0 0 1 .035-.314l.86-.853a1.215 1.215 0 0 0 .13-1.58L7.04 2.716c-.283-.39-.77-.578-1.219-.397A6.6 6.6 0 0 0 3.67 3.738c-1.374 1.36-1.847 3.407-.991 5.134A29.8 29.8 0 0 0 5.72 13.78m5.77-1.27a24.7 24.7 0 0 0 4.172 3.308c.1.063.232.049.317-.035l.858-.85a1.245 1.245 0 0 1 1.599-.126l2.825 2.024c.451.323.627.906.37 1.395-.32.609-.834 1.441-1.537 2.137-1.279 1.268-3.174 1.781-4.828 1.054-2.761-1.216-5.276-2.984-7.46-5.224m3.684-3.683L21.75 2.25M11.49 12.51l-3.683 3.683m0 0L2.25 21.75"/>`
+        innerHTML: `<path d="m14.25 9.75 6-6m-6 6h5.25m-5.25 0V4.5M2.679 8.872c2.887 5.831 7.282 10.21 12.587 12.545 1.654.727 3.55.213 4.829-1.054.702-.696 1.216-1.528 1.536-2.137.257-.49.081-1.072-.37-1.395l-2.825-2.024a1.245 1.245 0 0 0-1.599.126l-.858.85a.26.26 0 0 1-.317.035 24.6 24.6 0 0 1-7.584-7.511.25.25 0 0 1 .035-.314l.86-.853a1.215 1.215 0 0 0 .13-1.58L7.04 2.716c-.283-.39-.77-.578-1.219-.397A6.6 6.6 0 0 0 3.67 3.738c-1.374 1.36-1.847 3.407-.991 5.134"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PhoneRotate.ts
+// src/icons/PhoneOff.ts
 import { defineComponent as defineComponent681, h as h681 } from "vue";
-var PhoneRotate = defineComponent681({
-  name: "PhoneRotate",
+var PhoneOff = defineComponent681({
+  name: "PhoneOff",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23827,16 +23827,16 @@ var PhoneRotate = defineComponent681({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M5.25 12.75v4.5m12-10.5h-3m3 0v-3m0 3-1.239-1.239c-2.78-2.78-7.442-2.167-9.408 1.239m12.147 3H5.25a3 3 0 0 0-3 3v4.5a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3v-4.5a3 3 0 0 0-3-3"/>`
+        innerHTML: `<path d="M9.37 10.13a25 25 0 0 1-1.292-1.823.25.25 0 0 1 .035-.314l.86-.853a1.215 1.215 0 0 0 .13-1.58L7.04 2.716c-.283-.39-.77-.578-1.219-.397A6.6 6.6 0 0 0 3.67 3.738c-1.374 1.36-1.847 3.407-.991 5.134A29.8 29.8 0 0 0 5.72 13.78m5.77-1.27a24.7 24.7 0 0 0 4.172 3.308c.1.063.232.049.317-.035l.858-.85a1.245 1.245 0 0 1 1.599-.126l2.825 2.024c.451.323.627.906.37 1.395-.32.609-.834 1.441-1.537 2.137-1.279 1.268-3.174 1.781-4.828 1.054-2.761-1.216-5.276-2.984-7.46-5.224m3.684-3.683L21.75 2.25M11.49 12.51l-3.683 3.683m0 0L2.25 21.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PhoneSound.ts
+// src/icons/PhoneRotate.ts
 import { defineComponent as defineComponent682, h as h682 } from "vue";
-var PhoneSound = defineComponent682({
-  name: "PhoneSound",
+var PhoneRotate = defineComponent682({
+  name: "PhoneRotate",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23862,16 +23862,16 @@ var PhoneSound = defineComponent682({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M15.75 12A3.75 3.75 0 0 0 12 8.25M18.75 12A6.75 6.75 0 0 0 12 5.25m0-3c5.385 0 9.75 4.365 9.75 9.75M2.679 8.872c2.887 5.831 7.282 10.21 12.587 12.545 1.654.727 3.55.213 4.829-1.054.702-.696 1.216-1.528 1.536-2.137.257-.49.081-1.072-.37-1.395l-2.825-2.024a1.245 1.245 0 0 0-1.599.126l-.858.85a.26.26 0 0 1-.317.035 24.6 24.6 0 0 1-7.584-7.511.25.25 0 0 1 .035-.314l.86-.853a1.215 1.215 0 0 0 .13-1.58L7.04 2.716c-.283-.39-.77-.578-1.219-.397A6.6 6.6 0 0 0 3.67 3.738c-1.374 1.36-1.847 3.407-.991 5.134"/>`
+        innerHTML: `<path d="M5.25 12.75v4.5m12-10.5h-3m3 0v-3m0 3-1.239-1.239c-2.78-2.78-7.442-2.167-9.408 1.239m12.147 3H5.25a3 3 0 0 0-3 3v4.5a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3v-4.5a3 3 0 0 0-3-3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PhoneUp.ts
+// src/icons/PhoneSound.ts
 import { defineComponent as defineComponent683, h as h683 } from "vue";
-var PhoneUp = defineComponent683({
-  name: "PhoneUp",
+var PhoneSound = defineComponent683({
+  name: "PhoneSound",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23897,16 +23897,16 @@ var PhoneUp = defineComponent683({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m14.25 9.75 6-6m0 0V9m0-5.25H15M2.679 8.872c2.887 5.831 7.282 10.21 12.587 12.545 1.654.727 3.55.213 4.829-1.054.702-.696 1.216-1.528 1.536-2.137.257-.49.081-1.072-.37-1.395l-2.825-2.024a1.245 1.245 0 0 0-1.599.126l-.858.85a.26.26 0 0 1-.317.035 24.6 24.6 0 0 1-7.584-7.511.25.25 0 0 1 .035-.314l.86-.853a1.215 1.215 0 0 0 .13-1.58L7.04 2.716c-.283-.39-.77-.578-1.219-.397A6.6 6.6 0 0 0 3.67 3.738c-1.374 1.36-1.847 3.407-.991 5.134"/>`
+        innerHTML: `<path d="M15.75 12A3.75 3.75 0 0 0 12 8.25M18.75 12A6.75 6.75 0 0 0 12 5.25m0-3c5.385 0 9.75 4.365 9.75 9.75M2.679 8.872c2.887 5.831 7.282 10.21 12.587 12.545 1.654.727 3.55.213 4.829-1.054.702-.696 1.216-1.528 1.536-2.137.257-.49.081-1.072-.37-1.395l-2.825-2.024a1.245 1.245 0 0 0-1.599.126l-.858.85a.26.26 0 0 1-.317.035 24.6 24.6 0 0 1-7.584-7.511.25.25 0 0 1 .035-.314l.86-.853a1.215 1.215 0 0 0 .13-1.58L7.04 2.716c-.283-.39-.77-.578-1.219-.397A6.6 6.6 0 0 0 3.67 3.738c-1.374 1.36-1.847 3.407-.991 5.134"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PhoneVibrate.ts
+// src/icons/PhoneUp.ts
 import { defineComponent as defineComponent684, h as h684 } from "vue";
-var PhoneVibrate = defineComponent684({
-  name: "PhoneVibrate",
+var PhoneUp = defineComponent684({
+  name: "PhoneUp",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23932,16 +23932,16 @@ var PhoneVibrate = defineComponent684({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9.75 18.75h4.5m6-1.5v-.22c0-.34.135-.665.375-.905l.11-.11a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28l.22-.22a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28l.22-.22a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28L21 6.75M3 17.25v-.22c0-.34.135-.665.375-.905l.11-.11a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28l.22-.22a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28l.22-.22a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28l.485-.485m3-1.5v13.5a3 3 0 0 0 3 3h4.5a3 3 0 0 0 3-3V5.25a3 3 0 0 0-3-3h-4.5a3 3 0 0 0-3 3"/>`
+        innerHTML: `<path d="m14.25 9.75 6-6m0 0V9m0-5.25H15M2.679 8.872c2.887 5.831 7.282 10.21 12.587 12.545 1.654.727 3.55.213 4.829-1.054.702-.696 1.216-1.528 1.536-2.137.257-.49.081-1.072-.37-1.395l-2.825-2.024a1.245 1.245 0 0 0-1.599.126l-.858.85a.26.26 0 0 1-.317.035 24.6 24.6 0 0 1-7.584-7.511.25.25 0 0 1 .035-.314l.86-.853a1.215 1.215 0 0 0 .13-1.58L7.04 2.716c-.283-.39-.77-.578-1.219-.397A6.6 6.6 0 0 0 3.67 3.738c-1.374 1.36-1.847 3.407-.991 5.134"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PhoneVibrateDisabled.ts
+// src/icons/PhoneVibrate.ts
 import { defineComponent as defineComponent685, h as h685 } from "vue";
-var PhoneVibrateDisabled = defineComponent685({
-  name: "PhoneVibrateDisabled",
+var PhoneVibrate = defineComponent685({
+  name: "PhoneVibrate",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -23967,16 +23967,16 @@ var PhoneVibrateDisabled = defineComponent685({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<g clip-path="url(#a)"><path d="M6.75 6.75v12a3 3 0 0 0 3 3h4.5a3 3 0 0 0 3-3v-1.5M6.75 6.75l-6-6m6 6 10.5 10.5m0 0 6 6m-6-10.5v-7.5a3 3 0 0 0-3-3h-4.5a3 3 0 0 0-2.121.879M9.75 18.75h4.5m6.375-2.625.11-.11a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28l.22-.22a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28l.22-.22a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28L21 6.75M3 17.25v-.22c0-.34.135-.665.375-.905l.11-.11a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28l.22-.22a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28l.22-.22a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28l.485-.485"/></g><defs><clipPath id="a"><path d="M0 0h24v24H0z"/></clipPath></defs>`
+        innerHTML: `<path d="M9.75 18.75h4.5m6-1.5v-.22c0-.34.135-.665.375-.905l.11-.11a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28l.22-.22a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28l.22-.22a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28L21 6.75M3 17.25v-.22c0-.34.135-.665.375-.905l.11-.11a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28l.22-.22a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28l.22-.22a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28l.485-.485m3-1.5v13.5a3 3 0 0 0 3 3h4.5a3 3 0 0 0 3-3V5.25a3 3 0 0 0-3-3h-4.5a3 3 0 0 0-3 3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Physics.ts
+// src/icons/PhoneVibrateDisabled.ts
 import { defineComponent as defineComponent686, h as h686 } from "vue";
-var Physics = defineComponent686({
-  name: "Physics",
+var PhoneVibrateDisabled = defineComponent686({
+  name: "PhoneVibrateDisabled",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24002,16 +24002,16 @@ var Physics = defineComponent686({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.75 12c0 5.385-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12 6.615 2.25 12 2.25c1.877 0 3.631.53 5.119 1.45m0 0a2.25 2.25 0 1 0 3.262 3.1 2.25 2.25 0 0 0-3.262-3.1M12 15.75a3.75 3.75 0 1 1 0-7.5 3.75 3.75 0 0 1 0 7.5"/>`
+        innerHTML: `<g clip-path="url(#a)"><path d="M6.75 6.75v12a3 3 0 0 0 3 3h4.5a3 3 0 0 0 3-3v-1.5M6.75 6.75l-6-6m6 6 10.5 10.5m0 0 6 6m-6-10.5v-7.5a3 3 0 0 0-3-3h-4.5a3 3 0 0 0-2.121.879M9.75 18.75h4.5m6.375-2.625.11-.11a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28l.22-.22a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28l.22-.22a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28L21 6.75M3 17.25v-.22c0-.34.135-.665.375-.905l.11-.11a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28l.22-.22a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28l.22-.22a.905.905 0 0 0 0-1.28l-.22-.22a.905.905 0 0 1 0-1.28l.485-.485"/></g><defs><clipPath id="a"><path d="M0 0h24v24H0z"/></clipPath></defs>`
       }, children);
     };
   }
 });
 
-// src/icons/PiggyBank.ts
+// src/icons/Physics.ts
 import { defineComponent as defineComponent687, h as h687 } from "vue";
-var PiggyBank = defineComponent687({
-  name: "PiggyBank",
+var Physics = defineComponent687({
+  name: "Physics",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24037,16 +24037,16 @@ var PiggyBank = defineComponent687({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M5.25 12.375C5.25 17.25 7.5 18 7.5 18v.75a1.5 1.5 0 0 0 1.5 1.5h.75a1.5 1.5 0 0 0 1.5-1.5h3a1.5 1.5 0 0 0 1.5 1.5h.75a1.5 1.5 0 0 0 1.5-1.5V18s2.25 0 2.25-2.25a1.5 1.5 0 0 0 1.5-1.5V12a1.5 1.5 0 0 0-1.5-1.5c0-2.992-2.25-3.843-2.25-3.843V3.75l-.377.094a7 7 0 0 0-2.982 1.586c-.504-.115-1.4-.19-1.891-.19-.982 0-1.27.012-2.25.19q-.371.067-.75.195c-2.223.748-4.5 3.045-4.5 6.75m0 0c-1.683.51-3.301-.96-2.957-2.684L2.432 9m8.068-.423c1.462-.704 3.75-.214 3.75-.214"/>`
+        innerHTML: `<path d="M21.75 12c0 5.385-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12 6.615 2.25 12 2.25c1.877 0 3.631.53 5.119 1.45m0 0a2.25 2.25 0 1 0 3.262 3.1 2.25 2.25 0 0 0-3.262-3.1M12 15.75a3.75 3.75 0 1 1 0-7.5 3.75 3.75 0 0 1 0 7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Pill.ts
+// src/icons/PiggyBank.ts
 import { defineComponent as defineComponent688, h as h688 } from "vue";
-var Pill = defineComponent688({
-  name: "Pill",
+var PiggyBank = defineComponent688({
+  name: "PiggyBank",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24072,16 +24072,16 @@ var Pill = defineComponent688({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m15.75 8.25-7.5 7.5m3.75 6c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75"/>`
+        innerHTML: `<path d="M5.25 12.375C5.25 17.25 7.5 18 7.5 18v.75a1.5 1.5 0 0 0 1.5 1.5h.75a1.5 1.5 0 0 0 1.5-1.5h3a1.5 1.5 0 0 0 1.5 1.5h.75a1.5 1.5 0 0 0 1.5-1.5V18s2.25 0 2.25-2.25a1.5 1.5 0 0 0 1.5-1.5V12a1.5 1.5 0 0 0-1.5-1.5c0-2.992-2.25-3.843-2.25-3.843V3.75l-.377.094a7 7 0 0 0-2.982 1.586c-.504-.115-1.4-.19-1.891-.19-.982 0-1.27.012-2.25.19q-.371.067-.75.195c-2.223.748-4.5 3.045-4.5 6.75m0 0c-1.683.51-3.301-.96-2.957-2.684L2.432 9m8.068-.423c1.462-.704 3.75-.214 3.75-.214"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Pills.ts
+// src/icons/Pill.ts
 import { defineComponent as defineComponent689, h as h689 } from "vue";
-var Pills = defineComponent689({
-  name: "Pills",
+var Pill = defineComponent689({
+  name: "Pill",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24107,16 +24107,16 @@ var Pills = defineComponent689({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M4.5 3.75v16.5a1.5 1.5 0 0 0 1.5 1.5h12a1.5 1.5 0 0 0 1.5-1.5V3.75a1.5 1.5 0 0 0-1.5-1.5H6a1.5 1.5 0 0 0-1.5 1.5m9 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0m1.5 6a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m-6-3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3m0-7.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3" clip-rule="evenodd"/>`
+        innerHTML: `<path d="m15.75 8.25-7.5 7.5m3.75 6c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Pin.ts
+// src/icons/Pills.ts
 import { defineComponent as defineComponent690, h as h690 } from "vue";
-var Pin = defineComponent690({
-  name: "Pin",
+var Pills = defineComponent690({
+  name: "Pills",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24142,16 +24142,16 @@ var Pin = defineComponent690({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m8.25 15.75 4.5 4.5 1.5-1.5a3.18 3.18 0 0 0 .777-3.233c-.255-.788-.302-1.742.284-2.328l3-3a1.5 1.5 0 0 1 1.06-.439h.258a1.5 1.5 0 0 0 1.06-2.56l-3.878-3.88a1.5 1.5 0 0 0-2.561 1.061v.258a1.5 1.5 0 0 1-.44 1.06l-3 3c-.585.586-1.539.54-2.327.284a3.18 3.18 0 0 0-3.233.777l-1.5 1.5zm0 0L3 21"/>`
+        innerHTML: `<path d="M4.5 3.75v16.5a1.5 1.5 0 0 0 1.5 1.5h12a1.5 1.5 0 0 0 1.5-1.5V3.75a1.5 1.5 0 0 0-1.5-1.5H6a1.5 1.5 0 0 0-1.5 1.5m9 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0m1.5 6a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m-6-3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3m0-7.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3" clip-rule="evenodd"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PinCheck.ts
+// src/icons/Pin.ts
 import { defineComponent as defineComponent691, h as h691 } from "vue";
-var PinCheck = defineComponent691({
-  name: "PinCheck",
+var Pin = defineComponent691({
+  name: "Pin",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24177,16 +24177,16 @@ var PinCheck = defineComponent691({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m17.204 11.297 1.107-1.107a1.5 1.5 0 0 1 1.06-.44h.258a1.5 1.5 0 0 0 1.06-2.56l-3.878-3.88a1.5 1.5 0 0 0-2.561 1.062v.257a1.5 1.5 0 0 1-.44 1.06l-3 3c-.585.586-1.539.54-2.327.284a3.18 3.18 0 0 0-3.233.777l-1.5 1.5 4.5 4.5m3.047 3.047L8.25 15.75m0 0L3 21m11.25-2.25 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
+        innerHTML: `<path d="m8.25 15.75 4.5 4.5 1.5-1.5a3.18 3.18 0 0 0 .777-3.233c-.255-.788-.302-1.742.284-2.328l3-3a1.5 1.5 0 0 1 1.06-.439h.258a1.5 1.5 0 0 0 1.06-2.56l-3.878-3.88a1.5 1.5 0 0 0-2.561 1.061v.258a1.5 1.5 0 0 1-.44 1.06l-3 3c-.585.586-1.539.54-2.327.284a3.18 3.18 0 0 0-3.233.777l-1.5 1.5zm0 0L3 21"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PinCross.ts
+// src/icons/PinCheck.ts
 import { defineComponent as defineComponent692, h as h692 } from "vue";
-var PinCross = defineComponent692({
-  name: "PinCross",
+var PinCheck = defineComponent692({
+  name: "PinCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24212,16 +24212,16 @@ var PinCross = defineComponent692({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m17.204 11.297 1.107-1.107a1.5 1.5 0 0 1 1.06-.44h.258a1.5 1.5 0 0 0 1.06-2.56l-3.878-3.88a1.5 1.5 0 0 0-2.561 1.062v.257a1.5 1.5 0 0 1-.44 1.06l-3 3c-.585.586-1.539.54-2.327.284a3.18 3.18 0 0 0-3.233.777l-1.5 1.5 4.5 4.5m3.047 3.047L8.25 15.75m0 0L3 21m12.75 1.5 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m17.204 11.297 1.107-1.107a1.5 1.5 0 0 1 1.06-.44h.258a1.5 1.5 0 0 0 1.06-2.56l-3.878-3.88a1.5 1.5 0 0 0-2.561 1.062v.257a1.5 1.5 0 0 1-.44 1.06l-3 3c-.585.586-1.539.54-2.327.284a3.18 3.18 0 0 0-3.233.777l-1.5 1.5 4.5 4.5m3.047 3.047L8.25 15.75m0 0L3 21m11.25-2.25 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PinMinus.ts
+// src/icons/PinCross.ts
 import { defineComponent as defineComponent693, h as h693 } from "vue";
-var PinMinus = defineComponent693({
-  name: "PinMinus",
+var PinCross = defineComponent693({
+  name: "PinCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24247,16 +24247,16 @@ var PinMinus = defineComponent693({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m17.204 11.297 1.107-1.107a1.5 1.5 0 0 1 1.06-.44h.258a1.5 1.5 0 0 0 1.06-2.56l-3.878-3.88a1.5 1.5 0 0 0-2.561 1.062v.257a1.5 1.5 0 0 1-.44 1.06l-3 3c-.585.586-1.539.54-2.327.284a3.18 3.18 0 0 0-3.233.777l-1.5 1.5 4.5 4.5m3.047 3.047L8.25 15.75m0 0L3 21m19.5-2.625h-6.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m17.204 11.297 1.107-1.107a1.5 1.5 0 0 1 1.06-.44h.258a1.5 1.5 0 0 0 1.06-2.56l-3.878-3.88a1.5 1.5 0 0 0-2.561 1.062v.257a1.5 1.5 0 0 1-.44 1.06l-3 3c-.585.586-1.539.54-2.327.284a3.18 3.18 0 0 0-3.233.777l-1.5 1.5 4.5 4.5m3.047 3.047L8.25 15.75m0 0L3 21m12.75 1.5 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PinOff.ts
+// src/icons/PinMinus.ts
 import { defineComponent as defineComponent694, h as h694 } from "vue";
-var PinOff = defineComponent694({
-  name: "PinOff",
+var PinMinus = defineComponent694({
+  name: "PinMinus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24282,16 +24282,16 @@ var PinOff = defineComponent694({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m16.5 12 1.81-1.81a1.5 1.5 0 0 1 1.061-.44h.258a1.5 1.5 0 0 0 1.06-2.56l-3.878-3.88a1.5 1.5 0 0 0-2.561 1.061v.258a1.5 1.5 0 0 1-.44 1.06L12 7.5m-3.75 8.25 4.5 4.5 1.5-1.5a3.18 3.18 0 0 0 .777-3.233 4 4 0 0 1-.15-.64m-6.627.873-4.5-4.5 1.5-1.5a3.18 3.18 0 0 1 3.233-.777q.31.102.64.15M8.25 15.75 3 21M9.123 9.123 2.25 2.25m6.873 6.873 5.755 5.755m0 0 6.872 6.872"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m17.204 11.297 1.107-1.107a1.5 1.5 0 0 1 1.06-.44h.258a1.5 1.5 0 0 0 1.06-2.56l-3.878-3.88a1.5 1.5 0 0 0-2.561 1.062v.257a1.5 1.5 0 0 1-.44 1.06l-3 3c-.585.586-1.539.54-2.327.284a3.18 3.18 0 0 0-3.233.777l-1.5 1.5 4.5 4.5m3.047 3.047L8.25 15.75m0 0L3 21m19.5-2.625h-6.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PinPlus.ts
+// src/icons/PinOff.ts
 import { defineComponent as defineComponent695, h as h695 } from "vue";
-var PinPlus = defineComponent695({
-  name: "PinPlus",
+var PinOff = defineComponent695({
+  name: "PinOff",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24317,16 +24317,16 @@ var PinPlus = defineComponent695({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m17.204 11.297 1.107-1.107a1.5 1.5 0 0 1 1.06-.44h.258a1.5 1.5 0 0 0 1.06-2.56l-3.878-3.88a1.5 1.5 0 0 0-2.561 1.062v.257a1.5 1.5 0 0 1-.44 1.06l-3 3c-.585.586-1.539.54-2.327.284a3.18 3.18 0 0 0-3.233.777l-1.5 1.5 4.5 4.5m3.047 3.047L8.25 15.75m0 0L3 21m15.375 1.5v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
+        innerHTML: `<path d="m16.5 12 1.81-1.81a1.5 1.5 0 0 1 1.061-.44h.258a1.5 1.5 0 0 0 1.06-2.56l-3.878-3.88a1.5 1.5 0 0 0-2.561 1.061v.258a1.5 1.5 0 0 1-.44 1.06L12 7.5m-3.75 8.25 4.5 4.5 1.5-1.5a3.18 3.18 0 0 0 .777-3.233 4 4 0 0 1-.15-.64m-6.627.873-4.5-4.5 1.5-1.5a3.18 3.18 0 0 1 3.233-.777q.31.102.64.15M8.25 15.75 3 21M9.123 9.123 2.25 2.25m6.873 6.873 5.755 5.755m0 0 6.872 6.872"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Pint.ts
+// src/icons/PinPlus.ts
 import { defineComponent as defineComponent696, h as h696 } from "vue";
-var Pint = defineComponent696({
-  name: "Pint",
+var PinPlus = defineComponent696({
+  name: "PinPlus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24352,16 +24352,16 @@ var Pint = defineComponent696({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M15.75 5.25v-1.5a1.5 1.5 0 0 0-1.5-1.5h-9a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-4.5m0-10.5h1.5a3 3 0 0 1 3 3v4.5a3 3 0 0 1-3 3h-1.5m0-10.5v10.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m17.204 11.297 1.107-1.107a1.5 1.5 0 0 1 1.06-.44h.258a1.5 1.5 0 0 0 1.06-2.56l-3.878-3.88a1.5 1.5 0 0 0-2.561 1.062v.257a1.5 1.5 0 0 1-.44 1.06l-3 3c-.585.586-1.539.54-2.327.284a3.18 3.18 0 0 0-3.233.777l-1.5 1.5 4.5 4.5m3.047 3.047L8.25 15.75m0 0L3 21m15.375 1.5v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Pipeline.ts
+// src/icons/Pint.ts
 import { defineComponent as defineComponent697, h as h697 } from "vue";
-var Pipeline = defineComponent697({
-  name: "Pipeline",
+var Pint = defineComponent697({
+  name: "Pint",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24387,16 +24387,16 @@ var Pipeline = defineComponent697({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M17.25 6H15a3 3 0 0 0-3 3v6a3 3 0 0 1-3 3H6.75m10.5-12a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0M6.75 18a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0"/>`
+        innerHTML: `<path d="M15.75 5.25v-1.5a1.5 1.5 0 0 0-1.5-1.5h-9a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-4.5m0-10.5h1.5a3 3 0 0 1 3 3v4.5a3 3 0 0 1-3 3h-1.5m0-10.5v10.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Pivot.ts
+// src/icons/Pipeline.ts
 import { defineComponent as defineComponent698, h as h698 } from "vue";
-var Pivot = defineComponent698({
-  name: "Pivot",
+var Pipeline = defineComponent698({
+  name: "Pipeline",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24422,16 +24422,16 @@ var Pivot = defineComponent698({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6.914 6.914C4.116 7.962 2.248 9.848 2.248 12s1.868 4.038 4.666 5.086m0-10.172c1.481-.554 3.222-.873 5.086-.873s3.605.319 5.086.873m-10.172 0C6.36 8.395 6.041 10.136 6.041 12l2.209-1.5M6.914 6.914C7.962 4.116 9.848 2.248 12 2.248s4.038 1.868 5.086 4.666m0 0c2.798 1.048 4.666 2.934 4.666 5.086s-1.868 4.038-4.666 5.086m0-10.172c.554 1.481.873 3.222.873 5.086s-.32 3.605-.873 5.086m0 0c-1.048 2.798-2.934 4.666-5.086 4.666s-4.038-1.868-5.086-4.666m0 0c.89.332 1.872.58 2.919.726.697.096 1.422.188 2.167.188l-1.5-2.25M12.75 12a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
+        innerHTML: `<path d="M17.25 6H15a3 3 0 0 0-3 3v6a3 3 0 0 1-3 3H6.75m10.5-12a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0M6.75 18a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Plane.ts
+// src/icons/Pivot.ts
 import { defineComponent as defineComponent699, h as h699 } from "vue";
-var Plane = defineComponent699({
-  name: "Plane",
+var Pivot = defineComponent699({
+  name: "Pivot",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24457,16 +24457,16 @@ var Plane = defineComponent699({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 12 12 6.75 21.75 12 12 17.25z"/>`
+        innerHTML: `<path d="M6.914 6.914C4.116 7.962 2.248 9.848 2.248 12s1.868 4.038 4.666 5.086m0-10.172c1.481-.554 3.222-.873 5.086-.873s3.605.319 5.086.873m-10.172 0C6.36 8.395 6.041 10.136 6.041 12l2.209-1.5M6.914 6.914C7.962 4.116 9.848 2.248 12 2.248s4.038 1.868 5.086 4.666m0 0c2.798 1.048 4.666 2.934 4.666 5.086s-1.868 4.038-4.666 5.086m0-10.172c.554 1.481.873 3.222.873 5.086s-.32 3.605-.873 5.086m0 0c-1.048 2.798-2.934 4.666-5.086 4.666s-4.038-1.868-5.086-4.666m0 0c.89.332 1.872.58 2.919.726.697.096 1.422.188 2.167.188l-1.5-2.25M12.75 12a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PlantPot.ts
+// src/icons/Plane.ts
 import { defineComponent as defineComponent700, h as h700 } from "vue";
-var PlantPot = defineComponent700({
-  name: "PlantPot",
+var Plane = defineComponent700({
+  name: "Plane",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24492,16 +24492,16 @@ var PlantPot = defineComponent700({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 14.25H6.75l.75 1.5a5 5 0 0 0 0 6h9a5 5 0 0 0 0-6l.75-1.5zm0 0v-4.5m0 0c2.877 2.057 6.838-.23 6.495-3.75a4.05 4.05 0 0 0-4.1-.4M12 9.75C9.123 11.807 5.162 9.52 5.505 6a4.05 4.05 0 0 1 4.1-.4M12 9.75c-1.752-.796-2.55-2.514-2.396-4.15M12 9.75c-.186-1.916.902-3.466 2.396-4.15m-4.792 0A4.05 4.05 0 0 1 12 2.25a4.05 4.05 0 0 1 2.396 3.35"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 12 12 6.75 21.75 12 12 17.25z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Plate.ts
+// src/icons/PlantPot.ts
 import { defineComponent as defineComponent701, h as h701 } from "vue";
-var Plate = defineComponent701({
-  name: "Plate",
+var PlantPot = defineComponent701({
+  name: "PlantPot",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24527,16 +24527,16 @@ var Plate = defineComponent701({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75M6 12a6 6 0 1 0 12 0 6 6 0 0 0-12 0" clip-rule="evenodd"/>`
+        innerHTML: `<path d="M12 14.25H6.75l.75 1.5a5 5 0 0 0 0 6h9a5 5 0 0 0 0-6l.75-1.5zm0 0v-4.5m0 0c2.877 2.057 6.838-.23 6.495-3.75a4.05 4.05 0 0 0-4.1-.4M12 9.75C9.123 11.807 5.162 9.52 5.505 6a4.05 4.05 0 0 1 4.1-.4M12 9.75c-1.752-.796-2.55-2.514-2.396-4.15M12 9.75c-.186-1.916.902-3.466 2.396-4.15m-4.792 0A4.05 4.05 0 0 1 12 2.25a4.05 4.05 0 0 1 2.396 3.35"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Plateau.ts
+// src/icons/Plate.ts
 import { defineComponent as defineComponent702, h as h702 } from "vue";
-var Plateau = defineComponent702({
-  name: "Plateau",
+var Plate = defineComponent702({
+  name: "Plate",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24562,16 +24562,16 @@ var Plateau = defineComponent702({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 18H4.5m0 0v-3a7.5 7.5 0 0 1 15 0v3m-15 0h15m0 0h2.25M11.25 6a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0"/>`
+        innerHTML: `<path d="M21.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75M6 12a6 6 0 1 0 12 0 6 6 0 0 0-12 0" clip-rule="evenodd"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Play.ts
+// src/icons/Plateau.ts
 import { defineComponent as defineComponent703, h as h703 } from "vue";
-var Play = defineComponent703({
-  name: "Play",
+var Plateau = defineComponent703({
+  name: "Plateau",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24597,16 +24597,16 @@ var Play = defineComponent703({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m6.751 2.456 14.255 8.246a1.5 1.5 0 0 1 0 2.597l-14.255 8.25A1.5 1.5 0 0 1 4.5 20.25V3.754a1.5 1.5 0 0 1 2.251-1.298"/>`
+        innerHTML: `<path d="M2.25 18H4.5m0 0v-3a7.5 7.5 0 0 1 15 0v3m-15 0h15m0 0h2.25M11.25 6a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PlayPause.ts
+// src/icons/Play.ts
 import { defineComponent as defineComponent704, h as h704 } from "vue";
-var PlayPause = defineComponent704({
-  name: "PlayPause",
+var Play = defineComponent704({
+  name: "Play",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24632,16 +24632,16 @@ var PlayPause = defineComponent704({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M14.25 6v12.195M21.75 6v12m-9.744-7.298a1.5 1.5 0 0 1 0 2.597l-7.505 4.343a1.5 1.5 0 0 1-2.251-1.298V7.659a1.5 1.5 0 0 1 2.251-1.298z"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m6.751 2.456 14.255 8.246a1.5 1.5 0 0 1 0 2.597l-14.255 8.25A1.5 1.5 0 0 1 4.5 20.25V3.754a1.5 1.5 0 0 1 2.251-1.298"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Playlist.ts
+// src/icons/PlayPause.ts
 import { defineComponent as defineComponent705, h as h705 } from "vue";
-var Playlist = defineComponent705({
-  name: "Playlist",
+var PlayPause = defineComponent705({
+  name: "PlayPause",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24667,16 +24667,16 @@ var Playlist = defineComponent705({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 3.75h18M3 12h10.5M3 20.25h6m9-3.75h-2.25A2.25 2.25 0 1 0 18 18.75zm0 0V9.75l.659.22c1.019.34 2.13.26 3.091-.22"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M14.25 6v12.195M21.75 6v12m-9.744-7.298a1.5 1.5 0 0 1 0 2.597l-7.505 4.343a1.5 1.5 0 0 1-2.251-1.298V7.659a1.5 1.5 0 0 1 2.251-1.298z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Plug.ts
+// src/icons/Playlist.ts
 import { defineComponent as defineComponent706, h as h706 } from "vue";
-var Plug = defineComponent706({
-  name: "Plug",
+var Playlist = defineComponent706({
+  name: "Playlist",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24702,16 +24702,16 @@ var Plug = defineComponent706({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M14.25 21.75v-1.676c0-.756.572-1.377 1.29-1.613a6.85 6.85 0 0 0 4.71-6.508V8.36a.11.11 0 0 0-.11-.11h-2.89m-7.5 13.5v-1.676c0-.756-.572-1.377-1.29-1.613a6.85 6.85 0 0 1-4.71-6.508V8.36c0-.06.05-.11.11-.11h2.89m0 0v-4.5a1.5 1.5 0 1 1 3 0v4.5m-3 0h3m0 0h4.5m3 0v-4.5a1.5 1.5 0 0 0-3 0v4.5m3 0h-3"/>`
+        innerHTML: `<path d="M3 3.75h18M3 12h10.5M3 20.25h6m9-3.75h-2.25A2.25 2.25 0 1 0 18 18.75zm0 0V9.75l.659.22c1.019.34 2.13.26 3.091-.22"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Plugins.ts
+// src/icons/Plug.ts
 import { defineComponent as defineComponent707, h as h707 } from "vue";
-var Plugins = defineComponent707({
-  name: "Plugins",
+var Plug = defineComponent707({
+  name: "Plug",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24737,16 +24737,16 @@ var Plugins = defineComponent707({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M17.25 21v-3.75m0 0V13.5m0 3.75H21m-3.75 0H13.5m-5.69-7.06 2.38-2.38a1.5 1.5 0 0 0 0-2.12L7.81 3.31a1.5 1.5 0 0 0-2.12 0L3.31 5.69a1.5 1.5 0 0 0 0 2.12l2.38 2.38a1.5 1.5 0 0 0 2.12 0M10.5 15v4.5A1.5 1.5 0 0 1 9 21H4.5A1.5 1.5 0 0 1 3 19.5V15a1.5 1.5 0 0 1 1.5-1.5H9a1.5 1.5 0 0 1 1.5 1.5M21 6.75a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0"/>`
+        innerHTML: `<path d="M14.25 21.75v-1.676c0-.756.572-1.377 1.29-1.613a6.85 6.85 0 0 0 4.71-6.508V8.36a.11.11 0 0 0-.11-.11h-2.89m-7.5 13.5v-1.676c0-.756-.572-1.377-1.29-1.613a6.85 6.85 0 0 1-4.71-6.508V8.36c0-.06.05-.11.11-.11h2.89m0 0v-4.5a1.5 1.5 0 1 1 3 0v4.5m-3 0h3m0 0h4.5m3 0v-4.5a1.5 1.5 0 0 0-3 0v4.5m3 0h-3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Plus.ts
+// src/icons/Plugins.ts
 import { defineComponent as defineComponent708, h as h708 } from "vue";
-var Plus = defineComponent708({
-  name: "Plus",
+var Plugins = defineComponent708({
+  name: "Plugins",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24772,16 +24772,16 @@ var Plus = defineComponent708({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 3v9m0 0H3m9 0h9m-9 0v9"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M17.25 21v-3.75m0 0V13.5m0 3.75H21m-3.75 0H13.5m-5.69-7.06 2.38-2.38a1.5 1.5 0 0 0 0-2.12L7.81 3.31a1.5 1.5 0 0 0-2.12 0L3.31 5.69a1.5 1.5 0 0 0 0 2.12l2.38 2.38a1.5 1.5 0 0 0 2.12 0M10.5 15v4.5A1.5 1.5 0 0 1 9 21H4.5A1.5 1.5 0 0 1 3 19.5V15a1.5 1.5 0 0 1 1.5-1.5H9a1.5 1.5 0 0 1 1.5 1.5M21 6.75a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Pot.ts
+// src/icons/Plus.ts
 import { defineComponent as defineComponent709, h as h709 } from "vue";
-var Pot = defineComponent709({
-  name: "Pot",
+var Plus = defineComponent709({
+  name: "Plus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24807,16 +24807,16 @@ var Pot = defineComponent709({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M19.5 9h-15m15 0v3m0-3c-3.788-4.924-11.212-4.924-15 0m0 0v3m15 0v4.5a3 3 0 0 1-3 3h-9a3 3 0 0 1-3-3V12m15 0 2.25-1.5M4.5 12l-2.25-1.5m10.5-6a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 3v9m0 0H3m9 0h9m-9 0v9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Power.ts
+// src/icons/Pot.ts
 import { defineComponent as defineComponent710, h as h710 } from "vue";
-var Power = defineComponent710({
-  name: "Power",
+var Pot = defineComponent710({
+  name: "Pot",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24842,16 +24842,16 @@ var Power = defineComponent710({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 12V2.25m4.5 4.334a8.25 8.25 0 1 1-9 0"/>`
+        innerHTML: `<path d="M19.5 9h-15m15 0v3m0-3c-3.788-4.924-11.212-4.924-15 0m0 0v3m15 0v4.5a3 3 0 0 1-3 3h-9a3 3 0 0 1-3-3V12m15 0 2.25-1.5M4.5 12l-2.25-1.5m10.5-6a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Presentation.ts
+// src/icons/Power.ts
 import { defineComponent as defineComponent711, h as h711 } from "vue";
-var Presentation = defineComponent711({
-  name: "Presentation",
+var Power = defineComponent711({
+  name: "Power",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24877,16 +24877,16 @@ var Presentation = defineComponent711({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 18h1.5m0 0V7.5A1.5 1.5 0 0 1 5.25 6h4.846M3.75 18h2.654m13.846 0h1.5m-1.5 0V7.5a1.5 1.5 0 0 0-1.5-1.5h-4.846m6.346 12h-2.654m0 0 1.154 3.75M17.596 18H6.404m0 0L5.25 21.75M10.096 6l.933-3.033a1.016 1.016 0 0 1 1.942 0L13.904 6m-3.808 0h3.808"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 12V2.25m4.5 4.334a8.25 8.25 0 1 1-9 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Previous.ts
+// src/icons/Presentation.ts
 import { defineComponent as defineComponent712, h as h712 } from "vue";
-var Previous = defineComponent712({
-  name: "Previous",
+var Presentation = defineComponent712({
+  name: "Presentation",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24912,16 +24912,16 @@ var Previous = defineComponent712({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M3 3v18m4.426-10.25 11.242-7.496C19.665 2.59 21 3.304 21 4.502v15.039c0 1.2-1.34 1.914-2.336 1.245L7.423 13.244a1.5 1.5 0 0 1 .003-2.494"/>`
+        innerHTML: `<path d="M2.25 18h1.5m0 0V7.5A1.5 1.5 0 0 1 5.25 6h4.846M3.75 18h2.654m13.846 0h1.5m-1.5 0V7.5a1.5 1.5 0 0 0-1.5-1.5h-4.846m6.346 12h-2.654m0 0 1.154 3.75M17.596 18H6.404m0 0L5.25 21.75M10.096 6l.933-3.033a1.016 1.016 0 0 1 1.942 0L13.904 6m-3.808 0h3.808"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PriceTagMinus.ts
+// src/icons/Previous.ts
 import { defineComponent as defineComponent713, h as h713 } from "vue";
-var PriceTagMinus = defineComponent713({
-  name: "PriceTagMinus",
+var Previous = defineComponent713({
+  name: "Previous",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24947,16 +24947,16 @@ var PriceTagMinus = defineComponent713({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.85 11.88a1.5 1.5 0 0 0-.16-.19l-8.25-8.25A1.5 1.5 0 0 0 11.378 3H6a3 3 0 0 0-3 3v5.379c0 .398.158.779.44 1.06l8.25 8.25q.09.09.19.162m10.62-2.476h-6.75M9 11.25a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M3 3v18m4.426-10.25 11.242-7.496C19.665 2.59 21 3.304 21 4.502v15.039c0 1.2-1.34 1.914-2.336 1.245L7.423 13.244a1.5 1.5 0 0 1 .003-2.494"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Print3d.ts
+// src/icons/PriceTagMinus.ts
 import { defineComponent as defineComponent714, h as h714 } from "vue";
-var Print3d = defineComponent714({
-  name: "Print3d",
+var PriceTagMinus = defineComponent714({
+  name: "PriceTagMinus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -24982,16 +24982,16 @@ var Print3d = defineComponent714({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 18.417v3.333m0-3.333 6-3.334m-6 3.334-6-3.334m6 6.667 6-3.333v-3.334m-6 6.667-6-3.333v-3.334m12 0-4.907-2.726A2.13 2.13 0 0 1 12 10.5m-6 4.583L9.75 13M12 6.75h.75a1.5 1.5 0 0 0 1.5-1.5v-1.5a1.5 1.5 0 0 0-1.5-1.5h-1.5a1.5 1.5 0 0 0-1.5 1.5v1.5a1.5 1.5 0 0 0 1.5 1.5zm0 0v1.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.85 11.88a1.5 1.5 0 0 0-.16-.19l-8.25-8.25A1.5 1.5 0 0 0 11.378 3H6a3 3 0 0 0-3 3v5.379c0 .398.158.779.44 1.06l8.25 8.25q.09.09.19.162m10.62-2.476h-6.75M9 11.25a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Printer.ts
+// src/icons/Print3d.ts
 import { defineComponent as defineComponent715, h as h715 } from "vue";
-var Printer = defineComponent715({
-  name: "Printer",
+var Print3d = defineComponent715({
+  name: "Print3d",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25017,16 +25017,16 @@ var Printer = defineComponent715({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18 18.75V16.5H6v2.25m12 0h1.5a1.5 1.5 0 0 0 1.5-1.5v-6a1.5 1.5 0 0 0-1.5-1.5H18m0 9v.75a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 6 19.5v-.75m0 0H4.5a1.5 1.5 0 0 1-1.5-1.5v-6a1.5 1.5 0 0 1 1.5-1.5H6m0 0V4.5A1.5 1.5 0 0 1 7.5 3h5.25M6 9.75V12h12V9.75m0 0v-1.5m0 0L12.75 3M18 8.25h-3.75a1.5 1.5 0 0 1-1.5-1.5V3"/>`
+        innerHTML: `<path d="M12 18.417v3.333m0-3.333 6-3.334m-6 3.334-6-3.334m6 6.667 6-3.333v-3.334m-6 6.667-6-3.333v-3.334m12 0-4.907-2.726A2.13 2.13 0 0 1 12 10.5m-6 4.583L9.75 13M12 6.75h.75a1.5 1.5 0 0 0 1.5-1.5v-1.5a1.5 1.5 0 0 0-1.5-1.5h-1.5a1.5 1.5 0 0 0-1.5 1.5v1.5a1.5 1.5 0 0 0 1.5 1.5zm0 0v1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Printer3d.ts
+// src/icons/Printer.ts
 import { defineComponent as defineComponent716, h as h716 } from "vue";
-var Printer3d = defineComponent716({
-  name: "Printer3d",
+var Printer = defineComponent716({
+  name: "Printer",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25052,16 +25052,16 @@ var Printer3d = defineComponent716({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 9.75v9.75A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5V9.75m-18 0V4.5A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5v5.25m-18 0h3.75m0 0v-1.5a1.5 1.5 0 0 1 1.5-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1.5m-4.5 0a1.5 1.5 0 0 0 1.5 1.5H9m0 0h.75a1.5 1.5 0 0 0 1.5-1.5M9 11.25v1.5m2.25-3H21m-5.25 6.75H18m-2.25 0V18m0-1.5h-7.5M6 16.5h2.25m0 0V18"/>`
+        innerHTML: `<path d="M18 18.75V16.5H6v2.25m12 0h1.5a1.5 1.5 0 0 0 1.5-1.5v-6a1.5 1.5 0 0 0-1.5-1.5H18m0 9v.75a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 6 19.5v-.75m0 0H4.5a1.5 1.5 0 0 1-1.5-1.5v-6a1.5 1.5 0 0 1 1.5-1.5H6m0 0V4.5A1.5 1.5 0 0 1 7.5 3h5.25M6 9.75V12h12V9.75m0 0v-1.5m0 0L12.75 3M18 8.25h-3.75a1.5 1.5 0 0 1-1.5-1.5V3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Privacy.ts
+// src/icons/Printer3d.ts
 import { defineComponent as defineComponent717, h as h717 } from "vue";
-var Privacy = defineComponent717({
-  name: "Privacy",
+var Printer3d = defineComponent717({
+  name: "Printer3d",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25087,16 +25087,16 @@ var Privacy = defineComponent717({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.427 17.072A11.178 11.178 0 0 1 12 21.75a11.18 11.18 0 0 1-6.427-4.678m12.854 0a11.17 11.17 0 0 0 1.823-6.123V3.75a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5v7.199c0 2.235.662 4.348 1.823 6.123m12.854 0a4.5 4.5 0 0 0-4.177-2.822H12m-6.427 2.822A4.5 4.5 0 0 1 9.75 14.25H12m0 0a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9"/>`
+        innerHTML: `<path d="M3 9.75v9.75A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5V9.75m-18 0V4.5A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5v5.25m-18 0h3.75m0 0v-1.5a1.5 1.5 0 0 1 1.5-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1.5m-4.5 0a1.5 1.5 0 0 0 1.5 1.5H9m0 0h.75a1.5 1.5 0 0 0 1.5-1.5M9 11.25v1.5m2.25-3H21m-5.25 6.75H18m-2.25 0V18m0-1.5h-7.5M6 16.5h2.25m0 0V18"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PrivacyOff.ts
+// src/icons/Privacy.ts
 import { defineComponent as defineComponent718, h as h718 } from "vue";
-var PrivacyOff = defineComponent718({
-  name: "PrivacyOff",
+var Privacy = defineComponent718({
+  name: "Privacy",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25122,16 +25122,16 @@ var PrivacyOff = defineComponent718({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m2.25 2.25 1.5 1.5m0 0 4.148 4.148M3.75 3.75v7.199c0 2.235.662 4.348 1.823 6.123m2.325-9.174 5.954 5.954M7.898 7.898A4.5 4.5 0 0 0 12 14.25m1.852-.398.398.398m-.398-.398A4.5 4.5 0 0 1 12 14.25m2.25 0 3.611 3.611M14.25 14.25H12m5.861 3.611 3.889 3.889m-3.889-3.889A11.178 11.178 0 0 1 12 21.75a11.18 11.18 0 0 1-6.427-4.678M6.75 2.25h12a1.5 1.5 0 0 1 1.5 1.5v7.199c0 1.415-.266 2.782-.756 4.045m-13.92 2.078A4.5 4.5 0 0 1 9.75 14.25H12m4.102-2.648a4.5 4.5 0 0 0-5.955-5.955"/>`
+        innerHTML: `<path d="M18.427 17.072A11.178 11.178 0 0 1 12 21.75a11.18 11.18 0 0 1-6.427-4.678m12.854 0a11.17 11.17 0 0 0 1.823-6.123V3.75a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5v7.199c0 2.235.662 4.348 1.823 6.123m12.854 0a4.5 4.5 0 0 0-4.177-2.822H12m-6.427 2.822A4.5 4.5 0 0 1 9.75 14.25H12m0 0a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ProceduralNode.ts
+// src/icons/PrivacyOff.ts
 import { defineComponent as defineComponent719, h as h719 } from "vue";
-var ProceduralNode = defineComponent719({
-  name: "ProceduralNode",
+var PrivacyOff = defineComponent719({
+  name: "PrivacyOff",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25157,16 +25157,16 @@ var ProceduralNode = defineComponent719({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m7.381 17.724 2.488-3.198M7.38 17.724a2.25 2.25 0 1 1-2.763 3.552 2.25 2.25 0 0 1 2.763-3.552m2.488-3.198a2.246 2.246 0 0 1-.395-3.157m.395 3.157a2.25 2.25 0 1 0-.395-3.157m0 0L6.276 8.88m0 0a2.25 2.25 0 1 1 .388-2m-.388 2a2.24 2.24 0 0 0 .388-2m0 0 6.172-1.763m0 0A2.252 2.252 0 0 1 15 2.25a2.25 2.25 0 0 1 .886 4.319m-3.05-1.45a2.25 2.25 0 0 0 3.05 1.45m0 0 2.727 6.362m0 0a2.25 2.25 0 1 0 1.775 4.137 2.25 2.25 0 0 0-1.775-4.137"/>`
+        innerHTML: `<path d="m2.25 2.25 1.5 1.5m0 0 4.148 4.148M3.75 3.75v7.199c0 2.235.662 4.348 1.823 6.123m2.325-9.174 5.954 5.954M7.898 7.898A4.5 4.5 0 0 0 12 14.25m1.852-.398.398.398m-.398-.398A4.5 4.5 0 0 1 12 14.25m2.25 0 3.611 3.611M14.25 14.25H12m5.861 3.611 3.889 3.889m-3.889-3.889A11.178 11.178 0 0 1 12 21.75a11.18 11.18 0 0 1-6.427-4.678M6.75 2.25h12a1.5 1.5 0 0 1 1.5 1.5v7.199c0 1.415-.266 2.782-.756 4.045m-13.92 2.078A4.5 4.5 0 0 1 9.75 14.25H12m4.102-2.648a4.5 4.5 0 0 0-5.955-5.955"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Proxy.ts
+// src/icons/ProceduralNode.ts
 import { defineComponent as defineComponent720, h as h720 } from "vue";
-var Proxy = defineComponent720({
-  name: "Proxy",
+var ProceduralNode = defineComponent720({
+  name: "ProceduralNode",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25192,16 +25192,16 @@ var Proxy = defineComponent720({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M14.25 19.5H21m-6.75 0a2.25 2.25 0 0 1-4.5 0m4.5 0A2.25 2.25 0 0 0 12 17.25M9.75 19.5H3m6.75 0A2.25 2.25 0 0 1 12 17.25m0 0v-4.5m0 0H5.25a1.5 1.5 0 0 1-1.5-1.5v-6a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v6a1.5 1.5 0 0 1-1.5 1.5zM6.75 7.5V9m3.75-1.5V9"/>`
+        innerHTML: `<path d="m7.381 17.724 2.488-3.198M7.38 17.724a2.25 2.25 0 1 1-2.763 3.552 2.25 2.25 0 0 1 2.763-3.552m2.488-3.198a2.246 2.246 0 0 1-.395-3.157m.395 3.157a2.25 2.25 0 1 0-.395-3.157m0 0L6.276 8.88m0 0a2.25 2.25 0 1 1 .388-2m-.388 2a2.24 2.24 0 0 0 .388-2m0 0 6.172-1.763m0 0A2.252 2.252 0 0 1 15 2.25a2.25 2.25 0 0 1 .886 4.319m-3.05-1.45a2.25 2.25 0 0 0 3.05 1.45m0 0 2.727 6.362m0 0a2.25 2.25 0 1 0 1.775 4.137 2.25 2.25 0 0 0-1.775-4.137"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Proxy3d.ts
+// src/icons/Proxy.ts
 import { defineComponent as defineComponent721, h as h721 } from "vue";
-var Proxy3d = defineComponent721({
-  name: "Proxy3d",
+var Proxy = defineComponent721({
+  name: "Proxy",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25227,16 +25227,16 @@ var Proxy3d = defineComponent721({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m18.75 5.25-6.75-3-6.75 3-3 6.75 3 6.75 6.75 3 6.75-3 3-6.75z"/>`
+        innerHTML: `<path d="M14.25 19.5H21m-6.75 0a2.25 2.25 0 0 1-4.5 0m4.5 0A2.25 2.25 0 0 0 12 17.25M9.75 19.5H3m6.75 0A2.25 2.25 0 0 1 12 17.25m0 0v-4.5m0 0H5.25a1.5 1.5 0 0 1-1.5-1.5v-6a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v6a1.5 1.5 0 0 1-1.5 1.5zM6.75 7.5V9m3.75-1.5V9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Psu.ts
+// src/icons/Proxy3d.ts
 import { defineComponent as defineComponent722, h as h722 } from "vue";
-var Psu = defineComponent722({
-  name: "Psu",
+var Proxy3d = defineComponent722({
+  name: "Proxy3d",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25262,16 +25262,16 @@ var Psu = defineComponent722({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M14.25 16.5v-9a1.5 1.5 0 0 0-1.5-1.5h-9a1.5 1.5 0 0 0-1.5 1.5V18a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5zm0 0c3.75 2.25 7.5 0 7.5-3 0-.843-.244-1.491-.618-2.196m0 0c-1.428-2.689-4.75-1.583-3.671.695.704 1.486 2.695.84 3.67-.695m0 0c1.1-1.732.907-4.595-3.882-6.804m-7.5 5.25-3 3h3l-3 3"/>`
+        innerHTML: `<path d="m18.75 5.25-6.75-3-6.75 3-3 6.75 3 6.75 6.75 3 6.75-3 3-6.75z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Pulse.ts
+// src/icons/Psu.ts
 import { defineComponent as defineComponent723, h as h723 } from "vue";
-var Pulse = defineComponent723({
-  name: "Pulse",
+var Psu = defineComponent723({
+  name: "Psu",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25297,16 +25297,16 @@ var Pulse = defineComponent723({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 12H5.7a1.5 1.5 0 0 0 1.409-.987l2.407-6.62a.977.977 0 0 1 1.88.16l2.72 14.96a.899.899 0 0 0 1.768 0l1.142-6.281A1.5 1.5 0 0 1 18.502 12h3.248"/>`
+        innerHTML: `<path d="M14.25 16.5v-9a1.5 1.5 0 0 0-1.5-1.5h-9a1.5 1.5 0 0 0-1.5 1.5V18a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5zm0 0c3.75 2.25 7.5 0 7.5-3 0-.843-.244-1.491-.618-2.196m0 0c-1.428-2.689-4.75-1.583-3.671.695.704 1.486 2.695.84 3.67-.695m0 0c1.1-1.732.907-4.595-3.882-6.804m-7.5 5.25-3 3h3l-3 3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/PulseCircle.ts
+// src/icons/Pulse.ts
 import { defineComponent as defineComponent724, h as h724 } from "vue";
-var PulseCircle = defineComponent724({
-  name: "PulseCircle",
+var Pulse = defineComponent724({
+  name: "Pulse",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25332,16 +25332,16 @@ var PulseCircle = defineComponent724({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18 12h-3l-1.5 4.5-3-9L9 12H6m6 9.75c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75"/>`
+        innerHTML: `<path d="M2.25 12H5.7a1.5 1.5 0 0 0 1.409-.987l2.407-6.62a.977.977 0 0 1 1.88.16l2.72 14.96a.899.899 0 0 0 1.768 0l1.142-6.281A1.5 1.5 0 0 1 18.502 12h3.248"/>`
       }, children);
     };
   }
 });
 
-// src/icons/QrCode.ts
+// src/icons/PulseCircle.ts
 import { defineComponent as defineComponent725, h as h725 } from "vue";
-var QrCode = defineComponent725({
-  name: "QrCode",
+var PulseCircle = defineComponent725({
+  name: "PulseCircle",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25367,16 +25367,16 @@ var QrCode = defineComponent725({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21 7.5v-3A1.5 1.5 0 0 0 19.5 3h-3m-9 0h-3A1.5 1.5 0 0 0 3 4.5v3m0 9v3A1.5 1.5 0 0 0 4.5 21h3m9 0h3a1.5 1.5 0 0 0 1.5-1.5v-3M9 6H7.5A1.5 1.5 0 0 0 6 7.5V9m3-3v3H6m3-3h3M6 9v6m0 0v1.5A1.5 1.5 0 0 0 7.5 18H9m-3-3h3m0 0v3m0-3v-2.25M9 18h3m3-12h1.5A1.5 1.5 0 0 1 18 7.5V9m-3-3v3h3m-3-3h-3m6 3v5.25M12 6v.75m-3 6h3v1.5m-3-1.5V12m3 6v-.75m0 .75h3m-3.75-8.25h1.5M15 18h1.5a1.5 1.5 0 0 0 1.5-1.5v-2.25M15 18v-.75m3-3h-3V12"/>`
+        innerHTML: `<path d="M18 12h-3l-1.5 4.5-3-9L9 12H6m6 9.75c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Question.ts
+// src/icons/QrCode.ts
 import { defineComponent as defineComponent726, h as h726 } from "vue";
-var Question = defineComponent726({
-  name: "Question",
+var QrCode = defineComponent726({
+  name: "QrCode",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25402,16 +25402,16 @@ var Question = defineComponent726({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 16.5v.75m-3-7.5c0-1.5.75-3 3-3s3 1.5 3 3c0 3-3 3-3 3v.75m0 8.25c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75"/>`
+        innerHTML: `<path d="M21 7.5v-3A1.5 1.5 0 0 0 19.5 3h-3m-9 0h-3A1.5 1.5 0 0 0 3 4.5v3m0 9v3A1.5 1.5 0 0 0 4.5 21h3m9 0h3a1.5 1.5 0 0 0 1.5-1.5v-3M9 6H7.5A1.5 1.5 0 0 0 6 7.5V9m3-3v3H6m3-3h3M6 9v6m0 0v1.5A1.5 1.5 0 0 0 7.5 18H9m-3-3h3m0 0v3m0-3v-2.25M9 18h3m3-12h1.5A1.5 1.5 0 0 1 18 7.5V9m-3-3v3h3m-3-3h-3m6 3v5.25M12 6v.75m-3 6h3v1.5m-3-1.5V12m3 6v-.75m0 .75h3m-3.75-8.25h1.5M15 18h1.5a1.5 1.5 0 0 0 1.5-1.5v-2.25M15 18v-.75m3-3h-3V12"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Quote.ts
+// src/icons/Question.ts
 import { defineComponent as defineComponent727, h as h727 } from "vue";
-var Quote = defineComponent727({
-  name: "Quote",
+var Question = defineComponent727({
+  name: "Question",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25437,16 +25437,16 @@ var Quote = defineComponent727({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21 6.75a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0m0 0v1.5S21 18 14.25 21M10.5 6.75a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0m0 0v1.5S10.5 18 3.75 21"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 16.5v.75m-3-7.5c0-1.5.75-3 3-3s3 1.5 3 3c0 3-3 3-3 3v.75m0 8.25c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Radar.ts
+// src/icons/Quote.ts
 import { defineComponent as defineComponent728, h as h728 } from "vue";
-var Radar = defineComponent728({
-  name: "Radar",
+var Quote = defineComponent728({
+  name: "Quote",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25472,16 +25472,16 @@ var Radar = defineComponent728({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 12.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5m0 0v9m2.652-7.098a3.75 3.75 0 1 0-5.303 0m9.545 4.242A9.72 9.72 0 0 0 21.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.72 9.72 0 0 0 2.856 6.894m11.667-2.121a6.75 6.75 0 1 0-9.546 0"/>`
+        innerHTML: `<path d="M21 6.75a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0m0 0v1.5S21 18 14.25 21M10.5 6.75a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0m0 0v1.5S10.5 18 3.75 21"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Radio.ts
+// src/icons/Radar.ts
 import { defineComponent as defineComponent729, h as h729 } from "vue";
-var Radio = defineComponent729({
-  name: "Radio",
+var Radar = defineComponent729({
+  name: "Radar",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25507,16 +25507,16 @@ var Radio = defineComponent729({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 10.5A.75.75 0 1 1 12 9a.75.75 0 0 1 0 1.5m0 0v11.25m2.652-9.349A3.74 3.74 0 0 0 15.75 9.75c0-1.036-.42-1.973-1.098-2.652m-5.304 5.303A3.74 3.74 0 0 1 8.25 9.75c0-1.036.42-1.973 1.098-2.652m9.546 9.546A9.72 9.72 0 0 0 21.75 9.75a9.72 9.72 0 0 0-2.856-6.895m-2.121 11.668A6.73 6.73 0 0 0 18.75 9.75a6.73 6.73 0 0 0-1.977-4.773M5.106 16.644A9.72 9.72 0 0 1 2.25 9.75a9.72 9.72 0 0 1 2.856-6.895m2.121 11.668A6.73 6.73 0 0 1 5.25 9.75c0-1.864.756-3.552 1.977-4.773"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 12.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5m0 0v9m2.652-7.098a3.75 3.75 0 1 0-5.303 0m9.545 4.242A9.72 9.72 0 0 0 21.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.72 9.72 0 0 0 2.856 6.894m11.667-2.121a6.75 6.75 0 1 0-9.546 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/RadioAlt.ts
+// src/icons/Radio.ts
 import { defineComponent as defineComponent730, h as h730 } from "vue";
-var RadioAlt = defineComponent730({
-  name: "RadioAlt",
+var Radio = defineComponent730({
+  name: "Radio",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25542,16 +25542,16 @@ var RadioAlt = defineComponent730({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M15 15.75h2.25m0 0h1.5m-1.5 0v-1.5m0 1.5v1.5m-1.5-10.5h4.5a1.5 1.5 0 0 1 1.5 1.5v10.5a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5V8.25a1.5 1.5 0 0 1 1.5-1.5zm0 0 3-3.75m-3 3.75-3-3.75m0 10.5a3.75 3.75 0 1 0-7.5 0 3.75 3.75 0 0 0 7.5 0"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 10.5A.75.75 0 1 1 12 9a.75.75 0 0 1 0 1.5m0 0v11.25m2.652-9.349A3.74 3.74 0 0 0 15.75 9.75c0-1.036-.42-1.973-1.098-2.652m-5.304 5.303A3.74 3.74 0 0 1 8.25 9.75c0-1.036.42-1.973 1.098-2.652m9.546 9.546A9.72 9.72 0 0 0 21.75 9.75a9.72 9.72 0 0 0-2.856-6.895m-2.121 11.668A6.73 6.73 0 0 0 18.75 9.75a6.73 6.73 0 0 0-1.977-4.773M5.106 16.644A9.72 9.72 0 0 1 2.25 9.75a9.72 9.72 0 0 1 2.856-6.895m2.121 11.668A6.73 6.73 0 0 1 5.25 9.75c0-1.864.756-3.552 1.977-4.773"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Radioactive.ts
+// src/icons/RadioAlt.ts
 import { defineComponent as defineComponent731, h as h731 } from "vue";
-var Radioactive = defineComponent731({
-  name: "Radioactive",
+var RadioAlt = defineComponent731({
+  name: "RadioAlt",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25577,16 +25577,16 @@ var Radioactive = defineComponent731({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M15.94 20.254a9.83 9.83 0 0 1-7.88 0c-.552-.242-.73-.916-.428-1.438l1.637-2.837c.302-.523.97-.686 1.551-.522a4.35 4.35 0 0 0 2.359 0c.58-.164 1.249-.001 1.55.521l1.639 2.838c.302.522.124 1.196-.428 1.438M12 12.75a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3M8.95 8.126a4.36 4.36 0 0 0-1.183 2.044c-.149.584-.624 1.08-1.227 1.08H3.264c-.603 0-1.098-.49-1.031-1.09a9.83 9.83 0 0 1 3.94-6.823c.485-.358 1.157-.174 1.459.348l1.639 2.838c.3.522.11 1.182-.322 1.603M17.827 3.337a9.82 9.82 0 0 1 3.94 6.824c.067.6-.428 1.09-1.03 1.09H17.46c-.603 0-1.078-.497-1.227-1.081a4.36 4.36 0 0 0-1.183-2.044c-.431-.421-.623-1.081-.321-1.603l1.639-2.838c.302-.522.974-.706 1.46-.348"/>`
+        innerHTML: `<path d="M15 15.75h2.25m0 0h1.5m-1.5 0v-1.5m0 1.5v1.5m-1.5-10.5h4.5a1.5 1.5 0 0 1 1.5 1.5v10.5a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5V8.25a1.5 1.5 0 0 1 1.5-1.5zm0 0 3-3.75m-3 3.75-3-3.75m0 10.5a3.75 3.75 0 1 0-7.5 0 3.75 3.75 0 0 0 7.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Ram.ts
+// src/icons/Radioactive.ts
 import { defineComponent as defineComponent732, h as h732 } from "vue";
-var Ram = defineComponent732({
-  name: "Ram",
+var Radioactive = defineComponent732({
+  name: "Radioactive",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25612,16 +25612,16 @@ var Ram = defineComponent732({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3.75 14.25v1.5a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 0 1.5-1.5v-1.5m-6 0h6m-6 0a1.5 1.5 0 0 1-1.5-1.5v-4.5a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5v4.5a1.5 1.5 0 0 1-1.5 1.5m-10.5 0h3m0 0v1.5a1.5 1.5 0 0 0 1.5 1.5h4.5a1.5 1.5 0 0 0 1.5-1.5v-1.5m-7.5 0h7.5"/>`
+        innerHTML: `<path d="M15.94 20.254a9.83 9.83 0 0 1-7.88 0c-.552-.242-.73-.916-.428-1.438l1.637-2.837c.302-.523.97-.686 1.551-.522a4.35 4.35 0 0 0 2.359 0c.58-.164 1.249-.001 1.55.521l1.639 2.838c.302.522.124 1.196-.428 1.438M12 12.75a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3M8.95 8.126a4.36 4.36 0 0 0-1.183 2.044c-.149.584-.624 1.08-1.227 1.08H3.264c-.603 0-1.098-.49-1.031-1.09a9.83 9.83 0 0 1 3.94-6.823c.485-.358 1.157-.174 1.459.348l1.639 2.838c.3.522.11 1.182-.322 1.603M17.827 3.337a9.82 9.82 0 0 1 3.94 6.824c.067.6-.428 1.09-1.03 1.09H17.46c-.603 0-1.078-.497-1.227-1.081a4.36 4.36 0 0 0-1.183-2.044c-.431-.421-.623-1.081-.321-1.603l1.639-2.838c.302-.522.974-.706 1.46-.348"/>`
       }, children);
     };
   }
 });
 
-// src/icons/RamStrips.ts
+// src/icons/Ram.ts
 import { defineComponent as defineComponent733, h as h733 } from "vue";
-var RamStrips = defineComponent733({
-  name: "RamStrips",
+var Ram = defineComponent733({
+  name: "Ram",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25647,16 +25647,16 @@ var RamStrips = defineComponent733({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3.75 15.75v1.5a1.5 1.5 0 0 0 1.5 1.5h1.5a1.5 1.5 0 0 0 1.5-1.5v-1.5m-4.5 0h4.5m-4.5 0a1.5 1.5 0 0 1-1.5-1.5v-3a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5m-9 0h3m0 0v1.5a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 0 1.5-1.5v-1.5m-6 0h6m4.5-5.25V6.75a1.5 1.5 0 0 0-1.5-1.5H6.75a1.5 1.5 0 0 0-1.5 1.5"/>`
+        innerHTML: `<path d="M3.75 14.25v1.5a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 0 1.5-1.5v-1.5m-6 0h6m-6 0a1.5 1.5 0 0 1-1.5-1.5v-4.5a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5v4.5a1.5 1.5 0 0 1-1.5 1.5m-10.5 0h3m0 0v1.5a1.5 1.5 0 0 0 1.5 1.5h4.5a1.5 1.5 0 0 0 1.5-1.5v-1.5m-7.5 0h7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Receipt.ts
+// src/icons/RamStrips.ts
 import { defineComponent as defineComponent734, h as h734 } from "vue";
-var Receipt = defineComponent734({
-  name: "Receipt",
+var RamStrips = defineComponent734({
+  name: "RamStrips",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25682,16 +25682,16 @@ var Receipt = defineComponent734({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 6H12m3 0h1.5m-9 3H12m3 0h1.5m-9 3H12m3 0h1.5m-9-9L6 2.25 4.5 3v18.75L6 21l1.5.75L9 21l1.5.75L12 21l1.5.75L15 21l1.5.75L18 21l1.5.75V3L18 2.25 16.5 3 15 2.25 13.5 3 12 2.25 10.5 3 9 2.25z"/>`
+        innerHTML: `<path d="M3.75 15.75v1.5a1.5 1.5 0 0 0 1.5 1.5h1.5a1.5 1.5 0 0 0 1.5-1.5v-1.5m-4.5 0h4.5m-4.5 0a1.5 1.5 0 0 1-1.5-1.5v-3a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5m-9 0h3m0 0v1.5a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 0 1.5-1.5v-1.5m-6 0h6m4.5-5.25V6.75a1.5 1.5 0 0 0-1.5-1.5H6.75a1.5 1.5 0 0 0-1.5 1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ReceiptCheck.ts
+// src/icons/Receipt.ts
 import { defineComponent as defineComponent735, h as h735 } from "vue";
-var ReceiptCheck = defineComponent735({
-  name: "ReceiptCheck",
+var Receipt = defineComponent735({
+  name: "Receipt",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25717,16 +25717,16 @@ var ReceiptCheck = defineComponent735({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M7.5 6H12m3 0h1.5m-9 3H12m3 0h1.5m-9 3H12m7.5-.583V3L18 2.25 16.5 3 15 2.25 13.5 3 12 2.25 10.5 3 9 2.25 7.5 3 6 2.25 4.5 3v18.75L6 21l1.5.75L9 21l1.5.75 1.461-.73m2.289-2.27 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
+        innerHTML: `<path d="M7.5 6H12m3 0h1.5m-9 3H12m3 0h1.5m-9 3H12m3 0h1.5m-9-9L6 2.25 4.5 3v18.75L6 21l1.5.75L9 21l1.5.75L12 21l1.5.75L15 21l1.5.75L18 21l1.5.75V3L18 2.25 16.5 3 15 2.25 13.5 3 12 2.25 10.5 3 9 2.25z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ReceiptPay.ts
+// src/icons/ReceiptCheck.ts
 import { defineComponent as defineComponent736, h as h736 } from "vue";
-var ReceiptPay = defineComponent736({
-  name: "ReceiptPay",
+var ReceiptCheck = defineComponent736({
+  name: "ReceiptCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25752,16 +25752,16 @@ var ReceiptPay = defineComponent736({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M7.5 6H12m3 0h1.5m-9 3H12m3 0h1.5m-9 3H12m7.5-.583V3L18 2.25 16.5 3 15 2.25 13.5 3 12 2.25 10.5 3 9 2.25 7.5 3 6 2.25 4.5 3v18.75L6 21l1.5.75L9 21l1.5.75 1.461-.73m6.789-6.77v8.25m0 0 3.75-3.75m-3.75 3.75L15 18.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M7.5 6H12m3 0h1.5m-9 3H12m3 0h1.5m-9 3H12m7.5-.583V3L18 2.25 16.5 3 15 2.25 13.5 3 12 2.25 10.5 3 9 2.25 7.5 3 6 2.25 4.5 3v18.75L6 21l1.5.75L9 21l1.5.75 1.461-.73m2.289-2.27 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Record.ts
+// src/icons/ReceiptPay.ts
 import { defineComponent as defineComponent737, h as h737 } from "vue";
-var Record = defineComponent737({
-  name: "Record",
+var ReceiptPay = defineComponent737({
+  name: "ReceiptPay",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25787,16 +25787,16 @@ var Record = defineComponent737({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6 15.75a3.75 3.75 0 1 1 0-7.5 3.75 3.75 0 0 1 0 7.5m0 0h12m0 0a3.75 3.75 0 1 1 0-7.5 3.75 3.75 0 0 1 0 7.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M7.5 6H12m3 0h1.5m-9 3H12m3 0h1.5m-9 3H12m7.5-.583V3L18 2.25 16.5 3 15 2.25 13.5 3 12 2.25 10.5 3 9 2.25 7.5 3 6 2.25 4.5 3v18.75L6 21l1.5.75L9 21l1.5.75 1.461-.73m6.789-6.77v8.25m0 0 3.75-3.75m-3.75 3.75L15 18.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/RectangleHorizontal.ts
+// src/icons/Record.ts
 import { defineComponent as defineComponent738, h as h738 } from "vue";
-var RectangleHorizontal = defineComponent738({
-  name: "RectangleHorizontal",
+var Record = defineComponent738({
+  name: "Record",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25822,16 +25822,16 @@ var RectangleHorizontal = defineComponent738({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 5.25H3.75a1.5 1.5 0 0 0-1.5 1.5v10.5a1.5 1.5 0 0 0 1.5 1.5h16.5a1.5 1.5 0 0 0 1.5-1.5V6.75a1.5 1.5 0 0 0-1.5-1.5"/>`
+        innerHTML: `<path d="M6 15.75a3.75 3.75 0 1 1 0-7.5 3.75 3.75 0 0 1 0 7.5m0 0h12m0 0a3.75 3.75 0 1 1 0-7.5 3.75 3.75 0 0 1 0 7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/RectangleVertical.ts
+// src/icons/RectangleHorizontal.ts
 import { defineComponent as defineComponent739, h as h739 } from "vue";
-var RectangleVertical = defineComponent739({
-  name: "RectangleVertical",
+var RectangleHorizontal = defineComponent739({
+  name: "RectangleHorizontal",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25857,16 +25857,16 @@ var RectangleVertical = defineComponent739({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M18.75 20.25V3.75a1.5 1.5 0 0 0-1.5-1.5H6.75a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 5.25H3.75a1.5 1.5 0 0 0-1.5 1.5v10.5a1.5 1.5 0 0 0 1.5 1.5h16.5a1.5 1.5 0 0 0 1.5-1.5V6.75a1.5 1.5 0 0 0-1.5-1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Recycle.ts
+// src/icons/RectangleVertical.ts
 import { defineComponent as defineComponent740, h as h740 } from "vue";
-var Recycle = defineComponent740({
-  name: "Recycle",
+var RectangleVertical = defineComponent740({
+  name: "RectangleVertical",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25892,16 +25892,16 @@ var Recycle = defineComponent740({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m20.625 15.375.72 1.198a1.437 1.437 0 0 1-1.233 2.177H9.75m.375-14.625.74-1.232a1.325 1.325 0 0 1 2.27 0l5.24 8.732M5.25 18.75H3.888a1.437 1.437 0 0 1-1.232-2.177l5.219-8.698M9.75 18.75l3-3m-3 3 3 3m5.625-10.125L19.5 7.5m-1.125 4.125L14.25 10.5M7.875 7.875 9 12M7.875 7.875 3.75 9"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M18.75 20.25V3.75a1.5 1.5 0 0 0-1.5-1.5H6.75a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Redo.ts
+// src/icons/Recycle.ts
 import { defineComponent as defineComponent741, h as h741 } from "vue";
-var Redo = defineComponent741({
-  name: "Redo",
+var Recycle = defineComponent741({
+  name: "Recycle",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25927,16 +25927,16 @@ var Redo = defineComponent741({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.75 8.25v7.5m0 0h-7.5m7.5 0L18 12C11.25 5.25 3.9 8.399 2.25 15"/>`
+        innerHTML: `<path d="m20.625 15.375.72 1.198a1.437 1.437 0 0 1-1.233 2.177H9.75m.375-14.625.74-1.232a1.325 1.325 0 0 1 2.27 0l5.24 8.732M5.25 18.75H3.888a1.437 1.437 0 0 1-1.232-2.177l5.219-8.698M9.75 18.75l3-3m-3 3 3 3m5.625-10.125L19.5 7.5m-1.125 4.125L14.25 10.5M7.875 7.875 9 12M7.875 7.875 3.75 9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Refresh.ts
+// src/icons/Redo.ts
 import { defineComponent as defineComponent742, h as h742 } from "vue";
-var Refresh = defineComponent742({
-  name: "Refresh",
+var Redo = defineComponent742({
+  name: "Redo",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25962,16 +25962,16 @@ var Refresh = defineComponent742({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M3 3v4.5m0 0h4.5M3 7.5c1.84-3.221 5.29-5.25 9-5.25 5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12"/>`
+        innerHTML: `<path d="M21.75 8.25v7.5m0 0h-7.5m7.5 0L18 12C11.25 5.25 3.9 8.399 2.25 15"/>`
       }, children);
     };
   }
 });
 
-// src/icons/RefreshAuto.ts
+// src/icons/Refresh.ts
 import { defineComponent as defineComponent743, h as h743 } from "vue";
-var RefreshAuto = defineComponent743({
-  name: "RefreshAuto",
+var Refresh = defineComponent743({
+  name: "Refresh",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -25997,16 +25997,16 @@ var RefreshAuto = defineComponent743({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21 3v4.5m0 0h-3.75m3.75 0c-1.84-3.221-5.29-5.25-9-5.25-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75M10.5 15v-3m0 0v-1.5a1.5 1.5 0 0 1 3 0V12m-3 0h3m0 0v3"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M3 3v4.5m0 0h4.5M3 7.5c1.84-3.221 5.29-5.25 9-5.25 5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Refund.ts
+// src/icons/RefreshAuto.ts
 import { defineComponent as defineComponent744, h as h744 } from "vue";
-var Refund = defineComponent744({
-  name: "Refund",
+var RefreshAuto = defineComponent744({
+  name: "RefreshAuto",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26032,16 +26032,16 @@ var Refund = defineComponent744({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 3v4.5m0 0h3.75M3 7.5c1.84-3.221 5.29-5.25 9-5.25 5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12m9-1.5h-1.5m0 0H9m.75 0v-.75a2.25 2.25 0 0 1 4.5 0v.75m-4.5 0v3m1.5 0h-1.5m0 0H9m.75 0v.75a2.25 2.25 0 0 0 4.5 0v-.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21 3v4.5m0 0h-3.75m3.75 0c-1.84-3.221-5.29-5.25-9-5.25-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75M10.5 15v-3m0 0v-1.5a1.5 1.5 0 0 1 3 0V12m-3 0h3m0 0v3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Reload.ts
+// src/icons/Refund.ts
 import { defineComponent as defineComponent745, h as h745 } from "vue";
-var Reload = defineComponent745({
-  name: "Reload",
+var Refund = defineComponent745({
+  name: "Refund",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26067,16 +26067,16 @@ var Reload = defineComponent745({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21 3v4.5m0 0h-4.5m4.5 0c-1.84-3.221-5.29-5.25-9-5.25-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75"/>`
+        innerHTML: `<path d="M3 3v4.5m0 0h3.75M3 7.5c1.84-3.221 5.29-5.25 9-5.25 5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12m9-1.5h-1.5m0 0H9m.75 0v-.75a2.25 2.25 0 0 1 4.5 0v.75m-4.5 0v3m1.5 0h-1.5m0 0H9m.75 0v.75a2.25 2.25 0 0 0 4.5 0v-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Rename.ts
+// src/icons/Reload.ts
 import { defineComponent as defineComponent746, h as h746 } from "vue";
-var Rename = defineComponent746({
-  name: "Rename",
+var Reload = defineComponent746({
+  name: "Reload",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26102,16 +26102,16 @@ var Rename = defineComponent746({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3.75 15v-3m0 0v-1.5a1.5 1.5 0 1 1 3 0V12m-3 0h3m0 0v3m3-3V9h1.5a1.5 1.5 0 0 1 0 3m-1.5 0v3h1.5a1.5 1.5 0 0 0 0-3m-1.5 0h1.5m-.75-9h2.25c3 0 3 2.25 3 2.25M21 3h-2.25c-3 0-3 2.25-3 2.25m0 0v13.5m0 0s0 2.25-3 2.25H10.5m5.25-2.25s0 2.25 3 2.25H21"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21 3v4.5m0 0h-4.5m4.5 0c-1.84-3.221-5.29-5.25-9-5.25-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Render.ts
+// src/icons/Rename.ts
 import { defineComponent as defineComponent747, h as h747 } from "vue";
-var Render = defineComponent747({
-  name: "Render",
+var Rename = defineComponent747({
+  name: "Rename",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26137,16 +26137,16 @@ var Render = defineComponent747({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.802 7.616a1.5 1.5 0 0 1 .198.746V12m-.198-4.384a1.5 1.5 0 0 0-.546-.55l-3.75-2.188m4.296 2.738L16.4 10.183M3.199 7.616a1.5 1.5 0 0 1 .545-.55l7.5-4.375a1.5 1.5 0 0 1 1.512 0l3.75 2.187M3.199 7.616c-.128.223-.199.48-.199.746v7.277a1.5 1.5 0 0 0 .744 1.295L7.6 19.183M3.2 7.616l4.4 2.567M12 21.513c-.261 0-.522-.068-.756-.204L7.6 19.183M12 21.513c.261 0 .522-.068.756-.204l3.75-2.187M12 21.514v-4.382m4.506-12.254L12 7.562m0 5.188-4.4-2.567M12 12.75l4.4-2.567M12 12.75v4.382m-4.4-6.95v4.44m0-4.44 4.4-2.62m-4.4 11.62v-4.56m0 0 4.4 2.51m0-9.57 4.4 2.62m0 0 .053 4.41m.053 4.53 3.75-2.188A1.5 1.5 0 0 0 21 15.638V12m-4.494 7.122-.053-4.53m0 0L12 17.133m4.453-2.54L21 12"/>`
+        innerHTML: `<path d="M3.75 15v-3m0 0v-1.5a1.5 1.5 0 1 1 3 0V12m-3 0h3m0 0v3m3-3V9h1.5a1.5 1.5 0 0 1 0 3m-1.5 0v3h1.5a1.5 1.5 0 0 0 0-3m-1.5 0h1.5m-.75-9h2.25c3 0 3 2.25 3 2.25M21 3h-2.25c-3 0-3 2.25-3 2.25m0 0v13.5m0 0s0 2.25-3 2.25H10.5m5.25-2.25s0 2.25 3 2.25H21"/>`
       }, children);
     };
   }
 });
 
-// src/icons/RenderPreview.ts
+// src/icons/Render.ts
 import { defineComponent as defineComponent748, h as h748 } from "vue";
-var RenderPreview = defineComponent748({
-  name: "RenderPreview",
+var Render = defineComponent748({
+  name: "Render",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26172,16 +26172,16 @@ var RenderPreview = defineComponent748({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.802 7.616a1.5 1.5 0 0 1 .198.746V12m-.198-4.384a1.5 1.5 0 0 0-.546-.55l-3.75-2.188m4.296 2.738L16.4 10.183M3.199 7.616a1.5 1.5 0 0 1 .545-.55l7.5-4.375a1.5 1.5 0 0 1 1.512 0l3.75 2.187M3.199 7.616c-.128.223-.199.48-.199.746v7.277a1.5 1.5 0 0 0 .744 1.295L7.6 19.183M3.2 7.616l4.4 2.567M12 21.513c-.261 0-.522-.068-.756-.204L7.6 19.183m8.907-14.305L12 7.562m0 5.188-4.4-2.567M12 12.75l4.4-2.567M12 12.75v2.155m-4.4-4.722v4.44m0-4.44L12 7.562m-4.4 11.62v-4.56m0 0 3.762 2.146M12 7.562l4.4 2.62m0 0 .016 1.255M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.802 7.616a1.5 1.5 0 0 1 .198.746V12m-.198-4.384a1.5 1.5 0 0 0-.546-.55l-3.75-2.188m4.296 2.738L16.4 10.183M3.199 7.616a1.5 1.5 0 0 1 .545-.55l7.5-4.375a1.5 1.5 0 0 1 1.512 0l3.75 2.187M3.199 7.616c-.128.223-.199.48-.199.746v7.277a1.5 1.5 0 0 0 .744 1.295L7.6 19.183M3.2 7.616l4.4 2.567M12 21.513c-.261 0-.522-.068-.756-.204L7.6 19.183M12 21.513c.261 0 .522-.068.756-.204l3.75-2.187M12 21.514v-4.382m4.506-12.254L12 7.562m0 5.188-4.4-2.567M12 12.75l4.4-2.567M12 12.75v4.382m-4.4-6.95v4.44m0-4.44 4.4-2.62m-4.4 11.62v-4.56m0 0 4.4 2.51m0-9.57 4.4 2.62m0 0 .053 4.41m.053 4.53 3.75-2.188A1.5 1.5 0 0 0 21 15.638V12m-4.494 7.122-.053-4.53m0 0L12 17.133m4.453-2.54L21 12"/>`
       }, children);
     };
   }
 });
 
-// src/icons/RenderRegion.ts
+// src/icons/RenderPreview.ts
 import { defineComponent as defineComponent749, h as h749 } from "vue";
-var RenderRegion = defineComponent749({
-  name: "RenderRegion",
+var RenderPreview = defineComponent749({
+  name: "RenderPreview",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26207,16 +26207,16 @@ var RenderRegion = defineComponent749({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.75 9.75 12 6 5.113 9.75m13.637 0L12 13.5m6.75-3.75v4.5M12 13.5 5.113 9.75M12 13.5v.75m-6.887-4.5v4.5m13.637 0H12m6.75 0h1.5a1.5 1.5 0 0 0 1.5-1.5V4.5a1.5 1.5 0 0 0-1.5-1.5H3.75a1.5 1.5 0 0 0-1.5 1.5v8.25a1.5 1.5 0 0 0 1.5 1.5h1.363m13.637 0V15M12 14.25H5.113m6.887 0V15m-6.887-.75V15M12 17.868v.366m4.219 1.172-.422.235M18.75 18l-.422.234m-4.64 2.578-.422.235m-2.557 0-.43-.235m-2.153-1.171-.43-.235m-2.153-1.172L5.113 18"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.802 7.616a1.5 1.5 0 0 1 .198.746V12m-.198-4.384a1.5 1.5 0 0 0-.546-.55l-3.75-2.188m4.296 2.738L16.4 10.183M3.199 7.616a1.5 1.5 0 0 1 .545-.55l7.5-4.375a1.5 1.5 0 0 1 1.512 0l3.75 2.187M3.199 7.616c-.128.223-.199.48-.199.746v7.277a1.5 1.5 0 0 0 .744 1.295L7.6 19.183M3.2 7.616l4.4 2.567M12 21.513c-.261 0-.522-.068-.756-.204L7.6 19.183m8.907-14.305L12 7.562m0 5.188-4.4-2.567M12 12.75l4.4-2.567M12 12.75v2.155m-4.4-4.722v4.44m0-4.44L12 7.562m-4.4 11.62v-4.56m0 0 3.762 2.146M12 7.562l4.4 2.62m0 0 .016 1.255M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Repeat.ts
+// src/icons/RenderRegion.ts
 import { defineComponent as defineComponent750, h as h750 } from "vue";
-var Repeat = defineComponent750({
-  name: "Repeat",
+var RenderRegion = defineComponent750({
+  name: "RenderRegion",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26242,16 +26242,16 @@ var Repeat = defineComponent750({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M20.25 6 16.5 2.25M20.25 6 16.5 9.75M20.25 6H9.75a6 6 0 0 0-6 6m0 6 3.75 3.75M3.75 18l3.75-3.75M3.75 18h10.5a6 6 0 0 0 6-6"/>`
+        innerHTML: `<path d="M18.75 9.75 12 6 5.113 9.75m13.637 0L12 13.5m6.75-3.75v4.5M12 13.5 5.113 9.75M12 13.5v.75m-6.887-4.5v4.5m13.637 0H12m6.75 0h1.5a1.5 1.5 0 0 0 1.5-1.5V4.5a1.5 1.5 0 0 0-1.5-1.5H3.75a1.5 1.5 0 0 0-1.5 1.5v8.25a1.5 1.5 0 0 0 1.5 1.5h1.363m13.637 0V15M12 14.25H5.113m6.887 0V15m-6.887-.75V15M12 17.868v.366m4.219 1.172-.422.235M18.75 18l-.422.234m-4.64 2.578-.422.235m-2.557 0-.43-.235m-2.153-1.171-.43-.235m-2.153-1.172L5.113 18"/>`
       }, children);
     };
   }
 });
 
-// src/icons/RepeatOff.ts
+// src/icons/Repeat.ts
 import { defineComponent as defineComponent751, h as h751 } from "vue";
-var RepeatOff = defineComponent751({
-  name: "RepeatOff",
+var Repeat = defineComponent751({
+  name: "Repeat",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26277,16 +26277,16 @@ var RepeatOff = defineComponent751({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M20.25 6 16.5 2.25M20.25 6 16.5 9.75M20.25 6H10.5m-3.717.783A6 6 0 0 0 3.75 12m3.033-5.217L2.25 2.25m4.533 4.533 10.433 10.433M3.75 18l3.75 3.75M3.75 18l3.75-3.75M3.75 18h10.5c1.08 0 2.092-.285 2.967-.784m0 0 4.533 4.534m-2.283-6.783A6 6 0 0 0 20.25 12"/>`
+        innerHTML: `<path d="M20.25 6 16.5 2.25M20.25 6 16.5 9.75M20.25 6H9.75a6 6 0 0 0-6 6m0 6 3.75 3.75M3.75 18l3.75-3.75M3.75 18h10.5a6 6 0 0 0 6-6"/>`
       }, children);
     };
   }
 });
 
-// src/icons/RepeatOne.ts
+// src/icons/RepeatOff.ts
 import { defineComponent as defineComponent752, h as h752 } from "vue";
-var RepeatOne = defineComponent752({
-  name: "RepeatOne",
+var RepeatOff = defineComponent752({
+  name: "RepeatOff",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26312,16 +26312,16 @@ var RepeatOne = defineComponent752({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M14.25 6 10.5 2.25M14.25 6 10.5 9.75M14.25 6h-4.5a6 6 0 0 0-6 6m0 6 3.75 3.75M3.75 18l3.75-3.75M3.75 18h10.5a6 6 0 0 0 6-6M18 9h1.5m0 0H21m-1.5 0V3L18 4.5"/>`
+        innerHTML: `<path d="M20.25 6 16.5 2.25M20.25 6 16.5 9.75M20.25 6H10.5m-3.717.783A6 6 0 0 0 3.75 12m3.033-5.217L2.25 2.25m4.533 4.533 10.433 10.433M3.75 18l3.75 3.75M3.75 18l3.75-3.75M3.75 18h10.5c1.08 0 2.092-.285 2.967-.784m0 0 4.533 4.534m-2.283-6.783A6 6 0 0 0 20.25 12"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Reply.ts
+// src/icons/RepeatOne.ts
 import { defineComponent as defineComponent753, h as h753 } from "vue";
-var Reply = defineComponent753({
-  name: "Reply",
+var RepeatOne = defineComponent753({
+  name: "RepeatOne",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26347,16 +26347,16 @@ var Reply = defineComponent753({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m6.75 10.5 3-3m-3 3 3 3m-3-3h6.75a3 3 0 0 1 3 3M15 3.75H9a6.75 6.75 0 0 0 0 13.5h3.75a7.5 7.5 0 0 0 6 3l-.06-.06a3.97 3.97 0 0 1-1.11-3.45A6.752 6.752 0 0 0 15 3.75"/>`
+        innerHTML: `<path d="M14.25 6 10.5 2.25M14.25 6 10.5 9.75M14.25 6h-4.5a6 6 0 0 0-6 6m0 6 3.75 3.75M3.75 18l3.75-3.75M3.75 18h10.5a6 6 0 0 0 6-6M18 9h1.5m0 0H21m-1.5 0V3L18 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Restart.ts
+// src/icons/Reply.ts
 import { defineComponent as defineComponent754, h as h754 } from "vue";
-var Restart = defineComponent754({
-  name: "Restart",
+var Reply = defineComponent754({
+  name: "Reply",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26382,16 +26382,16 @@ var Restart = defineComponent754({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 12V2.25m4.5 4.334a8.25 8.25 0 1 1-9 0m9 0V10.5m0-3.916 3.75.166"/>`
+        innerHTML: `<path d="m6.75 10.5 3-3m-3 3 3 3m-3-3h6.75a3 3 0 0 1 3 3M15 3.75H9a6.75 6.75 0 0 0 0 13.5h3.75a7.5 7.5 0 0 0 6 3l-.06-.06a3.97 3.97 0 0 1-1.11-3.45A6.752 6.752 0 0 0 15 3.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ReturnBox.ts
+// src/icons/Restart.ts
 import { defineComponent as defineComponent755, h as h755 } from "vue";
-var ReturnBox = defineComponent755({
-  name: "ReturnBox",
+var Restart = defineComponent755({
+  name: "Restart",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26417,16 +26417,16 @@ var ReturnBox = defineComponent755({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.75 8.25 15 4.5 8.113 8.25m13.637 0L15 12m6.75-3.75v7.5L15 19.5m0-7.5L8.113 8.25M15 12v7.5M8.113 8.25v4.5M15 19.5l-6.887-3.75v-3m0 0H2.25m5.863 0H9.75m-7.5 0L4.5 10.5m-2.25 2.25L4.5 15"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 12V2.25m4.5 4.334a8.25 8.25 0 1 1-9 0m9 0V10.5m0-3.916 3.75.166"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Road.ts
+// src/icons/ReturnBox.ts
 import { defineComponent as defineComponent756, h as h756 } from "vue";
-var Road = defineComponent756({
-  name: "Road",
+var ReturnBox = defineComponent756({
+  name: "ReturnBox",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26452,16 +26452,16 @@ var Road = defineComponent756({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21 3h-6C8.373 3 3 8.373 3 15v6m10.5 0v-6a1.5 1.5 0 0 1 1.5-1.5h6m0-5.25h-1.5m-3.75 0h-1.5M8.25 21v-1.5m0-3.75v-1.5m1.5-3.75.75-.75"/>`
+        innerHTML: `<path d="M21.75 8.25 15 4.5 8.113 8.25m13.637 0L15 12m6.75-3.75v7.5L15 19.5m0-7.5L8.113 8.25M15 12v7.5M8.113 8.25v4.5M15 19.5l-6.887-3.75v-3m0 0H2.25m5.863 0H9.75m-7.5 0L4.5 10.5m-2.25 2.25L4.5 15"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Rotate.ts
+// src/icons/Road.ts
 import { defineComponent as defineComponent757, h as h757 } from "vue";
-var Rotate = defineComponent757({
-  name: "Rotate",
+var Road = defineComponent757({
+  name: "Road",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26487,16 +26487,16 @@ var Rotate = defineComponent757({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21 21h-4.5m0 0v-4.5m0 4.5c3.221-1.84 5.25-5.29 5.25-9 0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12s4.365 9.75 9.75 9.75m.75-9.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21 3h-6C8.373 3 3 8.373 3 15v6m10.5 0v-6a1.5 1.5 0 0 1 1.5-1.5h6m0-5.25h-1.5m-3.75 0h-1.5M8.25 21v-1.5m0-3.75v-1.5m1.5-3.75.75-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Rotate90.ts
+// src/icons/Rotate.ts
 import { defineComponent as defineComponent758, h as h758 } from "vue";
-var Rotate90 = defineComponent758({
-  name: "Rotate90",
+var Rotate = defineComponent758({
+  name: "Rotate",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26522,16 +26522,16 @@ var Rotate90 = defineComponent758({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m5.25 7.5 3.879-3.879S10.448 2.25 12 2.25s2.871 1.371 2.871 1.371l3.879 3.88m0 0V3.75m0 3.75H15m-4.06 13.938-4.63-4.628a1.5 1.5 0 0 1 0-2.122l4.63-4.628a1.5 1.5 0 0 1 2.12 0l4.63 4.628a1.5 1.5 0 0 1 0 2.122l-4.63 4.628a1.5 1.5 0 0 1-2.12 0"/>`
+        innerHTML: `<path d="M21 21h-4.5m0 0v-4.5m0 4.5c3.221-1.84 5.25-5.29 5.25-9 0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12s4.365 9.75 9.75 9.75m.75-9.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Roughness.ts
+// src/icons/Rotate90.ts
 import { defineComponent as defineComponent759, h as h759 } from "vue";
-var Roughness = defineComponent759({
-  name: "Roughness",
+var Rotate90 = defineComponent759({
+  name: "Rotate90",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26557,16 +26557,16 @@ var Roughness = defineComponent759({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.894 18.894 12 12m6.894 6.894a9.75 9.75 0 0 0 2.315-3.685m-2.315 3.685a9.75 9.75 0 0 1-3.685 2.315m6-6c.35-1.005.541-2.085.541-3.209 0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12s4.365 9.75 9.75 9.75c1.124 0 2.204-.19 3.21-.54m6-6L15 9m.21 12.21L9 15"/>`
+        innerHTML: `<path d="m5.25 7.5 3.879-3.879S10.448 2.25 12 2.25s2.871 1.371 2.871 1.371l3.879 3.88m0 0V3.75m0 3.75H15m-4.06 13.938-4.63-4.628a1.5 1.5 0 0 1 0-2.122l4.63-4.628a1.5 1.5 0 0 1 2.12 0l4.63 4.628a1.5 1.5 0 0 1 0 2.122l-4.63 4.628a1.5 1.5 0 0 1-2.12 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Route.ts
+// src/icons/Roughness.ts
 import { defineComponent as defineComponent760, h as h760 } from "vue";
-var Route = defineComponent760({
-  name: "Route",
+var Roughness = defineComponent760({
+  name: "Roughness",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26592,16 +26592,16 @@ var Route = defineComponent760({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M7.5 18.75h10.125a3.375 3.375 0 1 0 0-6.75h-10.5a3.375 3.375 0 1 1 0-6.75h8.625M7.5 18.75a2.25 2.25 0 1 0-4.5 0 2.25 2.25 0 0 0 4.5 0m8.25-13.5a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0"/>`
+        innerHTML: `<path d="M18.894 18.894 12 12m6.894 6.894a9.75 9.75 0 0 0 2.315-3.685m-2.315 3.685a9.75 9.75 0 0 1-3.685 2.315m6-6c.35-1.005.541-2.085.541-3.209 0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12s4.365 9.75 9.75 9.75c1.124 0 2.204-.19 3.21-.54m6-6L15 9m.21 12.21L9 15"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Router.ts
+// src/icons/Route.ts
 import { defineComponent as defineComponent761, h as h761 } from "vue";
-var Router = defineComponent761({
-  name: "Router",
+var Route = defineComponent761({
+  name: "Route",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26627,16 +26627,16 @@ var Router = defineComponent761({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 14.25h8.25a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-3a1.5 1.5 0 0 1 1.5-1.5zm0 0v-7.5M8.752 4.125A3.73 3.73 0 0 0 8.25 6c0 1.036.42 1.973 1.098 2.652M12 6.75a.75.75 0 0 1-.75-.75.75.75 0 1 1 .75.75m2.652 1.902A3.74 3.74 0 0 0 15.75 6c0-.683-.183-1.324-.502-1.875m1.525 6.648A6.73 6.73 0 0 0 18.75 6c0-1.23-.329-2.383-.903-3.375m-11.694 0A6.7 6.7 0 0 0 5.25 6c0 1.864.756 3.552 1.977 4.773M5.25 17.25H6m3 0h.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M7.5 18.75h10.125a3.375 3.375 0 1 0 0-6.75h-10.5a3.375 3.375 0 1 1 0-6.75h8.625M7.5 18.75a2.25 2.25 0 1 0-4.5 0 2.25 2.25 0 0 0 4.5 0m8.25-13.5a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/RulerCursor.ts
+// src/icons/Router.ts
 import { defineComponent as defineComponent762, h as h762 } from "vue";
-var RulerCursor = defineComponent762({
-  name: "RulerCursor",
+var Router = defineComponent762({
+  name: "Router",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26662,16 +26662,16 @@ var RulerCursor = defineComponent762({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3.807 10.361 2.714 9.27a1.545 1.545 0 0 1 0-2.185l4.37-4.37a1.545 1.545 0 0 1 2.185 0l12.017 12.017a1.545 1.545 0 0 1 0 2.185l-4.37 4.37a1.545 1.545 0 0 1-2.185 0l-1.092-1.093m-9.832-9.832 2.185-2.185m-2.185 2.185 3.277 3.278m6.555 6.555 2.185-2.185m-2.185 2.185-3.278-3.278m0 0 2.185-2.185m-2.185 2.185L7.084 13.64m0 0 2.185-2.185"/>`
+        innerHTML: `<path d="M12 14.25h8.25a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-3a1.5 1.5 0 0 1 1.5-1.5zm0 0v-7.5M8.752 4.125A3.73 3.73 0 0 0 8.25 6c0 1.036.42 1.973 1.098 2.652M12 6.75a.75.75 0 0 1-.75-.75.75.75 0 1 1 .75.75m2.652 1.902A3.74 3.74 0 0 0 15.75 6c0-.683-.183-1.324-.502-1.875m1.525 6.648A6.73 6.73 0 0 0 18.75 6c0-1.23-.329-2.383-.903-3.375m-11.694 0A6.7 6.7 0 0 0 5.25 6c0 1.864.756 3.552 1.977 4.773M5.25 17.25H6m3 0h.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/RulerHorizontal.ts
+// src/icons/RulerCursor.ts
 import { defineComponent as defineComponent763, h as h763 } from "vue";
-var RulerHorizontal = defineComponent763({
-  name: "RulerHorizontal",
+var RulerCursor = defineComponent763({
+  name: "RulerCursor",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26697,16 +26697,16 @@ var RulerHorizontal = defineComponent763({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M5.25 16.5h-1.5a1.5 1.5 0 0 1-1.5-1.5V9a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5v6a1.5 1.5 0 0 1-1.5 1.5h-1.5m-13.5 0v-3m0 3h4.5m9 0v-3m0 3h-4.5m0 0v-3m0 3h-4.5m0 0v-3"/>`
+        innerHTML: `<path d="M3.807 10.361 2.714 9.27a1.545 1.545 0 0 1 0-2.185l4.37-4.37a1.545 1.545 0 0 1 2.185 0l12.017 12.017a1.545 1.545 0 0 1 0 2.185l-4.37 4.37a1.545 1.545 0 0 1-2.185 0l-1.092-1.093m-9.832-9.832 2.185-2.185m-2.185 2.185 3.277 3.278m6.555 6.555 2.185-2.185m-2.185 2.185-3.278-3.278m0 0 2.185-2.185m-2.185 2.185L7.084 13.64m0 0 2.185-2.185"/>`
       }, children);
     };
   }
 });
 
-// src/icons/RulerVertical.ts
+// src/icons/RulerHorizontal.ts
 import { defineComponent as defineComponent764, h as h764 } from "vue";
-var RulerVertical = defineComponent764({
-  name: "RulerVertical",
+var RulerHorizontal = defineComponent764({
+  name: "RulerHorizontal",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26732,16 +26732,16 @@ var RulerVertical = defineComponent764({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M16.5 18.75v1.5a1.5 1.5 0 0 1-1.5 1.5H9a1.5 1.5 0 0 1-1.5-1.5V3.75A1.5 1.5 0 0 1 9 2.25h6a1.5 1.5 0 0 1 1.5 1.5v1.5m0 13.5h-3m3 0v-4.5m0-9h-3m3 0v4.5m0 0h-3m3 0v4.5m0 0h-3"/>`
+        innerHTML: `<path d="M5.25 16.5h-1.5a1.5 1.5 0 0 1-1.5-1.5V9a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5v6a1.5 1.5 0 0 1-1.5 1.5h-1.5m-13.5 0v-3m0 3h4.5m9 0v-3m0 3h-4.5m0 0v-3m0 3h-4.5m0 0v-3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Ruller.ts
+// src/icons/RulerVertical.ts
 import { defineComponent as defineComponent765, h as h765 } from "vue";
-var Ruller = defineComponent765({
-  name: "Ruller",
+var RulerVertical = defineComponent765({
+  name: "RulerVertical",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26767,16 +26767,16 @@ var Ruller = defineComponent765({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.75 20.25h3v-3m-3 3-3-3m3 3h-6m3-3L2.25 3.75v6m13.5 7.5V3.75h6v3m-16.5 13.5h-3v-3m3 3v-1.5m0 1.5H9m0 0v-1.5m0 1.5h3.75m0 0v-1.5m-10.5-9v3.75m0-3.75h1.5m-1.5 3.75v3.75m0-3.75h1.5m-1.5 3.75h1.5m16.5 0h1.5m0 0V13.5m-1.5 0h1.5m0 0V9.75m-1.5 0h1.5m0 0v-3m0 0h-1.5m-13.5 9V13.5L9 15.75z"/>`
+        innerHTML: `<path d="M16.5 18.75v1.5a1.5 1.5 0 0 1-1.5 1.5H9a1.5 1.5 0 0 1-1.5-1.5V3.75A1.5 1.5 0 0 1 9 2.25h6a1.5 1.5 0 0 1 1.5 1.5v1.5m0 13.5h-3m3 0v-4.5m0-9h-3m3 0v4.5m0 0h-3m3 0v4.5m0 0h-3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SafeFrame.ts
+// src/icons/Ruller.ts
 import { defineComponent as defineComponent766, h as h766 } from "vue";
-var SafeFrame = defineComponent766({
-  name: "SafeFrame",
+var Ruller = defineComponent766({
+  name: "Ruller",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26802,16 +26802,16 @@ var SafeFrame = defineComponent766({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.75 8.25v-3a1.5 1.5 0 0 0-1.5-1.5H16.5m5.25 12v3a1.5 1.5 0 0 1-1.5 1.5H16.5m-14.25-12v-3a1.5 1.5 0 0 1 1.5-1.5H7.5m0 16.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-3M12 9v3m0 0v3m0-3H9m3 0h3"/>`
+        innerHTML: `<path d="M18.75 20.25h3v-3m-3 3-3-3m3 3h-6m3-3L2.25 3.75v6m13.5 7.5V3.75h6v3m-16.5 13.5h-3v-3m3 3v-1.5m0 1.5H9m0 0v-1.5m0 1.5h3.75m0 0v-1.5m-10.5-9v3.75m0-3.75h1.5m-1.5 3.75v3.75m0-3.75h1.5m-1.5 3.75h1.5m16.5 0h1.5m0 0V13.5m-1.5 0h1.5m0 0V9.75m-1.5 0h1.5m0 0v-3m0 0h-1.5m-13.5 9V13.5L9 15.75z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Salt.ts
+// src/icons/SafeFrame.ts
 import { defineComponent as defineComponent767, h as h767 } from "vue";
-var Salt = defineComponent767({
-  name: "Salt",
+var SafeFrame = defineComponent767({
+  name: "SafeFrame",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26837,16 +26837,16 @@ var Salt = defineComponent767({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M8.25 8.25 6.06 18.1a3 3 0 0 0 2.929 3.65h6.02a3 3 0 0 0 2.929-3.65l-2.19-9.85m-7.5 0H7.5v-1.5a4.5 4.5 0 1 1 9 0v1.5h-.75m-7.5 0h7.5"/>`
+        innerHTML: `<path d="M21.75 8.25v-3a1.5 1.5 0 0 0-1.5-1.5H16.5m5.25 12v3a1.5 1.5 0 0 1-1.5 1.5H16.5m-14.25-12v-3a1.5 1.5 0 0 1 1.5-1.5H7.5m0 16.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-3M12 9v3m0 0v3m0-3H9m3 0h3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Save.ts
+// src/icons/Salt.ts
 import { defineComponent as defineComponent768, h as h768 } from "vue";
-var Save = defineComponent768({
-  name: "Save",
+var Salt = defineComponent768({
+  name: "Salt",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26872,16 +26872,16 @@ var Save = defineComponent768({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6.75 21H4.5A1.5 1.5 0 0 1 3 19.5v-15A1.5 1.5 0 0 1 4.5 3h9.879a1.5 1.5 0 0 1 1.06.44l5.122 5.12A1.5 1.5 0 0 1 21 9.622V19.5a1.5 1.5 0 0 1-1.5 1.5h-2.25m-10.5 0v-6.75a1.5 1.5 0 0 1 1.5-1.5h7.5a1.5 1.5 0 0 1 1.5 1.5V21m-10.5 0h10.5"/>`
+        innerHTML: `<path d="M8.25 8.25 6.06 18.1a3 3 0 0 0 2.929 3.65h6.02a3 3 0 0 0 2.929-3.65l-2.19-9.85m-7.5 0H7.5v-1.5a4.5 4.5 0 1 1 9 0v1.5h-.75m-7.5 0h7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Scale.ts
+// src/icons/Save.ts
 import { defineComponent as defineComponent769, h as h769 } from "vue";
-var Scale = defineComponent769({
-  name: "Scale",
+var Save = defineComponent769({
+  name: "Save",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26907,16 +26907,16 @@ var Scale = defineComponent769({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 6V4.5A1.5 1.5 0 0 1 4.5 3H6m4.5 0h3M18 3h1.5A1.5 1.5 0 0 1 21 4.5V6m0 12v1.5a1.5 1.5 0 0 1-1.5 1.5H18m-6 0h1.5M21 10.5v3m-18-3V12m8.25.75 6-6m0 0v4.5m0-4.5h-4.5M3 21v-6h6v6z"/>`
+        innerHTML: `<path d="M6.75 21H4.5A1.5 1.5 0 0 1 3 19.5v-15A1.5 1.5 0 0 1 4.5 3h9.879a1.5 1.5 0 0 1 1.06.44l5.122 5.12A1.5 1.5 0 0 1 21 9.622V19.5a1.5 1.5 0 0 1-1.5 1.5h-2.25m-10.5 0v-6.75a1.5 1.5 0 0 1 1.5-1.5h7.5a1.5 1.5 0 0 1 1.5 1.5V21m-10.5 0h10.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ScaleUniform.ts
+// src/icons/Scale.ts
 import { defineComponent as defineComponent770, h as h770 } from "vue";
-var ScaleUniform = defineComponent770({
-  name: "ScaleUniform",
+var Scale = defineComponent770({
+  name: "Scale",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26942,16 +26942,16 @@ var ScaleUniform = defineComponent770({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M3 6V4.5A1.5 1.5 0 0 1 4.5 3H6m4.5 0h3M18 3h1.5A1.5 1.5 0 0 1 21 4.5V6m0 4.5v1.452M3 10.5V12m8.25.75 6-6m0 0v4.5m0-4.5h-4.5M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75M3 21v-6h6v6z"/>`
+        innerHTML: `<path d="M3 6V4.5A1.5 1.5 0 0 1 4.5 3H6m4.5 0h3M18 3h1.5A1.5 1.5 0 0 1 21 4.5V6m0 12v1.5a1.5 1.5 0 0 1-1.5 1.5H18m-6 0h1.5M21 10.5v3m-18-3V12m8.25.75 6-6m0 0v4.5m0-4.5h-4.5M3 21v-6h6v6z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Scan.ts
+// src/icons/ScaleUniform.ts
 import { defineComponent as defineComponent771, h as h771 } from "vue";
-var Scan = defineComponent771({
-  name: "Scan",
+var ScaleUniform = defineComponent771({
+  name: "ScaleUniform",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -26977,16 +26977,16 @@ var Scan = defineComponent771({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21 7.5v-3A1.5 1.5 0 0 0 19.5 3h-3m-9 0h-3A1.5 1.5 0 0 0 3 4.5v3m0 9v3A1.5 1.5 0 0 0 4.5 21h3m9 0h3a1.5 1.5 0 0 0 1.5-1.5v-3m.75-4.5H2.25"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M3 6V4.5A1.5 1.5 0 0 1 4.5 3H6m4.5 0h3M18 3h1.5A1.5 1.5 0 0 1 21 4.5V6m0 4.5v1.452M3 10.5V12m8.25.75 6-6m0 0v4.5m0-4.5h-4.5M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75M3 21v-6h6v6z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Scene.ts
+// src/icons/Scan.ts
 import { defineComponent as defineComponent772, h as h772 } from "vue";
-var Scene = defineComponent772({
-  name: "Scene",
+var Scan = defineComponent772({
+  name: "Scan",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27012,16 +27012,16 @@ var Scene = defineComponent772({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M11.854 11.557a5.255 5.255 0 0 0-1.93 5.517m1.93-5.517a5.246 5.246 0 1 1-1.93 5.517m1.93-5.517L8.632 3.501c-.352-.879-1.597-.879-1.948 0L2.487 13.993a.8.8 0 0 0-.063.389c.127 1.094 1.291 2.946 5.234 2.946.89 0 1.639-.095 2.266-.253m7.326-1.325A2.25 2.25 0 0 1 15 18m2.25-12.75a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21 7.5v-3A1.5 1.5 0 0 0 19.5 3h-3m-9 0h-3A1.5 1.5 0 0 0 3 4.5v3m0 9v3A1.5 1.5 0 0 0 4.5 21h3m9 0h3a1.5 1.5 0 0 0 1.5-1.5v-3m.75-4.5H2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Scissors.ts
+// src/icons/Scene.ts
 import { defineComponent as defineComponent773, h as h773 } from "vue";
-var Scissors = defineComponent773({
-  name: "Scissors",
+var Scene = defineComponent773({
+  name: "Scene",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27047,16 +27047,16 @@ var Scissors = defineComponent773({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9.402 15.348a3.75 3.75 0 1 0-5.303 5.303 3.75 3.75 0 0 0 5.303-5.303m0 0L12.75 12M9.402 8.652a3.75 3.75 0 1 0-5.303-5.303 3.75 3.75 0 0 0 5.303 5.303m0 0L12.75 12m0 0L21 3.75M12.75 12 21 20.25"/>`
+        innerHTML: `<path d="M11.854 11.557a5.255 5.255 0 0 0-1.93 5.517m1.93-5.517a5.246 5.246 0 1 1-1.93 5.517m1.93-5.517L8.632 3.501c-.352-.879-1.597-.879-1.948 0L2.487 13.993a.8.8 0 0 0-.063.389c.127 1.094 1.291 2.946 5.234 2.946.89 0 1.639-.095 2.266-.253m7.326-1.325A2.25 2.25 0 0 1 15 18m2.25-12.75a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ScreenShare.ts
+// src/icons/Scissors.ts
 import { defineComponent as defineComponent774, h as h774 } from "vue";
-var ScreenShare = defineComponent774({
-  name: "ScreenShare",
+var Scissors = defineComponent774({
+  name: "Scissors",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27082,16 +27082,16 @@ var ScreenShare = defineComponent774({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 8.25 8.25 12M12 8.25 15.75 12M12 8.25v7.5m9.75-8.25v9a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3"/>`
+        innerHTML: `<path d="M9.402 15.348a3.75 3.75 0 1 0-5.303 5.303 3.75 3.75 0 0 0 5.303-5.303m0 0L12.75 12M9.402 8.652a3.75 3.75 0 1 0-5.303-5.303 3.75 3.75 0 0 0 5.303 5.303m0 0L12.75 12m0 0L21 3.75M12.75 12 21 20.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Screwdriver.ts
+// src/icons/ScreenShare.ts
 import { defineComponent as defineComponent775, h as h775 } from "vue";
-var Screwdriver = defineComponent775({
-  name: "Screwdriver",
+var ScreenShare = defineComponent775({
+  name: "ScreenShare",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27117,16 +27117,16 @@ var Screwdriver = defineComponent775({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M10.875 11.625 9.75 12.75a14.23 14.23 0 0 0 9 9l3-3a14.23 14.23 0 0 0-9-9l-1.125 1.125m-.75.75.75-.75m-.75.75L6.75 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v2.25l4.125 4.125"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 8.25 8.25 12M12 8.25 15.75 12M12 8.25v7.5m9.75-8.25v9a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Search.ts
+// src/icons/Screwdriver.ts
 import { defineComponent as defineComponent776, h as h776 } from "vue";
-var Search = defineComponent776({
-  name: "Search",
+var Screwdriver = defineComponent776({
+  name: "Screwdriver",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27152,16 +27152,16 @@ var Search = defineComponent776({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M8.197 15.803A7.5 7.5 0 1 0 18.804 5.196 7.5 7.5 0 0 0 8.196 15.804m0 0L3 21"/>`
+        innerHTML: `<path d="M10.875 11.625 9.75 12.75a14.23 14.23 0 0 0 9 9l3-3a14.23 14.23 0 0 0-9-9l-1.125 1.125m-.75.75.75-.75m-.75.75L6.75 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v2.25l4.125 4.125"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Seed.ts
+// src/icons/Search.ts
 import { defineComponent as defineComponent777, h as h777 } from "vue";
-var Seed = defineComponent777({
-  name: "Seed",
+var Search = defineComponent777({
+  name: "Search",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27187,16 +27187,16 @@ var Seed = defineComponent777({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 14.25v-7.5m0 7.5a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5m0-7.5c0-3-4.5-5.25-8.25-3.75 0 4.5 6 5.25 8.25 3.75m0 3.75c0-3 4.5-5.25 8.25-3.75 0 4.5-6 5.25-8.25 3.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M8.197 15.803A7.5 7.5 0 1 0 18.804 5.196 7.5 7.5 0 0 0 8.196 15.804m0 0L3 21"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SelectAll.ts
+// src/icons/Seed.ts
 import { defineComponent as defineComponent778, h as h778 } from "vue";
-var SelectAll = defineComponent778({
-  name: "SelectAll",
+var Seed = defineComponent778({
+  name: "Seed",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27222,16 +27222,16 @@ var SelectAll = defineComponent778({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 4.5v-.75A1.5 1.5 0 0 1 9 2.25h11.25a1.5 1.5 0 0 1 1.5 1.5V15a1.5 1.5 0 0 1-1.5 1.5h-.75M6 15l2.25 2.25 4.5-4.5M2.25 9v11.25a1.5 1.5 0 0 0 1.5 1.5H15a1.5 1.5 0 0 0 1.5-1.5V9A1.5 1.5 0 0 0 15 7.5H3.75A1.5 1.5 0 0 0 2.25 9"/>`
+        innerHTML: `<path d="M12 14.25v-7.5m0 7.5a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5m0-7.5c0-3-4.5-5.25-8.25-3.75 0 4.5 6 5.25 8.25 3.75m0 3.75c0-3 4.5-5.25 8.25-3.75 0 4.5-6 5.25-8.25 3.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SelectEdge.ts
+// src/icons/SelectAll.ts
 import { defineComponent as defineComponent779, h as h779 } from "vue";
-var SelectEdge = defineComponent779({
-  name: "SelectEdge",
+var SelectAll = defineComponent779({
+  name: "SelectAll",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27257,16 +27257,16 @@ var SelectEdge = defineComponent779({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M3.75 7.063 3 7.5m0 0v.75m0-.75 1.5.875m3-3.5-.75.438m3.75-2.188L12 2.25l1.5.875M3 11.25V12m0 3v1.5l1.5.875M21 15v1.5l-1.5.875M21 12v-.75m0-3V7.5m0 0-.75-.437M21 7.5l-1.5.875m-2.25-3.062-.75-.438m-.75 14.688.75-.438m-9 0 .75.438m5.25-8.313v9a1.5 1.5 0 0 1-3 0v-9a1.5 1.5 0 0 1 3 0"/>`
+        innerHTML: `<path d="M7.5 4.5v-.75A1.5 1.5 0 0 1 9 2.25h11.25a1.5 1.5 0 0 1 1.5 1.5V15a1.5 1.5 0 0 1-1.5 1.5h-.75M6 15l2.25 2.25 4.5-4.5M2.25 9v11.25a1.5 1.5 0 0 0 1.5 1.5H15a1.5 1.5 0 0 0 1.5-1.5V9A1.5 1.5 0 0 0 15 7.5H3.75A1.5 1.5 0 0 0 2.25 9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SelectFace.ts
+// src/icons/SelectEdge.ts
 import { defineComponent as defineComponent780, h as h780 } from "vue";
-var SelectFace = defineComponent780({
-  name: "SelectFace",
+var SelectEdge = defineComponent780({
+  name: "SelectEdge",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27292,16 +27292,16 @@ var SelectFace = defineComponent780({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M3 11.25V12m0 3v1.5l1.5.875M21 15v1.5l-1.5.875M21 12v-.75m-9 5.25v.75m0 3v1.5m0 0 .75-.437m-.75.437-.75-.437m4.5-1.75.75-.438m-9 0 .75.438M12 2.25 3 7.5l9 5.25 9-5.25z"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M3.75 7.063 3 7.5m0 0v.75m0-.75 1.5.875m3-3.5-.75.438m3.75-2.188L12 2.25l1.5.875M3 11.25V12m0 3v1.5l1.5.875M21 15v1.5l-1.5.875M21 12v-.75m0-3V7.5m0 0-.75-.437M21 7.5l-1.5.875m-2.25-3.062-.75-.438m-.75 14.688.75-.438m-9 0 .75.438m5.25-8.313v9a1.5 1.5 0 0 1-3 0v-9a1.5 1.5 0 0 1 3 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SelectVertex.ts
+// src/icons/SelectFace.ts
 import { defineComponent as defineComponent781, h as h781 } from "vue";
-var SelectVertex = defineComponent781({
-  name: "SelectVertex",
+var SelectFace = defineComponent781({
+  name: "SelectFace",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27327,16 +27327,16 @@ var SelectVertex = defineComponent781({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M3.75 7.063 3 7.5m0 0v.75m0-.75 1.5.875m3-3.5-.75.438m3.75-2.188L12 2.25l1.5.875M3 11.25V12m0 3v1.5l1.5.875M21 15v1.5l-1.5.875M21 12v-.75m0-3V7.5m0 0-.75-.437M21 7.5l-1.5.875m-2.25-3.062-.75-.438M12 20.25v1.5m0 0 .75-.437m-.75.437-.75-.437m4.5-1.75.75-.438m-9 0 .75.438M12 15a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M3 11.25V12m0 3v1.5l1.5.875M21 15v1.5l-1.5.875M21 12v-.75m-9 5.25v.75m0 3v1.5m0 0 .75-.437m-.75.437-.75-.437m4.5-1.75.75-.438m-9 0 .75.438M12 2.25 3 7.5l9 5.25 9-5.25z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Selection.ts
+// src/icons/SelectVertex.ts
 import { defineComponent as defineComponent782, h as h782 } from "vue";
-var Selection = defineComponent782({
-  name: "Selection",
+var SelectVertex = defineComponent782({
+  name: "SelectVertex",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27362,16 +27362,16 @@ var Selection = defineComponent782({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 6V4.5A1.5 1.5 0 0 1 4.5 3H6m4.5 0h3M18 3h1.5A1.5 1.5 0 0 1 21 4.5V6m0 12v1.5a1.5 1.5 0 0 1-1.5 1.5H18M3 18v1.5A1.5 1.5 0 0 0 4.5 21H6m4.5 0h3M21 10.5v3m-18-3v3"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M3.75 7.063 3 7.5m0 0v.75m0-.75 1.5.875m3-3.5-.75.438m3.75-2.188L12 2.25l1.5.875M3 11.25V12m0 3v1.5l1.5.875M21 15v1.5l-1.5.875M21 12v-.75m0-3V7.5m0 0-.75-.437M21 7.5l-1.5.875m-2.25-3.062-.75-.438M12 20.25v1.5m0 0 .75-.437m-.75.437-.75-.437m4.5-1.75.75-.438m-9 0 .75.438M12 15a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Server.ts
+// src/icons/Selection.ts
 import { defineComponent as defineComponent783, h as h783 } from "vue";
-var Server = defineComponent783({
-  name: "Server",
+var Selection = defineComponent783({
+  name: "Selection",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27397,16 +27397,16 @@ var Server = defineComponent783({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 14.25h8.25a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-3a1.5 1.5 0 0 1 1.5-1.5zm0 0v-4.5m0 0H3.75a1.5 1.5 0 0 1-1.5-1.5v-3a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5zm-6-3h.75m4.5 0h-.75m-3.75 10.5H6m5.25 0h-.75"/>`
+        innerHTML: `<path d="M3 6V4.5A1.5 1.5 0 0 1 4.5 3H6m4.5 0h3M18 3h1.5A1.5 1.5 0 0 1 21 4.5V6m0 12v1.5a1.5 1.5 0 0 1-1.5 1.5H18M3 18v1.5A1.5 1.5 0 0 0 4.5 21H6m4.5 0h3M21 10.5v3m-18-3v3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ServerAlt.ts
+// src/icons/Server.ts
 import { defineComponent as defineComponent784, h as h784 } from "vue";
-var ServerAlt = defineComponent784({
-  name: "ServerAlt",
+var Server = defineComponent784({
+  name: "Server",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27432,16 +27432,16 @@ var ServerAlt = defineComponent784({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M13.5 6.75h.75m3 0H18m-3.75 10.5h-.75m4.5 0h-.75m-7.5 0v-1.5a1.5 1.5 0 0 1 1.5-1.5h9a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.5-1.5zm0 0h-3m0 0A2.25 2.25 0 0 0 4.5 15m2.25 2.25A2.25 2.25 0 0 1 4.5 19.5M9.75 6.75v-1.5a1.5 1.5 0 0 1 1.5-1.5h9a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.5-1.5zm0 0h-3m0 0A2.25 2.25 0 0 0 4.5 4.5m2.25 2.25A2.25 2.25 0 0 1 4.5 9m0 0v6m0-6a2.25 2.25 0 0 1 0-4.5m0 10.5a2.25 2.25 0 0 0 0 4.5m0 0v2.25m0-17.25V2.25"/>`
+        innerHTML: `<path d="M12 14.25h8.25a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-3a1.5 1.5 0 0 1 1.5-1.5zm0 0v-4.5m0 0H3.75a1.5 1.5 0 0 1-1.5-1.5v-3a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5zm-6-3h.75m4.5 0h-.75m-3.75 10.5H6m5.25 0h-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Shader.ts
+// src/icons/ServerAlt.ts
 import { defineComponent as defineComponent785, h as h785 } from "vue";
-var Shader = defineComponent785({
-  name: "Shader",
+var ServerAlt = defineComponent785({
+  name: "ServerAlt",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27467,16 +27467,16 @@ var Shader = defineComponent785({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12.382 21.743q-.19.007-.382.007c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75q0 .192-.007.382M6 12a6 6 0 0 1 6-6m6.374 14.85a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.134 4.117h-1.65m-4.95 0h-1.65m7.047 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
+        innerHTML: `<path d="M13.5 6.75h.75m3 0H18m-3.75 10.5h-.75m4.5 0h-.75m-7.5 0v-1.5a1.5 1.5 0 0 1 1.5-1.5h9a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.5-1.5zm0 0h-3m0 0A2.25 2.25 0 0 0 4.5 15m2.25 2.25A2.25 2.25 0 0 1 4.5 19.5M9.75 6.75v-1.5a1.5 1.5 0 0 1 1.5-1.5h9a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.5-1.5zm0 0h-3m0 0A2.25 2.25 0 0 0 4.5 4.5m2.25 2.25A2.25 2.25 0 0 1 4.5 9m0 0v6m0-6a2.25 2.25 0 0 1 0-4.5m0 10.5a2.25 2.25 0 0 0 0 4.5m0 0v2.25m0-17.25V2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ShadowHard.ts
+// src/icons/Shader.ts
 import { defineComponent as defineComponent786, h as h786 } from "vue";
-var ShadowHard = defineComponent786({
-  name: "ShadowHard",
+var Shader = defineComponent786({
+  name: "Shader",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27502,16 +27502,16 @@ var ShadowHard = defineComponent786({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M14.248 15.752A7.47 7.47 0 0 1 9.75 17.25q-.706 0-1.374-.126m5.872-1.372a7.5 7.5 0 0 0 1.837-1.986m-1.837 1.986-4.96 4.96m4.96-4.96.002-.002m1.835-1.984a7.5 7.5 0 1 0-11.22 1.675m11.22-1.675c1.397.232 2.62.606 3.57 1.079m-14.79.596c-.71.536-1.115 1.153-1.115 1.809v.035m1.115-1.844q.196.169.405.324m3.106 1.36a7.5 7.5 0 0 1-3.106-1.36m3.106 1.36-2.531 2.53M21.75 17.25c0-.915-.787-1.754-2.095-2.405m2.095 2.405c0 1.041-1.018 1.983-2.663 2.663m2.663-2.663-2.663 2.663m.568-5.068-6.142 6.142m0 0q-.377.013-.763.013c-1.227 0-2.397-.102-3.462-.288m4.225.275c2.168-.076 4.117-.472 5.574-1.074M3.75 17.285c.02.902.804 1.727 2.095 2.37m-2.095-2.37 1.52-1.52m.575 3.89c.92.459 2.099.824 3.443 1.057"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12.382 21.743q-.19.007-.382.007c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75q0 .192-.007.382M6 12a6 6 0 0 1 6-6m6.374 14.85a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.134 4.117h-1.65m-4.95 0h-1.65m7.047 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ShadowSoft.ts
+// src/icons/ShadowHard.ts
 import { defineComponent as defineComponent787, h as h787 } from "vue";
-var ShadowSoft = defineComponent787({
-  name: "ShadowSoft",
+var ShadowHard = defineComponent787({
+  name: "ShadowHard",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27537,16 +27537,16 @@ var ShadowSoft = defineComponent787({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M14.248 15.752A7.47 7.47 0 0 1 9.75 17.25q-.706 0-1.374-.126m5.872-1.372a7.5 7.5 0 0 0 1.837-1.986 7.5 7.5 0 1 0-10.816 2m8.979-.014-4.96 4.96m4.96-4.96.002-.002m-5.874 1.374a7.5 7.5 0 0 1-3.106-1.359m3.106 1.36-2.531 2.53M3.75 17.25v.035l1.52-1.52m8.243 5.222 6.142-6.142m-.568 5.068 2.663-2.663"/>`
+        innerHTML: `<path d="M14.248 15.752A7.47 7.47 0 0 1 9.75 17.25q-.706 0-1.374-.126m5.872-1.372a7.5 7.5 0 0 0 1.837-1.986m-1.837 1.986-4.96 4.96m4.96-4.96.002-.002m1.835-1.984a7.5 7.5 0 1 0-11.22 1.675m11.22-1.675c1.397.232 2.62.606 3.57 1.079m-14.79.596c-.71.536-1.115 1.153-1.115 1.809v.035m1.115-1.844q.196.169.405.324m3.106 1.36a7.5 7.5 0 0 1-3.106-1.36m3.106 1.36-2.531 2.53M21.75 17.25c0-.915-.787-1.754-2.095-2.405m2.095 2.405c0 1.041-1.018 1.983-2.663 2.663m2.663-2.663-2.663 2.663m.568-5.068-6.142 6.142m0 0q-.377.013-.763.013c-1.227 0-2.397-.102-3.462-.288m4.225.275c2.168-.076 4.117-.472 5.574-1.074M3.75 17.285c.02.902.804 1.727 2.095 2.37m-2.095-2.37 1.52-1.52m.575 3.89c.92.459 2.099.824 3.443 1.057"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Share.ts
+// src/icons/ShadowSoft.ts
 import { defineComponent as defineComponent788, h as h788 } from "vue";
-var Share = defineComponent788({
-  name: "Share",
+var ShadowSoft = defineComponent788({
+  name: "ShadowSoft",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27572,16 +27572,16 @@ var Share = defineComponent788({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m9.75 3.75-7.5 7.5 7.5 7.5v-4.5c3.382 0 6.646 1.241 9.174 3.488l2.826 2.512c0-6.627-5.373-12-12-12z"/>`
+        innerHTML: `<path d="M14.248 15.752A7.47 7.47 0 0 1 9.75 17.25q-.706 0-1.374-.126m5.872-1.372a7.5 7.5 0 0 0 1.837-1.986 7.5 7.5 0 1 0-10.816 2m8.979-.014-4.96 4.96m4.96-4.96.002-.002m-5.874 1.374a7.5 7.5 0 0 1-3.106-1.359m3.106 1.36-2.531 2.53M3.75 17.25v.035l1.52-1.52m8.243 5.222 6.142-6.142m-.568 5.068 2.663-2.663"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ShareAndroid.ts
+// src/icons/Share.ts
 import { defineComponent as defineComponent789, h as h789 } from "vue";
-var ShareAndroid = defineComponent789({
-  name: "ShareAndroid",
+var Share = defineComponent789({
+  name: "Share",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27607,16 +27607,16 @@ var ShareAndroid = defineComponent789({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m9.16 7.388 6.18 3.224M9.16 7.388a3 3 0 1 0-5.32-2.776 3 3 0 0 0 5.32 2.776m6.18 3.224a3 3 0 1 1 0 2.776m0-2.776c-.217.415-.34.887-.34 1.388s.123.973.34 1.388m0 0-6.18 3.224m0 0a3 3 0 1 0-5.318 2.775 3 3 0 0 0 5.318-2.775"/>`
+        innerHTML: `<path d="m9.75 3.75-7.5 7.5 7.5 7.5v-4.5c3.382 0 6.646 1.241 9.174 3.488l2.826 2.512c0-6.627-5.373-12-12-12z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ShareIos.ts
+// src/icons/ShareAndroid.ts
 import { defineComponent as defineComponent790, h as h790 } from "vue";
-var ShareIos = defineComponent790({
-  name: "ShareIos",
+var ShareAndroid = defineComponent790({
+  name: "ShareAndroid",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27642,16 +27642,16 @@ var ShareIos = defineComponent790({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M8.25 11.25h-3a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5a1.5 1.5 0 0 0-1.5-1.5h-3M12 15.75V2.25m0 0-4.5 4.5m4.5-4.5 4.5 4.5"/>`
+        innerHTML: `<path d="m9.16 7.388 6.18 3.224M9.16 7.388a3 3 0 1 0-5.32-2.776 3 3 0 0 0 5.32 2.776m6.18 3.224a3 3 0 1 1 0 2.776m0-2.776c-.217.415-.34.887-.34 1.388s.123.973.34 1.388m0 0-6.18 3.224m0 0a3 3 0 1 0-5.318 2.775 3 3 0 0 0 5.318-2.775"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Shelf.ts
+// src/icons/ShareIos.ts
 import { defineComponent as defineComponent791, h as h791 } from "vue";
-var Shelf = defineComponent791({
-  name: "Shelf",
+var ShareIos = defineComponent791({
+  name: "ShareIos",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27677,16 +27677,16 @@ var Shelf = defineComponent791({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6.75 20.25v1.5m0-1.5v-6m0 6H9m8.25 1.5v-1.5m0 0v-6m0 6H13.5m-6.75-6v-6m0 6h4.5m6 0v-6m0 6h-3m-7.5-6v-4.5a1.5 1.5 0 0 1 1.5-1.5h7.5a1.5 1.5 0 0 1 1.5 1.5v4.5m-10.5 0h4.5m6 0h-6m0 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m3 6v-3h-3v3m3 0h-3m-2.25 6h4.5m-4.5 0v-.75l2.25-3 2.25 3v.75"/>`
+        innerHTML: `<path d="M8.25 11.25h-3a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5a1.5 1.5 0 0 0-1.5-1.5h-3M12 15.75V2.25m0 0-4.5 4.5m4.5-4.5 4.5 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Shield.ts
+// src/icons/Shelf.ts
 import { defineComponent as defineComponent792, h as h792 } from "vue";
-var Shield = defineComponent792({
-  name: "Shield",
+var Shelf = defineComponent792({
+  name: "Shelf",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27712,16 +27712,16 @@ var Shield = defineComponent792({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3.75 10.949V3.75a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v7.199c0 5.048-3.38 9.473-8.25 10.801a11.196 11.196 0 0 1-8.25-10.801"/>`
+        innerHTML: `<path d="M6.75 20.25v1.5m0-1.5v-6m0 6H9m8.25 1.5v-1.5m0 0v-6m0 6H13.5m-6.75-6v-6m0 6h4.5m6 0v-6m0 6h-3m-7.5-6v-4.5a1.5 1.5 0 0 1 1.5-1.5h7.5a1.5 1.5 0 0 1 1.5 1.5v4.5m-10.5 0h4.5m6 0h-6m0 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m3 6v-3h-3v3m3 0h-3m-2.25 6h4.5m-4.5 0v-.75l2.25-3 2.25 3v.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ShieldCheck.ts
+// src/icons/Shield.ts
 import { defineComponent as defineComponent793, h as h793 } from "vue";
-var ShieldCheck = defineComponent793({
-  name: "ShieldCheck",
+var Shield = defineComponent793({
+  name: "Shield",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27747,16 +27747,16 @@ var ShieldCheck = defineComponent793({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 21.75a11.196 11.196 0 0 1-8.25-10.801V3.75a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v7.199q0 .34-.02.678m-5.98 7.123 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
+        innerHTML: `<path d="M3.75 10.949V3.75a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v7.199c0 5.048-3.38 9.473-8.25 10.801a11.196 11.196 0 0 1-8.25-10.801"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ShieldCross.ts
+// src/icons/ShieldCheck.ts
 import { defineComponent as defineComponent794, h as h794 } from "vue";
-var ShieldCross = defineComponent794({
-  name: "ShieldCross",
+var ShieldCheck = defineComponent794({
+  name: "ShieldCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27782,16 +27782,16 @@ var ShieldCross = defineComponent794({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m15.75 22.5 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75m-3.75 6a11.196 11.196 0 0 1-8.25-10.801V3.75a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v7.199q0 .34-.02.678"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 21.75a11.196 11.196 0 0 1-8.25-10.801V3.75a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v7.199q0 .34-.02.678m-5.98 7.123 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ShieldSearch.ts
+// src/icons/ShieldCross.ts
 import { defineComponent as defineComponent795, h as h795 } from "vue";
-var ShieldSearch = defineComponent795({
-  name: "ShieldSearch",
+var ShieldCross = defineComponent795({
+  name: "ShieldCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27817,16 +27817,16 @@ var ShieldSearch = defineComponent795({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 21.75a11.196 11.196 0 0 1-8.25-10.801V3.75a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v7.199q0 .34-.02.678M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m15.75 22.5 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75m-3.75 6a11.196 11.196 0 0 1-8.25-10.801V3.75a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v7.199q0 .34-.02.678"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ShieldSettings.ts
+// src/icons/ShieldSearch.ts
 import { defineComponent as defineComponent796, h as h796 } from "vue";
-var ShieldSettings = defineComponent796({
-  name: "ShieldSettings",
+var ShieldSearch = defineComponent796({
+  name: "ShieldSearch",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27852,16 +27852,16 @@ var ShieldSettings = defineComponent796({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M18.374 20.85a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.133 4.117h-1.65m-4.95 0h-1.65m7.048 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167M12 21.75a11.196 11.196 0 0 1-8.25-10.801V3.75a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v7.199q0 .34-.02.678"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 21.75a11.196 11.196 0 0 1-8.25-10.801V3.75a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v7.199q0 .34-.02.678M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ShoppingBag.ts
+// src/icons/ShieldSettings.ts
 import { defineComponent as defineComponent797, h as h797 } from "vue";
-var ShoppingBag = defineComponent797({
-  name: "ShoppingBag",
+var ShieldSettings = defineComponent797({
+  name: "ShieldSettings",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27887,16 +27887,16 @@ var ShoppingBag = defineComponent797({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M16.5 7.5h1.577a1.5 1.5 0 0 1 1.498 1.421l.592 11.25a1.5 1.5 0 0 1-1.498 1.579H5.33a1.5 1.5 0 0 1-1.498-1.579l.592-11.25A1.5 1.5 0 0 1 5.923 7.5H7.5m9 0v-.75a4.5 4.5 0 0 0-9 0v.75m9 0h-9m9 3a4.5 4.5 0 0 1-9 0"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M18.374 20.85a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.133 4.117h-1.65m-4.95 0h-1.65m7.048 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167M12 21.75a11.196 11.196 0 0 1-8.25-10.801V3.75a1.5 1.5 0 0 1 1.5-1.5h13.5a1.5 1.5 0 0 1 1.5 1.5v7.199q0 .34-.02.678"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ShoppingBagCheck.ts
+// src/icons/ShoppingBag.ts
 import { defineComponent as defineComponent798, h as h798 } from "vue";
-var ShoppingBagCheck = defineComponent798({
-  name: "ShoppingBagCheck",
+var ShoppingBag = defineComponent798({
+  name: "ShoppingBag",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27922,16 +27922,16 @@ var ShoppingBagCheck = defineComponent798({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M16.5 7.5h1.577a1.5 1.5 0 0 1 1.498 1.421l.134 2.547M16.5 7.5v-.75a4.5 4.5 0 0 0-9 0v.75m9 0h-9m0 0H5.923a1.5 1.5 0 0 0-1.498 1.421l-.592 11.25a1.5 1.5 0 0 0 1.498 1.579h7.056M16.4 11.44q.098-.455.099-.94m-9 0a4.5 4.5 0 0 0 4.452 4.5m2.298 3.75 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
+        innerHTML: `<path d="M16.5 7.5h1.577a1.5 1.5 0 0 1 1.498 1.421l.592 11.25a1.5 1.5 0 0 1-1.498 1.579H5.33a1.5 1.5 0 0 1-1.498-1.579l.592-11.25A1.5 1.5 0 0 1 5.923 7.5H7.5m9 0v-.75a4.5 4.5 0 0 0-9 0v.75m9 0h-9m9 3a4.5 4.5 0 0 1-9 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ShoppingBagCross.ts
+// src/icons/ShoppingBagCheck.ts
 import { defineComponent as defineComponent799, h as h799 } from "vue";
-var ShoppingBagCross = defineComponent799({
-  name: "ShoppingBagCross",
+var ShoppingBagCheck = defineComponent799({
+  name: "ShoppingBagCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27957,16 +27957,16 @@ var ShoppingBagCross = defineComponent799({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M16.5 7.5h1.577a1.5 1.5 0 0 1 1.498 1.421l.134 2.547M16.5 7.5v-.75a4.5 4.5 0 1 0-9 0v.75m9 0h-9m0 0H5.923a1.5 1.5 0 0 0-1.498 1.421l-.592 11.25a1.5 1.5 0 0 0 1.498 1.579h7.056m4.015-10.31q.097-.455.098-.94m-9 0a4.5 4.5 0 0 0 4.452 4.5m3.798 7.5 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M16.5 7.5h1.577a1.5 1.5 0 0 1 1.498 1.421l.134 2.547M16.5 7.5v-.75a4.5 4.5 0 0 0-9 0v.75m9 0h-9m0 0H5.923a1.5 1.5 0 0 0-1.498 1.421l-.592 11.25a1.5 1.5 0 0 0 1.498 1.579h7.056M16.4 11.44q.098-.455.099-.94m-9 0a4.5 4.5 0 0 0 4.452 4.5m2.298 3.75 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ShoppingBagMinus.ts
+// src/icons/ShoppingBagCross.ts
 import { defineComponent as defineComponent800, h as h800 } from "vue";
-var ShoppingBagMinus = defineComponent800({
-  name: "ShoppingBagMinus",
+var ShoppingBagCross = defineComponent800({
+  name: "ShoppingBagCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -27992,16 +27992,16 @@ var ShoppingBagMinus = defineComponent800({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M16.5 7.5h1.577a1.5 1.5 0 0 1 1.498 1.421l.134 2.547M16.5 7.5v-.75a4.5 4.5 0 1 0-9 0v.75m9 0h-9m0 0H5.923a1.5 1.5 0 0 0-1.498 1.421l-.592 11.25a1.5 1.5 0 0 0 1.498 1.579h7.056m4.015-10.31q.097-.455.098-.94m-9 0a4.5 4.5 0 0 0 4.452 4.5M22.5 18.375h-6.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M16.5 7.5h1.577a1.5 1.5 0 0 1 1.498 1.421l.134 2.547M16.5 7.5v-.75a4.5 4.5 0 1 0-9 0v.75m9 0h-9m0 0H5.923a1.5 1.5 0 0 0-1.498 1.421l-.592 11.25a1.5 1.5 0 0 0 1.498 1.579h7.056m4.015-10.31q.097-.455.098-.94m-9 0a4.5 4.5 0 0 0 4.452 4.5m3.798 7.5 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ShoppingBagPlus.ts
+// src/icons/ShoppingBagMinus.ts
 import { defineComponent as defineComponent801, h as h801 } from "vue";
-var ShoppingBagPlus = defineComponent801({
-  name: "ShoppingBagPlus",
+var ShoppingBagMinus = defineComponent801({
+  name: "ShoppingBagMinus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28027,16 +28027,16 @@ var ShoppingBagPlus = defineComponent801({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M16.5 7.5h1.577a1.5 1.5 0 0 1 1.498 1.421l.134 2.547M16.5 7.5v-.75a4.5 4.5 0 1 0-9 0v.75m9 0h-9m0 0H5.923a1.5 1.5 0 0 0-1.498 1.421l-.592 11.25a1.5 1.5 0 0 0 1.498 1.579h7.056m4.015-10.31q.097-.455.098-.94m-9 0a4.5 4.5 0 0 0 4.452 4.5m6.423 7.5v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M16.5 7.5h1.577a1.5 1.5 0 0 1 1.498 1.421l.134 2.547M16.5 7.5v-.75a4.5 4.5 0 1 0-9 0v.75m9 0h-9m0 0H5.923a1.5 1.5 0 0 0-1.498 1.421l-.592 11.25a1.5 1.5 0 0 0 1.498 1.579h7.056m4.015-10.31q.097-.455.098-.94m-9 0a4.5 4.5 0 0 0 4.452 4.5M22.5 18.375h-6.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Shower.ts
+// src/icons/ShoppingBagPlus.ts
 import { defineComponent as defineComponent802, h as h802 } from "vue";
-var Shower = defineComponent802({
-  name: "Shower",
+var ShoppingBagPlus = defineComponent802({
+  name: "ShoppingBagPlus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28062,16 +28062,16 @@ var Shower = defineComponent802({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M4.5 2.25v19.5m15 0V5.25a3 3 0 0 0-3-3H15a3 3 0 0 0-3 3m0 0h.75a3 3 0 0 1 3 3h-7.5a3 3 0 0 1 3-3zm-3 6v1.5m3-1.5v1.5m3-1.5v1.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M16.5 7.5h1.577a1.5 1.5 0 0 1 1.498 1.421l.134 2.547M16.5 7.5v-.75a4.5 4.5 0 1 0-9 0v.75m9 0h-9m0 0H5.923a1.5 1.5 0 0 0-1.498 1.421l-.592 11.25a1.5 1.5 0 0 0 1.498 1.579h7.056m4.015-10.31q.097-.455.098-.94m-9 0a4.5 4.5 0 0 0 4.452 4.5m6.423 7.5v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Shuffle.ts
+// src/icons/Shower.ts
 import { defineComponent as defineComponent803, h as h803 } from "vue";
-var Shuffle = defineComponent803({
-  name: "Shuffle",
+var Shower = defineComponent803({
+  name: "Shower",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28097,16 +28097,16 @@ var Shuffle = defineComponent803({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m21.75 6.75-3-3m3 3-3 3m3-3h-3.293a6.75 6.75 0 0 0-5.477 2.805L11.219 12m7.531 8.25 3-3m0 0-3-3m3 3h-3.293a6.75 6.75 0 0 1-5.477-2.805L11.219 12m0 0-1.76 2.445A6.75 6.75 0 0 1 3.98 17.25H2.25M11.218 12l-1.76-2.445A6.75 6.75 0 0 0 3.98 6.75H2.25"/>`
+        innerHTML: `<path d="M4.5 2.25v19.5m15 0V5.25a3 3 0 0 0-3-3H15a3 3 0 0 0-3 3m0 0h.75a3 3 0 0 1 3 3h-7.5a3 3 0 0 1 3-3zm-3 6v1.5m3-1.5v1.5m3-1.5v1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Signal.ts
+// src/icons/Shuffle.ts
 import { defineComponent as defineComponent804, h as h804 } from "vue";
-var Signal = defineComponent804({
-  name: "Signal",
+var Shuffle = defineComponent804({
+  name: "Shuffle",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28132,16 +28132,16 @@ var Signal = defineComponent804({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M14.652 14.651A3.74 3.74 0 0 0 15.75 12c0-1.036-.42-1.973-1.098-2.652m-5.304 5.303A3.74 3.74 0 0 1 8.25 12c0-1.036.42-1.973 1.098-2.652m9.546 9.546A9.72 9.72 0 0 0 21.75 12a9.72 9.72 0 0 0-2.856-6.895m-2.121 11.668A6.73 6.73 0 0 0 18.75 12a6.73 6.73 0 0 0-1.977-4.773M5.106 18.894A9.72 9.72 0 0 1 2.25 12a9.72 9.72 0 0 1 2.856-6.895m2.121 11.668A6.73 6.73 0 0 1 5.25 12c0-1.864.756-3.552 1.977-4.773M11.25 12a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m21.75 6.75-3-3m3 3-3 3m3-3h-3.293a6.75 6.75 0 0 0-5.477 2.805L11.219 12m7.531 8.25 3-3m0 0-3-3m3 3h-3.293a6.75 6.75 0 0 1-5.477-2.805L11.219 12m0 0-1.76 2.445A6.75 6.75 0 0 1 3.98 17.25H2.25M11.218 12l-1.76-2.445A6.75 6.75 0 0 0 3.98 6.75H2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Signpost.ts
+// src/icons/Signal.ts
 import { defineComponent as defineComponent805, h as h805 } from "vue";
-var Signpost = defineComponent805({
-  name: "Signpost",
+var Signal = defineComponent805({
+  name: "Signal",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28167,16 +28167,16 @@ var Signpost = defineComponent805({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M11.25 5.25h5.379a1.5 1.5 0 0 1 1.06.44l2.25 2.25a1.5 1.5 0 0 1 0 2.12l-2.25 2.25a1.5 1.5 0 0 1-1.06.44H11.25m0-7.5h-6a1.5 1.5 0 0 0-1.5 1.5v4.5a1.5 1.5 0 0 0 1.5 1.5h6m0-7.5v-3m0 10.5v9"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M14.652 14.651A3.74 3.74 0 0 0 15.75 12c0-1.036-.42-1.973-1.098-2.652m-5.304 5.303A3.74 3.74 0 0 1 8.25 12c0-1.036.42-1.973 1.098-2.652m9.546 9.546A9.72 9.72 0 0 0 21.75 12a9.72 9.72 0 0 0-2.856-6.895m-2.121 11.668A6.73 6.73 0 0 0 18.75 12a6.73 6.73 0 0 0-1.977-4.773M5.106 18.894A9.72 9.72 0 0 1 2.25 12a9.72 9.72 0 0 1 2.856-6.895m2.121 11.668A6.73 6.73 0 0 1 5.25 12c0-1.864.756-3.552 1.977-4.773M11.25 12a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SignpostAlt.ts
+// src/icons/Signpost.ts
 import { defineComponent as defineComponent806, h as h806 } from "vue";
-var SignpostAlt = defineComponent806({
-  name: "SignpostAlt",
+var Signpost = defineComponent806({
+  name: "Signpost",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28202,16 +28202,16 @@ var SignpostAlt = defineComponent806({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 9.75h5.379a1.5 1.5 0 0 0 1.06-.44l1.5-1.5a1.5 1.5 0 0 0 0-2.12l-1.5-1.5a1.5 1.5 0 0 0-1.06-.44H12m0 6H6.75a1.5 1.5 0 0 1-1.5-1.5v-3a1.5 1.5 0 0 1 1.5-1.5H12m0 6v3m0-10.5v1.5m0 9h5.25a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5H12m0-6H6.621a1.5 1.5 0 0 0-1.06.44l-1.5 1.5a1.5 1.5 0 0 0 0 2.12l1.5 1.5a1.5 1.5 0 0 0 1.06.44H12m0 0v3"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M11.25 5.25h5.379a1.5 1.5 0 0 1 1.06.44l2.25 2.25a1.5 1.5 0 0 1 0 2.12l-2.25 2.25a1.5 1.5 0 0 1-1.06.44H11.25m0-7.5h-6a1.5 1.5 0 0 0-1.5 1.5v4.5a1.5 1.5 0 0 0 1.5 1.5h6m0-7.5v-3m0 10.5v9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Sink.ts
+// src/icons/SignpostAlt.ts
 import { defineComponent as defineComponent807, h as h807 } from "vue";
-var Sink = defineComponent807({
-  name: "Sink",
+var SignpostAlt = defineComponent807({
+  name: "SignpostAlt",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28237,16 +28237,16 @@ var Sink = defineComponent807({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M11.25 9h9a1.5 1.5 0 0 1 1.5 1.5v8.25a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5V10.5A1.5 1.5 0 0 1 3.75 9h4.5m3 0V7.5m0 1.5h-1.5m-1.5 0V7.5m0 1.5h1.5m0 0V6a3 3 0 1 1 6 0m-10.5 7.5v.75a3 3 0 0 0 3 3h7.5a3 3 0 0 0 3-3v-.75m-6-.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 9.75h5.379a1.5 1.5 0 0 0 1.06-.44l1.5-1.5a1.5 1.5 0 0 0 0-2.12l-1.5-1.5a1.5 1.5 0 0 0-1.06-.44H12m0 6H6.75a1.5 1.5 0 0 1-1.5-1.5v-3a1.5 1.5 0 0 1 1.5-1.5H12m0 6v3m0-10.5v1.5m0 9h5.25a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5H12m0-6H6.621a1.5 1.5 0 0 0-1.06.44l-1.5 1.5a1.5 1.5 0 0 0 0 2.12l1.5 1.5a1.5 1.5 0 0 0 1.06.44H12m0 0v3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Skull.ts
+// src/icons/Sink.ts
 import { defineComponent as defineComponent808, h as h808 } from "vue";
-var Skull = defineComponent808({
-  name: "Skull",
+var Sink = defineComponent808({
+  name: "Sink",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28272,16 +28272,16 @@ var Skull = defineComponent808({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9 21.75H7.486c-.673 0-1.543-.485-1.543-1.083 0-.599-.439-1.084-1.112-1.084-.461 0-.883-.231-1.09-.598a.98.98 0 0 1 0-.97.985.985 0 0 0-.115-1.134l-.735-.872c-.416-.493-.641-1.562-.641-2.178 0-.84.28-2.412.804-3.112.217-.364.28-.802.2-1.19C2.25 3.75 7.878 2.25 12 2.25s9.75 1.5 8.745 7.28c-.066.417.006.856.2 1.19.525.698.805 2.27.805 3.11 0 .617-.225 1.686-.64 2.18l-.736.871a.985.985 0 0 0-.115 1.134.98.98 0 0 1 0 .97c-.207.367-.629.598-1.09.598-.674 0-1.112.485-1.112 1.084 0 .598-.87 1.083-1.543 1.083H15m-6 0v-1.625m0 1.625h3m3 0v-1.625m0 1.625h-3m0 0v-1.625m-.61-2.708a.94.94 0 0 1 1.22 0m5.75-3.538c0-1.291-1.106-2.296-2.55-2.153-1.338.132-2.459 1.203-2.31 2.392.163 1.304 1.582 2.181 3.014 1.863 1.085-.241 1.846-1.108 1.846-2.102m-7.86.24c.149-1.19-.972-2.261-2.31-2.393-1.444-.143-2.55.862-2.55 2.153 0 .994.761 1.86 1.846 2.102 1.432.318 2.851-.559 3.014-1.863"/>`
+        innerHTML: `<path d="M11.25 9h9a1.5 1.5 0 0 1 1.5 1.5v8.25a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5V10.5A1.5 1.5 0 0 1 3.75 9h4.5m3 0V7.5m0 1.5h-1.5m-1.5 0V7.5m0 1.5h1.5m0 0V6a3 3 0 1 1 6 0m-10.5 7.5v.75a3 3 0 0 0 3 3h7.5a3 3 0 0 0 3-3v-.75m-6-.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Slice.ts
+// src/icons/Skull.ts
 import { defineComponent as defineComponent809, h as h809 } from "vue";
-var Slice = defineComponent809({
-  name: "Slice",
+var Skull = defineComponent809({
+  name: "Skull",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28307,16 +28307,16 @@ var Slice = defineComponent809({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M6.429 9.75 2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m-11.142 0L2.25 12l4.179 2.25m0-4.5 5.571 3 5.571-3m0 0L21.75 12l-4.179 2.25m-11.142 0L2.25 16.5 12 21.75l9.75-5.25-4.179-2.25m-11.142 0 5.571 3 5.571-3"/>`
+        innerHTML: `<path d="M9 21.75H7.486c-.673 0-1.543-.485-1.543-1.083 0-.599-.439-1.084-1.112-1.084-.461 0-.883-.231-1.09-.598a.98.98 0 0 1 0-.97.985.985 0 0 0-.115-1.134l-.735-.872c-.416-.493-.641-1.562-.641-2.178 0-.84.28-2.412.804-3.112.217-.364.28-.802.2-1.19C2.25 3.75 7.878 2.25 12 2.25s9.75 1.5 8.745 7.28c-.066.417.006.856.2 1.19.525.698.805 2.27.805 3.11 0 .617-.225 1.686-.64 2.18l-.736.871a.985.985 0 0 0-.115 1.134.98.98 0 0 1 0 .97c-.207.367-.629.598-1.09.598-.674 0-1.112.485-1.112 1.084 0 .598-.87 1.083-1.543 1.083H15m-6 0v-1.625m0 1.625h3m3 0v-1.625m0 1.625h-3m0 0v-1.625m-.61-2.708a.94.94 0 0 1 1.22 0m5.75-3.538c0-1.291-1.106-2.296-2.55-2.153-1.338.132-2.459 1.203-2.31 2.392.163 1.304 1.582 2.181 3.014 1.863 1.085-.241 1.846-1.108 1.846-2.102m-7.86.24c.149-1.19-.972-2.261-2.31-2.393-1.444-.143-2.55.862-2.55 2.153 0 .994.761 1.86 1.846 2.102 1.432.318 2.851-.559 3.014-1.863"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SliderHorizontal.ts
+// src/icons/Slice.ts
 import { defineComponent as defineComponent810, h as h810 } from "vue";
-var SliderHorizontal = defineComponent810({
-  name: "SliderHorizontal",
+var Slice = defineComponent810({
+  name: "Slice",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28342,16 +28342,16 @@ var SliderHorizontal = defineComponent810({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 12h10.5m0 0V7.5a2.25 2.25 0 0 1 4.5 0V12m-4.5 0v4.5a2.25 2.25 0 0 0 4.5 0V12m0 0h4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M6.429 9.75 2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m-11.142 0L2.25 12l4.179 2.25m0-4.5 5.571 3 5.571-3m0 0L21.75 12l-4.179 2.25m-11.142 0L2.25 16.5 12 21.75l9.75-5.25-4.179-2.25m-11.142 0 5.571 3 5.571-3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SliderVertical.ts
+// src/icons/SliderHorizontal.ts
 import { defineComponent as defineComponent811, h as h811 } from "vue";
-var SliderVertical = defineComponent811({
-  name: "SliderVertical",
+var SliderHorizontal = defineComponent811({
+  name: "SliderHorizontal",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28377,16 +28377,16 @@ var SliderVertical = defineComponent811({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 21.75v-10.5m0 0H7.5a2.25 2.25 0 0 1 0-4.5H12m0 4.5h4.5a2.25 2.25 0 0 0 0-4.5H12m0 0v-4.5"/>`
+        innerHTML: `<path d="M2.25 12h10.5m0 0V7.5a2.25 2.25 0 0 1 4.5 0V12m-4.5 0v4.5a2.25 2.25 0 0 0 4.5 0V12m0 0h4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SlidersHorizontal.ts
+// src/icons/SliderVertical.ts
 import { defineComponent as defineComponent812, h as h812 } from "vue";
-var SlidersHorizontal = defineComponent812({
-  name: "SlidersHorizontal",
+var SliderVertical = defineComponent812({
+  name: "SliderVertical",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28412,16 +28412,16 @@ var SlidersHorizontal = defineComponent812({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M17.25 6.75h4.5m-4.5 0a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0m0 0H2.25m9 10.5h10.5m-10.5 0a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0m0 0h-4.5"/>`
+        innerHTML: `<path d="M12 21.75v-10.5m0 0H7.5a2.25 2.25 0 0 1 0-4.5H12m0 4.5h4.5a2.25 2.25 0 0 0 0-4.5H12m0 0v-4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SlidersHorizontalCheck.ts
+// src/icons/SlidersHorizontal.ts
 import { defineComponent as defineComponent813, h as h813 } from "vue";
-var SlidersHorizontalCheck = defineComponent813({
-  name: "SlidersHorizontalCheck",
+var SlidersHorizontal = defineComponent813({
+  name: "SlidersHorizontal",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28447,16 +28447,16 @@ var SlidersHorizontalCheck = defineComponent813({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M17.25 6.75h4.5m-4.5 0a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0m0 0H2.25m4.5 10.5h-4.5m4.5 0a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0m7.5 1.5 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M17.25 6.75h4.5m-4.5 0a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0m0 0H2.25m9 10.5h10.5m-10.5 0a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0m0 0h-4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SlidersHorizontalCross.ts
+// src/icons/SlidersHorizontalCheck.ts
 import { defineComponent as defineComponent814, h as h814 } from "vue";
-var SlidersHorizontalCross = defineComponent814({
-  name: "SlidersHorizontalCross",
+var SlidersHorizontalCheck = defineComponent814({
+  name: "SlidersHorizontalCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28482,16 +28482,16 @@ var SlidersHorizontalCross = defineComponent814({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M17.25 6.75h4.5m-4.5 0a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0m0 0H2.25m4.5 10.5h-4.5m4.5 0a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0m9 5.25 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M17.25 6.75h4.5m-4.5 0a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0m0 0H2.25m4.5 10.5h-4.5m4.5 0a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0m7.5 1.5 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SlidersHorizontalMinus.ts
+// src/icons/SlidersHorizontalCross.ts
 import { defineComponent as defineComponent815, h as h815 } from "vue";
-var SlidersHorizontalMinus = defineComponent815({
-  name: "SlidersHorizontalMinus",
+var SlidersHorizontalCross = defineComponent815({
+  name: "SlidersHorizontalCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28517,16 +28517,16 @@ var SlidersHorizontalMinus = defineComponent815({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M17.25 6.75h4.5m-4.5 0a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0m0 0H2.25m4.5 10.5h-4.5m4.5 0a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0m15.75 1.125h-6.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M17.25 6.75h4.5m-4.5 0a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0m0 0H2.25m4.5 10.5h-4.5m4.5 0a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0m9 5.25 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SlidersHorizontalPlus.ts
+// src/icons/SlidersHorizontalMinus.ts
 import { defineComponent as defineComponent816, h as h816 } from "vue";
-var SlidersHorizontalPlus = defineComponent816({
-  name: "SlidersHorizontalPlus",
+var SlidersHorizontalMinus = defineComponent816({
+  name: "SlidersHorizontalMinus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28552,16 +28552,16 @@ var SlidersHorizontalPlus = defineComponent816({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M17.25 6.75h4.5m-4.5 0a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0m0 0H2.25m4.5 10.5h-4.5m4.5 0a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0m11.625 5.25v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M17.25 6.75h4.5m-4.5 0a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0m0 0H2.25m4.5 10.5h-4.5m4.5 0a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0m15.75 1.125h-6.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SlidersHorizontalSettings.ts
+// src/icons/SlidersHorizontalPlus.ts
 import { defineComponent as defineComponent817, h as h817 } from "vue";
-var SlidersHorizontalSettings = defineComponent817({
-  name: "SlidersHorizontalSettings",
+var SlidersHorizontalPlus = defineComponent817({
+  name: "SlidersHorizontalPlus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28587,16 +28587,16 @@ var SlidersHorizontalSettings = defineComponent817({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M17.25 6.75h4.5m-4.5 0a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0m0 0H2.25m4.5 10.5h-4.5m4.5 0a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0m11.624 3.6a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.134 4.117h-1.65m-4.95 0h-1.65m7.047 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M17.25 6.75h4.5m-4.5 0a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0m0 0H2.25m4.5 10.5h-4.5m4.5 0a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0m11.625 5.25v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SlidersVertical.ts
+// src/icons/SlidersHorizontalSettings.ts
 import { defineComponent as defineComponent818, h as h818 } from "vue";
-var SlidersVertical = defineComponent818({
-  name: "SlidersVertical",
+var SlidersHorizontalSettings = defineComponent818({
+  name: "SlidersHorizontalSettings",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28622,16 +28622,16 @@ var SlidersVertical = defineComponent818({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M6.75 17.25v4.5m0-4.5a2.25 2.25 0 0 0 0-4.5m0 4.5a2.25 2.25 0 0 1 0-4.5m0 0V2.25m10.5 9v10.5m0-10.5a2.25 2.25 0 0 0 0-4.5m0 4.5a2.25 2.25 0 0 1 0-4.5m0 0v-4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M17.25 6.75h4.5m-4.5 0a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0m0 0H2.25m4.5 10.5h-4.5m4.5 0a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0m11.624 3.6a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.134 4.117h-1.65m-4.95 0h-1.65m7.047 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SlidersVerticalCheck.ts
+// src/icons/SlidersVertical.ts
 import { defineComponent as defineComponent819, h as h819 } from "vue";
-var SlidersVerticalCheck = defineComponent819({
-  name: "SlidersVerticalCheck",
+var SlidersVertical = defineComponent819({
+  name: "SlidersVertical",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28657,16 +28657,16 @@ var SlidersVerticalCheck = defineComponent819({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M6.75 17.25v4.5m0-4.5a2.25 2.25 0 0 0 0-4.5m0 4.5a2.25 2.25 0 0 1 0-4.5m0 0V2.25m10.5 4.5v-4.5m0 4.5a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5m-3 12 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M6.75 17.25v4.5m0-4.5a2.25 2.25 0 0 0 0-4.5m0 4.5a2.25 2.25 0 0 1 0-4.5m0 0V2.25m10.5 9v10.5m0-10.5a2.25 2.25 0 0 0 0-4.5m0 4.5a2.25 2.25 0 0 1 0-4.5m0 0v-4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SlidersVerticalCross.ts
+// src/icons/SlidersVerticalCheck.ts
 import { defineComponent as defineComponent820, h as h820 } from "vue";
-var SlidersVerticalCross = defineComponent820({
-  name: "SlidersVerticalCross",
+var SlidersVerticalCheck = defineComponent820({
+  name: "SlidersVerticalCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28692,16 +28692,16 @@ var SlidersVerticalCross = defineComponent820({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M6.75 17.25v4.5m0-4.5a2.25 2.25 0 0 0 0-4.5m0 4.5a2.25 2.25 0 0 1 0-4.5m0 0V2.25m10.5 4.5v-4.5m0 4.5a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5m-1.5 15.75 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M6.75 17.25v4.5m0-4.5a2.25 2.25 0 0 0 0-4.5m0 4.5a2.25 2.25 0 0 1 0-4.5m0 0V2.25m10.5 4.5v-4.5m0 4.5a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5m-3 12 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SlidersVerticalMinus.ts
+// src/icons/SlidersVerticalCross.ts
 import { defineComponent as defineComponent821, h as h821 } from "vue";
-var SlidersVerticalMinus = defineComponent821({
-  name: "SlidersVerticalMinus",
+var SlidersVerticalCross = defineComponent821({
+  name: "SlidersVerticalCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28727,16 +28727,16 @@ var SlidersVerticalMinus = defineComponent821({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M6.75 17.25v4.5m0-4.5a2.25 2.25 0 0 0 0-4.5m0 4.5a2.25 2.25 0 0 1 0-4.5m0 0V2.25m10.5 4.5v-4.5m0 4.5a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5m5.25 11.625h-6.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M6.75 17.25v4.5m0-4.5a2.25 2.25 0 0 0 0-4.5m0 4.5a2.25 2.25 0 0 1 0-4.5m0 0V2.25m10.5 4.5v-4.5m0 4.5a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5m-1.5 15.75 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SlidersVerticalPlus.ts
+// src/icons/SlidersVerticalMinus.ts
 import { defineComponent as defineComponent822, h as h822 } from "vue";
-var SlidersVerticalPlus = defineComponent822({
-  name: "SlidersVerticalPlus",
+var SlidersVerticalMinus = defineComponent822({
+  name: "SlidersVerticalMinus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28762,16 +28762,16 @@ var SlidersVerticalPlus = defineComponent822({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M6.75 17.25v4.5m0-4.5a2.25 2.25 0 0 0 0-4.5m0 4.5a2.25 2.25 0 0 1 0-4.5m0 0V2.25m10.5 4.5v-4.5m0 4.5a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5m1.125 15.75v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M6.75 17.25v4.5m0-4.5a2.25 2.25 0 0 0 0-4.5m0 4.5a2.25 2.25 0 0 1 0-4.5m0 0V2.25m10.5 4.5v-4.5m0 4.5a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5m5.25 11.625h-6.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SlidersVerticalSettings.ts
+// src/icons/SlidersVerticalPlus.ts
 import { defineComponent as defineComponent823, h as h823 } from "vue";
-var SlidersVerticalSettings = defineComponent823({
-  name: "SlidersVerticalSettings",
+var SlidersVerticalPlus = defineComponent823({
+  name: "SlidersVerticalPlus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28797,16 +28797,16 @@ var SlidersVerticalSettings = defineComponent823({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M6.75 17.25v4.5m0-4.5a2.25 2.25 0 0 0 0-4.5m0 4.5a2.25 2.25 0 0 1 0-4.5m0 0V2.25m10.5 4.5v-4.5m0 4.5a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5m1.124 14.1a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.134 4.117h-1.65m-4.95 0h-1.65m7.047 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M6.75 17.25v4.5m0-4.5a2.25 2.25 0 0 0 0-4.5m0 4.5a2.25 2.25 0 0 1 0-4.5m0 0V2.25m10.5 4.5v-4.5m0 4.5a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5m1.125 15.75v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SmartWatch.ts
+// src/icons/SlidersVerticalSettings.ts
 import { defineComponent as defineComponent824, h as h824 } from "vue";
-var SmartWatch = defineComponent824({
-  name: "SmartWatch",
+var SlidersVerticalSettings = defineComponent824({
+  name: "SlidersVerticalSettings",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28832,16 +28832,16 @@ var SmartWatch = defineComponent824({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M6.75 5.651a3 3 0 0 1 1.5-.401h7.5c.546 0 1.059.146 1.5.401m-10.5 0a3 3 0 0 0-1.5 2.599v7.5c0 1.11.603 2.08 1.5 2.599m0-12.698V3.75a1.5 1.5 0 0 1 1.5-1.5h7.5a1.5 1.5 0 0 1 1.5 1.5v1.901m0 0a3 3 0 0 1 1.5 2.599v7.5c0 1.11-.603 2.08-1.5 2.599m-10.5 0c.441.255.954.401 1.5.401h7.5c.546 0 1.059-.146 1.5-.401m-10.5 0v1.901a1.5 1.5 0 0 0 1.5 1.5h7.5a1.5 1.5 0 0 0 1.5-1.5v-1.901m-1.48-7.289c0 1.964-2.638 3.722-3.5 4.244a.52.52 0 0 1-.54 0c-.862-.522-3.5-2.28-3.5-4.244 0-2.554 2.985-2.637 3.705-.78.021.054.109.054.13 0 .72-1.857 3.705-1.774 3.705.78"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M6.75 17.25v4.5m0-4.5a2.25 2.25 0 0 0 0-4.5m0 4.5a2.25 2.25 0 0 1 0-4.5m0 0V2.25m10.5 4.5v-4.5m0 4.5a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5m1.124 14.1a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.134 4.117h-1.65m-4.95 0h-1.65m7.047 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SmileyNeutral.ts
+// src/icons/SmartWatch.ts
 import { defineComponent as defineComponent825, h as h825 } from "vue";
-var SmileyNeutral = defineComponent825({
-  name: "SmileyNeutral",
+var SmartWatch = defineComponent825({
+  name: "SmartWatch",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28867,16 +28867,16 @@ var SmileyNeutral = defineComponent825({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9.75 15h4.5M12 21.75c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75M8.25 12a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0m9 0a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M6.75 5.651a3 3 0 0 1 1.5-.401h7.5c.546 0 1.059.146 1.5.401m-10.5 0a3 3 0 0 0-1.5 2.599v7.5c0 1.11.603 2.08 1.5 2.599m0-12.698V3.75a1.5 1.5 0 0 1 1.5-1.5h7.5a1.5 1.5 0 0 1 1.5 1.5v1.901m0 0a3 3 0 0 1 1.5 2.599v7.5c0 1.11-.603 2.08-1.5 2.599m-10.5 0c.441.255.954.401 1.5.401h7.5c.546 0 1.059-.146 1.5-.401m-10.5 0v1.901a1.5 1.5 0 0 0 1.5 1.5h7.5a1.5 1.5 0 0 0 1.5-1.5v-1.901m-1.48-7.289c0 1.964-2.638 3.722-3.5 4.244a.52.52 0 0 1-.54 0c-.862-.522-3.5-2.28-3.5-4.244 0-2.554 2.985-2.637 3.705-.78.021.054.109.054.13 0 .72-1.857 3.705-1.774 3.705.78"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SmileySad.ts
+// src/icons/SmileyNeutral.ts
 import { defineComponent as defineComponent826, h as h826 } from "vue";
-var SmileySad = defineComponent826({
-  name: "SmileySad",
+var SmileyNeutral = defineComponent826({
+  name: "SmileyNeutral",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28902,16 +28902,16 @@ var SmileySad = defineComponent826({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9.75 15.932a3.18 3.18 0 0 1 4.5 0M12 21.75c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75M8.25 12a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0m9 0a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
+        innerHTML: `<path d="M9.75 15h4.5M12 21.75c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75M8.25 12a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0m9 0a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SmileySmile.ts
+// src/icons/SmileySad.ts
 import { defineComponent as defineComponent827, h as h827 } from "vue";
-var SmileySmile = defineComponent827({
-  name: "SmileySmile",
+var SmileySad = defineComponent827({
+  name: "SmileySad",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28937,16 +28937,16 @@ var SmileySmile = defineComponent827({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9.75 15a3.18 3.18 0 0 0 4.5 0M12 21.75c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75M8.25 12a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0m9 0a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
+        innerHTML: `<path d="M9.75 15.932a3.18 3.18 0 0 1 4.5 0M12 21.75c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75M8.25 12a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0m9 0a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SnapGrid.ts
+// src/icons/SmileySmile.ts
 import { defineComponent as defineComponent828, h as h828 } from "vue";
-var SnapGrid = defineComponent828({
-  name: "SnapGrid",
+var SmileySmile = defineComponent828({
+  name: "SmileySmile",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -28972,16 +28972,16 @@ var SnapGrid = defineComponent828({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 17.25v4.5h4.5m-4.5-4.5v-4.5h4.5m-4.5 4.5h4.5m4.5 0v-4.5h-4.5m4.5 4.5v4.5h-4.5m4.5-4.5h-4.5m0 0v-4.5m0 4.5v4.5M16.875 9.375 14.25 12l2.625 2.625L19.5 12m-2.625-2.625a1.591 1.591 0 0 0-2.25-2.25m2.25 2.25L19.5 12m-4.875-4.875L12 9.75 9.375 7.125 12 4.5m2.625 2.625L12 4.5m7.5 7.5.697-.697a5.303 5.303 0 1 0-7.5-7.5L12 4.5"/>`
+        innerHTML: `<path d="M9.75 15a3.18 3.18 0 0 0 4.5 0M12 21.75c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75M8.25 12a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0m9 0a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SnapVertex.ts
+// src/icons/SnapGrid.ts
 import { defineComponent as defineComponent829, h as h829 } from "vue";
-var SnapVertex = defineComponent829({
-  name: "SnapVertex",
+var SnapGrid = defineComponent829({
+  name: "SnapGrid",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29007,16 +29007,16 @@ var SnapVertex = defineComponent829({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M16.875 9.375 14.25 12l2.625 2.625L19.5 12m-2.625-2.625a1.591 1.591 0 0 0-2.25-2.25m2.25 2.25L19.5 12m-4.875-4.875L12 9.75 9.375 7.125 12 4.5m2.625 2.625L12 4.5m7.5 7.5.697-.697a5.303 5.303 0 1 0-7.5-7.5L12 4.5m-.75 15h-4.5m4.5 0a2.25 2.25 0 1 0 4.5 0 2.25 2.25 0 0 0-4.5 0m-4.5 0a2.25 2.25 0 0 0-2.25-2.25m2.25 2.25a2.25 2.25 0 1 1-2.25-2.25m0 0v-4.5m0 0a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5"/>`
+        innerHTML: `<path d="M2.25 17.25v4.5h4.5m-4.5-4.5v-4.5h4.5m-4.5 4.5h4.5m4.5 0v-4.5h-4.5m4.5 4.5v4.5h-4.5m4.5-4.5h-4.5m0 0v-4.5m0 4.5v4.5M16.875 9.375 14.25 12l2.625 2.625L19.5 12m-2.625-2.625a1.591 1.591 0 0 0-2.25-2.25m2.25 2.25L19.5 12m-4.875-4.875L12 9.75 9.375 7.125 12 4.5m2.625 2.625L12 4.5m7.5 7.5.697-.697a5.303 5.303 0 1 0-7.5-7.5L12 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Snowflake.ts
+// src/icons/SnapVertex.ts
 import { defineComponent as defineComponent830, h as h830 } from "vue";
-var Snowflake = defineComponent830({
-  name: "Snowflake",
+var SnapVertex = defineComponent830({
+  name: "SnapVertex",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29042,16 +29042,16 @@ var Snowflake = defineComponent830({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 2.25v4.5m0 0-3-3m3 3 3-3m-3 3V12m0 0v5.25M12 12l4.547-2.625M12 12l-4.547 2.625M12 12l4.547 2.625M12 12 7.453 9.375M12 17.25v4.5m0-4.5 3 3m-3-3-3 3M20.444 7.125l-3.897 2.25m0 0 1.098-4.098m-1.098 4.098 4.098 1.098M7.453 14.625l-3.897 2.25m3.897-2.25-1.098 4.098m1.098-4.098-4.098-1.098m17.089 3.348-3.897-2.25m0 0 4.098-1.098m-4.098 1.098 1.098 4.098M7.453 9.375l-3.897-2.25m3.897 2.25-4.098 1.098m4.098-1.098L6.355 5.277"/>`
+        innerHTML: `<path d="M16.875 9.375 14.25 12l2.625 2.625L19.5 12m-2.625-2.625a1.591 1.591 0 0 0-2.25-2.25m2.25 2.25L19.5 12m-4.875-4.875L12 9.75 9.375 7.125 12 4.5m2.625 2.625L12 4.5m7.5 7.5.697-.697a5.303 5.303 0 1 0-7.5-7.5L12 4.5m-.75 15h-4.5m4.5 0a2.25 2.25 0 1 0 4.5 0 2.25 2.25 0 0 0-4.5 0m-4.5 0a2.25 2.25 0 0 0-2.25-2.25m2.25 2.25a2.25 2.25 0 1 1-2.25-2.25m0 0v-4.5m0 0a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Sofa.ts
+// src/icons/Snowflake.ts
 import { defineComponent as defineComponent831, h as h831 } from "vue";
-var Sofa = defineComponent831({
-  name: "Sofa",
+var Snowflake = defineComponent831({
+  name: "Snowflake",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29077,16 +29077,16 @@ var Sofa = defineComponent831({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6 17.25h12m-12 0V13.5m0 3.75H3.75m14.25 0V13.5m0 3.75h2.25M6 13.5V9.75a1.5 1.5 0 0 0-1.5-1.5M6 13.5h12m0 0V9.75a1.5 1.5 0 0 1 1.5-1.5m-15.75 9v1.5m0-1.5a1.5 1.5 0 0 1-1.5-1.5v-6a1.5 1.5 0 0 1 1.5-1.5h.75m15.75 9v1.5m0-1.5a1.5 1.5 0 0 0 1.5-1.5v-6a1.5 1.5 0 0 0-1.5-1.5h-.75m0 0v-1.5a1.5 1.5 0 0 0-1.5-1.5H6a1.5 1.5 0 0 0-1.5 1.5v1.5"/>`
+        innerHTML: `<path d="M12 2.25v4.5m0 0-3-3m3 3 3-3m-3 3V12m0 0v5.25M12 12l4.547-2.625M12 12l-4.547 2.625M12 12l4.547 2.625M12 12 7.453 9.375M12 17.25v4.5m0-4.5 3 3m-3-3-3 3M20.444 7.125l-3.897 2.25m0 0 1.098-4.098m-1.098 4.098 4.098 1.098M7.453 14.625l-3.897 2.25m3.897-2.25-1.098 4.098m1.098-4.098-4.098-1.098m17.089 3.348-3.897-2.25m0 0 4.098-1.098m-4.098 1.098 1.098 4.098M7.453 9.375l-3.897-2.25m3.897 2.25-4.098 1.098m4.098-1.098L6.355 5.277"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Solidify.ts
+// src/icons/Sofa.ts
 import { defineComponent as defineComponent832, h as h832 } from "vue";
-var Solidify = defineComponent832({
-  name: "Solidify",
+var Sofa = defineComponent832({
+  name: "Sofa",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29112,16 +29112,16 @@ var Solidify = defineComponent832({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.75 10.5 15 6.75 8.113 10.5m13.637 0L15 14.25m6.75-3.75V18L15 21.75m0-7.5L8.113 10.5M15 14.25v7.5M8.113 10.5V18L15 21.75M4.5 2.25 2.638 5.278a2.186 2.186 0 1 0 3.724 0z"/>`
+        innerHTML: `<path d="M6 17.25h12m-12 0V13.5m0 3.75H3.75m14.25 0V13.5m0 3.75h2.25M6 13.5V9.75a1.5 1.5 0 0 0-1.5-1.5M6 13.5h12m0 0V9.75a1.5 1.5 0 0 1 1.5-1.5m-15.75 9v1.5m0-1.5a1.5 1.5 0 0 1-1.5-1.5v-6a1.5 1.5 0 0 1 1.5-1.5h.75m15.75 9v1.5m0-1.5a1.5 1.5 0 0 0 1.5-1.5v-6a1.5 1.5 0 0 0-1.5-1.5h-.75m0 0v-1.5a1.5 1.5 0 0 0-1.5-1.5H6a1.5 1.5 0 0 0-1.5 1.5v1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Sort.ts
+// src/icons/Solidify.ts
 import { defineComponent as defineComponent833, h as h833 } from "vue";
-var Sort = defineComponent833({
-  name: "Sort",
+var Solidify = defineComponent833({
+  name: "Solidify",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29147,16 +29147,16 @@ var Sort = defineComponent833({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M6 3v18M6 3 3 6m3-3 3 3M6 21l3-3m-3 3-3-3m9 .75h9m-9-4.5h6.75m-6.75-9h2.25M12 9.75h4.5"/>`
+        innerHTML: `<path d="M21.75 10.5 15 6.75 8.113 10.5m13.637 0L15 14.25m6.75-3.75V18L15 21.75m0-7.5L8.113 10.5M15 14.25v7.5M8.113 10.5V18L15 21.75M4.5 2.25 2.638 5.278a2.186 2.186 0 1 0 3.724 0z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SortAscending.ts
+// src/icons/Sort.ts
 import { defineComponent as defineComponent834, h as h834 } from "vue";
-var SortAscending = defineComponent834({
-  name: "SortAscending",
+var Sort = defineComponent834({
+  name: "Sort",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29182,16 +29182,16 @@ var SortAscending = defineComponent834({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M6 21V3m0 0 3 3M6 3 3 6m9-.75h9m-9 4.5h6.75m-6.75 9h2.25M12 14.25h4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M6 3v18M6 3 3 6m3-3 3 3M6 21l3-3m-3 3-3-3m9 .75h9m-9-4.5h6.75m-6.75-9h2.25M12 9.75h4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SortDescending.ts
+// src/icons/SortAscending.ts
 import { defineComponent as defineComponent835, h as h835 } from "vue";
-var SortDescending = defineComponent835({
-  name: "SortDescending",
+var SortAscending = defineComponent835({
+  name: "SortAscending",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29217,16 +29217,16 @@ var SortDescending = defineComponent835({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M6 3v18m0 0 3-3m-3 3-3-3m9 .75h9m-9-4.5h6.75m-6.75-9h2.25M12 9.75h4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M6 21V3m0 0 3 3M6 3 3 6m9-.75h9m-9 4.5h6.75m-6.75 9h2.25M12 14.25h4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SoundWave.ts
+// src/icons/SortDescending.ts
 import { defineComponent as defineComponent836, h as h836 } from "vue";
-var SoundWave = defineComponent836({
-  name: "SoundWave",
+var SortDescending = defineComponent836({
+  name: "SortDescending",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29252,16 +29252,16 @@ var SoundWave = defineComponent836({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 8.25s0 10.5 2.25 10.5c3 0 .75-15 4.5-15s2.25 16.5 6 16.5 1.5-15 4.5-15c2.25 0 2.25 10.5 2.25 10.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M6 3v18m0 0 3-3m-3 3-3-3m9 .75h9m-9-4.5h6.75m-6.75-9h2.25M12 9.75h4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Sparkle.ts
+// src/icons/SoundWave.ts
 import { defineComponent as defineComponent837, h as h837 } from "vue";
-var Sparkle = defineComponent837({
-  name: "Sparkle",
+var SoundWave = defineComponent837({
+  name: "SoundWave",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29287,16 +29287,16 @@ var Sparkle = defineComponent837({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M18 21.75A4.56 4.56 0 0 0 14.25 18 4.56 4.56 0 0 0 18 14.25 4.56 4.56 0 0 0 21.75 18 4.56 4.56 0 0 0 18 21.75M10.029 15.577 9.75 17.25l-.279-1.673a6.75 6.75 0 0 0-5.548-5.548L2.25 9.75l1.673-.279A6.75 6.75 0 0 0 9.47 3.923L9.75 2.25l.279 1.673a6.75 6.75 0 0 0 5.548 5.548l1.673.279-1.673.279a6.75 6.75 0 0 0-5.548 5.548"/>`
+        innerHTML: `<path d="M2.25 8.25s0 10.5 2.25 10.5c3 0 .75-15 4.5-15s2.25 16.5 6 16.5 1.5-15 4.5-15c2.25 0 2.25 10.5 2.25 10.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Speaker.ts
+// src/icons/Sparkle.ts
 import { defineComponent as defineComponent838, h as h838 } from "vue";
-var Speaker = defineComponent838({
-  name: "Speaker",
+var Sparkle = defineComponent838({
+  name: "Sparkle",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29322,16 +29322,16 @@ var Speaker = defineComponent838({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M16.5 18.75V5.25a1.5 1.5 0 0 0-1.5-1.5H9a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h6a1.5 1.5 0 0 0 1.5-1.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M18 21.75A4.56 4.56 0 0 0 14.25 18 4.56 4.56 0 0 0 18 14.25 4.56 4.56 0 0 0 21.75 18 4.56 4.56 0 0 0 18 21.75M10.029 15.577 9.75 17.25l-.279-1.673a6.75 6.75 0 0 0-5.548-5.548L2.25 9.75l1.673-.279A6.75 6.75 0 0 0 9.47 3.923L9.75 2.25l.279 1.673a6.75 6.75 0 0 0 5.548 5.548l1.673.279-1.673.279a6.75 6.75 0 0 0-5.548 5.548"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SpeakerHigh.ts
+// src/icons/Speaker.ts
 import { defineComponent as defineComponent839, h as h839 } from "vue";
-var SpeakerHigh = defineComponent839({
-  name: "SpeakerHigh",
+var Speaker = defineComponent839({
+  name: "Speaker",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29357,16 +29357,16 @@ var SpeakerHigh = defineComponent839({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M14.652 9.348A3.74 3.74 0 0 1 15.75 12c0 1.036-.42 1.973-1.098 2.652m2.121-7.425A6.73 6.73 0 0 1 18.75 12a6.73 6.73 0 0 1-1.977 4.773m2.121-11.667A9.72 9.72 0 0 1 21.75 12a9.72 9.72 0 0 1-2.856 6.894M11.25 5.25v13.5a1.5 1.5 0 0 1-1.5 1.5h-6a1.5 1.5 0 0 1-1.5-1.5V5.25a1.5 1.5 0 0 1 1.5-1.5h6a1.5 1.5 0 0 1 1.5 1.5m-6 9v1.5a1.5 1.5 0 0 0 3 0v-1.5a1.5 1.5 0 0 0-3 0m3-6a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>`
+        innerHTML: `<path d="M16.5 18.75V5.25a1.5 1.5 0 0 0-1.5-1.5H9a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5h6a1.5 1.5 0 0 0 1.5-1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SpeakerLow.ts
+// src/icons/SpeakerHigh.ts
 import { defineComponent as defineComponent840, h as h840 } from "vue";
-var SpeakerLow = defineComponent840({
-  name: "SpeakerLow",
+var SpeakerHigh = defineComponent840({
+  name: "SpeakerHigh",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29392,16 +29392,16 @@ var SpeakerLow = defineComponent840({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M17.652 9.348A3.74 3.74 0 0 1 18.75 12c0 1.036-.42 1.973-1.098 2.652M14.25 5.25v13.5a1.5 1.5 0 0 1-1.5 1.5h-6a1.5 1.5 0 0 1-1.5-1.5V5.25a1.5 1.5 0 0 1 1.5-1.5h6a1.5 1.5 0 0 1 1.5 1.5m-6 9v1.5a1.5 1.5 0 0 0 3 0v-1.5a1.5 1.5 0 0 0-3 0m3-6a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>`
+        innerHTML: `<path d="M14.652 9.348A3.74 3.74 0 0 1 15.75 12c0 1.036-.42 1.973-1.098 2.652m2.121-7.425A6.73 6.73 0 0 1 18.75 12a6.73 6.73 0 0 1-1.977 4.773m2.121-11.667A9.72 9.72 0 0 1 21.75 12a9.72 9.72 0 0 1-2.856 6.894M11.25 5.25v13.5a1.5 1.5 0 0 1-1.5 1.5h-6a1.5 1.5 0 0 1-1.5-1.5V5.25a1.5 1.5 0 0 1 1.5-1.5h6a1.5 1.5 0 0 1 1.5 1.5m-6 9v1.5a1.5 1.5 0 0 0 3 0v-1.5a1.5 1.5 0 0 0-3 0m3-6a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SpeakerMedium.ts
+// src/icons/SpeakerLow.ts
 import { defineComponent as defineComponent841, h as h841 } from "vue";
-var SpeakerMedium = defineComponent841({
-  name: "SpeakerMedium",
+var SpeakerLow = defineComponent841({
+  name: "SpeakerLow",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29427,16 +29427,16 @@ var SpeakerMedium = defineComponent841({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M16.152 9.348A3.74 3.74 0 0 1 17.25 12c0 1.036-.42 1.973-1.098 2.652m2.121-7.425A6.73 6.73 0 0 1 20.25 12a6.73 6.73 0 0 1-1.977 4.773M12.75 5.25v13.5a1.5 1.5 0 0 1-1.5 1.5h-6a1.5 1.5 0 0 1-1.5-1.5V5.25a1.5 1.5 0 0 1 1.5-1.5h6a1.5 1.5 0 0 1 1.5 1.5m-6 9v1.5a1.5 1.5 0 0 0 3 0v-1.5a1.5 1.5 0 0 0-3 0m3-6a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>`
+        innerHTML: `<path d="M17.652 9.348A3.74 3.74 0 0 1 18.75 12c0 1.036-.42 1.973-1.098 2.652M14.25 5.25v13.5a1.5 1.5 0 0 1-1.5 1.5h-6a1.5 1.5 0 0 1-1.5-1.5V5.25a1.5 1.5 0 0 1 1.5-1.5h6a1.5 1.5 0 0 1 1.5 1.5m-6 9v1.5a1.5 1.5 0 0 0 3 0v-1.5a1.5 1.5 0 0 0-3 0m3-6a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SpeakerMute.ts
+// src/icons/SpeakerMedium.ts
 import { defineComponent as defineComponent842, h as h842 } from "vue";
-var SpeakerMute = defineComponent842({
-  name: "SpeakerMute",
+var SpeakerMedium = defineComponent842({
+  name: "SpeakerMedium",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29462,16 +29462,16 @@ var SpeakerMute = defineComponent842({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M14.25 8.25 18 12m0 0 3.75 3.75M18 12l-3.75 3.75M18 12l3.75-3.75m-10.5-3v13.5a1.5 1.5 0 0 1-1.5 1.5h-6a1.5 1.5 0 0 1-1.5-1.5V5.25a1.5 1.5 0 0 1 1.5-1.5h6a1.5 1.5 0 0 1 1.5 1.5m-6 9v1.5a1.5 1.5 0 0 0 3 0v-1.5a1.5 1.5 0 0 0-3 0m3-6a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>`
+        innerHTML: `<path d="M16.152 9.348A3.74 3.74 0 0 1 17.25 12c0 1.036-.42 1.973-1.098 2.652m2.121-7.425A6.73 6.73 0 0 1 20.25 12a6.73 6.73 0 0 1-1.977 4.773M12.75 5.25v13.5a1.5 1.5 0 0 1-1.5 1.5h-6a1.5 1.5 0 0 1-1.5-1.5V5.25a1.5 1.5 0 0 1 1.5-1.5h6a1.5 1.5 0 0 1 1.5 1.5m-6 9v1.5a1.5 1.5 0 0 0 3 0v-1.5a1.5 1.5 0 0 0-3 0m3-6a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Speed.ts
+// src/icons/SpeakerMute.ts
 import { defineComponent as defineComponent843, h as h843 } from "vue";
-var Speed = defineComponent843({
-  name: "Speed",
+var SpeakerMute = defineComponent843({
+  name: "SpeakerMute",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29497,16 +29497,16 @@ var Speed = defineComponent843({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m12 15 .263-.702m0 0L14.25 9m-1.987 5.298a.75.75 0 1 1-.527 1.404.75.75 0 0 1 .527-1.404M12 3.75h.204a9.52 9.52 0 0 1 6.75 2.796M12 3.75h-.204a9.52 9.52 0 0 0-6.75 2.796M12 3.75v1.5M5.046 6.546A9.52 9.52 0 0 0 2.252 13.5m2.794-6.954L6 7.5m-3.748 6a9.55 9.55 0 0 0 2.794 6.546l.174.174q.03.03.072.03h13.416q.042 0 .072-.03l.174-.174a9.55 9.55 0 0 0 2.794-6.546m-19.496 0H3.75m17.998 0 .002-.204a9.52 9.52 0 0 0-2.796-6.75m2.794 6.954H20.25m-1.296-6.954L18 7.5"/>`
+        innerHTML: `<path d="M14.25 8.25 18 12m0 0 3.75 3.75M18 12l-3.75 3.75M18 12l3.75-3.75m-10.5-3v13.5a1.5 1.5 0 0 1-1.5 1.5h-6a1.5 1.5 0 0 1-1.5-1.5V5.25a1.5 1.5 0 0 1 1.5-1.5h6a1.5 1.5 0 0 1 1.5 1.5m-6 9v1.5a1.5 1.5 0 0 0 3 0v-1.5a1.5 1.5 0 0 0-3 0m3-6a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Spellcheck.ts
+// src/icons/Speed.ts
 import { defineComponent as defineComponent844, h as h844 } from "vue";
-var Spellcheck = defineComponent844({
-  name: "Spellcheck",
+var Speed = defineComponent844({
+  name: "Speed",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29532,16 +29532,16 @@ var Spellcheck = defineComponent844({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21 21.52a2.6 2.6 0 0 1-.75-.52l-.22-.22a1.81 1.81 0 0 0-2.56 0l-.44.44a1.81 1.81 0 0 1-2.56 0l-.44-.44a1.81 1.81 0 0 0-2.56 0l-.44.44a1.81 1.81 0 0 1-2.56 0l-.44-.44a1.81 1.81 0 0 0-2.56 0l-.44.44a1.81 1.81 0 0 1-2.03.367M7.421 12l2.627-8.32a2.047 2.047 0 0 1 3.904 0L16.579 12M7.42 12 6 16.5M7.421 12h9.158m0 0L18 16.5"/>`
+        innerHTML: `<path d="m12 15 .263-.702m0 0L14.25 9m-1.987 5.298a.75.75 0 1 1-.527 1.404.75.75 0 0 1 .527-1.404M12 3.75h.204a9.52 9.52 0 0 1 6.75 2.796M12 3.75h-.204a9.52 9.52 0 0 0-6.75 2.796M12 3.75v1.5M5.046 6.546A9.52 9.52 0 0 0 2.252 13.5m2.794-6.954L6 7.5m-3.748 6a9.55 9.55 0 0 0 2.794 6.546l.174.174q.03.03.072.03h13.416q.042 0 .072-.03l.174-.174a9.55 9.55 0 0 0 2.794-6.546m-19.496 0H3.75m17.998 0 .002-.204a9.52 9.52 0 0 0-2.796-6.75m2.794 6.954H20.25m-1.296-6.954L18 7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Sphere.ts
+// src/icons/Spellcheck.ts
 import { defineComponent as defineComponent845, h as h845 } from "vue";
-var Sphere = defineComponent845({
-  name: "Sphere",
+var Spellcheck = defineComponent845({
+  name: "Spellcheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29567,16 +29567,16 @@ var Sphere = defineComponent845({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 2.25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75m0-19.5c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75m0-19.5c-2.485 0-4.5 4.365-4.5 9.75s2.015 9.75 4.5 9.75"/>`
+        innerHTML: `<path d="M21 21.52a2.6 2.6 0 0 1-.75-.52l-.22-.22a1.81 1.81 0 0 0-2.56 0l-.44.44a1.81 1.81 0 0 1-2.56 0l-.44-.44a1.81 1.81 0 0 0-2.56 0l-.44.44a1.81 1.81 0 0 1-2.56 0l-.44-.44a1.81 1.81 0 0 0-2.56 0l-.44.44a1.81 1.81 0 0 1-2.03.367M7.421 12l2.627-8.32a2.047 2.047 0 0 1 3.904 0L16.579 12M7.42 12 6 16.5M7.421 12h9.158m0 0L18 16.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Spice.ts
+// src/icons/Sphere.ts
 import { defineComponent as defineComponent846, h as h846 } from "vue";
-var Spice = defineComponent846({
-  name: "Spice",
+var Sphere = defineComponent846({
+  name: "Sphere",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29602,16 +29602,16 @@ var Spice = defineComponent846({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6.75 6.75v-3a1.5 1.5 0 0 1 1.5-1.5h9a1.5 1.5 0 0 1 1.5 1.5v3m-12 0h12m-12 0a1.5 1.5 0 0 0-1.5 1.5v12a1.5 1.5 0 0 0 1.5 1.5h12a1.5 1.5 0 0 0 1.5-1.5v-12a1.5 1.5 0 0 0-1.5-1.5m-4.5 6.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0m3 4.5a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0M9 18a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5"/>`
+        innerHTML: `<path d="M12 2.25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75m0-19.5c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75m0-19.5c-2.485 0-4.5 4.365-4.5 9.75s2.015 9.75 4.5 9.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Spinner.ts
+// src/icons/Spice.ts
 import { defineComponent as defineComponent847, h as h847 } from "vue";
-var Spinner = defineComponent847({
-  name: "Spinner",
+var Spice = defineComponent847({
+  name: "Spice",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29637,16 +29637,16 @@ var Spinner = defineComponent847({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 2.25v3m0 16.5v-3m4.876-15.197-1.5 2.598M7.126 20.44l1.5-2.598M20.448 7.119l-2.599 1.5M3.56 16.869l2.598-1.5m15.6-3.376h-3m-16.5 0h3M3.56 7.132l2.598 1.5m14.29 8.25-2.599-1.5M7.126 3.56l1.5 2.598m8.25 14.29-1.5-2.599"/>`
+        innerHTML: `<path d="M6.75 6.75v-3a1.5 1.5 0 0 1 1.5-1.5h9a1.5 1.5 0 0 1 1.5 1.5v3m-12 0h12m-12 0a1.5 1.5 0 0 0-1.5 1.5v12a1.5 1.5 0 0 0 1.5 1.5h12a1.5 1.5 0 0 0 1.5-1.5v-12a1.5 1.5 0 0 0-1.5-1.5m-4.5 6.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0m3 4.5a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0M9 18a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SplitHorizontal.ts
+// src/icons/Spinner.ts
 import { defineComponent as defineComponent848, h as h848 } from "vue";
-var SplitHorizontal = defineComponent848({
-  name: "SplitHorizontal",
+var Spinner = defineComponent848({
+  name: "Spinner",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29672,16 +29672,16 @@ var SplitHorizontal = defineComponent848({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.75 12V6.75a3 3 0 0 0-3-3H5.25a3 3 0 0 0-3 3V12m19.5 0v5.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V12m19.5 0H2.25"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 2.25v3m0 16.5v-3m4.876-15.197-1.5 2.598M7.126 20.44l1.5-2.598M20.448 7.119l-2.599 1.5M3.56 16.869l2.598-1.5m15.6-3.376h-3m-16.5 0h3M3.56 7.132l2.598 1.5m14.29 8.25-2.599-1.5M7.126 3.56l1.5 2.598m8.25 14.29-1.5-2.599"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SplitVertical.ts
+// src/icons/SplitHorizontal.ts
 import { defineComponent as defineComponent849, h as h849 } from "vue";
-var SplitVertical = defineComponent849({
-  name: "SplitVertical",
+var SplitHorizontal = defineComponent849({
+  name: "SplitHorizontal",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29707,16 +29707,16 @@ var SplitVertical = defineComponent849({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 3.75H5.25a3 3 0 0 0-3 3v10.5a3 3 0 0 0 3 3H12m0-16.5h6.75a3 3 0 0 1 3 3v10.5a3 3 0 0 1-3 3H12m0-16.5v16.5"/>`
+        innerHTML: `<path d="M21.75 12V6.75a3 3 0 0 0-3-3H5.25a3 3 0 0 0-3 3V12m19.5 0v5.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V12m19.5 0H2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Spoon.ts
+// src/icons/SplitVertical.ts
 import { defineComponent as defineComponent850, h as h850 } from "vue";
-var Spoon = defineComponent850({
-  name: "Spoon",
+var SplitVertical = defineComponent850({
+  name: "SplitVertical",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29742,16 +29742,16 @@ var Spoon = defineComponent850({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m3.44 20.69-.13-.13a1.5 1.5 0 0 1 0-2.12l9.826-9.826a1.5 1.5 0 0 0 .428-.875l.155-1.243a4.847 4.847 0 0 1 4.81-4.246h.66a2.56 2.56 0 0 1 2.561 2.56v.661a4.847 4.847 0 0 1-4.246 4.81l-1.243.155a1.5 1.5 0 0 0-.875.428l-9.825 9.825a1.5 1.5 0 0 1-2.122 0"/>`
+        innerHTML: `<path d="M12 3.75H5.25a3 3 0 0 0-3 3v10.5a3 3 0 0 0 3 3H12m0-16.5h6.75a3 3 0 0 1 3 3v10.5a3 3 0 0 1-3 3H12m0-16.5v16.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Square.ts
+// src/icons/Spoon.ts
 import { defineComponent as defineComponent851, h as h851 } from "vue";
-var Square = defineComponent851({
-  name: "Square",
+var Spoon = defineComponent851({
+  name: "Spoon",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29777,16 +29777,16 @@ var Square = defineComponent851({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M3 19.5v-15A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5v15a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 19.5"/>`
+        innerHTML: `<path d="m3.44 20.69-.13-.13a1.5 1.5 0 0 1 0-2.12l9.826-9.826a1.5 1.5 0 0 0 .428-.875l.155-1.243a4.847 4.847 0 0 1 4.81-4.246h.66a2.56 2.56 0 0 1 2.561 2.56v.661a4.847 4.847 0 0 1-4.246 4.81l-1.243.155a1.5 1.5 0 0 0-.875.428l-9.825 9.825a1.5 1.5 0 0 1-2.122 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SquareArrowBottomLeft.ts
+// src/icons/Square.ts
 import { defineComponent as defineComponent852, h as h852 } from "vue";
-var SquareArrowBottomLeft = defineComponent852({
-  name: "SquareArrowBottomLeft",
+var Square = defineComponent852({
+  name: "Square",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29812,16 +29812,16 @@ var SquareArrowBottomLeft = defineComponent852({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M7.757 16.243V9.879m0 6.364h6.364m-6.364 0 8.486-8.486M3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M3 19.5v-15A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5v15a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 19.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SquareArrowBottomRight.ts
+// src/icons/SquareArrowBottomLeft.ts
 import { defineComponent as defineComponent853, h as h853 } from "vue";
-var SquareArrowBottomRight = defineComponent853({
-  name: "SquareArrowBottomRight",
+var SquareArrowBottomLeft = defineComponent853({
+  name: "SquareArrowBottomLeft",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29847,16 +29847,16 @@ var SquareArrowBottomRight = defineComponent853({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M16.243 16.243V9.879m0 6.364H9.879m6.364 0L7.757 7.757M3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M7.757 16.243V9.879m0 6.364h6.364m-6.364 0 8.486-8.486M3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SquareArrowDown.ts
+// src/icons/SquareArrowBottomRight.ts
 import { defineComponent as defineComponent854, h as h854 } from "vue";
-var SquareArrowDown = defineComponent854({
-  name: "SquareArrowDown",
+var SquareArrowBottomRight = defineComponent854({
+  name: "SquareArrowBottomRight",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29882,16 +29882,16 @@ var SquareArrowDown = defineComponent854({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m12 18-4.5-4.5M12 18l4.5-4.5M12 18V6M3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M16.243 16.243V9.879m0 6.364H9.879m6.364 0L7.757 7.757M3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SquareArrowLeft.ts
+// src/icons/SquareArrowDown.ts
 import { defineComponent as defineComponent855, h as h855 } from "vue";
-var SquareArrowLeft = defineComponent855({
-  name: "SquareArrowLeft",
+var SquareArrowDown = defineComponent855({
+  name: "SquareArrowDown",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29917,16 +29917,16 @@ var SquareArrowLeft = defineComponent855({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m6 12 4.5 4.5M6 12l4.5-4.5M6 12h12M3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m12 18-4.5-4.5M12 18l4.5-4.5M12 18V6M3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SquareArrowRight.ts
+// src/icons/SquareArrowLeft.ts
 import { defineComponent as defineComponent856, h as h856 } from "vue";
-var SquareArrowRight = defineComponent856({
-  name: "SquareArrowRight",
+var SquareArrowLeft = defineComponent856({
+  name: "SquareArrowLeft",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29952,16 +29952,16 @@ var SquareArrowRight = defineComponent856({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m18 12-4.5-4.5M18 12l-4.5 4.5M18 12H6M3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m6 12 4.5 4.5M6 12l4.5-4.5M6 12h12M3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SquareArrowTopLeft.ts
+// src/icons/SquareArrowRight.ts
 import { defineComponent as defineComponent857, h as h857 } from "vue";
-var SquareArrowTopLeft = defineComponent857({
-  name: "SquareArrowTopLeft",
+var SquareArrowRight = defineComponent857({
+  name: "SquareArrowRight",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -29987,16 +29987,16 @@ var SquareArrowTopLeft = defineComponent857({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M7.757 7.757v6.364m0-6.364h6.364m-6.364 0 8.486 8.486M3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m18 12-4.5-4.5M18 12l-4.5 4.5M18 12H6M3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SquareArrowTopRight.ts
+// src/icons/SquareArrowTopLeft.ts
 import { defineComponent as defineComponent858, h as h858 } from "vue";
-var SquareArrowTopRight = defineComponent858({
-  name: "SquareArrowTopRight",
+var SquareArrowTopLeft = defineComponent858({
+  name: "SquareArrowTopLeft",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30022,16 +30022,16 @@ var SquareArrowTopRight = defineComponent858({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M16.243 7.757v6.364m0-6.364H9.879m6.364 0-8.486 8.486M3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M7.757 7.757v6.364m0-6.364h6.364m-6.364 0 8.486 8.486M3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SquareArrowUp.ts
+// src/icons/SquareArrowTopRight.ts
 import { defineComponent as defineComponent859, h as h859 } from "vue";
-var SquareArrowUp = defineComponent859({
-  name: "SquareArrowUp",
+var SquareArrowTopRight = defineComponent859({
+  name: "SquareArrowTopRight",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30057,16 +30057,16 @@ var SquareArrowUp = defineComponent859({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m12 6-4.5 4.5M12 6l4.5 4.5M12 6v12M3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M16.243 7.757v6.364m0-6.364H9.879m6.364 0-8.486 8.486M3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SquareCheck.ts
+// src/icons/SquareArrowUp.ts
 import { defineComponent as defineComponent860, h as h860 } from "vue";
-var SquareCheck = defineComponent860({
-  name: "SquareCheck",
+var SquareArrowUp = defineComponent860({
+  name: "SquareArrowUp",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30092,16 +30092,16 @@ var SquareCheck = defineComponent860({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m16.5 9-6 6-3-3M21 4.5v15a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 19.5v-15A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m12 6-4.5 4.5M12 6l4.5 4.5M12 6v12M3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SquareCheckIntermediate.ts
+// src/icons/SquareCheck.ts
 import { defineComponent as defineComponent861, h as h861 } from "vue";
-var SquareCheckIntermediate = defineComponent861({
-  name: "SquareCheckIntermediate",
+var SquareCheck = defineComponent861({
+  name: "SquareCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30127,16 +30127,16 @@ var SquareCheckIntermediate = defineComponent861({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M16.5 12h-9M21 4.5v15a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 19.5v-15A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m16.5 9-6 6-3-3M21 4.5v15a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 19.5v-15A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SquareCross.ts
+// src/icons/SquareCheckIntermediate.ts
 import { defineComponent as defineComponent862, h as h862 } from "vue";
-var SquareCross = defineComponent862({
-  name: "SquareCross",
+var SquareCheckIntermediate = defineComponent862({
+  name: "SquareCheckIntermediate",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30162,16 +30162,16 @@ var SquareCross = defineComponent862({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M8.25 8.25 12 12m0 0 3.75 3.75M12 12l3.75-3.75M12 12l-3.75 3.75M21 19.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M16.5 12h-9M21 4.5v15a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 19.5v-15A1.5 1.5 0 0 1 4.5 3h15A1.5 1.5 0 0 1 21 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SquareRounded.ts
+// src/icons/SquareCross.ts
 import { defineComponent as defineComponent863, h as h863 } from "vue";
-var SquareRounded = defineComponent863({
-  name: "SquareRounded",
+var SquareCross = defineComponent863({
+  name: "SquareCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30197,16 +30197,16 @@ var SquareRounded = defineComponent863({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M16.5 3h-9A4.5 4.5 0 0 0 3 7.5v9A4.5 4.5 0 0 0 7.5 21h9a4.5 4.5 0 0 0 4.5-4.5v-9A4.5 4.5 0 0 0 16.5 3"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M8.25 8.25 12 12m0 0 3.75 3.75M12 12l3.75-3.75M12 12l-3.75 3.75M21 19.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Stairs.ts
+// src/icons/SquareRounded.ts
 import { defineComponent as defineComponent864, h as h864 } from "vue";
-var Stairs = defineComponent864({
-  name: "Stairs",
+var SquareRounded = defineComponent864({
+  name: "SquareRounded",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30232,16 +30232,16 @@ var Stairs = defineComponent864({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M3 21v-5.25a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 0 .75-.75v-4.5A.75.75 0 0 1 9.75 9h4.5a.75.75 0 0 0 .75-.75v-4.5a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 .75.75V21"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M16.5 3h-9A4.5 4.5 0 0 0 3 7.5v9A4.5 4.5 0 0 0 7.5 21h9a4.5 4.5 0 0 0 4.5-4.5v-9A4.5 4.5 0 0 0 16.5 3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/StairsDown.ts
+// src/icons/Stairs.ts
 import { defineComponent as defineComponent865, h as h865 } from "vue";
-var StairsDown = defineComponent865({
-  name: "StairsDown",
+var Stairs = defineComponent865({
+  name: "Stairs",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30267,16 +30267,16 @@ var StairsDown = defineComponent865({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 20.25V16.5a.75.75 0 0 0-.75-.75H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75H9A.75.75 0 0 1 8.25 9V4.5a.75.75 0 0 0-.75-.75H3a.75.75 0 0 0-.75.75v15.75M21.75 9 16.5 3.75M21.75 9V5.25m0 3.75H18"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M3 21v-5.25a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 0 .75-.75v-4.5A.75.75 0 0 1 9.75 9h4.5a.75.75 0 0 0 .75-.75v-4.5a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 .75.75V21"/>`
       }, children);
     };
   }
 });
 
-// src/icons/StairsUp.ts
+// src/icons/StairsDown.ts
 import { defineComponent as defineComponent866, h as h866 } from "vue";
-var StairsUp = defineComponent866({
-  name: "StairsUp",
+var StairsDown = defineComponent866({
+  name: "StairsDown",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30302,16 +30302,16 @@ var StairsUp = defineComponent866({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M3.75 20.25V16.5a.75.75 0 0 1 .75-.75H9a.75.75 0 0 0 .75-.75v-4.5a.75.75 0 0 1 .75-.75H15a.75.75 0 0 0 .75-.75V4.5a.75.75 0 0 1 .75-.75H21a.75.75 0 0 1 .75.75v15.75M2.25 9 7.5 3.75m0 0V7.5m0-3.75H3.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 20.25V16.5a.75.75 0 0 0-.75-.75H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75H9A.75.75 0 0 1 8.25 9V4.5a.75.75 0 0 0-.75-.75H3a.75.75 0 0 0-.75.75v15.75M21.75 9 16.5 3.75M21.75 9V5.25m0 3.75H18"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Star.ts
+// src/icons/StairsUp.ts
 import { defineComponent as defineComponent867, h as h867 } from "vue";
-var Star = defineComponent867({
-  name: "Star",
+var StairsUp = defineComponent867({
+  name: "StairsUp",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30337,16 +30337,16 @@ var Star = defineComponent867({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M10.63 3.074c.528-1.186 2.211-1.186 2.74 0l2.119 4.752a.15.15 0 0 0 .115.088l4.69.666c1.221.174 1.723 1.665.854 2.54l-3.392 3.425a.15.15 0 0 0-.04.136l1.078 5.212c.265 1.281-1.122 2.264-2.242 1.59l-4.475-2.694a.15.15 0 0 0-.154 0L7.44 21.483c-1.122.674-2.508-.31-2.242-1.592l1.085-5.21a.15.15 0 0 0-.04-.136L2.852 11.12c-.869-.876-.367-2.367.854-2.541l4.69-.666a.15.15 0 0 0 .115-.088z"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M3.75 20.25V16.5a.75.75 0 0 1 .75-.75H9a.75.75 0 0 0 .75-.75v-4.5a.75.75 0 0 1 .75-.75H15a.75.75 0 0 0 .75-.75V4.5a.75.75 0 0 1 .75-.75H21a.75.75 0 0 1 .75.75v15.75M2.25 9 7.5 3.75m0 0V7.5m0-3.75H3.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/StarHalf.ts
+// src/icons/Star.ts
 import { defineComponent as defineComponent868, h as h868 } from "vue";
-var StarHalf = defineComponent868({
-  name: "StarHalf",
+var Star = defineComponent868({
+  name: "Star",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30372,16 +30372,16 @@ var StarHalf = defineComponent868({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m7.44 21.483 4.483-2.694a.15.15 0 0 1 .077-.021V2.184a1.48 1.48 0 0 0-1.37.89L8.511 7.826a.15.15 0 0 1-.115.088l-4.69.666c-1.221.174-1.723 1.665-.854 2.54l3.392 3.425a.15.15 0 0 1 .04.136L5.2 19.89c-.266 1.281 1.12 2.266 2.242 1.592"/>`
+        innerHTML: `<path d="M10.63 3.074c.528-1.186 2.211-1.186 2.74 0l2.119 4.752a.15.15 0 0 0 .115.088l4.69.666c1.221.174 1.723 1.665.854 2.54l-3.392 3.425a.15.15 0 0 0-.04.136l1.078 5.212c.265 1.281-1.122 2.264-2.242 1.59l-4.475-2.694a.15.15 0 0 0-.154 0L7.44 21.483c-1.122.674-2.508-.31-2.242-1.592l1.085-5.21a.15.15 0 0 0-.04-.136L2.852 11.12c-.869-.876-.367-2.367.854-2.541l4.69-.666a.15.15 0 0 0 .115-.088z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Stethoscope.ts
+// src/icons/StarHalf.ts
 import { defineComponent as defineComponent869, h as h869 } from "vue";
-var Stethoscope = defineComponent869({
-  name: "Stethoscope",
+var StarHalf = defineComponent869({
+  name: "StarHalf",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30407,16 +30407,16 @@ var Stethoscope = defineComponent869({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m9.75 5.25 1.8-1.35a.75.75 0 0 1 1.2.6v6c0 2.9-2.35 5.25-5.25 5.25M5.25 5.25 3.45 3.9a.75.75 0 0 0-1.2.6v6c0 2.9 2.35 5.25 5.25 5.25m0 0c-.75 4.5 10.5 9 12-4.5m0 0a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5"/>`
+        innerHTML: `<path d="m7.44 21.483 4.483-2.694a.15.15 0 0 1 .077-.021V2.184a1.48 1.48 0 0 0-1.37.89L8.511 7.826a.15.15 0 0 1-.115.088l-4.69.666c-1.221.174-1.723 1.665-.854 2.54l3.392 3.425a.15.15 0 0 1 .04.136L5.2 19.89c-.266 1.281 1.12 2.266 2.242 1.592"/>`
       }, children);
     };
   }
 });
 
-// src/icons/StickmenCheer.ts
+// src/icons/Stethoscope.ts
 import { defineComponent as defineComponent870, h as h870 } from "vue";
-var StickmenCheer = defineComponent870({
-  name: "StickmenCheer",
+var Stethoscope = defineComponent870({
+  name: "Stethoscope",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30442,16 +30442,16 @@ var StickmenCheer = defineComponent870({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m12 15.75-1.65 2.2a3 3 0 0 0-.6 1.8v2m2.25-6v-4.5m0 4.5 1.864.746a3 3 0 0 1 1.886 2.785v.969M12 9.75v1.5m0-1.5a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5m0 1.5-.534.32A4.16 4.16 0 0 1 6 10.5m6 .75a3.817 3.817 0 0 0 5.473-1.77L18 8.25"/>`
+        innerHTML: `<path d="m9.75 5.25 1.8-1.35a.75.75 0 0 1 1.2.6v6c0 2.9-2.35 5.25-5.25 5.25M5.25 5.25 3.45 3.9a.75.75 0 0 0-1.2.6v6c0 2.9 2.35 5.25 5.25 5.25m0 0c-.75 4.5 10.5 9 12-4.5m0 0a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/StickmenFight.ts
+// src/icons/StickmenCheer.ts
 import { defineComponent as defineComponent871, h as h871 } from "vue";
-var StickmenFight = defineComponent871({
-  name: "StickmenFight",
+var StickmenCheer = defineComponent871({
+  name: "StickmenCheer",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30477,16 +30477,16 @@ var StickmenFight = defineComponent871({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m9.75 14.25-2.2-1.65a3 3 0 0 0-1.8-.6h-2m6 2.25 1.371 1.371A3 3 0 0 1 12 17.743v4.007m-2.25-7.5 3.682-4.5m0 0-2.565-.522a3 3 0 0 1-1.801-1.14L7.5 6m5.932 3.75 2.165 2.117a3 3 0 0 1 .903 2.145v1.738m-3.068-6 .693-.848m0 0a3.75 3.75 0 1 1 4.75-5.805 3.75 3.75 0 0 1-4.75 5.805"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m12 15.75-1.65 2.2a3 3 0 0 0-.6 1.8v2m2.25-6v-4.5m0 4.5 1.864.746a3 3 0 0 1 1.886 2.785v.969M12 9.75v1.5m0-1.5a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5m0 1.5-.534.32A4.16 4.16 0 0 1 6 10.5m6 .75a3.817 3.817 0 0 0 5.473-1.77L18 8.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/StickmenHiking.ts
+// src/icons/StickmenFight.ts
 import { defineComponent as defineComponent872, h as h872 } from "vue";
-var StickmenHiking = defineComponent872({
-  name: "StickmenHiking",
+var StickmenFight = defineComponent872({
+  name: "StickmenFight",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30512,16 +30512,16 @@ var StickmenHiking = defineComponent872({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m10.138 15.75 1.733 1.734a3 3 0 0 1 .879 2.121v2.145m-2.613-6-.653 2.44a3 3 0 0 1-.498 1.024L7.084 21.75m3.053-6 .363-1.353m1.28-4.774a3.752 3.752 0 0 1 .97-7.373 3.75 3.75 0 1 1-.97 7.373m0 0-.236.877m.235-.877-1.15-.447a2.25 2.25 0 0 0-2.998 1.551l-.21.838a2.25 2.25 0 0 0 2.095 2.793l.984.039m1.044-3.897 1.059 1.218a3 3 0 0 0 2.264 1.032h.883m-4.206-2.25L10.5 14.397m5.25-1.647 1.5 9m-1.5-9-.264-1.032"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m9.75 14.25-2.2-1.65a3 3 0 0 0-1.8-.6h-2m6 2.25 1.371 1.371A3 3 0 0 1 12 17.743v4.007m-2.25-7.5 3.682-4.5m0 0-2.565-.522a3 3 0 0 1-1.801-1.14L7.5 6m5.932 3.75 2.165 2.117a3 3 0 0 1 .903 2.145v1.738m-3.068-6 .693-.848m0 0a3.75 3.75 0 1 1 4.75-5.805 3.75 3.75 0 0 1-4.75 5.805"/>`
       }, children);
     };
   }
 });
 
-// src/icons/StickmenRun.ts
+// src/icons/StickmenHiking.ts
 import { defineComponent as defineComponent873, h as h873 } from "vue";
-var StickmenRun = defineComponent873({
-  name: "StickmenRun",
+var StickmenHiking = defineComponent873({
+  name: "StickmenHiking",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30547,16 +30547,16 @@ var StickmenRun = defineComponent873({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M9.688 16.5h3.062a1.5 1.5 0 0 1 1.5 1.5v2.25M9.688 16.5 4.5 21.688M9.688 16.5l3.464-6m.723-1.252a3.75 3.75 0 1 1 3.75-6.496 3.75 3.75 0 0 1-3.75 6.496m0 0-.723 1.252m0 0h-2.534a3 3 0 0 0-1.697.526L7.5 12m5.652-1.5.17.466a3 3 0 0 0 3.545 1.88l.383-.096"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m10.138 15.75 1.733 1.734a3 3 0 0 1 .879 2.121v2.145m-2.613-6-.653 2.44a3 3 0 0 1-.498 1.024L7.084 21.75m3.053-6 .363-1.353m1.28-4.774a3.752 3.752 0 0 1 .97-7.373 3.75 3.75 0 1 1-.97 7.373m0 0-.236.877m.235-.877-1.15-.447a2.25 2.25 0 0 0-2.998 1.551l-.21.838a2.25 2.25 0 0 0 2.095 2.793l.984.039m1.044-3.897 1.059 1.218a3 3 0 0 0 2.264 1.032h.883m-4.206-2.25L10.5 14.397m5.25-1.647 1.5 9m-1.5-9-.264-1.032"/>`
       }, children);
     };
   }
 });
 
-// src/icons/StickmenStand.ts
+// src/icons/StickmenRun.ts
 import { defineComponent as defineComponent874, h as h874 } from "vue";
-var StickmenStand = defineComponent874({
-  name: "StickmenStand",
+var StickmenRun = defineComponent874({
+  name: "StickmenRun",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30582,16 +30582,16 @@ var StickmenStand = defineComponent874({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m12 15.75-1.65 2.2a3 3 0 0 0-.6 1.8v2m2.25-6 1.65 2.2a3 3 0 0 1 .6 1.8v2m-2.25-6V10.5m3 4.5v-1.146a3 3 0 0 0-1.658-2.683L12 10.5M9 15v-1.146a3 3 0 0 1 1.658-2.683L12 10.5m0-.75v.75m0-.75a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M9.688 16.5h3.062a1.5 1.5 0 0 1 1.5 1.5v2.25M9.688 16.5 4.5 21.688M9.688 16.5l3.464-6m.723-1.252a3.75 3.75 0 1 1 3.75-6.496 3.75 3.75 0 0 1-3.75 6.496m0 0-.723 1.252m0 0h-2.534a3 3 0 0 0-1.697.526L7.5 12m5.652-1.5.17.466a3 3 0 0 0 3.545 1.88l.383-.096"/>`
       }, children);
     };
   }
 });
 
-// src/icons/StickmenWalk.ts
+// src/icons/StickmenStand.ts
 import { defineComponent as defineComponent875, h as h875 } from "vue";
-var StickmenWalk = defineComponent875({
-  name: "StickmenWalk",
+var StickmenStand = defineComponent875({
+  name: "StickmenStand",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30617,16 +30617,16 @@ var StickmenWalk = defineComponent875({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m10.888 15.75 1.733 1.734a3 3 0 0 1 .879 2.121v2.145m-2.613-6-.653 2.44a3 3 0 0 1-.498 1.024L7.834 21.75m3.053-6 1.407-5.25m.235-.877A3.752 3.752 0 0 1 13.5 2.25a3.75 3.75 0 1 1-.97 7.373m0 0-.235.877m0 0-2.589.694a3 3 0 0 0-1.244.68l-.961.876m4.794-2.25 1.059 1.218a3 3 0 0 0 2.264 1.032h.883"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m12 15.75-1.65 2.2a3 3 0 0 0-.6 1.8v2m2.25-6 1.65 2.2a3 3 0 0 1 .6 1.8v2m-2.25-6V10.5m3 4.5v-1.146a3 3 0 0 0-1.658-2.683L12 10.5M9 15v-1.146a3 3 0 0 1 1.658-2.683L12 10.5m0-.75v.75m0-.75a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/StickmenWave.ts
+// src/icons/StickmenWalk.ts
 import { defineComponent as defineComponent876, h as h876 } from "vue";
-var StickmenWave = defineComponent876({
-  name: "StickmenWave",
+var StickmenWalk = defineComponent876({
+  name: "StickmenWalk",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30652,16 +30652,16 @@ var StickmenWave = defineComponent876({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m12 15.75-1.65 2.2a3 3 0 0 0-.6 1.8v2m2.25-6 1.65 2.2a3 3 0 0 1 .6 1.8v2m-2.25-6V10.5M9 15v-1.146a3 3 0 0 1 1.658-2.683L12 10.5m0-.75v.75m0-.75a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5m0 .75.918.689a3 3 0 0 0 3.922-.279l.41-.41"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m10.888 15.75 1.733 1.734a3 3 0 0 1 .879 2.121v2.145m-2.613-6-.653 2.44a3 3 0 0 1-.498 1.024L7.834 21.75m3.053-6 1.407-5.25m.235-.877A3.752 3.752 0 0 1 13.5 2.25a3.75 3.75 0 1 1-.97 7.373m0 0-.235.877m0 0-2.589.694a3 3 0 0 0-1.244.68l-.961.876m4.794-2.25 1.059 1.218a3 3 0 0 0 2.264 1.032h.883"/>`
       }, children);
     };
   }
 });
 
-// src/icons/StickmenYoga.ts
+// src/icons/StickmenWave.ts
 import { defineComponent as defineComponent877, h as h877 } from "vue";
-var StickmenYoga = defineComponent877({
-  name: "StickmenYoga",
+var StickmenWave = defineComponent877({
+  name: "StickmenWave",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30687,16 +30687,16 @@ var StickmenYoga = defineComponent877({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 9.75V12m0-2.25a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5M12 12v5.25M12 12l.918.689a3 3 0 0 0 3.922-.279l.41-.41M12 12l-.919.689a3 3 0 0 1-3.92-.279L6.75 12M12 17.25l-3.041 1.106c-1.439.523-1.262 2.612.244 2.885L12 21.75l2.797-.509c1.506-.273 1.683-2.362.244-2.885z"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m12 15.75-1.65 2.2a3 3 0 0 0-.6 1.8v2m2.25-6 1.65 2.2a3 3 0 0 1 .6 1.8v2m-2.25-6V10.5M9 15v-1.146a3 3 0 0 1 1.658-2.683L12 10.5m0-.75v.75m0-.75a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5m0 .75.918.689a3 3 0 0 0 3.922-.279l.41-.41"/>`
       }, children);
     };
   }
 });
 
-// src/icons/StickyNote.ts
+// src/icons/StickmenYoga.ts
 import { defineComponent as defineComponent878, h as h878 } from "vue";
-var StickyNote = defineComponent878({
-  name: "StickyNote",
+var StickmenYoga = defineComponent878({
+  name: "StickmenYoga",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30722,16 +30722,16 @@ var StickyNote = defineComponent878({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M11.25 21h8.25a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5v8.25M11.25 21 3 12.75M11.25 21v-6.75a1.5 1.5 0 0 0-1.5-1.5H3"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 9.75V12m0-2.25a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5M12 12v5.25M12 12l.918.689a3 3 0 0 0 3.922-.279l.41-.41M12 12l-.919.689a3 3 0 0 1-3.92-.279L6.75 12M12 17.25l-3.041 1.106c-1.439.523-1.262 2.612.244 2.885L12 21.75l2.797-.509c1.506-.273 1.683-2.362.244-2.885z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/StickyNotes.ts
+// src/icons/StickyNote.ts
 import { defineComponent as defineComponent879, h as h879 } from "vue";
-var StickyNotes = defineComponent879({
-  name: "StickyNotes",
+var StickyNote = defineComponent879({
+  name: "StickyNote",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30757,16 +30757,16 @@ var StickyNotes = defineComponent879({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9.75 21h6a1.5 1.5 0 0 0 1.5-1.5V8.25a1.5 1.5 0 0 0-1.5-1.5H4.5A1.5 1.5 0 0 0 3 8.25v6M9.75 21v-5.25a1.5 1.5 0 0 0-1.5-1.5H3M9.75 21 3 14.25m3.2-10.5A1.5 1.5 0 0 1 7.5 3h12A1.5 1.5 0 0 1 21 4.5v11.25a1.5 1.5 0 0 1-.75 1.3"/>`
+        innerHTML: `<path d="M11.25 21h8.25a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5v8.25M11.25 21 3 12.75M11.25 21v-6.75a1.5 1.5 0 0 0-1.5-1.5H3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Stomach.ts
+// src/icons/StickyNotes.ts
 import { defineComponent as defineComponent880, h as h880 } from "vue";
-var Stomach = defineComponent880({
-  name: "Stomach",
+var StickyNotes = defineComponent880({
+  name: "StickyNotes",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30792,16 +30792,16 @@ var Stomach = defineComponent880({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m11.271 3-.007 1.036c0 .875.348 1.714.966 2.333.667.666.575 1.78-.275 2.188-1.564.75-2.78 1.12-5.153.995-2.86-.15-5.14 2.487-4.484 5.275l.092.394a4.6 4.6 0 0 0 1.011 1.97c.201.23.334.518.334.823v2.997M15.02 3.001l-.007.391c0 .583.232 1.143.645 1.555.602.602 1.487.784 2.335.86.849.077 2.025.68 2.73 1.7l.265.383c1.208 1.743.97 4.126-.53 5.626-3.235 3.234-7.258 5.136-11.806 5.268-.622.018-1.14.514-1.14 1.136v1.091"/>`
+        innerHTML: `<path d="M9.75 21h6a1.5 1.5 0 0 0 1.5-1.5V8.25a1.5 1.5 0 0 0-1.5-1.5H4.5A1.5 1.5 0 0 0 3 8.25v6M9.75 21v-5.25a1.5 1.5 0 0 0-1.5-1.5H3M9.75 21 3 14.25m3.2-10.5A1.5 1.5 0 0 1 7.5 3h12A1.5 1.5 0 0 1 21 4.5v11.25a1.5 1.5 0 0 1-.75 1.3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/StomachCheck.ts
+// src/icons/Stomach.ts
 import { defineComponent as defineComponent881, h as h881 } from "vue";
-var StomachCheck = defineComponent881({
-  name: "StomachCheck",
+var Stomach = defineComponent881({
+  name: "Stomach",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30827,16 +30827,16 @@ var StomachCheck = defineComponent881({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21.384 12.158c.598-1.366.49-2.99-.396-4.269l-.265-.383c-.705-1.018-1.881-1.623-2.73-1.699-.848-.076-1.733-.258-2.335-.86a2.2 2.2 0 0 1-.645-1.555L15.02 3m-3.749 0-.007 1.036c0 .875.348 1.714.966 2.333.667.666.575 1.78-.275 2.187-1.564.75-2.78 1.12-5.153.996-2.86-.15-5.14 2.487-4.484 5.275l.092.394a4.6 4.6 0 0 0 1.011 1.97c.201.23.334.517.334.823v2.997m7.514-2.506q-1.276.24-2.617.279c-.622.018-1.14.513-1.14 1.136v1.09m6.738-2.26 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
+        innerHTML: `<path d="m11.271 3-.007 1.036c0 .875.348 1.714.966 2.333.667.666.575 1.78-.275 2.188-1.564.75-2.78 1.12-5.153.995-2.86-.15-5.14 2.487-4.484 5.275l.092.394a4.6 4.6 0 0 0 1.011 1.97c.201.23.334.518.334.823v2.997M15.02 3.001l-.007.391c0 .583.232 1.143.645 1.555.602.602 1.487.784 2.335.86.849.077 2.025.68 2.73 1.7l.265.383c1.208 1.743.97 4.126-.53 5.626-3.235 3.234-7.258 5.136-11.806 5.268-.622.018-1.14.514-1.14 1.136v1.091"/>`
       }, children);
     };
   }
 });
 
-// src/icons/StomachCross.ts
+// src/icons/StomachCheck.ts
 import { defineComponent as defineComponent882, h as h882 } from "vue";
-var StomachCross = defineComponent882({
-  name: "StomachCross",
+var StomachCheck = defineComponent882({
+  name: "StomachCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30862,16 +30862,16 @@ var StomachCross = defineComponent882({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m15.75 22.5 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75m5.634-3.592c.598-1.366.49-2.99-.396-4.269l-.265-.383c-.705-1.018-1.881-1.623-2.73-1.699-.848-.076-1.733-.258-2.335-.86a2.2 2.2 0 0 1-.645-1.555L15.02 3m-3.749 0-.007 1.036c0 .875.348 1.714.966 2.333.667.666.575 1.78-.275 2.187-1.564.75-2.78 1.12-5.153.996-2.86-.15-5.14 2.487-4.484 5.275l.092.394a4.6 4.6 0 0 0 1.011 1.97c.201.23.334.517.334.823v2.997m7.514-2.506q-1.276.24-2.617.279c-.622.018-1.14.513-1.14 1.136v1.09"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21.384 12.158c.598-1.366.49-2.99-.396-4.269l-.265-.383c-.705-1.018-1.881-1.623-2.73-1.699-.848-.076-1.733-.258-2.335-.86a2.2 2.2 0 0 1-.645-1.555L15.02 3m-3.749 0-.007 1.036c0 .875.348 1.714.966 2.333.667.666.575 1.78-.275 2.187-1.564.75-2.78 1.12-5.153.996-2.86-.15-5.14 2.487-4.484 5.275l.092.394a4.6 4.6 0 0 0 1.011 1.97c.201.23.334.517.334.823v2.997m7.514-2.506q-1.276.24-2.617.279c-.622.018-1.14.513-1.14 1.136v1.09m6.738-2.26 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
       }, children);
     };
   }
 });
 
-// src/icons/StomachSearch.ts
+// src/icons/StomachCross.ts
 import { defineComponent as defineComponent883, h as h883 } from "vue";
-var StomachSearch = defineComponent883({
-  name: "StomachSearch",
+var StomachCross = defineComponent883({
+  name: "StomachCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30897,16 +30897,16 @@ var StomachSearch = defineComponent883({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m22.5 22.5-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104m.972-8.254c.598-1.366.49-2.99-.396-4.269l-.265-.383c-.705-1.018-1.881-1.623-2.73-1.699-.848-.076-1.733-.258-2.335-.86a2.2 2.2 0 0 1-.645-1.555L15.02 3m-3.749 0-.007 1.036c0 .875.348 1.714.966 2.333.667.666.575 1.78-.275 2.187-1.564.75-2.78 1.12-5.153.996-2.86-.15-5.14 2.487-4.484 5.275l.092.394a4.6 4.6 0 0 0 1.011 1.97c.201.23.334.517.334.823v2.997m7.514-2.506q-1.276.24-2.617.279c-.622.018-1.14.513-1.14 1.136v1.09"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m15.75 22.5 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75m5.634-3.592c.598-1.366.49-2.99-.396-4.269l-.265-.383c-.705-1.018-1.881-1.623-2.73-1.699-.848-.076-1.733-.258-2.335-.86a2.2 2.2 0 0 1-.645-1.555L15.02 3m-3.749 0-.007 1.036c0 .875.348 1.714.966 2.333.667.666.575 1.78-.275 2.187-1.564.75-2.78 1.12-5.153.996-2.86-.15-5.14 2.487-4.484 5.275l.092.394a4.6 4.6 0 0 0 1.011 1.97c.201.23.334.517.334.823v2.997m7.514-2.506q-1.276.24-2.617.279c-.622.018-1.14.513-1.14 1.136v1.09"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Stopwatch.ts
+// src/icons/StomachSearch.ts
 import { defineComponent as defineComponent884, h as h884 } from "vue";
-var Stopwatch = defineComponent884({
-  name: "Stopwatch",
+var StomachSearch = defineComponent884({
+  name: "StomachSearch",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30932,16 +30932,16 @@ var Stopwatch = defineComponent884({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 5.25v-3m0 3c1.983 0 3.802.7 5.224 1.865M12 5.25c-1.982 0-3.802.7-5.224 1.865a8.25 8.25 0 1 0 10.449 0M12 2.25H9m3 0h3M8.25 12 12 15l4.5-3.75m.724-4.135L18.75 5.25"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m22.5 22.5-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104m.972-8.254c.598-1.366.49-2.99-.396-4.269l-.265-.383c-.705-1.018-1.881-1.623-2.73-1.699-.848-.076-1.733-.258-2.335-.86a2.2 2.2 0 0 1-.645-1.555L15.02 3m-3.749 0-.007 1.036c0 .875.348 1.714.966 2.333.667.666.575 1.78-.275 2.187-1.564.75-2.78 1.12-5.153.996-2.86-.15-5.14 2.487-4.484 5.275l.092.394a4.6 4.6 0 0 0 1.011 1.97c.201.23.334.517.334.823v2.997m7.514-2.506q-1.276.24-2.617.279c-.622.018-1.14.513-1.14 1.136v1.09"/>`
       }, children);
     };
   }
 });
 
-// src/icons/StopwatchPlus.ts
+// src/icons/Stopwatch.ts
 import { defineComponent as defineComponent885, h as h885 } from "vue";
-var StopwatchPlus = defineComponent885({
-  name: "StopwatchPlus",
+var Stopwatch = defineComponent885({
+  name: "Stopwatch",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -30967,16 +30967,16 @@ var StopwatchPlus = defineComponent885({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 5.25v-3m0 3c1.983 0 3.802.7 5.224 1.865M12 5.25c-1.982 0-3.802.7-5.224 1.865A8.25 8.25 0 0 0 12 21.75m0-19.5H9m3 0h3M8.25 12 12 15l4.5-3.75m.724-4.135L18.75 5.25m-1.526 1.865a8.25 8.25 0 0 1 2.796 4.442M18.375 22.5v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
+        innerHTML: `<path d="M12 5.25v-3m0 3c1.983 0 3.802.7 5.224 1.865M12 5.25c-1.982 0-3.802.7-5.224 1.865a8.25 8.25 0 1 0 10.449 0M12 2.25H9m3 0h3M8.25 12 12 15l4.5-3.75m.724-4.135L18.75 5.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Store.ts
+// src/icons/StopwatchPlus.ts
 import { defineComponent as defineComponent886, h as h886 } from "vue";
-var Store = defineComponent886({
-  name: "Store",
+var StopwatchPlus = defineComponent886({
+  name: "StopwatchPlus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31002,16 +31002,16 @@ var Store = defineComponent886({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M8.25 9s0 2.25-3 2.25q-.411-.001-.75-.053M8.25 9s0 2.25 3.75 2.25S15.75 9 15.75 9m-7.5 0 1.5-5.25M4.5 11.197c-1.591-.24-2.057-1.24-2.194-1.804-.06-.254.012-.512.142-.739l2.37-4.148A1.5 1.5 0 0 1 6.12 3.75h3.63M4.5 11.197v7.553a1.5 1.5 0 0 0 1.5 1.5h3.75v-4.5a1.5 1.5 0 0 1 1.5-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v4.5H18a1.5 1.5 0 0 0 1.5-1.5v-7.553M15.75 9s0 2.25 3 2.25q.411-.001.75-.053M15.75 9l-1.5-5.25m-4.5 0h4.5m0 0h3.63a1.5 1.5 0 0 1 1.302.756l2.37 4.148c.13.227.203.485.142.739-.137.564-.603 1.564-2.194 1.804"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 5.25v-3m0 3c1.983 0 3.802.7 5.224 1.865M12 5.25c-1.982 0-3.802.7-5.224 1.865A8.25 8.25 0 0 0 12 21.75m0-19.5H9m3 0h3M8.25 12 12 15l4.5-3.75m.724-4.135L18.75 5.25m-1.526 1.865a8.25 8.25 0 0 1 2.796 4.442M18.375 22.5v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Subdivide.ts
+// src/icons/Store.ts
 import { defineComponent as defineComponent887, h as h887 } from "vue";
-var Subdivide = defineComponent887({
-  name: "Subdivide",
+var Store = defineComponent887({
+  name: "Store",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31037,16 +31037,16 @@ var Subdivide = defineComponent887({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.802 7.616a1.5 1.5 0 0 1 .198.746V12m-.198-4.384a1.5 1.5 0 0 0-.546-.55l-3.75-2.188m4.296 2.738L16.4 10.183M3.199 7.616a1.5 1.5 0 0 1 .545-.55l3.75-2.188M3.2 7.616c-.128.223-.199.48-.199.746V12m.199-4.384 4.4 2.567M12 21.513c-.261 0-.522-.068-.756-.204L7.6 19.183M12 21.513c.261 0 .522-.068.756-.204l3.75-2.187M12 21.514v-4.382m4.506-12.254-3.75-2.187a1.5 1.5 0 0 0-1.512 0l-3.75 2.187m9.012 0L12 7.562m0 5.188-4.4-2.567M12 12.75l4.4-2.567M12 12.75v4.382m-4.4-6.95v4.44m0-4.44 4.4-2.62m-4.4 11.62-3.856-2.248A1.5 1.5 0 0 1 3 15.638V12m4.6 7.183v-4.56m0 0L3 12m4.6 2.623 4.4 2.509m0-9.57 4.4 2.62M12 7.563 7.494 4.878m8.907 5.305.052 4.41m.053 4.529 3.75-2.188A1.5 1.5 0 0 0 21 15.638V12m-4.494 7.122-.053-4.53m0 0L12 17.133m4.453-2.54L21 12"/>`
+        innerHTML: `<path d="M8.25 9s0 2.25-3 2.25q-.411-.001-.75-.053M8.25 9s0 2.25 3.75 2.25S15.75 9 15.75 9m-7.5 0 1.5-5.25M4.5 11.197c-1.591-.24-2.057-1.24-2.194-1.804-.06-.254.012-.512.142-.739l2.37-4.148A1.5 1.5 0 0 1 6.12 3.75h3.63M4.5 11.197v7.553a1.5 1.5 0 0 0 1.5 1.5h3.75v-4.5a1.5 1.5 0 0 1 1.5-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v4.5H18a1.5 1.5 0 0 0 1.5-1.5v-7.553M15.75 9s0 2.25 3 2.25q.411-.001.75-.053M15.75 9l-1.5-5.25m-4.5 0h4.5m0 0h3.63a1.5 1.5 0 0 1 1.302.756l2.37 4.148c.13.227.203.485.142.739-.137.564-.603 1.564-2.194 1.804"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SubdivisionSurface.ts
+// src/icons/Subdivide.ts
 import { defineComponent as defineComponent888, h as h888 } from "vue";
-var SubdivisionSurface = defineComponent888({
-  name: "SubdivisionSurface",
+var Subdivide = defineComponent888({
+  name: "Subdivide",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31072,16 +31072,16 @@ var SubdivisionSurface = defineComponent888({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m14.25 11.437 3.375-1.968M9.8 11.466 6.5 9.541M12 15v3.375M3 9.223v5.554a3 3 0 0 0 1.488 2.591l6 3.5a3 3 0 0 0 3.024 0l6-3.5A3 3 0 0 0 21 14.777V9.223a3 3 0 0 0-1.488-2.591l-6-3.5a3 3 0 0 0-3.024 0l-6 3.5A3 3 0 0 0 3 9.223"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.802 7.616a1.5 1.5 0 0 1 .198.746V12m-.198-4.384a1.5 1.5 0 0 0-.546-.55l-3.75-2.188m4.296 2.738L16.4 10.183M3.199 7.616a1.5 1.5 0 0 1 .545-.55l3.75-2.188M3.2 7.616c-.128.223-.199.48-.199.746V12m.199-4.384 4.4 2.567M12 21.513c-.261 0-.522-.068-.756-.204L7.6 19.183M12 21.513c.261 0 .522-.068.756-.204l3.75-2.187M12 21.514v-4.382m4.506-12.254-3.75-2.187a1.5 1.5 0 0 0-1.512 0l-3.75 2.187m9.012 0L12 7.562m0 5.188-4.4-2.567M12 12.75l4.4-2.567M12 12.75v4.382m-4.4-6.95v4.44m0-4.44 4.4-2.62m-4.4 11.62-3.856-2.248A1.5 1.5 0 0 1 3 15.638V12m4.6 7.183v-4.56m0 0L3 12m4.6 2.623 4.4 2.509m0-9.57 4.4 2.62M12 7.563 7.494 4.878m8.907 5.305.052 4.41m.053 4.529 3.75-2.188A1.5 1.5 0 0 0 21 15.638V12m-4.494 7.122-.053-4.53m0 0L12 17.133m4.453-2.54L21 12"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Subscription.ts
+// src/icons/SubdivisionSurface.ts
 import { defineComponent as defineComponent889, h as h889 } from "vue";
-var Subscription = defineComponent889({
-  name: "Subscription",
+var SubdivisionSurface = defineComponent889({
+  name: "SubdivisionSurface",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31107,16 +31107,16 @@ var Subscription = defineComponent889({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21 3v4.5m0 0h-3.75m3.75 0c-1.84-3.221-5.29-5.25-9-5.25-5.385 0-9.75 4.365-9.75 9.75m4.5 4.5H3m0 0V21m0-4.5c1.84 3.221 5.29 5.25 9 5.25 5.385 0 9.75-4.365 9.75-9.75m-10.5-1.5h-1.5m0 0H9m.75 0v-.75a2.25 2.25 0 0 1 4.5 0v.75m-4.5 0v3m1.5 0h-1.5m0 0H9m.75 0v.75a2.25 2.25 0 0 0 4.5 0v-.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m14.25 11.437 3.375-1.968M9.8 11.466 6.5 9.541M12 15v3.375M3 9.223v5.554a3 3 0 0 0 1.488 2.591l6 3.5a3 3 0 0 0 3.024 0l6-3.5A3 3 0 0 0 21 14.777V9.223a3 3 0 0 0-1.488-2.591l-6-3.5a3 3 0 0 0-3.024 0l-6 3.5A3 3 0 0 0 3 9.223"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Substract.ts
+// src/icons/Subscription.ts
 import { defineComponent as defineComponent890, h as h890 } from "vue";
-var Substract = defineComponent890({
-  name: "Substract",
+var Subscription = defineComponent890({
+  name: "Subscription",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31142,16 +31142,16 @@ var Substract = defineComponent890({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M16.5 7.5h3c.414 0 .79.168 1.06.44M16.5 7.5v-3A1.5 1.5 0 0 0 15 3H4.5A1.5 1.5 0 0 0 3 4.5V15a1.5 1.5 0 0 0 1.5 1.5h3m9-9V12m-9 4.5v3c0 .414.168.79.44 1.06M7.5 16.5H12m0 0h3a1.5 1.5 0 0 0 1.5-1.5v-3M12 16.5l-4.06 4.06M16.5 12l4.06-4.06M12 21H9c-.414 0-.79-.168-1.06-.44M12 21l9-9m-9 9h4.5m4.5-9V9c0-.414-.168-.79-.44-1.06M21 12v4.5M16.5 21h3a1.5 1.5 0 0 0 1.5-1.5v-3M16.5 21l4.5-4.5"/>`
+        innerHTML: `<path d="M21 3v4.5m0 0h-3.75m3.75 0c-1.84-3.221-5.29-5.25-9-5.25-5.385 0-9.75 4.365-9.75 9.75m4.5 4.5H3m0 0V21m0-4.5c1.84 3.221 5.29 5.25 9 5.25 5.385 0 9.75-4.365 9.75-9.75m-10.5-1.5h-1.5m0 0H9m.75 0v-.75a2.25 2.25 0 0 1 4.5 0v.75m-4.5 0v3m1.5 0h-1.5m0 0H9m.75 0v.75a2.25 2.25 0 0 0 4.5 0v-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Subtitles.ts
+// src/icons/Substract.ts
 import { defineComponent as defineComponent891, h as h891 } from "vue";
-var Subtitles = defineComponent891({
-  name: "Subtitles",
+var Substract = defineComponent891({
+  name: "Substract",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31177,16 +31177,16 @@ var Subtitles = defineComponent891({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6 16.5h6m3 0h3m0-3.75h-6m-3 0H6m-.75-9h13.5a3 3 0 0 1 3 3v10.5a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V6.75a3 3 0 0 1 3-3"/>`
+        innerHTML: `<path d="M16.5 7.5h3c.414 0 .79.168 1.06.44M16.5 7.5v-3A1.5 1.5 0 0 0 15 3H4.5A1.5 1.5 0 0 0 3 4.5V15a1.5 1.5 0 0 0 1.5 1.5h3m9-9V12m-9 4.5v3c0 .414.168.79.44 1.06M7.5 16.5H12m0 0h3a1.5 1.5 0 0 0 1.5-1.5v-3M12 16.5l-4.06 4.06M16.5 12l4.06-4.06M12 21H9c-.414 0-.79-.168-1.06-.44M12 21l9-9m-9 9h4.5m4.5-9V9c0-.414-.168-.79-.44-1.06M21 12v4.5M16.5 21h3a1.5 1.5 0 0 0 1.5-1.5v-3M16.5 21l4.5-4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SubtitlesOff.ts
+// src/icons/Subtitles.ts
 import { defineComponent as defineComponent892, h as h892 } from "vue";
-var SubtitlesOff = defineComponent892({
-  name: "SubtitlesOff",
+var Subtitles = defineComponent892({
+  name: "Subtitles",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31212,16 +31212,16 @@ var SubtitlesOff = defineComponent892({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M8.25 3.75h10.5a3 3 0 0 1 3 3v10.5M6 16.5h6m3 0h1.5m0 0-3.75-3.75m3.75 3.75 3.485 3.485M18 12.75h-.75m-4.5 0H12m.75 0L4.015 4.015M9 12.75H6m13.985 7.235a3 3 0 0 1-1.235.265H5.25a3 3 0 0 1-3-3V6.75a3 3 0 0 1 1.765-2.735m15.97 15.97 1.765 1.765M4.015 4.015 2.25 2.25"/>`
+        innerHTML: `<path d="M6 16.5h6m3 0h3m0-3.75h-6m-3 0H6m-.75-9h13.5a3 3 0 0 1 3 3v10.5a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V6.75a3 3 0 0 1 3-3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Subway.ts
+// src/icons/SubtitlesOff.ts
 import { defineComponent as defineComponent893, h as h893 } from "vue";
-var Subway = defineComponent893({
-  name: "Subway",
+var SubtitlesOff = defineComponent893({
+  name: "SubtitlesOff",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31247,16 +31247,16 @@ var Subway = defineComponent893({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 20.25h3m0 0H16.5m-11.25 0A2.25 2.25 0 0 1 3 18v-.75m2.25 3A2.25 2.25 0 0 0 7.5 18v-.75m9 3h5.25m-5.25 0A2.25 2.25 0 0 0 18.75 18v-.75m-2.25 3A2.25 2.25 0 0 1 14.25 18v-.75m4.5 0h1.5a1.5 1.5 0 0 0 1.5-1.5v-3m-3 4.5h-4.5m0 0H7.5m0 0H3m0 0h-.75m6-9.75h-6m6 0h4.5m-4.5 0v5.25m13.5 0V9a1.5 1.5 0 0 0-1.5-1.5h-3m4.5 5.25h-4.5m-15 0h10.5m4.5 0V7.5m0 5.25h-4.5m4.5-5.25h-4.5m0 5.25V7.5m-9 0v5.25m-1.5-9h19.5"/>`
+        innerHTML: `<path d="M8.25 3.75h10.5a3 3 0 0 1 3 3v10.5M6 16.5h6m3 0h1.5m0 0-3.75-3.75m3.75 3.75 3.485 3.485M18 12.75h-.75m-4.5 0H12m.75 0L4.015 4.015M9 12.75H6m13.985 7.235a3 3 0 0 1-1.235.265H5.25a3 3 0 0 1-3-3V6.75a3 3 0 0 1 1.765-2.735m15.97 15.97 1.765 1.765M4.015 4.015 2.25 2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Suitcase.ts
+// src/icons/Subway.ts
 import { defineComponent as defineComponent894, h as h894 } from "vue";
-var Suitcase = defineComponent894({
-  name: "Suitcase",
+var Subway = defineComponent894({
+  name: "Subway",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31282,16 +31282,16 @@ var Suitcase = defineComponent894({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6.75 6.75h-3a1.5 1.5 0 0 0-1.5 1.5v10.5a1.5 1.5 0 0 0 1.5 1.5h16.5a1.5 1.5 0 0 0 1.5-1.5V8.25a1.5 1.5 0 0 0-1.5-1.5h-3m-10.5 0 .746-1.864A3 3 0 0 1 10.28 3h3.438a3 3 0 0 1 2.785 1.886l.746 1.864m-10.5 0h10.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 20.25h3m0 0H16.5m-11.25 0A2.25 2.25 0 0 1 3 18v-.75m2.25 3A2.25 2.25 0 0 0 7.5 18v-.75m9 3h5.25m-5.25 0A2.25 2.25 0 0 0 18.75 18v-.75m-2.25 3A2.25 2.25 0 0 1 14.25 18v-.75m4.5 0h1.5a1.5 1.5 0 0 0 1.5-1.5v-3m-3 4.5h-4.5m0 0H7.5m0 0H3m0 0h-.75m6-9.75h-6m6 0h4.5m-4.5 0v5.25m13.5 0V9a1.5 1.5 0 0 0-1.5-1.5h-3m4.5 5.25h-4.5m-15 0h10.5m4.5 0V7.5m0 5.25h-4.5m4.5-5.25h-4.5m0 5.25V7.5m-9 0v5.25m-1.5-9h19.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SuitcaseStickers.ts
+// src/icons/Suitcase.ts
 import { defineComponent as defineComponent895, h as h895 } from "vue";
-var SuitcaseStickers = defineComponent895({
-  name: "SuitcaseStickers",
+var Suitcase = defineComponent895({
+  name: "Suitcase",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31317,16 +31317,16 @@ var SuitcaseStickers = defineComponent895({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6.75 6.75h-3a1.5 1.5 0 0 0-1.5 1.5v10.5a1.5 1.5 0 0 0 1.5 1.5h16.5a1.5 1.5 0 0 0 1.5-1.5V8.25a1.5 1.5 0 0 0-1.5-1.5h-3m-10.5 0 .746-1.864A3 3 0 0 1 10.28 3h3.438a3 3 0 0 1 2.785 1.886l.746 1.864m-10.5 0h10.5m-4.675 6.871-.756 2.904 2.903.756.756-2.904zm2.307-.42 1.403 2.652 2.652-1.402-1.403-2.652zM8.25 11.25a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>`
+        innerHTML: `<path d="M6.75 6.75h-3a1.5 1.5 0 0 0-1.5 1.5v10.5a1.5 1.5 0 0 0 1.5 1.5h16.5a1.5 1.5 0 0 0 1.5-1.5V8.25a1.5 1.5 0 0 0-1.5-1.5h-3m-10.5 0 .746-1.864A3 3 0 0 1 10.28 3h3.438a3 3 0 0 1 2.785 1.886l.746 1.864m-10.5 0h10.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Sun.ts
+// src/icons/SuitcaseStickers.ts
 import { defineComponent as defineComponent896, h as h896 } from "vue";
-var Sun = defineComponent896({
-  name: "Sun",
+var SuitcaseStickers = defineComponent896({
+  name: "SuitcaseStickers",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31352,16 +31352,16 @@ var Sun = defineComponent896({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 2.25V4.5m0 17.25V19.5m6.897-14.4-1.591 1.591M5.107 18.89l1.59-1.591m15.06-5.305h-2.25m-17.25 0h2.25m14.4 6.896-1.592-1.59M5.12 5.1l1.59 1.59M7.5 12a4.5 4.5 0 1 0 9 0 4.5 4.5 0 0 0-9 0"/>`
+        innerHTML: `<path d="M6.75 6.75h-3a1.5 1.5 0 0 0-1.5 1.5v10.5a1.5 1.5 0 0 0 1.5 1.5h16.5a1.5 1.5 0 0 0 1.5-1.5V8.25a1.5 1.5 0 0 0-1.5-1.5h-3m-10.5 0 .746-1.864A3 3 0 0 1 10.28 3h3.438a3 3 0 0 1 2.785 1.886l.746 1.864m-10.5 0h10.5m-4.675 6.871-.756 2.904 2.903.756.756-2.904zm2.307-.42 1.403 2.652 2.652-1.402-1.403-2.652zM8.25 11.25a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Support.ts
+// src/icons/Sun.ts
 import { defineComponent as defineComponent897, h as h897 } from "vue";
-var Support = defineComponent897({
-  name: "Support",
+var Sun = defineComponent897({
+  name: "Sun",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31387,16 +31387,16 @@ var Support = defineComponent897({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M8.25 20.25h3m9 0h-3m-6 0v-3m0 3h3m0 0v-6m0 6h3m0 0v-9M4.5 3h12.879c1.336 0 2.005 1.616 1.06 2.56L5.561 18.44C4.616 19.383 3 18.714 3 17.378V4.5A1.5 1.5 0 0 1 4.5 3"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 2.25V4.5m0 17.25V19.5m6.897-14.4-1.591 1.591M5.107 18.89l1.59-1.591m15.06-5.305h-2.25m-17.25 0h2.25m14.4 6.896-1.592-1.59M5.12 5.1l1.59 1.59M7.5 12a4.5 4.5 0 1 0 9 0 4.5 4.5 0 0 0-9 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Swap.ts
+// src/icons/Support.ts
 import { defineComponent as defineComponent898, h as h898 } from "vue";
-var Swap = defineComponent898({
-  name: "Swap",
+var Support = defineComponent898({
+  name: "Support",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31422,16 +31422,16 @@ var Swap = defineComponent898({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M14.25 21H15a3 3 0 0 0 3-3v-3.75m0 0-3 3m3-3 3 3M9.75 3H9a3 3 0 0 0-3 3v3.75m0 0 3-3m-3 3-3-3M21 4.5V9a1.5 1.5 0 0 1-1.5 1.5H15A1.5 1.5 0 0 1 13.5 9V4.5A1.5 1.5 0 0 1 15 3h4.5A1.5 1.5 0 0 1 21 4.5M10.5 15v4.5A1.5 1.5 0 0 1 9 21H4.5A1.5 1.5 0 0 1 3 19.5V15a1.5 1.5 0 0 1 1.5-1.5H9a1.5 1.5 0 0 1 1.5 1.5"/>`
+        innerHTML: `<path d="M8.25 20.25h3m9 0h-3m-6 0v-3m0 3h3m0 0v-6m0 6h3m0 0v-9M4.5 3h12.879c1.336 0 2.005 1.616 1.06 2.56L5.561 18.44C4.616 19.383 3 18.714 3 17.378V4.5A1.5 1.5 0 0 1 4.5 3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SyncCheck.ts
+// src/icons/Swap.ts
 import { defineComponent as defineComponent899, h as h899 } from "vue";
-var SyncCheck = defineComponent899({
-  name: "SyncCheck",
+var Swap = defineComponent899({
+  name: "Swap",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31457,16 +31457,16 @@ var SyncCheck = defineComponent899({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M21 3v4.5m0 0h-4.5m4.5 0c-1.84-3.221-5.29-5.25-9-5.25-5.385 0-9.75 4.365-9.75 9.75m5.25 4.5H3m0 0V21m0-4.5c1.84 3.221 5.29 5.25 9 5.25m2.25-3 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
+        innerHTML: `<path d="M14.25 21H15a3 3 0 0 0 3-3v-3.75m0 0-3 3m3-3 3 3M9.75 3H9a3 3 0 0 0-3 3v3.75m0 0 3-3m-3 3-3-3M21 4.5V9a1.5 1.5 0 0 1-1.5 1.5H15A1.5 1.5 0 0 1 13.5 9V4.5A1.5 1.5 0 0 1 15 3h4.5A1.5 1.5 0 0 1 21 4.5M10.5 15v4.5A1.5 1.5 0 0 1 9 21H4.5A1.5 1.5 0 0 1 3 19.5V15a1.5 1.5 0 0 1 1.5-1.5H9a1.5 1.5 0 0 1 1.5 1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/SyncOff.ts
+// src/icons/SyncCheck.ts
 import { defineComponent as defineComponent900, h as h900 } from "vue";
-var SyncOff = defineComponent900({
-  name: "SyncOff",
+var SyncCheck = defineComponent900({
+  name: "SyncCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31492,16 +31492,16 @@ var SyncOff = defineComponent900({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21 3v4.5m0 0h-4.5m4.5 0c-1.84-3.221-5.29-5.25-9-5.25a9.7 9.7 0 0 0-4.268.982M7.5 16.5H3m0 0V21m0-4.5c1.84 3.221 5.29 5.25 9 5.25a9.72 9.72 0 0 0 6.894-2.856M2.25 12a9.72 9.72 0 0 1 2.856-6.894m0 0L2.25 2.25m2.856 2.856 13.788 13.788m0 0 2.856 2.856m-.982-5.482A9.7 9.7 0 0 0 21.75 12"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M21 3v4.5m0 0h-4.5m4.5 0c-1.84-3.221-5.29-5.25-9-5.25-5.385 0-9.75 4.365-9.75 9.75m5.25 4.5H3m0 0V21m0-4.5c1.84 3.221 5.29 5.25 9 5.25m2.25-3 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Syringe.ts
+// src/icons/SyncOff.ts
 import { defineComponent as defineComponent901, h as h901 } from "vue";
-var Syringe = defineComponent901({
-  name: "Syringe",
+var SyncOff = defineComponent901({
+  name: "SyncOff",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31527,16 +31527,16 @@ var Syringe = defineComponent901({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M17.25 2.25 19.5 4.5m0 0 2.25 2.25M19.5 4.5 15 9m0 0 2.25 2.25M15 9l-2.25-2.25m4.5 4.5.314.314c.786.786 1.44 1.693 1.936 2.686m-2.25-3L15 13.5m-9.75 5.25h4.5l.75-.75m-5.25.75-3 3m3-3v-4.5l7.5-7.5m0 0-.314-.314A10.3 10.3 0 0 0 9.75 4.5M10.5 18 9 16.5m1.5 1.5 2.25-2.25m0 0-1.5-1.5m1.5 1.5L15 13.5m0 0L13.5 12"/>`
+        innerHTML: `<path d="M21 3v4.5m0 0h-4.5m4.5 0c-1.84-3.221-5.29-5.25-9-5.25a9.7 9.7 0 0 0-4.268.982M7.5 16.5H3m0 0V21m0-4.5c1.84 3.221 5.29 5.25 9 5.25a9.72 9.72 0 0 0 6.894-2.856M2.25 12a9.72 9.72 0 0 1 2.856-6.894m0 0L2.25 2.25m2.856 2.856 13.788 13.788m0 0 2.856 2.856m-.982-5.482A9.7 9.7 0 0 0 21.75 12"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Table.ts
+// src/icons/Syringe.ts
 import { defineComponent as defineComponent902, h as h902 } from "vue";
-var Table = defineComponent902({
-  name: "Table",
+var Syringe = defineComponent902({
+  name: "Syringe",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31562,16 +31562,16 @@ var Table = defineComponent902({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 19.5V9m0 0 3-3h13.5l3 3M2.25 9H6m15.75 0v10.5m0-10.5H18M6 9v7.5M6 9h12m0 0v7.5"/>`
+        innerHTML: `<path d="M17.25 2.25 19.5 4.5m0 0 2.25 2.25M19.5 4.5 15 9m0 0 2.25 2.25M15 9l-2.25-2.25m4.5 4.5.314.314c.786.786 1.44 1.693 1.936 2.686m-2.25-3L15 13.5m-9.75 5.25h4.5l.75-.75m-5.25.75-3 3m3-3v-4.5l7.5-7.5m0 0-.314-.314A10.3 10.3 0 0 0 9.75 4.5M10.5 18 9 16.5m1.5 1.5 2.25-2.25m0 0-1.5-1.5m1.5 1.5L15 13.5m0 0L13.5 12"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TableCollumn.ts
+// src/icons/Table.ts
 import { defineComponent as defineComponent903, h as h903 } from "vue";
-var TableCollumn = defineComponent903({
-  name: "TableCollumn",
+var Table = defineComponent903({
+  name: "Table",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31597,16 +31597,16 @@ var TableCollumn = defineComponent903({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9 3H4.5A1.5 1.5 0 0 0 3 4.5v15A1.5 1.5 0 0 0 4.5 21H9M9 3v18M9 3h6M9 21h6m0 0h4.5a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3H15m0 18V3"/>`
+        innerHTML: `<path d="M2.25 19.5V9m0 0 3-3h13.5l3 3M2.25 9H6m15.75 0v10.5m0-10.5H18M6 9v7.5M6 9h12m0 0v7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TableRow.ts
+// src/icons/TableCollumn.ts
 import { defineComponent as defineComponent904, h as h904 } from "vue";
-var TableRow = defineComponent904({
-  name: "TableRow",
+var TableCollumn = defineComponent904({
+  name: "TableCollumn",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31632,16 +31632,16 @@ var TableRow = defineComponent904({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 12v6.75a1.5 1.5 0 0 0 1.5 1.5H7.5M2.25 12V5.25a1.5 1.5 0 0 1 1.5-1.5H7.5M2.25 12H7.5m14.25 0V5.25a1.5 1.5 0 0 0-1.5-1.5H7.5M21.75 12v6.75a1.5 1.5 0 0 1-1.5 1.5H7.5M21.75 12H7.5m0 0V3.75m0 8.25v8.25"/>`
+        innerHTML: `<path d="M9 3H4.5A1.5 1.5 0 0 0 3 4.5v15A1.5 1.5 0 0 0 4.5 21H9M9 3v18M9 3h6M9 21h6m0 0h4.5a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3H15m0 18V3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Tablet.ts
+// src/icons/TableRow.ts
 import { defineComponent as defineComponent905, h as h905 } from "vue";
-var Tablet = defineComponent905({
-  name: "Tablet",
+var TableRow = defineComponent905({
+  name: "TableRow",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31667,16 +31667,16 @@ var Tablet = defineComponent905({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M15.75 18.75h-7.5m11.25 0V5.25a3 3 0 0 0-3-3h-9a3 3 0 0 0-3 3v13.5a3 3 0 0 0 3 3h9a3 3 0 0 0 3-3"/>`
+        innerHTML: `<path d="M2.25 12v6.75a1.5 1.5 0 0 0 1.5 1.5H7.5M2.25 12V5.25a1.5 1.5 0 0 1 1.5-1.5H7.5M2.25 12H7.5m14.25 0V5.25a1.5 1.5 0 0 0-1.5-1.5H7.5M21.75 12v6.75a1.5 1.5 0 0 1-1.5 1.5H7.5M21.75 12H7.5m0 0V3.75m0 8.25v8.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TabletLandscape.ts
+// src/icons/Tablet.ts
 import { defineComponent as defineComponent906, h as h906 } from "vue";
-var TabletLandscape = defineComponent906({
-  name: "TabletLandscape",
+var Tablet = defineComponent906({
+  name: "Tablet",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31702,16 +31702,16 @@ var TabletLandscape = defineComponent906({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M5.25 15.75v-7.5m0 11.25h13.5a3 3 0 0 0 3-3v-9a3 3 0 0 0-3-3H5.25a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3"/>`
+        innerHTML: `<path d="M15.75 18.75h-7.5m11.25 0V5.25a3 3 0 0 0-3-3h-9a3 3 0 0 0-3 3v13.5a3 3 0 0 0 3 3h9a3 3 0 0 0 3-3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Tag.ts
+// src/icons/TabletLandscape.ts
 import { defineComponent as defineComponent907, h as h907 } from "vue";
-var Tag = defineComponent907({
-  name: "Tag",
+var TabletLandscape = defineComponent907({
+  name: "TabletLandscape",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31737,16 +31737,16 @@ var Tag = defineComponent907({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 6v5.379c0 .398.158.779.44 1.06l8.25 8.25a1.5 1.5 0 0 0 2.12 0l6.88-6.878a1.5 1.5 0 0 0 0-2.122l-8.25-8.25A1.5 1.5 0 0 0 11.378 3H6a3 3 0 0 0-3 3m3.75 3a2.25 2.25 0 1 0 4.5 0 2.25 2.25 0 0 0-4.5 0" clip-rule="evenodd"/>`
+        innerHTML: `<path d="M5.25 15.75v-7.5m0 11.25h13.5a3 3 0 0 0 3-3v-9a3 3 0 0 0-3-3H5.25a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TagPlus.ts
+// src/icons/Tag.ts
 import { defineComponent as defineComponent908, h as h908 } from "vue";
-var TagPlus = defineComponent908({
-  name: "TagPlus",
+var Tag = defineComponent908({
+  name: "Tag",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31772,16 +31772,16 @@ var TagPlus = defineComponent908({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.85 11.88a1.5 1.5 0 0 0-.16-.19l-8.25-8.25A1.5 1.5 0 0 0 11.378 3H6a3 3 0 0 0-3 3v5.379c0 .398.158.779.44 1.06l8.25 8.25q.09.09.19.162m6.495 1.649v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25M9 11.25a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5"/>`
+        innerHTML: `<path d="M3 6v5.379c0 .398.158.779.44 1.06l8.25 8.25a1.5 1.5 0 0 0 2.12 0l6.88-6.878a1.5 1.5 0 0 0 0-2.122l-8.25-8.25A1.5 1.5 0 0 0 11.378 3H6a3 3 0 0 0-3 3m3.75 3a2.25 2.25 0 1 0 4.5 0 2.25 2.25 0 0 0-4.5 0" clip-rule="evenodd"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Target.ts
+// src/icons/TagPlus.ts
 import { defineComponent as defineComponent909, h as h909 } from "vue";
-var Target = defineComponent909({
-  name: "Target",
+var TagPlus = defineComponent909({
+  name: "TagPlus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31807,16 +31807,16 @@ var Target = defineComponent909({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 5.25v-3m0 3A6.75 6.75 0 0 0 5.25 12M12 5.25A6.75 6.75 0 0 1 18.75 12m0 0h3m-3 0A6.75 6.75 0 0 1 12 18.75M5.25 12h-3m3 0A6.75 6.75 0 0 0 12 18.75m0 0v3M15 12a3 3 0 1 0-6 0 3 3 0 0 0 6 0"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.85 11.88a1.5 1.5 0 0 0-.16-.19l-8.25-8.25A1.5 1.5 0 0 0 11.378 3H6a3 3 0 0 0-3 3v5.379c0 .398.158.779.44 1.06l8.25 8.25q.09.09.19.162m6.495 1.649v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25M9 11.25a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TargetBow.ts
+// src/icons/Target.ts
 import { defineComponent as defineComponent910, h as h910 } from "vue";
-var TargetBow = defineComponent910({
-  name: "TargetBow",
+var Target = defineComponent910({
+  name: "Target",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31842,16 +31842,16 @@ var TargetBow = defineComponent910({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 2.25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12 6.615 2.25 12 2.25"/>`
+        innerHTML: `<path d="M12 5.25v-3m0 3A6.75 6.75 0 0 0 5.25 12M12 5.25A6.75 6.75 0 0 1 18.75 12m0 0h3m-3 0A6.75 6.75 0 0 1 12 18.75M5.25 12h-3m3 0A6.75 6.75 0 0 0 12 18.75m0 0v3M15 12a3 3 0 1 0-6 0 3 3 0 0 0 6 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Taxi.ts
+// src/icons/TargetBow.ts
 import { defineComponent as defineComponent911, h as h911 } from "vue";
-var Taxi = defineComponent911({
-  name: "Taxi",
+var TargetBow = defineComponent911({
+  name: "TargetBow",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31877,16 +31877,16 @@ var Taxi = defineComponent911({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M19.5 18.75h.75a1.5 1.5 0 0 0 1.5-1.5v-3.573a1.5 1.5 0 0 0-.83-1.342l-1.723-.861a1.5 1.5 0 0 1-.67-.671l-1.612-3.224a1.5 1.5 0 0 0-1.342-.829H7.5m12 12a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0m-10.5 0h-.75a1.5 1.5 0 0 1-1.5-1.5v-4.146a1.5 1.5 0 0 1 .158-.67l2.427-4.855a1.5 1.5 0 0 1 1.342-.829H7.5m-3 12a2.25 2.25 0 0 1 4.5 0m-4.5 0a2.25 2.25 0 0 0 4.5 0m0 0h6m-1.5-12-.466-1.864a1.5 1.5 0 0 0-1.455-1.136H9.42a1.5 1.5 0 0 0-1.455 1.136L7.5 6.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 2.25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12 6.615 2.25 12 2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TaxiAlt.ts
+// src/icons/Taxi.ts
 import { defineComponent as defineComponent912, h as h912 } from "vue";
-var TaxiAlt = defineComponent912({
-  name: "TaxiAlt",
+var Taxi = defineComponent912({
+  name: "Taxi",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31912,16 +31912,16 @@ var TaxiAlt = defineComponent912({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 9v6m0-6H1.5M3 9h1.5m3 6v-3m0 0v-1.5a1.5 1.5 0 1 1 3 0V12m-3 0h3m0 0v3m3-6v.257a3 3 0 0 0 .879 2.122L15 12m0 0 .621.621a3 3 0 0 1 .879 2.122V15M15 12l-.621.621a3 3 0 0 0-.879 2.122V15m1.5-3 .621-.621a3 3 0 0 0 .879-2.122V9m3 0H21m0 0h1.5M21 9v6m0 0h-1.5m1.5 0h1.5M2.25 5.25h19.5m-19.5 13.5h19.5"/>`
+        innerHTML: `<path d="M19.5 18.75h.75a1.5 1.5 0 0 0 1.5-1.5v-3.573a1.5 1.5 0 0 0-.83-1.342l-1.723-.861a1.5 1.5 0 0 1-.67-.671l-1.612-3.224a1.5 1.5 0 0 0-1.342-.829H7.5m12 12a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0m-10.5 0h-.75a1.5 1.5 0 0 1-1.5-1.5v-4.146a1.5 1.5 0 0 1 .158-.67l2.427-4.855a1.5 1.5 0 0 1 1.342-.829H7.5m-3 12a2.25 2.25 0 0 1 4.5 0m-4.5 0a2.25 2.25 0 0 0 4.5 0m0 0h6m-1.5-12-.466-1.864a1.5 1.5 0 0 0-1.455-1.136H9.42a1.5 1.5 0 0 0-1.455 1.136L7.5 6.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Teapot.ts
+// src/icons/TaxiAlt.ts
 import { defineComponent as defineComponent913, h as h913 } from "vue";
-var Teapot = defineComponent913({
-  name: "Teapot",
+var TaxiAlt = defineComponent913({
+  name: "TaxiAlt",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31947,16 +31947,16 @@ var Teapot = defineComponent913({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m6.75 11.25.107-.268A5.54 5.54 0 0 1 12 7.5m-5.25 3.75h10.5m-10.5 0-1.59-1.06c-1.244-.829-2.91.063-2.91 1.558 0 .626.313 1.21.834 1.558L6.75 15.75m0-4.5v4.5m10.5-4.5-.107-.268A5.54 5.54 0 0 0 12 7.5m5.25 3.75 3-1.5h1.5l-3.67 7.342a3 3 0 0 1-2.684 1.658H9.75a3 3 0 0 1-3-3M12 7.5A.75.75 0 1 1 12 6a.75.75 0 0 1 0 1.5"/>`
+        innerHTML: `<path d="M3 9v6m0-6H1.5M3 9h1.5m3 6v-3m0 0v-1.5a1.5 1.5 0 1 1 3 0V12m-3 0h3m0 0v3m3-6v.257a3 3 0 0 0 .879 2.122L15 12m0 0 .621.621a3 3 0 0 1 .879 2.122V15M15 12l-.621.621a3 3 0 0 0-.879 2.122V15m1.5-3 .621-.621a3 3 0 0 0 .879-2.122V9m3 0H21m0 0h1.5M21 9v6m0 0h-1.5m1.5 0h1.5M2.25 5.25h19.5m-19.5 13.5h19.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Teepee.ts
+// src/icons/Teapot.ts
 import { defineComponent as defineComponent914, h as h914 } from "vue";
-var Teepee = defineComponent914({
-  name: "Teepee",
+var Teapot = defineComponent914({
+  name: "Teapot",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -31982,16 +31982,16 @@ var Teepee = defineComponent914({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m12 6.15 9 15.6h-6l-3-6m0-9.6-2.25-3.9M12 6.15l-9 15.6h6l3-6m0-9.6 2.25-3.9M12 15.75l-.75-1.5"/>`
+        innerHTML: `<path d="m6.75 11.25.107-.268A5.54 5.54 0 0 1 12 7.5m-5.25 3.75h10.5m-10.5 0-1.59-1.06c-1.244-.829-2.91.063-2.91 1.558 0 .626.313 1.21.834 1.558L6.75 15.75m0-4.5v4.5m10.5-4.5-.107-.268A5.54 5.54 0 0 0 12 7.5m5.25 3.75 3-1.5h1.5l-3.67 7.342a3 3 0 0 1-2.684 1.658H9.75a3 3 0 0 1-3-3M12 7.5A.75.75 0 1 1 12 6a.75.75 0 0 1 0 1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Telescope.ts
+// src/icons/Teepee.ts
 import { defineComponent as defineComponent915, h as h915 } from "vue";
-var Telescope = defineComponent915({
-  name: "Telescope",
+var Teepee = defineComponent915({
+  name: "Teepee",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32017,16 +32017,16 @@ var Telescope = defineComponent915({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M14.154 11.347a2.251 2.251 0 0 1 .636 3.997m-.636-3.997L18.31 7.19a1.5 1.5 0 0 0 0-2.121L15.931 2.69a1.5 1.5 0 0 0-2.12 0L7.5 9a1.06 1.06 0 0 0 0 1.5m6.654.847L12 13.5a1.06 1.06 0 0 1-.729.31m-.771-.31-1.94 1.94a1.5 1.5 0 0 1-2.12 0l-.88-.88a1.5 1.5 0 0 1 0-2.12L7.5 10.5m3 3-3-3m3 3c.213.213.493.316.771.31m0 0a2.25 2.25 0 0 0 .939 1.534m1.29.406v6m0-6c-.48 0-.925-.15-1.29-.406m1.29.406c.48 0 .925-.15 1.29-.406m-2.58 0L8.25 21m6.54-5.656L18.75 21"/>`
+        innerHTML: `<path d="m12 6.15 9 15.6h-6l-3-6m0-9.6-2.25-3.9M12 6.15l-9 15.6h6l3-6m0-9.6 2.25-3.9M12 15.75l-.75-1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Tent.ts
+// src/icons/Telescope.ts
 import { defineComponent as defineComponent916, h as h916 } from "vue";
-var Tent = defineComponent916({
-  name: "Tent",
+var Telescope = defineComponent916({
+  name: "Telescope",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32052,16 +32052,16 @@ var Tent = defineComponent916({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6 13.5c0-1.792.786-3.4 2.031-4.5m0 0A6 6 0 0 1 18 13.5v3.75H9M8.031 9 9 17.25m0 0H6m-3.75 3h19.5V13.5c0-5.385-4.365-9.75-9.75-9.75S2.25 8.115 2.25 13.5z"/>`
+        innerHTML: `<path d="M14.154 11.347a2.251 2.251 0 0 1 .636 3.997m-.636-3.997L18.31 7.19a1.5 1.5 0 0 0 0-2.121L15.931 2.69a1.5 1.5 0 0 0-2.12 0L7.5 9a1.06 1.06 0 0 0 0 1.5m6.654.847L12 13.5a1.06 1.06 0 0 1-.729.31m-.771-.31-1.94 1.94a1.5 1.5 0 0 1-2.12 0l-.88-.88a1.5 1.5 0 0 1 0-2.12L7.5 10.5m3 3-3-3m3 3c.213.213.493.316.771.31m0 0a2.25 2.25 0 0 0 .939 1.534m1.29.406v6m0-6c-.48 0-.925-.15-1.29-.406m1.29.406c.48 0 .925-.15 1.29-.406m-2.58 0L8.25 21m6.54-5.656L18.75 21"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Terminal.ts
+// src/icons/Tent.ts
 import { defineComponent as defineComponent917, h as h917 } from "vue";
-var Terminal = defineComponent917({
-  name: "Terminal",
+var Tent = defineComponent917({
+  name: "Tent",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32087,16 +32087,16 @@ var Terminal = defineComponent917({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m6 10.5 3 3-3 3m5.25 0H15M2.25 5.25v13.5a1.5 1.5 0 0 0 1.5 1.5h16.5a1.5 1.5 0 0 0 1.5-1.5V5.25a1.5 1.5 0 0 0-1.5-1.5H3.75a1.5 1.5 0 0 0-1.5 1.5"/>`
+        innerHTML: `<path d="M6 13.5c0-1.792.786-3.4 2.031-4.5m0 0A6 6 0 0 1 18 13.5v3.75H9M8.031 9 9 17.25m0 0H6m-3.75 3h19.5V13.5c0-5.385-4.365-9.75-9.75-9.75S2.25 8.115 2.25 13.5z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TestTube.ts
+// src/icons/Terminal.ts
 import { defineComponent as defineComponent918, h as h918 } from "vue";
-var TestTube = defineComponent918({
-  name: "TestTube",
+var Terminal = defineComponent918({
+  name: "Terminal",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32122,16 +32122,16 @@ var TestTube = defineComponent918({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M16.5 17.25a4.5 4.5 0 1 1-9 0V6.089c0-.552-.128-1.096-.375-1.589a3.55 3.55 0 0 1-.375-1.589V2.25h10.5v.661c0 .552-.128 1.096-.375 1.589a3.55 3.55 0 0 0-.375 1.589V9.75m0 7.5h-3m3 0V13.5m0 0h-3m3 0V9.75m0 0h-3"/>`
+        innerHTML: `<path d="m6 10.5 3 3-3 3m5.25 0H15M2.25 5.25v13.5a1.5 1.5 0 0 0 1.5 1.5h16.5a1.5 1.5 0 0 0 1.5-1.5V5.25a1.5 1.5 0 0 0-1.5-1.5H3.75a1.5 1.5 0 0 0-1.5 1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Text.ts
+// src/icons/TestTube.ts
 import { defineComponent as defineComponent919, h as h919 } from "vue";
-var Text = defineComponent919({
-  name: "Text",
+var TestTube = defineComponent919({
+  name: "TestTube",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32157,16 +32157,16 @@ var Text = defineComponent919({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 7.5v-3A1.5 1.5 0 0 1 4.5 3H12m9 4.5v-3A1.5 1.5 0 0 0 19.5 3H12m0 0v18m0 0h4.5M12 21H7.5"/>`
+        innerHTML: `<path d="M16.5 17.25a4.5 4.5 0 1 1-9 0V6.089c0-.552-.128-1.096-.375-1.589a3.55 3.55 0 0 1-.375-1.589V2.25h10.5v.661c0 .552-.128 1.096-.375 1.589a3.55 3.55 0 0 0-.375 1.589V9.75m0 7.5h-3m3 0V13.5m0 0h-3m3 0V9.75m0 0h-3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TextAlignCenter.ts
+// src/icons/Text.ts
 import { defineComponent as defineComponent920, h as h920 } from "vue";
-var TextAlignCenter = defineComponent920({
-  name: "TextAlignCenter",
+var Text = defineComponent920({
+  name: "Text",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32192,16 +32192,16 @@ var TextAlignCenter = defineComponent920({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 3h18M7.5 21h9m-12-6h15m-12-6h9"/>`
+        innerHTML: `<path d="M3 7.5v-3A1.5 1.5 0 0 1 4.5 3H12m9 4.5v-3A1.5 1.5 0 0 0 19.5 3H12m0 0v18m0 0h4.5M12 21H7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TextAlignJustify.ts
+// src/icons/TextAlignCenter.ts
 import { defineComponent as defineComponent921, h as h921 } from "vue";
-var TextAlignJustify = defineComponent921({
-  name: "TextAlignJustify",
+var TextAlignCenter = defineComponent921({
+  name: "TextAlignCenter",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32227,16 +32227,16 @@ var TextAlignJustify = defineComponent921({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 3h18M3 21h9m-9-6h18M3 9h18"/>`
+        innerHTML: `<path d="M3 3h18M7.5 21h9m-12-6h15m-12-6h9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TextAlignLeft.ts
+// src/icons/TextAlignJustify.ts
 import { defineComponent as defineComponent922, h as h922 } from "vue";
-var TextAlignLeft = defineComponent922({
-  name: "TextAlignLeft",
+var TextAlignJustify = defineComponent922({
+  name: "TextAlignJustify",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32262,16 +32262,16 @@ var TextAlignLeft = defineComponent922({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 3h18M3 21h9m-9-6h15M3 9h9"/>`
+        innerHTML: `<path d="M3 3h18M3 21h9m-9-6h18M3 9h18"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TextAlignRight.ts
+// src/icons/TextAlignLeft.ts
 import { defineComponent as defineComponent923, h as h923 } from "vue";
-var TextAlignRight = defineComponent923({
-  name: "TextAlignRight",
+var TextAlignLeft = defineComponent923({
+  name: "TextAlignLeft",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32297,16 +32297,16 @@ var TextAlignRight = defineComponent923({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21 3H3m18 18h-9m9-6H6m15-6h-9"/>`
+        innerHTML: `<path d="M3 3h18M3 21h9m-9-6h15M3 9h9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TextBold.ts
+// src/icons/TextAlignRight.ts
 import { defineComponent as defineComponent924, h as h924 } from "vue";
-var TextBold = defineComponent924({
-  name: "TextBold",
+var TextAlignRight = defineComponent924({
+  name: "TextAlignRight",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32332,16 +32332,16 @@ var TextBold = defineComponent924({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M5.25 21.75V2.25h9s4.5 0 4.5 4.875c0 2.607-1.502 3.82-2.899 4.384 1.544.447 3.649 1.667 3.649 4.991 0 5.25-5.25 5.25-5.25 5.25zm9-18.75H6v8.25h8.25s3.75 0 3.75-4.125S14.25 3 14.25 3M6 21h8.25s4.5 0 4.5-4.5-4.5-4.5-4.5-4.5H6z" clip-rule="evenodd"/>`
+        innerHTML: `<path d="M21 3H3m18 18h-9m9-6H6m15-6h-9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TextItalic.ts
+// src/icons/TextBold.ts
 import { defineComponent as defineComponent925, h as h925 } from "vue";
-var TextItalic = defineComponent925({
-  name: "TextItalic",
+var TextBold = defineComponent925({
+  name: "TextBold",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32367,16 +32367,16 @@ var TextItalic = defineComponent925({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3.75 21.75H9m0 0h5.25m-5.25 0 6-19.5m5.25 0H15m0 0H9.75"/>`
+        innerHTML: `<path d="M5.25 21.75V2.25h9s4.5 0 4.5 4.875c0 2.607-1.502 3.82-2.899 4.384 1.544.447 3.649 1.667 3.649 4.991 0 5.25-5.25 5.25-5.25 5.25zm9-18.75H6v8.25h8.25s3.75 0 3.75-4.125S14.25 3 14.25 3M6 21h8.25s4.5 0 4.5-4.5-4.5-4.5-4.5-4.5H6z" clip-rule="evenodd"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TextSize.ts
+// src/icons/TextItalic.ts
 import { defineComponent as defineComponent926, h as h926 } from "vue";
-var TextSize = defineComponent926({
-  name: "TextSize",
+var TextItalic = defineComponent926({
+  name: "TextItalic",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32402,16 +32402,16 @@ var TextSize = defineComponent926({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m3.671 15 2.627-8.32a2.047 2.047 0 0 1 3.904 0L12.829 15m-9.158 0L2.25 19.5M3.671 15h9.158m0 0 1.421 4.5m5.25.75V3.75m0 16.5L17.25 18m2.25 2.25L21.75 18M19.5 3.75 17.25 6m2.25-2.25L21.75 6"/>`
+        innerHTML: `<path d="M3.75 21.75H9m0 0h5.25m-5.25 0 6-19.5m5.25 0H15m0 0H9.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TextStrikethrough.ts
+// src/icons/TextSize.ts
 import { defineComponent as defineComponent927, h as h927 } from "vue";
-var TextStrikethrough = defineComponent927({
-  name: "TextStrikethrough",
+var TextSize = defineComponent927({
+  name: "TextSize",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32437,16 +32437,16 @@ var TextStrikethrough = defineComponent927({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M14.25 12.75c2.437.482 3.199 1.843 3.512 3.569.515 2.828-1.658 5.431-5.282 5.431h-.433C8.34 21.75 6 19.365 5.959 16.5m8.291-3.75h7.5m-7.5 0h-12m5.625-3C6.75 9.375 6.378 8.454 6.237 7.681 5.723 4.853 7.896 2.25 11.52 2.25h.433c3.706 0 5.297 2.385 5.338 5.25"/>`
+        innerHTML: `<path d="m3.671 15 2.627-8.32a2.047 2.047 0 0 1 3.904 0L12.829 15m-9.158 0L2.25 19.5M3.671 15h9.158m0 0 1.421 4.5m5.25.75V3.75m0 16.5L17.25 18m2.25 2.25L21.75 18M19.5 3.75 17.25 6m2.25-2.25L21.75 6"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TextUnderline.ts
+// src/icons/TextStrikethrough.ts
 import { defineComponent as defineComponent928, h as h928 } from "vue";
-var TextUnderline = defineComponent928({
-  name: "TextUnderline",
+var TextStrikethrough = defineComponent928({
+  name: "TextStrikethrough",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32472,16 +32472,16 @@ var TextUnderline = defineComponent928({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3.75 21.75h16.5m-15-19.5v9a6.75 6.75 0 0 0 13.5 0v-9"/>`
+        innerHTML: `<path d="M14.25 12.75c2.437.482 3.199 1.843 3.512 3.569.515 2.828-1.658 5.431-5.282 5.431h-.433C8.34 21.75 6 19.365 5.959 16.5m8.291-3.75h7.5m-7.5 0h-12m5.625-3C6.75 9.375 6.378 8.454 6.237 7.681 5.723 4.853 7.896 2.25 11.52 2.25h.433c3.706 0 5.297 2.385 5.338 5.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Textile.ts
+// src/icons/TextUnderline.ts
 import { defineComponent as defineComponent929, h as h929 } from "vue";
-var Textile = defineComponent929({
-  name: "Textile",
+var TextUnderline = defineComponent929({
+  name: "TextUnderline",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32507,16 +32507,16 @@ var Textile = defineComponent929({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9.75 18c0 1.243-1.679 2.25-3.75 2.25M9.75 18c0-1.243-1.679-2.25-3.75-2.25S2.25 16.757 2.25 18m7.5 0V6.75M6 20.25c-2.071 0-3.75-1.007-3.75-2.25M6 20.25h14.25a1.5 1.5 0 0 0 1.5-1.5V8.25a1.5 1.5 0 0 0-1.5-1.5H9.75M2.25 18V5.25C2.25 4.007 3.929 3 6 3s3.75 1.007 3.75 2.25v1.5"/>`
+        innerHTML: `<path d="M3.75 21.75h16.5m-15-19.5v9a6.75 6.75 0 0 0 13.5 0v-9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TextileSparkle.ts
+// src/icons/Textile.ts
 import { defineComponent as defineComponent930, h as h930 } from "vue";
-var TextileSparkle = defineComponent930({
-  name: "TextileSparkle",
+var Textile = defineComponent930({
+  name: "Textile",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32542,16 +32542,16 @@ var TextileSparkle = defineComponent930({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m18.75 2.25.712-.237a.75.75 0 0 0-1.424 0zm.276.827-.712.237zm1.897 1.897-.237.712zm.827.276.237.712a.75.75 0 0 0 0-1.424zm-.827.276-.237-.712zm-1.897 1.897-.712-.237zm-.276.827-.712.237a.75.75 0 0 0 1.424 0zm-.276-.827.712-.237zm-1.897-1.897-.237.711zm-.827-.276-.237-.712a.75.75 0 0 0 0 1.424zm.827-.276-.237-.711zm1.897-1.897.712.237zM15.75 9.75l.712-.237a.75.75 0 0 0-1.423 0zm.276.827-.712.237zm1.897 1.897-.237.712zm.827.276.237.711a.75.75 0 0 0 0-1.422zm-.827.276-.237-.712zm-1.897 1.897.711.237zm-.276.827-.711.237a.75.75 0 0 0 1.423 0zm-.276-.827-.711.237zm-1.897-1.897.237-.712zm-.827-.276-.237-.711a.75.75 0 0 0 0 1.422zm.827-.276.237.712zm1.897-1.897.712.237zM22.5 8.25a.75.75 0 0 0-1.5 0h1.5m-9-.75a.75.75 0 0 0 0-1.5v1.5m5.25-5.25-.712.237.276.827.712-.237.711-.237-.275-.827zm2.173 2.724-.237.712.827.276.237-.712.237-.712-.827-.275zm.827.276-.237-.712-.827.276.237.712.237.711.827-.275zm-2.724 2.173-.712-.237-.276.827.712.237.712.237.275-.827zm-.276.827.712-.237-.276-.827-.712.237-.711.237.275.827zm-2.173-2.724.237-.712-.827-.276-.237.712-.237.712.827.275zm-.827-.276.237.712.827-.276-.237-.712-.237-.711-.827.275zm2.724-2.173.712.237.276-.827-.712-.237-.712-.237-.275.827zM15.75 9.75l-.711.237.275.827.712-.237.711-.237-.275-.827zm2.173 2.724-.237.712.827.275.237-.711.237-.711-.827-.276zm.827.276-.237-.711-.827.275.237.712.237.711.827-.276zm-2.724 2.173-.712-.237-.275.827.711.237.712.237.275-.827zm-.276.827.712-.237-.276-.827-.712.237-.711.237.276.827zm-2.173-2.724.237-.712-.827-.275-.237.711-.237.711.827.276zm-.827-.276.237.711.827-.275-.237-.712-.237-.711-.827.276zm2.724-2.173.712.237.276-.827-.712-.237-.711-.237-.276.827zm-1.897 1.897.237.712a3.75 3.75 0 0 0 2.372-2.372l-.712-.237-.711-.237a2.25 2.25 0 0 1-1.423 1.423zm1.897 2.449.712-.237a3.75 3.75 0 0 0-2.372-2.372l-.237.712-.237.711a2.25 2.25 0 0 1 1.423 1.423zm2.449-1.897-.237-.712a3.75 3.75 0 0 0-2.372 2.372l.712.237.711.237a2.25 2.25 0 0 1 1.423-1.423zm-1.897-2.449-.712.237a3.75 3.75 0 0 0 2.372 2.372l.237-.712.237-.711a2.25 2.25 0 0 1-1.423-1.423zm.551-5.603.237.712a3.75 3.75 0 0 0 2.372-2.372l-.712-.237-.711-.237a2.25 2.25 0 0 1-1.423 1.423zm1.897 2.449.712-.237a3.75 3.75 0 0 0-2.372-2.372l-.237.712-.237.711a2.25 2.25 0 0 1 1.423 1.423zm2.449-1.897-.237-.712a3.75 3.75 0 0 0-2.372 2.372l.712.237.711.237a2.25 2.25 0 0 1 1.423-1.423zm-1.897-2.449-.712.237a3.75 3.75 0 0 0 2.372 2.372l.237-.712.237-.711a2.25 2.25 0 0 1-1.423-1.423zM9.75 18H9c0 .254-.176.613-.734.948-.544.326-1.343.552-2.266.552V21c1.148 0 2.224-.278 3.038-.766.798-.48 1.462-1.246 1.462-2.234zM6 20.25v-.75c-.923 0-1.722-.226-2.266-.552C3.176 18.613 3 18.254 3 18H1.5c0 .988.664 1.755 1.462 2.234.814.488 1.89.766 3.038.766zM2.25 18H3c0-.254.176-.613.734-.948.544-.326 1.343-.552 2.266-.552V15c-1.148 0-2.224.278-3.038.766C2.164 16.246 1.5 17.012 1.5 18zM6 15.75v.75c.923 0 1.722.226 2.266.552.558.335.734.694.734.948h1.5c0-.988-.664-1.755-1.462-2.234C8.224 15.278 7.148 15 6 15zM2.25 5.25H3c0-.254.176-.613.734-.948C4.278 3.976 5.077 3.75 6 3.75v-1.5c-1.148 0-2.224.278-3.038.766C2.164 3.496 1.5 4.262 1.5 5.25zM6 3v.75c.923 0 1.722.226 2.266.552.558.335.734.694.734.948h1.5c0-.988-.664-1.755-1.462-2.234C8.224 2.528 7.148 2.25 6 2.25zM2.25 5.25H1.5V18H3V5.25zm3.75 15V21h14.25v-1.5H6zm15.75-1.5h.75V8.25H21v10.5zm-12-.75h.75V6.75H9V18zm0-11.25h.75v-1.5H9v1.5zm10.5 13.5V21a2.25 2.25 0 0 0 2.25-2.25H21a.75.75 0 0 1-.75.75zM13.5 6.75V6H9.75v1.5h3.75z"/>`
+        innerHTML: `<path d="M9.75 18c0 1.243-1.679 2.25-3.75 2.25M9.75 18c0-1.243-1.679-2.25-3.75-2.25S2.25 16.757 2.25 18m7.5 0V6.75M6 20.25c-2.071 0-3.75-1.007-3.75-2.25M6 20.25h14.25a1.5 1.5 0 0 0 1.5-1.5V8.25a1.5 1.5 0 0 0-1.5-1.5H9.75M2.25 18V5.25C2.25 4.007 3.929 3 6 3s3.75 1.007 3.75 2.25v1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Texture.ts
+// src/icons/TextileSparkle.ts
 import { defineComponent as defineComponent931, h as h931 } from "vue";
-var Texture = defineComponent931({
-  name: "Texture",
+var TextileSparkle = defineComponent931({
+  name: "TextileSparkle",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32577,16 +32577,16 @@ var Texture = defineComponent931({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21 15.757A9.7 9.7 0 0 0 21.75 12c0-5.385-4.365-9.75-9.75-9.75-5.132 0-9.339 3.966-9.722 9a9.9 9.9 0 0 0 .233 3M21 15.757a9.75 9.75 0 0 1-9 5.993c-4.61 0-8.473-3.2-9.49-7.5M21 15.757C12.75 18 12.75 13.5 8.25 12.75s-5.74 1.5-5.74 1.5M17.25 9a2.25 2.25 0 1 0-4.5 0 2.25 2.25 0 0 0 4.5 0"/>`
+        innerHTML: `<path d="m18.75 2.25.712-.237a.75.75 0 0 0-1.424 0zm.276.827-.712.237zm1.897 1.897-.237.712zm.827.276.237.712a.75.75 0 0 0 0-1.424zm-.827.276-.237-.712zm-1.897 1.897-.712-.237zm-.276.827-.712.237a.75.75 0 0 0 1.424 0zm-.276-.827.712-.237zm-1.897-1.897-.237.711zm-.827-.276-.237-.712a.75.75 0 0 0 0 1.424zm.827-.276-.237-.711zm1.897-1.897.712.237zM15.75 9.75l.712-.237a.75.75 0 0 0-1.423 0zm.276.827-.712.237zm1.897 1.897-.237.712zm.827.276.237.711a.75.75 0 0 0 0-1.422zm-.827.276-.237-.712zm-1.897 1.897.711.237zm-.276.827-.711.237a.75.75 0 0 0 1.423 0zm-.276-.827-.711.237zm-1.897-1.897.237-.712zm-.827-.276-.237-.711a.75.75 0 0 0 0 1.422zm.827-.276.237.712zm1.897-1.897.712.237zM22.5 8.25a.75.75 0 0 0-1.5 0h1.5m-9-.75a.75.75 0 0 0 0-1.5v1.5m5.25-5.25-.712.237.276.827.712-.237.711-.237-.275-.827zm2.173 2.724-.237.712.827.276.237-.712.237-.712-.827-.275zm.827.276-.237-.712-.827.276.237.712.237.711.827-.275zm-2.724 2.173-.712-.237-.276.827.712.237.712.237.275-.827zm-.276.827.712-.237-.276-.827-.712.237-.711.237.275.827zm-2.173-2.724.237-.712-.827-.276-.237.712-.237.712.827.275zm-.827-.276.237.712.827-.276-.237-.712-.237-.711-.827.275zm2.724-2.173.712.237.276-.827-.712-.237-.712-.237-.275.827zM15.75 9.75l-.711.237.275.827.712-.237.711-.237-.275-.827zm2.173 2.724-.237.712.827.275.237-.711.237-.711-.827-.276zm.827.276-.237-.711-.827.275.237.712.237.711.827-.276zm-2.724 2.173-.712-.237-.275.827.711.237.712.237.275-.827zm-.276.827.712-.237-.276-.827-.712.237-.711.237.276.827zm-2.173-2.724.237-.712-.827-.275-.237.711-.237.711.827.276zm-.827-.276.237.711.827-.275-.237-.712-.237-.711-.827.276zm2.724-2.173.712.237.276-.827-.712-.237-.711-.237-.276.827zm-1.897 1.897.237.712a3.75 3.75 0 0 0 2.372-2.372l-.712-.237-.711-.237a2.25 2.25 0 0 1-1.423 1.423zm1.897 2.449.712-.237a3.75 3.75 0 0 0-2.372-2.372l-.237.712-.237.711a2.25 2.25 0 0 1 1.423 1.423zm2.449-1.897-.237-.712a3.75 3.75 0 0 0-2.372 2.372l.712.237.711.237a2.25 2.25 0 0 1 1.423-1.423zm-1.897-2.449-.712.237a3.75 3.75 0 0 0 2.372 2.372l.237-.712.237-.711a2.25 2.25 0 0 1-1.423-1.423zm.551-5.603.237.712a3.75 3.75 0 0 0 2.372-2.372l-.712-.237-.711-.237a2.25 2.25 0 0 1-1.423 1.423zm1.897 2.449.712-.237a3.75 3.75 0 0 0-2.372-2.372l-.237.712-.237.711a2.25 2.25 0 0 1 1.423 1.423zm2.449-1.897-.237-.712a3.75 3.75 0 0 0-2.372 2.372l.712.237.711.237a2.25 2.25 0 0 1 1.423-1.423zm-1.897-2.449-.712.237a3.75 3.75 0 0 0 2.372 2.372l.237-.712.237-.711a2.25 2.25 0 0 1-1.423-1.423zM9.75 18H9c0 .254-.176.613-.734.948-.544.326-1.343.552-2.266.552V21c1.148 0 2.224-.278 3.038-.766.798-.48 1.462-1.246 1.462-2.234zM6 20.25v-.75c-.923 0-1.722-.226-2.266-.552C3.176 18.613 3 18.254 3 18H1.5c0 .988.664 1.755 1.462 2.234.814.488 1.89.766 3.038.766zM2.25 18H3c0-.254.176-.613.734-.948.544-.326 1.343-.552 2.266-.552V15c-1.148 0-2.224.278-3.038.766C2.164 16.246 1.5 17.012 1.5 18zM6 15.75v.75c.923 0 1.722.226 2.266.552.558.335.734.694.734.948h1.5c0-.988-.664-1.755-1.462-2.234C8.224 15.278 7.148 15 6 15zM2.25 5.25H3c0-.254.176-.613.734-.948C4.278 3.976 5.077 3.75 6 3.75v-1.5c-1.148 0-2.224.278-3.038.766C2.164 3.496 1.5 4.262 1.5 5.25zM6 3v.75c.923 0 1.722.226 2.266.552.558.335.734.694.734.948h1.5c0-.988-.664-1.755-1.462-2.234C8.224 2.528 7.148 2.25 6 2.25zM2.25 5.25H1.5V18H3V5.25zm3.75 15V21h14.25v-1.5H6zm15.75-1.5h.75V8.25H21v10.5zm-12-.75h.75V6.75H9V18zm0-11.25h.75v-1.5H9v1.5zm10.5 13.5V21a2.25 2.25 0 0 0 2.25-2.25H21a.75.75 0 0 1-.75.75zM13.5 6.75V6H9.75v1.5h3.75z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Thermos.ts
+// src/icons/Texture.ts
 import { defineComponent as defineComponent932, h as h932 } from "vue";
-var Thermos = defineComponent932({
-  name: "Thermos",
+var Texture = defineComponent932({
+  name: "Texture",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32612,16 +32612,16 @@ var Thermos = defineComponent932({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6.75 9.75v10.5a1.5 1.5 0 0 0 1.5 1.5H15a1.5 1.5 0 0 0 1.5-1.5V9.75m-9.75 0h9.75m-9.75 0a1.23 1.23 0 0 1-1.206-1.47l.965-4.824a1.5 1.5 0 0 1 1.47-1.206h7.291a1.5 1.5 0 0 1 1.471 1.206l.059.294m-.3 6a1.23 1.23 0 0 0 1.206-1.47l-.156-.78m-.75-3.75h1.575a1.875 1.875 0 1 1 0 3.75h-.825m-.75-3.75.75 3.75"/>`
+        innerHTML: `<path d="M21 15.757A9.7 9.7 0 0 0 21.75 12c0-5.385-4.365-9.75-9.75-9.75-5.132 0-9.339 3.966-9.722 9a9.9 9.9 0 0 0 .233 3M21 15.757a9.75 9.75 0 0 1-9 5.993c-4.61 0-8.473-3.2-9.49-7.5M21 15.757C12.75 18 12.75 13.5 8.25 12.75s-5.74 1.5-5.74 1.5M17.25 9a2.25 2.25 0 1 0-4.5 0 2.25 2.25 0 0 0 4.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Thunderbolt.ts
+// src/icons/Thermos.ts
 import { defineComponent as defineComponent933, h as h933 } from "vue";
-var Thunderbolt = defineComponent933({
-  name: "Thunderbolt",
+var Thermos = defineComponent933({
+  name: "Thermos",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32647,16 +32647,16 @@ var Thunderbolt = defineComponent933({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M15.75 2.25h-9V13.5h4.5v8.25l7.5-12H13.5z"/>`
+        innerHTML: `<path d="M6.75 9.75v10.5a1.5 1.5 0 0 0 1.5 1.5H15a1.5 1.5 0 0 0 1.5-1.5V9.75m-9.75 0h9.75m-9.75 0a1.23 1.23 0 0 1-1.206-1.47l.965-4.824a1.5 1.5 0 0 1 1.47-1.206h7.291a1.5 1.5 0 0 1 1.471 1.206l.059.294m-.3 6a1.23 1.23 0 0 0 1.206-1.47l-.156-.78m-.75-3.75h1.575a1.875 1.875 0 1 1 0 3.75h-.825m-.75-3.75.75 3.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ThunderboltDisabled.ts
+// src/icons/Thunderbolt.ts
 import { defineComponent as defineComponent934, h as h934 } from "vue";
-var ThunderboltDisabled = defineComponent934({
-  name: "ThunderboltDisabled",
+var Thunderbolt = defineComponent934({
+  name: "Thunderbolt",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32682,16 +32682,16 @@ var ThunderboltDisabled = defineComponent934({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6.75 2.25h9l-2.077 6.923m.577.577h4.5l-1.73 2.77m-1.731 2.769L11.25 21.75V13.5h-4.5V6.75m8.539 8.539L6.75 6.75m8.539 8.539 6.461 6.461m-15-15-4.5-4.5"/>`
+        innerHTML: `<path d="M15.75 2.25h-9V13.5h4.5v8.25l7.5-12H13.5z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ThunderboltSmall.ts
+// src/icons/ThunderboltDisabled.ts
 import { defineComponent as defineComponent935, h as h935 } from "vue";
-var ThunderboltSmall = defineComponent935({
-  name: "ThunderboltSmall",
+var ThunderboltDisabled = defineComponent935({
+  name: "ThunderboltDisabled",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32717,16 +32717,16 @@ var ThunderboltSmall = defineComponent935({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M13.5 10.5 15 2.25 5.25 13.5h5.25L9 21.75l9.75-11.25z"/>`
+        innerHTML: `<path d="M6.75 2.25h9l-2.077 6.923m.577.577h4.5l-1.73 2.77m-1.731 2.769L11.25 21.75V13.5h-4.5V6.75m8.539 8.539L6.75 6.75m8.539 8.539 6.461 6.461m-15-15-4.5-4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ThunderboltSmallDisabled.ts
+// src/icons/ThunderboltSmall.ts
 import { defineComponent as defineComponent936, h as h936 } from "vue";
-var ThunderboltSmallDisabled = defineComponent936({
-  name: "ThunderboltSmallDisabled",
+var ThunderboltSmall = defineComponent936({
+  name: "ThunderboltSmall",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32752,16 +32752,16 @@ var ThunderboltSmallDisabled = defineComponent936({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<g clip-path="url(#a)"><path d="M13.73 9.23 15 2.25l-3.83 4.42M15 10.5h3.75l-1.741 2.009m-2.09 2.41L9 21.75l1.5-8.25H5.25l3.83-4.42m5.84 5.84L9.08 9.08m5.84 5.84 8.33 8.33M9.08 9.08.75.75"/></g><defs><clipPath id="a"><path d="M0 0h24v24H0z"/></clipPath></defs>`
+        innerHTML: `<path d="M13.5 10.5 15 2.25 5.25 13.5h5.25L9 21.75l9.75-11.25z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Timeline.ts
+// src/icons/ThunderboltSmallDisabled.ts
 import { defineComponent as defineComponent937, h as h937 } from "vue";
-var Timeline = defineComponent937({
-  name: "Timeline",
+var ThunderboltSmallDisabled = defineComponent937({
+  name: "ThunderboltSmallDisabled",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32787,16 +32787,16 @@ var Timeline = defineComponent937({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 19.5H6v-3.75h6m0 3.75h9v-3.75h-9m0 3.75v-3.75m0 3.75v2.25m0-6v-3m0 0H3V9h9m0 3.75h6V9h-6m0 3.75V9m0 0V7.5m0 0-1.81-1.81a1.5 1.5 0 0 1-.44-1.061V3.75a1.5 1.5 0 0 1 1.5-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v.879a1.5 1.5 0 0 1-.44 1.06z"/>`
+        innerHTML: `<g clip-path="url(#a)"><path d="M13.73 9.23 15 2.25l-3.83 4.42M15 10.5h3.75l-1.741 2.009m-2.09 2.41L9 21.75l1.5-8.25H5.25l3.83-4.42m5.84 5.84L9.08 9.08m5.84 5.84 8.33 8.33M9.08 9.08.75.75"/></g><defs><clipPath id="a"><path d="M0 0h24v24H0z"/></clipPath></defs>`
       }, children);
     };
   }
 });
 
-// src/icons/Timer.ts
+// src/icons/Timeline.ts
 import { defineComponent as defineComponent938, h as h938 } from "vue";
-var Timer = defineComponent938({
-  name: "Timer",
+var Timeline = defineComponent938({
+  name: "Timeline",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32822,16 +32822,16 @@ var Timer = defineComponent938({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M5.25 18.75H3l1.338-9.812a7.733 7.733 0 0 1 15.324 0L21 18.75h-2.25m-13.5 0v1.5a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5v-1.5m-13.5 0h13.5m-9.101-5.162a4.5 4.5 0 0 0 6.189-6.189m-6.189 6.189c.44.028.89-.127 1.226-.463l4.5-4.5c.336-.336.49-.786.463-1.226m-6.189 6.189a1.59 1.59 0 0 1-1.024-.463 1.59 1.59 0 0 1-.463-1.024m0 0a4.5 4.5 0 0 1 6.189-6.189m-6.189 6.189c-.028-.44.127-.89.463-1.226l4.5-4.5c.336-.336.786-.49 1.226-.463M15.838 7.4a1.59 1.59 0 0 0-.463-1.024 1.59 1.59 0 0 0-1.024-.463"/>`
+        innerHTML: `<path d="M12 19.5H6v-3.75h6m0 3.75h9v-3.75h-9m0 3.75v-3.75m0 3.75v2.25m0-6v-3m0 0H3V9h9m0 3.75h6V9h-6m0 3.75V9m0 0V7.5m0 0-1.81-1.81a1.5 1.5 0 0 1-.44-1.061V3.75a1.5 1.5 0 0 1 1.5-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v.879a1.5 1.5 0 0 1-.44 1.06z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TimerPlus.ts
+// src/icons/Timer.ts
 import { defineComponent as defineComponent939, h as h939 } from "vue";
-var TimerPlus = defineComponent939({
-  name: "TimerPlus",
+var Timer = defineComponent939({
+  name: "Timer",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32857,16 +32857,16 @@ var TimerPlus = defineComponent939({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M5.25 18.75H3l1.338-9.812a7.733 7.733 0 0 1 15.324 0l.357 2.62M5.25 18.75v1.5a1.5 1.5 0 0 0 1.5 1.5h5.637m-7.137-3h6.041M9.65 13.588a4.48 4.48 0 0 0 2.75.645m-2.75-.645c.44.028.89-.127 1.226-.463l4.5-4.5c.336-.336.49-.786.463-1.226m-6.189 6.189a1.59 1.59 0 0 1-1.024-.463 1.59 1.59 0 0 1-.463-1.024m0 0a4.5 4.5 0 0 1 6.189-6.189m-6.189 6.189c-.028-.44.127-.89.463-1.226l4.5-4.5c.336-.336.786-.49 1.226-.463M15.838 7.4c.42.684.662 1.49.662 2.351 0 .624-.127 1.218-.357 1.758M15.838 7.4a1.59 1.59 0 0 0-.463-1.024 1.59 1.59 0 0 0-1.024-.463M18.375 22.5v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
+        innerHTML: `<path d="M5.25 18.75H3l1.338-9.812a7.733 7.733 0 0 1 15.324 0L21 18.75h-2.25m-13.5 0v1.5a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5v-1.5m-13.5 0h13.5m-9.101-5.162a4.5 4.5 0 0 0 6.189-6.189m-6.189 6.189c.44.028.89-.127 1.226-.463l4.5-4.5c.336-.336.49-.786.463-1.226m-6.189 6.189a1.59 1.59 0 0 1-1.024-.463 1.59 1.59 0 0 1-.463-1.024m0 0a4.5 4.5 0 0 1 6.189-6.189m-6.189 6.189c-.028-.44.127-.89.463-1.226l4.5-4.5c.336-.336.786-.49 1.226-.463M15.838 7.4a1.59 1.59 0 0 0-.463-1.024 1.59 1.59 0 0 0-1.024-.463"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Toaster.ts
+// src/icons/TimerPlus.ts
 import { defineComponent as defineComponent940, h as h940 } from "vue";
-var Toaster = defineComponent940({
-  name: "Toaster",
+var TimerPlus = defineComponent940({
+  name: "TimerPlus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32892,16 +32892,16 @@ var Toaster = defineComponent940({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.75 12.75v-1.5c0-1.11-.603-2.08-1.5-2.599m1.5 4.099v7.5H2.25v-9c0-1.11.603-2.08 1.5-2.599m15 4.099h3m-6 4.5H15m2.25-8.599a3 3 0 0 0-1.5-.401H5.25c-.546 0-1.059.146-1.5.401m13.5 0V5.25a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5v3.401"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M5.25 18.75H3l1.338-9.812a7.733 7.733 0 0 1 15.324 0l.357 2.62M5.25 18.75v1.5a1.5 1.5 0 0 0 1.5 1.5h5.637m-7.137-3h6.041M9.65 13.588a4.48 4.48 0 0 0 2.75.645m-2.75-.645c.44.028.89-.127 1.226-.463l4.5-4.5c.336-.336.49-.786.463-1.226m-6.189 6.189a1.59 1.59 0 0 1-1.024-.463 1.59 1.59 0 0 1-.463-1.024m0 0a4.5 4.5 0 0 1 6.189-6.189m-6.189 6.189c-.028-.44.127-.89.463-1.226l4.5-4.5c.336-.336.786-.49 1.226-.463M15.838 7.4c.42.684.662 1.49.662 2.351 0 .624-.127 1.218-.357 1.758M15.838 7.4a1.59 1.59 0 0 0-.463-1.024 1.59 1.59 0 0 0-1.024-.463M18.375 22.5v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ToggleOff.ts
+// src/icons/Toaster.ts
 import { defineComponent as defineComponent941, h as h941 } from "vue";
-var ToggleOff = defineComponent941({
-  name: "ToggleOff",
+var Toaster = defineComponent941({
+  name: "Toaster",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32927,16 +32927,16 @@ var ToggleOff = defineComponent941({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M15 5.25H9a6.75 6.75 0 0 0 0 13.5h6a6.75 6.75 0 0 0 0-13.5m-6 10.5a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5" clip-rule="evenodd"/>`
+        innerHTML: `<path d="M18.75 12.75v-1.5c0-1.11-.603-2.08-1.5-2.599m1.5 4.099v7.5H2.25v-9c0-1.11.603-2.08 1.5-2.599m15 4.099h3m-6 4.5H15m2.25-8.599a3 3 0 0 0-1.5-.401H5.25c-.546 0-1.059.146-1.5.401m13.5 0V5.25a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5v3.401"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ToggleOn.ts
+// src/icons/ToggleOff.ts
 import { defineComponent as defineComponent942, h as h942 } from "vue";
-var ToggleOn = defineComponent942({
-  name: "ToggleOn",
+var ToggleOff = defineComponent942({
+  name: "ToggleOff",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32962,16 +32962,16 @@ var ToggleOn = defineComponent942({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M9 5.25h6a6.75 6.75 0 0 1 0 13.5H9a6.75 6.75 0 0 1 0-13.5m6 10.5a3.75 3.75 0 1 1 0-7.5 3.75 3.75 0 0 1 0 7.5" clip-rule="evenodd"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M15 5.25H9a6.75 6.75 0 0 0 0 13.5h6a6.75 6.75 0 0 0 0-13.5m-6 10.5a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5" clip-rule="evenodd"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Toilet.ts
+// src/icons/ToggleOn.ts
 import { defineComponent as defineComponent943, h as h943 } from "vue";
-var Toilet = defineComponent943({
-  name: "Toilet",
+var ToggleOn = defineComponent943({
+  name: "ToggleOn",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -32997,16 +32997,16 @@ var Toilet = defineComponent943({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9 15.75H3.75a1.5 1.5 0 0 1-1.5-1.5v-9a1.5 1.5 0 0 1 1.5-1.5H7.5A1.5 1.5 0 0 1 9 5.25v6m0 4.5v-4.5m0 4.5v3a1.5 1.5 0 0 0 1.5 1.5h3.75a1.5 1.5 0 0 0 1.5-1.5v-1.5a6 6 0 0 0 6-6H9m-3-4.5v1.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M9 5.25h6a6.75 6.75 0 0 1 0 13.5H9a6.75 6.75 0 0 1 0-13.5m6 10.5a3.75 3.75 0 1 1 0-7.5 3.75 3.75 0 0 1 0 7.5" clip-rule="evenodd"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ToiletPaper.ts
+// src/icons/Toilet.ts
 import { defineComponent as defineComponent944, h as h944 } from "vue";
-var ToiletPaper = defineComponent944({
-  name: "ToiletPaper",
+var Toilet = defineComponent944({
+  name: "Toilet",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33032,16 +33032,16 @@ var ToiletPaper = defineComponent944({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 15.75c2.071 0 3.75-3.022 3.75-6.75S9.571 2.25 7.5 2.25m0 13.5c-2.071 0-3.75-3.022-3.75-6.75m3.75 6.75h8.25M3.75 9c0-3.728 1.679-6.75 3.75-6.75M3.75 9v11.25a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-4.5M7.5 2.25h9.75C19.321 2.25 21 5.272 21 9s-1.679 6.75-3.75 6.75h-1.5M8.25 9s0-1.5-.75-1.5S6.75 9 6.75 9s0 1.5.75 1.5.75-1.5.75-1.5Z"/>`
+        innerHTML: `<path d="M9 15.75H3.75a1.5 1.5 0 0 1-1.5-1.5v-9a1.5 1.5 0 0 1 1.5-1.5H7.5A1.5 1.5 0 0 1 9 5.25v6m0 4.5v-4.5m0 4.5v3a1.5 1.5 0 0 0 1.5 1.5h3.75a1.5 1.5 0 0 0 1.5-1.5v-1.5a6 6 0 0 0 6-6H9m-3-4.5v1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Tools.ts
+// src/icons/ToiletPaper.ts
 import { defineComponent as defineComponent945, h as h945 } from "vue";
-var Tools = defineComponent945({
-  name: "Tools",
+var ToiletPaper = defineComponent945({
+  name: "ToiletPaper",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33067,16 +33067,16 @@ var Tools = defineComponent945({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m13.125 11.625 1.125 1.125a14.2 14.2 0 0 1-1.443 3.058m.318-4.183-.75-.75m.75.75.75-.75m-1.5 0L11.25 9.75a14.2 14.2 0 0 0-4.8 2.73m5.925-1.605.75-.75m-.318 5.683 5.322 5.321a2.121 2.121 0 0 0 3-3l-7.254-7.254m-1.068 4.933A14.23 14.23 0 0 1 5.25 21.75l-3-3a14.23 14.23 0 0 1 4.2-6.27m0 0a4.1 4.1 0 0 1-2.7-1.23C1.5 9 3 6 3 6l2.03 2.03c.141.141.332.22.53.22H7.5a.75.75 0 0 0 .75-.75V5.561a.75.75 0 0 0-.22-.53L6 3s3-1.5 5.25.75S12 9 12 9l1.125 1.124m0 0L16.5 6.75V4.5l3.75-2.25 1.5 1.5L19.5 7.5h-2.25l-3.375 3.375"/>`
+        innerHTML: `<path d="M7.5 15.75c2.071 0 3.75-3.022 3.75-6.75S9.571 2.25 7.5 2.25m0 13.5c-2.071 0-3.75-3.022-3.75-6.75m3.75 6.75h8.25M3.75 9c0-3.728 1.679-6.75 3.75-6.75M3.75 9v11.25a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-4.5M7.5 2.25h9.75C19.321 2.25 21 5.272 21 9s-1.679 6.75-3.75 6.75h-1.5M8.25 9s0-1.5-.75-1.5S6.75 9 6.75 9s0 1.5.75 1.5.75-1.5.75-1.5Z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Tooth.ts
+// src/icons/Tools.ts
 import { defineComponent as defineComponent946, h as h946 } from "vue";
-var Tooth = defineComponent946({
-  name: "Tooth",
+var Tools = defineComponent946({
+  name: "Tools",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33102,16 +33102,16 @@ var Tooth = defineComponent946({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M13.663 2.705c2.842-1.57 6.041 1.266 5.27 4.673l-1.197 3.654a20.3 20.3 0 0 0-.962 4.995l-.233 3.58c-.141 1.017-1.432 1.117-1.7.131-.245-.907-1.18-2.798-2.003-4.254-.387-.685-1.289-.685-1.676 0-.794 1.404-1.742 3.734-1.954 5.373-.164 1.266-1.83 1.223-1.94-.05l-.21-3.408s-.551-4.134-.988-5.582L5.066 7.378c-.77-3.407 2.43-6.244 5.27-4.673a3.4 3.4 0 0 0 3.327 0m0 0c-1.047.578-3.147 2.262-3.147 4.821"/>`
+        innerHTML: `<path d="m13.125 11.625 1.125 1.125a14.2 14.2 0 0 1-1.443 3.058m.318-4.183-.75-.75m.75.75.75-.75m-1.5 0L11.25 9.75a14.2 14.2 0 0 0-4.8 2.73m5.925-1.605.75-.75m-.318 5.683 5.322 5.321a2.121 2.121 0 0 0 3-3l-7.254-7.254m-1.068 4.933A14.23 14.23 0 0 1 5.25 21.75l-3-3a14.23 14.23 0 0 1 4.2-6.27m0 0a4.1 4.1 0 0 1-2.7-1.23C1.5 9 3 6 3 6l2.03 2.03c.141.141.332.22.53.22H7.5a.75.75 0 0 0 .75-.75V5.561a.75.75 0 0 0-.22-.53L6 3s3-1.5 5.25.75S12 9 12 9l1.125 1.124m0 0L16.5 6.75V4.5l3.75-2.25 1.5 1.5L19.5 7.5h-2.25l-3.375 3.375"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ToothCheck.ts
+// src/icons/Tooth.ts
 import { defineComponent as defineComponent947, h as h947 } from "vue";
-var ToothCheck = defineComponent947({
-  name: "ToothCheck",
+var Tooth = defineComponent947({
+  name: "Tooth",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33137,16 +33137,16 @@ var ToothCheck = defineComponent947({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M13.663 2.705c2.842-1.57 6.041 1.266 5.27 4.673l-1.197 3.654-.073.226m-4-8.553a3.4 3.4 0 0 1-3.326 0c-2.842-1.57-6.042 1.266-5.27 4.673l1.003 4.439c.437 1.448.988 5.582.988 5.582l.21 3.408c.11 1.273 1.776 1.316 1.94.05.212-1.639 1.16-3.969 1.954-5.373a.97.97 0 0 1 .804-.513m1.697-12.266c-1.047.578-3.147 2.262-3.147 4.821M14.25 18.75l2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
+        innerHTML: `<path d="M13.663 2.705c2.842-1.57 6.041 1.266 5.27 4.673l-1.197 3.654a20.3 20.3 0 0 0-.962 4.995l-.233 3.58c-.141 1.017-1.432 1.117-1.7.131-.245-.907-1.18-2.798-2.003-4.254-.387-.685-1.289-.685-1.676 0-.794 1.404-1.742 3.734-1.954 5.373-.164 1.266-1.83 1.223-1.94-.05l-.21-3.408s-.551-4.134-.988-5.582L5.066 7.378c-.77-3.407 2.43-6.244 5.27-4.673a3.4 3.4 0 0 0 3.327 0m0 0c-1.047.578-3.147 2.262-3.147 4.821"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ToothCross.ts
+// src/icons/ToothCheck.ts
 import { defineComponent as defineComponent948, h as h948 } from "vue";
-var ToothCross = defineComponent948({
-  name: "ToothCross",
+var ToothCheck = defineComponent948({
+  name: "ToothCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33172,16 +33172,16 @@ var ToothCross = defineComponent948({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M13.663 2.705c2.842-1.57 6.041 1.266 5.27 4.673l-1.197 3.654-.073.226m-4-8.553a3.4 3.4 0 0 1-3.326 0c-2.842-1.57-6.042 1.266-5.27 4.673l1.003 4.439c.437 1.448.988 5.582.988 5.582l.21 3.408c.11 1.273 1.776 1.316 1.94.05.212-1.639 1.16-3.969 1.954-5.373a.97.97 0 0 1 .804-.513m1.697-12.266c-1.047.578-3.147 2.262-3.147 4.821M15.75 22.5l3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M13.663 2.705c2.842-1.57 6.041 1.266 5.27 4.673l-1.197 3.654-.073.226m-4-8.553a3.4 3.4 0 0 1-3.326 0c-2.842-1.57-6.042 1.266-5.27 4.673l1.003 4.439c.437 1.448.988 5.582.988 5.582l.21 3.408c.11 1.273 1.776 1.316 1.94.05.212-1.639 1.16-3.969 1.954-5.373a.97.97 0 0 1 .804-.513m1.697-12.266c-1.047.578-3.147 2.262-3.147 4.821M14.25 18.75l2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ToothSearch.ts
+// src/icons/ToothCross.ts
 import { defineComponent as defineComponent949, h as h949 } from "vue";
-var ToothSearch = defineComponent949({
-  name: "ToothSearch",
+var ToothCross = defineComponent949({
+  name: "ToothCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33207,16 +33207,16 @@ var ToothSearch = defineComponent949({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M13.663 2.705c2.842-1.57 6.042 1.266 5.271 4.673l-1.198 3.654-.073.226m-4-8.553a3.4 3.4 0 0 1-3.326 0c-2.842-1.57-6.041 1.266-5.27 4.673l1.003 4.439c.437 1.448.988 5.582.988 5.582l.21 3.408c.11 1.273 1.776 1.316 1.94.05.212-1.639 1.16-3.969 1.954-5.373a.97.97 0 0 1 .804-.513m1.697-12.266c-1.047.578-3.147 2.262-3.147 4.821M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.105 3.61 3.61 0 0 0 5.104 5.105"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M13.663 2.705c2.842-1.57 6.041 1.266 5.27 4.673l-1.197 3.654-.073.226m-4-8.553a3.4 3.4 0 0 1-3.326 0c-2.842-1.57-6.042 1.266-5.27 4.673l1.003 4.439c.437 1.448.988 5.582.988 5.582l.21 3.408c.11 1.273 1.776 1.316 1.94.05.212-1.639 1.16-3.969 1.954-5.373a.97.97 0 0 1 .804-.513m1.697-12.266c-1.047.578-3.147 2.262-3.147 4.821M15.75 22.5l3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Toothbrush.ts
+// src/icons/ToothSearch.ts
 import { defineComponent as defineComponent950, h as h950 } from "vue";
-var Toothbrush = defineComponent950({
-  name: "Toothbrush",
+var ToothSearch = defineComponent950({
+  name: "ToothSearch",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33242,16 +33242,16 @@ var Toothbrush = defineComponent950({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M13.5 9 3.31 19.19a1.5 1.5 0 0 0 0 2.12l.13.13a1.5 1.5 0 0 0 2.12 0L21 6l-2.25-2.25-.75.75M13.5 9l-2.25-2.25 4.5-4.5L18 4.5M13.5 9 18 4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M13.663 2.705c2.842-1.57 6.042 1.266 5.271 4.673l-1.198 3.654-.073.226m-4-8.553a3.4 3.4 0 0 1-3.326 0c-2.842-1.57-6.041 1.266-5.27 4.673l1.003 4.439c.437 1.448.988 5.582.988 5.582l.21 3.408c.11 1.273 1.776 1.316 1.94.05.212-1.639 1.16-3.969 1.954-5.373a.97.97 0 0 1 .804-.513m1.697-12.266c-1.047.578-3.147 2.262-3.147 4.821M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.105 3.61 3.61 0 0 0 5.104 5.105"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Tornado.ts
+// src/icons/Toothbrush.ts
 import { defineComponent as defineComponent951, h as h951 } from "vue";
-var Tornado = defineComponent951({
-  name: "Tornado",
+var Toothbrush = defineComponent951({
+  name: "Toothbrush",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33277,16 +33277,16 @@ var Tornado = defineComponent951({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.75 12A6.75 6.75 0 0 0 12 5.25M18.75 12A6.75 6.75 0 0 1 12 18.75M18.75 12s.75 9.75-13.5 9.75M12 5.25A6.75 6.75 0 0 0 5.25 12M12 5.25s9.75-.75 9.75 13.5m-9.75 0A6.75 6.75 0 0 1 5.25 12M12 18.75s-9.75.75-9.75-13.5m3 6.75s-.75-9.75 13.5-9.75m-6 9.75a.75.75 0 0 0-.664-.745m.664.745a1 1 0 0 1-.005.086M12.75 12q.001.002-.005.086m-.659-.831A1 1 0 0 0 12 11.25m.086.005q-.084-.006-.086-.005m.086.005c.412.036 2.164.348 2.164 2.995m-2.25-3a.75.75 0 0 0-.745.664m.745.836a.75.75 0 0 0 .745-.664M12 12.75a1 1 0 0 1-.086-.005m.086.005q-.002.001-.086-.005m.831-.659c-.036.412-.348 2.164-2.995 2.164m1.5-2.25c0 .385.29.703.664.745M11.25 12a1 1 0 0 1 .005-.086M11.25 12s0-.031.005-.086m.66.831c-.413-.036-2.165-.348-2.165-2.995m1.505 2.164c.036-.412.348-2.164 2.995-2.164"/>`
+        innerHTML: `<path d="M13.5 9 3.31 19.19a1.5 1.5 0 0 0 0 2.12l.13.13a1.5 1.5 0 0 0 2.12 0L21 6l-2.25-2.25-.75.75M13.5 9l-2.25-2.25 4.5-4.5L18 4.5M13.5 9 18 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Torus.ts
+// src/icons/Tornado.ts
 import { defineComponent as defineComponent952, h as h952 } from "vue";
-var Torus = defineComponent952({
-  name: "Torus",
+var Tornado = defineComponent952({
+  name: "Tornado",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33312,16 +33312,16 @@ var Torus = defineComponent952({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M16.244 12c-.618 1.31-2.285 2.25-4.244 2.25-1.96 0-3.626-.94-4.244-2.25m8.488 0c.166-.352.256-.73.256-1.125M16.244 12c-.618-1.31-2.285-2.25-4.244-2.25-1.96 0-3.626.94-4.244 2.25M7.5 10.875c0 .395.09.773.256 1.125m13.994 0c0-4.556-4.365-8.25-9.75-8.25S2.25 7.444 2.25 12s4.365 8.25 9.75 8.25 9.75-3.694 9.75-8.25"/>`
+        innerHTML: `<path d="M18.75 12A6.75 6.75 0 0 0 12 5.25M18.75 12A6.75 6.75 0 0 1 12 18.75M18.75 12s.75 9.75-13.5 9.75M12 5.25A6.75 6.75 0 0 0 5.25 12M12 5.25s9.75-.75 9.75 13.5m-9.75 0A6.75 6.75 0 0 1 5.25 12M12 18.75s-9.75.75-9.75-13.5m3 6.75s-.75-9.75 13.5-9.75m-6 9.75a.75.75 0 0 0-.664-.745m.664.745a1 1 0 0 1-.005.086M12.75 12q.001.002-.005.086m-.659-.831A1 1 0 0 0 12 11.25m.086.005q-.084-.006-.086-.005m.086.005c.412.036 2.164.348 2.164 2.995m-2.25-3a.75.75 0 0 0-.745.664m.745.836a.75.75 0 0 0 .745-.664M12 12.75a1 1 0 0 1-.086-.005m.086.005q-.002.001-.086-.005m.831-.659c-.036.412-.348 2.164-2.995 2.164m1.5-2.25c0 .385.29.703.664.745M11.25 12a1 1 0 0 1 .005-.086M11.25 12s0-.031.005-.086m.66.831c-.413-.036-2.165-.348-2.165-2.995m1.505 2.164c.036-.412.348-2.164 2.995-2.164"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TowelFolded.ts
+// src/icons/Torus.ts
 import { defineComponent as defineComponent953, h as h953 } from "vue";
-var TowelFolded = defineComponent953({
-  name: "TowelFolded",
+var Torus = defineComponent953({
+  name: "Torus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33347,16 +33347,16 @@ var TowelFolded = defineComponent953({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12.447 16.27a1.1 1.1 0 0 1-.447-.895 3.14 3.14 0 0 1 1.65-2.764l4.798-2.583a2.22 2.22 0 0 1 2.121-.002m-8.122 6.245c.33.246.791.312 1.204.09m-1.204-.09-9.022-4.845m10.226 4.935A3.14 3.14 0 0 0 12 19.125c0 .379.18.696.447.896m1.204-3.66L18 14.019m2.57-3.993.002.001A2.22 2.22 0 0 1 21.75 12a6.28 6.28 0 0 1-3.302 5.528l-4.797 2.583a1.11 1.11 0 0 1-1.204-.09m8.122-9.995-9.732-5.24a2.22 2.22 0 0 0-2.139-.009L3.901 7.361a3.14 3.14 0 0 0-1.651 2.764c0 .449.254.812.604.994l.571.307m9.022 8.595L2.84 14.86a1.11 1.11 0 0 1-.589-.986c0-.962.44-1.86 1.175-2.45"/>`
+        innerHTML: `<path d="M16.244 12c-.618 1.31-2.285 2.25-4.244 2.25-1.96 0-3.626-.94-4.244-2.25m8.488 0c.166-.352.256-.73.256-1.125M16.244 12c-.618-1.31-2.285-2.25-4.244-2.25-1.96 0-3.626.94-4.244 2.25M7.5 10.875c0 .395.09.773.256 1.125m13.994 0c0-4.556-4.365-8.25-9.75-8.25S2.25 7.444 2.25 12s4.365 8.25 9.75 8.25 9.75-3.694 9.75-8.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Traffic.ts
+// src/icons/TowelFolded.ts
 import { defineComponent as defineComponent954, h as h954 } from "vue";
-var Traffic = defineComponent954({
-  name: "Traffic",
+var TowelFolded = defineComponent954({
+  name: "TowelFolded",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33382,16 +33382,16 @@ var Traffic = defineComponent954({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M5.25 17.25H6m5.25 0h-.75m6.75-1.5h1.5a1.5 1.5 0 1 0 3 0v-4.961a1.5 1.5 0 0 0-.107-.557l-1.016-2.54a1.5 1.5 0 0 0-1.393-.942h-6.968a1.5 1.5 0 0 0-1.393.943l-.223.557m8.1 4.5H18M6.75 8.25h.75m-3.75 0V6.289c0-.191.036-.38.107-.557l1.016-2.54a1.5 1.5 0 0 1 1.393-.942h6.968a1.5 1.5 0 0 1 1.393.943l.223.557m-9.6 16.5h6a1.5 1.5 0 1 0 3 0v-4.961a1.5 1.5 0 0 0-.107-.557l-1.016-2.54a1.5 1.5 0 0 0-1.392-.942h-6.97a1.5 1.5 0 0 0-1.392.943l-1.016 2.539a1.5 1.5 0 0 0-.107.557v4.96a1.5 1.5 0 1 0 3 0"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12.447 16.27a1.1 1.1 0 0 1-.447-.895 3.14 3.14 0 0 1 1.65-2.764l4.798-2.583a2.22 2.22 0 0 1 2.121-.002m-8.122 6.245c.33.246.791.312 1.204.09m-1.204-.09-9.022-4.845m10.226 4.935A3.14 3.14 0 0 0 12 19.125c0 .379.18.696.447.896m1.204-3.66L18 14.019m2.57-3.993.002.001A2.22 2.22 0 0 1 21.75 12a6.28 6.28 0 0 1-3.302 5.528l-4.797 2.583a1.11 1.11 0 0 1-1.204-.09m8.122-9.995-9.732-5.24a2.22 2.22 0 0 0-2.139-.009L3.901 7.361a3.14 3.14 0 0 0-1.651 2.764c0 .449.254.812.604.994l.571.307m9.022 8.595L2.84 14.86a1.11 1.11 0 0 1-.589-.986c0-.962.44-1.86 1.175-2.45"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Train.ts
+// src/icons/Traffic.ts
 import { defineComponent as defineComponent955, h as h955 } from "vue";
-var Train = defineComponent955({
-  name: "Train",
+var Traffic = defineComponent955({
+  name: "Traffic",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33417,16 +33417,16 @@ var Train = defineComponent955({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 20.25h3m0 0h6m-6 0A2.25 2.25 0 0 1 3 18v-.75m2.25 3A2.25 2.25 0 0 0 7.5 18v-.75m3.75 3h10.5m-10.5 0A2.25 2.25 0 0 0 13.5 18v-.75m-2.25 3A2.25 2.25 0 0 1 9 18v-.75m4.5 0h5.397c1.576 0 2.853-.75 2.853-2.25 0-.552 0-1.5-1.426-2.324L14.889 9.54a15.7 15.7 0 0 0-7.841-2.101H6m7.5 9.812H9m0 0H7.5m0 0H3m0 0h-.75M6 7.438H2.25m3.75 0V3.75m0 0H4.987a3 3 0 0 0-.949.154L2.25 4.5M6 3.75h1.013a3 3 0 0 1 .949.154L9.75 4.5m-7.5 6h5.437a10.5 10.5 0 0 1 5.25 1.407l2.813 1.624H2.25"/>`
+        innerHTML: `<path d="M5.25 17.25H6m5.25 0h-.75m6.75-1.5h1.5a1.5 1.5 0 1 0 3 0v-4.961a1.5 1.5 0 0 0-.107-.557l-1.016-2.54a1.5 1.5 0 0 0-1.393-.942h-6.968a1.5 1.5 0 0 0-1.393.943l-.223.557m8.1 4.5H18M6.75 8.25h.75m-3.75 0V6.289c0-.191.036-.38.107-.557l1.016-2.54a1.5 1.5 0 0 1 1.393-.942h6.968a1.5 1.5 0 0 1 1.393.943l.223.557m-9.6 16.5h6a1.5 1.5 0 1 0 3 0v-4.961a1.5 1.5 0 0 0-.107-.557l-1.016-2.54a1.5 1.5 0 0 0-1.392-.942h-6.97a1.5 1.5 0 0 0-1.392.943l-1.016 2.539a1.5 1.5 0 0 0-.107.557v4.96a1.5 1.5 0 1 0 3 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Tram.ts
+// src/icons/Train.ts
 import { defineComponent as defineComponent956, h as h956 } from "vue";
-var Tram = defineComponent956({
-  name: "Tram",
+var Train = defineComponent956({
+  name: "Train",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33452,16 +33452,16 @@ var Tram = defineComponent956({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 20.25h3m0 0H16.5m-11.25 0A2.25 2.25 0 0 1 3 18v-.75m2.25 3A2.25 2.25 0 0 0 7.5 18v-.75m9 3h5.25m-5.25 0A2.25 2.25 0 0 0 18.75 18v-.75m-2.25 3A2.25 2.25 0 0 1 14.25 18v-.75m4.5 0h1.5a1.5 1.5 0 0 0 1.5-1.5v-3m-3 4.5h-4.5m0 0H7.5m0 0H3m0 0h-.75m6-9.75h-6m6 0V3.75m0 3.75h4.5m-4.5 0v5.25m0-9H7.237a3 3 0 0 0-.949.154L4.5 4.5m3.75-.75h1.013a3 3 0 0 1 .949.154L12 4.5m9.75 8.25V9a1.5 1.5 0 0 0-1.5-1.5h-3m4.5 5.25h-4.5m-15 0h10.5m4.5 0V7.5m0 5.25h-4.5m4.5-5.25h-4.5m0 5.25V7.5m-9 0v5.25"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 20.25h3m0 0h6m-6 0A2.25 2.25 0 0 1 3 18v-.75m2.25 3A2.25 2.25 0 0 0 7.5 18v-.75m3.75 3h10.5m-10.5 0A2.25 2.25 0 0 0 13.5 18v-.75m-2.25 3A2.25 2.25 0 0 1 9 18v-.75m4.5 0h5.397c1.576 0 2.853-.75 2.853-2.25 0-.552 0-1.5-1.426-2.324L14.889 9.54a15.7 15.7 0 0 0-7.841-2.101H6m7.5 9.812H9m0 0H7.5m0 0H3m0 0h-.75M6 7.438H2.25m3.75 0V3.75m0 0H4.987a3 3 0 0 0-.949.154L2.25 4.5M6 3.75h1.013a3 3 0 0 1 .949.154L9.75 4.5m-7.5 6h5.437a10.5 10.5 0 0 1 5.25 1.407l2.813 1.624H2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Translate.ts
+// src/icons/Tram.ts
 import { defineComponent as defineComponent957, h as h957 } from "vue";
-var Translate = defineComponent957({
-  name: "Translate",
+var Tram = defineComponent957({
+  name: "Tram",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33487,16 +33487,16 @@ var Translate = defineComponent957({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M15.75 13.5v-.75m0 .75h-3m3 0h1.5m-7.5.75v6a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-9a1.5 1.5 0 0 0-1.5-1.5h-6m-4.5 4.5v-3a1.5 1.5 0 0 1 .75-1.3m-.75 4.3h-6a1.5 1.5 0 0 1-1.5-1.5v-9a1.5 1.5 0 0 1 1.5-1.5h9a1.5 1.5 0 0 1 1.5 1.5v6m0 0h-3c-.273 0-.53.073-.75.2m8.25 3.55h-1.5m0 0c0 .932.25 2.728-1.5 4.078M10.5 9.95V9m5.25 8.578a7.6 7.6 0 0 1-2.25 1.172m2.25-1.172a6.2 6.2 0 0 1-1.091-1.078m1.091 1.078c.596.46 1.336.867 2.25 1.172m-12-7.5V9m0 0V7.5a2.25 2.25 0 0 1 4.5 0V9M6 9h4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M2.25 20.25h3m0 0H16.5m-11.25 0A2.25 2.25 0 0 1 3 18v-.75m2.25 3A2.25 2.25 0 0 0 7.5 18v-.75m9 3h5.25m-5.25 0A2.25 2.25 0 0 0 18.75 18v-.75m-2.25 3A2.25 2.25 0 0 1 14.25 18v-.75m4.5 0h1.5a1.5 1.5 0 0 0 1.5-1.5v-3m-3 4.5h-4.5m0 0H7.5m0 0H3m0 0h-.75m6-9.75h-6m6 0V3.75m0 3.75h4.5m-4.5 0v5.25m0-9H7.237a3 3 0 0 0-.949.154L4.5 4.5m3.75-.75h1.013a3 3 0 0 1 .949.154L12 4.5m9.75 8.25V9a1.5 1.5 0 0 0-1.5-1.5h-3m4.5 5.25h-4.5m-15 0h10.5m4.5 0V7.5m0 5.25h-4.5m4.5-5.25h-4.5m0 5.25V7.5m-9 0v5.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Trash.ts
+// src/icons/Translate.ts
 import { defineComponent as defineComponent958, h as h958 } from "vue";
-var Trash = defineComponent958({
-  name: "Trash",
+var Translate = defineComponent958({
+  name: "Translate",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33522,16 +33522,16 @@ var Trash = defineComponent958({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.75 8.25h1.5m-1.5 0-1.352 12.166a1.5 1.5 0 0 1-1.49 1.334H8.092a1.5 1.5 0 0 1-1.491-1.334L5.25 8.25m13.5 0H16.5m-12.75 0h1.5m0 0H7.5m0 0v-1.5a4.5 4.5 0 0 1 9 0v1.5m-9 0h9m-1.875 3-.75 7.5m-4.5-7.5.75 7.5"/>`
+        innerHTML: `<path d="M15.75 13.5v-.75m0 .75h-3m3 0h1.5m-7.5.75v6a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-9a1.5 1.5 0 0 0-1.5-1.5h-6m-4.5 4.5v-3a1.5 1.5 0 0 1 .75-1.3m-.75 4.3h-6a1.5 1.5 0 0 1-1.5-1.5v-9a1.5 1.5 0 0 1 1.5-1.5h9a1.5 1.5 0 0 1 1.5 1.5v6m0 0h-3c-.273 0-.53.073-.75.2m8.25 3.55h-1.5m0 0c0 .932.25 2.728-1.5 4.078M10.5 9.95V9m5.25 8.578a7.6 7.6 0 0 1-2.25 1.172m2.25-1.172a6.2 6.2 0 0 1-1.091-1.078m1.091 1.078c.596.46 1.336.867 2.25 1.172m-12-7.5V9m0 0V7.5a2.25 2.25 0 0 1 4.5 0V9M6 9h4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TrashCheck.ts
+// src/icons/Trash.ts
 import { defineComponent as defineComponent959, h as h959 } from "vue";
-var TrashCheck = defineComponent959({
-  name: "TrashCheck",
+var Trash = defineComponent959({
+  name: "Trash",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33557,16 +33557,16 @@ var TrashCheck = defineComponent959({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M18.75 8.25h1.5m-1.5 0-.335 3.013m.335-3.013H16.5m-4.113 13.5H8.093a1.5 1.5 0 0 1-1.491-1.334L5.25 8.25m-1.5 0h1.5m0 0H7.5m0 0v-1.5a4.5 4.5 0 0 1 9 0v1.5m-9 0h9m-1.875 3-.096.96m-5.154-.96.75 7.5m4.125 0 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
+        innerHTML: `<path d="M18.75 8.25h1.5m-1.5 0-1.352 12.166a1.5 1.5 0 0 1-1.49 1.334H8.092a1.5 1.5 0 0 1-1.491-1.334L5.25 8.25m13.5 0H16.5m-12.75 0h1.5m0 0H7.5m0 0v-1.5a4.5 4.5 0 0 1 9 0v1.5m-9 0h9m-1.875 3-.75 7.5m-4.5-7.5.75 7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TrashCross.ts
+// src/icons/TrashCheck.ts
 import { defineComponent as defineComponent960, h as h960 } from "vue";
-var TrashCross = defineComponent960({
-  name: "TrashCross",
+var TrashCheck = defineComponent960({
+  name: "TrashCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33592,16 +33592,16 @@ var TrashCross = defineComponent960({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m15.75 22.5 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75m3-7.5h1.5m-1.5 0-.335 3.013m.335-3.013H16.5m-4.113 13.5H8.093a1.5 1.5 0 0 1-1.491-1.334L5.25 8.25m-1.5 0h1.5m0 0H7.5m0 0v-1.5a4.5 4.5 0 0 1 9 0v1.5m-9 0h9m-1.875 3-.096.96m-5.154-.96.75 7.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M18.75 8.25h1.5m-1.5 0-.335 3.013m.335-3.013H16.5m-4.113 13.5H8.093a1.5 1.5 0 0 1-1.491-1.334L5.25 8.25m-1.5 0h1.5m0 0H7.5m0 0v-1.5a4.5 4.5 0 0 1 9 0v1.5m-9 0h9m-1.875 3-.096.96m-5.154-.96.75 7.5m4.125 0 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TrashEmpty.ts
+// src/icons/TrashCross.ts
 import { defineComponent as defineComponent961, h as h961 } from "vue";
-var TrashEmpty = defineComponent961({
-  name: "TrashEmpty",
+var TrashCross = defineComponent961({
+  name: "TrashCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33627,16 +33627,16 @@ var TrashEmpty = defineComponent961({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.75 8.25h1.5m-1.5 0-1.352 12.166a1.5 1.5 0 0 1-1.49 1.334H8.092a1.5 1.5 0 0 1-1.491-1.334L5.25 8.25m13.5 0H5.25m-1.5 0h1.5m9.375 3-.75 7.5m-4.5-7.5.75 7.5M6.75 2.25l.656.75m9.844-.75-.656.75m2.7 2.03-.912.403M4.706 5.031l.912.402"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m15.75 22.5 3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75m3-7.5h1.5m-1.5 0-.335 3.013m.335-3.013H16.5m-4.113 13.5H8.093a1.5 1.5 0 0 1-1.491-1.334L5.25 8.25m-1.5 0h1.5m0 0H7.5m0 0v-1.5a4.5 4.5 0 0 1 9 0v1.5m-9 0h9m-1.875 3-.096.96m-5.154-.96.75 7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TrashRestore.ts
+// src/icons/TrashEmpty.ts
 import { defineComponent as defineComponent962, h as h962 } from "vue";
-var TrashRestore = defineComponent962({
-  name: "TrashRestore",
+var TrashEmpty = defineComponent962({
+  name: "TrashEmpty",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33662,16 +33662,16 @@ var TrashRestore = defineComponent962({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.75 8.25h1.5m-1.5 0-1.352 12.166a1.5 1.5 0 0 1-1.49 1.334H8.092a1.5 1.5 0 0 1-1.491-1.334L5.25 8.25m13.5 0H16.5m-12.75 0h1.5m0 0H7.5m0 0v-1.5a4.5 4.5 0 0 1 9 0v1.5m-9 0h9M12 18.75v-7.5m0 0 3 3m-3-3-3 3"/>`
+        innerHTML: `<path d="M18.75 8.25h1.5m-1.5 0-1.352 12.166a1.5 1.5 0 0 1-1.49 1.334H8.092a1.5 1.5 0 0 1-1.491-1.334L5.25 8.25m13.5 0H5.25m-1.5 0h1.5m9.375 3-.75 7.5m-4.5-7.5.75 7.5M6.75 2.25l.656.75m9.844-.75-.656.75m2.7 2.03-.912.403M4.706 5.031l.912.402"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TreeOak.ts
+// src/icons/TrashRestore.ts
 import { defineComponent as defineComponent963, h as h963 } from "vue";
-var TreeOak = defineComponent963({
-  name: "TreeOak",
+var TrashRestore = defineComponent963({
+  name: "TrashRestore",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33697,16 +33697,16 @@ var TreeOak = defineComponent963({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 21.75v-6m0 0v-3m0 3a3 3 0 0 0 3-3m-3 0v-1.5m0 1.5H9.75M5.273 7.994a5.25 5.25 0 1 0 6.158 8.236A6.75 6.75 0 1 0 14.22 3.794m-8.947 4.2A5.2 5.2 0 0 1 7.5 7.5m-2.227.494a5.25 5.25 0 0 1 8.946-4.2m0 0A6.72 6.72 0 0 0 10.5 5.47"/>`
+        innerHTML: `<path d="M18.75 8.25h1.5m-1.5 0-1.352 12.166a1.5 1.5 0 0 1-1.49 1.334H8.092a1.5 1.5 0 0 1-1.491-1.334L5.25 8.25m13.5 0H16.5m-12.75 0h1.5m0 0H7.5m0 0v-1.5a4.5 4.5 0 0 1 9 0v1.5m-9 0h9M12 18.75v-7.5m0 0 3 3m-3-3-3 3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TreePalm.ts
+// src/icons/TreeOak.ts
 import { defineComponent as defineComponent964, h as h964 } from "vue";
-var TreePalm = defineComponent964({
-  name: "TreePalm",
+var TreeOak = defineComponent964({
+  name: "TreeOak",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33732,16 +33732,16 @@ var TreePalm = defineComponent964({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M11.08 9.368 12 9l.92.368m-1.84 0L4.5 12c0-3 2.069-5.071 6-6l-6.75-.75C5.25 3 7.5 1.5 12 3c4.5-1.5 6.75 0 8.25 2.25L13.5 6c3.931.929 6 3 6 6l-6.58-2.632m-1.84 0L9.75 21.75h4.5L12.92 9.368"/>`
+        innerHTML: `<path d="M12 21.75v-6m0 0v-3m0 3a3 3 0 0 0 3-3m-3 0v-1.5m0 1.5H9.75M5.273 7.994a5.25 5.25 0 1 0 6.158 8.236A6.75 6.75 0 1 0 14.22 3.794m-8.947 4.2A5.2 5.2 0 0 1 7.5 7.5m-2.227.494a5.25 5.25 0 0 1 8.946-4.2m0 0A6.72 6.72 0 0 0 10.5 5.47"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TreePine.ts
+// src/icons/TreePalm.ts
 import { defineComponent as defineComponent965, h as h965 } from "vue";
-var TreePine = defineComponent965({
-  name: "TreePine",
+var TreePalm = defineComponent965({
+  name: "TreePalm",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33767,16 +33767,16 @@ var TreePine = defineComponent965({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 21.75v-3m0 0c-4.092.63-7.19-3.62-5.338-7.323l4.253-8.506a1.214 1.214 0 0 1 2.17 0l4.253 8.506C19.19 15.13 16.092 19.38 12 18.75"/>`
+        innerHTML: `<path d="M11.08 9.368 12 9l.92.368m-1.84 0L4.5 12c0-3 2.069-5.071 6-6l-6.75-.75C5.25 3 7.5 1.5 12 3c4.5-1.5 6.75 0 8.25 2.25L13.5 6c3.931.929 6 3 6 6l-6.58-2.632m-1.84 0L9.75 21.75h4.5L12.92 9.368"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TrendDown.ts
+// src/icons/TreePine.ts
 import { defineComponent as defineComponent966, h as h966 } from "vue";
-var TrendDown = defineComponent966({
-  name: "TrendDown",
+var TreePine = defineComponent966({
+  name: "TreePine",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33802,16 +33802,16 @@ var TrendDown = defineComponent966({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 3v16.5A1.5 1.5 0 0 0 4.5 21H21M6.75 3.75l13.5 13.5m0 0v-4.5m0 4.5h-4.5"/>`
+        innerHTML: `<path d="M12 21.75v-3m0 0c-4.092.63-7.19-3.62-5.338-7.323l4.253-8.506a1.214 1.214 0 0 1 2.17 0l4.253 8.506C19.19 15.13 16.092 19.38 12 18.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TrendFlat.ts
+// src/icons/TrendDown.ts
 import { defineComponent as defineComponent967, h as h967 } from "vue";
-var TrendFlat = defineComponent967({
-  name: "TrendFlat",
+var TrendDown = defineComponent967({
+  name: "TrendDown",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33837,16 +33837,16 @@ var TrendFlat = defineComponent967({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 3v16.5A1.5 1.5 0 0 0 4.5 21H21M6.75 12.75h13.5m0 0-3-3m3 3-3 3"/>`
+        innerHTML: `<path d="M3 3v16.5A1.5 1.5 0 0 0 4.5 21H21M6.75 3.75l13.5 13.5m0 0v-4.5m0 4.5h-4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TrendUp.ts
+// src/icons/TrendFlat.ts
 import { defineComponent as defineComponent968, h as h968 } from "vue";
-var TrendUp = defineComponent968({
-  name: "TrendUp",
+var TrendFlat = defineComponent968({
+  name: "TrendFlat",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33872,16 +33872,16 @@ var TrendUp = defineComponent968({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 3v16.5A1.5 1.5 0 0 0 4.5 21H21M6.75 17.25l13.5-13.5m0 0v4.5m0-4.5h-4.5"/>`
+        innerHTML: `<path d="M3 3v16.5A1.5 1.5 0 0 0 4.5 21H21M6.75 12.75h13.5m0 0-3-3m3 3-3 3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Triangle.ts
+// src/icons/TrendUp.ts
 import { defineComponent as defineComponent969, h as h969 } from "vue";
-var Triangle = defineComponent969({
-  name: "Triangle",
+var TrendUp = defineComponent969({
+  name: "TrendUp",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33907,16 +33907,16 @@ var Triangle = defineComponent969({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m2.66 18.787 8.018-14.84c.567-1.05 2.074-1.05 2.64.002l7.991 14.84A1.5 1.5 0 0 1 19.99 21H3.979a1.5 1.5 0 0 1-1.32-2.213"/>`
+        innerHTML: `<path d="M3 3v16.5A1.5 1.5 0 0 0 4.5 21H21M6.75 17.25l13.5-13.5m0 0v4.5m0-4.5h-4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TripleStar.ts
+// src/icons/Triangle.ts
 import { defineComponent as defineComponent970, h as h970 } from "vue";
-var TripleStar = defineComponent970({
-  name: "TripleStar",
+var Triangle = defineComponent970({
+  name: "Triangle",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33942,16 +33942,16 @@ var TripleStar = defineComponent970({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M4.901 15.75H2.356a.15.15 0 0 0-.106.256l1.937 1.937a.15.15 0 0 1 .041.136l-.657 3.286a.15.15 0 0 0 .237.15l2.596-1.948a.15.15 0 0 1 .18 0l2.596 1.947a.15.15 0 0 0 .237-.15L8.76 18.08a.15.15 0 0 1 .04-.136l1.938-1.937a.15.15 0 0 0-.106-.256H8.087a.15.15 0 0 1-.134-.083l-1.325-2.649a.15.15 0 0 0-.268 0l-1.325 2.649a.15.15 0 0 1-.134.083M15.913 15.75h-2.545a.15.15 0 0 0-.106.256l1.937 1.937a.15.15 0 0 1 .041.136l-.657 3.286a.15.15 0 0 0 .237.15l2.596-1.948a.15.15 0 0 1 .18 0l2.596 1.947a.15.15 0 0 0 .237-.15l-.657-3.285a.15.15 0 0 1 .04-.136l1.938-1.937a.15.15 0 0 0-.106-.256h-2.545a.15.15 0 0 1-.134-.083l-1.325-2.649a.15.15 0 0 0-.268 0l-1.325 2.649a.15.15 0 0 1-.134.083M10.407 5.25H7.862a.15.15 0 0 0-.106.256l1.937 1.937a.15.15 0 0 1 .041.136l-.657 3.286a.15.15 0 0 0 .237.15l2.596-1.948a.15.15 0 0 1 .18 0l2.596 1.947a.15.15 0 0 0 .237-.15l-.657-3.285a.15.15 0 0 1 .04-.136l1.938-1.937a.15.15 0 0 0-.106-.256h-2.545a.15.15 0 0 1-.134-.083l-1.325-2.649a.15.15 0 0 0-.268 0L10.54 5.167a.15.15 0 0 1-.134.083"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m2.66 18.787 8.018-14.84c.567-1.05 2.074-1.05 2.64.002l7.991 14.84A1.5 1.5 0 0 1 19.99 21H3.979a1.5 1.5 0 0 1-1.32-2.213"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Trophy.ts
+// src/icons/TripleStar.ts
 import { defineComponent as defineComponent971, h as h971 } from "vue";
-var Trophy = defineComponent971({
-  name: "Trophy",
+var TripleStar = defineComponent971({
+  name: "TripleStar",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -33977,16 +33977,16 @@ var Trophy = defineComponent971({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6.75 3.812V2.25h10.5v1.562m-10.5 0V10.5c0 .803.18 1.563.502 2.243m-.502-8.93a4.501 4.501 0 0 0 .502 8.93m9.998-8.93V10.5a5.2 5.2 0 0 1-.502 2.243m.502-8.93a4.501 4.501 0 0 1-.502 8.93M12 15.75v6m0-6a5.25 5.25 0 0 0 4.748-3.007M12 15.75a5.25 5.25 0 0 1-4.748-3.007M12 21.75h5.25m-5.25 0H6.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M4.901 15.75H2.356a.15.15 0 0 0-.106.256l1.937 1.937a.15.15 0 0 1 .041.136l-.657 3.286a.15.15 0 0 0 .237.15l2.596-1.948a.15.15 0 0 1 .18 0l2.596 1.947a.15.15 0 0 0 .237-.15L8.76 18.08a.15.15 0 0 1 .04-.136l1.938-1.937a.15.15 0 0 0-.106-.256H8.087a.15.15 0 0 1-.134-.083l-1.325-2.649a.15.15 0 0 0-.268 0l-1.325 2.649a.15.15 0 0 1-.134.083M15.913 15.75h-2.545a.15.15 0 0 0-.106.256l1.937 1.937a.15.15 0 0 1 .041.136l-.657 3.286a.15.15 0 0 0 .237.15l2.596-1.948a.15.15 0 0 1 .18 0l2.596 1.947a.15.15 0 0 0 .237-.15l-.657-3.285a.15.15 0 0 1 .04-.136l1.938-1.937a.15.15 0 0 0-.106-.256h-2.545a.15.15 0 0 1-.134-.083l-1.325-2.649a.15.15 0 0 0-.268 0l-1.325 2.649a.15.15 0 0 1-.134.083M10.407 5.25H7.862a.15.15 0 0 0-.106.256l1.937 1.937a.15.15 0 0 1 .041.136l-.657 3.286a.15.15 0 0 0 .237.15l2.596-1.948a.15.15 0 0 1 .18 0l2.596 1.947a.15.15 0 0 0 .237-.15l-.657-3.285a.15.15 0 0 1 .04-.136l1.938-1.937a.15.15 0 0 0-.106-.256h-2.545a.15.15 0 0 1-.134-.083l-1.325-2.649a.15.15 0 0 0-.268 0L10.54 5.167a.15.15 0 0 1-.134.083"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Truck.ts
+// src/icons/Trophy.ts
 import { defineComponent as defineComponent972, h as h972 } from "vue";
-var Truck = defineComponent972({
-  name: "Truck",
+var Trophy = defineComponent972({
+  name: "Trophy",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34012,16 +34012,16 @@ var Truck = defineComponent972({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 18a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0m4.5 0a1.5 1.5 0 0 0 1.5-1.5v-3.335a1.5 1.5 0 0 0-.214-.771l-1.599-2.666A1.5 1.5 0 0 0 18.651 9H14.25m1.5 9h-1.5M9 18a2.25 2.25 0 0 1-4.5 0M9 18a2.25 2.25 0 0 0-4.5 0M9 18h5.25M4.5 18h-.75a1.5 1.5 0 0 1-1.5-1.5V5.25a1.5 1.5 0 0 1 1.5-1.5h9a1.5 1.5 0 0 1 1.5 1.5V9m0 0v9"/>`
+        innerHTML: `<path d="M6.75 3.812V2.25h10.5v1.562m-10.5 0V10.5c0 .803.18 1.563.502 2.243m-.502-8.93a4.501 4.501 0 0 0 .502 8.93m9.998-8.93V10.5a5.2 5.2 0 0 1-.502 2.243m.502-8.93a4.501 4.501 0 0 1-.502 8.93M12 15.75v6m0-6a5.25 5.25 0 0 0 4.748-3.007M12 15.75a5.25 5.25 0 0 1-4.748-3.007M12 21.75h5.25m-5.25 0H6.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Tv.ts
+// src/icons/Truck.ts
 import { defineComponent as defineComponent973, h as h973 } from "vue";
-var Tv = defineComponent973({
-  name: "Tv",
+var Truck = defineComponent973({
+  name: "Truck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34047,16 +34047,16 @@ var Tv = defineComponent973({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.75 17.25h1.5a1.5 1.5 0 0 0 1.5-1.5V5.25a1.5 1.5 0 0 0-1.5-1.5H3.75a1.5 1.5 0 0 0-1.5 1.5v10.5a1.5 1.5 0 0 0 1.5 1.5h1.5m13.5 0v3m0-3H5.25m0 0v3"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M20.25 18a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0m4.5 0a1.5 1.5 0 0 0 1.5-1.5v-3.335a1.5 1.5 0 0 0-.214-.771l-1.599-2.666A1.5 1.5 0 0 0 18.651 9H14.25m1.5 9h-1.5M9 18a2.25 2.25 0 0 1-4.5 0M9 18a2.25 2.25 0 0 0-4.5 0M9 18h5.25M4.5 18h-.75a1.5 1.5 0 0 1-1.5-1.5V5.25a1.5 1.5 0 0 1 1.5-1.5h9a1.5 1.5 0 0 1 1.5 1.5V9m0 0v9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/TvRemote.ts
+// src/icons/Tv.ts
 import { defineComponent as defineComponent974, h as h974 } from "vue";
-var TvRemote = defineComponent974({
-  name: "TvRemote",
+var Tv = defineComponent974({
+  name: "Tv",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34082,16 +34082,16 @@ var TvRemote = defineComponent974({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 9.75V7.5m0 0V5.25m0 2.25H9.75m2.25 0h2.25m-4.5 9.75v-.75m4.5.75v-.75m-4.5-3v-.75m4.5.75v-.75M6 3.75v12a6 6 0 0 0 12 0v-12a1.5 1.5 0 0 0-1.5-1.5h-9A1.5 1.5 0 0 0 6 3.75"/>`
+        innerHTML: `<path d="M18.75 17.25h1.5a1.5 1.5 0 0 0 1.5-1.5V5.25a1.5 1.5 0 0 0-1.5-1.5H3.75a1.5 1.5 0 0 0-1.5 1.5v10.5a1.5 1.5 0 0 0 1.5 1.5h1.5m13.5 0v3m0-3H5.25m0 0v3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Umbrella.ts
+// src/icons/TvRemote.ts
 import { defineComponent as defineComponent975, h as h975 } from "vue";
-var Umbrella = defineComponent975({
-  name: "Umbrella",
+var TvRemote = defineComponent975({
+  name: "TvRemote",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34117,16 +34117,16 @@ var Umbrella = defineComponent975({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 10.447c1.357 0 2.714.518 3.75 1.553a3.842 3.842 0 0 1 6 0c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a3.842 3.842 0 0 1 6 0A5.29 5.29 0 0 1 12 10.447m0 0V19.5a2.25 2.25 0 0 1-4.5 0V18"/>`
+        innerHTML: `<path d="M12 9.75V7.5m0 0V5.25m0 2.25H9.75m2.25 0h2.25m-4.5 9.75v-.75m4.5.75v-.75m-4.5-3v-.75m4.5.75v-.75M6 3.75v12a6 6 0 0 0 12 0v-12a1.5 1.5 0 0 0-1.5-1.5h-9A1.5 1.5 0 0 0 6 3.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Undo.ts
+// src/icons/Umbrella.ts
 import { defineComponent as defineComponent976, h as h976 } from "vue";
-var Undo = defineComponent976({
-  name: "Undo",
+var Umbrella = defineComponent976({
+  name: "Umbrella",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34152,16 +34152,16 @@ var Undo = defineComponent976({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 8.25v7.5m0 0h7.5m-7.5 0L6 12c6.75-6.75 14.1-3.601 15.75 3"/>`
+        innerHTML: `<path d="M12 10.447c1.357 0 2.714.518 3.75 1.553a3.842 3.842 0 0 1 6 0c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a3.842 3.842 0 0 1 6 0A5.29 5.29 0 0 1 12 10.447m0 0V19.5a2.25 2.25 0 0 1-4.5 0V18"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Union.ts
+// src/icons/Undo.ts
 import { defineComponent as defineComponent977, h as h977 } from "vue";
-var Union = defineComponent977({
-  name: "Union",
+var Undo = defineComponent977({
+  name: "Undo",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34187,16 +34187,16 @@ var Union = defineComponent977({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M16.5 7.5h3c.414 0 .79.168 1.06.44M16.5 7.5v-3A1.5 1.5 0 0 0 15 3h-3m4.5 4.5-9 9m0 0v3c0 .414.168.79.44 1.06M7.5 16.5h-3A1.5 1.5 0 0 1 3 15v-3m9 9H9c-.414 0-.79-.168-1.06-.44M12 21l9-9m-9 9h4.5m4.5-9V9c0-.414-.168-.79-.44-1.06M21 12v4.5M16.5 21h3a1.5 1.5 0 0 0 1.5-1.5v-3M16.5 21l4.5-4.5m-.44-8.56L7.94 20.56m7.81-16.81-12 12M12 3l-9 9m9-9H7.5M3 12V7.5M7.5 3h-3A1.5 1.5 0 0 0 3 4.5v3M7.5 3 3 7.5"/>`
+        innerHTML: `<path d="M2.25 8.25v7.5m0 0h7.5m-7.5 0L6 12c6.75-6.75 14.1-3.601 15.75 3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Upload.ts
+// src/icons/Union.ts
 import { defineComponent as defineComponent978, h as h978 } from "vue";
-var Upload = defineComponent978({
-  name: "Upload",
+var Union = defineComponent978({
+  name: "Union",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34222,16 +34222,16 @@ var Upload = defineComponent978({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 2.25v13.5m0-13.5 5.25 5.25M12 2.25 6.75 7.5m-3 8.25v4.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-4.5"/>`
+        innerHTML: `<path d="M16.5 7.5h3c.414 0 .79.168 1.06.44M16.5 7.5v-3A1.5 1.5 0 0 0 15 3h-3m4.5 4.5-9 9m0 0v3c0 .414.168.79.44 1.06M7.5 16.5h-3A1.5 1.5 0 0 1 3 15v-3m9 9H9c-.414 0-.79-.168-1.06-.44M12 21l9-9m-9 9h4.5m4.5-9V9c0-.414-.168-.79-.44-1.06M21 12v4.5M16.5 21h3a1.5 1.5 0 0 0 1.5-1.5v-3M16.5 21l4.5-4.5m-.44-8.56L7.94 20.56m7.81-16.81-12 12M12 3l-9 9m9-9H7.5M3 12V7.5M7.5 3h-3A1.5 1.5 0 0 0 3 4.5v3M7.5 3 3 7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Usb.ts
+// src/icons/Upload.ts
 import { defineComponent as defineComponent979, h as h979 } from "vue";
-var Usb = defineComponent979({
-  name: "Usb",
+var Upload = defineComponent979({
+  name: "Upload",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34257,16 +34257,16 @@ var Usb = defineComponent979({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m12 2.25 1.5 1.5M12 2.25l-1.5 1.5m1.5-1.5V13.5m0 6.75v-3m0 3a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5m0-3-4.494-2.568a1.5 1.5 0 0 1-.756-1.303V10.5M12 17.25V13.5m-5.25-3a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5m5.25 3 4.34-1.86a1.5 1.5 0 0 0 .91-1.38V6.75m0 0h-.75v-1.5H18v1.5z"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 2.25v13.5m0-13.5 5.25 5.25M12 2.25 6.75 7.5m-3 8.25v4.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UsbC.ts
+// src/icons/Usb.ts
 import { defineComponent as defineComponent980, h as h980 } from "vue";
-var UsbC = defineComponent980({
-  name: "UsbC",
+var Usb = defineComponent980({
+  name: "Usb",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34292,16 +34292,16 @@ var UsbC = defineComponent980({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6.75 12h10.5m-10.5 4.5h10.5a4.5 4.5 0 1 0 0-9H6.75a4.5 4.5 0 0 0 0 9"/>`
+        innerHTML: `<path d="m12 2.25 1.5 1.5M12 2.25l-1.5 1.5m1.5-1.5V13.5m0 6.75v-3m0 3a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5m0-3-4.494-2.568a1.5 1.5 0 0 1-.756-1.303V10.5M12 17.25V13.5m-5.25-3a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5m5.25 3 4.34-1.86a1.5 1.5 0 0 0 .91-1.38V6.75m0 0h-.75v-1.5H18v1.5z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/User.ts
+// src/icons/UsbC.ts
 import { defineComponent as defineComponent981, h as h981 } from "vue";
-var User = defineComponent981({
-  name: "User",
+var UsbC = defineComponent981({
+  name: "UsbC",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34327,16 +34327,16 @@ var User = defineComponent981({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 14.25a6 6 0 1 0 0-12 6 6 0 0 0 0 12m0 0h2.25a6 6 0 0 1 6 6 1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5 6 6 0 0 1 6-6z"/>`
+        innerHTML: `<path d="M6.75 12h10.5m-10.5 4.5h10.5a4.5 4.5 0 1 0 0-9H6.75a4.5 4.5 0 0 0 0 9"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UserCheck.ts
+// src/icons/User.ts
 import { defineComponent as defineComponent982, h as h982 } from "vue";
-var UserCheck = defineComponent982({
-  name: "UserCheck",
+var User = defineComponent982({
+  name: "User",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34362,16 +34362,16 @@ var UserCheck = defineComponent982({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 14.25a6 6 0 1 1 5.168-2.95M12 14.25H9.75a6 6 0 0 0-6 6 1.5 1.5 0 0 0 1.5 1.5h7.137M12 14.25q.2 0 .395-.013m1.855 4.513 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
+        innerHTML: `<path d="M12 14.25a6 6 0 1 0 0-12 6 6 0 0 0 0 12m0 0h2.25a6 6 0 0 1 6 6 1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5 6 6 0 0 1 6-6z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UserCircle.ts
+// src/icons/UserCheck.ts
 import { defineComponent as defineComponent983, h as h983 } from "vue";
-var UserCircle = defineComponent983({
-  name: "UserCircle",
+var UserCheck = defineComponent983({
+  name: "UserCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34397,16 +34397,16 @@ var UserCircle = defineComponent983({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 15a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9m0 0h1.314A4.686 4.686 0 0 1 18 19.686M12 15h-1.314A4.686 4.686 0 0 0 6 19.686m12 0A9.73 9.73 0 0 0 21.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12A9.73 9.73 0 0 0 6 19.686m12 0a9.7 9.7 0 0 1-6 2.064 9.7 9.7 0 0 1-6-2.064"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 14.25a6 6 0 1 1 5.168-2.95M12 14.25H9.75a6 6 0 0 0-6 6 1.5 1.5 0 0 0 1.5 1.5h7.137M12 14.25q.2 0 .395-.013m1.855 4.513 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UserCross.ts
+// src/icons/UserCircle.ts
 import { defineComponent as defineComponent984, h as h984 } from "vue";
-var UserCross = defineComponent984({
-  name: "UserCross",
+var UserCircle = defineComponent984({
+  name: "UserCircle",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34432,16 +34432,16 @@ var UserCross = defineComponent984({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 14.25a6 6 0 1 1 5.168-2.95M12 14.25H9.75a6 6 0 0 0-6 6 1.5 1.5 0 0 0 1.5 1.5h7.137M12 14.25q.2 0 .395-.013M15.75 22.5l3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
+        innerHTML: `<path d="M12 15a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9m0 0h1.314A4.686 4.686 0 0 1 18 19.686M12 15h-1.314A4.686 4.686 0 0 0 6 19.686m12 0A9.73 9.73 0 0 0 21.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12A9.73 9.73 0 0 0 6 19.686m12 0a9.7 9.7 0 0 1-6 2.064 9.7 9.7 0 0 1-6-2.064"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UserEdit.ts
+// src/icons/UserCross.ts
 import { defineComponent as defineComponent985, h as h985 } from "vue";
-var UserEdit = defineComponent985({
-  name: "UserEdit",
+var UserCross = defineComponent985({
+  name: "UserCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34467,16 +34467,16 @@ var UserEdit = defineComponent985({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M12 14.25a6 6 0 1 1 5.168-2.95M12 14.25H9.75a6 6 0 0 0-6 6 1.5 1.5 0 0 0 1.5 1.5h7.137M12 14.25q.2 0 .395-.013m7.105.013 3 3-4.06 4.06a1.5 1.5 0 0 1-1.061.44H15v-2.379c0-.397.158-.779.44-1.06z"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 14.25a6 6 0 1 1 5.168-2.95M12 14.25H9.75a6 6 0 0 0-6 6 1.5 1.5 0 0 0 1.5 1.5h7.137M12 14.25q.2 0 .395-.013M15.75 22.5l3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UserGroup.ts
+// src/icons/UserEdit.ts
 import { defineComponent as defineComponent986, h as h986 } from "vue";
-var UserGroup = defineComponent986({
-  name: "UserGroup",
+var UserEdit = defineComponent986({
+  name: "UserEdit",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34502,16 +34502,16 @@ var UserGroup = defineComponent986({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M13.987 13.987c.557.17 1.15.263 1.763.263a6 6 0 0 0 3-.803m-4.763.54c.17.557.263 1.15.263 1.763 0 2.22-1.207 4.16-3 5.197m2.737-6.96a6 6 0 0 0-1.12-2.07m-2.854-1.904a6 6 0 1 1 8.737 3.434m-8.737-3.434a6 6 0 0 1 2.854 1.905m-2.854-1.905A6 6 0 0 0 5.25 20.947m7.617-9.03A3 3 0 0 1 15.75 9.75m-7.5 7.5a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0a3 3 0 0 0-3 3v.697m3-3.697a3 3 0 0 1 3 3v.697m0 0a6 6 0 0 1-3 .803 6 6 0 0 1-3-.803M15.75 9.75a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0a3 3 0 0 1 3 3v.697"/>`
+        innerHTML: `<path d="M12 14.25a6 6 0 1 1 5.168-2.95M12 14.25H9.75a6 6 0 0 0-6 6 1.5 1.5 0 0 0 1.5 1.5h7.137M12 14.25q.2 0 .395-.013m7.105.013 3 3-4.06 4.06a1.5 1.5 0 0 1-1.061.44H15v-2.379c0-.397.158-.779.44-1.06z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UserGroupCheck.ts
+// src/icons/UserGroup.ts
 import { defineComponent as defineComponent987, h as h987 } from "vue";
-var UserGroupCheck = defineComponent987({
-  name: "UserGroupCheck",
+var UserGroup = defineComponent987({
+  name: "UserGroup",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34537,16 +34537,16 @@ var UserGroupCheck = defineComponent987({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M10.013 10.013a6 6 0 1 1 10.595 1.759m-10.595-1.759a6 6 0 0 1 2.854 1.905m-2.854-1.905A6 6 0 0 0 5.25 20.947m7.617-9.03A3 3 0 0 1 15.75 9.75m-2.883 2.168q.39.468.68 1.01M8.25 17.25a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0a3 3 0 0 0-3 3v.697m3-3.697a3 3 0 0 1 3 3v.697a6 6 0 0 1-3 .803 6 6 0 0 1-3-.803M15.75 9.75a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0c1.114 0 2.087.607 2.604 1.51m-4.104 7.49 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
+        innerHTML: `<path d="M13.987 13.987c.557.17 1.15.263 1.763.263a6 6 0 0 0 3-.803m-4.763.54c.17.557.263 1.15.263 1.763 0 2.22-1.207 4.16-3 5.197m2.737-6.96a6 6 0 0 0-1.12-2.07m-2.854-1.904a6 6 0 1 1 8.737 3.434m-8.737-3.434a6 6 0 0 1 2.854 1.905m-2.854-1.905A6 6 0 0 0 5.25 20.947m7.617-9.03A3 3 0 0 1 15.75 9.75m-7.5 7.5a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0a3 3 0 0 0-3 3v.697m3-3.697a3 3 0 0 1 3 3v.697m0 0a6 6 0 0 1-3 .803 6 6 0 0 1-3-.803M15.75 9.75a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0a3 3 0 0 1 3 3v.697"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UserGroupCross.ts
+// src/icons/UserGroupCheck.ts
 import { defineComponent as defineComponent988, h as h988 } from "vue";
-var UserGroupCross = defineComponent988({
-  name: "UserGroupCross",
+var UserGroupCheck = defineComponent988({
+  name: "UserGroupCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34572,16 +34572,16 @@ var UserGroupCross = defineComponent988({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M10.013 10.013a6 6 0 1 1 10.595 1.759m-10.595-1.759a6 6 0 0 1 2.854 1.905m-2.854-1.905A6 6 0 0 0 5.25 20.947m7.617-9.03A3 3 0 0 1 15.75 9.75m-2.883 2.168q.39.468.68 1.01M8.25 17.25a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0a3 3 0 0 0-3 3v.697m3-3.697a3 3 0 0 1 3 3v.697a6 6 0 0 1-3 .803 6 6 0 0 1-3-.803M15.75 9.75a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0c1.114 0 2.087.607 2.604 1.51M15.75 22.5l3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M10.013 10.013a6 6 0 1 1 10.595 1.759m-10.595-1.759a6 6 0 0 1 2.854 1.905m-2.854-1.905A6 6 0 0 0 5.25 20.947m7.617-9.03A3 3 0 0 1 15.75 9.75m-2.883 2.168q.39.468.68 1.01M8.25 17.25a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0a3 3 0 0 0-3 3v.697m3-3.697a3 3 0 0 1 3 3v.697a6 6 0 0 1-3 .803 6 6 0 0 1-3-.803M15.75 9.75a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0c1.114 0 2.087.607 2.604 1.51m-4.104 7.49 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UserGroupEdit.ts
+// src/icons/UserGroupCross.ts
 import { defineComponent as defineComponent989, h as h989 } from "vue";
-var UserGroupEdit = defineComponent989({
-  name: "UserGroupEdit",
+var UserGroupCross = defineComponent989({
+  name: "UserGroupCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34607,16 +34607,16 @@ var UserGroupEdit = defineComponent989({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M10.013 10.013a6 6 0 1 1 10.595 1.759m-10.595-1.759a6 6 0 0 1 2.854 1.905m-2.854-1.905A6 6 0 0 0 5.25 20.947m7.617-9.03A3 3 0 0 1 15.75 9.75m-2.883 2.168q.39.468.68 1.01M8.25 17.25a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0a3 3 0 0 0-3 3v.697m3-3.697a3 3 0 0 1 3 3v.697a6 6 0 0 1-3 .803 6 6 0 0 1-3-.803M15.75 9.75a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0c1.114 0 2.087.607 2.604 1.51m1.146 2.99 3 3-4.06 4.06a1.5 1.5 0 0 1-1.061.44H15v-2.379c0-.397.158-.779.44-1.06z"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M10.013 10.013a6 6 0 1 1 10.595 1.759m-10.595-1.759a6 6 0 0 1 2.854 1.905m-2.854-1.905A6 6 0 0 0 5.25 20.947m7.617-9.03A3 3 0 0 1 15.75 9.75m-2.883 2.168q.39.468.68 1.01M8.25 17.25a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0a3 3 0 0 0-3 3v.697m3-3.697a3 3 0 0 1 3 3v.697a6 6 0 0 1-3 .803 6 6 0 0 1-3-.803M15.75 9.75a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0c1.114 0 2.087.607 2.604 1.51M15.75 22.5l3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UserGroupLock.ts
+// src/icons/UserGroupEdit.ts
 import { defineComponent as defineComponent990, h as h990 } from "vue";
-var UserGroupLock = defineComponent990({
-  name: "UserGroupLock",
+var UserGroupEdit = defineComponent990({
+  name: "UserGroupEdit",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34642,16 +34642,16 @@ var UserGroupLock = defineComponent990({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M10.013 10.013a6 6 0 1 1 10.595 1.759m-10.595-1.759a6 6 0 0 1 2.854 1.905m-2.854-1.905A6 6 0 0 0 5.25 20.947m7.617-9.03A3 3 0 0 1 15.75 9.75m-2.883 2.168q.39.468.68 1.01M8.25 17.25a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0a3 3 0 0 0-3 3v.697m3-3.697a3 3 0 0 1 3 3v.697a6 6 0 0 1-3 .803 6 6 0 0 1-3-.803M15.75 9.75a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0c1.114 0 2.087.607 2.604 1.51M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
+        innerHTML: `<path d="M10.013 10.013a6 6 0 1 1 10.595 1.759m-10.595-1.759a6 6 0 0 1 2.854 1.905m-2.854-1.905A6 6 0 0 0 5.25 20.947m7.617-9.03A3 3 0 0 1 15.75 9.75m-2.883 2.168q.39.468.68 1.01M8.25 17.25a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0a3 3 0 0 0-3 3v.697m3-3.697a3 3 0 0 1 3 3v.697a6 6 0 0 1-3 .803 6 6 0 0 1-3-.803M15.75 9.75a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0c1.114 0 2.087.607 2.604 1.51m1.146 2.99 3 3-4.06 4.06a1.5 1.5 0 0 1-1.061.44H15v-2.379c0-.397.158-.779.44-1.06z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UserGroupMinus.ts
+// src/icons/UserGroupLock.ts
 import { defineComponent as defineComponent991, h as h991 } from "vue";
-var UserGroupMinus = defineComponent991({
-  name: "UserGroupMinus",
+var UserGroupLock = defineComponent991({
+  name: "UserGroupLock",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34677,16 +34677,16 @@ var UserGroupMinus = defineComponent991({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M10.013 10.013a6 6 0 1 1 10.595 1.759m-10.595-1.759a6 6 0 0 1 2.854 1.905m-2.854-1.905A6 6 0 0 0 5.25 20.947m7.617-9.03A3 3 0 0 1 15.75 9.75m-2.883 2.168q.39.468.68 1.01M8.25 17.25a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0a3 3 0 0 0-3 3v.697m3-3.697a3 3 0 0 1 3 3v.697a6 6 0 0 1-3 .803 6 6 0 0 1-3-.803M15.75 9.75a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0c1.114 0 2.087.607 2.604 1.51m4.146 7.115h-6.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M10.013 10.013a6 6 0 1 1 10.595 1.759m-10.595-1.759a6 6 0 0 1 2.854 1.905m-2.854-1.905A6 6 0 0 0 5.25 20.947m7.617-9.03A3 3 0 0 1 15.75 9.75m-2.883 2.168q.39.468.68 1.01M8.25 17.25a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0a3 3 0 0 0-3 3v.697m3-3.697a3 3 0 0 1 3 3v.697a6 6 0 0 1-3 .803 6 6 0 0 1-3-.803M15.75 9.75a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0c1.114 0 2.087.607 2.604 1.51M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UserGroupPlus.ts
+// src/icons/UserGroupMinus.ts
 import { defineComponent as defineComponent992, h as h992 } from "vue";
-var UserGroupPlus = defineComponent992({
-  name: "UserGroupPlus",
+var UserGroupMinus = defineComponent992({
+  name: "UserGroupMinus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34712,16 +34712,16 @@ var UserGroupPlus = defineComponent992({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M10.013 10.013a6 6 0 1 1 10.595 1.759m-10.595-1.759a6 6 0 0 1 2.854 1.905m-2.854-1.905A6 6 0 0 0 5.25 20.947m7.617-9.03A3 3 0 0 1 15.75 9.75m-2.883 2.168q.39.468.68 1.01M8.25 17.25a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0a3 3 0 0 0-3 3v.697m3-3.697a3 3 0 0 1 3 3v.697a6 6 0 0 1-3 .803 6 6 0 0 1-3-.803M15.75 9.75a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0c1.114 0 2.087.607 2.604 1.51m.021 11.24v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M10.013 10.013a6 6 0 1 1 10.595 1.759m-10.595-1.759a6 6 0 0 1 2.854 1.905m-2.854-1.905A6 6 0 0 0 5.25 20.947m7.617-9.03A3 3 0 0 1 15.75 9.75m-2.883 2.168q.39.468.68 1.01M8.25 17.25a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0a3 3 0 0 0-3 3v.697m3-3.697a3 3 0 0 1 3 3v.697a6 6 0 0 1-3 .803 6 6 0 0 1-3-.803M15.75 9.75a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0c1.114 0 2.087.607 2.604 1.51m4.146 7.115h-6.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UserGroupSettings.ts
+// src/icons/UserGroupPlus.ts
 import { defineComponent as defineComponent993, h as h993 } from "vue";
-var UserGroupSettings = defineComponent993({
-  name: "UserGroupSettings",
+var UserGroupPlus = defineComponent993({
+  name: "UserGroupPlus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34747,16 +34747,16 @@ var UserGroupSettings = defineComponent993({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M10.013 10.013a6 6 0 1 1 10.595 1.759m-10.595-1.759a6 6 0 0 1 2.854 1.905m-2.854-1.905A6 6 0 0 0 5.25 20.947m7.617-9.03A3 3 0 0 1 15.75 9.75m-2.883 2.168q.39.468.68 1.01M8.25 17.25a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0a3 3 0 0 0-3 3v.697m3-3.697a3 3 0 0 1 3 3v.697a6 6 0 0 1-3 .803 6 6 0 0 1-3-.803M15.75 9.75a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0c1.114 0 2.087.607 2.604 1.51m.02 9.59a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.134 4.117h-1.65m-4.95 0h-1.65m7.047 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M10.013 10.013a6 6 0 1 1 10.595 1.759m-10.595-1.759a6 6 0 0 1 2.854 1.905m-2.854-1.905A6 6 0 0 0 5.25 20.947m7.617-9.03A3 3 0 0 1 15.75 9.75m-2.883 2.168q.39.468.68 1.01M8.25 17.25a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0a3 3 0 0 0-3 3v.697m3-3.697a3 3 0 0 1 3 3v.697a6 6 0 0 1-3 .803 6 6 0 0 1-3-.803M15.75 9.75a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0c1.114 0 2.087.607 2.604 1.51m.021 11.24v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UserLock.ts
+// src/icons/UserGroupSettings.ts
 import { defineComponent as defineComponent994, h as h994 } from "vue";
-var UserLock = defineComponent994({
-  name: "UserLock",
+var UserGroupSettings = defineComponent994({
+  name: "UserGroupSettings",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34782,16 +34782,16 @@ var UserLock = defineComponent994({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 14.25a6 6 0 1 1 5.168-2.95M12 14.25H9.75a6 6 0 0 0-6 6 1.5 1.5 0 0 0 1.5 1.5h7.137M12 14.25q.2 0 .395-.013M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M10.013 10.013a6 6 0 1 1 10.595 1.759m-10.595-1.759a6 6 0 0 1 2.854 1.905m-2.854-1.905A6 6 0 0 0 5.25 20.947m7.617-9.03A3 3 0 0 1 15.75 9.75m-2.883 2.168q.39.468.68 1.01M8.25 17.25a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0a3 3 0 0 0-3 3v.697m3-3.697a3 3 0 0 1 3 3v.697a6 6 0 0 1-3 .803 6 6 0 0 1-3-.803M15.75 9.75a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5m0 0c1.114 0 2.087.607 2.604 1.51m.02 9.59a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.134 4.117h-1.65m-4.95 0h-1.65m7.047 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UserMinus.ts
+// src/icons/UserLock.ts
 import { defineComponent as defineComponent995, h as h995 } from "vue";
-var UserMinus = defineComponent995({
-  name: "UserMinus",
+var UserLock = defineComponent995({
+  name: "UserLock",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34817,16 +34817,16 @@ var UserMinus = defineComponent995({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 14.25a6 6 0 1 1 5.168-2.95M12 14.25H9.75a6 6 0 0 0-6 6 1.5 1.5 0 0 0 1.5 1.5h7.137M12 14.25q.2 0 .395-.013M22.5 18.375h-6.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 14.25a6 6 0 1 1 5.168-2.95M12 14.25H9.75a6 6 0 0 0-6 6 1.5 1.5 0 0 0 1.5 1.5h7.137M12 14.25q.2 0 .395-.013M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UserPlus.ts
+// src/icons/UserMinus.ts
 import { defineComponent as defineComponent996, h as h996 } from "vue";
-var UserPlus = defineComponent996({
-  name: "UserPlus",
+var UserMinus = defineComponent996({
+  name: "UserMinus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34852,16 +34852,16 @@ var UserPlus = defineComponent996({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 14.25a6 6 0 1 1 5.168-2.95M12 14.25H9.75a6 6 0 0 0-6 6 1.5 1.5 0 0 0 1.5 1.5h7.137M12 14.25q.2 0 .395-.013m5.98 8.263v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 14.25a6 6 0 1 1 5.168-2.95M12 14.25H9.75a6 6 0 0 0-6 6 1.5 1.5 0 0 0 1.5 1.5h7.137M12 14.25q.2 0 .395-.013M22.5 18.375h-6.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UserSearch.ts
+// src/icons/UserPlus.ts
 import { defineComponent as defineComponent997, h as h997 } from "vue";
-var UserSearch = defineComponent997({
-  name: "UserSearch",
+var UserPlus = defineComponent997({
+  name: "UserPlus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34887,16 +34887,16 @@ var UserSearch = defineComponent997({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 14.25a6 6 0 1 1 5.168-2.95M12 14.25H9.75a6 6 0 0 0-6 6 1.5 1.5 0 0 0 1.5 1.5h7.137M12 14.25q.2 0 .395-.013M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 14.25a6 6 0 1 1 5.168-2.95M12 14.25H9.75a6 6 0 0 0-6 6 1.5 1.5 0 0 0 1.5 1.5h7.137M12 14.25q.2 0 .395-.013m5.98 8.263v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UserSettings.ts
+// src/icons/UserSearch.ts
 import { defineComponent as defineComponent998, h as h998 } from "vue";
-var UserSettings = defineComponent998({
-  name: "UserSettings",
+var UserSearch = defineComponent998({
+  name: "UserSearch",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34922,16 +34922,16 @@ var UserSettings = defineComponent998({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 14.25a6 6 0 1 1 5.168-2.95M12 14.25H9.75a6 6 0 0 0-6 6 1.5 1.5 0 0 0 1.5 1.5h7.137M12 14.25q.2 0 .395-.013m5.98 6.613a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.133 4.117h-1.65m-4.95 0h-1.65m7.047 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 14.25a6 6 0 1 1 5.168-2.95M12 14.25H9.75a6 6 0 0 0-6 6 1.5 1.5 0 0 0 1.5 1.5h7.137M12 14.25q.2 0 .395-.013M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Users.ts
+// src/icons/UserSettings.ts
 import { defineComponent as defineComponent999, h as h999 } from "vue";
-var Users = defineComponent999({
-  name: "Users",
+var UserSettings = defineComponent999({
+  name: "UserSettings",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34957,16 +34957,16 @@ var Users = defineComponent999({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9 14.25a5.25 5.25 0 1 1 3-9.559M9 14.25H6.75a4.5 4.5 0 0 0-4.5 4.5 1.5 1.5 0 0 0 1.5 1.5h10.5m-5.25-6h2.25q.383 0 .75.062m-3-.062c1.115 0 2.15-.348 3-.941m2.25 6.941a1.5 1.5 0 0 0 1.5-1.5c0-2.23-1.622-4.08-3.75-4.438m2.25 5.938h6a1.5 1.5 0 0 0 1.5-1.5 4.5 4.5 0 0 0-4.5-4.5H15m0 0a5.25 5.25 0 1 0-3-9.559m3 9.559h-2.25q-.383 0-.75.062m3-.062a5.23 5.23 0 0 1-3-.941m0-8.618A5.24 5.24 0 0 1 14.25 9c0 1.784-.89 3.36-2.25 4.309"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 14.25a6 6 0 1 1 5.168-2.95M12 14.25H9.75a6 6 0 0 0-6 6 1.5 1.5 0 0 0 1.5 1.5h7.137M12 14.25q.2 0 .395-.013m5.98 6.613a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.133 4.117h-1.65m-4.95 0h-1.65m7.047 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UsersCheck.ts
+// src/icons/Users.ts
 import { defineComponent as defineComponent1000, h as h1000 } from "vue";
-var UsersCheck = defineComponent1000({
-  name: "UsersCheck",
+var Users = defineComponent1000({
+  name: "Users",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -34992,16 +34992,16 @@ var UsersCheck = defineComponent1000({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M9 14.25a5.25 5.25 0 1 1 3-9.559M9 14.25H6.75a4.5 4.5 0 0 0-4.5 4.5 1.5 1.5 0 0 0 1.5 1.5h7.884M9 14.25h2.25q.383 0 .75.062m-3-.062c1.115 0 2.15-.348 3-.941m0-8.618a5.25 5.25 0 0 1 7.644 6.76M12 4.692A5.24 5.24 0 0 1 14.25 9c0 1.784-.89 3.36-2.25 4.309m0 0q.359.25.757.44m1.493 5.001 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
+        innerHTML: `<path d="M9 14.25a5.25 5.25 0 1 1 3-9.559M9 14.25H6.75a4.5 4.5 0 0 0-4.5 4.5 1.5 1.5 0 0 0 1.5 1.5h10.5m-5.25-6h2.25q.383 0 .75.062m-3-.062c1.115 0 2.15-.348 3-.941m2.25 6.941a1.5 1.5 0 0 0 1.5-1.5c0-2.23-1.622-4.08-3.75-4.438m2.25 5.938h6a1.5 1.5 0 0 0 1.5-1.5 4.5 4.5 0 0 0-4.5-4.5H15m0 0a5.25 5.25 0 1 0-3-9.559m3 9.559h-2.25q-.383 0-.75.062m3-.062a5.23 5.23 0 0 1-3-.941m0-8.618A5.24 5.24 0 0 1 14.25 9c0 1.784-.89 3.36-2.25 4.309"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UsersCross.ts
+// src/icons/UsersCheck.ts
 import { defineComponent as defineComponent1001, h as h1001 } from "vue";
-var UsersCross = defineComponent1001({
-  name: "UsersCross",
+var UsersCheck = defineComponent1001({
+  name: "UsersCheck",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35027,16 +35027,16 @@ var UsersCross = defineComponent1001({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M9 14.25a5.25 5.25 0 1 1 3-9.559M9 14.25H6.75a4.5 4.5 0 0 0-4.5 4.5 1.5 1.5 0 0 0 1.5 1.5h7.884M9 14.25h2.25q.383 0 .75.062m-3-.062c1.115 0 2.15-.348 3-.941m0-8.618a5.25 5.25 0 0 1 7.644 6.76M12 4.692A5.24 5.24 0 0 1 14.25 9c0 1.784-.89 3.36-2.25 4.309m0 0q.359.25.757.44M15.75 22.5l3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M9 14.25a5.25 5.25 0 1 1 3-9.559M9 14.25H6.75a4.5 4.5 0 0 0-4.5 4.5 1.5 1.5 0 0 0 1.5 1.5h7.884M9 14.25h2.25q.383 0 .75.062m-3-.062c1.115 0 2.15-.348 3-.941m0-8.618a5.25 5.25 0 0 1 7.644 6.76M12 4.692A5.24 5.24 0 0 1 14.25 9c0 1.784-.89 3.36-2.25 4.309m0 0q.359.25.757.44m1.493 5.001 2.894 2.894a.15.15 0 0 0 .212 0l4.91-4.91"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UsersEdit.ts
+// src/icons/UsersCross.ts
 import { defineComponent as defineComponent1002, h as h1002 } from "vue";
-var UsersEdit = defineComponent1002({
-  name: "UsersEdit",
+var UsersCross = defineComponent1002({
+  name: "UsersCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35062,16 +35062,16 @@ var UsersEdit = defineComponent1002({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9 14.25a5.25 5.25 0 1 1 3-9.559M9 14.25H6.75a4.5 4.5 0 0 0-4.5 4.5 1.5 1.5 0 0 0 1.5 1.5h7.884M9 14.25h2.25q.383 0 .75.062m-3-.062c1.115 0 2.15-.348 3-.941m0-8.618a5.25 5.25 0 0 1 7.644 6.76M12 4.692A5.24 5.24 0 0 1 14.25 9c0 1.784-.89 3.36-2.25 4.309m0 0q.359.25.757.44m6.743.501 3 3-4.06 4.06a1.5 1.5 0 0 1-1.061.44H15v-2.379c0-.397.158-.779.44-1.06z"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M9 14.25a5.25 5.25 0 1 1 3-9.559M9 14.25H6.75a4.5 4.5 0 0 0-4.5 4.5 1.5 1.5 0 0 0 1.5 1.5h7.884M9 14.25h2.25q.383 0 .75.062m-3-.062c1.115 0 2.15-.348 3-.941m0-8.618a5.25 5.25 0 0 1 7.644 6.76M12 4.692A5.24 5.24 0 0 1 14.25 9c0 1.784-.89 3.36-2.25 4.309m0 0q.359.25.757.44M15.75 22.5l3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UsersLock.ts
+// src/icons/UsersEdit.ts
 import { defineComponent as defineComponent1003, h as h1003 } from "vue";
-var UsersLock = defineComponent1003({
-  name: "UsersLock",
+var UsersEdit = defineComponent1003({
+  name: "UsersEdit",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35097,16 +35097,16 @@ var UsersLock = defineComponent1003({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M9 14.25a5.25 5.25 0 1 1 3-9.559M9 14.25H6.75a4.5 4.5 0 0 0-4.5 4.5 1.5 1.5 0 0 0 1.5 1.5h7.884M9 14.25h2.25q.383 0 .75.062m-3-.062c1.115 0 2.15-.348 3-.941m0-8.618a5.25 5.25 0 0 1 7.644 6.76M12 4.692A5.24 5.24 0 0 1 14.25 9c0 1.784-.89 3.36-2.25 4.309m0 0q.359.25.757.44M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
+        innerHTML: `<path d="M9 14.25a5.25 5.25 0 1 1 3-9.559M9 14.25H6.75a4.5 4.5 0 0 0-4.5 4.5 1.5 1.5 0 0 0 1.5 1.5h7.884M9 14.25h2.25q.383 0 .75.062m-3-.062c1.115 0 2.15-.348 3-.941m0-8.618a5.25 5.25 0 0 1 7.644 6.76M12 4.692A5.24 5.24 0 0 1 14.25 9c0 1.784-.89 3.36-2.25 4.309m0 0q.359.25.757.44m6.743.501 3 3-4.06 4.06a1.5 1.5 0 0 1-1.061.44H15v-2.379c0-.397.158-.779.44-1.06z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UsersMinus.ts
+// src/icons/UsersLock.ts
 import { defineComponent as defineComponent1004, h as h1004 } from "vue";
-var UsersMinus = defineComponent1004({
-  name: "UsersMinus",
+var UsersLock = defineComponent1004({
+  name: "UsersLock",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35132,16 +35132,16 @@ var UsersMinus = defineComponent1004({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M9 14.25a5.25 5.25 0 1 1 3-9.559M9 14.25H6.75a4.5 4.5 0 0 0-4.5 4.5 1.5 1.5 0 0 0 1.5 1.5h7.884M9 14.25h2.25q.383 0 .75.062m-3-.062c1.115 0 2.15-.348 3-.941m0-8.618a5.25 5.25 0 0 1 7.644 6.76M12 4.692A5.24 5.24 0 0 1 14.25 9c0 1.784-.89 3.36-2.25 4.309m0 0q.359.25.757.44m9.743 4.626h-6.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M9 14.25a5.25 5.25 0 1 1 3-9.559M9 14.25H6.75a4.5 4.5 0 0 0-4.5 4.5 1.5 1.5 0 0 0 1.5 1.5h7.884M9 14.25h2.25q.383 0 .75.062m-3-.062c1.115 0 2.15-.348 3-.941m0-8.618a5.25 5.25 0 0 1 7.644 6.76M12 4.692A5.24 5.24 0 0 1 14.25 9c0 1.784-.89 3.36-2.25 4.309m0 0q.359.25.757.44M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UsersPlus.ts
+// src/icons/UsersMinus.ts
 import { defineComponent as defineComponent1005, h as h1005 } from "vue";
-var UsersPlus = defineComponent1005({
-  name: "UsersPlus",
+var UsersMinus = defineComponent1005({
+  name: "UsersMinus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35167,16 +35167,16 @@ var UsersPlus = defineComponent1005({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M9 14.25a5.25 5.25 0 1 1 3-9.559M9 14.25H6.75a4.5 4.5 0 0 0-4.5 4.5 1.5 1.5 0 0 0 1.5 1.5h7.884M9 14.25h2.25q.383 0 .75.062m-3-.062c1.115 0 2.15-.348 3-.941m0-8.618a5.25 5.25 0 0 1 7.644 6.76M12 4.692A5.24 5.24 0 0 1 14.25 9c0 1.784-.89 3.36-2.25 4.309m0 0q.359.25.757.44m5.618 8.751v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M9 14.25a5.25 5.25 0 1 1 3-9.559M9 14.25H6.75a4.5 4.5 0 0 0-4.5 4.5 1.5 1.5 0 0 0 1.5 1.5h7.884M9 14.25h2.25q.383 0 .75.062m-3-.062c1.115 0 2.15-.348 3-.941m0-8.618a5.25 5.25 0 0 1 7.644 6.76M12 4.692A5.24 5.24 0 0 1 14.25 9c0 1.784-.89 3.36-2.25 4.309m0 0q.359.25.757.44m9.743 4.626h-6.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UsersSearch.ts
+// src/icons/UsersPlus.ts
 import { defineComponent as defineComponent1006, h as h1006 } from "vue";
-var UsersSearch = defineComponent1006({
-  name: "UsersSearch",
+var UsersPlus = defineComponent1006({
+  name: "UsersPlus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35202,16 +35202,16 @@ var UsersSearch = defineComponent1006({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M9 14.25a5.25 5.25 0 1 1 3-9.559M9 14.25H6.75a4.5 4.5 0 0 0-4.5 4.5 1.5 1.5 0 0 0 1.5 1.5h7.884M9 14.25h2.25q.383 0 .75.062m-3-.062c1.115 0 2.15-.348 3-.941m0-8.618a5.25 5.25 0 0 1 7.644 6.76M12 4.692A5.24 5.24 0 0 1 14.25 9c0 1.784-.89 3.36-2.25 4.309m0 0q.359.25.757.44M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M9 14.25a5.25 5.25 0 1 1 3-9.559M9 14.25H6.75a4.5 4.5 0 0 0-4.5 4.5 1.5 1.5 0 0 0 1.5 1.5h7.884M9 14.25h2.25q.383 0 .75.062m-3-.062c1.115 0 2.15-.348 3-.941m0-8.618a5.25 5.25 0 0 1 7.644 6.76M12 4.692A5.24 5.24 0 0 1 14.25 9c0 1.784-.89 3.36-2.25 4.309m0 0q.359.25.757.44m5.618 8.751v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UsersSettings.ts
+// src/icons/UsersSearch.ts
 import { defineComponent as defineComponent1007, h as h1007 } from "vue";
-var UsersSettings = defineComponent1007({
-  name: "UsersSettings",
+var UsersSearch = defineComponent1007({
+  name: "UsersSearch",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35237,16 +35237,16 @@ var UsersSettings = defineComponent1007({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M9 14.25a5.25 5.25 0 1 1 3-9.559M9 14.25H6.75a4.5 4.5 0 0 0-4.5 4.5 1.5 1.5 0 0 0 1.5 1.5h7.884M9 14.25h2.25q.383 0 .75.062m-3-.062c1.115 0 2.15-.348 3-.941m0-8.618a5.25 5.25 0 0 1 7.644 6.76M12 4.692A5.24 5.24 0 0 1 14.25 9c0 1.784-.89 3.36-2.25 4.309m0 0q.359.25.757.44m5.617 7.101a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.134 4.117h-1.65m-4.95 0h-1.65m7.047 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M9 14.25a5.25 5.25 0 1 1 3-9.559M9 14.25H6.75a4.5 4.5 0 0 0-4.5 4.5 1.5 1.5 0 0 0 1.5 1.5h7.884M9 14.25h2.25q.383 0 .75.062m-3-.062c1.115 0 2.15-.348 3-.941m0-8.618a5.25 5.25 0 0 1 7.644 6.76M12 4.692A5.24 5.24 0 0 1 14.25 9c0 1.784-.89 3.36-2.25 4.309m0 0q.359.25.757.44M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UvMap.ts
+// src/icons/UsersSettings.ts
 import { defineComponent as defineComponent1008, h as h1008 } from "vue";
-var UvMap = defineComponent1008({
-  name: "UvMap",
+var UsersSettings = defineComponent1008({
+  name: "UsersSettings",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35272,16 +35272,16 @@ var UvMap = defineComponent1008({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.75 12c0-5.385-4.365-9.75-9.75-9.75M21.75 12c0 5.385-4.365 9.75-9.75 9.75M21.75 12c0 2.485-4.365 4.5-9.75 4.5-1.46 0-2.844-.148-4.087-.413M12 2.25c-5.385 0-9.75 4.365-9.75 9.75M12 2.25c-2.485 0-4.5 4.365-4.5 9.75 0 1.46.148 2.844.413 4.087M12 21.75c-5.385 0-9.75-4.365-9.75-9.75M12 21.75c-1.812 0-3.373-2.32-4.087-5.663M2.25 12c0 1.812 2.32 3.373 5.663 4.087"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M9 14.25a5.25 5.25 0 1 1 3-9.559M9 14.25H6.75a4.5 4.5 0 0 0-4.5 4.5 1.5 1.5 0 0 0 1.5 1.5h7.884M9 14.25h2.25q.383 0 .75.062m-3-.062c1.115 0 2.15-.348 3-.941m0-8.618a5.25 5.25 0 0 1 7.644 6.76M12 4.692A5.24 5.24 0 0 1 14.25 9c0 1.784-.89 3.36-2.25 4.309m0 0q.359.25.757.44m5.617 7.101a2.475 2.475 0 0 1 0-4.95m0 4.95a2.475 2.475 0 0 0 0-4.95m0 4.95v1.65m0-6.6v-1.65m4.134 4.117h-1.65m-4.95 0h-1.65m7.047 2.92-1.167-1.168m-3.5-3.5-1.167-1.166m0 5.845 1.167-1.167m3.5-3.5 1.167-1.167"/>`
       }, children);
     };
   }
 });
 
-// src/icons/UvUnwrap.ts
+// src/icons/UvMap.ts
 import { defineComponent as defineComponent1009, h as h1009 } from "vue";
-var UvUnwrap = defineComponent1009({
-  name: "UvUnwrap",
+var UvMap = defineComponent1009({
+  name: "UvMap",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35307,16 +35307,16 @@ var UvUnwrap = defineComponent1009({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 16.5H3V12h4.5m0 4.5V12m0 4.5H12m-4.5 0V21H12v-4.5M7.5 12H12m-4.5 0V7.5m4.5 9V12m0 4.5h4.5M12 12h4.5M12 12V7.5m4.5 9V12m0 4.5H21V12h-4.5m-9-4.5V3H12v4.5m-4.5 0H12M15 9l2.128-2.128A2.417 2.417 0 0 0 16.5 3M15 9V6m0 3h3"/>`
+        innerHTML: `<path d="M21.75 12c0-5.385-4.365-9.75-9.75-9.75M21.75 12c0 5.385-4.365 9.75-9.75 9.75M21.75 12c0 2.485-4.365 4.5-9.75 4.5-1.46 0-2.844-.148-4.087-.413M12 2.25c-5.385 0-9.75 4.365-9.75 9.75M12 2.25c-2.485 0-4.5 4.365-4.5 9.75 0 1.46.148 2.844.413 4.087M12 21.75c-5.385 0-9.75-4.365-9.75-9.75M12 21.75c-1.812 0-3.373-2.32-4.087-5.663M2.25 12c0 1.812 2.32 3.373 5.663 4.087"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Vacuum.ts
+// src/icons/UvUnwrap.ts
 import { defineComponent as defineComponent1010, h as h1010 } from "vue";
-var Vacuum = defineComponent1010({
-  name: "Vacuum",
+var UvUnwrap = defineComponent1010({
+  name: "UvUnwrap",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35342,16 +35342,16 @@ var Vacuum = defineComponent1010({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M20.25 14.651a3 3 0 0 0-3.484 4.849m3.484-4.849a2.999 2.999 0 0 1-1.5 5.599c-.76 0-1.456-.283-1.984-.75m3.484-4.849V10.95a1.2 1.2 0 0 0-1.2-1.2H18c-5.385 0-9.75 4.365-9.75 9.75m0 0h8.516m-8.516 0v-2.25h-3m3 2.25v.75h-6v-3h3m0 0V3.75"/>`
+        innerHTML: `<path d="M7.5 16.5H3V12h4.5m0 4.5V12m0 4.5H12m-4.5 0V21H12v-4.5M7.5 12H12m-4.5 0V7.5m4.5 9V12m0 4.5h4.5M12 12h4.5M12 12V7.5m4.5 9V12m0 4.5H21V12h-4.5m-9-4.5V3H12v4.5m-4.5 0H12M15 9l2.128-2.128A2.417 2.417 0 0 0 16.5 3M15 9V6m0 3h3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Video.ts
+// src/icons/Vacuum.ts
 import { defineComponent as defineComponent1011, h as h1011 } from "vue";
-var Video = defineComponent1011({
-  name: "Video",
+var Vacuum = defineComponent1011({
+  name: "Vacuum",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35377,16 +35377,16 @@ var Video = defineComponent1011({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M14.25 8.25v-1.5a1.5 1.5 0 0 0-1.5-1.5h-9a1.5 1.5 0 0 0-1.5 1.5v10.5a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-1.5m0-7.5 7.5-3v13.5l-7.5-3m0-7.5v7.5"/>`
+        innerHTML: `<path d="M20.25 14.651a3 3 0 0 0-3.484 4.849m3.484-4.849a2.999 2.999 0 0 1-1.5 5.599c-.76 0-1.456-.283-1.984-.75m3.484-4.849V10.95a1.2 1.2 0 0 0-1.2-1.2H18c-5.385 0-9.75 4.365-9.75 9.75m0 0h8.516m-8.516 0v-2.25h-3m3 2.25v.75h-6v-3h3m0 0V3.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/VideoOff.ts
+// src/icons/Video.ts
 import { defineComponent as defineComponent1012, h as h1012 } from "vue";
-var VideoOff = defineComponent1012({
-  name: "VideoOff",
+var Video = defineComponent1012({
+  name: "Video",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35412,16 +35412,16 @@ var VideoOff = defineComponent1012({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.75 5.25h.75a.75.75 0 0 0-1.029-.696zm-8.25 4.5a.75.75 0 0 0 1.5 0h-1.5M9.75 4.5a.75.75 0 0 0 0 1.5V4.5M2.78 1.72a.75.75 0 0 0-1.06 1.06l.53-.53zm18.44 20.56a.75.75 0 1 0 1.06-1.06l-.53.53zM21 17.25a.75.75 0 0 0 1.5 0H21M2.25 6.75H1.5v10.5H3V6.75zm1.5 12v.75h9V18h-9zm10.5-10.5H15v-1.5h-1.5v1.5zm0 0 .278.696 7.5-3-.278-.696-.279-.696-7.5 3zm0 9H15v-1.5h-1.5v1.5zm-1.5-12V6a.75.75 0 0 1 .75.75H15a2.25 2.25 0 0 0-2.25-2.25zm0 13.5v.75A2.25 2.25 0 0 0 15 17.25h-1.5a.75.75 0 0 1-.75.75zm-10.5-1.5H1.5a2.25 2.25 0 0 0 2.25 2.25V18a.75.75 0 0 1-.75-.75zm0-10.5H3A.75.75 0 0 1 3.75 6V4.5A2.25 2.25 0 0 0 1.5 6.75zm12 3H15v-1.5h-1.5v1.5zm-1.5-4.5V4.5h-3V6h3zm-7.5 0V4.5h-1.5V6h1.5zm-3-3-.53.53 3 3 .53-.53.53-.53-3-3zm3 3-.53.53 9 9 .53-.53.53-.53-9-9zm9 10.5H15v-1.5h-1.5v1.5zm0-1.5-.53.53 2.5 2.5.53-.53.53-.53-2.5-2.5zm2.5 2.5-.53.53 5 5 .53-.53.53-.53-5-5zm0 0 .279-.696-2.5-1-.279.696-.278.696 2.5 1zm5-11.5H21v12h1.5v-12z"/>`
+        innerHTML: `<path d="M14.25 8.25v-1.5a1.5 1.5 0 0 0-1.5-1.5h-9a1.5 1.5 0 0 0-1.5 1.5v10.5a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-1.5m0-7.5 7.5-3v13.5l-7.5-3m0-7.5v7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Viewport.ts
+// src/icons/VideoOff.ts
 import { defineComponent as defineComponent1013, h as h1013 } from "vue";
-var Viewport = defineComponent1013({
-  name: "Viewport",
+var VideoOff = defineComponent1013({
+  name: "VideoOff",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35447,16 +35447,16 @@ var Viewport = defineComponent1013({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M15.75 6.75h3v3m0 4.5v3h-3m-10.5-3v3h3m-3-7.5v-3h3m13.5-1.5v13.5a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5V5.25a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5"/>`
+        innerHTML: `<path d="M0 0h24v24H0z"/><path d="M14.25 8.25v-1.5a1.5 1.5 0 0 0-1.5-1.5h-3m4.5 3 7.5-3v12m-7.5-9v1.5m0 6v1.5a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.5-1.5V6.75a1.5 1.5 0 0 1 1.5-1.5h1.5m9 10.5v-1.5m0 1.5 2.5 1M5.25 5.25l-3-3m3 3L7.5 7.5l2.25 2.25L12 12l2.25 2.25m0 0 2.5 2.5m0 0 5 5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Virus.ts
+// src/icons/VideoOff2.ts
 import { defineComponent as defineComponent1014, h as h1014 } from "vue";
-var Virus = defineComponent1014({
-  name: "Virus",
+var VideoOff2 = defineComponent1014({
+  name: "VideoOff2",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35482,16 +35482,16 @@ var Virus = defineComponent1014({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m7.914 5.618-.506-.507A1.624 1.624 0 0 0 5.11 7.408l.507.506m2.296-2.296.866.866m-.866-.866a7.5 7.5 0 0 1 2.377-1.002.11.11 0 0 0 .085-.106v-.628a1.624 1.624 0 0 1 3.248 0v.628c0 .051.035.095.085.106.857.198 1.658.54 2.377 1.002M6.484 8.78l-.866-.866m0 0a7.5 7.5 0 0 0-1.002 2.377.11.11 0 0 1-.106.085h-.628a1.624 1.624 0 1 0 0 3.248h.628a.11.11 0 0 1 .106.085c.191.828.518 1.604.955 2.303a.11.11 0 0 1-.015.135l-.445.445a1.624 1.624 0 1 0 2.297 2.296l.444-.444a.11.11 0 0 1 .136-.015c.7.437 1.475.764 2.303.955a.11.11 0 0 1 .085.106v.628a1.624 1.624 0 0 0 3.248 0v-.628a.11.11 0 0 1 .085-.106 7.5 7.5 0 0 0 2.303-.955.11.11 0 0 1 .136.015l.444.444a1.624 1.624 0 1 0 2.297-2.296l-.445-.445a.11.11 0 0 1-.015-.135c.437-.7.764-1.476.955-2.303a.11.11 0 0 1 .106-.085h.628a1.624 1.624 0 0 0 0-3.248h-.628a.11.11 0 0 1-.106-.085 7.5 7.5 0 0 0-1.002-2.377m0 0 .506-.506a1.624 1.624 0 1 0-2.296-2.297l-.506.507m2.296 2.296-.866.866M15.22 6.484l.866-.866m-5.802 7.464A1.624 1.624 0 1 1 8.21 11.01m4.937 3.696a1.624 1.624 0 1 0 2.1-2.063"/>`
+        innerHTML: `<path d="M21.75 5.25h.75a.75.75 0 0 0-1.029-.696zm-8.25 4.5a.75.75 0 0 0 1.5 0h-1.5M9.75 4.5a.75.75 0 0 0 0 1.5V4.5M2.78 1.72a.75.75 0 0 0-1.06 1.06l.53-.53zm18.44 20.56a.75.75 0 1 0 1.06-1.06l-.53.53zM21 17.25a.75.75 0 0 0 1.5 0H21M2.25 6.75H1.5v10.5H3V6.75zm1.5 12v.75h9V18h-9zm10.5-10.5H15v-1.5h-1.5v1.5zm0 0 .278.696 7.5-3-.278-.696-.279-.696-7.5 3zm0 9H15v-1.5h-1.5v1.5zm-1.5-12V6a.75.75 0 0 1 .75.75H15a2.25 2.25 0 0 0-2.25-2.25zm0 13.5v.75A2.25 2.25 0 0 0 15 17.25h-1.5a.75.75 0 0 1-.75.75zm-10.5-1.5H1.5a2.25 2.25 0 0 0 2.25 2.25V18a.75.75 0 0 1-.75-.75zm0-10.5H3A.75.75 0 0 1 3.75 6V4.5A2.25 2.25 0 0 0 1.5 6.75zm12 3H15v-1.5h-1.5v1.5zm-1.5-4.5V4.5h-3V6h3zm-7.5 0V4.5h-1.5V6h1.5zm-3-3-.53.53 3 3 .53-.53.53-.53-3-3zm3 3-.53.53 9 9 .53-.53.53-.53-9-9zm9 10.5H15v-1.5h-1.5v1.5zm0-1.5-.53.53 2.5 2.5.53-.53.53-.53-2.5-2.5zm2.5 2.5-.53.53 5 5 .53-.53.53-.53-5-5zm0 0 .279-.696-2.5-1-.279.696-.278.696 2.5 1zm5-11.5H21v12h1.5v-12z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Volume.ts
+// src/icons/Viewport.ts
 import { defineComponent as defineComponent1015, h as h1015 } from "vue";
-var Volume = defineComponent1015({
-  name: "Volume",
+var Viewport = defineComponent1015({
+  name: "Viewport",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35517,16 +35517,16 @@ var Volume = defineComponent1015({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M7.5 14.25v-4.5a3 3 0 0 1 3-3H12l4.5-3v16.5l-4.5-3h-1.5a3 3 0 0 1-3-3"/>`
+        innerHTML: `<path d="M15.75 6.75h3v3m0 4.5v3h-3m-10.5-3v3h3m-3-7.5v-3h3m13.5-1.5v13.5a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5V5.25a1.5 1.5 0 0 1 1.5-1.5h16.5a1.5 1.5 0 0 1 1.5 1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/VolumeHigh.ts
+// src/icons/Virus.ts
 import { defineComponent as defineComponent1016, h as h1016 } from "vue";
-var VolumeHigh = defineComponent1016({
-  name: "VolumeHigh",
+var Virus = defineComponent1016({
+  name: "Virus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35552,16 +35552,16 @@ var VolumeHigh = defineComponent1016({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M14.652 9.348A3.74 3.74 0 0 1 15.75 12c0 1.036-.42 1.973-1.098 2.652m2.121-7.425A6.73 6.73 0 0 1 18.75 12a6.73 6.73 0 0 1-1.977 4.773m2.121-11.667A9.72 9.72 0 0 1 21.75 12a9.72 9.72 0 0 1-2.856 6.894M2.25 9.75v4.5a3 3 0 0 0 3 3h1.5l4.5 3V3.75l-4.5 3h-1.5a3 3 0 0 0-3 3"/>`
+        innerHTML: `<path d="m7.914 5.618-.506-.507A1.624 1.624 0 0 0 5.11 7.408l.507.506m2.296-2.296.866.866m-.866-.866a7.5 7.5 0 0 1 2.377-1.002.11.11 0 0 0 .085-.106v-.628a1.624 1.624 0 0 1 3.248 0v.628c0 .051.035.095.085.106.857.198 1.658.54 2.377 1.002M6.484 8.78l-.866-.866m0 0a7.5 7.5 0 0 0-1.002 2.377.11.11 0 0 1-.106.085h-.628a1.624 1.624 0 1 0 0 3.248h.628a.11.11 0 0 1 .106.085c.191.828.518 1.604.955 2.303a.11.11 0 0 1-.015.135l-.445.445a1.624 1.624 0 1 0 2.297 2.296l.444-.444a.11.11 0 0 1 .136-.015c.7.437 1.475.764 2.303.955a.11.11 0 0 1 .085.106v.628a1.624 1.624 0 0 0 3.248 0v-.628a.11.11 0 0 1 .085-.106 7.5 7.5 0 0 0 2.303-.955.11.11 0 0 1 .136.015l.444.444a1.624 1.624 0 1 0 2.297-2.296l-.445-.445a.11.11 0 0 1-.015-.135c.437-.7.764-1.476.955-2.303a.11.11 0 0 1 .106-.085h.628a1.624 1.624 0 0 0 0-3.248h-.628a.11.11 0 0 1-.106-.085 7.5 7.5 0 0 0-1.002-2.377m0 0 .506-.506a1.624 1.624 0 1 0-2.296-2.297l-.506.507m2.296 2.296-.866.866M15.22 6.484l.866-.866m-5.802 7.464A1.624 1.624 0 1 1 8.21 11.01m4.937 3.696a1.624 1.624 0 1 0 2.1-2.063"/>`
       }, children);
     };
   }
 });
 
-// src/icons/VolumeLow.ts
+// src/icons/Volume.ts
 import { defineComponent as defineComponent1017, h as h1017 } from "vue";
-var VolumeLow = defineComponent1017({
-  name: "VolumeLow",
+var Volume = defineComponent1017({
+  name: "Volume",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35587,16 +35587,16 @@ var VolumeLow = defineComponent1017({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M17.652 9.348A3.74 3.74 0 0 1 18.75 12c0 1.036-.42 1.973-1.098 2.652M5.25 9.75v4.5a3 3 0 0 0 3 3h1.5l4.5 3V3.75l-4.5 3h-1.5a3 3 0 0 0-3 3"/>`
+        innerHTML: `<path d="M7.5 14.25v-4.5a3 3 0 0 1 3-3H12l4.5-3v16.5l-4.5-3h-1.5a3 3 0 0 1-3-3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/VolumeMedium.ts
+// src/icons/VolumeHigh.ts
 import { defineComponent as defineComponent1018, h as h1018 } from "vue";
-var VolumeMedium = defineComponent1018({
-  name: "VolumeMedium",
+var VolumeHigh = defineComponent1018({
+  name: "VolumeHigh",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35622,16 +35622,16 @@ var VolumeMedium = defineComponent1018({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M16.152 9.348A3.74 3.74 0 0 1 17.25 12c0 1.036-.42 1.973-1.098 2.652m2.121-7.425A6.73 6.73 0 0 1 20.25 12a6.73 6.73 0 0 1-1.977 4.773M3.75 9.75v4.5a3 3 0 0 0 3 3h1.5l4.5 3V3.75l-4.5 3h-1.5a3 3 0 0 0-3 3"/>`
+        innerHTML: `<path d="M14.652 9.348A3.74 3.74 0 0 1 15.75 12c0 1.036-.42 1.973-1.098 2.652m2.121-7.425A6.73 6.73 0 0 1 18.75 12a6.73 6.73 0 0 1-1.977 4.773m2.121-11.667A9.72 9.72 0 0 1 21.75 12a9.72 9.72 0 0 1-2.856 6.894M2.25 9.75v4.5a3 3 0 0 0 3 3h1.5l4.5 3V3.75l-4.5 3h-1.5a3 3 0 0 0-3 3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/VolumeMute.ts
+// src/icons/VolumeLow.ts
 import { defineComponent as defineComponent1019, h as h1019 } from "vue";
-var VolumeMute = defineComponent1019({
-  name: "VolumeMute",
+var VolumeLow = defineComponent1019({
+  name: "VolumeLow",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35657,16 +35657,16 @@ var VolumeMute = defineComponent1019({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m14.25 8.25 7.5 7.5m-7.5 0 7.5-7.5m-19.5 1.5v4.5a3 3 0 0 0 3 3h1.5l4.5 3V3.75l-4.5 3h-1.5a3 3 0 0 0-3 3"/>`
+        innerHTML: `<path d="M17.652 9.348A3.74 3.74 0 0 1 18.75 12c0 1.036-.42 1.973-1.098 2.652M5.25 9.75v4.5a3 3 0 0 0 3 3h1.5l4.5 3V3.75l-4.5 3h-1.5a3 3 0 0 0-3 3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Vpn.ts
+// src/icons/VolumeMedium.ts
 import { defineComponent as defineComponent1020, h as h1020 } from "vue";
-var Vpn = defineComponent1020({
-  name: "Vpn",
+var VolumeMedium = defineComponent1020({
+  name: "VolumeMedium",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35692,16 +35692,16 @@ var Vpn = defineComponent1020({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M14.25 19.5H21m-6.75 0A2.25 2.25 0 0 0 12 17.25m2.25 2.25a2.25 2.25 0 0 1-4.5 0m0 0H3m6.75 0A2.25 2.25 0 0 1 12 17.25m0 0v-3m0 0a6 6 0 0 0 6-6m-6 6a6 6 0 0 1-6-6m6 6c1.243 0 2.25-2.686 2.25-6m-2.25 6c-1.243 0-2.25-2.686-2.25-6m8.25 0a6 6 0 0 0-6-6m6 6h-3.75m-2.25-6a6 6 0 0 0-6 6m6-6c1.243 0 2.25 2.686 2.25 6m-2.25-6c-1.243 0-2.25 2.686-2.25 6M6 8.25h3.75m4.5 0h-4.5"/>`
+        innerHTML: `<path d="M16.152 9.348A3.74 3.74 0 0 1 17.25 12c0 1.036-.42 1.973-1.098 2.652m2.121-7.425A6.73 6.73 0 0 1 20.25 12a6.73 6.73 0 0 1-1.977 4.773M3.75 9.75v4.5a3 3 0 0 0 3 3h1.5l4.5 3V3.75l-4.5 3h-1.5a3 3 0 0 0-3 3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/VpnOff.ts
+// src/icons/VolumeMute.ts
 import { defineComponent as defineComponent1021, h as h1021 } from "vue";
-var VpnOff = defineComponent1021({
-  name: "VpnOff",
+var VolumeMute = defineComponent1021({
+  name: "VolumeMute",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35727,16 +35727,16 @@ var VpnOff = defineComponent1021({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M14.25 19.5h5.25m-5.25 0A2.25 2.25 0 0 0 12 17.25m2.25 2.25a2.25 2.25 0 0 1-4.5 0m9.75 0-5.568-5.568M19.5 19.5l2.25 2.25m-12-2.25H3m6.75 0A2.25 2.25 0 0 1 12 17.25m0 0v-3m0 0c.676 0 1.326-.112 1.932-.318M12 14.25a6 6 0 0 1-6-6m6 6c.46 0 .89-.37 1.246-1.004M12 14.25c-1.038 0-1.911-1.873-2.171-4.421M18 8.25a6 6 0 0 0-6-6m6 6a5.98 5.98 0 0 1-1.399 3.851M18 8.25h-3.75m-2.25-6a5.98 5.98 0 0 0-3.851 1.399M12 2.25c1.243 0 2.25 2.686 2.25 6m-2.25-6c-.87 0-1.626 1.32-2 3.25m3.932 8.432-.686-.686M6 8.25c0-.676.112-1.326.318-1.932M6 8.25h2.25M6.318 6.318 2.25 2.25m4.068 4.068L8.25 8.25m6 0q0 .744-.065 1.435m-.939 3.561L9.83 9.83m0 0L8.25 8.25"/>`
+        innerHTML: `<path d="m14.25 8.25 7.5 7.5m-7.5 0 7.5-7.5m-19.5 1.5v4.5a3 3 0 0 0 3 3h1.5l4.5 3V3.75l-4.5 3h-1.5a3 3 0 0 0-3 3"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Wallet.ts
+// src/icons/Vpn.ts
 import { defineComponent as defineComponent1022, h as h1022 } from "vue";
-var Wallet = defineComponent1022({
-  name: "Wallet",
+var Vpn = defineComponent1022({
+  name: "Vpn",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35762,16 +35762,16 @@ var Wallet = defineComponent1022({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 6.75v10.5a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3V6.75a3 3 0 0 0-3-3H5.25a3 3 0 0 0-3 3m3 1.5v3h4.5a2.25 2.25 0 0 0 4.5 0h4.5v-3a1.5 1.5 0 0 0-1.5-1.5H6.75a1.5 1.5 0 0 0-1.5 1.5" clip-rule="evenodd"/>`
+        innerHTML: `<path d="M14.25 19.5H21m-6.75 0A2.25 2.25 0 0 0 12 17.25m2.25 2.25a2.25 2.25 0 0 1-4.5 0m0 0H3m6.75 0A2.25 2.25 0 0 1 12 17.25m0 0v-3m0 0a6 6 0 0 0 6-6m-6 6a6 6 0 0 1-6-6m6 6c1.243 0 2.25-2.686 2.25-6m-2.25 6c-1.243 0-2.25-2.686-2.25-6m8.25 0a6 6 0 0 0-6-6m6 6h-3.75m-2.25-6a6 6 0 0 0-6 6m6-6c1.243 0 2.25 2.686 2.25 6m-2.25-6c-1.243 0-2.25 2.686-2.25 6M6 8.25h3.75m4.5 0h-4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/WalletCard.ts
+// src/icons/VpnOff.ts
 import { defineComponent as defineComponent1023, h as h1023 } from "vue";
-var WalletCard = defineComponent1023({
-  name: "WalletCard",
+var VpnOff = defineComponent1023({
+  name: "VpnOff",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35797,16 +35797,16 @@ var WalletCard = defineComponent1023({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="m5.764 5.262 10.142-2.718a1.5 1.5 0 0 1 1.838 1.06l.44 1.646m-12.42.012a1.5 1.5 0 0 0-1.06 1.837l1.514 5.65m-.454-7.487L5.25 5.25a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3v-9a3 3 0 0 0-3-3h-.566m.566 7.5h-4.5a2.25 2.25 0 0 1-4.38.729m0 0a2.3 2.3 0 0 1-.12-.73H6.218m3.653.73 8.365-2.241a1.5 1.5 0 0 0 1.06-1.838l-1.112-4.15m-11.966 7.5H5.25"/>`
+        innerHTML: `<path d="M14.25 19.5h5.25m-5.25 0A2.25 2.25 0 0 0 12 17.25m2.25 2.25a2.25 2.25 0 0 1-4.5 0m9.75 0-5.568-5.568M19.5 19.5l2.25 2.25m-12-2.25H3m6.75 0A2.25 2.25 0 0 1 12 17.25m0 0v-3m0 0c.676 0 1.326-.112 1.932-.318M12 14.25a6 6 0 0 1-6-6m6 6c.46 0 .89-.37 1.246-1.004M12 14.25c-1.038 0-1.911-1.873-2.171-4.421M18 8.25a6 6 0 0 0-6-6m6 6a5.98 5.98 0 0 1-1.399 3.851M18 8.25h-3.75m-2.25-6a5.98 5.98 0 0 0-3.851 1.399M12 2.25c1.243 0 2.25 2.686 2.25 6m-2.25-6c-.87 0-1.626 1.32-2 3.25m3.932 8.432-.686-.686M6 8.25c0-.676.112-1.326.318-1.932M6 8.25h2.25M6.318 6.318 2.25 2.25m4.068 4.068L8.25 8.25m6 0q0 .744-.065 1.435m-.939 3.561L9.83 9.83m0 0L8.25 8.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/WalletCash.ts
+// src/icons/Wallet.ts
 import { defineComponent as defineComponent1024, h as h1024 } from "vue";
-var WalletCash = defineComponent1024({
-  name: "WalletCash",
+var Wallet = defineComponent1024({
+  name: "Wallet",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35832,16 +35832,16 @@ var WalletCash = defineComponent1024({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M18.75 12.75h-4.5a2.25 2.25 0 0 1-3.966 1.455m-4.94-1.455a3 3 0 1 1 4.94 1.455m-4.94-1.455H9.75c0 .555.2 1.063.534 1.455m-4.94-1.455H5.25m13.099-7.5a3 3 0 1 1-5.197 0m5.197 0a2.999 2.999 0 0 0-5.198 0m5.198 0h.401a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h7.901"/>`
+        innerHTML: `<path d="M2.25 6.75v10.5a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3V6.75a3 3 0 0 0-3-3H5.25a3 3 0 0 0-3 3m3 1.5v3h4.5a2.25 2.25 0 0 0 4.5 0h4.5v-3a1.5 1.5 0 0 0-1.5-1.5H6.75a1.5 1.5 0 0 0-1.5 1.5" clip-rule="evenodd"/>`
       }, children);
     };
   }
 });
 
-// src/icons/WalletLock.ts
+// src/icons/WalletCard.ts
 import { defineComponent as defineComponent1025, h as h1025 } from "vue";
-var WalletLock = defineComponent1025({
-  name: "WalletLock",
+var WalletCard = defineComponent1025({
+  name: "WalletCard",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35867,16 +35867,16 @@ var WalletLock = defineComponent1025({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M11.634 20.25H5.25a3 3 0 0 1-3-3V6.75a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v5.637M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75m-16.5-6.75v-3a1.5 1.5 0 0 1 1.5-1.5h10.5a1.5 1.5 0 0 1 1.5 1.5v3h-4.5a2.25 2.25 0 0 1-4.5 0z"/>`
+        innerHTML: `<path d="m5.764 5.262 10.142-2.718a1.5 1.5 0 0 1 1.838 1.06l.44 1.646m-12.42.012a1.5 1.5 0 0 0-1.06 1.837l1.514 5.65m-.454-7.487L5.25 5.25a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3v-9a3 3 0 0 0-3-3h-.566m.566 7.5h-4.5a2.25 2.25 0 0 1-4.38.729m0 0a2.3 2.3 0 0 1-.12-.73H6.218m3.653.73 8.365-2.241a1.5 1.5 0 0 0 1.06-1.838l-1.112-4.15m-11.966 7.5H5.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/WalletMinus.ts
+// src/icons/WalletCash.ts
 import { defineComponent as defineComponent1026, h as h1026 } from "vue";
-var WalletMinus = defineComponent1026({
-  name: "WalletMinus",
+var WalletCash = defineComponent1026({
+  name: "WalletCash",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35902,16 +35902,16 @@ var WalletMinus = defineComponent1026({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M11.634 20.25H5.25a3 3 0 0 1-3-3V6.75a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v5.637m.75 5.988h-6.75M5.25 11.25v-3a1.5 1.5 0 0 1 1.5-1.5h10.5a1.5 1.5 0 0 1 1.5 1.5v3h-4.5a2.25 2.25 0 0 1-4.5 0z"/>`
+        innerHTML: `<path d="M18.75 12.75h-4.5a2.25 2.25 0 0 1-3.966 1.455m-4.94-1.455a3 3 0 1 1 4.94 1.455m-4.94-1.455H9.75c0 .555.2 1.063.534 1.455m-4.94-1.455H5.25m13.099-7.5a3 3 0 1 1-5.197 0m5.197 0a2.999 2.999 0 0 0-5.198 0m5.198 0h.401a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h7.901"/>`
       }, children);
     };
   }
 });
 
-// src/icons/WalletPlus.ts
+// src/icons/WalletLock.ts
 import { defineComponent as defineComponent1027, h as h1027 } from "vue";
-var WalletPlus = defineComponent1027({
-  name: "WalletPlus",
+var WalletLock = defineComponent1027({
+  name: "WalletLock",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35937,16 +35937,16 @@ var WalletPlus = defineComponent1027({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M11.634 20.25H5.25a3 3 0 0 1-3-3V6.75a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v5.637M18.375 22.5v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25m-9-7.125v-3a1.5 1.5 0 0 1 1.5-1.5h10.5a1.5 1.5 0 0 1 1.5 1.5v3h-4.5a2.25 2.25 0 0 1-4.5 0z"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M11.634 20.25H5.25a3 3 0 0 1-3-3V6.75a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v5.637M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75m-16.5-6.75v-3a1.5 1.5 0 0 1 1.5-1.5h10.5a1.5 1.5 0 0 1 1.5 1.5v3h-4.5a2.25 2.25 0 0 1-4.5 0z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/WalletSearch.ts
+// src/icons/WalletMinus.ts
 import { defineComponent as defineComponent1028, h as h1028 } from "vue";
-var WalletSearch = defineComponent1028({
-  name: "WalletSearch",
+var WalletMinus = defineComponent1028({
+  name: "WalletMinus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -35972,16 +35972,16 @@ var WalletSearch = defineComponent1028({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M11.634 20.25H5.25a3 3 0 0 1-3-3V6.75a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v5.637M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104M5.25 11.25v-3a1.5 1.5 0 0 1 1.5-1.5h10.5a1.5 1.5 0 0 1 1.5 1.5v3h-4.5a2.25 2.25 0 0 1-4.5 0z"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M11.634 20.25H5.25a3 3 0 0 1-3-3V6.75a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v5.637m.75 5.988h-6.75M5.25 11.25v-3a1.5 1.5 0 0 1 1.5-1.5h10.5a1.5 1.5 0 0 1 1.5 1.5v3h-4.5a2.25 2.25 0 0 1-4.5 0z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Wardrobe.ts
+// src/icons/WalletPlus.ts
 import { defineComponent as defineComponent1029, h as h1029 } from "vue";
-var Wardrobe = defineComponent1029({
-  name: "Wardrobe",
+var WalletPlus = defineComponent1029({
+  name: "WalletPlus",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36007,16 +36007,16 @@ var Wardrobe = defineComponent1029({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5m12.414 2.888L13.5 6.75a1.5 1.5 0 0 1-3 0l-1.914.638A1.5 1.5 0 0 0 8 7.75l-2 2L8.25 12l.75-.75v6h6v-6l.75.75L18 9.75l-2-2a1.5 1.5 0 0 0-.586-.362" clip-rule="evenodd"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M11.634 20.25H5.25a3 3 0 0 1-3-3V6.75a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v5.637M18.375 22.5v-4.125m0 0V14.25m0 4.125H22.5m-4.125 0H14.25m-9-7.125v-3a1.5 1.5 0 0 1 1.5-1.5h10.5a1.5 1.5 0 0 1 1.5 1.5v3h-4.5a2.25 2.25 0 0 1-4.5 0z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Warehouse.ts
+// src/icons/WalletSearch.ts
 import { defineComponent as defineComponent1030, h as h1030 } from "vue";
-var Warehouse = defineComponent1030({
-  name: "Warehouse",
+var WalletSearch = defineComponent1030({
+  name: "WalletSearch",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36042,16 +36042,16 @@ var Warehouse = defineComponent1030({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6 20.25H3.75a1.5 1.5 0 0 1-1.5-1.5V9.21a1.5 1.5 0 0 1 .871-1.362l8.25-3.808a1.5 1.5 0 0 1 1.258 0l8.25 3.808a1.5 1.5 0 0 1 .871 1.362v9.54a1.5 1.5 0 0 1-1.5 1.5H18m-12 0v-4.5m0 4.5h4.5m7.5 0v-9H6v4.5m12 4.5h-3.75M6 15.75h4.5v.75m0 3.75V16.5m0 3.75h3.75M10.5 16.5h3.75v3.75m-4.5-12h4.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M11.634 20.25H5.25a3 3 0 0 1-3-3V6.75a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v5.637M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104M5.25 11.25v-3a1.5 1.5 0 0 1 1.5-1.5h10.5a1.5 1.5 0 0 1 1.5 1.5v3h-4.5a2.25 2.25 0 0 1-4.5 0z"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Warning.ts
+// src/icons/Wardrobe.ts
 import { defineComponent as defineComponent1031, h as h1031 } from "vue";
-var Warning = defineComponent1031({
-  name: "Warning",
+var Wardrobe = defineComponent1031({
+  name: "Wardrobe",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36077,16 +36077,16 @@ var Warning = defineComponent1031({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 16.5v.75m0-3.75V9m-1.322-5.053-8.019 14.84A1.5 1.5 0 0 0 3.98 21h16.01a1.5 1.5 0 0 0 1.32-2.211l-7.99-14.84c-.567-1.051-2.074-1.053-2.641-.002"/>`
+        innerHTML: `<path d="M3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5m12.414 2.888L13.5 6.75a1.5 1.5 0 0 1-3 0l-1.914.638A1.5 1.5 0 0 0 8 7.75l-2 2L8.25 12l.75-.75v6h6v-6l.75.75L18 9.75l-2-2a1.5 1.5 0 0 0-.586-.362" clip-rule="evenodd"/>`
       }, children);
     };
   }
 });
 
-// src/icons/WashingMachine.ts
+// src/icons/Warehouse.ts
 import { defineComponent as defineComponent1032, h as h1032 } from "vue";
-var WashingMachine = defineComponent1032({
-  name: "WashingMachine",
+var Warehouse = defineComponent1032({
+  name: "Warehouse",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36112,16 +36112,16 @@ var WashingMachine = defineComponent1032({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6 6h.75m0 6.75a5.25 5.25 0 0 0 10.447.75M6.75 12.75q0-.383.053-.75a5.251 5.251 0 0 1 10.394 1.5M6.75 12.75s2.25-1.5 4.5-1.5c0 0 0 4.5 5.947 2.25M3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5"/>`
+        innerHTML: `<path d="M6 20.25H3.75a1.5 1.5 0 0 1-1.5-1.5V9.21a1.5 1.5 0 0 1 .871-1.362l8.25-3.808a1.5 1.5 0 0 1 1.258 0l8.25 3.808a1.5 1.5 0 0 1 .871 1.362v9.54a1.5 1.5 0 0 1-1.5 1.5H18m-12 0v-4.5m0 4.5h4.5m7.5 0v-9H6v4.5m12 4.5h-3.75M6 15.75h4.5v.75m0 3.75V16.5m0 3.75h3.75M10.5 16.5h3.75v3.75m-4.5-12h4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Watch.ts
+// src/icons/Warning.ts
 import { defineComponent as defineComponent1033, h as h1033 } from "vue";
-var Watch = defineComponent1033({
-  name: "Watch",
+var Warning = defineComponent1033({
+  name: "Warning",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36147,16 +36147,16 @@ var Watch = defineComponent1033({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M17.25 7.757A6.72 6.72 0 0 1 18.75 12a6.72 6.72 0 0 1-1.5 4.243m0-8.486A6.74 6.74 0 0 0 12 5.25c-2.12 0-4.013.978-5.25 2.507m10.5 0V3.75a1.5 1.5 0 0 0-1.5-1.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v4.007m0 0A6.72 6.72 0 0 0 5.25 12c0 1.608.562 3.084 1.5 4.243m0 0A6.74 6.74 0 0 0 12 18.75c2.12 0 4.012-.978 5.25-2.507m-10.5 0v4.007a1.5 1.5 0 0 0 1.5 1.5h7.5a1.5 1.5 0 0 0 1.5-1.5v-4.007m-7.5-4.993 2.25 1.5 3-2.25"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 16.5v.75m0-3.75V9m-1.322-5.053-8.019 14.84A1.5 1.5 0 0 0 3.98 21h16.01a1.5 1.5 0 0 0 1.32-2.211l-7.99-14.84c-.567-1.051-2.074-1.053-2.641-.002"/>`
       }, children);
     };
   }
 });
 
-// src/icons/WaterDrop.ts
+// src/icons/WashingMachine.ts
 import { defineComponent as defineComponent1034, h as h1034 } from "vue";
-var WaterDrop = defineComponent1034({
-  name: "WaterDrop",
+var WashingMachine = defineComponent1034({
+  name: "WashingMachine",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36182,16 +36182,16 @@ var WaterDrop = defineComponent1034({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M17.602 7.46 12 2.25 6.398 7.46C.914 12.56 4.517 21.75 12 21.75s11.086-9.19 5.602-14.29"/>`
+        innerHTML: `<path d="M6 6h.75m0 6.75a5.25 5.25 0 0 0 10.447.75M6.75 12.75q0-.383.053-.75a5.251 5.251 0 0 1 10.394 1.5M6.75 12.75s2.25-1.5 4.5-1.5c0 0 0 4.5 5.947 2.25M3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3h-15A1.5 1.5 0 0 0 3 4.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/WateringCan.ts
+// src/icons/Watch.ts
 import { defineComponent as defineComponent1035, h as h1035 } from "vue";
-var WateringCan = defineComponent1035({
-  name: "WateringCan",
+var Watch = defineComponent1035({
+  name: "Watch",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36217,16 +36217,16 @@ var WateringCan = defineComponent1035({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M9 8.25h-.75a1.5 1.5 0 0 0-1.5 1.5v1.5l-4.5-1.5v3l4.5 3v3a1.5 1.5 0 0 0 1.5 1.5h8.25a1.5 1.5 0 0 0 1.5-1.5v-1.5m-9-9c1.457-6.594 12.71-5.847 12.75 1.5.035 6.563-3.75 7.5-3.75 7.5m-9-9a5.175 5.175 0 0 0 6.53.647l.97-.647a1.5 1.5 0 0 1 1.5 1.5v7.5"/>`
+        innerHTML: `<path d="M17.25 7.757A6.72 6.72 0 0 1 18.75 12a6.72 6.72 0 0 1-1.5 4.243m0-8.486A6.74 6.74 0 0 0 12 5.25c-2.12 0-4.013.978-5.25 2.507m10.5 0V3.75a1.5 1.5 0 0 0-1.5-1.5h-7.5a1.5 1.5 0 0 0-1.5 1.5v4.007m0 0A6.72 6.72 0 0 0 5.25 12c0 1.608.562 3.084 1.5 4.243m0 0A6.74 6.74 0 0 0 12 18.75c2.12 0 4.012-.978 5.25-2.507m-10.5 0v4.007a1.5 1.5 0 0 0 1.5 1.5h7.5a1.5 1.5 0 0 0 1.5-1.5v-4.007m-7.5-4.993 2.25 1.5 3-2.25"/>`
       }, children);
     };
   }
 });
 
-// src/icons/WaveCosine.ts
+// src/icons/WaterDrop.ts
 import { defineComponent as defineComponent1036, h as h1036 } from "vue";
-var WaveCosine = defineComponent1036({
-  name: "WaveCosine",
+var WaterDrop = defineComponent1036({
+  name: "WaterDrop",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36252,16 +36252,16 @@ var WaveCosine = defineComponent1036({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.635 4.5c-4.385 0-2.885 15-7.385 15s-1.5-15-6-15-1.5 15-6 15"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M17.602 7.46 12 2.25 6.398 7.46C.914 12.56 4.517 21.75 12 21.75s11.086-9.19 5.602-14.29"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Waypoint.ts
+// src/icons/WateringCan.ts
 import { defineComponent as defineComponent1037, h as h1037 } from "vue";
-var Waypoint = defineComponent1037({
-  name: "Waypoint",
+var WateringCan = defineComponent1037({
+  name: "WateringCan",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36287,16 +36287,16 @@ var Waypoint = defineComponent1037({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="m9 9.75-5.25 1.5v9L9 18.75m0-9v9m0-9 1.235.309M9 18.75l6 1.5m0-9 5.25-1.5v9L15 20.25m0-9v9m0-9-1.889-.472m0 0L14.455 9.3c1.937-2.132.425-5.55-2.455-5.55S7.608 7.168 9.545 9.3l.69.759m2.876.719L12 12l-1.765-1.941"/>`
+        innerHTML: `<path d="M9 8.25h-.75a1.5 1.5 0 0 0-1.5 1.5v1.5l-4.5-1.5v3l4.5 3v3a1.5 1.5 0 0 0 1.5 1.5h8.25a1.5 1.5 0 0 0 1.5-1.5v-1.5m-9-9c1.457-6.594 12.71-5.847 12.75 1.5.035 6.563-3.75 7.5-3.75 7.5m-9-9a5.175 5.175 0 0 0 6.53.647l.97-.647a1.5 1.5 0 0 1 1.5 1.5v7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Wheelchair.ts
+// src/icons/WaveCosine.ts
 import { defineComponent as defineComponent1038, h as h1038 } from "vue";
-var Wheelchair = defineComponent1038({
-  name: "Wheelchair",
+var WaveCosine = defineComponent1038({
+  name: "WaveCosine",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36322,16 +36322,16 @@ var Wheelchair = defineComponent1038({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M6 9.566a6 6 0 1 0 9.561 3.184M6 9.566a6.003 6.003 0 0 1 9.561 3.184M6 9.566V5.25a1.5 1.5 0 0 0-1.5-1.5H2.25m13.311 9h3.189a1.5 1.5 0 0 1 1.5 1.5v3m0 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3m-9.75-3a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
+        innerHTML: `<path d="M21.635 4.5c-4.385 0-2.885 15-7.385 15s-1.5-15-6-15-1.5 15-6 15"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Wifi.ts
+// src/icons/Waypoint.ts
 import { defineComponent as defineComponent1039, h as h1039 } from "vue";
-var Wifi = defineComponent1039({
-  name: "Wifi",
+var Waypoint = defineComponent1039({
+  name: "Waypoint",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36357,16 +36357,16 @@ var Wifi = defineComponent1039({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M22.076 8.674A14.2 14.2 0 0 0 12 4.5 14.2 14.2 0 0 0 1.924 8.674m6.364 6.364A5.23 5.23 0 0 1 12 13.5c1.45 0 2.762.588 3.712 1.538M5.106 11.856A9.72 9.72 0 0 1 12 9a9.72 9.72 0 0 1 6.894 2.856M12.75 18.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="m9 9.75-5.25 1.5v9L9 18.75m0-9v9m0-9 1.235.309M9 18.75l6 1.5m0-9 5.25-1.5v9L15 20.25m0-9v9m0-9-1.889-.472m0 0L14.455 9.3c1.937-2.132.425-5.55-2.455-5.55S7.608 7.168 9.545 9.3l.69.759m2.876.719L12 12l-1.765-1.941"/>`
       }, children);
     };
   }
 });
 
-// src/icons/WifiCross.ts
+// src/icons/Wheelchair.ts
 import { defineComponent as defineComponent1040, h as h1040 } from "vue";
-var WifiCross = defineComponent1040({
-  name: "WifiCross",
+var Wheelchair = defineComponent1040({
+  name: "Wheelchair",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36392,16 +36392,16 @@ var WifiCross = defineComponent1040({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M22.076 8.674A14.2 14.2 0 0 0 12 4.5 14.2 14.2 0 0 0 1.924 8.674m6.364 6.364a5.23 5.23 0 0 1 4.613-1.461m-7.795-1.721A9.72 9.72 0 0 1 12 9a9.7 9.7 0 0 1 6.235 2.254m-6.895 7.853a.75.75 0 0 1-.067-.543M15.75 22.5l3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
+        innerHTML: `<path d="M6 9.566a6 6 0 1 0 9.561 3.184M6 9.566a6.003 6.003 0 0 1 9.561 3.184M6 9.566V5.25a1.5 1.5 0 0 0-1.5-1.5H2.25m13.311 9h3.189a1.5 1.5 0 0 1 1.5 1.5v3m0 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3m-9.75-3a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/WifiLock.ts
+// src/icons/Wifi.ts
 import { defineComponent as defineComponent1041, h as h1041 } from "vue";
-var WifiLock = defineComponent1041({
-  name: "WifiLock",
+var Wifi = defineComponent1041({
+  name: "Wifi",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36427,16 +36427,16 @@ var WifiLock = defineComponent1041({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M22.076 8.674A14.2 14.2 0 0 0 12 4.5 14.2 14.2 0 0 0 1.924 8.674m6.364 6.364a5.23 5.23 0 0 1 4.613-1.461m-7.795-1.721A9.72 9.72 0 0 1 12 9a9.7 9.7 0 0 1 6.235 2.254m-6.895 7.853a.75.75 0 0 1-.067-.543M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M22.076 8.674A14.2 14.2 0 0 0 12 4.5 14.2 14.2 0 0 0 1.924 8.674m6.364 6.364A5.23 5.23 0 0 1 12 13.5c1.45 0 2.762.588 3.712 1.538M5.106 11.856A9.72 9.72 0 0 1 12 9a9.72 9.72 0 0 1 6.894 2.856M12.75 18.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/WifiLow.ts
+// src/icons/WifiCross.ts
 import { defineComponent as defineComponent1042, h as h1042 } from "vue";
-var WifiLow = defineComponent1042({
-  name: "WifiLow",
+var WifiCross = defineComponent1042({
+  name: "WifiCross",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36462,16 +36462,16 @@ var WifiLow = defineComponent1042({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M8.288 15.038A5.23 5.23 0 0 1 12 13.5c1.45 0 2.762.588 3.712 1.538M12.75 18.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M22.076 8.674A14.2 14.2 0 0 0 12 4.5 14.2 14.2 0 0 0 1.924 8.674m6.364 6.364a5.23 5.23 0 0 1 4.613-1.461m-7.795-1.721A9.72 9.72 0 0 1 12 9a9.7 9.7 0 0 1 6.235 2.254m-6.895 7.853a.75.75 0 0 1-.067-.543M15.75 22.5l3.375-3.375m0 0L22.5 15.75m-3.375 3.375L22.5 22.5m-3.375-3.375L15.75 15.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/WifiMedium.ts
+// src/icons/WifiLock.ts
 import { defineComponent as defineComponent1043, h as h1043 } from "vue";
-var WifiMedium = defineComponent1043({
-  name: "WifiMedium",
+var WifiLock = defineComponent1043({
+  name: "WifiLock",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36497,16 +36497,16 @@ var WifiMedium = defineComponent1043({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M8.288 15.038A5.23 5.23 0 0 1 12 13.5c1.45 0 2.762.588 3.712 1.538M5.106 11.856A9.72 9.72 0 0 1 12 9a9.72 9.72 0 0 1 6.894 2.856M12.75 18.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M22.076 8.674A14.2 14.2 0 0 0 12 4.5 14.2 14.2 0 0 0 1.924 8.674m6.364 6.364a5.23 5.23 0 0 1 4.613-1.461m-7.795-1.721A9.72 9.72 0 0 1 12 9a9.7 9.7 0 0 1 6.235 2.254m-6.895 7.853a.75.75 0 0 1-.067-.543M16.5 18v-1.125a2.625 2.625 0 0 1 5.25 0V18m-5.25 0h5.25m-5.25 0a.75.75 0 0 0-.75.75V21a1.5 1.5 0 0 0 1.5 1.5H21a1.5 1.5 0 0 0 1.5-1.5v-2.25a.75.75 0 0 0-.75-.75"/>`
       }, children);
     };
   }
 });
 
-// src/icons/WifiOff.ts
+// src/icons/WifiLow.ts
 import { defineComponent as defineComponent1044, h as h1044 } from "vue";
-var WifiOff = defineComponent1044({
-  name: "WifiOff",
+var WifiLow = defineComponent1044({
+  name: "WifiLow",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36532,16 +36532,16 @@ var WifiOff = defineComponent1044({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M22.076 8.674A14.2 14.2 0 0 0 12 4.5q-1.406.002-2.737.263m-7.34 3.91a14.3 14.3 0 0 1 3.955-2.795m2.41 9.16A5.23 5.23 0 0 1 12 13.5c.642 0 1.258.115 1.826.326m-8.72-1.97A9.74 9.74 0 0 1 9.36 9.36m9.533 2.495a9.73 9.73 0 0 0-5.257-2.72M2.25 2.25l3.628 3.628M21.75 21.75l-7.924-7.924M5.878 5.878l3.483 3.483m0 0 4.465 4.465M12.75 18.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M8.288 15.038A5.23 5.23 0 0 1 12 13.5c1.45 0 2.762.588 3.712 1.538M12.75 18.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/WifiSearch.ts
+// src/icons/WifiMedium.ts
 import { defineComponent as defineComponent1045, h as h1045 } from "vue";
-var WifiSearch = defineComponent1045({
-  name: "WifiSearch",
+var WifiMedium = defineComponent1045({
+  name: "WifiMedium",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36567,16 +36567,16 @@ var WifiSearch = defineComponent1045({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M22.076 8.674A14.2 14.2 0 0 0 12 4.5 14.2 14.2 0 0 0 1.924 8.674m6.364 6.364a5.23 5.23 0 0 1 4.613-1.461m-7.795-1.721A9.72 9.72 0 0 1 12 9a9.7 9.7 0 0 1 6.235 2.254m-6.895 7.853a.75.75 0 0 1-.067-.543M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M8.288 15.038A5.23 5.23 0 0 1 12 13.5c1.45 0 2.762.588 3.712 1.538M5.106 11.856A9.72 9.72 0 0 1 12 9a9.72 9.72 0 0 1 6.894 2.856M12.75 18.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/WifiZero.ts
+// src/icons/WifiOff.ts
 import { defineComponent as defineComponent1046, h as h1046 } from "vue";
-var WifiZero = defineComponent1046({
-  name: "WifiZero",
+var WifiOff = defineComponent1046({
+  name: "WifiOff",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36602,16 +36602,16 @@ var WifiZero = defineComponent1046({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M12 18a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M22.076 8.674A14.2 14.2 0 0 0 12 4.5q-1.406.002-2.737.263m-7.34 3.91a14.3 14.3 0 0 1 3.955-2.795m2.41 9.16A5.23 5.23 0 0 1 12 13.5c.642 0 1.258.115 1.826.326m-8.72-1.97A9.74 9.74 0 0 1 9.36 9.36m9.533 2.495a9.73 9.73 0 0 0-5.257-2.72M2.25 2.25l3.628 3.628M21.75 21.75l-7.924-7.924M5.878 5.878l3.483 3.483m0 0 4.465 4.465M12.75 18.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Wind.ts
+// src/icons/WifiSearch.ts
 import { defineComponent as defineComponent1047, h as h1047 } from "vue";
-var Wind = defineComponent1047({
-  name: "Wind",
+var WifiSearch = defineComponent1047({
+  name: "WifiSearch",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36637,16 +36637,16 @@ var Wind = defineComponent1047({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M2.25 14.25h15a4.5 4.5 0 1 0 0-9m-15 6h7.5a4.5 4.5 0 1 0-3.182-7.682M2.25 17.25H12a2.25 2.25 0 1 1-1.591 3.841"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M22.076 8.674A14.2 14.2 0 0 0 12 4.5 14.2 14.2 0 0 0 1.924 8.674m6.364 6.364a5.23 5.23 0 0 1 4.613-1.461m-7.795-1.721A9.72 9.72 0 0 1 12 9a9.7 9.7 0 0 1 6.235 2.254m-6.895 7.853a.75.75 0 0 1-.067-.543M22.5 22.5l-2.088-2.088m0 0a3.61 3.61 0 1 0-5.104-5.104 3.61 3.61 0 0 0 5.104 5.104"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Window.ts
+// src/icons/WifiZero.ts
 import { defineComponent as defineComponent1048, h as h1048 } from "vue";
-var Window = defineComponent1048({
-  name: "Window",
+var WifiZero = defineComponent1048({
+  name: "WifiZero",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36672,16 +36672,16 @@ var Window = defineComponent1048({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M19.5 18H12m7.5 0v-7.5m0 7.5a1.5 1.5 0 0 1 1.5 1.5v.75a1.5 1.5 0 0 1-1.5 1.5h-15a1.5 1.5 0 0 1-1.5-1.5v-.75A1.5 1.5 0 0 1 4.5 18m7.5 0H4.5m7.5 0v-7.5M4.5 18v-7.5M12 2.25v8.25m0-8.25a7.5 7.5 0 0 1 7.5 7.5v.75M12 2.25a7.5 7.5 0 0 0-7.5 7.5v.75m7.5 0H4.5m7.5 0h7.5"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M12 18a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/WindowCurtains.ts
+// src/icons/Wind.ts
 import { defineComponent as defineComponent1049, h as h1049 } from "vue";
-var WindowCurtains = defineComponent1049({
-  name: "WindowCurtains",
+var Wind = defineComponent1049({
+  name: "Wind",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36707,16 +36707,16 @@ var WindowCurtains = defineComponent1049({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M4.5 18A1.5 1.5 0 0 0 3 19.5v.75a1.5 1.5 0 0 0 1.5 1.5h15a1.5 1.5 0 0 0 1.5-1.5v-.75a1.5 1.5 0 0 0-1.5-1.5m-15 0v-5.25m0 5.25h3.75m11.25 0h-3.75m3.75 0v-5.25M12 2.25a7.5 7.5 0 0 1 7.5 7.5v3M12 2.25a7.5 7.5 0 0 0-7.5 7.5v3M12 2.25l-.354 1.945A11.3 11.3 0 0 1 4.5 12.75M12 2.25l.354 1.945A11.3 11.3 0 0 0 19.5 12.75m-15 0 .526.395A8.7 8.7 0 0 1 8.25 18m0 0h7.5m0 0a8.7 8.7 0 0 1 3.224-4.855l.526-.395"/>`
+        innerHTML: `<path d="M2.25 14.25h15a4.5 4.5 0 1 0 0-9m-15 6h7.5a4.5 4.5 0 1 0-3.182-7.682M2.25 17.25H12a2.25 2.25 0 1 1-1.591 3.841"/>`
       }, children);
     };
   }
 });
 
-// src/icons/WindowsLogo.ts
+// src/icons/Window.ts
 import { defineComponent as defineComponent1050, h as h1050 } from "vue";
-var WindowsLogo = defineComponent1050({
-  name: "WindowsLogo",
+var Window = defineComponent1050({
+  name: "Window",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36742,16 +36742,16 @@ var WindowsLogo = defineComponent1050({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M3 12V18a1.5 1.5 0 0 0 1.345 1.492l6.905.717M3 12V5.999a1.5 1.5 0 0 1 1.345-1.492l6.905-.717M3 12h8.25M21 12V4.44a1.5 1.5 0 0 0-1.655-1.492l-8.095.84M21 12v7.56a1.5 1.5 0 0 1-1.655 1.492l-8.095-.84M21 12h-9.75m0 0V3.79m0 8.21v8.21"/>`
+        innerHTML: `<path d="M19.5 18H12m7.5 0v-7.5m0 7.5a1.5 1.5 0 0 1 1.5 1.5v.75a1.5 1.5 0 0 1-1.5 1.5h-15a1.5 1.5 0 0 1-1.5-1.5v-.75A1.5 1.5 0 0 1 4.5 18m7.5 0H4.5m7.5 0v-7.5M4.5 18v-7.5M12 2.25v8.25m0-8.25a7.5 7.5 0 0 1 7.5 7.5v.75M12 2.25a7.5 7.5 0 0 0-7.5 7.5v.75m7.5 0H4.5m7.5 0h7.5"/>`
       }, children);
     };
   }
 });
 
-// src/icons/WorldSpace.ts
+// src/icons/WindowCurtains.ts
 import { defineComponent as defineComponent1051, h as h1051 } from "vue";
-var WorldSpace = defineComponent1051({
-  name: "WorldSpace",
+var WindowCurtains = defineComponent1051({
+  name: "WindowCurtains",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36777,16 +36777,16 @@ var WorldSpace = defineComponent1051({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.75 20.25 21.423 18m.327 2.25-2.25.376m2.25-.376-4.091-3.068M2.25 20.25 2.577 18m-.327 2.25 2.25.376m-2.25-.376 4.091-3.068M12 2.25l1.5 1.5M12 2.25l-1.5 1.5m1.5-1.5v4.5m5.659 10.432A6.75 6.75 0 0 0 12 6.75m5.659 10.43A6.74 6.74 0 0 1 12 20.25a6.74 6.74 0 0 1-5.659-3.068m11.318 0-.955-.716M12 6.75a6.75 6.75 0 0 0-5.659 10.432M12 6.75v1.875m-5.659 8.557.955-.716"/>`
+        innerHTML: `<path d="M4.5 18A1.5 1.5 0 0 0 3 19.5v.75a1.5 1.5 0 0 0 1.5 1.5h15a1.5 1.5 0 0 0 1.5-1.5v-.75a1.5 1.5 0 0 0-1.5-1.5m-15 0v-5.25m0 5.25h3.75m11.25 0h-3.75m3.75 0v-5.25M12 2.25a7.5 7.5 0 0 1 7.5 7.5v3M12 2.25a7.5 7.5 0 0 0-7.5 7.5v3M12 2.25l-.354 1.945A11.3 11.3 0 0 1 4.5 12.75M12 2.25l.354 1.945A11.3 11.3 0 0 0 19.5 12.75m-15 0 .526.395A8.7 8.7 0 0 1 8.25 18m0 0h7.5m0 0a8.7 8.7 0 0 1 3.224-4.855l.526-.395"/>`
       }, children);
     };
   }
 });
 
-// src/icons/Wrench.ts
+// src/icons/WindowsLogo.ts
 import { defineComponent as defineComponent1052, h as h1052 } from "vue";
-var Wrench = defineComponent1052({
-  name: "Wrench",
+var WindowsLogo = defineComponent1052({
+  name: "WindowsLogo",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36812,16 +36812,16 @@ var Wrench = defineComponent1052({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M8.03 5.03 6 3s3-1.5 5.25.75S12 9 12 9l9.129 9.128a2.121 2.121 0 0 1-3 3L9 12s-3 1.5-5.25-.75S3 6 3 6l2.03 2.03c.141.14.332.22.53.22H7.5a.75.75 0 0 0 .75-.75V5.56a.75.75 0 0 0-.22-.53"/>`
+        innerHTML: `<path stroke-miterlimit="1.788" d="M3 12V18a1.5 1.5 0 0 0 1.345 1.492l6.905.717M3 12V5.999a1.5 1.5 0 0 1 1.345-1.492l6.905-.717M3 12h8.25M21 12V4.44a1.5 1.5 0 0 0-1.655-1.492l-8.095.84M21 12v7.56a1.5 1.5 0 0 1-1.655 1.492l-8.095-.84M21 12h-9.75m0 0V3.79m0 8.21v8.21"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ZoomCamera.ts
+// src/icons/WorldSpace.ts
 import { defineComponent as defineComponent1053, h as h1053 } from "vue";
-var ZoomCamera = defineComponent1053({
-  name: "ZoomCamera",
+var WorldSpace = defineComponent1053({
+  name: "WorldSpace",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36847,16 +36847,16 @@ var ZoomCamera = defineComponent1053({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path d="M21.75 3H18m3.75 0v3.75m0-3.75-3 3M2.25 3v3.75m0-3.75 3 3m-3-3H6m15.75 18H18m3.75 0v-3.75m0 3.75-3-3m-16.5 3v-3.75m0 3.75 3-3m-3 3H6M16.5 9.75v-1.5h-2.25M7.5 9.75v-1.5h2.25M7.5 13.5V15h2.25m6.75-1.5V15h-2.25"/>`
+        innerHTML: `<path d="M21.75 20.25 21.423 18m.327 2.25-2.25.376m2.25-.376-4.091-3.068M2.25 20.25 2.577 18m-.327 2.25 2.25.376m-2.25-.376 4.091-3.068M12 2.25l1.5 1.5M12 2.25l-1.5 1.5m1.5-1.5v4.5m5.659 10.432A6.75 6.75 0 0 0 12 6.75m5.659 10.43A6.74 6.74 0 0 1 12 20.25a6.74 6.74 0 0 1-5.659-3.068m11.318 0-.955-.716M12 6.75a6.75 6.75 0 0 0-5.659 10.432M12 6.75v1.875m-5.659 8.557.955-.716"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ZoomIn.ts
+// src/icons/Wrench.ts
 import { defineComponent as defineComponent1054, h as h1054 } from "vue";
-var ZoomIn = defineComponent1054({
-  name: "ZoomIn",
+var Wrench = defineComponent1054({
+  name: "Wrench",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36882,16 +36882,16 @@ var ZoomIn = defineComponent1054({
         class: props.class,
         role: "img",
         "aria-label": props.ariaLabel,
-        innerHTML: `<path stroke-miterlimit="1.788" d="M8.197 15.803A7.5 7.5 0 1 0 18.804 5.196 7.5 7.5 0 0 0 8.196 15.804m0 0L3 21M13.5 6.75v3.75m0 0v3.75m0-3.75h3.75m-3.75 0H9.75"/>`
+        innerHTML: `<path d="M8.03 5.03 6 3s3-1.5 5.25.75S12 9 12 9l9.129 9.128a2.121 2.121 0 0 1-3 3L9 12s-3 1.5-5.25-.75S3 6 3 6l2.03 2.03c.141.14.332.22.53.22H7.5a.75.75 0 0 0 .75-.75V5.56a.75.75 0 0 0-.22-.53"/>`
       }, children);
     };
   }
 });
 
-// src/icons/ZoomOut.ts
+// src/icons/ZoomCamera.ts
 import { defineComponent as defineComponent1055, h as h1055 } from "vue";
-var ZoomOut = defineComponent1055({
-  name: "ZoomOut",
+var ZoomCamera = defineComponent1055({
+  name: "ZoomCamera",
   props: {
     size: { type: Number, default: 24 },
     color: { type: String, default: "currentColor" },
@@ -36904,6 +36904,76 @@ var ZoomOut = defineComponent1055({
     return () => {
       const children = props.title ? [h1055("title", {}, props.title)] : [];
       return h1055("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 24 24",
+        fill: "none",
+        stroke: props.color,
+        "stroke-width": props.strokeWidth,
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "vector-effect": "non-scaling-stroke",
+        width: props.size,
+        height: props.size,
+        class: props.class,
+        role: "img",
+        "aria-label": props.ariaLabel,
+        innerHTML: `<path d="M21.75 3H18m3.75 0v3.75m0-3.75-3 3M2.25 3v3.75m0-3.75 3 3m-3-3H6m15.75 18H18m3.75 0v-3.75m0 3.75-3-3m-16.5 3v-3.75m0 3.75 3-3m-3 3H6M16.5 9.75v-1.5h-2.25M7.5 9.75v-1.5h2.25M7.5 13.5V15h2.25m6.75-1.5V15h-2.25"/>`
+      }, children);
+    };
+  }
+});
+
+// src/icons/ZoomIn.ts
+import { defineComponent as defineComponent1056, h as h1056 } from "vue";
+var ZoomIn = defineComponent1056({
+  name: "ZoomIn",
+  props: {
+    size: { type: Number, default: 24 },
+    color: { type: String, default: "currentColor" },
+    strokeWidth: { type: Number, default: 1.5 },
+    class: { type: String, default: void 0 },
+    title: { type: String, default: void 0 },
+    ariaLabel: { type: String, default: void 0 }
+  },
+  setup(props) {
+    return () => {
+      const children = props.title ? [h1056("title", {}, props.title)] : [];
+      return h1056("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 24 24",
+        fill: "none",
+        stroke: props.color,
+        "stroke-width": props.strokeWidth,
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "vector-effect": "non-scaling-stroke",
+        width: props.size,
+        height: props.size,
+        class: props.class,
+        role: "img",
+        "aria-label": props.ariaLabel,
+        innerHTML: `<path stroke-miterlimit="1.788" d="M8.197 15.803A7.5 7.5 0 1 0 18.804 5.196 7.5 7.5 0 0 0 8.196 15.804m0 0L3 21M13.5 6.75v3.75m0 0v3.75m0-3.75h3.75m-3.75 0H9.75"/>`
+      }, children);
+    };
+  }
+});
+
+// src/icons/ZoomOut.ts
+import { defineComponent as defineComponent1057, h as h1057 } from "vue";
+var ZoomOut = defineComponent1057({
+  name: "ZoomOut",
+  props: {
+    size: { type: Number, default: 24 },
+    color: { type: String, default: "currentColor" },
+    strokeWidth: { type: Number, default: 1.5 },
+    class: { type: String, default: void 0 },
+    title: { type: String, default: void 0 },
+    ariaLabel: { type: String, default: void 0 }
+  },
+  setup(props) {
+    return () => {
+      const children = props.title ? [h1057("title", {}, props.title)] : [];
+      return h1057("svg", {
         xmlns: "http://www.w3.org/2000/svg",
         viewBox: "0 0 24 24",
         fill: "none",
@@ -37191,6 +37261,7 @@ export {
   Crop,
   Cross,
   Crown,
+  Crown2,
   Crutch,
   Cup,
   CursorClick,
@@ -37935,6 +38006,7 @@ export {
   Vacuum,
   Video,
   VideoOff,
+  VideoOff2,
   Viewport,
   Virus,
   Volume,

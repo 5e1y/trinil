@@ -1,6 +1,6 @@
 # trinil-web - Available Icons
 
-> **1055 icons** available as Web Components
+> **1057 icons** available as Web Components
 > 
 > Last updated: 2026-01-03
 
@@ -289,6 +289,7 @@
 | `Crop` | `<trinil-crop>` | `CropElement` | `registerCrop` |
 | `Cross` | `<trinil-cross>` | `CrossElement` | `registerCross` |
 | `Crown` | `<trinil-crown>` | `CrownElement` | `registerCrown` |
+| `Crown2` | `<trinil-crown2>` | `Crown2Element` | `registerCrown2` |
 | `Crutch` | `<trinil-crutch>` | `CrutchElement` | `registerCrutch` |
 | `Cup` | `<trinil-cup>` | `CupElement` | `registerCup` |
 | `CursorClick` | `<trinil-cursor-click>` | `CursorClickElement` | `registerCursorClick` |
@@ -1033,6 +1034,7 @@
 | `Vacuum` | `<trinil-vacuum>` | `VacuumElement` | `registerVacuum` |
 | `Video` | `<trinil-video>` | `VideoElement` | `registerVideo` |
 | `VideoOff` | `<trinil-video-off>` | `VideoOffElement` | `registerVideoOff` |
+| `VideoOff2` | `<trinil-video-off2>` | `VideoOff2Element` | `registerVideoOff2` |
 | `Viewport` | `<trinil-viewport>` | `ViewportElement` | `registerViewport` |
 | `Virus` | `<trinil-virus>` | `VirusElement` | `registerVirus` |
 | `Volume` | `<trinil-volume>` | `VolumeElement` | `registerVolume` |
